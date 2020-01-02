@@ -12,15 +12,6 @@
     
     
     <item>
-      <title>Paper: A Taxonomy of Ethical Tensions in Inferring Mental Health States from Social Media (part 1/2)</title>
-      <link>/papers/ethical_tensions_social_media_chancellor_1.html</link>
-      <pubDate>Sun, 24 Nov 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/papers/ethical_tensions_social_media_chancellor_1.html</guid>
-      <description>&lt;p&gt;Summary of the FAT* 2019 paper by Stevie Chancellor, Michael Birnbaum, Eric Caine, Vince Silenzio, Munmun De Choudhury. View it on &lt;a href=&#34;http://steviechancellor.com/wp-content/uploads/2019/03/taxonomy-prediction-mh-fat2019.pdf&#34;&gt;Chancellor&#39;s website&lt;/a&gt;.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
       <title>On the digital ad industry</title>
       <link>/posts/digital_advertising.html</link>
       <pubDate>Thu, 21 Nov 2019 00:00:00 +0000</pubDate>
@@ -108,6 +99,15 @@
       
       <guid>/spark/spark_overview.html</guid>
       <description>&lt;p&gt;I was fortunate enough to attend &lt;a href=&#34;https://databricks.com/sparkaisummit/north-america&#34;&gt;Spark + AI Summit&lt;/a&gt; in San Francisco in April 2019. This page contains links to all my notes from the talks I listened to.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How I built my (old) website</title>
+      <link>/posts/about_website.html</link>
+      <pubDate>Mon, 29 Apr 2019 00:00:00 -0500</pubDate>
+      
+      <guid>/posts/about_website.html</guid>
+      <description>&lt;p&gt;You may have noticed that the &lt;a href=&#34;https://github.com/tuchandra/sitev1&#34;&gt;Github repo&lt;/a&gt; for this website has a tagline &amp;ldquo;&amp;hellip; for people who &lt;em&gt;aren&#39;t&lt;/em&gt; web developers.&amp;rdquo; I am a data scientist and certainly fit that description, and so I&#39;m going to talk about how I built this site using the tools I already know.&lt;/p&gt;</description>
     </item>
     
     <item>

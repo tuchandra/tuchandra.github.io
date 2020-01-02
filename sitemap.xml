@@ -3,40 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/posts.html</loc>
-    <lastmod>2020-01-02T00:00:00-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories.html</loc>
-    <lastmod>2020-01-02T00:00:00-06:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/general.html</loc>
-    <lastmod>2020-01-02T00:00:00-06:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/posts/migrating_to_hugo.html</loc>
-    <lastmod>2020-01-02T00:00:00-06:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2020-01-02T00:00:00-06:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>/categories/about.html</loc>
     <lastmod>2019-12-31T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -51,7 +17,21 @@
   </url>
   
   <url>
+    <loc>/categories.html</loc>
+    <lastmod>2019-12-31T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>/resume/</loc>
+    <lastmod>2019-12-31T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/</loc>
     <lastmod>2019-12-31T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -85,6 +65,12 @@
   </url>
   
   <url>
+    <loc>/posts.html</loc>
+    <lastmod>2019-12-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/what_i_read.html</loc>
     <lastmod>2019-12-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -92,6 +78,13 @@
   
   <url>
     <loc>/posts/talk_aguera_neurips.html</loc>
+    <lastmod>2019-12-28T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/general.html</loc>
     <lastmod>2019-12-28T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -295,6 +288,13 @@
   <url>
     <loc>/spark/spark_overview.html</loc>
     <lastmod>2019-04-30T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/posts/about_website.html</loc>
+    <lastmod>2019-04-29T00:00:00-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
