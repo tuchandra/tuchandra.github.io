@@ -11,6 +11,15 @@
     
     
     <item>
+      <title>Paper: A Taxonomy of Ethical Tensions in Inferring Mental Health States from Social Media (part 2/2)</title>
+      <link>/papers/ethical_tensions_social_media_chancellor_2.html</link>
+      <pubDate>Mon, 25 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/ethical_tensions_social_media_chancellor_2.html</guid>
+      <description>&lt;p&gt;Part 2/2 of the summary of the FAT* 2019 paper by Stevie Chancellor, Michael Birnbaum, Eric Caine, Vince Silenzio, Munmun De Choudhury. View it on &lt;a href=&#34;http://steviechancellor.com/wp-content/uploads/2019/03/taxonomy-prediction-mh-fat2019.pdf&#34;&gt;Chancellor&#39;s website&lt;/a&gt;. See part 1 of the summary &lt;a href=&#34;/papers/ethical_tensions_social_media_chancellor_1.html&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Paper: A Taxonomy of Ethical Tensions in Inferring Mental Health States from Social Media (part 1/2)</title>
       <link>/papers/ethical_tensions_social_media_chancellor_1.html</link>
       <pubDate>Sun, 24 Nov 2019 00:00:00 +0000</pubDate>
@@ -180,15 +189,6 @@
       
       <guid>/spark/query_plans.html</guid>
       <description>&lt;p&gt;Speaker: Xiao Li (Databricks).&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Beyond Reason Codes: A Blueprint for Human-Centered, Low-Risk ML</title>
-      <link>/spark/interpretable_ai.html</link>
-      <pubDate>Wed, 24 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/spark/interpretable_ai.html</guid>
-      <description>&lt;p&gt;Speaker: Patrick Hall (H2O.ai).&lt;/p&gt;</description>
     </item>
     
   </channel>
