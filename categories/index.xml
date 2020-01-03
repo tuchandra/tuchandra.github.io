@@ -6,15 +6,24 @@
     <description>Recent content in Categories on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 03 Jan 2020 00:00:00 -0600</lastBuildDate>
+    <lastBuildDate>Fri, 03 Jan 2020 15:24:00 -0600</lastBuildDate>
     
         <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Paper: Competition and Crowd-out for Brand Keywords in Sponsored Search</title>
+      <link>/papers/competition_crowd_out_simonov.html</link>
+      <pubDate>Fri, 03 Jan 2020 15:24:00 -0600</pubDate>
+      
+      <guid>/papers/competition_crowd_out_simonov.html</guid>
+      <description>&lt;p&gt;Another paper on digital search advertising, this one on the effects of competition on ads placed on brand keyword searches. This was another study reacting to the eBay study on own-brand advertising. Published in the Marketing Science journal, the paper is available &lt;a href=&#34;https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2668265&#34;&gt;here&lt;/a&gt;. The authors are Andrey Simonov, Chris Nosko, and Justin Rao.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Paper: Firms&#39; Reactions to Public Information on Business Practices: Case of Search Advertising</title>
       <link>/papers/reactions_to_search_ads_rao.html</link>
-      <pubDate>Fri, 03 Jan 2020 00:00:00 -0600</pubDate>
+      <pubDate>Fri, 03 Jan 2020 14:00:00 -0600</pubDate>
       
       <guid>/papers/reactions_to_search_ads_rao.html</guid>
       <description>&lt;p&gt;This is a paper evaluating the effects of the infamous eBay online advertising experiment, in which eBay pulled millions of dollars of own-brand advertising and saw no measurable effect on web traffic. The study (using data from Bing) evaluated how other companies reacted to this news.&lt;/p&gt;</description>
@@ -180,15 +189,6 @@
       
       <guid>/papers/who_is_human_chancellor.html</guid>
       <description>&lt;p&gt;Summary of the CSCW 2019 paper by Stevie Chancellor, Eric P.S. Baumer, and Munmun De Choudhury. View it on &lt;a href=&#34;http://steviechancellor.com/wp-content/uploads/2019/09/HCML-CSCW-2019.pdf&#34;&gt;Chancellor&#39;s website&lt;/a&gt;.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Why all the paper summaries?</title>
-      <link>/posts/why_papers.html</link>
-      <pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/why_papers.html</guid>
-      <description>&lt;p&gt;I&#39;ve been writing a bunch of paper summaries over the past couple of weeks, and I hope to continue this for several months. Why, though? This post will clear that up.&lt;/p&gt;</description>
     </item>
     
   </channel>
