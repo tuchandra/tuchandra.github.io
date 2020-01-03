@@ -42,7 +42,7 @@ My old setup Previously, I had written my own static site generator using a modi
 My old setup Previously, I had written my own static site generator using a modified version of the makesite.py script. I wrote posts in Markdown and used a Python script to render them in HTML.">
 <meta itemprop="datePublished" content="2020-01-02T00:00:00-06:00" />
 <meta itemprop="dateModified" content="2020-01-02T00:00:00-06:00" />
-<meta itemprop="wordCount" content="1062">
+<meta itemprop="wordCount" content="1071">
 
 
 
@@ -260,7 +260,7 @@ My old setup Previously, I had written my own static site generator using a modi
 <p>This led to interesting problems; the main one was that the navigation on mobile disappeared. I solved it in a fairly hacky way, by adding a separate navigation that only showed up if the screen was under a certain width. But if it works, it works.</p>
 <h2 id="deployment">Deployment</h2>
 <p>Deploying the site was interesting, too. Hugo generates the site into a new directory, just like my old SSG did, but last time I committed <em>everything</em> (source and generated pages) into one repo. This meant that I had to have my homepage <code>tusharc.dev</code> redirect to the homepage of the generated site <code>tusharc.dev/site</code>, which was annoying.</p>
-<p>This time, I decided to use a Makefile to automate the whole process. Having used it for building Python docs with Sphinx, I saw the opportunity to use it here. The commands are:</p>
+<p>This time, I decided to use a Makefile to automate the whole process. Having used it for building Python docs with Sphinx, I saw the opportunity to use it here. I used <a href="https://victoria.dev/blog/a-portable-makefile-for-continuous-delivery-with-hugo-and-github-pages/">this post</a> by Victoria Drake as inspiration. The commands are:</p>
 <ul>
 <li><code>make clean</code> to remove the generated site, pretty standard</li>
 <li><code>make serve</code> to run the Hugo server, including drafts &amp; future posts</li>
