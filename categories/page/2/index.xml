@@ -6,10 +6,19 @@
     <description>Recent content in Categories on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 31 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jan 2020 00:00:00 -0600</lastBuildDate>
     
         <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Paper: A Taxonomy of Ethical Tensions in Inferring Mental Health States from Social Media (part 1/2)</title>
+      <link>/papers/ethical_tensions_social_media_chancellor_1.html</link>
+      <pubDate>Sun, 24 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/ethical_tensions_social_media_chancellor_1.html</guid>
+      <description>&lt;p&gt;Summary of the FAT* 2019 paper by Stevie Chancellor, Michael Birnbaum, Eric Caine, Vince Silenzio, Munmun De Choudhury. View it on &lt;a href=&#34;http://steviechancellor.com/wp-content/uploads/2019/03/taxonomy-prediction-mh-fat2019.pdf&#34;&gt;Chancellor&#39;s website&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>On the digital ad industry</title>
@@ -180,15 +189,6 @@
       
       <guid>/spark/interpretable_ai.html</guid>
       <description>&lt;p&gt;Speaker: Patrick Hall (H2O.ai).&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>High Performance Transfer Learning for Classifying Intent of Sales Engagement Emails: An Experimental Study</title>
-      <link>/spark/transfer_learning.html</link>
-      <pubDate>Wed, 24 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/spark/transfer_learning.html</guid>
-      <description>&lt;p&gt;Speakers: Yong Liu (Outreach) and Corey Zumar (Databricks).&lt;/p&gt;</description>
     </item>
     
   </channel>
