@@ -3,16 +3,43 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/posts.html</loc>
-    <lastmod>2020-01-02T00:00:00-06:00</lastmod>
+    <loc>/papers.html</loc>
+    <lastmod>2020-01-03T00:00:00-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/categories.html</loc>
-    <lastmod>2020-01-02T00:00:00-06:00</lastmod>
+    <lastmod>2020-01-03T00:00:00-06:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/papers/reactions_to_search_ads_rao.html</loc>
+    <lastmod>2020-01-03T00:00:00-06:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/papers.html</loc>
+    <lastmod>2020-01-03T00:00:00-06:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2020-01-03T00:00:00-06:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/posts.html</loc>
+    <lastmod>2020-01-02T00:00:00-06:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -51,13 +78,6 @@
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2020-01-02T00:00:00-06:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>/resume/</loc>
     <lastmod>2019-12-31T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -65,20 +85,7 @@
   </url>
   
   <url>
-    <loc>/papers.html</loc>
-    <lastmod>2019-12-30T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/papers/discrimination_algorithms_kleinberg_2.html</loc>
-    <lastmod>2019-12-30T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/papers.html</loc>
     <lastmod>2019-12-30T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
