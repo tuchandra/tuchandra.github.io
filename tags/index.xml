@@ -16,8 +16,7 @@
       <pubDate>Thu, 02 Jan 2020 00:00:00 -0600</pubDate>
       
       <guid>/posts/migrating_to_hugo.html</guid>
-      <description>Hello, Hugo! This post marks the first one written specifically for the new version of my site, built with Hugo. In this post, I&#39;ll outline some of the reasons for switching to Hugo and talk about the process of moving everything over.
-My old setup Previously, I had written my own static site generator using a modified version of the makesite.py script. I wrote posts in Markdown and used a Python script to render them in HTML.</description>
+      <description>&lt;p&gt;Hello, Hugo! This post marks the first one written specifically for the new version of my site, built with &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt;. In this post, I&#39;ll outline some of the reasons for switching to Hugo and talk about the process of moving everything over.&lt;/p&gt;</description>
     </item>
     
     <item>
