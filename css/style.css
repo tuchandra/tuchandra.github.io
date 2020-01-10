@@ -8990,9 +8990,9 @@ body.okayNav-loaded {
 
 @media (max-width: 480px) {
   .header #avatar {
-    width: 50px;
-    height: 50px;
-    margin-left: 1.618rem;
+    width: 24px;
+    height: 24px;
+    margin-left: 15px;
   }
 }
 
