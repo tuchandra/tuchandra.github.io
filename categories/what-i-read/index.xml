@@ -6,10 +6,19 @@
     <description>Recent content in what I read on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 04 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 11 Jan 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/categories/what-i-read/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>What I read this week (January 5 - 11)</title>
+      <link>/what_i_read/20200111.html</link>
+      <pubDate>Sat, 11 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/what_i_read/20200111.html</guid>
+      <description>&lt;p&gt;Articles I read this week, including predictions for 2020 and FiveThirtyEight&#39;s primary methodology.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Comparing my old and new sites</title>
@@ -180,15 +189,6 @@
       
       <guid>/what_i_read/20191207.html</guid>
       <description>&lt;p&gt;I am considering posting regularly about other things I&#39;m reading, particularly blog posts and articles. But these rarely warrant their own standalone post (a blog post about someone else&#39;s blog post?), so I&#39;ll write a couple paragraphs about interesting articles I find.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>I don&#39;t know if that&#39;ll work, but go ahead and try it</title>
-      <link>/posts/effective_hunches.html</link>
-      <pubDate>Fri, 06 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/effective_hunches.html</guid>
-      <description>&lt;p&gt;This post is about some memorable words from good managers.&lt;/p&gt;</description>
     </item>
     
   </channel>

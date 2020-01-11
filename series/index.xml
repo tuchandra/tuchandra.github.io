@@ -11,6 +11,15 @@
     
     
     <item>
+      <title>What I read this week (January 5 - 11)</title>
+      <link>/what_i_read/20200111.html</link>
+      <pubDate>Sat, 11 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/what_i_read/20200111.html</guid>
+      <description>&lt;p&gt;Articles I read this week, including predictions for 2020 and FiveThirtyEight&#39;s primary methodology.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Comparing my old and new sites</title>
       <link>/posts/site_comparison.html</link>
       <pubDate>Mon, 06 Jan 2020 00:00:00 -0600</pubDate>
@@ -179,15 +188,6 @@
       
       <guid>/what_i_read/20191207.html</guid>
       <description>&lt;p&gt;I am considering posting regularly about other things I&#39;m reading, particularly blog posts and articles. But these rarely warrant their own standalone post (a blog post about someone else&#39;s blog post?), so I&#39;ll write a couple paragraphs about interesting articles I find.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>I don&#39;t know if that&#39;ll work, but go ahead and try it</title>
-      <link>/posts/effective_hunches.html</link>
-      <pubDate>Fri, 06 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/effective_hunches.html</guid>
-      <description>&lt;p&gt;This post is about some memorable words from good managers.&lt;/p&gt;</description>
     </item>
     
   </channel>
