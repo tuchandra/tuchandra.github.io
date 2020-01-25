@@ -6,15 +6,24 @@
     <description>Recent content on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 11 Jan 2020 00:00:00 -0600</lastBuildDate>
+    <lastBuildDate>Sat, 11 Jan 2020 00:00:00 -0500</lastBuildDate>
     
         <atom:link href="/papers/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Spark &#43; AI Summit 2019 Notes</title>
+      <link>/spark/spark_overview.html</link>
+      <pubDate>Tue, 30 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/spark/spark_overview.html</guid>
+      <description>&lt;p&gt;I was fortunate enough to attend &lt;a href=&#34;https://databricks.com/sparkaisummit/north-america&#34;&gt;Spark + AI Summit&lt;/a&gt; in San Francisco in April 2019. This page contains links to all my notes from the talks I listened to.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>How I built my (old) website</title>
       <link>/posts/about_website.html</link>
-      <pubDate>Mon, 29 Apr 2019 00:00:00 -0500</pubDate>
+      <pubDate>Mon, 29 Apr 2019 00:00:00 -0400</pubDate>
       
       <guid>/posts/about_website.html</guid>
       <description>&lt;p&gt;You may have noticed that the &lt;a href=&#34;https://github.com/tuchandra/sitev1&#34;&gt;Github repo&lt;/a&gt; for this website has a tagline &amp;ldquo;&amp;hellip; for people who &lt;em&gt;aren&#39;t&lt;/em&gt; web developers.&amp;rdquo; I am a data scientist and certainly fit that description, and so I&#39;m going to talk about how I built this site using the tools I already know.&lt;/p&gt;

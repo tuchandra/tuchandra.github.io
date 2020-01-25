@@ -4,27 +4,34 @@
   
   <url>
     <loc>/what_i_read.html</loc>
-    <lastmod>2020-01-18T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/categories.html</loc>
-    <lastmod>2020-01-18T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-25T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/</loc>
-    <lastmod>2020-01-18T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-25T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/categories/what-i-read.html</loc>
-    <lastmod>2020-01-18T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-25T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/what_i_read/20200125.html</loc>
+    <lastmod>2020-01-25T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -38,40 +45,40 @@
   
   <url>
     <loc>/posts.html</loc>
-    <lastmod>2020-01-13T00:00:00-06:00</lastmod>
+    <lastmod>2020-01-13T00:00:00-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/categories/general.html</loc>
-    <lastmod>2020-01-13T00:00:00-06:00</lastmod>
+    <lastmod>2020-01-13T00:00:00-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/posts/software_in_dsci.html</loc>
-    <lastmod>2020-01-13T00:00:00-06:00</lastmod>
+    <lastmod>2020-01-13T00:00:00-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/papers.html</loc>
-    <lastmod>2020-01-11T00:00:00-06:00</lastmod>
+    <lastmod>2020-01-11T00:00:00-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/papers/removed_pro_ed_chancellor.html</loc>
-    <lastmod>2020-01-11T00:00:00-06:00</lastmod>
+    <lastmod>2020-01-11T00:00:00-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/categories/papers.html</loc>
-    <lastmod>2020-01-11T00:00:00-06:00</lastmod>
+    <lastmod>2020-01-11T00:00:00-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -85,7 +92,7 @@
   
   <url>
     <loc>/posts/site_comparison.html</loc>
-    <lastmod>2020-01-06T00:00:00-06:00</lastmod>
+    <lastmod>2020-01-06T00:00:00-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -99,42 +106,42 @@
   
   <url>
     <loc>/papers/competition_crowd_out_simonov.html</loc>
-    <lastmod>2020-01-03T15:24:00-06:00</lastmod>
+    <lastmod>2020-01-03T15:24:00-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/papers/reactions_to_search_ads_rao.html</loc>
-    <lastmod>2020-01-03T14:00:00-06:00</lastmod>
+    <lastmod>2020-01-03T14:00:00-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/posts/migrating_to_hugo.html</loc>
-    <lastmod>2020-01-02T00:00:00-06:00</lastmod>
+    <lastmod>2020-01-02T00:00:00-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/reading/</loc>
-    <lastmod>2020-01-02T00:00:00-06:00</lastmod>
+    <lastmod>2020-01-02T00:00:00-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/categories/self.html</loc>
-    <lastmod>2020-01-02T00:00:00-06:00</lastmod>
+    <lastmod>2020-01-02T00:00:00-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/self.html</loc>
-    <lastmod>2020-01-02T00:00:00-06:00</lastmod>
+    <lastmod>2020-01-02T00:00:00-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -364,7 +371,7 @@
   
   <url>
     <loc>/posts/about_website.html</loc>
-    <lastmod>2019-04-29T00:00:00-05:00</lastmod>
+    <lastmod>2019-04-29T00:00:00-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
