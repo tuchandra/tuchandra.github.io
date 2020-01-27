@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <title>
-        Netflix and Polynote: first thoughts - Tushar Chandra
+        Paper: Multimodal Classification of Moderated Online Pro-Eating Disorder Content - Tushar Chandra
       </title>
     <head>
   <meta charset="utf-8">
@@ -21,32 +21,32 @@
   <meta name="theme-color" content="#000000" />
   <meta http-equiv="window-target" content="_top" />
   
-  <meta name="description" content="Netflix announced yesterday that they are open-sourcing Polynote, a new notebook with features like Spark integration, as-you-type autocomplete, and more. At a glance, it seems to address almost every common complaint with notebooks. How much of that is too good to be true?
+  <meta name="description" content="This is another social computing paper that develops a deep learning classifier for pro-eating disorder content on Tumblr. This work bridges the gap between deep learning and social computing, contributing an image&#43;text classifier for identifying deviant posts.
 " />
   <meta name="generator" content="Hugo 0.62.2 with theme pure" />
-  <title>Netflix and Polynote: first thoughts - Tushar Chandra</title>
+  <title>Paper: Multimodal Classification of Moderated Online Pro-Eating Disorder Content - Tushar Chandra</title>
   
 
   <link rel="stylesheet" href="/css/style.css">
   <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
-  <meta property="og:title" content="Netflix and Polynote: first thoughts" />
-<meta property="og:description" content="Netflix announced yesterday that they are open-sourcing Polynote, a new notebook with features like Spark integration, as-you-type autocomplete, and more. At a glance, it seems to address almost every common complaint with notebooks. How much of that is too good to be true?" />
+  <meta property="og:title" content="Paper: Multimodal Classification of Moderated Online Pro-Eating Disorder Content" />
+<meta property="og:description" content="This is another social computing paper that develops a deep learning classifier for pro-eating disorder content on Tumblr. This work bridges the gap between deep learning and social computing, contributing an image&#43;text classifier for identifying deviant posts." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/posts/polynote_netflix.html" />
-<meta property="article:published_time" content="2019-10-24T00:00:00+00:00" />
-<meta property="article:modified_time" content="2019-10-24T00:00:00+00:00" />
-<meta itemprop="name" content="Netflix and Polynote: first thoughts">
-<meta itemprop="description" content="Netflix announced yesterday that they are open-sourcing Polynote, a new notebook with features like Spark integration, as-you-type autocomplete, and more. At a glance, it seems to address almost every common complaint with notebooks. How much of that is too good to be true?">
-<meta itemprop="datePublished" content="2019-10-24T00:00:00&#43;00:00" />
-<meta itemprop="dateModified" content="2019-10-24T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="741">
+<meta property="og:url" content="/papers/classification_pro_ed_chancellor.html" />
+<meta property="article:published_time" content="2020-01-26T00:00:00-06:00" />
+<meta property="article:modified_time" content="2020-01-26T00:00:00-06:00" />
+<meta itemprop="name" content="Paper: Multimodal Classification of Moderated Online Pro-Eating Disorder Content">
+<meta itemprop="description" content="This is another social computing paper that develops a deep learning classifier for pro-eating disorder content on Tumblr. This work bridges the gap between deep learning and social computing, contributing an image&#43;text classifier for identifying deviant posts.">
+<meta itemprop="datePublished" content="2020-01-26T00:00:00-06:00" />
+<meta itemprop="dateModified" content="2020-01-26T00:00:00-06:00" />
+<meta itemprop="wordCount" content="990">
 
 
 
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Netflix and Polynote: first thoughts"/>
-<meta name="twitter:description" content="Netflix announced yesterday that they are open-sourcing Polynote, a new notebook with features like Spark integration, as-you-type autocomplete, and more. At a glance, it seems to address almost every common complaint with notebooks. How much of that is too good to be true?"/>
+<meta name="twitter:title" content="Paper: Multimodal Classification of Moderated Online Pro-Eating Disorder Content"/>
+<meta name="twitter:description" content="This is another social computing paper that develops a deep learning classifier for pro-eating disorder content on Tumblr. This work bridges the gap between deep learning and social computing, contributing an image&#43;text classifier for identifying deviant posts."/>
 </head>
   </head>
   
@@ -233,52 +233,45 @@
       <h1 itemprop="name">
   <a
     class=""
-    href="/posts/polynote_netflix.html"
-    >Netflix and Polynote: first thoughts</a
+    href="/papers/classification_pro_ed_chancellor.html"
+    >Paper: Multimodal Classification of Moderated Online Pro-Eating Disorder Content</a
   >
 </h1>
 
       <div class="article-meta">
         <span class="article-date">
   <i class="icon icon-calendar-check"></i>
-<a href="/posts/polynote_netflix.html">
-  <time datetime="2019-10-24 00:00:00 &#43;0000 UTC" itemprop="datePublished">2019-10-24</time>
+<a href="/papers/classification_pro_ed_chancellor.html">
+  <time datetime="2020-01-26 00:00:00 -0600 CST" itemprop="datePublished">2020-01-26</time>
 </a>
 </span><span class="article-category">
   <i class="icon icon-folder"></i>
-  <a class="article-category-link" href="/categories/general.html"> general </a>
+  <a class="article-category-link" href="/categories/papers.html"> papers </a>
 </span>
 
         
       </div>
     </div>
     <div class="article-entry marked-body js-toc-content" itemprop="articleBody">
-      <p>Netflix <a href="https://medium.com/netflix-techblog/open-sourcing-polynote-an-ide-inspired-polyglot-notebook-7f929d3f447">announced yesterday</a> that they are open-sourcing Polynote, a new notebook with features like Spark integration, as-you-type autocomplete, and more. At a glance, it seems to address almost every common complaint with notebooks. How much of that is too good to be true?</p>
-<h2 id="jupyter-the-good-and-bad">Jupyter: the good and bad</h2>
-<p>Jupyter notebooks are an essential part of the data scientist's toolkit. Being able to mix Markdown, code, results, and images is great for documenting your work, and inline plotting is fantastic given how painful plotting in Python can be. Notebooks also make the field more accessible to beginners, though arguably at the risk of instilling poor practices. I use notebooks weekly as a professional data scientist.</p>
-<p>With all this said, one of my favorite talks is <a href="https://www.youtube.com/watch?v=7jiPeIFXb6U">&ldquo;I don't like notebooks&rdquo; by Joel Grus</a>. I recommend that everyone watch this&ndash;not to convince you that notebooks are bad, but to begin thinking about <em>how your tools limit you.</em> Some of Joel's complaints, which I largely agree with, are listed below:</p>
-<ul>
-<li>tons and tons of hidden state, coming from out of order execution, being able to edit cells after you run them, and (importantly) lack of beginner-focused resources and tutorials addressing this issue</li>
-<li>discouraging good software engineering practices like unit testing</li>
-<li>poor autocomplete compared to IDEs</li>
-<li>inability to interface with other dev tools: type checkers (<a href="https://github.com/python/mypy">mypy</a>), linters (<a href="http://flake8.pycqa.org/en/latest/">flake8</a>), autoformatters (<a href="https://github.com/psf/black">black</a>)</li>
-<li>lack of reproducibility</li>
-</ul>
-<p>In other words, notebooks&ndash;while great to get started with&ndash;make real software development harder. That's not to say that notebooks are the only way to write bad software; it's rather that they, in Joel's words, &ldquo;implicitly encourage a workflow that has these issues.&rdquo; Again, I highly recommend Joel's talk.</p>
-<h2 id="a-walk-through-the-features">A walk through the features</h2>
-<p>Honestly, while reading the Medium post, I was stunned. My first thought while reading it was &ldquo;this can't be real&rdquo;&ndash;that Polynote addresses almost all of my complaints about vanilla Jupyter notebooks.</p>
-<p><strong>Reproducibility</strong>: Netflix built the interpreter from scratch and made an unusual design decision: a cell's input state is defined exclusively by the cells above it. This means that later cells cannot affect earlier cells, which makes reproducibility a lot easier.</p>
-<p><strong>Dependency and config management</strong>: you can specify notebook-level dependencies and Spark configuration. This <em>couples</em> notebooks and their computing environment. At first glance, this might seem backwards; normal software projects will have a <code>Dockerfile</code> or <code>requirements.txt</code> to document the environment. But given that most notebooks don't document their environments at all, I'll happily take this.</p>
-<p><strong>Inline data visualization</strong>: from the GIFs and screenshots on Medium, it seems like Polynote has some kind of inspector to create plots basd off data. It supports both matplotlib and <a href="https://vega.github.io/vega/">Vega</a>, the latter of which I am very excited for.</p>
-<p><strong>First-class Spark and Scala support</strong>: huge. I haven't used Scala myself, but having Spark tightly integrated into the kernel is what <a href="https://databricks.com">Databricks</a> does, and it makes scaling with dataset size easy.</p>
-<p><strong>Better autocomplete</strong>: they have it! At least according to the demo screenshots on Medium.</p>
-<p><strong>Other features</strong>: multi-language support (I only code in Python, but that's certainly nice for others), visibility into what the kernel is doing (nice because the Spark UI can be extremely opaque), combining Markdown and code (apparently <a href="https://github.com/polynote/polynote/issues/106">not fully</a> yet).</p>
-<h2 id="some-of-my-concerns">Some of my concerns</h2>
-<p>My main concern is how long this will last: corporate open source has a long history of being published, maintained briefly, and then abandoned. Granted, that's true of normal open source too, but usually when there's a company behind it one hopes that the project will last longer. If maintained, this project has the potential to revolutionize notebook computing. If not, it'll fall by the wayside as another failed alternative to Jupyter.</p>
-<p>Another is that there are some simple nice-to-have features missing: <a href="https://github.com/polynote/polynote/issues/445">renaming notebooks</a>, <a href="https://github.com/polynote/polynote/issues/405">conda support</a>, a <a href="https://github.com/polynote/polynote/issues/381">restart and run all button</a>, <a href="https://github.com/polynote/polynote/issues/265">auto-indentation</a>, and <a href="https://github.com/polynote/polynote/issues/106">links in a text cell</a>. This is clearly a beta product, and so the support it receives over the next few months will be critical for its adoption.</p>
-<p>Likewise, the documentation doesn't really exist <a href="https://polynote.org/docs/">at all</a> yet. Again: it's a project in its infancy, so I don't expect much now, but hope for more later.</p>
-<h2 id="final-thoughts">Final thoughts</h2>
-<p>Polynote shows a ton of promise; at first glance, it appears to address many common concerns with Jupyter notebooks. When Netflix <a href="https://medium.com/netflix-techblog/notebook-innovation-591ee3221233">said</a> that they built their data science organization on notebooks, I didn't realize it was on a tool as powerful as this. I hope that I have the chance to try it out myself soon.</p>
+      <p>This is another social computing paper that develops a deep learning classifier for pro-eating disorder content on Tumblr. This work bridges the gap between deep learning and social computing, contributing an image+text classifier for identifying deviant posts.</p>
+<p><strong>Authors</strong>: Stevie Chancellor, Yannis Kalantidis, Jessica Pater, Munmun De Choudhury, and David Shamma</p>
+<p><strong>Link</strong>: on Chancellor's <a href="http://steviechancellor.com/wp-content/uploads/2019/03/multimodal-classification.pdf">website</a> (published in CHI 2017)</p>
+<h2 id="summary">Summary</h2>
+<p>From the abstract:</p>
+<blockquote>
+<p>We develop a deep learning classifier that jointly models textual and visual characteristics of pro-eating disorder content that violates community guidelines &hellip; Our approach uses human sensitivity throughout to guide the creation, curation, and understanding of this approach to challenging, deviant content. We discuss how automation might impact community moderation, and the ethical and social obligations of this area.</p>
+</blockquote>
+<p>The problems are similar to ones we've seen on other platforms, like <a href="/papers/removed_pro_ed_chancellor.html">Instagram</a>. There's lots of content in pro-ED communities, but it's not all dangerous. The content that is dangerous, however, shows &ldquo;unique social contagion-like effects on those who are exposed to this content.&rdquo; Communities are designed to minimize the likelihood that outsiders will report them. And, of course, people in these communities are unlikely to report the very places that they often go to for support (often in &ldquo;maintaining disordered behaviors&rdquo;).</p>
+<p><strong>Dataset creation</strong>: The authors curate a dataset of ~900K pro-ED posts on Tumblr (this work happened while the lead author was at Yahoo! Research). This was done by finding public posts with seed tags (&quot;#anorexia&rdquo;, &ldquo;#pro ana&rdquo;, &ldquo;#thighgap&rdquo;, etc.), snowball sampling to collect more posts, filtering out sexual or recovery-related tags, identifying posts that were removed by moderators, and finding non-pro-ED posts that are similar to the pro-ED ones.</p>
+<p><strong>Handling nuance</strong>: certain pro-ED posts are challenging for human moderators to assess, and there's no way to know which posts were borderline but allowed to stay up. The authors&rsquo; classifier uses 3 labels: posts that are clearly fine, posts that are difficult to assess, and posts that are clearly deviant content. Studying the classifier's performance on the second class leads to interesting insights about its performance at the class boundary. Three &ldquo;raters&rdquo; labeled posts into these classes and then created a shared set of rules for ratings.</p>
+<p><strong>Model details</strong>: this is super cool. The authors use the AlexNet CNN on the images in the posts directly, reducing each to a 128-dimensional vector. They also use a skipgram model (in word2vec) on the text in the posts; after learning 128-dimensional embeddings of each tag, the tags within a post are averaged together. These two vectors are concatenated, and a final neural network outputs the probability that a post is deviant. The model outperformed SVM baselines and had 85% recall, and they tuned hyperparameters, layer size, and other model attributes.</p>
+<p>The paper concludes with a lengthy discussion about how this method could impact human moderators on Tumblr. This could potentially be used as a first pass for human moderators, as part of an online learning system, or to help train new moderators. Of course, adding automation to moderation is certain to impact the communities being moderated, and there are various tensions here. &ldquo;Rampant automated moderation of content perceived to be deviant by a human-machine system could additionally discourage user participation on a platform&rdquo; is a nice way of saying that bad mods make users leave communities.</p>
+<h2 id="thoughts-connections-and-questions">Thoughts, connections, and questions</h2>
+<p>The central ethical challenge of this paper is whether social networks have an obligation to curate content on their platforms, and this is even trickier in the case of health-impacting pro-ED behavior. Earlier research showed that after banning certain tags on Instagram, the pro-ED community became <em>more</em> focused on dangerous ideas. But keeping pro-ED content can lead to contagion-like effects, and exposure to it can encourage dangerous behavior in others. There's no right answer, and research in this space has to be especially sensitive to the <a href="/papers/who_is_human_chancellor.html">health of the humans</a> behind these posts.</p>
+<p>One of the questions I had about the <a href="/papers/removed_pro_ed_chancellor.html">Instagram paper</a> was whether the authors had tried training a CNN on the image posts, rather than a text classifier on the tags associated with them. I suspect they didn't because (1) I don't believe Instagram makes downloading the images easy, and (2) the focus of that paper wasn't on the classifier. It is great to see this approach used here.</p>
+<p>I am surprised that the authors chose to report recall as the metric of interest, not precision. Recall is more important for moderation at scale, I guess, so that one identifies as much deviant content as possible. But as a user of these platforms I value high precision; I don't want ML models to have many false positives and remove posts that are within the guidelines. This approach would have a lot of value when used as a first pass for human moderators.</p>
+<p>I've also thought about how automated moderation seems to be a cat-and-mouse game sometimes. Systems like AutoModerator on Reddit will remove content according to certain criteria (usually keyword matches, but with application of this work potentially more complex methods). Users will write posts in a way to get around the mod, but then the automod will be updated to account for this. I could imagine the same thing happening in this case, but with less transparency, and I suspect that many machine learning models would be too brittle to handle the creativity of internet users trying to get around the rules. For example, how does this model respond to posts with totally unseen tags?</p>
+<p>This was a great paper, and I loved how quickly it went from talking about eating disorders and deviant content to SOTA performance and details of neural nets (then back again!). The foray into the deep learning world requires speaking that field's language, I guess, and so we see tables of metrics and grid searches just pages after discussions of what pro-ED content is. This is the kind of paper that opens my mind to the type of research that's possible.</p>
     </div>
     <div class="article-footer">
     </div>
@@ -287,14 +280,9 @@
     <div class="bar-inner">
         <ul class="pager pull-left">
             <li class="prev">
-                <a href="/posts/statistical_nuance.html" title="Statistical nuance &amp; the importance of uncertainty"><i
+                <a href="/what_i_read/20200125.html" title="What I read this week (January 19 - 25)"><i
                         class="icon icon-angle-left"
                         aria-hidden="true"></i><span>&nbsp;&nbsp;Older</span></a>
-            </li>
-            <li class="next">
-                <a href="/posts/hci_directions.html"
-                    title="Why I&#39;m interested in HCI"><span>Newer&nbsp;&nbsp;</span><i
-                        class="icon icon-angle-right" aria-hidden="true"></i></a>
             </li>
         </ul>
     </div>
