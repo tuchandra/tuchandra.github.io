@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <title>
-        What I read this week (January 12 - 18) - Tushar Chandra
+        What I read this week (January 26 - February 1) - Tushar Chandra
       </title>
     <head>
   <meta charset="utf-8">
@@ -21,32 +21,32 @@
   <meta name="theme-color" content="#000000" />
   <meta http-equiv="window-target" content="_top" />
   
-  <meta name="description" content="Articles I read this week, including &amp;ldquo;goodbye clean code,&amp;rdquo; the Neural ODEs paper retrospective, and technical writing.
+  <meta name="description" content="Articles I read this week, including about Python 3.9, regulation of tech companies, and a host of short articles.
 " />
   <meta name="generator" content="Hugo 0.62.2 with theme pure" />
-  <title>What I read this week (January 12 - 18) - Tushar Chandra</title>
+  <title>What I read this week (January 26 - February 1) - Tushar Chandra</title>
   
 
   <link rel="stylesheet" href="/css/style.css">
   <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
-  <meta property="og:title" content="What I read this week (January 12 - 18)" />
-<meta property="og:description" content="Articles I read this week, including &ldquo;goodbye clean code,&rdquo; the Neural ODEs paper retrospective, and technical writing." />
+  <meta property="og:title" content="What I read this week (January 26 - February 1)" />
+<meta property="og:description" content="Articles I read this week, including about Python 3.9, regulation of tech companies, and a host of short articles." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/what_i_read/20200118.html" />
-<meta property="article:published_time" content="2020-01-18T00:00:00+00:00" />
-<meta property="article:modified_time" content="2020-01-18T00:00:00+00:00" />
-<meta itemprop="name" content="What I read this week (January 12 - 18)">
-<meta itemprop="description" content="Articles I read this week, including &ldquo;goodbye clean code,&rdquo; the Neural ODEs paper retrospective, and technical writing.">
-<meta itemprop="datePublished" content="2020-01-18T00:00:00&#43;00:00" />
-<meta itemprop="dateModified" content="2020-01-18T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="912">
+<meta property="og:url" content="/what_i_read/20200201.html" />
+<meta property="article:published_time" content="2020-02-01T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-02-01T00:00:00+00:00" />
+<meta itemprop="name" content="What I read this week (January 26 - February 1)">
+<meta itemprop="description" content="Articles I read this week, including about Python 3.9, regulation of tech companies, and a host of short articles.">
+<meta itemprop="datePublished" content="2020-02-01T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2020-02-01T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="1157">
 
 
 
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="What I read this week (January 12 - 18)"/>
-<meta name="twitter:description" content="Articles I read this week, including &ldquo;goodbye clean code,&rdquo; the Neural ODEs paper retrospective, and technical writing."/>
+<meta name="twitter:title" content="What I read this week (January 26 - February 1)"/>
+<meta name="twitter:description" content="Articles I read this week, including about Python 3.9, regulation of tech companies, and a host of short articles."/>
 </head>
   </head>
   
@@ -233,16 +233,16 @@
       <h1 itemprop="name">
   <a
     class=""
-    href="/what_i_read/20200118.html"
-    >What I read this week (January 12 - 18)</a
+    href="/what_i_read/20200201.html"
+    >What I read this week (January 26 - February 1)</a
   >
 </h1>
 
       <div class="article-meta">
         <span class="article-date">
   <i class="icon icon-calendar-check"></i>
-<a href="/what_i_read/20200118.html">
-  <time datetime="2020-01-18 00:00:00 &#43;0000 UTC" itemprop="datePublished">2020-01-18</time>
+<a href="/what_i_read/20200201.html">
+  <time datetime="2020-02-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">2020-02-01</time>
 </a>
 </span><span class="article-category">
   <i class="icon icon-folder"></i>
@@ -253,31 +253,35 @@
       </div>
     </div>
     <div class="article-entry marked-body js-toc-content" itemprop="articleBody">
-      <p>Articles I read this week, including &ldquo;goodbye clean code,&rdquo; the Neural ODEs paper retrospective, and technical writing.</p>
-<h2 id="goodbye-clean-codehttpsoverreactediogoodbye-clean-code"><a href="https://overreacted.io/goodbye-clean-code/">Goodbye, clean code</a></h2>
-<p><strong>Author</strong>: Dan Abramov</p>
-<p><strong>How I found this</strong>: from /r/programming</p>
-<p><strong>Summary</strong>: this is a retrospective on how the author (years prior) made a code change that theoretically made the code &ldquo;cleaner,&rdquo; by most definitions of the word. In hindsight, the abstractions that they added (which are usually the tradeoff for cleaner code) were unnecessary and made it harder to change the requirements (while, yes, reducing duplication). The author's boss pulled him aside the next morning to ask him to revert the changes.</p>
-<p><strong>Thoughts</strong>: the more I think about this, the more I think the post misses the point. The clean code isn't the problem here: the problems are (1) the author making a code change without consulting the original author (where was code review? why did he commit overnight?) and (2) the author not recognizing that the requirements would change in the future. The original code wasn't great, and I <em>do</em> think it needed refactoring (make helper functions for the math?), but not in the author's way. Yes, abstractions have tradeoffs, but the problem wasn't caused by abstractions in the general sense&ndash;it was caused by the use of lousy abstractions. Reducing code duplication has been one of the most effective ways for me to untangle complex codebases.</p>
-<p><strong>Sidenote</strong>: originally, my &ldquo;thoughts&rdquo; paragraph was me just summarizing the article. After thinking some more about it, and reading some of the discussion that happened on <a href="https://old.reddit.com/r/programming/comments/eng355/goodbye_clean_code/">Reddit</a>, I switched course and decided that I don't really like this blog post at all. Disagreeing publicly is tough, though, and I felt a strange pressure to just rehash the important points and say &ldquo;yeah, good stuff.&rdquo; Being able to criticize the post is harder.</p>
-<h2 id="bullshit-that-i-and-others-have-said-about-neural-odeshttpswwwyoutubecomwatchvyz-_e7a3v2w"><a href="https://www.youtube.com/watch?v=YZ-_E7A3V2w">Bullshit that I and others have said about Neural ODEs</a></h2>
-<p><strong>Speaker</strong>: David Duvenaud</p>
-<p><strong>How I found this</strong>: from /r/machinelearning</p>
-<p><strong>Summary</strong>: this is a research retrospective on the <a href="https://arxiv.org/abs/1806.07366">Neural ODEs paper</a> that took place at NeurIPS 2019 (the original paper was at NeurIPS 2018). It's a short talk (20 minutes) and there isn't a lot to summarize. Some highlights include the stated motivation being more or less made up, handwaving the non-ML parts (delegating to ODE solvers), and some of the press coverage being misinformed. He Duvenaud brings up the contributions of nice visualizations and a clean title as contributing to the hype.</p>
-<p><strong>Thoughts</strong>: I don't understand this paper nearly well enough to comment on the substance, but I <em>really</em> appreciate the idea of research retrospectives. Reflecting on one's successes is not nearly as common as reflecting on failures, and watching this talk brings down a paper that received a lot of attention to a more ordinary level. It also reminds me that even these prolific papers have hacks and kludges, which Duvenaud discusses.</p>
-<h2 id="radical-candor-software-editionhttpsmediumcomrinaartsradical-candor-software-edition-d4b5ad401be3"><a href="https://medium.com/@rinaarts/radical-candor-software-edition-d4b5ad401be3">Radical Candor, Software Edition</a></h2>
-<p><strong>Author</strong>: Rina Artstain</p>
-<p><strong>How I found this</strong>: from <a href="Pointer">https://pointer.io</a></p>
-<p><strong>Summary</strong>: this is an article extending the principles in Kim Scott's book <a href="https://www.radicalcandor.com/the-book/">Radical Candor</a> to a software engineering team. Radical Candor has two key principles, &ldquo;care personally&rdquo; (about the people you work with or manage, treating them as people and not just employees), and &ldquo;challenge directly&rdquo; (by giving clear, actionable feedback and being direct with others). The article's author extends this to the code and design review settings, encouraging engineers to approve code reviews with comments and to take care to make sure everyone on a team has a voice in a design review.</p>
-<p><strong>Thoughts</strong>: this, I think, is really useful for someone who <em>hasn't</em> read Radical Candor. For someone who has, it doesn't add a ton of value; there's not that much in Radical Candor that isn't applicable to software engineers right out of the gate. Even as a non-manager, I've found the book to have transformed my relationships at work.</p>
-<p>More broadly, though, this is an instance of &ldquo;tech isn't special,&rdquo; where workplace advice or traditional wisdom gets extended to the software engineering setting without a real need. Many of the problems that tech teams face are not tech-specific, <em>especially</em> the interpersonal ones.</p>
-<p>One example from the article is the quote &ldquo;It’s not just code. It’s our work. And we’re emotionally invested in it,&rdquo; referring to how code reviews often forget the person behind the code. I absolutely agree&ndash;that's happened several times at my company&ndash;but the same is true of any work that anyone does that receives feedback, code or otherwise.</p>
-<p>And, to be clear, there are ways in which tech <em>is</em> special; the companies pushing the limits of scalability or making breakthroughs in AI research are certainly in uncharted territory. The ease and speed at which software systems can impact society is both unprecedented and alarming. But I am not yet convinced that workplace relationships are one of those ways.</p>
-<h2 id="notes-on-technical-writinghttpsmkazblogmiscnotes-on-technical-writing"><a href="https://mkaz.blog/misc/notes-on-technical-writing">Notes on Technical Writing</a></h2>
-<p><strong>Author</strong>: Marcus Kazmierczak</p>
-<p><strong>How I found this</strong>: from Pointer</p>
-<p><strong>Summary</strong>: these are literally the author's notes on technical writing. There are principles to follow, discussions on minimalistic instruction and on the types of documentation, and resources to more.</p>
-<p><strong>Thoughts</strong>: bookmarked this. One of my responsibilities on a previous team was rebuilding all of the documentation for an internal software framework. Some of this was mechanical, like migrating pages from Confluence, Google Drive, PRs, etc., to a Sphinx-built site. The majority of the work, though, was reorganizing the documentation and consolidating and reworking disparate resources. I came up with my own ideas for technical writing then, so seeing someone else's is great.</p>
+      <p>Articles I read this week, including about Python 3.9, regulation of tech companies, and a host of short articles.</p>
+<h2 id="python-39-compatibility-channgeshttpstirkarthigithubioprogramming20200127python-39-changeshtml"><a href="https://tirkarthi.github.io/programming/2020/01/27/python-39-changes.html/">Python 3.9 Compatibility Channges</a></h2>
+<p><strong>Author</strong>: Karthikeyan Singaravelan</p>
+<p><strong>How I found this</strong>: /r/programming</p>
+<p><strong>Summary</strong>: this is a post about the backwards-incompatible changes being made in Python 3.9. The idea is that a lot of <code>DeprecationWarning</code>s will finally be enforced, but this is predictably going to break lots of packages. This led to a thread on the <a href="https://mail.python.org/archives/list/python-dev@python.org/thread/EYLXCGGJOUMZSE5X35ILW3UNTJM3MCRE/">python-dev mailing list</a> asking for some of these to be postponed to Python 3.10, because the burden of supporting both 2.7 and 3.9 at once is too high.</p>
+<p><strong>My thoughts</strong>: this is tough. On one hand, these deprecation warnings have been emitted since 2014 (Python 3.4), and saying &ldquo;update your code in the next half decade&rdquo; is IMO a reasonable thing to ask of your users. On the other, library maintainers often work in their spare time, are largely volunteers, and more generally have little obligation to do <em>any</em> of this work.</p>
+<p>I'm lucky to be in a position at work where I can generally use new technologies. Because data science is the research arm of Nielsen, we typically have agency to use whatever versions of languages and libraries we want. For my current position, a solo research project, this means I regularly upgrade my libraries as new versions are released. I recognize that this is not at all the norm.</p>
+<h2 id="the-real-reason-tech-companies-want-regulationhttpswwwexponentialviewcop-the-real-reason-tech-companies-want"><a href="https://www.exponentialview.co/p/-the-real-reason-tech-companies-want">The real reason tech companies want regulation</a></h2>
+<p><strong>Author</strong>: Azeem Azhar</p>
+<p><strong>How I found this</strong>: ?</p>
+<p><strong>Summary</strong>: the leaders of tech companies have started straight up telling Congress (and other government bodies) that they need to be regulated. Sundar Pichai is on record saying &ldquo;there is no question in my mind that artificial intelligence needs to be regulated.&rdquo; And more and more, tech leaders know that regulation is coming (as it needs to!).</p>
+<p>But &hellip; regulation favors large companies. To large companies with large legal teams, regulation is a headache; to new players trying to enter a new space, regulation may stop them entirely.</p>
+<p>And &hellip; the size that the largest companies have reached, broadly speaking, is too big for smaller players to compete with. Despite competition to Google only being a click away, no reasonable person would use any other search engine (besides <a href="https://duckduckgo.com/">DuckDuckGo</a>, which I use). While their size already discourages competition, regulation will discourage it further.</p>
+<p><strong>Thoughts</strong>: Ben Thompson wrote about this in <a href="https://stratechery.com/2020/the-end-of-the-beginning/">The End of the Beginning</a> by suggesting that the biggest tech players today may remain that way, and that the era of small companies disrupting larger ones <em>in their primary business area</em> is over. That's not to say that this is the end of progress, or that it'll even slow—rather, the established players will remain that way (much like GM, Ford, and Chrysler in the 20th century).</p>
+<p>In fact, Ben writes about tech and monopoly all the time. Stratechery has become the most interesting thing I read each morning because his analyses are so well-argued.</p>
+<p>That regulation is coming is almost certain—the current hot topic is facial recognition, but last year we heard all about Warren talking about the big companies needing to be broken up, and we've seen lots of other discussions pop up. Cynically, the tech giants calling for it sounds like they're just trying to influence the inevitable.</p>
+<h2 id="if-data-isnt-truth-then-what-is-ithttpswwwresearch-livecomarticleopinionif-data-isnt-truth-then-what-is-itid5064172"><a href="https://www.research-live.com/article/opinion/if-data-isnt-truth-then-what-is-it/id/5064172">If data isn't truth, then what is it?</a></h2>
+<p><strong>Author</strong>: Mihajlo Popesku</p>
+<p><strong>How I found this</strong>: shared in my company's Slack</p>
+<p><strong>Summary</strong>: the idea of &ldquo;data being truth&rdquo; is, in many cases, simply false. In e.g., the case of social media, treating data as &ldquo;evidence&rdquo; is misleading; they're a social construct, created first by what is actually true, but then distorted by layers of human and algorithmic decision making. The author calls for accepting a more probabilistic view of the world, instead of treating data as hard truth.</p>
+<p><strong>My thoughts</strong>: this is absolutely true, and validates a lot of the work I've been doing over the past half year. If we collect data on human behavior, then we have to accept that humans behave in unpredictable and irrational ways, based on emotions, social pressure, unconscious bias, and much more. Unpacking all of this requires interdisciplinary work that goes well beyond pure &ldquo;data science&rdquo; into sociology, behavioral science, and much more.</p>
+<p>This speaks more broadly about why I'm worried about Nielsen's strategy of branding itself as the &ldquo;one media truth.&rdquo; (Reminder: my opinions are my own.) Our data is not truth, nor is anyone else's; we use high-quality methodology, but we'll never arrive at the &ldquo;truth&rdquo; of how many people are watching a given program.</p>
+<p>I believe that positioning ourselves this way will eventually back us into a corner, where we <em>have</em> to accept uncertainty in our predictions (as we start doing more probabilistic modeling), and convince clients to do the same, but where we can't, because we've called ourselves the &ldquo;truth&rdquo; for so long.</p>
+<h2 id="other-articles">Other articles</h2>
+<p><a href="https://gist.github.com/stettix/5bb2d99e50fdbbd15dd9622837d14e2b">Things I believe</a> by Jan Stette is a list of principles he's developed throughout his career. This is a remarkably good collection of one-liners. This is definitely something I'll save for later.</p>
+<p><a href="https://lethain.com/first-ninety-days-cto-vpe/">Your first 90 days as CTO or VPE</a> by Will Larson is also fantastic. Having recently started a role as the CTO of Calm, Will spoke with many others to write this piece. This gives a great deal of insight into the roles of CTOs / VPEs; it's really interesting to hear about how <em>specifically</em> their roles influence the culture and technical direction of a company. Sections on goals and directions, hiring, and technology were the most informative for me.</p>
+<p><a href="https://engineering.linkedin.com/blog/2020/how-we-retired-python-2-and-improved-developer-happiness">How we retired Python 2 and embraced developer happiness</a> by Barry Warsaw is a story about LinkedIn's migration from Python 2 to Python 3. Loosely speaking, they started with foundational tools and libraries, migrated those (both out of necessity and to build confidence), then migrated the rest. Once they dropped Python 2 support, they were able to start taking advantage of newer features of Python 3.</p>
+<p><a href="https://increment.com/teams/pay-fair/">Pay Fair</a> by Lara Hogan is an &ldquo;introduction to correcting—and preventing—compensation inequality.&rdquo; Of note are a couple of strategies for managers and compensation teams to use to prevent companies from paying minoritized groups more. But honestly, the thing I'll remember most is the use of the term &ldquo;minoritized groups,&rdquo; which &ldquo;places the emphasis on the power struggle, and on the systemic issues at play.&rdquo; Likewise, when discussing compensation, the author is careful to write &ldquo;we compensate people of color 10 percent less than white people,&rdquo; rather than &ldquo;they earn 10 percent less,&rdquo; because the former puts the responsibility on the company for underpaying employees, while the latter moves responsibility to the individual. Language matters.</p>
+<p><a href="https://github.com/fpereiro/backendlore">How I write backends</a> by Federico Pereiro is an incredibly detailed look at how he writes server-side code for web apps. There's so much I don't get here—tools I haven't heard of, concepts I don't understand—but it's obvious this is really thorough. I appreciate resources like this a lot.</p>
     </div>
     <div class="article-footer">
     </div>
@@ -286,14 +290,9 @@
     <div class="bar-inner">
         <ul class="pager pull-left">
             <li class="prev">
-                <a href="/posts/software_in_dsci.html" title="Software engineering is an essential part of data science"><i
+                <a href="/papers/contrasting_social_support_chancellor.html" title="Paper: Norms Matter: Contrasting Social Support Around Behavior Change in Online Weight Loss Communities"><i
                         class="icon icon-angle-left"
                         aria-hidden="true"></i><span>&nbsp;&nbsp;Older</span></a>
-            </li>
-            <li class="next">
-                <a href="/posts/site_comparison_part2.html"
-                    title="Comparing my old and new sites, part 2"><span>Newer&nbsp;&nbsp;</span><i
-                        class="icon icon-angle-right" aria-hidden="true"></i></a>
             </li>
         </ul>
     </div>
