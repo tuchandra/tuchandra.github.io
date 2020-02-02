@@ -6,10 +6,19 @@
     <description>Recent content in general on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 21 Jan 2020 00:00:00 -0600</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jan 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/categories/general/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>What I read this week (December 22 - 28)</title>
+      <link>/what_i_read/20191228.html</link>
+      <pubDate>Sat, 28 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/what_i_read/20191228.html</guid>
+      <description>&lt;p&gt;Articles I read this week, including posts on AI bias, life without cell phones, and regulating AI.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Celeste Kidd: How to Know (NeurIPS 2019)</title>
@@ -180,15 +189,6 @@
       
       <guid>/posts/papermill_experiences.html</guid>
       <description>&lt;p&gt;I recently started using &lt;a href=&#34;https://github.com/nteract/papermill/&#34;&gt;papermill&lt;/a&gt; from nteract to parameterize model runs. I&#39;ve started to like it a lot, and this post will discuss my experiences with it and my current setup.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Paper: The Curse of Knowledge in Visual Data Communication</title>
-      <link>/papers/curse_of_knowledge_xiong.html</link>
-      <pubDate>Wed, 13 Nov 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/papers/curse_of_knowledge_xiong.html</guid>
-      <description>&lt;p&gt;This is the first of (hopefully!) many paper reviews I&#39;ll be writing on this blog. Inspired by &lt;a href=&#34;https://blog.acolyer.org/about/&#34;&gt;The Morning Paper&lt;/a&gt;, my goal is to read a lot of papers over the next several months (and longer). This one is a psychology paper by Cindy Xiong, Lisanne van Weelden, and Steven Franconeri. View it on the &lt;a href=&#34;http://visualthinking.psych.northwestern.edu/VisualizationCurse2017/Xiong,%20van%20Weelden%20&amp;amp;%20Franconeri%20InfoVis%202017%20.pdf&#34;&gt;Northwestern Psychology department&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
   </channel>

@@ -37,6 +37,26 @@
   </url>
   
   <url>
+    <loc>/posts.html</loc>
+    <lastmod>2020-01-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/general.html</loc>
+    <lastmod>2020-01-31T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/posts/talk_global_energy_challenge.html</loc>
+    <lastmod>2020-01-31T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>/papers.html</loc>
     <lastmod>2020-01-28T00:00:00-06:00</lastmod>
     <priority>0</priority>
@@ -71,20 +91,7 @@
   </url>
   
   <url>
-    <loc>/posts.html</loc>
-    <lastmod>2020-01-21T00:00:00-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/posts/site_comparison_part2.html</loc>
-    <lastmod>2020-01-21T00:00:00-06:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/general.html</loc>
     <lastmod>2020-01-21T00:00:00-06:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
