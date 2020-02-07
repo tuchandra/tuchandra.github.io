@@ -6,15 +6,24 @@
     <description>Recent content in general on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 31 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 05 Feb 2020 00:00:00 -0600</lastBuildDate>
     
         <atom:link href="/categories/general/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>A disaster in Iowa</title>
+      <link>/posts/iowa_caucus_disaster.html</link>
+      <pubDate>Wed, 05 Feb 2020 00:00:00 -0600</pubDate>
+      
+      <guid>/posts/iowa_caucus_disaster.html</guid>
+      <description>&lt;p&gt;Like many on Monday, I left work eagerly awaiting the results of the Iowa caucuses happening one state west of me. I got home, cooked dinner, and opened up the &lt;a href=&#34;https://fivethirtyeight.com/live-blog/iowa-caucus-2020-election-live/&#34;&gt;FiveThirtyEight live blog&lt;/a&gt; to start following election results. A couple of hours passed, and it became increasingly clear that something had gone very, very wrong.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Three article summaries (on grad school advice)</title>
       <link>/what_i_read/20200205.html</link>
-      <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 04 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>/what_i_read/20200205.html</guid>
       <description>&lt;p&gt;Three article summaries, which I&#39;m breaking out from my usual &amp;ldquo;what I read&amp;rdquo; posts because of the common theme (of CS research &amp;amp; grad school) that connects them.&lt;/p&gt;</description>
@@ -180,15 +189,6 @@
       
       <guid>/papers/discrimination_algorithms_kleinberg_2.html</guid>
       <description>&lt;p&gt;Part 2 of the summary of the paper by Jon Kleinberg, Jens Ludwig, Sendhil Mullainathan, and Cass R Sunstein, published in the &lt;a href=&#34;https://academic.oup.com/jla/article/doi/10.1093/jla/laz001/5476086&#34;&gt;Journal of Legal Analysis&lt;/a&gt;. View part 1 &lt;a href=&#34;/papers/discrimination_algorithms_kleinberg_1.html&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Paper: Discrimination in the Age of Algorithms (1/2)</title>
-      <link>/papers/discrimination_algorithms_kleinberg_1.html</link>
-      <pubDate>Sun, 29 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/papers/discrimination_algorithms_kleinberg_1.html</guid>
-      <description>&lt;p&gt;Summary of the paper by Jon Kleinberg, Jens Ludwig, Sendhil Mullainathan, and Cass R Sunstein, published in the &lt;a href=&#34;https://academic.oup.com/jla/article/doi/10.1093/jla/laz001/5476086&#34;&gt;Journal of Legal Analysis&lt;/a&gt; (yeah, a law journal, we&#39;ll see how reading this goes).&lt;/p&gt;</description>
     </item>
     
   </channel>
