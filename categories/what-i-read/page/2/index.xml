@@ -6,10 +6,28 @@
     <description>Recent content in what I read on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 04 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 08 Feb 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/categories/what-i-read/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Resume</title>
+      <link>/resume/</link>
+      <pubDate>Tue, 31 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/resume/</guid>
+      <description>&lt;p&gt;I&#39;m currently a data scientist at Nielsen. I did my master&#39;s in computer science and undergrad in computer science and the &lt;a href=&#34;https://www.isp.northwestern.edu/&#34;&gt;Integrated Science Program&lt;/a&gt;, both at Northwestern (go &amp;lsquo;cats!). My email address is me@(this domain).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Paper: Discrimination in the Age of Algorithms (2/2)</title>
+      <link>/papers/discrimination_algorithms_kleinberg_2.html</link>
+      <pubDate>Mon, 30 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/discrimination_algorithms_kleinberg_2.html</guid>
+      <description>&lt;p&gt;Part 2 of the summary of the paper by Jon Kleinberg, Jens Ludwig, Sendhil Mullainathan, and Cass R Sunstein, published in the &lt;a href=&#34;https://academic.oup.com/jla/article/doi/10.1093/jla/laz001/5476086&#34;&gt;Journal of Legal Analysis&lt;/a&gt;. View part 1 &lt;a href=&#34;/papers/discrimination_algorithms_kleinberg_1.html&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Paper: Discrimination in the Age of Algorithms (1/2)</title>
@@ -171,24 +189,6 @@
       
       <guid>/papers/ethical_tensions_social_media_chancellor_1.html</guid>
       <description>&lt;p&gt;Summary of the FAT* 2019 paper by Stevie Chancellor, Michael Birnbaum, Eric Caine, Vince Silenzio, Munmun De Choudhury. View it on &lt;a href=&#34;http://steviechancellor.com/wp-content/uploads/2019/03/taxonomy-prediction-mh-fat2019.pdf&#34;&gt;Chancellor&#39;s website&lt;/a&gt;.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>On the digital ad industry</title>
-      <link>/posts/digital_advertising.html</link>
-      <pubDate>Thu, 21 Nov 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/digital_advertising.html</guid>
-      <description>&lt;p&gt;I recently read a fantastic article on The Correspondent about digital advertising, called &lt;a href=&#34;https://thecorrespondent.com/100/the-new-dot-com-bubble-is-here-its-called-online-advertising/13228924500-22d5fd24&#34;&gt;The new dot com bubble is here: it’s called online advertising&lt;/a&gt;. This post summarizes my thoughts.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Paper: A Bayesian Cognition Approach to Improve Data Visualization</title>
-      <link>/papers/bayesian_cognition_viz_kim.html</link>
-      <pubDate>Wed, 20 Nov 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/papers/bayesian_cognition_viz_kim.html</guid>
-      <description>&lt;p&gt;This is a summary of a data visualization paper by Yea-Seul Kim, Logan A Walls, Peter Krafft, and Jessica Hullman, published at CHI 2019. View the original on the &lt;a href=&#34;https://mucollective.northwestern.edu/files/2019-BayesianVis-CHI.pdf&#34;&gt;Northwestern website&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
   </channel>
