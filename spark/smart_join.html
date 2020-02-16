@@ -159,7 +159,7 @@
             <li class="category-list-item"><a href="/categories/papers.html" class="category-list-link">papers</a><span class="category-list-count">18</span></li>
             <li class="category-list-item"><a href="/categories/self.html" class="category-list-link">self</a><span class="category-list-count">3</span></li>
             <li class="category-list-item"><a href="/categories/spark.html" class="category-list-link">spark</a><span class="category-list-count">13</span></li>
-            <li class="category-list-item"><a href="/categories/what-i-read.html" class="category-list-link">what-i-read</a><span class="category-list-count">11</span></li>
+            <li class="category-list-item"><a href="/categories/what-i-read.html" class="category-list-link">what-i-read</a><span class="category-list-count">12</span></li>
         </ul>
     </div>
 </div>
@@ -167,6 +167,16 @@
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget-body">
         <ul class="recent-post-list list-unstyled no-thumbnail">
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/what_i_read/20200215.html" class="title">What I read this week (February 9 - February 15)</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-02-15 00:00:00 &#43;0000 UTC" itemprop="datePublished">2020-02-15</time>
+                    </p>
+                </div>
+            </li>
             <li>
                 <div class="item-inner">
                     <p class="item-title">
@@ -204,16 +214,6 @@
                     </p>
                     <p class="item-date">
                         <time datetime="2020-02-07 00:00:00 -0600 CST" itemprop="datePublished">2020-02-07</time>
-                    </p>
-                </div>
-            </li>
-            <li>
-                <div class="item-inner">
-                    <p class="item-title">
-                        <a href="/posts/iowa_caucus_disaster.html" class="title">A disaster in Iowa</a>
-                    </p>
-                    <p class="item-date">
-                        <time datetime="2020-02-05 00:00:00 -0600 CST" itemprop="datePublished">2020-02-05</time>
                     </p>
                 </div>
             </li>
@@ -293,12 +293,12 @@
     spark<span style="color:#f92672">.</span>range(replication_factor)<span style="color:#f92672">.</span>withColumnRenamed(<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">id</span><span style="color:#e6db74">&#34;</span>, <span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">replica_id</span><span style="color:#e6db74">&#34;</span>)
 )
 
-<span style="color:#75715e"># Randomly assign rows in skewed data to buckets</span>
+<span style="color:#75715e"># Randomly assign rows in skewed data to buckets</span>
 skewed_data_tagged <span style="color:#f92672">=</span> skewed_data<span style="color:#f92672">.</span>withColumn(
     <span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">composite_key</span><span style="color:#e6db74">&#34;</span>, f<span style="color:#f92672">.</span>concat(<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">original_id</span><span style="color:#e6db74">&#34;</span>, f<span style="color:#f92672">.</span>lit(<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">@</span><span style="color:#e6db74">&#34;</span>), randint(replication_factor))
 )
 
-<span style="color:#75715e"># Replicate uniform data, one copy of each row per bucket</span>
+<span style="color:#75715e"># Replicate uniform data, one copy of each row per bucket</span>
 uniform_data_replicated <span style="color:#f92672">=</span> (
     uniform_data
     <span style="color:#f92672">.</span>crossJoin(replication_ids)
@@ -307,7 +307,7 @@ uniform_data_replicated <span style="color:#f92672">=</span> (
     )
 )
 
-<span style="color:#75715e"># Now you can join on the composite key</span>
+<span style="color:#75715e"># Now you can join on the composite key</span>
 joined <span style="color:#f92672">=</span> skewed_data_tagged<span style="color:#f92672">.</span>join(
     uniform_data_replicated,
     on<span style="color:#f92672">=</span><span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">composite_key</span><span style="color:#e6db74">&#34;</span>,
@@ -327,10 +327,10 @@ replication_low <span style="color:#f92672">=</span> f<span style="color:#f92672
     spark<span style="color:#f92672">.</span>range(replication_factor_low)<span style="color:#f92672">.</span>withColumnRenamed(<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">id</span><span style="color:#e6db74">&#39;</span>, <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">replica_id</span><span style="color:#e6db74">&#39;</span>)
 )
 
-<span style="color:#75715e"># Determine which keys are highly over-represented, broadcast everywhere</span>
+<span style="color:#75715e"># Determine which keys are highly over-represented, broadcast everywhere</span>
 top_keys <span style="color:#f92672">=</span> f<span style="color:#f92672">.</span>broadcast(
     skewed_data
-    <span style="color:#f92672">.</span>freqItems([<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">original_id</span><span style="color:#e6db74">&#34;</span>], <span style="color:#ae81ff">0.0001</span>)  <span style="color:#75715e"># return keys with frequency &gt; this</span>
+    <span style="color:#f92672">.</span>freqItems([<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">original_id</span><span style="color:#e6db74">&#34;</span>], <span style="color:#ae81ff">0.0001</span>)  <span style="color:#75715e"># return keys with frequency &gt; this</span>
     <span style="color:#f92672">.</span>select(f<span style="color:#f92672">.</span>explode(<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">id_freqItems</span><span style="color:#e6db74">&#34;</span>)<span style="color:#f92672">.</span>alias(<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">id_freqItems</span><span style="color:#e6db74">&#34;</span>))
 )
 
@@ -356,14 +356,14 @@ uniform_data_rest <span style="color:#f92672">=</span> (
     <span style="color:#f92672">.</span>withColumn(<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">composite_key</span><span style="color:#e6db74">&#34;</span>, f<span style="color:#f92672">.</span>concat(<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">original_id</span><span style="color:#e6db74">&#34;</span>, f<span style="color:#f92672">.</span>lit(<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">@</span><span style="color:#e6db74">&#34;</span>), <span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">replica_id</span><span style="color:#e6db74">&#34;</span>))
 )
 
-<span style="color:#75715e"># This is now the entire uniform dataset replicated differentially</span>
+<span style="color:#75715e"># This is now the entire uniform dataset replicated differentially</span>
 uniform_data_replicated <span style="color:#f92672">=</span> uniform_data_top_keys<span style="color:#f92672">.</span>union(uniform_data_rest)
 
-<span style="color:#75715e"># Do the same tagging for skewed data</span>
+<span style="color:#75715e"># Do the same tagging for skewed data</span>
 skewed_data_tagged <span style="color:#f92672">=</span> (
     skewed_data
     <span style="color:#f92672">.</span>join(
-        top_keys,  <span style="color:#75715e"># Remember this is broadcasted, no shuffling required</span>
+        top_keys,  <span style="color:#75715e"># Remember this is broadcasted, no shuffling required</span>
         skewed_data<span style="color:#f92672">.</span>id <span style="color:#f92672">==</span> top_keys<span style="color:#f92672">.</span>id_freqItems,
         how<span style="color:#f92672">=</span><span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">left</span><span style="color:#e6db74">&#34;</span>,
     )
