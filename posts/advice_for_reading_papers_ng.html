@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <title>
-        What I read this week (January 12 - 18) - Tushar Chandra
+        Andrew Ng&#39;s advice for reading research papers - Tushar Chandra
       </title>
     <head>
   <meta charset="utf-8">
@@ -21,32 +21,32 @@
   <meta name="theme-color" content="#000000" />
   <meta http-equiv="window-target" content="_top" />
   
-  <meta name="description" content="Articles I read this week, including &amp;ldquo;goodbye clean code,&amp;rdquo; the Neural ODEs paper retrospective, and technical writing.
+  <meta name="description" content="I spent half an hour watching one of Andrew Ng&#39;s deep learning lectures, this one focusing on reading research papers and career advice. This post is a summary of what I learned.
 " />
   <meta name="generator" content="Hugo 0.62.2 with theme pure" />
-  <title>What I read this week (January 12 - 18) - Tushar Chandra</title>
+  <title>Andrew Ng&#39;s advice for reading research papers - Tushar Chandra</title>
   
 
   <link rel="stylesheet" href="/css/style.css">
   <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
-  <meta property="og:title" content="What I read this week (January 12 - 18)" />
-<meta property="og:description" content="Articles I read this week, including &ldquo;goodbye clean code,&rdquo; the Neural ODEs paper retrospective, and technical writing." />
+  <meta property="og:title" content="Andrew Ng&#39;s advice for reading research papers" />
+<meta property="og:description" content="I spent half an hour watching one of Andrew Ng&#39;s deep learning lectures, this one focusing on reading research papers and career advice. This post is a summary of what I learned." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/what_i_read/20200118.html" />
-<meta property="article:published_time" content="2020-01-18T00:00:00+00:00" />
-<meta property="article:modified_time" content="2020-01-18T00:00:00+00:00" />
-<meta itemprop="name" content="What I read this week (January 12 - 18)">
-<meta itemprop="description" content="Articles I read this week, including &ldquo;goodbye clean code,&rdquo; the Neural ODEs paper retrospective, and technical writing.">
-<meta itemprop="datePublished" content="2020-01-18T00:00:00&#43;00:00" />
-<meta itemprop="dateModified" content="2020-01-18T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="912">
+<meta property="og:url" content="/posts/advice_for_reading_papers_ng.html" />
+<meta property="article:published_time" content="2020-02-15T00:00:00-06:00" />
+<meta property="article:modified_time" content="2020-02-15T00:00:00-06:00" />
+<meta itemprop="name" content="Andrew Ng&#39;s advice for reading research papers">
+<meta itemprop="description" content="I spent half an hour watching one of Andrew Ng&#39;s deep learning lectures, this one focusing on reading research papers and career advice. This post is a summary of what I learned.">
+<meta itemprop="datePublished" content="2020-02-15T00:00:00-06:00" />
+<meta itemprop="dateModified" content="2020-02-15T00:00:00-06:00" />
+<meta itemprop="wordCount" content="795">
 
 
 
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="What I read this week (January 12 - 18)"/>
-<meta name="twitter:description" content="Articles I read this week, including &ldquo;goodbye clean code,&rdquo; the Neural ODEs paper retrospective, and technical writing."/>
+<meta name="twitter:title" content="Andrew Ng&#39;s advice for reading research papers"/>
+<meta name="twitter:description" content="I spent half an hour watching one of Andrew Ng&#39;s deep learning lectures, this one focusing on reading research papers and career advice. This post is a summary of what I learned."/>
 </head>
   </head>
   
@@ -233,51 +233,64 @@
       <h1 itemprop="name">
   <a
     class=""
-    href="/what_i_read/20200118.html"
-    >What I read this week (January 12 - 18)</a
+    href="/posts/advice_for_reading_papers_ng.html"
+    >Andrew Ng&#39;s advice for reading research papers</a
   >
 </h1>
 
       <div class="article-meta">
         <span class="article-date">
   <i class="icon icon-calendar-check"></i>
-<a href="/what_i_read/20200118.html">
-  <time datetime="2020-01-18 00:00:00 &#43;0000 UTC" itemprop="datePublished">2020-01-18</time>
+<a href="/posts/advice_for_reading_papers_ng.html">
+  <time datetime="2020-02-15 00:00:00 -0600 CST" itemprop="datePublished">2020-02-15</time>
 </a>
 </span><span class="article-category">
   <i class="icon icon-folder"></i>
-  <a class="article-category-link" href="/categories/what-i-read.html"> what I read </a>
+  <a class="article-category-link" href="/categories/general.html"> general </a>
 </span>
 
         
       </div>
     </div>
     <div class="article-entry marked-body js-toc-content" itemprop="articleBody">
-      <p>Articles I read this week, including &ldquo;goodbye clean code,&rdquo; the Neural ODEs paper retrospective, and technical writing.</p>
-<h2 id="goodbye-clean-codehttpsoverreactediogoodbye-clean-code"><a href="https://overreacted.io/goodbye-clean-code/">Goodbye, clean code</a></h2>
-<p><strong>Author</strong>: Dan Abramov</p>
-<p><strong>How I found this</strong>: from /r/programming</p>
-<p><strong>Summary</strong>: this is a retrospective on how the author (years prior) made a code change that theoretically made the code &ldquo;cleaner,&rdquo; by most definitions of the word. In hindsight, the abstractions that they added (which are usually the tradeoff for cleaner code) were unnecessary and made it harder to change the requirements (while, yes, reducing duplication). The author's boss pulled him aside the next morning to ask him to revert the changes.</p>
-<p><strong>Thoughts</strong>: the more I think about this, the more I think the post misses the point. The clean code isn't the problem here: the problems are (1) the author making a code change without consulting the original author (where was code review? why did he commit overnight?) and (2) the author not recognizing that the requirements would change in the future. The original code wasn't great, and I <em>do</em> think it needed refactoring (make helper functions for the math?), but not in the author's way. Yes, abstractions have tradeoffs, but the problem wasn't caused by abstractions in the general sense&ndash;it was caused by the use of lousy abstractions. Reducing code duplication has been one of the most effective ways for me to untangle complex codebases.</p>
-<p><strong>Sidenote</strong>: originally, my &ldquo;thoughts&rdquo; paragraph was me just summarizing the article. After thinking some more about it, and reading some of the discussion that happened on <a href="https://old.reddit.com/r/programming/comments/eng355/goodbye_clean_code/">Reddit</a>, I switched course and decided that I don't really like this blog post at all. Disagreeing publicly is tough, though, and I felt a strange pressure to just rehash the important points and say &ldquo;yeah, good stuff.&rdquo; Being able to criticize the post is harder.</p>
-<h2 id="bullshit-that-i-and-others-have-said-about-neural-odeshttpswwwyoutubecomwatchvyz-_e7a3v2w"><a href="https://www.youtube.com/watch?v=YZ-_E7A3V2w">Bullshit that I and others have said about Neural ODEs</a></h2>
-<p><strong>Speaker</strong>: David Duvenaud</p>
-<p><strong>How I found this</strong>: from /r/machinelearning</p>
-<p><strong>Summary</strong>: this is a research retrospective on the <a href="https://arxiv.org/abs/1806.07366">Neural ODEs paper</a> that took place at NeurIPS 2019 (the original paper was at NeurIPS 2018). It's a short talk (20 minutes) and there isn't a lot to summarize. Some highlights include the stated motivation being more or less made up, handwaving the non-ML parts (delegating to ODE solvers), and some of the press coverage being misinformed. He Duvenaud brings up the contributions of nice visualizations and a clean title as contributing to the hype.</p>
-<p><strong>Thoughts</strong>: I don't understand this paper nearly well enough to comment on the substance, but I <em>really</em> appreciate the idea of research retrospectives. Reflecting on one's successes is not nearly as common as reflecting on failures, and watching this talk brings down a paper that received a lot of attention to a more ordinary level. It also reminds me that even these prolific papers have hacks and kludges, which Duvenaud discusses.</p>
-<h2 id="radical-candor-software-editionhttpsmediumcomrinaartsradical-candor-software-edition-d4b5ad401be3"><a href="https://medium.com/@rinaarts/radical-candor-software-edition-d4b5ad401be3">Radical Candor, Software Edition</a></h2>
-<p><strong>Author</strong>: Rina Artstain</p>
-<p><strong>How I found this</strong>: from <a href="Pointer">https://pointer.io</a></p>
-<p><strong>Summary</strong>: this is an article extending the principles in Kim Scott's book <a href="https://www.radicalcandor.com/the-book/">Radical Candor</a> to a software engineering team. Radical Candor has two key principles, &ldquo;care personally&rdquo; (about the people you work with or manage, treating them as people and not just employees), and &ldquo;challenge directly&rdquo; (by giving clear, actionable feedback and being direct with others). The article's author extends this to the code and design review settings, encouraging engineers to approve code reviews with comments and to take care to make sure everyone on a team has a voice in a design review.</p>
-<p><strong>Thoughts</strong>: this, I think, is really useful for someone who <em>hasn't</em> read Radical Candor. For someone who has, it doesn't add a ton of value; there's not that much in Radical Candor that isn't applicable to software engineers right out of the gate. Even as a non-manager, I've found the book to have transformed my relationships at work.</p>
-<p>More broadly, though, this is an instance of &ldquo;tech isn't special,&rdquo; where workplace advice or traditional wisdom gets extended to the software engineering setting without a real need. Many of the problems that tech teams face are not tech-specific, <em>especially</em> the interpersonal ones.</p>
-<p>One example from the article is the quote &ldquo;It’s not just code. It’s our work. And we’re emotionally invested in it,&rdquo; referring to how code reviews often forget the person behind the code. I absolutely agree&ndash;that's happened several times at my company&ndash;but the same is true of any work that anyone does that receives feedback, code or otherwise.</p>
-<p>And, to be clear, there are ways in which tech <em>is</em> special; the companies pushing the limits of scalability or making breakthroughs in AI research are certainly in uncharted territory. The ease and speed at which software systems can impact society is both unprecedented and alarming. But I am not yet convinced that workplace relationships are one of those ways.</p>
-<h2 id="notes-on-technical-writinghttpsmkazblogmiscnotes-on-technical-writing"><a href="https://mkaz.blog/misc/notes-on-technical-writing">Notes on Technical Writing</a></h2>
-<p><strong>Author</strong>: Marcus Kazmierczak</p>
-<p><strong>How I found this</strong>: from Pointer</p>
-<p><strong>Summary</strong>: these are literally the author's notes on technical writing. There are principles to follow, discussions on minimalistic instruction and on the types of documentation, and resources to more.</p>
-<p><strong>Thoughts</strong>: bookmarked this. One of my responsibilities on a previous team was rebuilding all of the documentation for an internal software framework. Some of this was mechanical, like migrating pages from Confluence, Google Drive, PRs, etc., to a Sphinx-built site. The majority of the work, though, was reorganizing the documentation and consolidating and reworking disparate resources. I came up with my own ideas for technical writing then, so seeing someone else's is great.</p>
+      <p>I spent half an hour watching one of Andrew Ng's <a href="https://www.youtube.com/watch?v=733m6qBH-jI">deep learning lectures</a>, this one focusing on reading research papers and career advice. This post is a summary of what I learned.</p>
+<h2 id="on-bouncing-around-papers">On bouncing around papers</h2>
+<p>Keep a list of different papers that you're thinking about reading (<a href="/reading/">mission accomplished!</a>). Skip around this list, and read enough to understand ~10% of each paper. While doing so, you might think that paper #3 is the one to read in depth, and while doing that you see new papers from the citations that you also want to read, and for those you do the same thing.</p>
+<p>He continues about volume: &ldquo;If you read 15 - 20 papers, I think you have a basic understanding of an area&rdquo; followed by &ldquo;if you read 50 - 100 papers to an area &hellip; that's probably enough to give you a very good understanding of the area,&rdquo; being careful not to call anyone an &ldquo;expert&rdquo; or say that they've mastered an area.</p>
+<h2 id="on-reading-one-paper">On reading one paper</h2>
+<p>Ng states confidently: &ldquo;The bad way to read a paper is to go from the first word to the last word.&rdquo; Rather, he suggests taking multiple passes:</p>
+<ol>
+<li>read the title, the abstract, and the figures (especially in deep learning&ndash;sometimes, the entire paper will be summarized in a couple of figures, like the architecture and results).</li>
+<li>read the intro, conclusions, spend more time on the figures, and skim the rest, skip related work.</li>
+<li>read the whole thing, but skip / skim the math.</li>
+<li>read the whole thing, but skip the parts that don't make sense.</li>
+</ol>
+<p>Ng notes that the abstract, intro, and conclusion are where the authors write very carefully to make a case for why their paper should be accepted for publication. Reading those sections can give you a good idea of what the paper is about.</p>
+<p>The <strong>related work</strong> section is only sometimes worth reading. It can be useful if you're already familiar with the literature, or if you do really want to get a sense for what other work exists. But other times, it's when authors try to cite everyone who could possibly be relevant. And it's almost entirely useless if you don't know much about the field.</p>
+<p>He finally suggests asking the following questions when you read a paper:</p>
+<ul>
+<li>What are the authors trying to accomplish?</li>
+<li>What were the key elements?</li>
+<li>What can you use yourself?</li>
+<li>What other references do you want to follow?</li>
+</ul>
+<h2 id="on-understanding-a-paper-deeply">On understanding a paper deeply</h2>
+<p>For understanding <strong>math</strong> (e.g., for batch norm, backpropogation, etc.): read through the paper, take detailed notes, and see if you can rederive it from scratch. If you can do so, then it's a great sign you deeply understand the paper. Your ability to rederive this type of math, Ng argues, helps give you the ability to generalize the ideas to create novel ones yourself.</p>
+<p>For understanding <strong>code</strong>: the simple way is to download and run any open-source code, if available. The deeper way is to reimplement it from scratch.</p>
+<h2 id="summarized-advice">Summarized advice</h2>
+<p>Ng primarily provided strategies for reading papers <em>efficiently</em>, which is a large part of being a researcher. I summarize it as a quick reference here:</p>
+<ul>
+<li>Keep a list of papers you're hoping to read</li>
+<li>Don't commit to one paper at once; look through a few and bounce around them</li>
+<li>Read papers in multiple passes, instead of start to finish</li>
+<li>Ask certain questions to help guide your understanding</li>
+<li>For understanding math &amp; code, reimplement it yourself</li>
+</ul>
+<h2 id="reflections">Reflections</h2>
+<p>At one point, Ng opened his manila folder of unread papers that he keeps in his backpack all the time. I've kept such a folder for a couple of months now, and it's validating to see that I had the right idea this whole time. More broadly, I'm now more confident in my goal <a href="/posts/why_papers.html">of consistently reading and summarizing papers</a>, which is the main reason I have this blog.</p>
+<p>Ng also mentioned how reading 2 or 3 papers a week for a year is a lot better than trying to cram lots of them at once. In education, spaced repetition works far better than cramming, and the same applies here. There's no way to get around sustained effort in research, which rewards persistence.</p>
+<p>One of the classes I took for my master's degree at Northwestern was a <a href="http://users.eecs.northwestern.edu/~josiah/eecs395_495/">research seminar on the Internet of Things</a>. The professor for that course linked to <a href="https://blizzard.cs.uwaterloo.ca/keshav/home/Papers/data/07/paper-reading.pdf">this advice</a> for reading papers, and a lot of that rings true here. It's where I first heard of the three-pass approach, and he also suggests the &ldquo;five C&rdquo; questions (category, context, correctness, contributions, clarity) to guide your understanding of the paper.</p>
+<p>I expect this advice to be quite useful as I continue reading papers in the next year and beyond. I'm excited to keep learning!</p>
     </div>
     <div class="article-footer">
     </div>
@@ -286,14 +299,9 @@
     <div class="bar-inner">
         <ul class="pager pull-left">
             <li class="prev">
-                <a href="/posts/software_in_dsci.html" title="Software engineering is an essential part of data science"><i
+                <a href="/what_i_read/20200215.html" title="What I read this week (February 9 - February 15)"><i
                         class="icon icon-angle-left"
                         aria-hidden="true"></i><span>&nbsp;&nbsp;Older</span></a>
-            </li>
-            <li class="next">
-                <a href="/posts/site_comparison_part2.html"
-                    title="Comparing my old and new sites, part 2"><span>Newer&nbsp;&nbsp;</span><i
-                        class="icon icon-angle-right" aria-hidden="true"></i></a>
             </li>
         </ul>
     </div>
