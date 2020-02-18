@@ -6,10 +6,19 @@
     <description>Recent content on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 17 Feb 2020 00:00:00 -0600</lastBuildDate>
+    <lastBuildDate>Sun, 16 Feb 2020 00:00:00 -0600</lastBuildDate>
     
         <atom:link href="/papers/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Data Indicators for Equity: Flash in the Pan or Mobilizing Force?</title>
+      <link>/posts/talk_equity_indicators.html</link>
+      <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/talk_equity_indicators.html</guid>
+      <description>&lt;p&gt;These are notes from a &lt;a href=&#34;https://www.meetup.com/ChicagoCityData/events/266787601/&#34;&gt;tech talk&lt;/a&gt; that I went to on December 4th. The talk was by &lt;strong&gt;Dan Cooper&lt;/strong&gt;, the Director of Research @ the &lt;a href=&#34;https://metroplanning.org&#34;&gt;Metropolitan Planning Council&lt;/a&gt;. It was hosted by the Chicago City Data Users Group.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Paper: Who is the &#39;Human&#39; in Human-Centered Machine Learning: The Case of Predicting Mental Health from Social Media</title>
@@ -134,7 +143,7 @@
       <pubDate>Wed, 16 Oct 2019 00:00:00 +0000</pubDate>
       
       <guid>/posts/silph.html</guid>
-      <description>pre::before { display: none; }pre::after { display: none; }analysis/*!** Twitter Bootstrap**//*!* Bootstrap v3.3.7 (http://getbootstrap.com)* Copyright 2011-2016 Twitter, Inc.* Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)*//*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */html {font-family: sans-serif;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;}body {margin: 0;}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary {display: block;}audio,canvas,progress,video {display: inline-block;vertical-align: baseline;}audio:not([controls]) {display: none;height: 0;}[hidden],template {display: none;}a {background-color: transparent;}a:active,a:hover {outline: 0;}abbr[title] {border-bottom: 1px dotted;}b,strong {font-weight: bold;}dfn {font-style: italic;}h1 {font-size: 2em;margin: 0.</description>
+      <description>pre::before { display: none; } pre::after { display: none; }   analysis   /*! * * Twitter Bootstrap * */ /*! * Bootstrap v3.3.7 (http://getbootstrap.com) * Copyright 2011-2016 Twitter, Inc. * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE) */ /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */ html { font-family: sans-serif; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; } body { margin: 0; } article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary { display: block; } audio, canvas, progress, video { display: inline-block; vertical-align: baseline; } audio:not([controls]) { display: none; height: 0; } [hidden], template { display: none; } a { background-color: transparent; } a:active, a:hover { outline: 0; } abbr[title] { border-bottom: 1px dotted; } b, strong { font-weight: bold; } dfn { font-style: italic; } h1 { font-size: 2em; margin: 0.</description>
     </item>
     
     <item>
@@ -181,15 +190,6 @@
       
       <guid>/spark/adversarial_attacks.html</guid>
       <description>&lt;p&gt;Speakers: Animesh Singh and Svetlana Levitan (IBM). They work at the &amp;ldquo;center for open source data and AI technologies&amp;rdquo; @ IBM.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Explain Yourself: Why You Get the Recommendations You Do</title>
-      <link>/spark/explain_yourself.html</link>
-      <pubDate>Thu, 25 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/spark/explain_yourself.html</guid>
-      <description>&lt;p&gt;Speakers: Niels Hanson (KPMG), Kishori Konwar (Broad Institute @ Harvard/MIT), Guohao Xiao (KPMG)&lt;/p&gt;</description>
     </item>
     
   </channel>

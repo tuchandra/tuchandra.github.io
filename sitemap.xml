@@ -3,54 +3,61 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/papers.html</loc>
-    <lastmod>2020-02-17T00:00:00-06:00</lastmod>
+    <loc>/posts.html</loc>
+    <lastmod>2020-02-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/categories.html</loc>
-    <lastmod>2020-02-17T00:00:00-06:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/papers/proposed_guidelines_xai_hall.html</loc>
-    <lastmod>2020-02-17T00:00:00-06:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/papers.html</loc>
-    <lastmod>2020-02-17T00:00:00-06:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2020-02-17T00:00:00-06:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/posts.html</loc>
-    <lastmod>2020-02-15T00:00:00-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/posts/advice_for_reading_papers_ng.html</loc>
-    <lastmod>2020-02-15T00:00:00-06:00</lastmod>
+    <lastmod>2020-02-18T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/categories/general.html</loc>
+    <lastmod>2020-02-18T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/posts/openai_unease.html</loc>
+    <lastmod>2020-02-18T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2020-02-18T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/papers.html</loc>
+    <lastmod>2020-02-16T00:00:00-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/papers/proposed_guidelines_xai_hall.html</loc>
+    <lastmod>2020-02-16T00:00:00-06:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/papers.html</loc>
+    <lastmod>2020-02-16T00:00:00-06:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/posts/advice_for_reading_papers_ng.html</loc>
     <lastmod>2020-02-15T00:00:00-06:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

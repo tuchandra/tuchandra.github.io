@@ -6,15 +6,24 @@
     <description>Recent content in papers on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 17 Feb 2020 00:00:00 -0600</lastBuildDate>
+    <lastBuildDate>Sun, 16 Feb 2020 00:00:00 -0600</lastBuildDate>
     
         <atom:link href="/categories/papers/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>OpenAI Unease</title>
+      <link>/posts/openai_unease.html</link>
+      <pubDate>Tue, 18 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/openai_unease.html</guid>
+      <description>&lt;p&gt;Earlier today, an article was posted at the MIT Technology Review: &lt;a href=&#34;https://www.technologyreview.com/s/615181/ai-openai-moonshot-elon-musk-sam-altman-greg-brockman-messy-secretive-reality/&#34;&gt;the messy, secretive reality behind OpenAI&#39;s bid to save the world&lt;/a&gt; by Karen Hao. As well-written as it is long, I started thinking about what OpenAI stands for and why it makes me increasingly uneasy.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Paper: Proposed Guidelines for the Responsible Use of Explainable Machine Learning</title>
       <link>/papers/proposed_guidelines_xai_hall.html</link>
-      <pubDate>Mon, 17 Feb 2020 00:00:00 -0600</pubDate>
+      <pubDate>Sun, 16 Feb 2020 00:00:00 -0600</pubDate>
       
       <guid>/papers/proposed_guidelines_xai_hall.html</guid>
       <description>&lt;p&gt;This is a paper attempting to make explainable AI (XAI) a little more concrete by developing proposed guidelines for its use. This was a workshop paper at NeurIPS 2019, then a talk at the KDD 2019 workshop.&lt;/p&gt;</description>
@@ -180,15 +189,6 @@
       
       <guid>/what_i_read/20200111.html</guid>
       <description>&lt;p&gt;Articles I read this week, including predictions for 2020 and FiveThirtyEight&#39;s primary methodology.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Comparing my old and new sites</title>
-      <link>/posts/site_comparison.html</link>
-      <pubDate>Mon, 06 Jan 2020 00:00:00 -0600</pubDate>
-      
-      <guid>/posts/site_comparison.html</guid>
-      <description>&lt;p&gt;I migrated my site a couple of days ago. What are some of the differences, both feature-wise and visually? I&#39;ll compare common actions on both.&lt;/p&gt;</description>
     </item>
     
   </channel>
