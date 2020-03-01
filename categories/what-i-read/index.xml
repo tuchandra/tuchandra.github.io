@@ -6,7 +6,7 @@
     <description>Recent content in what I read on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 22 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 29 Feb 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/categories/what-i-read/index.xml" rel="self" type="application/rss+xml" />
     
@@ -18,6 +18,15 @@
       
       <guid>/posts/openai_unease.html</guid>
       <description>&lt;p&gt;Early last week, an article was posted at the MIT Technology Review: &lt;a href=&#34;https://www.technologyreview.com/s/615181/ai-openai-moonshot-elon-musk-sam-altman-greg-brockman-messy-secretive-reality/&#34;&gt;the messy, secretive reality behind OpenAI&#39;s bid to save the world&lt;/a&gt; by Karen Hao. As well-written as it is long, I started thinking about what OpenAI stands for and why it makes me increasingly uneasy.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>What I read this week (February 23 - February 29)</title>
+      <link>/what_i_read/20200229.html</link>
+      <pubDate>Sat, 29 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/what_i_read/20200229.html</guid>
+      <description>&lt;p&gt;Happy leap year! This week focuses on articles about data science: production code, pipeline building, and design thinking.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -180,15 +189,6 @@
       
       <guid>/posts/site_comparison_part2.html</guid>
       <description>&lt;p&gt;In a &lt;a href=&#34;/posts/site_comparison.html&#34;&gt;previous post&lt;/a&gt;, I compared the features of my old and new site. This is part 2 of that post, focusing on things that I missed then that have only come up after a few weeks of using the site.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>What I read this week (January 12 - 18)</title>
-      <link>/what_i_read/20200118.html</link>
-      <pubDate>Sat, 18 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/what_i_read/20200118.html</guid>
-      <description>&lt;p&gt;Articles I read this week, including &amp;ldquo;goodbye clean code,&amp;rdquo; the Neural ODEs paper retrospective, and technical writing.&lt;/p&gt;</description>
     </item>
     
   </channel>
