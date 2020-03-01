@@ -6,10 +6,19 @@
     <description>Recent content on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 24 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Mar 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Software engineering is an essential part of data science</title>
+      <link>/posts/software_in_dsci.html</link>
+      <pubDate>Mon, 13 Jan 2020 00:00:00 -0600</pubDate>
+      
+      <guid>/posts/software_in_dsci.html</guid>
+      <description>&lt;p&gt;Good software engineering is an indispensible part of good data science. I&#39;ve believed this for a while, but only recently come to feel strongly about it, and this post goes into more detail on why.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Paper: &#39;This Post Will Just Get Taken Down&#39;: Characterizing Removed Pro-Eating Disorder Content on Social Media</title>
@@ -181,15 +190,6 @@
       
       <guid>/papers/spread_of_news_vosoughi.html</guid>
       <description>&lt;p&gt;Summary of &amp;ldquo;that paper on fake news&amp;rdquo; by Soroush Vosoughi, Deb Roy, and Sinan Aral, published in Science. View it on the &lt;a href=&#34;https://science.sciencemag.org/content/359/6380/1146&#34;&gt;Science website&lt;/a&gt;.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Features I would like to add to my SSG</title>
-      <link>/posts/features_for_site.html</link>
-      <pubDate>Mon, 09 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/features_for_site.html</guid>
-      <description>&lt;p&gt;I &lt;a href=&#34;https://tusharc.dev/site/about_website.html&#34;&gt;wrote&lt;/a&gt; about my SSG and how I built this website back in April. Over time, I&#39;ve started to realize that some of the features I stripped out may actually be useful. This post is a wishlist of features that I would like to add over time.&lt;/p&gt;</description>
     </item>
     
   </channel>
