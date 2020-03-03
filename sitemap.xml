@@ -39,40 +39,20 @@
   
   <url>
     <loc>/posts.html</loc>
-    <lastmod>2020-03-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-02-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/categories/general.html</loc>
-    <lastmod>2020-03-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-02-27T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/posts/openai_unease.html</loc>
-    <lastmod>2020-03-01T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/what_i_read.html</loc>
-    <lastmod>2020-02-29T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/what-i-read.html</loc>
-    <lastmod>2020-02-29T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/what_i_read/20200229.html</loc>
-    <lastmod>2020-02-29T00:00:00+00:00</lastmod>
+    <lastmod>2020-02-27T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -100,6 +80,19 @@
   <url>
     <loc>/categories/papers.html</loc>
     <lastmod>2020-02-23T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/what_i_read.html</loc>
+    <lastmod>2020-02-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/what-i-read.html</loc>
+    <lastmod>2020-02-22T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
