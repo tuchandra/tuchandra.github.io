@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>books on Tushar Chandra</title>
+    <link>/categories/books.html</link>
+    <description>Recent content in books on Tushar Chandra</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 02 Mar 2020 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="/categories/books/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Spark &#43; AI Summit 2019 Notes</title>
+      <link>/spark/spark_overview.html</link>
+      <pubDate>Tue, 30 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/spark/spark_overview.html</guid>
+      <description>&lt;p&gt;I was fortunate enough to attend &lt;a href=&#34;https://databricks.com/sparkaisummit/north-america&#34;&gt;Spark + AI Summit&lt;/a&gt; in San Francisco in April 2019. This page contains links to all my notes from the talks I listened to.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How I built my (old) website</title>
+      <link>/posts/about_website.html</link>
+      <pubDate>Mon, 29 Apr 2019 00:00:00 -0500</pubDate>
+      
+      <guid>/posts/about_website.html</guid>
+      <description>&lt;p&gt;You may have noticed that the &lt;a href=&#34;https://github.com/tuchandra/sitev1&#34;&gt;Github repo&lt;/a&gt; for this website has a tagline &amp;ldquo;&amp;hellip; for people who &lt;em&gt;aren&#39;t&lt;/em&gt; web developers.&amp;rdquo; I am a data scientist and certainly fit that description, and so I&#39;m going to talk about how I built this site using the tools I already know.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Update (Jan. 2, 2020)&lt;/strong&gt;: This post is outdated! See &lt;a href=&#34;/posts/migrating_to_hugo.html&#34;&gt;Migrating to Hugo&lt;/a&gt; for information on the new site.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Automating Predictive Modeling at Zynga with Pandas UDFs</title>
+      <link>/spark/automated_modeling.html</link>
+      <pubDate>Thu, 25 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/spark/automated_modeling.html</guid>
+      <description>&lt;p&gt;Speaker: Ben Weber (Principal Data Scientist @ Zynga).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Data Agility - A Journey to Advanced Analytics and ML at Scale</title>
+      <link>/spark/data_agility.html</link>
+      <pubDate>Thu, 25 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/spark/data_agility.html</guid>
+      <description>&lt;p&gt;Speaker: Hari Subramanian (Eng. Manager @ Uber).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Defending Deep Learning from Adversarial Attacks</title>
+      <link>/spark/adversarial_attacks.html</link>
+      <pubDate>Thu, 25 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/spark/adversarial_attacks.html</guid>
+      <description>&lt;p&gt;Speakers: Animesh Singh and Svetlana Levitan (IBM). They work at the &amp;ldquo;center for open source data and AI technologies&amp;rdquo; @ IBM.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Explain Yourself: Why You Get the Recommendations You Do</title>
+      <link>/spark/explain_yourself.html</link>
+      <pubDate>Thu, 25 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/spark/explain_yourself.html</guid>
+      <description>&lt;p&gt;Speakers: Niels Hanson (KPMG), Kishori Konwar (Broad Institute @ Harvard/MIT), Guohao Xiao (KPMG)&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How Graph Technology is Changing AI</title>
+      <link>/spark/graph_technology.html</link>
+      <pubDate>Thu, 25 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/spark/graph_technology.html</guid>
+      <description>&lt;p&gt;Speakers: Jake Graham and Alicia Frame (Neo4j).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Modular Apache Spark: Transform Your Code into Pieces</title>
+      <link>/spark/modular_spark.html</link>
+      <pubDate>Thu, 25 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/spark/modular_spark.html</guid>
+      <description>&lt;p&gt;Speaker: Albert Franzi (SWE @ Alpha Health).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Understanding Query Plans and Spark UIs</title>
+      <link>/spark/query_plans.html</link>
+      <pubDate>Thu, 25 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/spark/query_plans.html</guid>
+      <description>&lt;p&gt;Speaker: Xiao Li (Databricks).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Beyond Reason Codes: A Blueprint for Human-Centered, Low-Risk ML</title>
+      <link>/spark/interpretable_ai.html</link>
+      <pubDate>Wed, 24 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/spark/interpretable_ai.html</guid>
+      <description>&lt;p&gt;Speaker: Patrick Hall (H2O.ai).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>High Performance Transfer Learning for Classifying Intent of Sales Engagement Emails: An Experimental Study</title>
+      <link>/spark/transfer_learning.html</link>
+      <pubDate>Wed, 24 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/spark/transfer_learning.html</guid>
+      <description>&lt;p&gt;Speakers: Yong Liu (Outreach) and Corey Zumar (Databricks).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Moving a Fraud-Fighting Random Forest from sklearn to Spark with ML, MLflow, and Jupyter</title>
+      <link>/spark/fraud_fighting.html</link>
+      <pubDate>Wed, 24 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/spark/fraud_fighting.html</guid>
+      <description>&lt;p&gt;Speaker: Josh Johnston (Director of AI Science @ Kount).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Predicting Communities via Graph Algorithms</title>
+      <link>/spark/graph_algorithms.html</link>
+      <pubDate>Wed, 24 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/spark/graph_algorithms.html</guid>
+      <description>&lt;p&gt;Speaker: Amy Holder and Soren Reichardt (Neo4j).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Smart Join Algorithms for Fighting Skew at Scale</title>
+      <link>/spark/smart_join.html</link>
+      <pubDate>Wed, 24 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/spark/smart_join.html</guid>
+      <description>&lt;p&gt;Speaker: Andrew Clegg (Applied ML Group @ Yelp).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>About Me</title>
+      <link>/about/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>Hi, I&#39;m Tushar. I&#39;m a data scientist at Nielsen in Chicago, IL. I have an interest in human-computer interaction and how technology &amp;amp; new media are affecting our lives. On this site, I write summaries of papers that interest me along with other articles or talks.
+I can be reached at:
+ Github: tuchandra Email: me [at] tusharc [dot] dev  </description>
+    </item>
+    
+  </channel>
+</rss>
