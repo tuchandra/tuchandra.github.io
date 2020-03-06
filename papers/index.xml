@@ -12,6 +12,16 @@
     
     
     <item>
+      <title>New computer setup</title>
+      <link>/posts/new_computer_setup.html</link>
+      <pubDate>Thu, 05 Mar 2020 00:00:00 -0600</pubDate>
+      
+      <guid>/posts/new_computer_setup.html</guid>
+      <description>My work Macbook had to be sent in for repair, and the hard drive got wiped. I documented all the steps I took to set it up again. You can use this as a starting point for setting up a new machine, and so can I if I need to do this again soon!
+System preferences and settings Went to System Preferences &amp;gt; Keyboard &amp;gt; Modifier Keys to switch Option and Command on the Dell USB keyboard that I use, since by default the key closer to the spacebar was option (unlike the native Mac keyboard).</description>
+    </item>
+    
+    <item>
       <title>Network Propaganda, part 1</title>
       <link>/books/network_propaganda_1.html</link>
       <pubDate>Mon, 02 Mar 2020 00:00:00 +0000</pubDate>
@@ -180,15 +190,6 @@
       
       <guid>/what_i_read/20200125.html</guid>
       <description>&lt;p&gt;Articles I read this week, including &amp;ldquo;data science is different now&amp;rdquo; and a Washington Post editorial about regulating AI.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Comparing my old and new sites, part 2</title>
-      <link>/posts/site_comparison_part2.html</link>
-      <pubDate>Tue, 21 Jan 2020 00:00:00 -0600</pubDate>
-      
-      <guid>/posts/site_comparison_part2.html</guid>
-      <description>&lt;p&gt;In a &lt;a href=&#34;/posts/site_comparison.html&#34;&gt;previous post&lt;/a&gt;, I compared the features of my old and new site. This is part 2 of that post, focusing on things that I missed then that have only come up after a few weeks of using the site.&lt;/p&gt;</description>
     </item>
     
   </channel>
