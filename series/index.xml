@@ -38,6 +38,15 @@
     </item>
     
     <item>
+      <title>What I read this week (February 23 - February 29)</title>
+      <link>/what_i_read/20200229.html</link>
+      <pubDate>Sat, 29 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/what_i_read/20200229.html</guid>
+      <description>&lt;p&gt;Happy leap year! This week focuses on articles about data science: production code, pipeline building, and design thinking.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>OpenAI Unease</title>
       <link>/posts/openai_unease.html</link>
       <pubDate>Thu, 27 Feb 2020 00:00:00 +0000</pubDate>
@@ -179,15 +188,6 @@
       
       <guid>/papers/contrasting_social_support_chancellor.html</guid>
       <description>&lt;p&gt;My last of Chancellor&amp;rsquo;s papers for now. This paper studies the discourse within two online health communities for weight loss, /r/loseit and (the now banned) /r/proED. The authors discuss how different communities provide support differently and discuss design implications.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Paper: Multimodal Classification of Moderated Online Pro-Eating Disorder Content</title>
-      <link>/papers/classification_pro_ed_chancellor.html</link>
-      <pubDate>Sun, 26 Jan 2020 00:00:00 -0600</pubDate>
-      
-      <guid>/papers/classification_pro_ed_chancellor.html</guid>
-      <description>&lt;p&gt;This is another social computing paper that develops a deep learning classifier for pro-eating disorder content on Tumblr. This work bridges the gap between deep learning and social computing, contributing an image+text classifier for identifying deviant posts.&lt;/p&gt;</description>
     </item>
     
   </channel>
