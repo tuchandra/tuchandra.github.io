@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>What I read this week (March 1 - March 7)</title>
+      <link>/what_i_read/20200307.html</link>
+      <pubDate>Sat, 07 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/what_i_read/20200307.html</guid>
+      <description>&lt;p&gt;Hello! This week&amp;rsquo;s reading was a lot of Morning Paper articles, AI skepticism from a VC firm, and posts from /r/MachineLearning.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>New computer setup</title>
       <link>/posts/new_computer_setup.html</link>
       <pubDate>Thu, 05 Mar 2020 00:00:00 -0600</pubDate>
@@ -180,15 +189,6 @@
       
       <guid>/papers/classification_pro_ed_chancellor.html</guid>
       <description>&lt;p&gt;This is another social computing paper that develops a deep learning classifier for pro-eating disorder content on Tumblr. This work bridges the gap between deep learning and social computing, contributing an image+text classifier for identifying deviant posts.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>What I read this week (January 19 - 25)</title>
-      <link>/what_i_read/20200125.html</link>
-      <pubDate>Sat, 25 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/what_i_read/20200125.html</guid>
-      <description>&lt;p&gt;Articles I read this week, including &amp;ldquo;data science is different now&amp;rdquo; and a Washington Post editorial about regulating AI.&lt;/p&gt;</description>
     </item>
     
   </channel>
