@@ -6,10 +6,28 @@
     <description>Recent content on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 07 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 15 Mar 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Talk Notes: The Global Energy Challenge by Michael Greenstone</title>
+      <link>/posts/talk_global_energy_challenge.html</link>
+      <pubDate>Fri, 31 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/talk_global_energy_challenge.html</guid>
+      <description>&lt;p&gt;I had the pleasure of hearing &lt;a href=&#34;https://www.michaelgreenstone.com/&#34;&gt;Michael Greenstone&lt;/a&gt;, former Chief Economist to President Obama and now professor at UChicago, speak about the Global Energy Challenge. These are my notes and my thoughts.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Paper: Norms Matter: Contrasting Social Support Around Behavior Change in Online Weight Loss Communities</title>
+      <link>/papers/contrasting_social_support_chancellor.html</link>
+      <pubDate>Tue, 28 Jan 2020 00:00:00 -0600</pubDate>
+      
+      <guid>/papers/contrasting_social_support_chancellor.html</guid>
+      <description>&lt;p&gt;My last of Chancellor&#39;s papers for now. This paper studies the discourse within two online health communities for weight loss, /r/loseit and (the now banned) /r/proED. The authors discuss how different communities provide support differently and discuss design implications.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Paper: Multimodal Classification of Moderated Online Pro-Eating Disorder Content</title>
@@ -53,7 +71,7 @@
       <pubDate>Mon, 13 Jan 2020 00:00:00 -0600</pubDate>
       
       <guid>/posts/software_in_dsci.html</guid>
-      <description>&lt;p&gt;Good software engineering is an indispensible part of good data science. I&amp;rsquo;ve believed this for a while, but only recently come to feel strongly about it, and this post goes into more detail on why.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Good software engineering is an indispensible part of good data science. I&#39;ve believed this for a while, but only recently come to feel strongly about it, and this post goes into more detail on why.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -71,7 +89,7 @@
       <pubDate>Sat, 11 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>/what_i_read/20200111.html</guid>
-      <description>&lt;p&gt;Articles I read this week, including predictions for 2020 and FiveThirtyEight&amp;rsquo;s primary methodology.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Articles I read this week, including predictions for 2020 and FiveThirtyEight&#39;s primary methodology.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -80,7 +98,7 @@
       <pubDate>Mon, 06 Jan 2020 00:00:00 -0600</pubDate>
       
       <guid>/posts/site_comparison.html</guid>
-      <description>&lt;p&gt;I migrated my site a couple of days ago. What are some of the differences, both feature-wise and visually? I&amp;rsquo;ll compare common actions on both.&lt;/p&gt;</description>
+      <description>&lt;p&gt;I migrated my site a couple of days ago. What are some of the differences, both feature-wise and visually? I&#39;ll compare common actions on both.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -116,7 +134,7 @@
       <pubDate>Thu, 02 Jan 2020 00:00:00 -0600</pubDate>
       
       <guid>/posts/migrating_to_hugo.html</guid>
-      <description>&lt;p&gt;Hello, Hugo! This post marks the first one written specifically for the new version of my site, built with &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt;. In this post, I&amp;rsquo;ll outline some of the reasons for switching to Hugo and talk about the process of moving everything over.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Hello, Hugo! This post marks the first one written specifically for the new version of my site, built with &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt;. In this post, I&#39;ll outline some of the reasons for switching to Hugo and talk about the process of moving everything over.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -125,8 +143,8 @@
       <pubDate>Thu, 02 Jan 2020 00:00:00 -0600</pubDate>
       
       <guid>/reading/</guid>
-      <description>&lt;p&gt;This is a page of things I&amp;rsquo;m hoping to read &amp;ldquo;soon&amp;rdquo; (for some value of soon). It&amp;rsquo;s some cross between a digital bookshelf and public bookmarks, where I drop papers that cross my radar or blog posts, talks, or other ideas.&lt;/p&gt;
-&lt;p&gt;Some of these I&amp;rsquo;ve printed out and carry around with me. Others are unlikely to ever be read because they&amp;rsquo;re so far out of my areas of expertise or interest. While this page is mostly for my own reference, it also pretty broadly shows the types of work I&amp;rsquo;m interested in.&lt;/p&gt;</description>
+      <description>&lt;p&gt;This is a page of things I&#39;m hoping to read &amp;ldquo;soon&amp;rdquo; (for some value of soon). It&#39;s some cross between a digital bookshelf and public bookmarks, where I drop papers that cross my radar or blog posts, talks, or other ideas.&lt;/p&gt;
+&lt;p&gt;Some of these I&#39;ve printed out and carry around with me. Others are unlikely to ever be read because they&#39;re so far out of my areas of expertise or interest. While this page is mostly for my own reference, it also pretty broadly shows the types of work I&#39;m interested in.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -135,7 +153,7 @@
       <pubDate>Tue, 31 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>/resume/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m currently a data scientist at Nielsen. I did my master&amp;rsquo;s in computer science and undergrad in computer science and the &lt;a href=&#34;https://www.isp.northwestern.edu/&#34;&gt;Integrated Science Program&lt;/a&gt;, both at Northwestern (go &amp;lsquo;cats!). My email address is me@(this domain).&lt;/p&gt;</description>
+      <description>&lt;p&gt;I&#39;m currently a data scientist at Nielsen. I did my master&#39;s in computer science and undergrad in computer science and the &lt;a href=&#34;https://www.isp.northwestern.edu/&#34;&gt;Integrated Science Program&lt;/a&gt;, both at Northwestern (go &amp;lsquo;cats!). My email address is me@(this domain).&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -153,7 +171,7 @@
       <pubDate>Sun, 29 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>/papers/discrimination_algorithms_kleinberg_1.html</guid>
-      <description>&lt;p&gt;Summary of the paper by Jon Kleinberg, Jens Ludwig, Sendhil Mullainathan, and Cass R Sunstein, published in the &lt;a href=&#34;https://academic.oup.com/jla/article/doi/10.1093/jla/laz001/5476086&#34;&gt;Journal of Legal Analysis&lt;/a&gt; (yeah, a law journal, we&amp;rsquo;ll see how reading this goes).&lt;/p&gt;</description>
+      <description>&lt;p&gt;Summary of the paper by Jon Kleinberg, Jens Ludwig, Sendhil Mullainathan, and Cass R Sunstein, published in the &lt;a href=&#34;https://academic.oup.com/jla/article/doi/10.1093/jla/laz001/5476086&#34;&gt;Journal of Legal Analysis&lt;/a&gt; (yeah, a law journal, we&#39;ll see how reading this goes).&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -172,24 +190,6 @@
       
       <guid>/what_i_read/20191228.html</guid>
       <description>&lt;p&gt;Articles I read this week, including posts on AI bias, life without cell phones, and regulating AI.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Celeste Kidd: How to Know (NeurIPS 2019)</title>
-      <link>/posts/talk_kidd_neurips.html</link>
-      <pubDate>Fri, 27 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/talk_kidd_neurips.html</guid>
-      <description>&lt;p&gt;This is a summary of Celeste Kidd&amp;rsquo;s invited talk at NeurIPS 2019, &lt;a href=&#34;https://slideslive.com/38921495/how-to-know&#34;&gt;How to Know&lt;/a&gt;, plus some thoughts at the end.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Reflections on ImageNet bias in the news</title>
-      <link>/posts/imagenet_bias_wired.html</link>
-      <pubDate>Thu, 26 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/imagenet_bias_wired.html</guid>
-      <description>&lt;p&gt;This post is a reflection on two articles, &lt;a href=&#34;https://www.wired.com/story/viral-app-labels-you-isnt-what-you-think/&#34;&gt;The viral app that labels you isn&amp;rsquo;t quite what you think&lt;/a&gt; and &lt;a href=&#34;https://www.wired.com/story/ai-biased-how-scientists-trying-fix/&#34;&gt;AI is biased. Here&amp;rsquo;s how scientists are trying to fix it&lt;/a&gt;, both from Wired.&lt;/p&gt;</description>
     </item>
     
   </channel>

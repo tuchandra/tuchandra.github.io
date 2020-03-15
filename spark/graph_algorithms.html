@@ -23,7 +23,7 @@
   
   <meta name="description" content="Speaker: Amy Holder and Soren Reichardt (Neo4j).
 " />
-  <meta name="generator" content="Hugo 0.65.3 with theme pure" />
+  <meta name="generator" content="Hugo 0.62.2 with theme pure" />
   <title>Predicting Communities via Graph Algorithms - Tushar Chandra</title>
   
 
@@ -160,7 +160,7 @@
             <li class="category-list-item"><a href="/categories/papers.html" class="category-list-link">papers</a><span class="category-list-count">20</span></li>
             <li class="category-list-item"><a href="/categories/self.html" class="category-list-link">self</a><span class="category-list-count">3</span></li>
             <li class="category-list-item"><a href="/categories/spark.html" class="category-list-link">spark</a><span class="category-list-count">13</span></li>
-            <li class="category-list-item"><a href="/categories/what-i-read.html" class="category-list-link">what-i-read</a><span class="category-list-count">15</span></li>
+            <li class="category-list-item"><a href="/categories/what-i-read.html" class="category-list-link">what-i-read</a><span class="category-list-count">17</span></li>
         </ul>
     </div>
 </div>
@@ -168,6 +168,26 @@
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget-body">
         <ul class="recent-post-list list-unstyled no-thumbnail">
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/what_i_read/20200315_coronavirus.html" class="title">What I read recently (coronavirus edition)</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-03-15 00:00:00 &#43;0000 UTC" itemprop="datePublished">2020-03-15</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/what_i_read/20200314.html" class="title">What I read this week (March 8 - March 14)</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-03-14 00:00:00 &#43;0000 UTC" itemprop="datePublished">2020-03-14</time>
+                    </p>
+                </div>
+            </li>
             <li>
                 <div class="item-inner">
                     <p class="item-title">
@@ -195,26 +215,6 @@
                     </p>
                     <p class="item-date">
                         <time datetime="2020-03-02 00:00:00 &#43;0000 UTC" itemprop="datePublished">2020-03-02</time>
-                    </p>
-                </div>
-            </li>
-            <li>
-                <div class="item-inner">
-                    <p class="item-title">
-                        <a href="/what_i_read/20200229.html" class="title">What I read this week (February 23 - February 29)</a>
-                    </p>
-                    <p class="item-date">
-                        <time datetime="2020-02-29 00:00:00 &#43;0000 UTC" itemprop="datePublished">2020-02-29</time>
-                    </p>
-                </div>
-            </li>
-            <li>
-                <div class="item-inner">
-                    <p class="item-title">
-                        <a href="/posts/openai_unease.html" class="title">OpenAI Unease</a>
-                    </p>
-                    <p class="item-date">
-                        <time datetime="2020-02-27 00:00:00 &#43;0000 UTC" itemprop="datePublished">2020-02-27</time>
                     </p>
                 </div>
             </li>
@@ -264,7 +264,7 @@
 </ul>
 <p>All require you to understand the structure of your data.</p>
 <h2 id="real-world-data">Real-World Data</h2>
-<p>If you assume that most nodes have the same number of relationships, then you would have a Gaussian distributions of relationships &hellip; but network science tells us that this doesn&rsquo;t happen in nature.</p>
+<p>If you assume that most nodes have the same number of relationships, then you would have a Gaussian distributions of relationships &hellip; but network science tells us that this doesn't happen in nature.</p>
 <p>Instead, number relationships and nodes follows a quasi-power law distribtuion.</p>
 <pre><code>number of relationships
 | *
@@ -294,7 +294,7 @@
 </ul>
 <p><strong>Spark 3.0</strong> is going to have &ldquo;property graph model&rdquo; with Cypher queries and graph algorithms. Unclear what all this means tbh. Meanwhile, Neo4j is a native graph platform.</p>
 <h2 id="demo">Demo</h2>
-<p>They&rsquo;re gonna use a Game of Thrones script dataset, making a graph based on how close names are to each other within the script. Tools include Spark GraphFrames (which will be deprecated in favor of Cypher in 3.0) and the Neo4j platform.</p>
+<p>They're gonna use a Game of Thrones script dataset, making a graph based on how close names are to each other within the script. Tools include Spark GraphFrames (which will be deprecated in favor of Cypher in 3.0) and the Neo4j platform.</p>
 <h3 id="triangles-and-the-clustering-coefficient">Triangles and the clustering coefficient</h3>
 <p>Use these tools for:</p>
 <ul>
@@ -304,14 +304,14 @@
 <li>scoring for other analyses</li>
 </ul>
 <p>An example is spam classification; using a semi-streaming webpage analysis, you can look at if webpages are linked to others or just sitting by themselves. The clustering coefficient is the <strong>measure of how much nodes tend to cluster together</strong>.</p>
-<p>The demo showed off generating the degree of the different characters and the clustering coefficient. Some of them have a high degree (many connections) but low clustering coefficient (but their connections aren&rsquo;t very conneted to each ohter), and others have the opposite.</p>
+<p>The demo showed off generating the degree of the different characters and the clustering coefficient. Some of them have a high degree (many connections) but low clustering coefficient (but their connections aren't very conneted to each ohter), and others have the opposite.</p>
 <h3 id="closeness-centrality">Closeness centrality</h3>
-<p>Use when you&rsquo;re finding which nodes disseminate things the fastest. Weighted relationships are helpful in evaluating interaction speeds in communication and behavioral analysis. This can be used as a heuristic for logistics or arrival times; another example is terrorist network analysis, where they ask &ldquo;who in this network could acquire the most vital information?&rdquo;</p>
+<p>Use when you're finding which nodes disseminate things the fastest. Weighted relationships are helpful in evaluating interaction speeds in communication and behavioral analysis. This can be used as a heuristic for logistics or arrival times; another example is terrorist network analysis, where they ask &ldquo;who in this network could acquire the most vital information?&rdquo;</p>
 <p>Looks at <strong>which nodes have the smallest distance to all other nodes</strong>. &ldquo;Which node can most easily reach the others?&rdquo;</p>
-<p>Demo: the Spark version doesn&rsquo;t run on his computer because of all the UDFs &hellip; then talked about <strong>aggregate messages</strong>, which for every vertex computes something and sends it to the neighbors. This &hellip; didn&rsquo;t make a ton of sense.</p>
+<p>Demo: the Spark version doesn't run on his computer because of all the UDFs &hellip; then talked about <strong>aggregate messages</strong>, which for every vertex computes something and sends it to the neighbors. This &hellip; didn't make a ton of sense.</p>
 <h3 id="pagerank">PageRank</h3>
-<p>Use when you&rsquo;re looking for <strong>broad influence over a network</strong>. There are <em>tons</em> of domain specific variations of this, e.g., personalized recommendations. Exampes include recommendations on Twitter (who to follow) or fraud detection (super interesting but unclear how).</p>
-<p>Measures the transitive influence of nodes, considering the influence of neighbors and their neighbors. People acquire credibility and influence from others with credibility and influence. You gotta be careful with node types here, because this compares node types to each other; you can&rsquo;t use this on a graph of e.g., products and humans (unless you&rsquo;re interested in open research questions).</p>
+<p>Use when you're looking for <strong>broad influence over a network</strong>. There are <em>tons</em> of domain specific variations of this, e.g., personalized recommendations. Exampes include recommendations on Twitter (who to follow) or fraud detection (super interesting but unclear how).</p>
+<p>Measures the transitive influence of nodes, considering the influence of neighbors and their neighbors. People acquire credibility and influence from others with credibility and influence. You gotta be careful with node types here, because this compares node types to each other; you can't use this on a graph of e.g., products and humans (unless you're interested in open research questions).</p>
 <p>Demo: was a one-liner in the GraphFrames API. Not interesting, but showed off who the most &ldquo;influential&rdquo; characters within GoT are.</p>
 <p>###Betweenness Centrality</p>
 <p>Use for:</p>
@@ -332,7 +332,7 @@
 </ul>
 <p>Interesting example uses graphs and label propagation to look at drug combinations to see if they might be dangerous; they use chemical similarity and side effects to see what drugs should not be prescribed together.</p>
 <p>Nodes adapt labels based on neighbors to infer clusters; weight relationships or nodes. This is non-deterministic, and seed labels are very powerful and can propogate through a network. That means this can be used as a semi-supervised learning technique.</p>
-<p>The demo used Spark again, and assigned random labels and watched them propogate. They say that this loosely matched the houses in GoT, which … okay. Then they went into Neo4j and looked at the clusters visually - that was awesome, showed one cluster that&rsquo;s super disconnected because they&rsquo;re an island, one cluster that&rsquo;s King&rsquo;s Landing (?) and man I know nothing about GoT.</p>
+<p>The demo used Spark again, and assigned random labels and watched them propogate. They say that this loosely matched the houses in GoT, which … okay. Then they went into Neo4j and looked at the clusters visually - that was awesome, showed one cluster that's super disconnected because they're an island, one cluster that's King's Landing (?) and man I know nothing about GoT.</p>
 <h3 id="louvain-modularity">Louvain Modularity</h3>
 <p>Use for:</p>
 <ul>

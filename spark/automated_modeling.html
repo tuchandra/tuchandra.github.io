@@ -23,7 +23,7 @@
   
   <meta name="description" content="Speaker: Ben Weber (Principal Data Scientist @ Zynga).
 " />
-  <meta name="generator" content="Hugo 0.65.3 with theme pure" />
+  <meta name="generator" content="Hugo 0.62.2 with theme pure" />
   <title>Automating Predictive Modeling at Zynga with Pandas UDFs - Tushar Chandra</title>
   
 
@@ -160,7 +160,7 @@
             <li class="category-list-item"><a href="/categories/papers.html" class="category-list-link">papers</a><span class="category-list-count">20</span></li>
             <li class="category-list-item"><a href="/categories/self.html" class="category-list-link">self</a><span class="category-list-count">3</span></li>
             <li class="category-list-item"><a href="/categories/spark.html" class="category-list-link">spark</a><span class="category-list-count">13</span></li>
-            <li class="category-list-item"><a href="/categories/what-i-read.html" class="category-list-link">what-i-read</a><span class="category-list-count">15</span></li>
+            <li class="category-list-item"><a href="/categories/what-i-read.html" class="category-list-link">what-i-read</a><span class="category-list-count">17</span></li>
         </ul>
     </div>
 </div>
@@ -168,6 +168,26 @@
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget-body">
         <ul class="recent-post-list list-unstyled no-thumbnail">
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/what_i_read/20200315_coronavirus.html" class="title">What I read recently (coronavirus edition)</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-03-15 00:00:00 &#43;0000 UTC" itemprop="datePublished">2020-03-15</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/what_i_read/20200314.html" class="title">What I read this week (March 8 - March 14)</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-03-14 00:00:00 &#43;0000 UTC" itemprop="datePublished">2020-03-14</time>
+                    </p>
+                </div>
+            </li>
             <li>
                 <div class="item-inner">
                     <p class="item-title">
@@ -195,26 +215,6 @@
                     </p>
                     <p class="item-date">
                         <time datetime="2020-03-02 00:00:00 &#43;0000 UTC" itemprop="datePublished">2020-03-02</time>
-                    </p>
-                </div>
-            </li>
-            <li>
-                <div class="item-inner">
-                    <p class="item-title">
-                        <a href="/what_i_read/20200229.html" class="title">What I read this week (February 23 - February 29)</a>
-                    </p>
-                    <p class="item-date">
-                        <time datetime="2020-02-29 00:00:00 &#43;0000 UTC" itemprop="datePublished">2020-02-29</time>
-                    </p>
-                </div>
-            </li>
-            <li>
-                <div class="item-inner">
-                    <p class="item-title">
-                        <a href="/posts/openai_unease.html" class="title">OpenAI Unease</a>
-                    </p>
-                    <p class="item-date">
-                        <time datetime="2020-02-27 00:00:00 &#43;0000 UTC" itemprop="datePublished">2020-02-27</time>
                     </p>
                 </div>
             </li>
@@ -277,7 +277,7 @@
 </li>
 <li><strong>feature engineering</strong>, with featuretools
 <ul>
-<li>&ldquo;here&rsquo;s a deep but narrow format … we want to create a shallow but wide format that we can use later&rdquo;</li>
+<li>&ldquo;here's a deep but narrow format … we want to create a shallow but wide format that we can use later&rdquo;</li>
 <li>use featuretools to do this programatically and at scale</li>
 </ul>
 </li>
@@ -299,13 +299,13 @@
 </ul>
 <p>Instead of a data scientist saying &ldquo;count the number of distinct days played,&rdquo; they use this to automate that and much more.</p>
 <p><strong><a href="https://github.com/Featuretools/featuretools">Feature Tools</a></strong> is a library for deep feature synthesis. Represent your data as entity sets and identify feature descriptors for transforming data into new representations. They went into detail about the entity set; you have entities customers and transactions, which share a customer_id relationship … etc.</p>
-<p>Once you&rsquo;ve done that, you can perform <strong>deep feature synthesis</strong>. It comes up with a ton of different features for you. He went on and demoed some code about how they did this.</p>
-<p>&ldquo;For anyone worried about GDPR, this isn&rsquo;t our dataset, it&rsquo;s a sample dataset … that&rsquo;s a note for our legal team.&rdquo; Love it.</p>
+<p>Once you've done that, you can perform <strong>deep feature synthesis</strong>. It comes up with a ton of different features for you. He went on and demoed some code about how they did this.</p>
+<p>&ldquo;For anyone worried about GDPR, this isn't our dataset, it's a sample dataset … that's a note for our legal team.&rdquo; Love it.</p>
 <h3 id="scaling-up-via-pandas-udfs">Scaling up via Pandas UDFs</h3>
 <p>FeatureTools only works on a Pandas dataframe, so uh oh. Their options were to either (1) parallelize the process, (2) translate feature descriptions to Spark SQL, or (3) find a way to distribute the task.</p>
 <ul>
 <li>Parallelizing the process was just way too daunting to be able to do</li>
-<li>Translating to Spark SQL worked but still didn&rsquo;t work very well, it was still slow</li>
+<li>Translating to Spark SQL worked but still didn't work very well, it was still slow</li>
 <li>So they had to learn about Pandas UDFs.</li>
 </ul>
 <p><strong>Pandas UDFs</strong> were introduced in Spark 2.3, and it lets you partition the Spark DF into Pandas DFs across your cluster, do a computation, then bring it back to Spark. Each worker takes a Pandas input, runs UDFs on it, and generates a Pandas output. PyArrow does the conversion between Spark and Pandas.</p>
@@ -318,14 +318,14 @@
 <p>See this <a href="https://towardsdatascience.com/automated-feature-engineering-for-predictive-modeling-d8c9fa4e478b">Towards Data Science article</a> for an example of distributing this.</p>
 <p>But then they hit a lot of issues:</p>
 <ul>
-<li>debugging is a challenge; since you&rsquo;re executing on worker nodes, you have to go to the Spark logs to see what&rsquo;s going on when an exception occurs</li>
+<li>debugging is a challenge; since you're executing on worker nodes, you have to go to the Spark logs to see what's going on when an exception occurs</li>
 <li>pushing the limits of PyArrow, they found some edge cases that were open Github issues</li>
-<li>Pandas UDFs are also newer and so you&rsquo;re going to hit some edge case bugs</li>
+<li>Pandas UDFs are also newer and so you're going to hit some edge case bugs</li>
 <li>data type mismatches between Pandas and Spark caused bugs, too</li>
-<li>the schema needs to be known before the UDF is computed; for them, this means they have to do a sampling step where they figure out what the schema will be after deep feature synthesis happens … but you can&rsquo;t just distribute DFS and go.</li>
+<li>the schema needs to be known before the UDF is computed; for them, this means they have to do a sampling step where they figure out what the schema will be after deep feature synthesis happens … but you can't just distribute DFS and go.</li>
 </ul>
 <h3 id="modeling-and-publishing">Modeling and Publishing</h3>
-<p>They use gradient boosted trees and XGBoost for classification. They tune hyperparameters with ParamGridBuilder and CrossValidator. Great, that&rsquo;s all standard.</p>
+<p>They use gradient boosted trees and XGBoost for classification. They tune hyperparameters with ParamGridBuilder and CrossValidator. Great, that's all standard.</p>
 <p>They publish to Couchbase for game teams to use. Then they decided to productionalize with Databricks — a driver notebook can use the jobs API to have different models running for different games in different notebooks.</p>
 <h3 id="other-uses-of-pandas-udfs">Other uses of Pandas UDFs</h3>
 <p>They found out ways to distribute statsmodels, scipy, and numpy to help distribute experimentation. None of these were intended to be run on Spark, but Pandas UDFs enables this … as long as you can partition your data in some way.</p>
