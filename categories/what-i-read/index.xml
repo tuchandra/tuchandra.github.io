@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Is Twitter real life?</title>
+      <link>/posts/is_twitter_real_life.html</link>
+      <pubDate>Mon, 16 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/is_twitter_real_life.html</guid>
+      <description>&lt;p&gt;I&#39;ve thought, and read, a lot about the extent to which Twitter is a good signal of what&#39;s happening in the world&amp;mdash;colloquially, the phrase being thrown around is &amp;ldquo;Twitter (is / isn&#39;t) real life.&amp;rdquo; Much like Twitter itself, this question oversimplifies things.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>What I read recently (coronavirus edition)</title>
       <link>/what_i_read/20200315_coronavirus.html</link>
       <pubDate>Sun, 15 Mar 2020 00:00:00 +0000</pubDate>
@@ -180,15 +189,6 @@
       
       <guid>/what_i_read/20200205.html</guid>
       <description>&lt;p&gt;Three article summaries, which I&#39;m breaking out from my usual &amp;ldquo;what I read&amp;rdquo; posts because of the common theme (of CS research &amp;amp; grad school) that connects them.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>What I read this week (January 26 - February 1)</title>
-      <link>/what_i_read/20200201.html</link>
-      <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/what_i_read/20200201.html</guid>
-      <description>&lt;p&gt;Articles I read this week, including about Python 3.9, regulation of tech companies, and a host of short articles.&lt;/p&gt;</description>
     </item>
     
   </channel>
