@@ -6,10 +6,19 @@
     <description>Recent content in papers on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 23 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Mar 2020 00:00:00 -0500</lastBuildDate>
     
         <atom:link href="/categories/papers/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Using papermill to wrap model runs</title>
+      <link>/posts/papermill_experiences.html</link>
+      <pubDate>Fri, 15 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/papermill_experiences.html</guid>
+      <description>&lt;p&gt;I recently started using &lt;a href=&#34;https://github.com/nteract/papermill/&#34;&gt;papermill&lt;/a&gt; from nteract to parameterize model runs. I&amp;rsquo;ve started to like it a lot, and this post will discuss my experiences with it and my current setup.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Paper: The Curse of Knowledge in Visual Data Communication</title>
@@ -17,7 +26,7 @@
       <pubDate>Wed, 13 Nov 2019 00:00:00 +0000</pubDate>
       
       <guid>/papers/curse_of_knowledge_xiong.html</guid>
-      <description>&lt;p&gt;This is the first of (hopefully!) many paper reviews I&#39;ll be writing on this blog. Inspired by &lt;a href=&#34;https://blog.acolyer.org/about/&#34;&gt;The Morning Paper&lt;/a&gt;, my goal is to read a lot of papers over the next several months (and longer). This one is a psychology paper by Cindy Xiong, Lisanne van Weelden, and Steven Franconeri. View it on the &lt;a href=&#34;http://visualthinking.psych.northwestern.edu/VisualizationCurse2017/Xiong,%20van%20Weelden%20&amp;amp;%20Franconeri%20InfoVis%202017%20.pdf&#34;&gt;Northwestern Psychology department&lt;/a&gt;.&lt;/p&gt;</description>
+      <description>&lt;p&gt;This is the first of (hopefully!) many paper reviews I&amp;rsquo;ll be writing on this blog. Inspired by &lt;a href=&#34;https://blog.acolyer.org/about/&#34;&gt;The Morning Paper&lt;/a&gt;, my goal is to read a lot of papers over the next several months (and longer). This one is a psychology paper by Cindy Xiong, Lisanne van Weelden, and Steven Franconeri. View it on the &lt;a href=&#34;http://visualthinking.psych.northwestern.edu/VisualizationCurse2017/Xiong,%20van%20Weelden%20&amp;amp;%20Franconeri%20InfoVis%202017%20.pdf&#34;&gt;Northwestern Psychology department&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -71,7 +80,7 @@
       <pubDate>Mon, 29 Apr 2019 00:00:00 -0500</pubDate>
       
       <guid>/posts/about_website.html</guid>
-      <description>&lt;p&gt;You may have noticed that the &lt;a href=&#34;https://github.com/tuchandra/sitev1&#34;&gt;Github repo&lt;/a&gt; for this website has a tagline &amp;ldquo;&amp;hellip; for people who &lt;em&gt;aren&#39;t&lt;/em&gt; web developers.&amp;rdquo; I am a data scientist and certainly fit that description, and so I&#39;m going to talk about how I built this site using the tools I already know.&lt;/p&gt;
+      <description>&lt;p&gt;You may have noticed that the &lt;a href=&#34;https://github.com/tuchandra/sitev1&#34;&gt;Github repo&lt;/a&gt; for this website has a tagline &amp;ldquo;&amp;hellip; for people who &lt;em&gt;aren&amp;rsquo;t&lt;/em&gt; web developers.&amp;rdquo; I am a data scientist and certainly fit that description, and so I&amp;rsquo;m going to talk about how I built this site using the tools I already know.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Update (Jan. 2, 2020)&lt;/strong&gt;: This post is outdated! See &lt;a href=&#34;/posts/migrating_to_hugo.html&#34;&gt;Migrating to Hugo&lt;/a&gt; for information on the new site.&lt;/p&gt;</description>
     </item>
     
@@ -181,17 +190,6 @@
       
       <guid>/spark/smart_join.html</guid>
       <description>&lt;p&gt;Speaker: Andrew Clegg (Applied ML Group @ Yelp).&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>About Me</title>
-      <link>/about/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/about/</guid>
-      <description>Hi, I&#39;m Tushar. I&#39;m a data scientist at Nielsen in Chicago, IL. I have an interest in human-computer interaction and how technology &amp;amp; new media are affecting our lives. On this site, I write summaries of papers that interest me along with other articles or talks.
-I can be reached at:
- Github: tuchandra Email: me [at] tusharc [dot] dev  </description>
     </item>
     
   </channel>

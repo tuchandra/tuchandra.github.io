@@ -21,9 +21,9 @@
   <meta name="theme-color" content="#000000" />
   <meta http-equiv="window-target" content="_top" />
   
-  <meta name="description" content="Good software engineering is an indispensible part of good data science. I&#39;ve believed this for a while, but only recently come to feel strongly about it, and this post goes into more detail on why.
+  <meta name="description" content="Good software engineering is an indispensible part of good data science. I&amp;rsquo;ve believed this for a while, but only recently come to feel strongly about it, and this post goes into more detail on why.
 " />
-  <meta name="generator" content="Hugo 0.62.2 with theme pure" />
+  <meta name="generator" content="Hugo 0.65.3 with theme pure" />
   <title>Software engineering is an essential part of data science - Tushar Chandra</title>
   
 
@@ -31,13 +31,13 @@
   <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
   <meta property="og:title" content="Software engineering is an essential part of data science" />
-<meta property="og:description" content="Good software engineering is an indispensible part of good data science. I&#39;ve believed this for a while, but only recently come to feel strongly about it, and this post goes into more detail on why." />
+<meta property="og:description" content="Good software engineering is an indispensible part of good data science. I&rsquo;ve believed this for a while, but only recently come to feel strongly about it, and this post goes into more detail on why." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/posts/software_in_dsci.html" />
 <meta property="article:published_time" content="2020-01-13T00:00:00-06:00" />
 <meta property="article:modified_time" content="2020-01-13T00:00:00-06:00" />
 <meta itemprop="name" content="Software engineering is an essential part of data science">
-<meta itemprop="description" content="Good software engineering is an indispensible part of good data science. I&#39;ve believed this for a while, but only recently come to feel strongly about it, and this post goes into more detail on why.">
+<meta itemprop="description" content="Good software engineering is an indispensible part of good data science. I&rsquo;ve believed this for a while, but only recently come to feel strongly about it, and this post goes into more detail on why.">
 <meta itemprop="datePublished" content="2020-01-13T00:00:00-06:00" />
 <meta itemprop="dateModified" content="2020-01-13T00:00:00-06:00" />
 <meta itemprop="wordCount" content="1106">
@@ -46,7 +46,7 @@
 
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Software engineering is an essential part of data science"/>
-<meta name="twitter:description" content="Good software engineering is an indispensible part of good data science. I&#39;ve believed this for a while, but only recently come to feel strongly about it, and this post goes into more detail on why."/>
+<meta name="twitter:description" content="Good software engineering is an indispensible part of good data science. I&rsquo;ve believed this for a while, but only recently come to feel strongly about it, and this post goes into more detail on why."/>
 </head>
   </head>
   
@@ -157,7 +157,7 @@
         <ul class="category-list">
             <li class="category-list-item"><a href="/categories/books.html" class="category-list-link">books</a><span class="category-list-count">1</span></li>
             <li class="category-list-item"><a href="/categories/general.html" class="category-list-link">general</a><span class="category-list-count">26</span></li>
-            <li class="category-list-item"><a href="/categories/papers.html" class="category-list-link">papers</a><span class="category-list-count">20</span></li>
+            <li class="category-list-item"><a href="/categories/papers.html" class="category-list-link">papers</a><span class="category-list-count">21</span></li>
             <li class="category-list-item"><a href="/categories/self.html" class="category-list-link">self</a><span class="category-list-count">3</span></li>
             <li class="category-list-item"><a href="/categories/spark.html" class="category-list-link">spark</a><span class="category-list-count">13</span></li>
             <li class="category-list-item"><a href="/categories/what-i-read.html" class="category-list-link">what-i-read</a><span class="category-list-count">17</span></li>
@@ -168,6 +168,16 @@
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget-body">
         <ul class="recent-post-list list-unstyled no-thumbnail">
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/papers/interpreting_interpretability_kaur.html" class="title">Paper: Interpreting Interpretability: Understanding Data Scientists&#39; Use of Interpretability Tools for Machine Learning</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-03-17 00:00:00 -0500 CDT" itemprop="datePublished">2020-03-17</time>
+                    </p>
+                </div>
+            </li>
             <li>
                 <div class="item-inner">
                     <p class="item-title">
@@ -208,16 +218,6 @@
                     </p>
                 </div>
             </li>
-            <li>
-                <div class="item-inner">
-                    <p class="item-title">
-                        <a href="/posts/new_computer_setup.html" class="title">New computer setup</a>
-                    </p>
-                    <p class="item-date">
-                        <time datetime="2020-03-05 00:00:00 -0600 CST" itemprop="datePublished">2020-03-05</time>
-                    </p>
-                </div>
-            </li>
         </ul>
     </div>
 </div>
@@ -254,35 +254,35 @@
       </div>
     </div>
     <div class="article-entry marked-body js-toc-content" itemprop="articleBody">
-      <p>Good software engineering is an indispensible part of good data science. I've believed this for a while, but only recently come to feel strongly about it, and this post goes into more detail on why.</p>
-<h2 id="preface-joel-grus-i-dont-like-notebooks">Preface: Joel Grus&rsquo; &ldquo;I Don't Like Notebooks&rdquo;</h2>
-<p>I recommend that every data scientist watch Joel Grus&rsquo; talk called <a href="https://www.youtube.com/watch?v=7jiPeIFXb6U">I Don't Like Notebooks</a> from JupyterCon 2018. I didn't discover this talk until about 9 months of working as a data scientist, and hearing it helped me to formalize my thoughts as well. It's been another 9ish months since then, and now here I am writing this post.</p>
-<p>Joel's talk focuses on notebooks. He discusses how the hidden state issues make code difficult to reason about; how out-of-order execution makes code more complex than it needs to be; and how certain interface choices encourage bad habits. The theme of the talk is that if you're doing science, your code is an essential part of the process, and using the right tools for the job makes it more likely that your code (and your science) is correct.</p>
+      <p>Good software engineering is an indispensible part of good data science. I&rsquo;ve believed this for a while, but only recently come to feel strongly about it, and this post goes into more detail on why.</p>
+<h2 id="preface-joel-grus-i-dont-like-notebooks">Preface: Joel Grus&rsquo; &ldquo;I Don&rsquo;t Like Notebooks&rdquo;</h2>
+<p>I recommend that every data scientist watch Joel Grus&rsquo; talk called <a href="https://www.youtube.com/watch?v=7jiPeIFXb6U">I Don&rsquo;t Like Notebooks</a> from JupyterCon 2018. I didn&rsquo;t discover this talk until about 9 months of working as a data scientist, and hearing it helped me to formalize my thoughts as well. It&rsquo;s been another 9ish months since then, and now here I am writing this post.</p>
+<p>Joel&rsquo;s talk focuses on notebooks. He discusses how the hidden state issues make code difficult to reason about; how out-of-order execution makes code more complex than it needs to be; and how certain interface choices encourage bad habits. The theme of the talk is that if you&rsquo;re doing science, your code is an essential part of the process, and using the right tools for the job makes it more likely that your code (and your science) is correct.</p>
 <p>This post is not a tirade against notebooks, though if you are in the mood for one I <em>highly</em> recommend the above talk. Rather, this post is about software engineering being an indispensible part of the data science process.</p>
 <h2 id="the-prevailing-sentiment-in-my-experience">The prevailing sentiment (in my experience)</h2>
-<p>Let's start with perhaps my favorite quote from Joel's talk:</p>
+<p>Let&rsquo;s start with perhaps my favorite quote from Joel&rsquo;s talk:</p>
 <blockquote>
-<p>There's this sense in the data science community, which I find super unfortunate, that data science doesn't need to follow the rules of good software engineering.</p>
+<p>There&rsquo;s this sense in the data science community, which I find super unfortunate, that data science doesn&rsquo;t need to follow the rules of good software engineering.</p>
 </blockquote>
-<p>The idea that data science is somehow separate from software engineering is, in my experience, fairly widespread. It's a sentiment that I see day after day, both at work and among data scientists online. There are people out there who believe in the importance of good engineering, though, and it was one of my coworkers who sent me Joel's talk in the first place. Becoming the guy who won't shut up about engineering has helped me to discover other like-minded people.</p>
-<h2 id="forget-its-research">Forget &ldquo;it's research&rdquo;</h2>
+<p>The idea that data science is somehow separate from software engineering is, in my experience, fairly widespread. It&rsquo;s a sentiment that I see day after day, both at work and among data scientists online. There are people out there who believe in the importance of good engineering, though, and it was one of my coworkers who sent me Joel&rsquo;s talk in the first place. Becoming the guy who won&rsquo;t shut up about engineering has helped me to discover other like-minded people.</p>
+<h2 id="forget-its-research">Forget &ldquo;it&rsquo;s research&rdquo;</h2>
 <p>Simply put: <strong>good software engineering is an indispensible part of good data science.</strong></p>
-<p>Forget the &ldquo;it's research&rdquo; excuse. If the goal of our research to reach some kind of conclusion about how something works, we want to make sure we have some faith in those conclusions. Our code (and our data, but it's a lot easier to organize data than code) is what produces our results; how can we trust our results in the presence of messy code?</p>
-<p>There's a related <a href="https://twitter.com/fchollet/status/1018396455533506560">tweet chain</a> from Francois Chollet, the creator of Keras, that puts this very well:</p>
+<p>Forget the &ldquo;it&rsquo;s research&rdquo; excuse. If the goal of our research to reach some kind of conclusion about how something works, we want to make sure we have some faith in those conclusions. Our code (and our data, but it&rsquo;s a lot easier to organize data than code) is what produces our results; how can we trust our results in the presence of messy code?</p>
+<p>There&rsquo;s a related <a href="https://twitter.com/fchollet/status/1018396455533506560">tweet chain</a> from Francois Chollet, the creator of Keras, that puts this very well:</p>
 <blockquote>
-<p>In the context of machine learning research, science and engineering are not distinct concepts. You don't do &ldquo;science&rdquo; by thinking very hard about platonic ML concepts and then publishing your thoughts. You do science by engineering systems that test small ideas, iteratively &hellip; Buggy code is bad science. Poorly tuned benchmarks are bad science. Poorly factored code is bad science (hinders reproducibility, increases chances of a mistake). If your field is all about empirical validation, then your code <em>is</em> a large part of your scientific output.</p>
+<p>In the context of machine learning research, science and engineering are not distinct concepts. You don&rsquo;t do &ldquo;science&rdquo; by thinking very hard about platonic ML concepts and then publishing your thoughts. You do science by engineering systems that test small ideas, iteratively &hellip; Buggy code is bad science. Poorly tuned benchmarks are bad science. Poorly factored code is bad science (hinders reproducibility, increases chances of a mistake). If your field is all about empirical validation, then your code <em>is</em> a large part of your scientific output.</p>
 </blockquote>
-<p>One might say that they're confident their code is correct because they've built it up from scratch, checked intermediate results along the way, and so feel okay about the final product. At the very least, that's what I hear when other data scientists talk about validating their results. But good software engineering is the safest way to be reasonably confident that your code is correct.</p>
-<p>Moreover, what about other people's code? What about hot-off-the-presses papers, or a new model that another team built? The reproducibility of science is an essential part of the scientific method. Poorly organized code makes it harder to reproduce other people's results, leave alone build on top of them.</p>
+<p>One might say that they&rsquo;re confident their code is correct because they&rsquo;ve built it up from scratch, checked intermediate results along the way, and so feel okay about the final product. At the very least, that&rsquo;s what I hear when other data scientists talk about validating their results. But good software engineering is the safest way to be reasonably confident that your code is correct.</p>
+<p>Moreover, what about other people&rsquo;s code? What about hot-off-the-presses papers, or a new model that another team built? The reproducibility of science is an essential part of the scientific method. Poorly organized code makes it harder to reproduce other people&rsquo;s results, leave alone build on top of them.</p>
 <h2 id="why-i-care">Why I care</h2>
-<p>One reason I feel strongly about this because some of my biggest contributions to each of the teams I've worked on have been helping them to improve their code.</p>
-<p>The most salient example is from my first data science team, when several team members were developing models in parallel to try to solve the same problem. We had several ideas for how to benchmark our models, and several versions of that benchmarking code floating around. I reconciled the differences and created a lightweight library for the team to use, so we made sure we were all speaking the same language when we talked about model performance. (Note that this problem <em>wasn't</em> caused by notebooks, though this process was made a lot harder by having to work in them!)</p>
-<p>Other examples include narrowing down the source of a bug to two people running different versions of Python, and a different bug where they had different versions of sklearn installed. Another is (from last week!) a nasty bug in a data pipeline where some of our data was getting dropped midway through; we still haven't figured out why, and debugging it is harder because of the code only existing in notebooks.</p>
+<p>One reason I feel strongly about this because some of my biggest contributions to each of the teams I&rsquo;ve worked on have been helping them to improve their code.</p>
+<p>The most salient example is from my first data science team, when several team members were developing models in parallel to try to solve the same problem. We had several ideas for how to benchmark our models, and several versions of that benchmarking code floating around. I reconciled the differences and created a lightweight library for the team to use, so we made sure we were all speaking the same language when we talked about model performance. (Note that this problem <em>wasn&rsquo;t</em> caused by notebooks, though this process was made a lot harder by having to work in them!)</p>
+<p>Other examples include narrowing down the source of a bug to two people running different versions of Python, and a different bug where they had different versions of sklearn installed. Another is (from last week!) a nasty bug in a data pipeline where some of our data was getting dropped midway through; we still haven&rsquo;t figured out why, and debugging it is harder because of the code only existing in notebooks.</p>
 <p>These issues make my job harder, sure, but fixing them is (part of) what I get paid to do, so &hellip; whatever. The more glaring problem is that these issues make me lose faith in the validity of our models and analyses. In the face of complex data pipelines and machine learning models which lack unit tests and documentation, how can anyone be confident that they work correctly?</p>
 <h2 id="what-we-can-do">What we can do</h2>
-<p>Talking about writing better code and doing better engineering becomes exhausting if I don't have buy-in from everyone around me (but in the cases where I do, it's incredibly rewarding). It takes team-wide effort to start code reviews and write unit tests, leave alone adopt more basic practices like using Git and documenting dependencies. What can we do as individuals?</p>
+<p>Talking about writing better code and doing better engineering becomes exhausting if I don&rsquo;t have buy-in from everyone around me (but in the cases where I do, it&rsquo;s incredibly rewarding). It takes team-wide effort to start code reviews and write unit tests, leave alone adopt more basic practices like using Git and documenting dependencies. What can we do as individuals?</p>
 <p>One change I have had success with is adopting a software-first mindset. Forget notebooks; do experimentation in an IPython console. The fact that consoles are ephemeral will force you to factor out reused code into a library almost immediately. This can be checked into Git, letting you track changes, remove dead code, and collaborate with others.</p>
-<p>Writing a full unit test suite, while a noble goal, is a harder sell. Rather, I've started adding <code>assert</code> statements into pipeline code to make sure things are behaving as I expect. I recognize that this is far from an ideal solution. But in my experience, this is an easy way for people to document their assumptions about what data should look like at different steps, and it has the bonus of halting execution if things go awry.</p>
+<p>Writing a full unit test suite, while a noble goal, is a harder sell. Rather, I&rsquo;ve started adding <code>assert</code> statements into pipeline code to make sure things are behaving as I expect. I recognize that this is far from an ideal solution. But in my experience, this is an easy way for people to document their assumptions about what data should look like at different steps, and it has the bonus of halting execution if things go awry.</p>
     </div>
     <div class="article-footer">
     </div>

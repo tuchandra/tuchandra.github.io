@@ -23,7 +23,7 @@
   
   <meta name="description" content="In what is probably my last digital advertising paper for now, I read a paper out of Kellogg &#43; Facebook studying the causal effects of digital advertising. This is the nail in the coffin of my belief that digital advertising is overhyped and overvalued, and that they do far less than anyone appears to believe.
 " />
-  <meta name="generator" content="Hugo 0.62.2 with theme pure" />
+  <meta name="generator" content="Hugo 0.65.3 with theme pure" />
   <title>Paper: A Comparison of Approaches to Advertising Measurement: Evidence from Big Field Experiments at Facebook - Tushar Chandra</title>
   
 
@@ -157,7 +157,7 @@
         <ul class="category-list">
             <li class="category-list-item"><a href="/categories/books.html" class="category-list-link">books</a><span class="category-list-count">1</span></li>
             <li class="category-list-item"><a href="/categories/general.html" class="category-list-link">general</a><span class="category-list-count">26</span></li>
-            <li class="category-list-item"><a href="/categories/papers.html" class="category-list-link">papers</a><span class="category-list-count">20</span></li>
+            <li class="category-list-item"><a href="/categories/papers.html" class="category-list-link">papers</a><span class="category-list-count">21</span></li>
             <li class="category-list-item"><a href="/categories/self.html" class="category-list-link">self</a><span class="category-list-count">3</span></li>
             <li class="category-list-item"><a href="/categories/spark.html" class="category-list-link">spark</a><span class="category-list-count">13</span></li>
             <li class="category-list-item"><a href="/categories/what-i-read.html" class="category-list-link">what-i-read</a><span class="category-list-count">17</span></li>
@@ -168,6 +168,16 @@
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget-body">
         <ul class="recent-post-list list-unstyled no-thumbnail">
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/papers/interpreting_interpretability_kaur.html" class="title">Paper: Interpreting Interpretability: Understanding Data Scientists&#39; Use of Interpretability Tools for Machine Learning</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-03-17 00:00:00 -0500 CDT" itemprop="datePublished">2020-03-17</time>
+                    </p>
+                </div>
+            </li>
             <li>
                 <div class="item-inner">
                     <p class="item-title">
@@ -208,16 +218,6 @@
                     </p>
                 </div>
             </li>
-            <li>
-                <div class="item-inner">
-                    <p class="item-title">
-                        <a href="/posts/new_computer_setup.html" class="title">New computer setup</a>
-                    </p>
-                    <p class="item-date">
-                        <time datetime="2020-03-05 00:00:00 -0600 CST" itemprop="datePublished">2020-03-05</time>
-                    </p>
-                </div>
-            </li>
         </ul>
     </div>
 </div>
@@ -255,15 +255,15 @@
     </div>
     <div class="article-entry marked-body js-toc-content" itemprop="articleBody">
       <p>In what is probably my last digital advertising paper for now, I read a paper out of Kellogg + Facebook studying the causal effects of digital advertising. This is the nail in the coffin of my belief that digital advertising is overhyped and overvalued, and that they do far less than anyone appears to believe.</p>
-<p>The paper's authors are Brett Gordon and Florian Zettelmeyer from Kellogg at Northwestern, and Neha Bhargava and Dan Chapsky from Facebook. View the PDF on the <a href="https://www.kellogg.northwestern.edu/faculty/gordon_b/files/fb_comparison.pdf">Kellogg website</a>.</p>
+<p>The paper&rsquo;s authors are Brett Gordon and Florian Zettelmeyer from Kellogg at Northwestern, and Neha Bhargava and Dan Chapsky from Facebook. View the PDF on the <a href="https://www.kellogg.northwestern.edu/faculty/gordon_b/files/fb_comparison.pdf">Kellogg website</a>.</p>
 <h2 id="summary">Summary</h2>
 <p>Digital ad spending exceeded TV ad spending in 2017, and is continuing to grow. The impacts of all these ads, however, are less clear. Perhaps the most famous example is an <a href="http://faculty.haas.berkeley.edu/stadelis/Tadelis.pdf">eBay study by Blake, Nosko, and Tadelis</a> that demonstrated own-brand search advertising did more or less nothing for their bottom line, and instead cost the firm millions of dollars. This paper attempts to understand the impact of digital advertising using a wealth of data from 15 ad campaigns at Facebook.</p>
 <h3 id="measurement-is-challenging">Measurement is challenging</h3>
 <p>Measuring the causal impact of advertising is challenging. Individual behaviors are volatile, and endogeneity can severely bias inference results. From the paper:</p>
 <blockquote>
-<p>Quasi-random variation in exposure has at least three sources: user-level variation in visits to Facebook, variations in Facebook's pacing of ad delivery, &hellip; and variation due to unrelated advertisers&rsquo; bids.</p>
+<p>Quasi-random variation in exposure has at least three sources: user-level variation in visits to Facebook, variations in Facebook&rsquo;s pacing of ad delivery, &hellip; and variation due to unrelated advertisers&rsquo; bids.</p>
 </blockquote>
-<p>Put otherwise, there are (at least) 3 reasons for exogenous variation in ad exposure: user behavior, Facebook's ad targeting, and advertiser bids.</p>
+<p>Put otherwise, there are (at least) 3 reasons for exogenous variation in ad exposure: user behavior, Facebook&rsquo;s ad targeting, and advertiser bids.</p>
 <blockquote>
 <p>However, three mechanisms generate endogenous variation between exposure and conversion outcomes: user-induced endogeneity (&ldquo;activity bias&rdquo;), targeting-induced endogeneity due to the ad system overweighting users who are predicted to convert, and competition-induced endogeneity due to the auction mechanism.</p>
 </blockquote>
@@ -275,23 +275,23 @@
 <li>to explore observational vs. experimental approaches to causal measurement</li>
 </ul>
 <h3 id="experimental-design">Experimental design</h3>
-<p>An advertiser (called the focal advertiser) decides which users to target (e.g., &ldquo;all woman between 18 and 54&rdquo;). Users are assigned to the control and test groups, and within the test group users may or may not be exposed to the ad (they may not be exposed if, for example, they didn't use Facebook during the campaign). There is no single &ldquo;control ad,&rdquo; but rather users in the control group are shown whatever the second-highest bidding ad was.</p>
+<p>An advertiser (called the focal advertiser) decides which users to target (e.g., &ldquo;all woman between 18 and 54&rdquo;). Users are assigned to the control and test groups, and within the test group users may or may not be exposed to the ad (they may not be exposed if, for example, they didn&rsquo;t use Facebook during the campaign). There is no single &ldquo;control ad,&rdquo; but rather users in the control group are shown whatever the second-highest bidding ad was.</p>
 <p>&ldquo;Compliance&rdquo; to the experiment is one-sided in the test group, because exposure to an ad is endogenous based on several factors:</p>
 <ul>
 <li><strong>User-induced endogeneity</strong>, also called &ldquo;activity bias,&rdquo; occurs because exposed users are more likely to convert by mere virtue of being online during the campaign. This means that &ldquo;the conversion rate of the unexposed group is a <em>biased</em> estimate of the conversion rate of the exposed group had it not been exposed&rdquo; (because there are differences between the groups).</li>
-<li><strong>Targeting-induced endogeneity</strong> happens because the targeting system prefers to show ads to users who will convert. The authors write: &ldquo;conditional on the advertiser's bid, the probability of exposure increases or decreases for different users.&rdquo; Put otherwise, exposed users were (in part) exposed because they're more likely to convert in the first place.</li>
-<li><strong>Competition-induced endogeneity</strong> happens for two reasons. The first is because advertisers are more likely to target users who (they believe) will convert. The second is because <em>other</em> advertisers bidding on subsets of the focal advertisers&rsquo; target can prevent those users from being exposed. (For example, if the focal advertiser's target is women between 18 and 54, and another advertiser targets on mothers between 18 and 54, mothers are less likely to be exposed to the focal campaign.)</li>
+<li><strong>Targeting-induced endogeneity</strong> happens because the targeting system prefers to show ads to users who will convert. The authors write: &ldquo;conditional on the advertiser&rsquo;s bid, the probability of exposure increases or decreases for different users.&rdquo; Put otherwise, exposed users were (in part) exposed because they&rsquo;re more likely to convert in the first place.</li>
+<li><strong>Competition-induced endogeneity</strong> happens for two reasons. The first is because advertisers are more likely to target users who (they believe) will convert. The second is because <em>other</em> advertisers bidding on subsets of the focal advertisers&rsquo; target can prevent those users from being exposed. (For example, if the focal advertiser&rsquo;s target is women between 18 and 54, and another advertiser targets on mothers between 18 and 54, mothers are less likely to be exposed to the focal campaign.)</li>
 </ul>
 <p>The paper continues with details on the RCTs and observational methods used. They then describe the data used, which were experiments run on at least 1 million users, across industries and groups of users. The data consists of Facebook variables (surprisingly broad; age, gender, relationship status, account age, # of friends, various metrics about how active they are, and their region) joined with ACS data (characterizing the zip code they live in).</p>
-<p>At this point, it became challenging to follow the rest of the paper. At some point, I might return to it, but right now it's too far away from what I already understand to be useful for my learning.</p>
+<p>At this point, it became challenging to follow the rest of the paper. At some point, I might return to it, but right now it&rsquo;s too far away from what I already understand to be useful for my learning.</p>
 <h2 id="thoughts">Thoughts</h2>
-<p>This appears to be the most damning evidence of digital advertising being rather overrated. I'm open to results that support the opposite, but I haven't seen any yet. And I <a href="/posts/digital_advertising.html">wrote in November</a>:</p>
+<p>This appears to be the most damning evidence of digital advertising being rather overrated. I&rsquo;m open to results that support the opposite, but I haven&rsquo;t seen any yet. And I <a href="/posts/digital_advertising.html">wrote in November</a>:</p>
 <blockquote>
 <p>I do agree [that advertising does something], though—I am confident that advertising has some impact on people, but I believe that this effect is hugely overstated.</p>
 </blockquote>
-<p>I also wrote there that I believe more in contextual advertising&ndash;ads related to things that I'm looking at&ndash;which need less (messy, noisy, privacy-violating) data about me.</p>
-<p>This paper exposes one of my blind spots in data science&ndash;causal inference. I've heard lots about it, but haven't had any kind of formal training or education in it. Learning about causal inference may become one of my goals for the upcoming year.</p>
-<p>Writing this summary&ndash;as I skipped most of the second half of the paper&ndash;is an interesting experience. I don't know enough about this field or the methods used to be able to understand this paper at even a surface level. And while I'd love to learn more, it's <em>also</em> unclear what I have to learn to reach this point.</p>
+<p>I also wrote there that I believe more in contextual advertising&ndash;ads related to things that I&rsquo;m looking at&ndash;which need less (messy, noisy, privacy-violating) data about me.</p>
+<p>This paper exposes one of my blind spots in data science&ndash;causal inference. I&rsquo;ve heard lots about it, but haven&rsquo;t had any kind of formal training or education in it. Learning about causal inference may become one of my goals for the upcoming year.</p>
+<p>Writing this summary&ndash;as I skipped most of the second half of the paper&ndash;is an interesting experience. I don&rsquo;t know enough about this field or the methods used to be able to understand this paper at even a surface level. And while I&rsquo;d love to learn more, it&rsquo;s <em>also</em> unclear what I have to learn to reach this point.</p>
 <p>This reminds me of something I read in <a href="http://joschu.net/blog/opinionated-guide-ml-research.html">An Opinionated Guide to ML Research</a>: to read textbooks. A book would walk me through the foundational knowledge that I need to make sense of research results, rather than assuming that I already have it. Perhaps books on this will be in my future, too.</p>
     </div>
     <div class="article-footer">

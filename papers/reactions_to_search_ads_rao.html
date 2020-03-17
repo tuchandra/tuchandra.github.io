@@ -23,7 +23,7 @@
   
   <meta name="description" content="This is a paper evaluating the effects of the infamous eBay online advertising experiment, in which eBay pulled millions of dollars of own-brand advertising and saw no measurable effect on web traffic. The study (using data from Bing) evaluated how other companies reacted to this news.
 " />
-  <meta name="generator" content="Hugo 0.62.2 with theme pure" />
+  <meta name="generator" content="Hugo 0.65.3 with theme pure" />
   <title>Paper: Firms&#39; Reactions to Public Information on Business Practices: Case of Search Advertising - Tushar Chandra</title>
   
 
@@ -157,7 +157,7 @@
         <ul class="category-list">
             <li class="category-list-item"><a href="/categories/books.html" class="category-list-link">books</a><span class="category-list-count">1</span></li>
             <li class="category-list-item"><a href="/categories/general.html" class="category-list-link">general</a><span class="category-list-count">26</span></li>
-            <li class="category-list-item"><a href="/categories/papers.html" class="category-list-link">papers</a><span class="category-list-count">20</span></li>
+            <li class="category-list-item"><a href="/categories/papers.html" class="category-list-link">papers</a><span class="category-list-count">21</span></li>
             <li class="category-list-item"><a href="/categories/self.html" class="category-list-link">self</a><span class="category-list-count">3</span></li>
             <li class="category-list-item"><a href="/categories/spark.html" class="category-list-link">spark</a><span class="category-list-count">13</span></li>
             <li class="category-list-item"><a href="/categories/what-i-read.html" class="category-list-link">what-i-read</a><span class="category-list-count">17</span></li>
@@ -168,6 +168,16 @@
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget-body">
         <ul class="recent-post-list list-unstyled no-thumbnail">
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/papers/interpreting_interpretability_kaur.html" class="title">Paper: Interpreting Interpretability: Understanding Data Scientists&#39; Use of Interpretability Tools for Machine Learning</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-03-17 00:00:00 -0500 CDT" itemprop="datePublished">2020-03-17</time>
+                    </p>
+                </div>
+            </li>
             <li>
                 <div class="item-inner">
                     <p class="item-title">
@@ -208,16 +218,6 @@
                     </p>
                 </div>
             </li>
-            <li>
-                <div class="item-inner">
-                    <p class="item-title">
-                        <a href="/posts/new_computer_setup.html" class="title">New computer setup</a>
-                    </p>
-                    <p class="item-date">
-                        <time datetime="2020-03-05 00:00:00 -0600 CST" itemprop="datePublished">2020-03-05</time>
-                    </p>
-                </div>
-            </li>
         </ul>
     </div>
 </div>
@@ -255,13 +255,13 @@
     </div>
     <div class="article-entry marked-body js-toc-content" itemprop="articleBody">
       <p>This is a paper evaluating the effects of the infamous eBay online advertising experiment, in which eBay pulled millions of dollars of own-brand advertising and saw no measurable effect on web traffic. The study (using data from Bing) evaluated how other companies reacted to this news.</p>
-<p>The paper's authors are Justin Rao at MSR and Andrey Simonov at UChicago Booth. View the PDF on <a href="https://pdfs.semanticscholar.org/b003/d2e2e95b60f1553023b8149436629652bd5c.pdf">Semantic Scholar</a>.</p>
+<p>The paper&rsquo;s authors are Justin Rao at MSR and Andrey Simonov at UChicago Booth. View the PDF on <a href="https://pdfs.semanticscholar.org/b003/d2e2e95b60f1553023b8149436629652bd5c.pdf">Semantic Scholar</a>.</p>
 <h2 id="summary">Summary</h2>
 <p>From the abstract:</p>
 <blockquote>
-<p>We use five years of bidding data [from Bing advertising] to examine the reaction of advertisers to widely disseminated press on the lack of effectiveness of brand search advertising (queries that contain the firm's name) found in a large experiment run by eBay. &hellip; Firms did not react to the information pertaining to the high value and ease of running experiments &hellip; We find no correlation between firm-level advertising effects and the propensity to advertise in the future.</p>
+<p>We use five years of bidding data [from Bing advertising] to examine the reaction of advertisers to widely disseminated press on the lack of effectiveness of brand search advertising (queries that contain the firm&rsquo;s name) found in a large experiment run by eBay. &hellip; Firms did not react to the information pertaining to the high value and ease of running experiments &hellip; We find no correlation between firm-level advertising effects and the propensity to advertise in the future.</p>
 </blockquote>
-<p>The eBay experiment was by <a href="http://faculty.haas.berkeley.edu/stadelis/Tadelis.pdf">Blake, Nosko, and Tadelis</a> (&ldquo;BNT&rdquo;), and it found that ads for eBay on branded keywords (e.g., &ldquo;eBay shoes&rdquo;) had almost no effect on traffic to eBay. These results &ldquo;call into question the entire enterprise of advertising on own-brand queries.&rdquo; A critical component of eBay's case was that they did not face competition for the highest spot on search advertising; someone like Target might, if Walmart were to advertise on the query &ldquo;target shoes&rdquo;.</p>
+<p>The eBay experiment was by <a href="http://faculty.haas.berkeley.edu/stadelis/Tadelis.pdf">Blake, Nosko, and Tadelis</a> (&ldquo;BNT&rdquo;), and it found that ads for eBay on branded keywords (e.g., &ldquo;eBay shoes&rdquo;) had almost no effect on traffic to eBay. These results &ldquo;call into question the entire enterprise of advertising on own-brand queries.&rdquo; A critical component of eBay&rsquo;s case was that they did not face competition for the highest spot on search advertising; someone like Target might, if Walmart were to advertise on the query &ldquo;target shoes&rdquo;.</p>
 <p>Based on this observation, the authors used a diff-in-diff test with firms who did not regularly face competitors as the &ldquo;treatment&rdquo; and firms that did as the control. They found that &ldquo;treated firms decrease advertising levels on brand keywords by 11% relative to their untreated counterparts.&rdquo;</p>
 <p>The second question studied was on experimentation: &ldquo;do firms adopt active experimentation&rdquo; to study how effective these ads are for them? Overall, firms did not change their experimentation levels after BNT, but experiment-like changes in advertising were run by 72% of the 395 &ldquo;treated&rdquo; firms (without many competitors).</p>
 <p>The final result is complex:</p>
@@ -271,13 +271,13 @@
 <blockquote>
 <p>Second, there is no measurable impact on the propensity to conduct experiments.Not only did firms fail to increase experimentation in response to very positive news about the value of experimentation, the insights that can be derived from existing experiment-like variation in ad levels do not appear to impact decisions.</p>
 </blockquote>
-<p>The authors contrast the &ldquo;knowledge spillovers&rdquo; here to those in the medical field, where there's less of a concern about incentives and appearances, and more of a culture of learning about new techniques. Many researchers believe that agency problems exist in large firms with different incentives at different levels, and so these results may point to one manifestation of this.</p>
-<p>The remainder of the paper goes into detail about the data and methodologies, and I choose not to summarize them here because I'm not as interested in spending time on those. This is a good example of a diff-in-diff study, which I don't know well, so I may come back to this later.</p>
+<p>The authors contrast the &ldquo;knowledge spillovers&rdquo; here to those in the medical field, where there&rsquo;s less of a concern about incentives and appearances, and more of a culture of learning about new techniques. Many researchers believe that agency problems exist in large firms with different incentives at different levels, and so these results may point to one manifestation of this.</p>
+<p>The remainder of the paper goes into detail about the data and methodologies, and I choose not to summarize them here because I&rsquo;m not as interested in spending time on those. This is a good example of a diff-in-diff study, which I don&rsquo;t know well, so I may come back to this later.</p>
 <h2 id="thoughts-connections-and-questions">Thoughts, connections, and questions</h2>
-<p>I found this paper after reading the article &ldquo;The new dot com bubble is here: it's called online advertising&rdquo; (summary <a href="/posts/digital_advertising.html">here</a>). I became interested in learning more about the state of digital advertising research. What do people know about it? What are the open questions?</p>
+<p>I found this paper after reading the article &ldquo;The new dot com bubble is here: it&rsquo;s called online advertising&rdquo; (summary <a href="/posts/digital_advertising.html">here</a>). I became interested in learning more about the state of digital advertising research. What do people know about it? What are the open questions?</p>
 <p>This paper approaches the research question as more than a statistical one; it goes farther and attempts to understand the business practices (&ldquo;substantial inertia&rdquo;) that cause this. It takes special care to discuss the human differences, like those of a marketing manger running experiments vs. a CFO doing so. The lower-level marketing manager is likely disincentivized to produce &ldquo;bad news,&rdquo; whereas a CFO might be more interested in learning the truth.</p>
 <p>These results are out of Microsoft Research using searches on Bing. I wonder if Google or Apple did a similar study on ad effectiveness; I imagine that their data would be much richer. Of course, Google as an advertising company would have little incentive to draw attention to the eBay experiment.</p>
-<p>That the eBay study received so much attention is striking, but that companies didn't increase their experimentation (which the paper heavily advocated for!) is even more surprising. The authors give two possible explanations, that the right people aren't paying attention and classic risk-aversion (the risk of punishment for past behavior that is found out to be &ldquo;wrong&rdquo;), which are both problems of incomplete incentives.</p>
+<p>That the eBay study received so much attention is striking, but that companies didn&rsquo;t increase their experimentation (which the paper heavily advocated for!) is even more surprising. The authors give two possible explanations, that the right people aren&rsquo;t paying attention and classic risk-aversion (the risk of punishment for past behavior that is found out to be &ldquo;wrong&rdquo;), which are both problems of incomplete incentives.</p>
 <p>To me, the most damning piece of this is that the eBay study is precisely what <em>should</em> have spurred a change in advertising behavior, if anything could. It showed clear results, demonstrated high ($50MM) cost savings, got widespread attention in both technical and business circles, and gave direct, actionable information. This shows me that the problems in digital advertising are more than one of incomplete data.</p>
 <p>The authors do a great job of discussing this point: that &ldquo;the business practices we study are in a domain, advertising, for which past work suggests principal-agent problems may be particularly large.&rdquo; They recognize that while the eBay study may represent good news (cost savings) for companies, they may also represent bad news for those &ldquo;on the ground&rdquo; with advertising budgets and teams of marketers. New information is understandably risky for them.</p>
 <p>What, then, is the breaking point? When will companies stop pumping millions of dollars into advertising that has been shown to be ineffective? Or even less extreme than that, when will they start experimenting to study the effects themselves? How long will this go on?</p>
