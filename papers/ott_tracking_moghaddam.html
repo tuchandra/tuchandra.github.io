@@ -23,7 +23,7 @@
   
   <meta name="description" content="This paper studies the tracking ecosystem of Roku and Amazon Fire devices, discovering that channels on both platforms regularly send their traffic to known trackers. They also note that they often transmit unique identifiers, and that known methods to protect privacy are largely ineffective.
 " />
-  <meta name="generator" content="Hugo 0.65.3 with theme pure" />
+  <meta name="generator" content="Hugo 0.62.2 with theme pure" />
   <title>Paper: Watching You Watch: The Tracking Ecosystem of Over-the-Top TV Streaming Devices - Tushar Chandra</title>
   
 
@@ -155,7 +155,7 @@
     <h3 class="widget-title"> Categories</h3>
     <div class="widget-body">
         <ul class="category-list">
-            <li class="category-list-item"><a href="/categories/books.html" class="category-list-link">books</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="/categories/books.html" class="category-list-link">books</a><span class="category-list-count">2</span></li>
             <li class="category-list-item"><a href="/categories/general.html" class="category-list-link">general</a><span class="category-list-count">26</span></li>
             <li class="category-list-item"><a href="/categories/papers.html" class="category-list-link">papers</a><span class="category-list-count">21</span></li>
             <li class="category-list-item"><a href="/categories/self.html" class="category-list-link">self</a><span class="category-list-count">3</span></li>
@@ -168,6 +168,16 @@
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget-body">
         <ul class="recent-post-list list-unstyled no-thumbnail">
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/books/network_propaganda_2.html" class="title">Network Propaganda, part 2</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-03-18 00:00:00 -0500 CDT" itemprop="datePublished">2020-03-18</time>
+                    </p>
+                </div>
+            </li>
             <li>
                 <div class="item-inner">
                     <p class="item-title">
@@ -205,16 +215,6 @@
                     </p>
                     <p class="item-date">
                         <time datetime="2020-03-14 00:00:00 &#43;0000 UTC" itemprop="datePublished">2020-03-14</time>
-                    </p>
-                </div>
-            </li>
-            <li>
-                <div class="item-inner">
-                    <p class="item-title">
-                        <a href="/what_i_read/20200307.html" class="title">What I read this week (March 1 - March 7)</a>
-                    </p>
-                    <p class="item-date">
-                        <time datetime="2020-03-07 00:00:00 &#43;0000 UTC" itemprop="datePublished">2020-03-07</time>
                     </p>
                 </div>
             </li>
@@ -274,11 +274,11 @@
 <p>They then investigated the actual information being collected. Many channels collected information about what was being viewed or device-level unique identifiers like the serial number. On Roku, 73% of requests that had an Ad ID or serial number were trackers; on Amazon Fire, this number was 41%.</p>
 <p>Countermeasures were largely ineffective. The &ldquo;limit ad tracking&rdquo; (Roku) and &ldquo;disable interest based ads&rdquo; (Amazon) settings reduced the number of requests made to trackers, but Roku serial number leaks and other identifiers communicated to trackers remainend present. Using a network-level Pi-hole showed similarly ineffective results.</p>
 <h2 id="thoughts-connections-and-questions">Thoughts, connections, and questions</h2>
-<p>This is the future of the Internet of Things—trackers everywhere without control over where data about you gets sent. Previous research has showed that up to 50% of smartphone traffic can be attributed to someone&rsquo;s real name, and it appears that this is the case for OTT traffic as well. Other research shows that there is very little understanding of privacy practices on smart TV platforms.</p>
+<p>This is the future of the Internet of Things—trackers everywhere without control over where data about you gets sent. Previous research has showed that up to 50% of smartphone traffic can be attributed to someone's real name, and it appears that this is the case for OTT traffic as well. Other research shows that there is very little understanding of privacy practices on smart TV platforms.</p>
 <p><strong>What are the implications for privacy?</strong> As &ldquo;smart&rdquo; systems become more opaque, do users still have a reasonable expectation of privacy? Ten years ago, it would have been ludicrous to imagine that companies were tracking everything you watched on your TV (ignoring the fact that Nielsen panels do exactly that, but those are voluntary panels). Today, it seems like the new normal.</p>
-<p>From an advertiser&rsquo;s perspective, this is great!—and usually things that are good for advertisers are not good for consumers. &ldquo;The tendency of companies to monetize users&rsquo; data makes it difficult to incentivize privacy friendly practices.&rdquo;</p>
-<p><strong>A gap between expectations and reality.</strong> According to the paper, <a href="https://blues.cs.berkeley.edu/blog/2018/06/12/what-cant-data-be-used-for-privacy-expectations-about-smart-tvs-in-the-u-s-eurousec-18/">past research</a> shows that there is a large amount of uncertainty about what their Smart TV data is used for, and that just 29% of Smart TV users found it acceptable for advertisers to collect viewing data. There&rsquo;s an obvious gap between user expectations and what platforms are actually doing.</p>
-<p>Note that I&rsquo;m not categorically against opaqueness in smart systems; often they are opaque for a user&rsquo;s benefit, because the interaction with the system becomes more clear. But it can also be dangerous in the case where opaqueness is used to hide something from users, as we see here.</p>
+<p>From an advertiser's perspective, this is great!—and usually things that are good for advertisers are not good for consumers. &ldquo;The tendency of companies to monetize users&rsquo; data makes it difficult to incentivize privacy friendly practices.&rdquo;</p>
+<p><strong>A gap between expectations and reality.</strong> According to the paper, <a href="https://blues.cs.berkeley.edu/blog/2018/06/12/what-cant-data-be-used-for-privacy-expectations-about-smart-tvs-in-the-u-s-eurousec-18/">past research</a> shows that there is a large amount of uncertainty about what their Smart TV data is used for, and that just 29% of Smart TV users found it acceptable for advertisers to collect viewing data. There's an obvious gap between user expectations and what platforms are actually doing.</p>
+<p>Note that I'm not categorically against opaqueness in smart systems; often they are opaque for a user's benefit, because the interaction with the system becomes more clear. But it can also be dangerous in the case where opaqueness is used to hide something from users, as we see here.</p>
     </div>
     <div class="article-footer">
     </div>
