@@ -23,7 +23,7 @@
   
   <meta name="description" content="Speaker: Xiao Li (Databricks).
 " />
-  <meta name="generator" content="Hugo 0.65.3 with theme pure" />
+  <meta name="generator" content="Hugo 0.62.2 with theme pure" />
   <title>Understanding Query Plans and Spark UIs - Tushar Chandra</title>
   
 
@@ -160,7 +160,7 @@
             <li class="category-list-item"><a href="/categories/papers.html" class="category-list-link">papers</a><span class="category-list-count">21</span></li>
             <li class="category-list-item"><a href="/categories/self.html" class="category-list-link">self</a><span class="category-list-count">3</span></li>
             <li class="category-list-item"><a href="/categories/spark.html" class="category-list-link">spark</a><span class="category-list-count">13</span></li>
-            <li class="category-list-item"><a href="/categories/what-i-read.html" class="category-list-link">what-i-read</a><span class="category-list-count">17</span></li>
+            <li class="category-list-item"><a href="/categories/what-i-read.html" class="category-list-link">what-i-read</a><span class="category-list-count">18</span></li>
         </ul>
     </div>
 </div>
@@ -168,6 +168,16 @@
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget-body">
         <ul class="recent-post-list list-unstyled no-thumbnail">
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/what_i_read/20200321.html" class="title">What I read this week (March 15 - March 21)</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-03-21 00:00:00 &#43;0000 UTC" itemprop="datePublished">2020-03-21</time>
+                    </p>
+                </div>
+            </li>
             <li>
                 <div class="item-inner">
                     <p class="item-title">
@@ -205,16 +215,6 @@
                     </p>
                     <p class="item-date">
                         <time datetime="2020-03-15 00:00:00 &#43;0000 UTC" itemprop="datePublished">2020-03-15</time>
-                    </p>
-                </div>
-            </li>
-            <li>
-                <div class="item-inner">
-                    <p class="item-title">
-                        <a href="/what_i_read/20200314.html" class="title">What I read this week (March 8 - March 14)</a>
-                    </p>
-                    <p class="item-date">
-                        <time datetime="2020-03-14 00:00:00 &#43;0000 UTC" itemprop="datePublished">2020-03-14</time>
                     </p>
                 </div>
             </li>
@@ -286,7 +286,7 @@
 <p>If a query is cached in one session, the new queries in all sessions might be impacted.</p>
 <pre><code># ?
 </code></pre><h3 id="join-hints-in-spark-30">Join hints in Spark 3.0</h3>
-<p>They&rsquo;ll help you with broadcasting and … other things that I didn&rsquo;t see in time.</p>
+<p>They'll help you with broadcasting and … other things that I didn't see in time.</p>
 <h2 id="tracking-execution-in-the-spark-ui">Tracking Execution in the Spark UI</h2>
 <p>A single SQL query can correspond to multiple Spark jobs: broadcast exchange, suffle exchange, subqueries, … and each Spark job is an RDD DAG.</p>
 <p>In query execution (selected physical plan —&gt; DAGs) you can see both the higher level SQL physical operators (Filter, Project, HashAggregate, Exchange, etc.) and lower level Spark RDD primitives.</p>
