@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <title>
-        Understanding Query Plans and Spark UIs - Tushar Chandra
+        Normalcy during coronavirus - Tushar Chandra
       </title>
     <head>
   <meta charset="utf-8">
@@ -21,32 +21,32 @@
   <meta name="theme-color" content="#000000" />
   <meta http-equiv="window-target" content="_top" />
   
-  <meta name="description" content="Speaker: Xiao Li (Databricks).
+  <meta name="description" content="Yesterday marked two weeks of fully remote work; my first day at home was Thursday, March 12th. This post reflects on my experience.
 " />
   <meta name="generator" content="Hugo 0.62.2 with theme pure" />
-  <title>Understanding Query Plans and Spark UIs - Tushar Chandra</title>
+  <title>Normalcy during coronavirus - Tushar Chandra</title>
   
 
   <link rel="stylesheet" href="/css/style.css">
   <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
-  <meta property="og:title" content="Understanding Query Plans and Spark UIs" />
-<meta property="og:description" content="Speaker: Xiao Li (Databricks)." />
+  <meta property="og:title" content="Normalcy during coronavirus" />
+<meta property="og:description" content="Yesterday marked two weeks of fully remote work; my first day at home was Thursday, March 12th. This post reflects on my experience." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/spark/query_plans.html" />
-<meta property="article:published_time" content="2019-04-25T00:00:00+00:00" />
-<meta property="article:modified_time" content="2019-04-25T00:00:00+00:00" />
-<meta itemprop="name" content="Understanding Query Plans and Spark UIs">
-<meta itemprop="description" content="Speaker: Xiao Li (Databricks).">
-<meta itemprop="datePublished" content="2019-04-25T00:00:00&#43;00:00" />
-<meta itemprop="dateModified" content="2019-04-25T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="465">
+<meta property="og:url" content="/posts/normalcy_during_coronavirus.html" />
+<meta property="article:published_time" content="2020-03-27T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-03-27T00:00:00+00:00" />
+<meta itemprop="name" content="Normalcy during coronavirus">
+<meta itemprop="description" content="Yesterday marked two weeks of fully remote work; my first day at home was Thursday, March 12th. This post reflects on my experience.">
+<meta itemprop="datePublished" content="2020-03-27T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2020-03-27T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="1268">
 
 
 
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Understanding Query Plans and Spark UIs"/>
-<meta name="twitter:description" content="Speaker: Xiao Li (Databricks)."/>
+<meta name="twitter:title" content="Normalcy during coronavirus"/>
+<meta name="twitter:description" content="Yesterday marked two weeks of fully remote work; my first day at home was Thursday, March 12th. This post reflects on my experience."/>
 </head>
   </head>
   
@@ -234,66 +234,60 @@
       <h1 itemprop="name">
   <a
     class=""
-    href="/spark/query_plans.html"
-    >Understanding Query Plans and Spark UIs</a
+    href="/posts/normalcy_during_coronavirus.html"
+    >Normalcy during coronavirus</a
   >
 </h1>
 
       <div class="article-meta">
         <span class="article-date">
   <i class="icon icon-calendar-check"></i>
-<a href="/spark/query_plans.html">
-  <time datetime="2019-04-25 00:00:00 &#43;0000 UTC" itemprop="datePublished">2019-04-25</time>
+<a href="/posts/normalcy_during_coronavirus.html">
+  <time datetime="2020-03-27 00:00:00 &#43;0000 UTC" itemprop="datePublished">2020-03-27</time>
 </a>
 </span><span class="article-category">
   <i class="icon icon-folder"></i>
-  <a class="article-category-link" href="/categories/spark.html"> spark </a>
+  <a class="article-category-link" href="/categories/general.html"> general </a>
 </span>
 
         
       </div>
     </div>
     <div class="article-entry marked-body js-toc-content" itemprop="articleBody">
-      <p>Speaker: Xiao Li (Databricks).</p>
-<p>Speaker is one of the core committers to Spark, @gatorsmile on Twitter.</p>
-<h2 id="intro-how-queries-get-executed">Intro: how queries get executed</h2>
+      <p>Yesterday marked two weeks of fully remote work; my first day at home was Thursday, March 12th. This post reflects on my experience.</p>
+<p>I am, first of all, thankful that I am able to hole up and stay home during this pandemic. My sense of normalcy will be very different from that of a healthcare worker or even a grocery store employee, who likely have none. I am grateful for this. I <em>do</em> understand how privileged I am to even be able to write this, in the evening after being done with work.</p>
+<h2 id="how-i-feel">How I feel</h2>
+<p>Day to day, I'm in this weird twilight zone where life is happening in the absence of all the things that make it normal. Spring will hit Chicago soon, but some of the best parts of being outside <a href="https://www.chicagotribune.com/coronavirus/ct-coronavirus-chicago-lakefront-parks-closed-20200326-zdqpr2p3vfhqdoucu4hqcrtepa-story.html">are closed</a>. All the restaurants I wanted to try are closed indefinitely. The people I wanted to see are self-isolating (thankfully, but still).</p>
+<p>It feels like (what I imagine to be) some kind of war, where those of us who are lucky enough to stay in our homes do so, avoiding whatever it is that awaits us outside.</p>
+<p>It feels like there's so little to look forward to: because of how <a href="https://www.imperial.ac.uk/news/196496/coronavirus-pandemic-could-have-caused-40/">bleak the outlook is</a>, how <a href="https://foreignpolicy.com/2020/03/25/coronavirus-worst-intelligence-failure-us-history-covid-19/">incompetent US leadership is</a>, how <a href="https://www.nytimes.com/interactive/2020/03/25/opinion/coronavirus-trump-reopen-america.html">halfhearted our containment strategies are</a>, and far more. Staying positive in the face of news that gets worse every day is challenging.</p>
+<p>It feels like nothing I've ever experienced before. A lifetime of remote work couldn't have prepared me for remote work <em>during a global pandemic.</em> Years of <a href="https://xkcd.com/2276/">(jokingly) self-isolating</a> don't help when you're staring down potential months of it.</p>
+<h2 id="working-remotely">Working remotely</h2>
+<p>Nielsen has always been remote-friendly. I've worked from home every Friday for months, and sporadically whenever I wanted prior to that. We have hundreds of employees who work from home over 90% of the time. I haven't had a team member in my office for over a year. In many ways, the mechanics of my day-to-day are the same as they've always been.</p>
+<p>And yet it couldn't feel more different. Staying at my desk all day is mentally and physically draining. The lack of unstructured social interaction means that there's less to break up the monotony of work. Unplugging my work computer and plugging in my Chromebook doesn't have quite the same effect as leaving my computer at the office.</p>
+<p>That's not all, though: it feels like work should be the last thing on our minds, because <em>who cares</em> about TV ratings when millions of people are going to be infected by this virus? How does advertising money matter <em>at all</em> when, well, coronavirus? I've already heard the line of Nielsen being more relevant because more people are self-isolating and consuming media. They're not wrong&mdash;but also when the news is 24/7 coronavirus, who actually <em>gives a damn</em> about anything we do?</p>
+<p>In some ways, it feels <em>irresponsible</em> to care about anything media measurement-related when there are far bigger problems facing all of us right now. It's impossible to not be affected by coronavirus; the stark departure from normalcy for the <em>entire world</em> is something I'm going to think about for a long time.</p>
+<h2 id="practical-changes">Practical changes</h2>
+<p>And yet life goes on. Again, I'm lucky to be able to say that; for many, it will not.</p>
+<p>What have I done to help myself adjust to this remote life?</p>
 <ul>
-<li>you have SQL / datasets / dataframes</li>
-<li>that turn into an unresolved logical plan via a parser</li>
-<li>that turn into a logical plan via an analyzer (and metadata catalog)</li>
-<li>that turn into an optimized logical plan via an optimizer (and cache manager)</li>
-<li>that turns into man physical plans via a planner, which uses a cost model to select one</li>
-<li>which then finally gets executed into DAGs</li>
+<li>I have a company mug that I've started using during work hours only. As a side effect, I'm drinking a lot more tea that I've kept at home for a while!</li>
+<li>I've put my own spin on the advice to wear work clothes: I have a pair of &ldquo;work sweatpants,&rdquo; which I only wear during work hours. At the end of the day, I change into &hellip; a different pair of sweatpants.</li>
+<li>My team has scheduled 30 minute daily calls&mdash;we usually do 15 minutes of updates and work discussion, and 15 minutes of casual chatting.</li>
+<li>Many of my coworkers have started having more impromptu video calls to catch up.</li>
+<li>I'm still showering and doing my hair in the mornings like usual.</li>
+<li>I put my laptop into my backpack at the end of the day.</li>
 </ul>
-<p>In the Spark UI, you can read the parsed plan, analyzed plan, optimized plan, and physical plan. Great. How do you understand and tune them?</p>
-<h2 id="understanding-and-tuning-plans">Understanding and tuning plans</h2>
-<p>This section is a bunch of examples followed by pieces of advice.</p>
-<h3 id="read-the-analyzed-plan-to-check-implicit-type-casting">Read the analyzed plan to check implicit type casting</h3>
-<p>This followed an example where you got different results with a constraint <code>where x != 0</code> vs. <code>where x != 0.0</code>, due to implict type casting within the analyzed plan. His suggestion is to explicitly cast the types in your queries.</p>
-<h3 id="create-native-tables">Create native tables</h3>
-<p>Not sure what this was about … create native data source tables for better performance and stability. Using something called ORC.</p>
-<h3 id="collapse-projects">Collapse projects</h3>
-<p>Look out for UDFs being called multiple times in the query plan.</p>
-<pre><code>df.select(
-    some_udf(&quot;col1&quot;).alias(&quot;new_col1&quot;)
-).selectExpr(
-    &quot;new_col1&quot;,
-    &quot;new_col1 + new_col1&quot;,
-)
-
-# --&gt; causes udf to be executed three times. forgot what to do to fix this.
-</code></pre><h3 id="cross-session-sql-cache">Cross-session SQL cache</h3>
-<p>If a query is cached in one session, the new queries in all sessions might be impacted.</p>
-<pre><code># ?
-</code></pre><h3 id="join-hints-in-spark-30">Join hints in Spark 3.0</h3>
-<p>They'll help you with broadcasting and … other things that I didn't see in time.</p>
-<h2 id="tracking-execution-in-the-spark-ui">Tracking Execution in the Spark UI</h2>
-<p>A single SQL query can correspond to multiple Spark jobs: broadcast exchange, suffle exchange, subqueries, … and each Spark job is an RDD DAG.</p>
-<p>In query execution (selected physical plan —&gt; DAGs) you can see both the higher level SQL physical operators (Filter, Project, HashAggregate, Exchange, etc.) and lower level Spark RDD primitives.</p>
-<p>The Stages tab has task-specific information, letting you know how time is spent, what tasks are blocking others, how well things are balanced, etc. … each task corresponds to a partition, so maybe you have to repartition things. You can use the Duration column to see if task execution times are balanced, Input Size / Records column to look for skew in your data (based on partitioning).</p>
-<p>The Executors tab tells you about … the executors, crazy. You can see used/free memory of each executor, task time, and the size of data transferred between stages.</p>
-<p>Then he showed off how when you change <code>using parquet</code> to <code>using delta</code> you reduce write time from 8M to 27S, hahaha.</p>
-<p>Lots of resources on the last slide.</p>
+<p>I think the most significant changes, however, came from investing in my remote setup. I now have two monitors (one purchased, one that I walked home from my office), a <a href="https://www.dell.com/en-us/work/shop/dell-universal-dock-d6000/apd/452-bcyt/pc-accessories">docking station</a>, and a wireless mouse and keyboard. The docking station works flawlessly with my USB-C Chromebook (for personal use) and Macbook Pro (for work), where it's one cable that gives me both displays, power, and peripherals. For my older personal laptop, I have to plug the monitor and USB peripherals into the laptop directly, but I'm hoping to replace that when the rumored 14in Macbook Pro comes out.</p>
+<h2 id="spending-time">Spending time</h2>
+<p>The distribution of how I'm spending my time is also dramatically different. I'm finding it difficult to focus on work for a full 8ish-hour day; today I worked from 10 to 4 because I stopped having any sort of creative output. I think I'm okay with this, though, as I'm sensing it'll be easy to burn out while at home indefinitely.</p>
+<p>After work, there's &hellip; nothing to do. I wish I could see my friends, or got to <a href="http://flacostacosonline.com/menu/">margarita Mondays</a> with my girlfriend, but of course I can't. I'm calling and texting friends more, but of course it's not the same.</p>
+<p>I'm playing Pokemon GO less, for the obvious reason of not going outside as much. This is also partially because Niantic appears to have made the March event slate <a href="https://old.reddit.com/r/TheSilphRoad/comments/fbqvi7/psa_if_the_new_march_events_are_making_you_feel/">abnormally frustrating</a> in an attempt to see how far they can push their playerbase, and I'm one of the players who feels squeezed out. (I'm quite happy that their experiment has been ruined.) I've noticed my phone screen time go down dramatically to between 1 and 2 hours daily now.</p>
+<p>This does give me more time, though, and I'm doing my best to fill this in productive ways. More concretely, this means reading: I'm trying to do one or two papers a week, to finally finish Network Propaganda, and to get through some stuff on my <a href="/reading/">reading list</a>. I can also do more volunteer work for <a href="https://www.techforcampaigns.org/">Tech for Campaigns</a>.</p>
+<p>My Switch is getting a lot of attention, too; it's not all productive (nor should it be). <a href="https://mysterydungeon.pokemon.com/en-us/">Pokemon Mystery Dungeon</a>, the most treasured video game from my childhood, was remade a couple weeks ago, and it's largely responsible for my lack of activity here at the start of March. Animal Crossing came out a week ago, so I'm working on paying off debt to a strange, but adorable, raccoon.</p>
+<h2 id="closing-thoughts">Closing thoughts</h2>
+<p>On one hand, things are fine. I'm lucky to be able to hole up and write this. I'm lucky to be an introvert who is fine without seeing people for a couple of days (not to say that introverts are fine right now, but talking to my very sociable girlfriend shows me that it could be worse). I'm lucky to not have to care for kids or other family members. I'm already noticing a lot more time for reading.</p>
+<p>On the other, nothing is fine: we're in an unprecedented global pandemic and our constant, predictable leadership failures are only making it worse. Millions of people are going to die, and millions more will get sick, lose family members, be out of work, or have their lives turned upside down by this virus.</p>
+<p>I try to end posts optimistically, but I don't think I can here. Lean on your social support, thank our selfless healthcare workers, and hope for the best.</p>
     </div>
     <div class="article-footer">
     </div>
@@ -302,14 +296,9 @@
     <div class="bar-inner">
         <ul class="pager pull-left">
             <li class="prev">
-                <a href="/spark/interpretable_ai.html" title="Beyond Reason Codes: A Blueprint for Human-Centered, Low-Risk ML"><i
+                <a href="/papers/review_methods_predicting_mental_health_status_chancellor.html" title="Paper: Methods in predictive techniques for mental health status on social media: a critical review"><i
                         class="icon icon-angle-left"
                         aria-hidden="true"></i><span>&nbsp;&nbsp;Older</span></a>
-            </li>
-            <li class="next">
-                <a href="/spark/modular_spark.html"
-                    title="Modular Apache Spark: Transform Your Code into Pieces"><span>Newer&nbsp;&nbsp;</span><i
-                        class="icon icon-angle-right" aria-hidden="true"></i></a>
             </li>
         </ul>
     </div>
