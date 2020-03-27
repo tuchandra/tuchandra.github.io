@@ -6,10 +6,20 @@
     <description>Recent content in Categories on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 22 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Mar 2020 00:00:00 -0500</lastBuildDate>
     
         <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Reading List</title>
+      <link>/reading/</link>
+      <pubDate>Thu, 02 Jan 2020 00:00:00 -0600</pubDate>
+      
+      <guid>/reading/</guid>
+      <description>&lt;p&gt;This is a page of things I&#39;m hoping to read &amp;ldquo;soon&amp;rdquo; (for some value of soon). It&#39;s some cross between a digital bookshelf and public bookmarks, where I drop papers that cross my radar or blog posts, talks, or other ideas.&lt;/p&gt;
+&lt;p&gt;Some of these I&#39;ve printed out and carry around with me. Others are unlikely to ever be read because they&#39;re so far out of my areas of expertise or interest. While this page is mostly for my own reference, it also pretty broadly shows the types of work I&#39;m interested in.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Resume</title>
@@ -180,15 +190,6 @@
       
       <guid>/papers/ethical_tensions_social_media_chancellor_2.html</guid>
       <description>&lt;p&gt;Part 2/2 of the summary of the FAT* 2019 paper by Stevie Chancellor, Michael Birnbaum, Eric Caine, Vince Silenzio, Munmun De Choudhury. View it on &lt;a href=&#34;http://steviechancellor.com/wp-content/uploads/2019/03/taxonomy-prediction-mh-fat2019.pdf&#34;&gt;Chancellor&#39;s website&lt;/a&gt;. See part 1 of the summary &lt;a href=&#34;/papers/ethical_tensions_social_media_chancellor_1.html&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Paper: A Taxonomy of Ethical Tensions in Inferring Mental Health States from Social Media (part 1/2)</title>
-      <link>/papers/ethical_tensions_social_media_chancellor_1.html</link>
-      <pubDate>Sun, 24 Nov 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/papers/ethical_tensions_social_media_chancellor_1.html</guid>
-      <description>&lt;p&gt;Summary of the FAT* 2019 paper by Stevie Chancellor, Michael Birnbaum, Eric Caine, Vince Silenzio, Munmun De Choudhury. View it on &lt;a href=&#34;http://steviechancellor.com/wp-content/uploads/2019/03/taxonomy-prediction-mh-fat2019.pdf&#34;&gt;Chancellor&#39;s website&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
   </channel>

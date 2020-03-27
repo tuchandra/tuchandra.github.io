@@ -6,10 +6,19 @@
     <description>Recent content in Categories on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 22 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Mar 2020 00:00:00 -0500</lastBuildDate>
     
         <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>High Performance Transfer Learning for Classifying Intent of Sales Engagement Emails: An Experimental Study</title>
+      <link>/spark/transfer_learning.html</link>
+      <pubDate>Wed, 24 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/spark/transfer_learning.html</guid>
+      <description>&lt;p&gt;Speakers: Yong Liu (Outreach) and Corey Zumar (Databricks).&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Moving a Fraud-Fighting Random Forest from sklearn to Spark with ML, MLflow, and Jupyter</title>
