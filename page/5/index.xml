@@ -6,10 +6,28 @@
     <description>Recent content on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 28 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 31 Mar 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How Graph Technology is Changing AI</title>
+      <link>/spark/graph_technology.html</link>
+      <pubDate>Thu, 25 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/spark/graph_technology.html</guid>
+      <description>&lt;p&gt;Speakers: Jake Graham and Alicia Frame (Neo4j).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Modular Apache Spark: Transform Your Code into Pieces</title>
+      <link>/spark/modular_spark.html</link>
+      <pubDate>Thu, 25 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/spark/modular_spark.html</guid>
+      <description>&lt;p&gt;Speaker: Albert Franzi (SWE @ Alpha Health).&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Understanding Query Plans and Spark UIs</title>
