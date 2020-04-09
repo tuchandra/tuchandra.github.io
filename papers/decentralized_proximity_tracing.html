@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <title>
-        OpenAI Unease - Tushar Chandra
+        Paper: Decentralized Privacy-Preserving Proximity Tracing - Tushar Chandra
       </title>
     <head>
   <meta charset="utf-8">
@@ -21,32 +21,32 @@
   <meta name="theme-color" content="#000000" />
   <meta http-equiv="window-target" content="_top" />
   
-  <meta name="description" content="Early last week, an article was posted at the MIT Technology Review: the messy, secretive reality behind OpenAI&#39;s bid to save the world by Karen Hao. As well-written as it is long, I started thinking about what OpenAI stands for and why it makes me increasingly uneasy.
+  <meta name="description" content="This is a summary of a proposal for a &amp;ldquo;secure and privacy-preserving decentralized proximity tracing system,&amp;rdquo; aiming to help combat COVID-19 while placing individual privacy at high priority. View the proposal on GitHub.
 " />
   <meta name="generator" content="Hugo 0.62.2 with theme pure" />
-  <title>OpenAI Unease - Tushar Chandra</title>
+  <title>Paper: Decentralized Privacy-Preserving Proximity Tracing - Tushar Chandra</title>
   
 
   <link rel="stylesheet" href="/css/style.css">
   <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
-  <meta property="og:title" content="OpenAI Unease" />
-<meta property="og:description" content="Early last week, an article was posted at the MIT Technology Review: the messy, secretive reality behind OpenAI&#39;s bid to save the world by Karen Hao. As well-written as it is long, I started thinking about what OpenAI stands for and why it makes me increasingly uneasy." />
+  <meta property="og:title" content="Paper: Decentralized Privacy-Preserving Proximity Tracing" />
+<meta property="og:description" content="This is a summary of a proposal for a &ldquo;secure and privacy-preserving decentralized proximity tracing system,&rdquo; aiming to help combat COVID-19 while placing individual privacy at high priority. View the proposal on GitHub." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/posts/openai_unease.html" />
-<meta property="article:published_time" content="2020-02-27T00:00:00+00:00" />
-<meta property="article:modified_time" content="2020-02-27T00:00:00+00:00" />
-<meta itemprop="name" content="OpenAI Unease">
-<meta itemprop="description" content="Early last week, an article was posted at the MIT Technology Review: the messy, secretive reality behind OpenAI&#39;s bid to save the world by Karen Hao. As well-written as it is long, I started thinking about what OpenAI stands for and why it makes me increasingly uneasy.">
-<meta itemprop="datePublished" content="2020-02-27T00:00:00&#43;00:00" />
-<meta itemprop="dateModified" content="2020-02-27T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="1241">
+<meta property="og:url" content="/papers/decentralized_proximity_tracing.html" />
+<meta property="article:published_time" content="2020-04-08T00:00:00-05:00" />
+<meta property="article:modified_time" content="2020-04-08T00:00:00-05:00" />
+<meta itemprop="name" content="Paper: Decentralized Privacy-Preserving Proximity Tracing">
+<meta itemprop="description" content="This is a summary of a proposal for a &ldquo;secure and privacy-preserving decentralized proximity tracing system,&rdquo; aiming to help combat COVID-19 while placing individual privacy at high priority. View the proposal on GitHub.">
+<meta itemprop="datePublished" content="2020-04-08T00:00:00-05:00" />
+<meta itemprop="dateModified" content="2020-04-08T00:00:00-05:00" />
+<meta itemprop="wordCount" content="1096">
 
 
 
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="OpenAI Unease"/>
-<meta name="twitter:description" content="Early last week, an article was posted at the MIT Technology Review: the messy, secretive reality behind OpenAI&#39;s bid to save the world by Karen Hao. As well-written as it is long, I started thinking about what OpenAI stands for and why it makes me increasingly uneasy."/>
+<meta name="twitter:title" content="Paper: Decentralized Privacy-Preserving Proximity Tracing"/>
+<meta name="twitter:description" content="This is a summary of a proposal for a &ldquo;secure and privacy-preserving decentralized proximity tracing system,&rdquo; aiming to help combat COVID-19 while placing individual privacy at high priority. View the proposal on GitHub."/>
 </head>
   </head>
   
@@ -233,69 +233,81 @@
     <div class="article-header">
       <h1 itemprop="name">
   <a
-    class=""
-    href="/posts/openai_unease.html"
-    >OpenAI Unease</a
+    class="article-title"
+    href="/papers/decentralized_proximity_tracing.html"
+    >Paper: Decentralized Privacy-Preserving Proximity Tracing</a
   >
 </h1>
 
       <div class="article-meta">
         <span class="article-date">
   <i class="icon icon-calendar-check"></i>
-<a href="/posts/openai_unease.html">
-  <time datetime="2020-02-27 00:00:00 &#43;0000 UTC" itemprop="datePublished">2020-02-27</time>
+<a href="/papers/decentralized_proximity_tracing.html">
+  <time datetime="2020-04-08 00:00:00 -0500 CDT" itemprop="datePublished">2020-04-08</time>
 </a>
 </span><span class="article-category">
   <i class="icon icon-folder"></i>
-  <a class="article-category-link" href="/categories/general.html"> general </a>
+  <a class="article-category-link" href="/categories/papers.html"> papers </a>
 </span>
 
         
       </div>
     </div>
     <div class="article-entry marked-body js-toc-content" itemprop="articleBody">
-      <p>Early last week, an article was posted at the MIT Technology Review: <a href="https://www.technologyreview.com/s/615181/ai-openai-moonshot-elon-musk-sam-altman-greg-brockman-messy-secretive-reality/">the messy, secretive reality behind OpenAI's bid to save the world</a> by Karen Hao. As well-written as it is long, I started thinking about what OpenAI stands for and why it makes me increasingly uneasy.</p>
-<p>I first saw this on Twitter, and then started putting thoughts into a weekly &ldquo;what I read&rdquo; post. But they quickly grew too big for that post, and so here we are. This post will contain both summarized material from the article and my thoughts about OpenAI.</p>
-<h2 id="growing-unease">Growing unease</h2>
-<p>I've thought a lot about OpenAI, and discussed the organization with many of my friends, but nowhere have I seen such a comprehensive account of the company's history. They've made the news several times, and each has made me progressively more uneasy:</p>
+      <p>This is a summary of a proposal for a &ldquo;secure and privacy-preserving decentralized proximity tracing system,&rdquo; aiming to help combat COVID-19 while placing individual privacy at high priority. View the proposal on <a href="https://github.com/DP-3T/documents">GitHub</a>.</p>
+<p>The authors are numerous (copied directly from the README):</p>
+<blockquote>
+<p>EPFL: Prof. Carmela Troncoso, Prof. Mathias Payer, Prof. Jean-Pierre Hubaux, Prof. Marcel Salathé, Prof. James Larus, Prof. Edouard Bugnion, Dr. Wouter Lueks, Theresa Stadler, Dr. Apostolos Pyrgelis, Dr. Daniele Antonioli, Ludovic Barman, Sylvain Chatel</p>
+<p>ETHZ: Prof. Kenneth Paterson, Prof. Srdjan Capkun, Prof. David Basin, Dennis Jackson</p>
+<p>KU Leuven: Prof. Bart Preneel, Prof. Nigel Smart, Dr. Dave Singelee, Dr. Aysajan Abidin</p>
+<p>TU Delft: Prof. Seda Gürses</p>
+<p>University College London: Dr. Michael Veale</p>
+<p>CISPA: Prof. Cas Cremers</p>
+<p>University of Oxford: Dr. Reuben Binns</p>
+<p>TU Berlin / Fraunhofer HHI: Prof. Thomas Wiegand</p>
+<p>University of Torino / ISI Foundation: Prof. Ciro Cattuto</p>
+</blockquote>
+<h2 id="background-location-tracing">Background: location tracing</h2>
+<p>One of the suggestions for combating the spread of COVID-19 is a large-scale location tracing program. The idea, broadly speaking, is that &ldquo;someone&rdquo; uses location data to detect when people have come into contact with individuals who are infected with COVID-19 (or perhaps were themselves exposed). Those people can be told (or forced) to self-isolate.</p>
+<p>Contrast this to the current situation in the US, when most people have no idea if they've come into contact with a carrier of the virus. While many are observing social distancing, there are strong arguments for needing something more robust than &ldquo;please stay home.&rdquo; Location data, and automated contact tracing, <a href="https://www.forbes.com/sites/zakdoffman/2020/04/07/covid-19s-new-normal-yes-your-phone-will-track-infected-people-nearby/#582bb107f0db">are</a> | <a href="https://www.theverge.com/2020/3/31/21199654/location-data-coronavirus-us-response-covid-19-apple-google">being</a> | <a href="https://theintercept.com/2020/04/02/coronavirus-covid-19-surveillance-privacy/">pointed</a> | <a href="https://news.trust.org/item/20200328130228-rzdk2/">to</a> as a potential solution.</p>
+<p>This is, of course, controversial. The Washington Post <a href="https://www.washingtonpost.com/news/powerpost/paloma/the-technology-202/2020/03/30/the-technology-202-we-asked-more-than-100-tech-experts-if-u-s-should-use-location-data-to-track-coronavirus-they-were-split/5e80c80b602ff10d49ad757e">asked</a> a panel of experts on whether or not this should be done in the US, and they were evenly divided. And I personally don't trust the (US) government to build such a system in a way that won't simply be repurposed for mass surveillance in the future.</p>
+<p>A number of European countries are, however, already starting to do this by having cell providers share location data with governments. East Asian countries, who have largely been ahead of the US and Europe in their responses, have arguably been successful&mdash;Taiwan linked its immigration database to its health system, and both Singapore and Taiwan <a href="https://www.nytimes.com/2020/03/31/world/asia/coronavirus-china-hong-kong-singapore-south-korea.html">are requiring</a> smartphone location data to be shared with the government.</p>
+<h2 id="decentralized-privacy-preserving-proximity-tracing">Decentralized Privacy-Preserving Proximity Tracing</h2>
+<p>The idea behind this proposal (DP-3T) is to create a system for contact tracing that respects the privacy of individuals. DP-3T sits under the <a href="https://www.pepp-pt.org/">Pan-European Privacy-Preserving Proximity Tracing</a> (PEPP-PT) project, which is a set of loosely related proposals. The goal of the app is to note when contact occurs, and <em>not</em> to track infected individuals; once notified that they've been exposed, users are assumed to be responsible.</p>
+<p>The authors outline the following requirements:</p>
+<blockquote>
 <ul>
-<li>capping investor profits at 100x the investment: the ROI on an investment in Google would have been 20x. While OpenAI's goal is considerably more ambitious, this is, practically speaking, an unlimited cap for now.</li>
-<li>the GPT-2 staged release: it's not unreasonable to suggest that OpenAI was upselling GPT-2 and language models more generally. I think most of the coverage about this was negative, which is a little unfair (I'll get to this later). But I also think that the media campaign was a little bit too polished to suggest that this wasn't planned all along to generate hype.</li>
-<li>the gradual change to more and more secrecy, which ostensibly is because their work is getting progressively more dangerous, but in practice seems contradictory to their branding about openness and transparency.</li>
+<li><strong>Completeness</strong>: The contact history is comprehensive regarding contact events.</li>
+<li><strong>Precision</strong>: Reported contact events must reflect actual physical proximity</li>
+<li><strong>Integrity</strong>: Contact events corresponding to at-risk parties are authentic, i.e., users cannot fake contact events.</li>
+<li><strong>Confidentiality</strong>: A malicious actor cannot access the contact history of a user</li>
+<li><strong>Notification</strong>: At-risk individuals can be informed</li>
 </ul>
-<p>Hao addresses the last bullet directly in the piece:</p>
-<blockquote>
-<p>In the beginning, this level of secrecy was never the intention, but it has since become habitual. Over time, the leadership has moved away from its original belief that openness is the best way to build beneficial AGI. Now the importance of keeping quiet is impressed on those who work with or at the lab. This includes never speaking to reporters without the express permission of the communications team. <strong>After my initial visits to the office, as I began contacting different employees, I received an email from the head of communications reminding me that all interview requests had to go through her. When I declined, saying that this would undermine the validity of what people told me, she instructed employees to keep her informed of my outreach.</strong> A Slack message from Clark, a former journalist, later commended people for keeping a tight lid as a reporter was “sniffing around.”</p>
 </blockquote>
-<p>This is nicely put, and I appreciate Hao's excellent journalism here. It's reasonable, in my opinion, to ask that you don't speak to reporters without permission; I'd never speak on behalf of Nielsen at the risk of royally fucking myself over and opening myself to all kinds of liability. This seems to go a step further, though, to the point where it's almost antagonistic to the media.</p>
-<h2 id="on-safety-and-security">On safety and security</h2>
-<p>I've also been worried about OpenAI's approach to safety and security. It's discussed in the article that OpenAI did not release GPT-2 at first, citing the need for &ldquo;more nuanced discussions about model and code release decisions in the AI community.&rdquo;</p>
-<p>I don't deny that such a need exists; I think that were GPT-2 to be weaponized and misused, OpenAI would share (a small portion of) the responsibility for it. My contention is that OpenAI used this announcement to hype up GPT-2 without addressing the real, substantive issues with releasing a potentially dangerous model.</p>
-<p>The <a href="https://openai.com/blog/better-language-models/">blog post on it</a> certainly appears this way: why devote the majority to showing off the model, then relegate the release strategy (at the time, to not release) to the bottom?</p>
-<p>The article addresses this, too. According to a spokesperson for OpenAI:</p>
-<blockquote>
-<p>Each of our releases is run through an infohazard process to evaluate these trade-offs and we want to release our results slowly to understand potential risks and impacts before setting loose in the wild.</p>
-</blockquote>
-<p>I argue that OpenAI should release this &ldquo;infohazard process&rdquo;, too. Given their commitment to building <em>safe</em> A(G)I, the research community would benefit from being able to evaluate and iterate on this process. A shared set of standards for evaluating these tradeoffs would be great&mdash;and OpenAI had (still has) the chance to create this.</p>
-<p>If the focus were truly on the policy (or safety, or research) implications, OpenAI would do well to discuss them in more depth. Release perspective pieces arguing for different approaches. Bridge the gap between ML researchers and policy researchers. That, to me, is truly &ldquo;open&rdquo; AI research: helping to shape the discourse around the very real issues, rather than (in my view) contributing to the AI hype cycle.</p>
-<h2 id="on-diversity">On diversity</h2>
-<p>This is my last point, and perhaps one of the most bold claims I've made on this blog. But here we go. From the article:</p>
-<blockquote>
-<p>But if diversity is a problem for the AI industry in general, it’s something more existential for a company whose mission is to spread the technology evenly to everyone. The fact is that it lacks representation from the groups most at risk of being left out.</p>
-</blockquote>
-<p>I suspect that this point&mdash;near the bottom of the article, after many paragraphs about the technical strategy and research direction&mdash;will be underappreciated. But I would take this a step further and say that <strong>a company so homogenous is incapable of building AGI that truly works for everyone.</strong></p>
-<p>I also suspect that many will disagree with me on this. I've lost track of how many people fight back against diversity in tech (or anywhere), instead clinging to their &ldquo;objective&rdquo; (and biased) assessments or &ldquo;reverse discrimination&rdquo; arguments for programs favoring minoritized groups.</p>
-<p>But, to me, it couldn't be clearer: technology alone cannot solve social problems. I've read and written about this before: see civic hacker Josh Tauberer's <a href="https://medium.com/civic-tech-thoughts-from-joshdata/so-you-want-to-reform-democracy-7f3b1ef10597">&ldquo;So you want to reform democracy&rdquo;</a> which states &ldquo;technology often excludes segments of our society with the least power and who are in need of the most help,&rdquo; or the <a href="https://venturebeat.com/2019/11/23/no-ai-is-not-for-social-good/">No, AI is not for social good</a> article that I <a href="/what_i_read/20191214.html">summarized</a> in December. Without care, AGI will go the same way.</p>
-<p>For OpenAI to build AGI that &ldquo;is used for the benefit of all,&rdquo; they need more than (exceptionally talented, to be clear) ML researchers in San Francisco. People from around the world, of varying ages, experiences, and backgrounds, with research in not only ML but also social sciences, are essential to this cause.</p>
-<h2 id="to-openais-credit">To OpenAI's credit</h2>
-<p>I want to make sure that this article is not entirely critical of OpenAI. There are several things that I think they are doing well that I admire them for:</p>
+<p>They go onto require the following privacy guarantees:</p>
 <ul>
-<li>AGI is <em>hard</em>. No one knows when it will happen, and dedicating your entire organization to its pursuit is a risky choice.</li>
-<li>It is not uncommon for research labs to be secret about their work (though research labs don't make money and generate publicity by touting their openness, either)</li>
-<li>Research is expensive, and the computational cost of ML research in particular is skyrocketing</li>
-<li>The mission is bound to be tested as research gets more expensive and as AI becomes more of a public concern</li>
+<li><strong>Data use</strong>: must be limited for <em>only</em> the purposes of proximity tracing and proximity graph reconstruction, and not e.g., full location history.</li>
+<li><strong>Controlled inference</strong>: inference about individuals should be controlled to avoid information leakage; this is the &ldquo;principle of least privilege&rdquo; here.</li>
+<li><strong>Protect identities</strong>: data cannot be linked back to an individual.</li>
+<li><strong>Erasure</strong>: delete irrelevant data, follow data retention policies.</li>
 </ul>
-<p>More broadly, I <em>do</em> think that OpenAI believes in the benefit of humanity (to the extent that an institution can believe in anything, I guess). There appear to be cracks, but their job is hard. I commend them for the work they're doing here.</p>
+<h2 id="system-design">System design</h2>
+<p>The authors propose two designs, which have four steps:</p>
+<ol>
+<li>The app is installed, and upon installation a chain of ephemeral IDs are generated from a seed.</li>
+<li>During normal operation, the app broadcasts ephemeral IDs via Bluetooth, and rotates these IDs frequently and unpredictably.</li>
+<li>When a user has been infected, they submit their seed to a backend that allows others to reconstruct the IDs that her phone broadcast while she was contagious.</li>
+<li>Individual apps can locally compute whether their user was in proximity to an infected person.</li>
+</ol>
+<p>While the design has a backend, it's not a central point of trust and doesn't maintain any secrets. All privacy-sensitive information is decentralized. This has the important benefit that the server cannot learn the social graph, making it impossible for malicious actors to reuse the data or compromise privacy if the server is compromised.</p>
+<p><strong>Details on normal operation:</strong> smartphones first locally generate a key <code>SK[t]</code> for the first day, then compute <code>SK[t+1] = H(SK[t])</code>, where H is some hash function, for the following days. Given a particular day's seed, the phones locally generates N emphemeral IDs to be used on that day. The keysIDs are broadcast in a random order. Each phone stores the ephemeral IDs that other devices have broadcast.</p>
+<p><strong>Details on proximity tracing</strong>: a health authority informs a patient of a positive test result. Following this, the patient will send their key <code>SK[t]</code> from the first day they were contagious to the server, which is distributed to all phones in the system. A phone can use this key to reconstruct the ephemeral IDs which the infected patient's phone broadcasted, and check if any of those ephemeral IDs were observed.</p>
+<p>An alternative design uses a Cuckoo filter to offer greater privacy at the expense of larger downloads to individual devices. The details of this are a little bit over my head.</p>
+<h2 id="thoughts">Thoughts</h2>
+<p>This is really interesting to read. Once again, I'm skeptical of any centralized solution that maintains a global contact graph or full location data; and while I knew that decentralized solutions must exist, this is the first time I read about one in depth.</p>
+<p>This work <em>also</em> represents the first system I've seen that's designed with the idea that it can be gratefully dismantled once we've gotten past COVID-19. By enforcing privacy by design and following reasonable data retention policies (nothing realistically needs to be kept for more than a few weeks), I have much more faith in this system than I do any other that I've seen proposed.</p>
+<p>NPR <a href="https://www.npr.org/sections/coronavirus-live-updates/2020/04/02/825860406/in-germany-high-hopes-for-new-covid-19-contact-tracing-app-that-protects-privacy">reports</a> that Germany may be rolling out a system like this in the near future. I look forward to hearing how it goes, and hope that it helps them get this under control.</p>
+<p>Finally, I ought to acknowledge one of my college professors, <a href="https://josiahhester.com/">Dr. Josiah Hester</a>, who taught an <a href="http://users.eecs.northwestern.edu/~josiah/eecs395_495/">Internet of Things research seminar</a> that I took as part of my MS. That class helped me to develop the skills needed to be able to digest systems papers like this one, from understanding how they're typically structured to knowing which parts were most crucial to a high-level understanding.</p>
     </div>
     <div class="article-footer">
     </div>
@@ -304,14 +316,9 @@
     <div class="bar-inner">
         <ul class="pager pull-left">
             <li class="prev">
-                <a href="/posts/section_230_and_neutrality.html" title="Section 230, the internet, and neutrality"><i
+                <a href="/what_i_read/20200404.html" title="What I read this week (March 29 - April 4)"><i
                         class="icon icon-angle-left"
                         aria-hidden="true"></i><span>&nbsp;&nbsp;Older</span></a>
-            </li>
-            <li class="next">
-                <a href="/what_i_read/20200229.html"
-                    title="What I read this week (February 23 - February 29)"><span>Newer&nbsp;&nbsp;</span><i
-                        class="icon icon-angle-right" aria-hidden="true"></i></a>
             </li>
         </ul>
     </div>

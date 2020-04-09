@@ -6,10 +6,19 @@
     <description>Recent content in Categories on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 04 Apr 2020 00:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 08 Apr 2020 00:00:00 -0500</lastBuildDate>
     
         <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Paper: &#39;This Post Will Just Get Taken Down&#39;: Characterizing Removed Pro-Eating Disorder Content on Social Media</title>
+      <link>/papers/removed_pro_ed_chancellor.html</link>
+      <pubDate>Sat, 11 Jan 2020 00:00:00 -0600</pubDate>
+      
+      <guid>/papers/removed_pro_ed_chancellor.html</guid>
+      <description>&lt;p&gt;This is a social computing paper analyzing characteristics of over 30,000 pro-eating disorder (pro-ED) posts that were removed from Instagram after having been public at one time. The authors built a classifier for removed pro-ED posts against non-removed ones, and also studied the characteristics of removed posts more generally.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>What I read this week (January 5 - 11)</title>
@@ -181,15 +190,6 @@
       
       <guid>/posts/features_for_site.html</guid>
       <description>&lt;p&gt;I &lt;a href=&#34;https://tusharc.dev/site/about_website.html&#34;&gt;wrote&lt;/a&gt; about my SSG and how I built this website back in April. Over time, I&#39;ve started to realize that some of the features I stripped out may actually be useful. This post is a wishlist of features that I would like to add over time.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>What I read this week (December 1 - 7)</title>
-      <link>/what_i_read/20191207.html</link>
-      <pubDate>Sat, 07 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/what_i_read/20191207.html</guid>
-      <description>&lt;p&gt;I am considering posting regularly about other things I&#39;m reading, particularly blog posts and articles. But these rarely warrant their own standalone post (a blog post about someone else&#39;s blog post?), so I&#39;ll write a couple paragraphs about interesting articles I find.&lt;/p&gt;</description>
     </item>
     
   </channel>
