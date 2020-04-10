@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <title>
-        Using papermill to wrap model runs - Tushar Chandra
+        Productivity and what motivates me - Tushar Chandra
       </title>
     <head>
   <meta charset="utf-8">
@@ -21,32 +21,32 @@
   <meta name="theme-color" content="#000000" />
   <meta http-equiv="window-target" content="_top" />
   
-  <meta name="description" content="I recently started using papermill from nteract to parameterize model runs. I&#39;ve started to like it a lot, and this post will discuss my experiences with it and my current setup.
+  <meta name="description" content="It took a month of remote work for me to fully abandon the expectation that I should be as productive as usual during this time. This post reflects on why.
 " />
   <meta name="generator" content="Hugo 0.62.2 with theme pure" />
-  <title>Using papermill to wrap model runs - Tushar Chandra</title>
+  <title>Productivity and what motivates me - Tushar Chandra</title>
   
 
   <link rel="stylesheet" href="/css/style.css">
   <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
-  <meta property="og:title" content="Using papermill to wrap model runs" />
-<meta property="og:description" content="I recently started using papermill from nteract to parameterize model runs. I&#39;ve started to like it a lot, and this post will discuss my experiences with it and my current setup." />
+  <meta property="og:title" content="Productivity and what motivates me" />
+<meta property="og:description" content="It took a month of remote work for me to fully abandon the expectation that I should be as productive as usual during this time. This post reflects on why." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/posts/papermill_experiences.html" />
-<meta property="article:published_time" content="2019-11-15T00:00:00+00:00" />
-<meta property="article:modified_time" content="2019-11-15T00:00:00+00:00" />
-<meta itemprop="name" content="Using papermill to wrap model runs">
-<meta itemprop="description" content="I recently started using papermill from nteract to parameterize model runs. I&#39;ve started to like it a lot, and this post will discuss my experiences with it and my current setup.">
-<meta itemprop="datePublished" content="2019-11-15T00:00:00&#43;00:00" />
-<meta itemprop="dateModified" content="2019-11-15T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="720">
+<meta property="og:url" content="/posts/remote_work_productivity.html" />
+<meta property="article:published_time" content="2020-04-09T00:00:00-05:00" />
+<meta property="article:modified_time" content="2020-04-09T00:00:00-05:00" />
+<meta itemprop="name" content="Productivity and what motivates me">
+<meta itemprop="description" content="It took a month of remote work for me to fully abandon the expectation that I should be as productive as usual during this time. This post reflects on why.">
+<meta itemprop="datePublished" content="2020-04-09T00:00:00-05:00" />
+<meta itemprop="dateModified" content="2020-04-09T00:00:00-05:00" />
+<meta itemprop="wordCount" content="1136">
 
 
 
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Using papermill to wrap model runs"/>
-<meta name="twitter:description" content="I recently started using papermill from nteract to parameterize model runs. I&#39;ve started to like it a lot, and this post will discuss my experiences with it and my current setup."/>
+<meta name="twitter:title" content="Productivity and what motivates me"/>
+<meta name="twitter:description" content="It took a month of remote work for me to fully abandon the expectation that I should be as productive as usual during this time. This post reflects on why."/>
 </head>
   </head>
   
@@ -234,16 +234,16 @@
       <h1 itemprop="name">
   <a
     class=""
-    href="/posts/papermill_experiences.html"
-    >Using papermill to wrap model runs</a
+    href="/posts/remote_work_productivity.html"
+    >Productivity and what motivates me</a
   >
 </h1>
 
       <div class="article-meta">
         <span class="article-date">
   <i class="icon icon-calendar-check"></i>
-<a href="/posts/papermill_experiences.html">
-  <time datetime="2019-11-15 00:00:00 &#43;0000 UTC" itemprop="datePublished">2019-11-15</time>
+<a href="/posts/remote_work_productivity.html">
+  <time datetime="2020-04-09 00:00:00 -0500 CDT" itemprop="datePublished">2020-04-09</time>
 </a>
 </span><span class="article-category">
   <i class="icon icon-folder"></i>
@@ -254,26 +254,36 @@
       </div>
     </div>
     <div class="article-entry marked-body js-toc-content" itemprop="articleBody">
-      <p>I recently started using <a href="https://github.com/nteract/papermill/">papermill</a> from nteract to parameterize model runs. I've started to like it a lot, and this post will discuss my experiences with it and my current setup.</p>
-<h2 id="my-use-case">My use case</h2>
-<p>My current task at work is a modeling problem where I'm trying out different versions of models fairly quickly. I have a lot of freedom in my toolchain; I'm using <a href="http://pyro.ai/">Pyro</a> for probabilistic models, but beyond that I can use any other libraries to help me with this process.</p>
-<p>At first, I was trying out basic models to better understand my problem and my dataset. As those matured, I got into a fairly quick train/diagnose/modify cycle, where I'd (1) train some model, (2) make visualizations to understand what it's doing, (3) update the model based on hunches about how to make it better, and (4) repeat. I think this is a fairly common cycle for data scientists to find themselves in.</p>
-<p>The main limitation here was the disconnect between training and visualizations. I want all of my data prep code and modeling code to be in Python scripts, but I want to make visualizations in Jupyter notebooks. I <em>don't</em> want my modeling code in notebooks, because notebooks <a href="https://www.youtube.com/watch?v=7jiPeIFXb6U">encourage poor software development</a>. I don't want my visualizations in scripts because they either (1) open up and block the rest of my script or (2) get saved to disk somewhere, and I have to spend time opening them myself and remembering which graph went with which model. More generally, I wanted report-style visualizations, where the graphs were surrounded by code, headings, and prose.</p>
-<p>I'd heard of papermill a year ago, but never got around using it; a couple weeks ago, I decided to take the plunge into figuring it out. It has been a huge success.</p>
-<h2 id="my-setup">My setup</h2>
-<p>It took a lot of iteration to reach this point, so I'll just describe the final result.</p>
-<ul>
-<li>data prep code: in an library (e.g., <code>lib.data</code>), which has code to initialize my dataset objects, clean them, and transform them</li>
-<li>plotting code: in a library (e.g., <code>lib.plots</code>), which has code to make common visualizations from datasets of predictions</li>
-<li>modeling code: my main script (e.g., <code>model.py</code>), which is where model classes are declared. The training loop lives in a <code>main</code> function here</li>
-</ul>
-<p>So far, things are pretty standard. I have code factored out into libraries, testable functions, and the ability to train a model by running the main modeling script. Here is where papermill comes in.</p>
-<p>I have a <strong>template visualization notebook</strong> which calls the <code>main</code> function of <code>model.py</code> to train a model, then goes on to make diagnostic plots and reports for me. It's parameterized at the top with things like the number of hidden units in my neural network, the learning rate, or the number of epochs to train for. Note that <em>I never run this notebook directly</em>&ndash;only papermill does.</p>
-<p>Finally, I have a driver script which (1) uses <code>papermill</code> to run the notebook with parameters that I specify there, (2) uses <code>nbconvert</code> to convert the notebook to an HTML document. This lets me open up the HTML report directly in my browser without having to have Jupyter running. Additionally, the HTML report is immutable&ndash;by design, I can't go back and mess with anything, so I don't have to worry about changing code after it has executed, one of the common pitfalls of notebooks.</p>
-<p>Having a driver script lets me run the same model multiple times to check for stability, train models with different hyperparameters, or test out different model architectures. It means I can run <code>python pm_driver.py</code>, wait for my model to train (and go write, say, a blog post on papermill), and come back to finished HTML documents with visualizations on how they performed.</p>
-<h2 id="final-thoughts">Final thoughts</h2>
-<p>Papermill is incredible&ndash;it's undoubtedly changed my workflow for the better. At first, it was a lot of messing around to get everything to work, and it took a couple of weeks to land on a setup that worked for me. But now that I can separate model code from reporting code, but run both at the same time, iterating has gotten easier and faster.</p>
-<p>Because all of this is work code, I unfortunately can't share what I've created. I'm happy to talk about my experiences further if you'd like to email me@[this domain].</p>
+      <p>It took a month of remote work for me to fully abandon the expectation that I should be as productive as usual during this time. This post reflects on why.</p>
+<h2 id="motivation">Motivation</h2>
+<p>The motivation for this post is a <a href="https://twitter.com/justicedanielh/status/1238560925575024640">Twitter thread</a> by Daniel Justice that I came across recently. I'll reproduce its text below:</p>
+<blockquote>
+<p>I've seen so many silver-lining comments from academics about how being quarantined will help them get progress on their backlog of projects. I've said it myself. But we need to recognize that this response is <em>deeply</em> pathological&ndash;we should not be normalizing this thinking.</p>
+<p>So many presumptions, too: 1) that you'll be healthy enough in quarantine to do that work; 2) that you won't be attending to others&rsquo; health needs; 3) that you'll be able to focus on it in the midst of all this; and 4) that we can or should be &ldquo;productive&rdquo; in a time of pandemic.</p>
+<p>We know that dehumanizing capitalist productivity thinking has deeply penetrated academia, but this is next level. Maybe pandemic is the time to reassert our full humanity, not our capacity to be guilt-compelled machinery for institutions that already treat us as disposable.</p>
+<p>This thread isn’t to shame people—again, my thoughts went there too. But that it’s such an instantaneous place to go says something very sad about what motivates so much of our work, especially in times like these.</p>
+<p>And it’s been rightly pointed out that for faculty in more tenuous and insecure positions it’s a privilege to <em>not</em> go there, so it’s also vital for those of us with more secure jobs to work harder to improve conditions so colleagues don’t feel like this is their only option.</p>
+<p>Find comfort where you can. But if your reflex response is “how can I become more of a productivity machine?” I’m not sure how that contributes to long-term health or happiness. Maybe that deserves a bit of reflection, and maybe the discomfort with the question does, too.</p>
+</blockquote>
+<p>I've heard this sentiment repeated in various forms, and I can only agree with it. I was (am?) certainly guilty of feeling this way, too. There are a couple of different things that feed into this, which I will attempt to unpack here.</p>
+<h2 id="remote-work-then-vs-now">Remote work, then vs. now</h2>
+<p>I first want to address the idea that remote work simply amounts to a change in location. Forgive me if that sounds like a strawman; but when Nielsen first announced mandatory WFH a month or so ago, I and many of my coworkers did not realize how different it would be. We knew there'd be some differences&mdash;a lack of casual office chat, no more lunches together&mdash;but I personally did not expect it to be such a drastic change.</p>
+<p>(Sidenote: even writing that makes me look back at how naive I was and how naive that sounds&mdash;just weeks ago! I guess that's what you call &ldquo;growth.&quot;)</p>
+<p>Perhaps obviously, being at home 24/7 is far, far different from working from home every Friday. On many Fridays, I'll work from my bed and half-focus throughout the day. When I'm at home every day, designating my desk as &ldquo;where work happens&rdquo; is essential.</p>
+<p>(Sidenote 2: this is to say nothing of the folks who have kids at home to take care of, sick family members, or any number of other things that make WFH more challenging. That any parent is getting anything done is still astonishing to me!)</p>
+<h2 id="mechanics-and-the-mind">Mechanics and the mind</h2>
+<p>Nielsen being so remote-friendly made mandatory WFH easier, mechanically speaking. We already had collaboration tools set up, many of us were used to working with teams in different offices, and most people already had good video call habits. A number of teams had members who were fully remote already.</p>
+<p>I'm coming to believe, though, that this made the <em>mental</em> shift from occasionally-remote to fully-remote harder. The mechanics hadn't changed, and so for a while I figured that the feelings of being fully remote wouldn't, either. It took the better part of two weeks for me to realize that things will feel different, and that they should! After all, the world is in truly unprecedented times right now.</p>
+<p>Now that I've observed and accepted this mental shift, my attitude about it all has gotten better. I'm realizing that it's okay if I'm not as productive as usual. It's okay if the scenery of my bedroom wall gets old. It's okay to feel tired and unmotivated, and that's a normal effect of quarantine.</p>
+<h2 id="productivity-and-what-motivates-me">Productivity and what motivates me</h2>
+<p>The pandemic has also gotten me thinking about productivity and what motivates me. I had the same reflex as Justice describes in the Twitter thread, about how I can be more productive during this time. I have a (thankfully) unpublished blog post about my goals for quarantine, which (loosely) were to read more and try to make my research interests more fully formed.</p>
+<p>But those were my goals before quarantine, too! It's not like they've changed as a result of being at home. Part of me thought, though, that by being at home more I'd have more time to read and develop my research interests.</p>
+<p>I do have more time&mdash;but what I lack is the energy. Looking back at the last few weeks, most of what used to be &ldquo;social time&rdquo; now consists of watching Twitch streams and playing Animal Crossing. Hell, I'm passively farming balloons as I write this.</p>
+<p>And that, too, is fine. Those were my goals before quarantine started, and they haven't changed as a result of being at home. I've been trying (and succeeding) to read more for months, and my research interests are naturally developing as a result. Expecting to do <em>more</em>, I realize, is unfair to myself. Expecting to fill former &ldquo;social time&rdquo; with &ldquo;academic time&rdquo; is, too.</p>
+<p>One might even question whether I should expect <em>baseline</em> productivity during a global pandemic. The world is in a once-in-a-century disaster right now, and the expectation that I can maintain my normal output, to say nothing of exceeding it, is likely unrealistic, too. (And again, I don't have kids who need entertainment and education, or a family to take care of.)</p>
+<h2 id="closing-thoughts">Closing thoughts</h2>
+<p>Sometimes I feel bad about playing video games all evening. But more and more, I'm trying to remind myself: no, I don't have to be productive; no, I shouldn't even <em>expect</em> to be productive. So maybe the 100 hours I've poured into Animal Crossing weren't so bad, after all.</p>
+<p>What does this all mean for me going forward? To stop worrying about productivity. To stop feeling like I <em>have</em> to be reading. I've read roughly a paper a week for the past six months, and remained active blogging here, and I have every reason to be satisfied with that. None of these &ldquo;productive activities&rdquo; have decreased during quarantine, and that's enough.</p>
     </div>
     <div class="article-footer">
     </div>
@@ -282,14 +292,9 @@
     <div class="bar-inner">
         <ul class="pager pull-left">
             <li class="prev">
-                <a href="/papers/curse_of_knowledge_xiong.html" title="Paper: The Curse of Knowledge in Visual Data Communication"><i
+                <a href="/papers/decentralized_proximity_tracing.html" title="Paper: Decentralized Privacy-Preserving Proximity Tracing"><i
                         class="icon icon-angle-left"
                         aria-hidden="true"></i><span>&nbsp;&nbsp;Older</span></a>
-            </li>
-            <li class="next">
-                <a href="/papers/model_cards_mitchell.html"
-                    title="Paper: Model Cards for Model Reporting"><span>Newer&nbsp;&nbsp;</span><i
-                        class="icon icon-angle-right" aria-hidden="true"></i></a>
             </li>
         </ul>
     </div>

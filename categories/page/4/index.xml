@@ -6,10 +6,19 @@
     <description>Recent content in Categories on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 08 Apr 2020 00:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Thu, 09 Apr 2020 00:00:00 -0500</lastBuildDate>
     
         <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Features I would like to add to my SSG</title>
+      <link>/posts/features_for_site.html</link>
+      <pubDate>Mon, 09 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/features_for_site.html</guid>
+      <description>&lt;p&gt;I &lt;a href=&#34;https://tusharc.dev/site/about_website.html&#34;&gt;wrote&lt;/a&gt; about my SSG and how I built this website back in April. Over time, I&#39;ve started to realize that some of the features I stripped out may actually be useful. This post is a wishlist of features that I would like to add over time.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>What I read this week (December 1 - 7)</title>
@@ -161,7 +170,7 @@
       <pubDate>Wed, 16 Oct 2019 00:00:00 +0000</pubDate>
       
       <guid>/posts/silph.html</guid>
-      <description>pre::before { display: none; }pre::after { display: none; }analysis/*!** Twitter Bootstrap**//*!* Bootstrap v3.3.7 (http://getbootstrap.com)* Copyright 2011-2016 Twitter, Inc.* Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)*//*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */html {font-family: sans-serif;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;}body {margin: 0;}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary {display: block;}audio,canvas,progress,video {display: inline-block;vertical-align: baseline;}audio:not([controls]) {display: none;height: 0;}[hidden],template {display: none;}a {background-color: transparent;}a:active,a:hover {outline: 0;}abbr[title] {border-bottom: 1px dotted;}b,strong {font-weight: bold;}dfn {font-style: italic;}h1 {font-size: 2em;margin: 0.</description>
+      <description>pre::before { display: none; } pre::after { display: none; }   analysis   /*! * * Twitter Bootstrap * */ /*! * Bootstrap v3.3.7 (http://getbootstrap.com) * Copyright 2011-2016 Twitter, Inc. * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE) */ /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */ html { font-family: sans-serif; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; } body { margin: 0; } article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary { display: block; } audio, canvas, progress, video { display: inline-block; vertical-align: baseline; } audio:not([controls]) { display: none; height: 0; } [hidden], template { display: none; } a { background-color: transparent; } a:active, a:hover { outline: 0; } abbr[title] { border-bottom: 1px dotted; } b, strong { font-weight: bold; } dfn { font-style: italic; } h1 { font-size: 2em; margin: 0.</description>
     </item>
     
     <item>
@@ -181,15 +190,6 @@
       <guid>/posts/about_website.html</guid>
       <description>&lt;p&gt;You may have noticed that the &lt;a href=&#34;https://github.com/tuchandra/sitev1&#34;&gt;Github repo&lt;/a&gt; for this website has a tagline &amp;ldquo;&amp;hellip; for people who &lt;em&gt;aren&#39;t&lt;/em&gt; web developers.&amp;rdquo; I am a data scientist and certainly fit that description, and so I&#39;m going to talk about how I built this site using the tools I already know.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Update (Jan. 2, 2020)&lt;/strong&gt;: This post is outdated! See &lt;a href=&#34;/posts/migrating_to_hugo.html&#34;&gt;Migrating to Hugo&lt;/a&gt; for information on the new site.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Automating Predictive Modeling at Zynga with Pandas UDFs</title>
-      <link>/spark/automated_modeling.html</link>
-      <pubDate>Thu, 25 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/spark/automated_modeling.html</guid>
-      <description>&lt;p&gt;Speaker: Ben Weber (Principal Data Scientist @ Zynga).&lt;/p&gt;</description>
     </item>
     
   </channel>
