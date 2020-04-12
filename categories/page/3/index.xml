@@ -6,10 +6,19 @@
     <description>Recent content in Categories on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 09 Apr 2020 00:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Sat, 11 Apr 2020 00:00:00 -0500</lastBuildDate>
     
         <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>What I read this week (January 12 - 18)</title>
+      <link>/what_i_read/20200118.html</link>
+      <pubDate>Sat, 18 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/what_i_read/20200118.html</guid>
+      <description>&lt;p&gt;Articles I read this week, including &amp;ldquo;goodbye clean code,&amp;rdquo; the Neural ODEs paper retrospective, and technical writing.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Software engineering is an essential part of data science</title>
@@ -181,15 +190,6 @@
       
       <guid>/what_i_read/20191214.html</guid>
       <description>&lt;p&gt;Similar to last week, here are summaries of blog posts, articles, or news that I read this week.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Paper: The spread of true and false news online</title>
-      <link>/papers/spread_of_news_vosoughi.html</link>
-      <pubDate>Thu, 12 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/papers/spread_of_news_vosoughi.html</guid>
-      <description>&lt;p&gt;Summary of &amp;ldquo;that paper on fake news&amp;rdquo; by Soroush Vosoughi, Deb Roy, and Sinan Aral, published in Science. View it on the &lt;a href=&#34;https://science.sciencemag.org/content/359/6380/1146&#34;&gt;Science website&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
   </channel>
