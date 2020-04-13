@@ -6,7 +6,7 @@
     <description>Recent content in papers on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 08 Apr 2020 00:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Sun, 12 Apr 2020 00:00:00 -0500</lastBuildDate>
     
         <atom:link href="/categories/papers/index.xml" rel="self" type="application/rss+xml" />
     
@@ -18,6 +18,15 @@
       
       <guid>/posts/debugging_attitude.html</guid>
       <description>&lt;p&gt;Today, I noticed myself doing something I&#39;ve done many times before: running into an error, Googling it, finding code snippets, and making random changes in hopes that they&#39;d work. In this post, I try to understand why.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Paper: Presenting machine learning model information to clinical end users with model facts labels</title>
+      <link>/papers/model_facts_sendak.html</link>
+      <pubDate>Sun, 12 Apr 2020 00:00:00 -0500</pubDate>
+      
+      <guid>/papers/model_facts_sendak.html</guid>
+      <description>&lt;p&gt;This is another &amp;ldquo;interpeting machine learning&amp;rdquo; paper, this time in a medical context. The Duke researchers propose a &amp;ldquo;model facts&amp;rdquo; label, a la &amp;ldquo;nutrition facts&amp;rdquo; that we see on food packaging.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -180,15 +189,6 @@
       
       <guid>/what_i_read/20200307.html</guid>
       <description>&lt;p&gt;Hello! This week&#39;s reading was a lot of Morning Paper articles, AI skepticism from a VC firm, and posts from /r/MachineLearning.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>New computer setup</title>
-      <link>/posts/new_computer_setup.html</link>
-      <pubDate>Thu, 05 Mar 2020 00:00:00 -0600</pubDate>
-      
-      <guid>/posts/new_computer_setup.html</guid>
-      <description>&lt;p&gt;My work Macbook had to be sent in for repair, and the hard drive got wiped. I documented all the steps I took to set it up again. You can use this as a starting point for setting up a new machine, and so can I if I need to do this again soon!&lt;/p&gt;</description>
     </item>
     
   </channel>

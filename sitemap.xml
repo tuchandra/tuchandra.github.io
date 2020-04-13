@@ -3,6 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/papers.html</loc>
+    <lastmod>2020-04-12T00:00:00-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/posts.html</loc>
     <lastmod>2020-04-12T00:00:00-05:00</lastmod>
     <priority>0</priority>
@@ -24,6 +30,20 @@
   
   <url>
     <loc>/posts/debugging_attitude.html</loc>
+    <lastmod>2020-04-12T00:00:00-05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/papers/model_facts_sendak.html</loc>
+    <lastmod>2020-04-12T00:00:00-05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/papers.html</loc>
     <lastmod>2020-04-12T00:00:00-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -64,20 +84,7 @@
   </url>
   
   <url>
-    <loc>/papers.html</loc>
-    <lastmod>2020-04-08T00:00:00-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/papers/decentralized_proximity_tracing.html</loc>
-    <lastmod>2020-04-08T00:00:00-05:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/papers.html</loc>
     <lastmod>2020-04-08T00:00:00-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
