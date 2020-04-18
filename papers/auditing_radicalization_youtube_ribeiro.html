@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>
+        Paper: Auditing Radicalization Pathways on YouTube - Tushar Chandra
+      </title>
+    <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="Cache-Control" content="no-transform" />
+  <meta http-equiv="Cache-Control" content="no-siteapp" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="format-detection" content="telephone=no,email=no,adress=no">
+  
+  <meta name="theme-color" content="#000000" />
+  <meta http-equiv="window-target" content="_top" />
+  
+  <meta name="description" content="Does YouTube drive people to more extreme content? This is a question that many have posed, but this is the first paper to study this question in depth. I&#39;ve had this on my reading list since I came across it on Twitter, so this Saturday I finally sat down to take a look.
+" />
+  <meta name="generator" content="Hugo 0.62.2 with theme pure" />
+  <title>Paper: Auditing Radicalization Pathways on YouTube - Tushar Chandra</title>
+  
+
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
+  <meta property="og:title" content="Paper: Auditing Radicalization Pathways on YouTube" />
+<meta property="og:description" content="Does YouTube drive people to more extreme content? This is a question that many have posed, but this is the first paper to study this question in depth. I&#39;ve had this on my reading list since I came across it on Twitter, so this Saturday I finally sat down to take a look." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/papers/auditing_radicalization_youtube_ribeiro.html" />
+<meta property="article:published_time" content="2020-04-18T00:00:00-04:00" />
+<meta property="article:modified_time" content="2020-04-18T00:00:00-04:00" />
+<meta itemprop="name" content="Paper: Auditing Radicalization Pathways on YouTube">
+<meta itemprop="description" content="Does YouTube drive people to more extreme content? This is a question that many have posed, but this is the first paper to study this question in depth. I&#39;ve had this on my reading list since I came across it on Twitter, so this Saturday I finally sat down to take a look.">
+<meta itemprop="datePublished" content="2020-04-18T00:00:00-04:00" />
+<meta itemprop="dateModified" content="2020-04-18T00:00:00-04:00" />
+<meta itemprop="wordCount" content="1258">
+
+
+
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Paper: Auditing Radicalization Pathways on YouTube"/>
+<meta name="twitter:description" content="Does YouTube drive people to more extreme content? This is a question that many have posed, but this is the first paper to study this question in depth. I&#39;ve had this on my reading list since I came across it on Twitter, so this Saturday I finally sat down to take a look."/>
+</head>
+  </head>
+  
+
+  <body class="main-center theme-blue" itemscope itemtype="http://schema.org/WebPage"><header class="header" itemscope itemtype="http://schema.org/WPHeader">
+    <div class="slimContent">
+      <div class="navbar-header">
+        <div class="profile-block text-center">
+          <a id="avatar" href="/">
+            <img class="img-circle" src="/headshot.jpg" width="200" height="200">
+          </a>
+          <h2 id="name" class="hidden-xs hidden-sm"><b>Tushar Chandra</b></h2>
+          <h3 id="title" class="hidden-xs hidden-sm hidden-md">Data Scientist</h3>
+          <small id="location" class="text-muted hidden-xs hidden-sm"><i class="icon icon-map-marker"></i> Chicago, IL</small>
+        </div>
+
+        
+        <nav id="mobile-navbar" itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation">
+          <ul class="mobile-nav">
+              <a href="/">
+                <li class="menu-item-home">
+                    <i class="icon icon-home-fill"></i>
+                  <span class="menu-title"><br>Home</span>
+                </li>
+              </a>
+              <a href="/about">
+                <li class="menu-item-about">
+                    <i class="icon icon-cup-fill"></i>
+                  <span class="menu-title"><br>About</span>
+                </li>
+              </a>
+              <a href="/resume">
+                <li class="menu-item-resume">
+                    <i class="icon icon-file"></i>
+                  <span class="menu-title"><br>Resume</span>
+                </li>
+              </a>
+              <a href="/reading">
+                <li class="menu-item-reading">
+                    <i class="icon icon-shu-fill"></i>
+                  <span class="menu-title"><br>Reading</span>
+                </li>
+              </a>
+              <a href="/categories.html">
+                <li class="menu-item-categories">
+                    <i class="icon icon-folder-open"></i>
+                  <span class="menu-title"><br>Categories</span>
+                </li>
+              </a>
+              <a href="/posts.html">
+                <li class="menu-item-archives">
+                    <i class="icon icon-archives-fill"></i>
+                  <span class="menu-title"><br>Archives</span>
+                </li>
+              </a>
+
+          </ul>
+        </nav>
+      </div>
+      <nav id="main-navbar" class="collapse navbar-collapse" itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation">
+        <ul class="nav navbar-nav main-nav">
+            <li class="menu-item menu-item-home">
+                <a href="/">
+                    <i class="icon icon-home-fill"></i>
+                  <span class="menu-title">Home</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-about">
+                <a href="/about">
+                    <i class="icon icon-cup-fill"></i>
+                  <span class="menu-title">About</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-resume">
+                <a href="/resume">
+                    <i class="icon icon-file"></i>
+                  <span class="menu-title">Resume</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-reading">
+                <a href="/reading">
+                    <i class="icon icon-shu-fill"></i>
+                  <span class="menu-title">Reading</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-categories">
+                <a href="/categories.html">
+                    <i class="icon icon-folder-open"></i>
+                  <span class="menu-title">Categories</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-archives">
+                <a href="/posts.html">
+                    <i class="icon icon-archives-fill"></i>
+                  <span class="menu-title">Archives</span>
+                </a>
+            </li>
+
+        </ul>
+      </nav>
+    </div>
+  </header>
+<aside class="sidebar" itemscope itemtype="http://schema.org/WPSideBar">
+  <div class="slimContent">
+    <div class="widget">
+    <h3 class="widget-title"> Categories</h3>
+    <div class="widget-body">
+        <ul class="category-list">
+            <li class="category-list-item"><a href="/categories/books.html" class="category-list-link">books</a><span class="category-list-count">5</span></li>
+            <li class="category-list-item"><a href="/categories/general.html" class="category-list-link">general</a><span class="category-list-count">30</span></li>
+            <li class="category-list-item"><a href="/categories/papers.html" class="category-list-link">papers</a><span class="category-list-count">25</span></li>
+            <li class="category-list-item"><a href="/categories/self.html" class="category-list-link">self</a><span class="category-list-count">3</span></li>
+            <li class="category-list-item"><a href="/categories/spark.html" class="category-list-link">spark</a><span class="category-list-count">13</span></li>
+            <li class="category-list-item"><a href="/categories/what-i-read.html" class="category-list-link">what-i-read</a><span class="category-list-count">22</span></li>
+        </ul>
+    </div>
+</div>
+<div class="widget">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget-body">
+        <ul class="recent-post-list list-unstyled no-thumbnail">
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/papers/auditing_radicalization_youtube_ribeiro.html" class="title">Paper: Auditing Radicalization Pathways on YouTube</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-04-18 00:00:00 -0400 EDT" itemprop="datePublished">2020-04-18</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/what_i_read/20200418.html" class="title">What I read this week (April 12 - April 18)</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-04-18 00:00:00 -0400 EDT" itemprop="datePublished">2020-04-18</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/posts/debugging_attitude.html" class="title">Improving my debugging attitude</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-04-12 00:00:00 -0400 EDT" itemprop="datePublished">2020-04-12</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/papers/model_facts_sendak.html" class="title">Paper: Presenting machine learning model information to clinical end users with model facts labels</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-04-12 00:00:00 -0400 EDT" itemprop="datePublished">2020-04-12</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/what_i_read/20200411.html" class="title">What I read this week (April 5 - April 11)</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-04-11 00:00:00 -0400 EDT" itemprop="datePublished">2020-04-11</time>
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+  </div>
+</aside>
+
+    
+    
+<main class="main" role="main"><div class="content">
+  <article id="-" class="article article-type-" itemscope
+    itemtype="http://schema.org/BlogPosting">
+    
+    <div class="article-header">
+      <h1 itemprop="name">
+  <a
+    class=""
+    href="/papers/auditing_radicalization_youtube_ribeiro.html"
+    >Paper: Auditing Radicalization Pathways on YouTube</a
+  >
+</h1>
+
+      <div class="article-meta">
+        <span class="article-date">
+  <i class="icon icon-calendar-check"></i>
+<a href="/papers/auditing_radicalization_youtube_ribeiro.html">
+  <time datetime="2020-04-18 00:00:00 -0400 EDT" itemprop="datePublished">2020-04-18</time>
+</a>
+</span><span class="article-category">
+  <i class="icon icon-folder"></i>
+  <a class="article-category-link" href="/categories/papers.html"> papers </a>
+</span>
+
+        
+      </div>
+    </div>
+    <div class="article-entry marked-body js-toc-content" itemprop="articleBody">
+      <p>Does YouTube drive people to more extreme content? This is a question that many have posed, but this is the first paper to study this question in depth. I've had this on my reading list since I came across it on Twitter, so this Saturday I finally sat down to take a look.</p>
+<p><strong>Link</strong>: <a href="https://dl.acm.org/doi/abs/10.1145/3351095.3372879">ACM Digital Library</a>, published at FAT* 2020, and there's an <a href="https://www.youtube.com/watch?v=zju-J53S4W0">8 minute talk</a> from the conference too</p>
+<p><strong>Authors</strong>: Manoel Horta Ribeiro, Raphael Ottoni, Robert West, Virgilio A. F. Almeida, Wagner Meira Jr.</p>
+<h2 id="background">Background</h2>
+<p>I've heard from many different places that YouTube's recommender systems unintentionally create a &ldquo;radicalization pipeline,&rdquo; which gradually drives users to more extreme content. One notable place is an <a href="https://www.nytimes.com/2018/03/10/opinion/sunday/youtube-politics-radical.html">opinion column</a> in NYT by Zeynep Tufekci. This is the first paper to quantitatively study the existence of such a pipeline.</p>
+<p>Citing widepsread issues with identifying hate speech or extreme content, the authors choose instead to study <em>communities</em>: the &ldquo;intellectual dark web&rdquo; (IDW), alt-lite, and alt-right. Their research questions:</p>
+<blockquote>
+<ul>
+<li><strong>RQ1</strong>: How have these channels grown on YouTube in the last decade?</li>
+<li><strong>RQ2</strong>: To which extent do users systematically gravitate towards more extreme content?</li>
+<li><strong>RQ3</strong>: Do algorithmic recommendations steer users towards more extreme content?</li>
+</ul>
+</blockquote>
+<p>To study this, they (1) collect data on channels within these communities, (2) collect metadata and comments on videos in those channels (3) annotate the community membership of channels, and (4) collect video and channel recommendations. These are compared to traditional media channels as a baseline.</p>
+<blockquote>
+<p>We find strong evidence for radicalization among YouTube users, and that YouTube’s recommender system enables Alt-right channels to be discovered, even in a scenario without personalization. &hellip; Moreover, regardless of the degree of influence of the recommender system in the process of radicalizing users, <strong>there is significant evidence that
+users are reaching content sponsoring fringe ideologies from the Alt-lite and the Intellectual Dark Web</strong>.</p>
+</blockquote>
+<h2 id="community-detection">Community detection</h2>
+<p>I mentioned earlier that the authors chose to study communities instead of content, and it's worth spending time on how they identified these communities:</p>
+<ol>
+<li>Choose a set of seed channels, from the IDW's website, the Anti Defamation League, and other reports on radcialization. Channels were annotated and discarded in the case of disagreement.</li>
+<li>Choose keywords related to the communities (use YouTube search then consider the first 200 results).</li>
+<li>Search related &amp; featured channels of the ones identified above</li>
+<li>Repeat step (3) again</li>
+</ol>
+<p>For each channel, the authors collected subscribers &amp; views, and for videos on the channel they collected (non-personalized) recommendations. The channels were labeled by domain experts (thank god) through a set of detailed instructions.</p>
+<p>This is another example of the &ldquo;seed and expand&rdquo; process that I've seen used in lots of papers. Other papers I've read have used a similar methodology for doing lit reviews or studying the content associated with different hashtags on social media.</p>
+<h2 id="findings-channel-growth--user-similarities">Findings: channel growth &amp; user similarities</h2>
+<p>This is another paper where a couple of figures give away the point.</p>
+<p><img src="auditing_radicalization_youtube_fig1.png" alt="Growth of IDW, alt-lite, and alt-right communities"></p>
+<p>This first figure shows exponential growth of alt-right, alt-lite, IDW, and media (the control) channels. The growth in non-media channels is much more recent, &ldquo;corroborat[ing] with the narrative that these communities gained traction in (and fortified) Donald Trump's campaign during the 2016 presidential election.&rdquo;</p>
+<p>Another key difference is in engagement: these fringe communities have substantially higher engagement (by multiple metrics) than traditional media.</p>
+<p><img src="auditing_radicalization_youtube_fig2.png" alt="Users in IDW, alt-lite, and alt-right communities"></p>
+<p>The authors also study the users: the <a href="https://en.wikipedia.org/wiki/Jaccard_index">Jaccard Similarity</a> and <a href="https://en.wikipedia.org/wiki/Overlap_coefficient">Overlap Coefficient</a> help us to understand the intersection of users between different communities. Roughly 50% of alt-right commenters also commented in IDW and alt-lite communities.</p>
+<p>More subtly, the Jaccard similarity between IDW / alt-lite and the media channels is close to the similarity between IDW / alt-lite and the alt-right. This suggests that &ldquo;these communities do not exist in a vacuum, but are part of the existing online information environment.&rdquo; The overlap between these communities and the media channels is increasing since 2018, perhaps indicating they are becoming more mainstream.</p>
+<h2 id="user-migration">User migration</h2>
+<p><strong>How do you study radicalization?</strong> In this work, by finding users who <em>did not</em> comment on alt-right content in a given year, and studying what they do later in time. Figure 3 in the paper basically shows that up to 12% of users who consumed only IDW or alt-lite content went on to consume alt-right content in future years. This is higher than the exposure rate for users who consumed only media content.</p>
+<p><strong>How much does this pipeline matter?</strong> By doing that in reverse! Look at the users who comment on alt-right content, then see whether or not they were previously part of an alt-lite- or IDW-only group. The answer is yes; 40% of alt-right commenters can be traced back to those groups, compared to just 6% of media-only groups.</p>
+<p>This, to me, is the most remarkable result of the paper. It shows that alt-lite and IDW channels are indeed a gateway to more extreme content!</p>
+<p><strong>What role did the recommender system have in this?</strong> This is harder to study, because the authors didn't study personalization at all, and the recommendation algorithm for the majority of users will likely include that. It could be possible that the personalized recommendation system amplifies pathways present in the default one, or that it operates by a different mechanism entirely.</p>
+<p>With that said, it's still an interesting question. The authors find that, if you click 5 times from an alt-lite channel, roughly 1 in 25 times you'll wind up at an alt-right channel. That may not seem like much, but considering the scale of YouTube it could very well be responsible for driving some of the growth!</p>
+<h2 id="discussion">Discussion</h2>
+<p>To me, the most interesting finding is that people who <em>only</em> commented in alt-lite / IDW communities were more likely to reach alt-right communities in future years. This effect matters: up to 40% of the users within alt-right communities came from the alt-lite / IDW communities. This provides evidence for these communitiese being gateways to more extreme ones.</p>
+<p>The paper does <em>not</em> find any evidence for the recommender system being the cause of this pipeline, nor does it find anything particularly strong about the recommender system in general. It's easy to blame the recommender system, and the media is <a href="https://www.nytimes.com/2018/03/10/opinion/sunday/youtube-politics-radical.html">quick to do so</a>:</p>
+<blockquote>
+<p>It seems as if you are never “hard core” enough for YouTube’s recommendation algorithm. It promotes, recommends and disseminates videos in a manner that appears to constantly up the stakes. Given its billion or so users, YouTube may be one of the most powerful radicalizing instruments of the 21st century.</p>
+</blockquote>
+<p><strong>There is no evidence for this in the paper.</strong> The paper doesn't rule it out, but this work only studied unpersonalized recommendations.</p>
+<p>With that said, the natural question is what <em>is</em> driving this radicalization. It could plausibly be the case that the users from alt-lite / IDW communities get recommended alt-right videos, but that would need to be the subject of its own experiment.</p>
+<p>Something I had to keep in mind is the effect of scale. A lot of the figures in the paper were, at first glance, relatively small effects: a 4% chance to wind up in an alt-right channel, or 12% of alt-lite / IDW users being radicalized within a year. But given how many users YouTube has, these small proportions can translate to millions of users or views.</p>
+<p>Taken as a whole, this paper was really interesting! I was excited to see an algorithmic auditing paper cross my radar, and I'm glad that I took time to study it. This helps to inform my beliefs about radicalization and the impact of social media on our lives.</p>
+    </div>
+    <div class="article-footer">
+    </div>
+  </article>
+</div><nav class="bar bar-footer clearfix" data-stick-bottom>
+    <div class="bar-inner">
+        <ul class="pager pull-left">
+            <li class="prev">
+                <a href="/what_i_read/20200418.html" title="What I read this week (April 12 - April 18)"><i
+                        class="icon icon-angle-left"
+                        aria-hidden="true"></i><span>&nbsp;&nbsp;Older</span></a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+</main><footer class="footer" itemscope itemtype="http://schema.org/WPFooter">
+<ul class="social-links">
+    <li><a href="https://github.com/tuchandra" target="_blank" title="github" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-github"></i></a></li>
+    <li><a href="https://www.linkedin.com/in/tushar-chandra-76a623b6/" target="_blank" title="linkedin" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-linkedin"></i></a></li>
+    <li><a href="/index.xml" target="_blank" title="rss" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-rss"></i></a></li>
+</ul>
+  <div class="copyright">
+    &copy; 2019 - 2020 Tushar Chandra
+    <p style="margin-bottom: 4px">All opinions are my own.</p>
+    <div class="publishby">
+        Theme: <a href="https://github.com/xiaoheiAh/hugo-theme-pure" target="_blank">Hugo Pure</a>.
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_SVG"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+            showMathMenu: false, //disables context menu
+            tex2jax: {
+            inlineMath: [ ['$','$'], ['\\(','\\)'] ]
+           }
+    });
+</script>
+
+
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/highlight.min.js"></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/python.min.js"></script><script>
+    hljs.configure({
+        tabReplace: '    ', 
+        classPrefix: ''     
+        
+    })
+    hljs.initHighlightingOnLoad();
+</script>
+
+  </body>
+</html>

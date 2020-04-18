@@ -6,10 +6,28 @@
     <description>Recent content in self on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 02 Jan 2020 00:00:00 -0600</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jan 2020 00:00:00 -0500</lastBuildDate>
     
         <atom:link href="/categories/self/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Netflix and Polynote: first thoughts</title>
+      <link>/posts/polynote_netflix.html</link>
+      <pubDate>Thu, 24 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/polynote_netflix.html</guid>
+      <description>&lt;p&gt;Netflix &lt;a href=&#34;https://medium.com/netflix-techblog/open-sourcing-polynote-an-ide-inspired-polyglot-notebook-7f929d3f447&#34;&gt;announced yesterday&lt;/a&gt; that they are open-sourcing Polynote, a new notebook with features like Spark integration, as-you-type autocomplete, and more. At a glance, it seems to address almost every common complaint with notebooks. How much of that is too good to be true?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Statistical nuance &amp; the importance of uncertainty</title>
+      <link>/posts/statistical_nuance.html</link>
+      <pubDate>Thu, 17 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/statistical_nuance.html</guid>
+      <description>&lt;p&gt;In &lt;a href=&#34;silph.md&#34;&gt;my last post&lt;/a&gt;, I re-analyzed shiny rates from The Silph Road and came to the conclusion that their proposed shiny rates were inconsistent with their own data. This post explores how that happened and what we can do to avoid it in the future.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Pokemon GO shiny rates: a Bayesian perspective</title>
@@ -17,7 +35,7 @@
       <pubDate>Wed, 16 Oct 2019 00:00:00 +0000</pubDate>
       
       <guid>/posts/silph.html</guid>
-      <description>pre::before { display: none; } pre::after { display: none; }   analysis   /*! * * Twitter Bootstrap * */ /*! * Bootstrap v3.3.7 (http://getbootstrap.com) * Copyright 2011-2016 Twitter, Inc. * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE) */ /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */ html { font-family: sans-serif; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; } body { margin: 0; } article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary { display: block; } audio, canvas, progress, video { display: inline-block; vertical-align: baseline; } audio:not([controls]) { display: none; height: 0; } [hidden], template { display: none; } a { background-color: transparent; } a:active, a:hover { outline: 0; } abbr[title] { border-bottom: 1px dotted; } b, strong { font-weight: bold; } dfn { font-style: italic; } h1 { font-size: 2em; margin: 0.</description>
+      <description>pre::before { display: none; }pre::after { display: none; }analysis/*!** Twitter Bootstrap**//*!* Bootstrap v3.3.7 (http://getbootstrap.com)* Copyright 2011-2016 Twitter, Inc.* Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)*//*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */html {font-family: sans-serif;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;}body {margin: 0;}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary {display: block;}audio,canvas,progress,video {display: inline-block;vertical-align: baseline;}audio:not([controls]) {display: none;height: 0;}[hidden],template {display: none;}a {background-color: transparent;}a:active,a:hover {outline: 0;}abbr[title] {border-bottom: 1px dotted;}b,strong {font-weight: bold;}dfn {font-style: italic;}h1 {font-size: 2em;margin: 0.</description>
     </item>
     
     <item>
@@ -32,7 +50,7 @@
     <item>
       <title>How I built my (old) website</title>
       <link>/posts/about_website.html</link>
-      <pubDate>Mon, 29 Apr 2019 00:00:00 -0500</pubDate>
+      <pubDate>Mon, 29 Apr 2019 00:00:00 -0400</pubDate>
       
       <guid>/posts/about_website.html</guid>
       <description>&lt;p&gt;You may have noticed that the &lt;a href=&#34;https://github.com/tuchandra/sitev1&#34;&gt;Github repo&lt;/a&gt; for this website has a tagline &amp;ldquo;&amp;hellip; for people who &lt;em&gt;aren&#39;t&lt;/em&gt; web developers.&amp;rdquo; I am a data scientist and certainly fit that description, and so I&#39;m going to talk about how I built this site using the tools I already know.&lt;/p&gt;

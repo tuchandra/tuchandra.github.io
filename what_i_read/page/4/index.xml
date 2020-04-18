@@ -6,10 +6,28 @@
     <description>Recent content on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 11 Apr 2020 00:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Sat, 18 Apr 2020 00:00:00 -0400</lastBuildDate>
     
         <atom:link href="/what_i_read/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Reflections on ImageNet bias in the news</title>
+      <link>/posts/imagenet_bias_wired.html</link>
+      <pubDate>Thu, 26 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/imagenet_bias_wired.html</guid>
+      <description>&lt;p&gt;This post is a reflection on two articles, &lt;a href=&#34;https://www.wired.com/story/viral-app-labels-you-isnt-what-you-think/&#34;&gt;The viral app that labels you isn&#39;t quite what you think&lt;/a&gt; and &lt;a href=&#34;https://www.wired.com/story/ai-biased-how-scientists-trying-fix/&#34;&gt;AI is biased. Here&#39;s how scientists are trying to fix it&lt;/a&gt;, both from Wired.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>What I read this week (December 15 - 21)</title>
+      <link>/what_i_read/20191221.html</link>
+      <pubDate>Sat, 21 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/what_i_read/20191221.html</guid>
+      <description>&lt;p&gt;Summaries of articles and blog posts that I&#39;ve read this week, including articles on NeurIPS and many short posts.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Paper: Me, My Echo Chamber, and I: Introspection on Social Media Polarization</title>
@@ -171,24 +189,6 @@
       
       <guid>/posts/hci_directions.html</guid>
       <description>&lt;p&gt;A couple nights ago, I was at a bar talking to a grad student friend and we started having a conversation about HCI and research interests. This post captures some of my thoughts after reflecting for a couple of days.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Netflix and Polynote: first thoughts</title>
-      <link>/posts/polynote_netflix.html</link>
-      <pubDate>Thu, 24 Oct 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/polynote_netflix.html</guid>
-      <description>&lt;p&gt;Netflix &lt;a href=&#34;https://medium.com/netflix-techblog/open-sourcing-polynote-an-ide-inspired-polyglot-notebook-7f929d3f447&#34;&gt;announced yesterday&lt;/a&gt; that they are open-sourcing Polynote, a new notebook with features like Spark integration, as-you-type autocomplete, and more. At a glance, it seems to address almost every common complaint with notebooks. How much of that is too good to be true?&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Statistical nuance &amp; the importance of uncertainty</title>
-      <link>/posts/statistical_nuance.html</link>
-      <pubDate>Thu, 17 Oct 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/statistical_nuance.html</guid>
-      <description>&lt;p&gt;In &lt;a href=&#34;silph.md&#34;&gt;my last post&lt;/a&gt;, I re-analyzed shiny rates from The Silph Road and came to the conclusion that their proposed shiny rates were inconsistent with their own data. This post explores how that happened and what we can do to avoid it in the future.&lt;/p&gt;</description>
     </item>
     
   </channel>
