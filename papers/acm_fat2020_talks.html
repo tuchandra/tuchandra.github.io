@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <title>
-        Blaise Aguera y Arcas: Social Intelligence (NeurIPS 2019) - Tushar Chandra
+        A variety of talks from ACM FAT* 2020 - Tushar Chandra
       </title>
     <head>
   <meta charset="utf-8">
@@ -21,32 +21,32 @@
   <meta name="theme-color" content="#000000" />
   <meta http-equiv="window-target" content="_top" />
   
-  <meta name="description" content="This is my summary of the talk by Blaise Augera y Arcas at NeurIPS 2019, Social Intelligence.
+  <meta name="description" content="I sat down to watch a handful of talks from ACM FAT* 2020, picked from a survey of the Accepted Papers list. I found this to be a good way to consume a variety of papers that I probably wouldn&#39;t have ordinarily read.
 " />
   <meta name="generator" content="Hugo 0.62.2 with theme pure" />
-  <title>Blaise Aguera y Arcas: Social Intelligence (NeurIPS 2019) - Tushar Chandra</title>
+  <title>A variety of talks from ACM FAT* 2020 - Tushar Chandra</title>
   
 
   <link rel="stylesheet" href="/css/style.css">
   <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
-  <meta property="og:title" content="Blaise Aguera y Arcas: Social Intelligence (NeurIPS 2019)" />
-<meta property="og:description" content="This is my summary of the talk by Blaise Augera y Arcas at NeurIPS 2019, Social Intelligence." />
+  <meta property="og:title" content="A variety of talks from ACM FAT* 2020" />
+<meta property="og:description" content="I sat down to watch a handful of talks from ACM FAT* 2020, picked from a survey of the Accepted Papers list. I found this to be a good way to consume a variety of papers that I probably wouldn&#39;t have ordinarily read." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/posts/talk_aguera_neurips.html" />
-<meta property="article:published_time" content="2019-12-28T00:00:00+00:00" />
-<meta property="article:modified_time" content="2019-12-28T00:00:00+00:00" />
-<meta itemprop="name" content="Blaise Aguera y Arcas: Social Intelligence (NeurIPS 2019)">
-<meta itemprop="description" content="This is my summary of the talk by Blaise Augera y Arcas at NeurIPS 2019, Social Intelligence.">
-<meta itemprop="datePublished" content="2019-12-28T00:00:00&#43;00:00" />
-<meta itemprop="dateModified" content="2019-12-28T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="1187">
+<meta property="og:url" content="/papers/acm_fat2020_talks.html" />
+<meta property="article:published_time" content="2020-04-19T00:00:00-05:00" />
+<meta property="article:modified_time" content="2020-04-19T00:00:00-05:00" />
+<meta itemprop="name" content="A variety of talks from ACM FAT* 2020">
+<meta itemprop="description" content="I sat down to watch a handful of talks from ACM FAT* 2020, picked from a survey of the Accepted Papers list. I found this to be a good way to consume a variety of papers that I probably wouldn&#39;t have ordinarily read.">
+<meta itemprop="datePublished" content="2020-04-19T00:00:00-05:00" />
+<meta itemprop="dateModified" content="2020-04-19T00:00:00-05:00" />
+<meta itemprop="wordCount" content="1102">
 
 
 
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Blaise Aguera y Arcas: Social Intelligence (NeurIPS 2019)"/>
-<meta name="twitter:description" content="This is my summary of the talk by Blaise Augera y Arcas at NeurIPS 2019, Social Intelligence."/>
+<meta name="twitter:title" content="A variety of talks from ACM FAT* 2020"/>
+<meta name="twitter:description" content="I sat down to watch a handful of talks from ACM FAT* 2020, picked from a survey of the Accepted Papers list. I found this to be a good way to consume a variety of papers that I probably wouldn&#39;t have ordinarily read."/>
 </head>
   </head>
   
@@ -234,43 +234,57 @@
       <h1 itemprop="name">
   <a
     class=""
-    href="/posts/talk_aguera_neurips.html"
-    >Blaise Aguera y Arcas: Social Intelligence (NeurIPS 2019)</a
+    href="/papers/acm_fat2020_talks.html"
+    >A variety of talks from ACM FAT* 2020</a
   >
 </h1>
 
       <div class="article-meta">
         <span class="article-date">
   <i class="icon icon-calendar-check"></i>
-<a href="/posts/talk_aguera_neurips.html">
-  <time datetime="2019-12-28 00:00:00 &#43;0000 UTC" itemprop="datePublished">2019-12-28</time>
+<a href="/papers/acm_fat2020_talks.html">
+  <time datetime="2020-04-19 00:00:00 -0500 CDT" itemprop="datePublished">2020-04-19</time>
 </a>
 </span><span class="article-category">
   <i class="icon icon-folder"></i>
-  <a class="article-category-link" href="/categories/general.html"> general </a>
+  <a class="article-category-link" href="/categories/papers.html"> papers </a>
 </span>
 
         
       </div>
     </div>
     <div class="article-entry marked-body js-toc-content" itemprop="articleBody">
-      <p>This is my summary of the talk by Blaise Augera y Arcas at NeurIPS 2019, <a href="https://slideslive.com/38921748/social-intelligence">Social Intelligence</a>.</p>
-<h2 id="on-learning-and-loss-functions">On learning and loss functions</h2>
-<p>Aguera opens the talk by discussing why neural nets have exploded recently; this is the same story that we always hear about large datasets and more powerful computers. He talks about federated learning as a way to decentralize and scale the learning process, and how it's received more attention recently. The &ldquo;scale&rdquo; story is different in the federated paradigm, too; the data is abundant in raw size, but rare in the sense that you can't iterate over all of it. The compute is massive in aggregate, but limited on individual devices. There's a premium on quick convergence, and federated learning has ties to and challenges with ML fairness. He also discusses federated training of generative models as a way to scale and preserve privacy (being able to generate unlimited amounts of data that fits some distribution while maintaining the privacy of all the people who contributed to training it).</p>
-<p>But then Aguera takes a step back to ask &ldquo;where is all this AI stuff going.&rdquo; We have two narratives: the ML narrative where we're modeling <code>p(x)</code> or <code>p(y|x)</code>, and the AI narrative where people talk about superhuman performance or winning games. We can achieve superhuman performance by having a well-defined problem, a loss function, and enough data, he states, but the &ldquo;shock&rdquo; is how remarkably little territory this covers. &ldquo;That's not how most of life works.&rdquo; What are the loss functions for optimal hiring, criminal sentencing, couples therapy, or music? Or other seemingly simple things, like ranking notifications on Android?</p>
-<p>And that's to say nothing of basic human activities. He brings up a great quote from Patricia Churchland: &ldquo;Go ahead and market something as &lsquo;intelligent&rsquo;, but if it is brittle, lacks flexibility, and &lsquo;common sense&rsquo; and has nothing approximating motivation or drive or emotions or moods, it may be difficult to persuade the rest of us that it is intelligent in the way that biological entitites can be.&rdquo;</p>
-<p>Continuing, Aguera discusses how evolution can decide on good or bad (using a toy system to demonstrate), and that this isn't &ldquo;optimization&rdquo; in the traditional sense. Mathematically, you can look at machine learning systems; given a phase plane diagram of highly reduced GANs, they have curl, meaning that they are not the gradient of any function and are loss-free (Nagarajan &amp; Kolter, NeurIPS 2017). The combined GAN is not doing gradient descent and there is no loss function that is being optimized, even if the individual units are doing so. &ldquo;Optimization is not how life works. And I would argue that it's also not how brains work.&rdquo;</p>
-<h2 id="more-on-biology">More on biology</h2>
-<p>ANNs are, to a first approximation, linear combinations of inputs with activation functions that preserve positive values. Trivial, sure, but an arbitrarily good approximation to any function. But then Aguera presents drawings of real neurons, which are <em>much</em> more complex than our addition and multiplication machines. Brains don't just evaluate functions; they develop, they imprint, they have instincts, they have feelings and desires. Functions don't do that.</p>
-<p>Neurons, meanwhile, have per-cell and per-synapse state, multiple timescales, temporal averaging, sources of randomness, variance normalization &hellip; how can we learn to learn using these building blocks, instead of feature-engineering learning? Aguera proposes a biologically inspired synapse update rule that doesn't require a loss function or gradient descent, which I don't really understand at all. It all seems cool, though, and less forced or artificial.</p>
-<p>&ldquo;We'd like to be able to not just build brains that are function approximators &hellip; but build brains with multiple brain areas, the way real brains are.&rdquo; A feed-forward network that's just <code>f(g(h(...)))</code> where you apply backpropagation can't be how real brains work, he argues. &ldquo;When you look at a real brain it has tons of different areas that are connected to each other in a zillion different ways, and evolution has figured out how to create all of the feedback and the learning cycles in these things &hellip; and <strong>none of that works using calculus by backpropagating</strong> from the end to the beginning.&rdquo;</p>
-<p>The limitations of our current learning paradigm are super interesting. The engineering of neural networks and requirement to formulate problems in terms of a loss function and gradient descent appear to be limitations. The next question becomes why (which this talk seems to answer), followed by how we can overcome that.</p>
-<h2 id="thoughts">Thoughts</h2>
-<p>This talk was not what I expected. The abstract was a little misleading, posing questions about AGI, public scrutiny, human agency, and climate change; but the talk didn't discuss these at all. The actual talk content was a discussion about advances in ML and federated learning, followed by the motivation for why gradient descent and optimization are perhaps limiting progress in the networks and systems we're designing. That's a great talk, to be clear, but the abstract didn't prepare me for what this talk turned out to be. Especially given the word &ldquo;social,&rdquo; I was expecting more about the social impacts of ML systems, but we got something more biologically-inspired.</p>
-<p>With that aside: I've thought for a while that SOTA ML research seemed like variations on the same neural network story, and things like <a href="https://www.wired.com/story/facebooks-ai-says-field-hit-wall/">Jerome Pesenti</a> saying that the field will soon hit a wall led me to believe that. This talk helps me to better understand those thoughts by pointing out where specifically our current approaches fail: in systems that aren't doing anything like gradient descent. The human brain doesn't learn through SGD and backprop, and while they're useful for creating function approximators, it doesn't seem like our current approaches will create much more than that.</p>
-<p>The last question that Aguera raises is &ldquo;how are we going to even know when we're making progress?&rdquo; Citing the emergence of standardized datasets that let researchers compare their methods against each other, he asks how we can define SOTA &ldquo;for systems that develop language, that teach, that learn, that have empathy&rdquo; &hellip; that's a great question. How can we combine the ideas from ML research with those from fuzzier fields, like human language, cognition, or ethics? This research is as much ML (and statistics &amp; computational neuroscience &amp; etc.) as it is psychology, sociology, anthropology, and more.</p>
-<p>Aguera said in response to a question: &ldquo;As a person who is leading teams that are working on real ML problems on real devices, &hellip; it's very interesting to me how quickly you run into the limits of what you can actually define objective functions or loss functions for.&rdquo; He discusses how this is more than a philosophical matter; there are real problems that people are working on that don't have clear solutions, so perhaps we've already hit the wall.</p>
-<p>The last five minutes of the talk (plus questions) were my favorite. This is where the talk moved from &ldquo;here's what we have done&rdquo; and &ldquo;here are my ideas&rdquo; to &ldquo;here are the questions we still have.&rdquo; And I guess that's where I'm at, personally speaking, figuring out the questions that are most interesting to me as I prepare to apply to grad school.</p>
+      <p>I sat down to watch a handful of talks from ACM FAT* 2020, picked from a survey of the <a href="https://facctconference.org/2020/acceptedpapers.html#sess1">Accepted Papers</a> list. I found this to be a good way to consume a variety of papers that I probably wouldn't have ordinarily read.</p>
+<h2 id="the-case-for-voter-centered-audits-of-search-engines-during-political-elections">The Case for Voter-Centered Audits of Search Engines during Political Elections</h2>
+<p><strong>Authors</strong>: Eni Mustafaraj, Emma Lurie, Claire Devine</p>
+<p><strong>Links</strong>: <a href="https://www.youtube.com/watch?v=qS_huJIKYBo">YouTube</a>, <a href="https://dl.acm.org/doi/abs/10.1145/3351095.3372835">ACM digital library</a></p>
+<p>Typically, when auditors audit search engines in regards to political elections, they center their analysis on the <em>politicians</em> who are the subject of results, rather than the <em>voters</em> doing the searching. The authors make the case that auditors should consider adopting a voter-centric perspective, focusing on the question of how potential voters use search engines and what information they're looking for.</p>
+<p>In a voter-centric perspective, it's easier to identify semantically biased searches (&ldquo;<!-- raw HTML omitted --> husband&rdquo; or &ldquo;<!-- raw HTML omitted --> lies&rdquo;). Meanwhlie, other queries might be &ldquo;pragmatically biased&rdquo; and lead to data voids, where search engines can only surface low-quality results. Voters are also increasingly interested in information cues, like stances on certain issues. Audits need to take these into account to be effective in understanding the role that search engines have.</p>
+<p>This is a really interesting reframing! I'm always interested in reading human-centered perspectives on algorithmic issues, and this is one that I'd never heard of before. Centering search engine audits from the perspective of the voters conducting searches seems like an important part of understanding their impact.</p>
+<h2 id="whose-tweets-are-surveilled-for-the-police-an-audit-of-a-social-media-monitoring-tool-via-log-files">Whose tweets are surveilled for the police: an audit of a social-media monitoring tool via log files</h2>
+<p><strong>Authors</strong>: Glencora Borradaile, Brett Burkhardt, Alexandria LeClerc</p>
+<p><strong>Links</strong>: <a href="https://www.youtube.com/watch?v=cVJNDRbpAf4">YouTube</a>, <a href="https://dl.acm.org/doi/abs/10.1145/3351095.3372841">ACM DL</a></p>
+<p>There is increasing use of social media monitoring software by law enforcement, and this work audited the tool's use via log files. The researchers were provided log files of tweets collected by their local (in Corvallis, OR) police department. They did not find statistically significant differences in the racial makeup of users surveilled compared to the general population.</p>
+<p>One of the more interesting findings was on the low quality of software use. There were attempts to filter the results by county (&ldquo;Benton&rdquo;, which is the county where Oregon State is located, but the results instead were for anywhere named Benton); predefined keywords for marijuana-related terms, when it had been legal for recreational use for the entire time the tool was used; and the report results were not continuous and sometimes stopped after 100 results.</p>
+<p>This raises interesting questions on data use. Do users understand the reach of their (public!) tweets? Is this tool even useful, given that a lot of the tweets are completely innocuous and also protected by free speech? The police department in question made an arrest in response to a threatening tweet, but the tweet wasn't even picked up by this software. What, then, is the purpose of social media monitoring?</p>
+<h2 id="explaining-machine-learning-classifiers-through-diverse-counterfactual-explanations">Explaining Machine Learning Classifiers through Diverse Counterfactual Explanations</h2>
+<p><strong>Authors</strong>: Ramaravind Kommiya Mothilal, Amit Sharma, Chenhao Tan</p>
+<p><strong>Links</strong>: <a href="https://www.youtube.com/watch?v=zj2NliGD0Lg">YouTube</a>, <a href="https://dl.acm.org/doi/abs/10.1145/3351095.3372850">ACM DL</a></p>
+<p>There are many techniques to explain ML predictions, most of which are feature-importance based methods. These do not, however, tell a &ldquo;decision subject&rdquo; what they <em>should</em> do to reach a desired outcome. These are &ldquo;what-if&rdquo; explanations that simulate different scenarios to understand how an outcome could change.</p>
+<p>The authors posit requirements for counterfactuals: they must be actionable for users, so that they can make decisions based on the explanations. This requires feasibility (respecting causal constraints, being actually attainable, etc.) and also <em>diversity</em>, that users should be provided with a diverse set of options for what to do. They propose an optimization framework to generate actionable, diverse counterfactuals, and implement it in a library called <a href="http://github.com/microsoft/dice">DICE</a>.</p>
+<p>I was confused by this paper at first&mdash;haven't counterfactual explanations been around for a long time? I think the novelty comes from the &ldquo;diversity&rdquo; constraint and the implementation in the library. I also wish that the researchers had studied the impact on a real dataset, instead of just the toy adult income one.</p>
+<h2 id="recommendations-and-user-agency-the-reachability-of-collaboratively-filtered-information">Recommendations and user agency: the reachability of collaboratively-filtered information</h2>
+<p><strong>Authors</strong>: Sarah Dean, Sarah Rich, Benjamin Recht</p>
+<p><strong>Links</strong>: <a href="https://www.youtube.com/watch?v=B93qUouaZnw">YouTube</a>, <a href="https://dl.acm.org/doi/abs/10.1145/3351095.3372866">ACM DL</a></p>
+<p>This work is a study of digital recommender systems; the author motivates the question of what <em>can</em> happen in a recommendation system if you change &ldquo;inputs&rdquo; to the system (user actions, ratings, etc.), and they study this through the lens of &ldquo;reachability.&rdquo; Defined for every user and item in a system, the <em>reachability problem</em> is whether or not you can find some set of actions to take such that a particular item will be reachable to that user.</p>
+<p>Taken at face value, anyone can find any given item by searching for it. But the &ldquo;amount of recourse&rdquo; is the percentage of reachable items given some actions, and that's where the interesting questions lie. The authors propose a computationally efficient way to audit linear recommender models by computing recourse, and demo it on the MovieLens dataset. One of the key findings is that SOTA preference models can inadvertently obscure a large proportion of the content to many users.</p>
+<p>I like this perspective on algorithmic auditing. Taking a dataset with lots of known models, and then changing the commonly used inputs and see what happens. There are interesting sociotechnical questions in the space of &ldquo;interactive and dynamic properties of algorithmic systems&rdquo; that this work raises!</p>
+<h2 id="bias-in-word-embeddings">Bias in word embeddings</h2>
+<p><strong>Authors</strong>: Orestis Papakyriakopoulos, Simon Hegelich, Juan Carlos Medina Serrano, Fabienne Marco</p>
+<p><strong>Links</strong>: <a href="https://www.youtube.com/watch?v=K4_Vrq0n6HU">YouTube</a>, <a href="https://dl.acm.org/doi/abs/10.1145/3351095.3372843">ACM DL</a></p>
+<p>Word embeddings are a widely used technique for mapping words to a vector of real numbers, and they encode the biases of the corpus on which they are trained. The authors trained word embeddings on biased datasets and demonstrated &ldquo;bias diffusion,&rdquo; in which existing biases are transferred to models that use these embeddings. They then demonstrate that existing &ldquo;bias mitigation&rdquo; efforts are insufficient; instead, they distort the geometry of the biased vectors, rather than removing it.</p>
+<p>This work, like many others, treats gender and sexuality as binaries (men/women, homosexual/heterosexual). Noting that they are multidimensional spectra, I think there's a huge gap in the machine learning literature about how handling gender &amp; sexuality features differently would affect downstream models.</p>
+<p>Another interesting question would be how different sets of word vectors affect model predictions; take different pretrained embeddings, from biased datasets and from datasets where there has been an effort to debias them (noting that no dataset is unbiased), train different models making use of these embeddings, and see how the models perform differently. The authors showed an interesting (and kind of funny) result that the use of gender-biased word embeddings was better at predicting sexism (in some canned dataset) than other embeddings.</p>
     </div>
     <div class="article-footer">
     </div>
@@ -279,14 +293,9 @@
     <div class="bar-inner">
         <ul class="pager pull-left">
             <li class="prev">
-                <a href="/what_i_read/20191228.html" title="What I read this week (December 22 - 28)"><i
+                <a href="/papers/auditing_radicalization_youtube_ribeiro.html" title="Paper: Auditing Radicalization Pathways on YouTube"><i
                         class="icon icon-angle-left"
                         aria-hidden="true"></i><span>&nbsp;&nbsp;Older</span></a>
-            </li>
-            <li class="next">
-                <a href="/papers/discrimination_algorithms_kleinberg_1.html"
-                    title="Paper: Discrimination in the Age of Algorithms (1/2)"><span>Newer&nbsp;&nbsp;</span><i
-                        class="icon icon-angle-right" aria-hidden="true"></i></a>
             </li>
         </ul>
     </div>
