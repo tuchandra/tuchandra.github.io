@@ -6,10 +6,28 @@
     <description>Recent content in Categories on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 19 Apr 2020 00:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Sun, 26 Apr 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Paper: Interpreting Interpretability: Understanding Data Scientists&#39; Use of Interpretability Tools for Machine Learning</title>
+      <link>/papers/interpreting_interpretability_kaur.html</link>
+      <pubDate>Tue, 17 Mar 2020 00:00:00 -0500</pubDate>
+      
+      <guid>/papers/interpreting_interpretability_kaur.html</guid>
+      <description>&lt;p&gt;I&#39;m hoping to get back into a routine of reading papers after a crazy couple of weeks; this is the first of hopefully many. This is a paper to appear at CHI 2020 (with an Honorable Mention!) about the use of interpretability tools in machine learning, and how (uh oh) data scientists tend to over-trust them.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Is Twitter real life?</title>
+      <link>/posts/is_twitter_real_life.html</link>
+      <pubDate>Mon, 16 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/is_twitter_real_life.html</guid>
+      <description>&lt;p&gt;I&#39;ve thought, and read, a lot about the extent to which Twitter is a good signal of what&#39;s happening in the world&amp;mdash;colloquially, the phrase being thrown around is &amp;ldquo;Twitter (is / isn&#39;t) real life.&amp;rdquo; Much like Twitter itself, this question oversimplifies things.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>What I read recently (coronavirus edition)</title>
@@ -171,24 +189,6 @@
       
       <guid>/posts/iowa_caucus_disaster.html</guid>
       <description>&lt;p&gt;Like many on Monday, I left work eagerly awaiting the results of the Iowa caucuses happening one state west of me. I got home, cooked dinner, and opened up the &lt;a href=&#34;https://fivethirtyeight.com/live-blog/iowa-caucus-2020-election-live/&#34;&gt;FiveThirtyEight live blog&lt;/a&gt; to start following election results. A couple of hours passed, and it became increasingly clear that something had gone very, very wrong.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Three article summaries (on grad school advice)</title>
-      <link>/what_i_read/20200205.html</link>
-      <pubDate>Tue, 04 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/what_i_read/20200205.html</guid>
-      <description>&lt;p&gt;Three article summaries, which I&#39;m breaking out from my usual &amp;ldquo;what I read&amp;rdquo; posts because of the common theme (of CS research &amp;amp; grad school) that connects them.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>What I read this week (January 26 - February 1)</title>
-      <link>/what_i_read/20200201.html</link>
-      <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/what_i_read/20200201.html</guid>
-      <description>&lt;p&gt;Articles I read this week, including about Python 3.9, regulation of tech companies, and a host of short articles.&lt;/p&gt;</description>
     </item>
     
   </channel>
