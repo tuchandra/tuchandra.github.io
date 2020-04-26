@@ -3,16 +3,43 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/posts.html</loc>
-    <lastmod>2020-04-26T00:00:00+00:00</lastmod>
+    <loc>/papers.html</loc>
+    <lastmod>2020-04-26T00:00:00-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/categories.html</loc>
-    <lastmod>2020-04-26T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-26T00:00:00-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/papers/data_literacy_sports_clegg.html</loc>
+    <lastmod>2020-04-26T00:00:00-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/papers.html</loc>
+    <lastmod>2020-04-26T00:00:00-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2020-04-26T00:00:00-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/posts.html</loc>
+    <lastmod>2020-04-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -30,139 +57,119 @@
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2020-04-26T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>/what_i_read.html</loc>
-    <lastmod>2020-04-25T00:00:00-05:00</lastmod>
+    <lastmod>2020-04-25T00:00:00-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/categories/what-i-read.html</loc>
-    <lastmod>2020-04-25T00:00:00-05:00</lastmod>
+    <lastmod>2020-04-25T00:00:00-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/what_i_read/20200425.html</loc>
-    <lastmod>2020-04-25T00:00:00-05:00</lastmod>
+    <lastmod>2020-04-25T00:00:00-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/papers.html</loc>
-    <lastmod>2020-04-19T00:00:00-05:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>/papers/acm_fat2020_talks.html</loc>
-    <lastmod>2020-04-19T00:00:00-05:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/papers.html</loc>
-    <lastmod>2020-04-19T00:00:00-05:00</lastmod>
+    <lastmod>2020-04-19T00:00:00-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/papers/auditing_radicalization_youtube_ribeiro.html</loc>
-    <lastmod>2020-04-18T00:00:00-05:00</lastmod>
+    <lastmod>2020-04-18T00:00:00-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/what_i_read/20200418.html</loc>
-    <lastmod>2020-04-18T00:00:00-05:00</lastmod>
+    <lastmod>2020-04-18T00:00:00-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/categories/general.html</loc>
-    <lastmod>2020-04-12T00:00:00-05:00</lastmod>
+    <lastmod>2020-04-12T00:00:00-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/posts/debugging_attitude.html</loc>
-    <lastmod>2020-04-12T00:00:00-05:00</lastmod>
+    <lastmod>2020-04-12T00:00:00-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/papers/model_facts_sendak.html</loc>
-    <lastmod>2020-04-12T00:00:00-05:00</lastmod>
+    <lastmod>2020-04-12T00:00:00-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/what_i_read/20200411.html</loc>
-    <lastmod>2020-04-11T00:00:00-05:00</lastmod>
+    <lastmod>2020-04-11T00:00:00-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/posts/remote_work_productivity.html</loc>
-    <lastmod>2020-04-09T00:00:00-05:00</lastmod>
+    <lastmod>2020-04-09T00:00:00-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/papers/decentralized_proximity_tracing.html</loc>
-    <lastmod>2020-04-08T00:00:00-05:00</lastmod>
+    <lastmod>2020-04-08T00:00:00-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/what_i_read/20200404.html</loc>
-    <lastmod>2020-04-04T00:00:00-05:00</lastmod>
+    <lastmod>2020-04-04T00:00:00-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/books.html</loc>
-    <lastmod>2020-04-01T00:00:00-05:00</lastmod>
+    <lastmod>2020-04-01T00:00:00-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/categories/books.html</loc>
-    <lastmod>2020-04-01T00:00:00-05:00</lastmod>
+    <lastmod>2020-04-01T00:00:00-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/books/everybody_lies_3.html</loc>
-    <lastmod>2020-04-01T00:00:00-05:00</lastmod>
+    <lastmod>2020-04-01T00:00:00-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/books/everybody_lies_2.html</loc>
-    <lastmod>2020-03-31T00:00:00-05:00</lastmod>
+    <lastmod>2020-03-31T00:00:00-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -190,7 +197,7 @@
   
   <url>
     <loc>/papers/review_methods_predicting_mental_health_status_chancellor.html</loc>
-    <lastmod>2020-03-26T00:00:00-05:00</lastmod>
+    <lastmod>2020-03-26T00:00:00-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -211,14 +218,14 @@
   
   <url>
     <loc>/books/network_propaganda_2.html</loc>
-    <lastmod>2020-03-18T00:00:00-05:00</lastmod>
+    <lastmod>2020-03-18T00:00:00-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/papers/interpreting_interpretability_kaur.html</loc>
-    <lastmod>2020-03-17T00:00:00-05:00</lastmod>
+    <lastmod>2020-03-17T00:00:00-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -253,7 +260,7 @@
   
   <url>
     <loc>/posts/new_computer_setup.html</loc>
-    <lastmod>2020-03-05T00:00:00-06:00</lastmod>
+    <lastmod>2020-03-05T00:00:00-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -302,14 +309,14 @@
   
   <url>
     <loc>/papers/proposed_guidelines_xai_hall.html</loc>
-    <lastmod>2020-02-17T00:00:00-06:00</lastmod>
+    <lastmod>2020-02-17T00:00:00-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/posts/advice_for_reading_papers_ng.html</loc>
-    <lastmod>2020-02-15T00:00:00-06:00</lastmod>
+    <lastmod>2020-02-15T00:00:00-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -323,14 +330,14 @@
   
   <url>
     <loc>/papers/ott_tracking_moghaddam.html</loc>
-    <lastmod>2020-02-12T00:00:00-06:00</lastmod>
+    <lastmod>2020-02-12T00:00:00-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/posts/cant_not_be_researcher.html</loc>
-    <lastmod>2020-02-09T00:00:00-06:00</lastmod>
+    <lastmod>2020-02-09T00:00:00-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -344,14 +351,14 @@
   
   <url>
     <loc>/papers/facebook_advertising_field_study_gordon.html</loc>
-    <lastmod>2020-02-07T00:00:00-06:00</lastmod>
+    <lastmod>2020-02-07T00:00:00-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/posts/iowa_caucus_disaster.html</loc>
-    <lastmod>2020-02-05T00:00:00-06:00</lastmod>
+    <lastmod>2020-02-05T00:00:00-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -379,14 +386,14 @@
   
   <url>
     <loc>/papers/contrasting_social_support_chancellor.html</loc>
-    <lastmod>2020-01-28T00:00:00-06:00</lastmod>
+    <lastmod>2020-01-28T00:00:00-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/papers/classification_pro_ed_chancellor.html</loc>
-    <lastmod>2020-01-26T00:00:00-06:00</lastmod>
+    <lastmod>2020-01-26T00:00:00-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -400,7 +407,7 @@
   
   <url>
     <loc>/posts/site_comparison_part2.html</loc>
-    <lastmod>2020-01-21T00:00:00-06:00</lastmod>
+    <lastmod>2020-01-21T00:00:00-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -414,14 +421,14 @@
   
   <url>
     <loc>/posts/software_in_dsci.html</loc>
-    <lastmod>2020-01-13T00:00:00-06:00</lastmod>
+    <lastmod>2020-01-13T00:00:00-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/papers/removed_pro_ed_chancellor.html</loc>
-    <lastmod>2020-01-11T00:00:00-06:00</lastmod>
+    <lastmod>2020-01-11T00:00:00-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -435,7 +442,7 @@
   
   <url>
     <loc>/posts/site_comparison.html</loc>
-    <lastmod>2020-01-06T00:00:00-06:00</lastmod>
+    <lastmod>2020-01-06T00:00:00-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -449,42 +456,42 @@
   
   <url>
     <loc>/papers/competition_crowd_out_simonov.html</loc>
-    <lastmod>2020-01-03T15:24:00-06:00</lastmod>
+    <lastmod>2020-01-03T15:24:00-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/papers/reactions_to_search_ads_rao.html</loc>
-    <lastmod>2020-01-03T14:00:00-06:00</lastmod>
+    <lastmod>2020-01-03T14:00:00-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/posts/migrating_to_hugo.html</loc>
-    <lastmod>2020-01-02T00:00:00-06:00</lastmod>
+    <lastmod>2020-01-02T00:00:00-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/reading/</loc>
-    <lastmod>2020-01-02T00:00:00-06:00</lastmod>
+    <lastmod>2020-01-02T00:00:00-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/categories/self.html</loc>
-    <lastmod>2020-01-02T00:00:00-06:00</lastmod>
+    <lastmod>2020-01-02T00:00:00-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/self.html</loc>
-    <lastmod>2020-01-02T00:00:00-06:00</lastmod>
+    <lastmod>2020-01-02T00:00:00-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -714,7 +721,7 @@
   
   <url>
     <loc>/posts/about_website.html</loc>
-    <lastmod>2019-04-29T00:00:00-05:00</lastmod>
+    <lastmod>2019-04-29T00:00:00-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
