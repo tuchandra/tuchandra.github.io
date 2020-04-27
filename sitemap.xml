@@ -3,6 +3,40 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/papers.html</loc>
+    <lastmod>2020-04-27T00:00:00-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/papers/chi_2020_nordic_talks.html</loc>
+    <lastmod>2020-04-27T00:00:00-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/categories.html</loc>
+    <lastmod>2020-04-27T00:00:00-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/papers.html</loc>
+    <lastmod>2020-04-27T00:00:00-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2020-04-27T00:00:00-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>/posts.html</loc>
     <lastmod>2020-04-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -16,13 +50,6 @@
   </url>
   
   <url>
-    <loc>/categories.html</loc>
-    <lastmod>2020-04-27T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>/categories/projects.html</loc>
     <lastmod>2020-04-27T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -30,27 +57,7 @@
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2020-04-27T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/papers.html</loc>
-    <lastmod>2020-04-26T00:00:00-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/papers/data_literacy_sports_clegg.html</loc>
-    <lastmod>2020-04-26T00:00:00-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/papers.html</loc>
     <lastmod>2020-04-26T00:00:00-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
