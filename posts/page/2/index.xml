@@ -6,10 +6,19 @@
     <description>Recent content on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 26 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 27 Apr 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>What I read this week (March 15 - March 21)</title>
+      <link>/what_i_read/20200321.html</link>
+      <pubDate>Sat, 21 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/what_i_read/20200321.html</guid>
+      <description>&lt;p&gt;It&amp;rsquo;s back to usual this week, as I try to create a healthy work-life balance while working from home indefinitely. This week&amp;rsquo;s articles focus on impacts of coronavirus and distributed / remote work.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Network Propaganda, part 2</title>
@@ -26,7 +35,7 @@
       <pubDate>Tue, 17 Mar 2020 00:00:00 -0400</pubDate>
       
       <guid>/papers/interpreting_interpretability_kaur.html</guid>
-      <description>&lt;p&gt;I&#39;m hoping to get back into a routine of reading papers after a crazy couple of weeks; this is the first of hopefully many. This is a paper to appear at CHI 2020 (with an Honorable Mention!) about the use of interpretability tools in machine learning, and how (uh oh) data scientists tend to over-trust them.&lt;/p&gt;</description>
+      <description>&lt;p&gt;I&amp;rsquo;m hoping to get back into a routine of reading papers after a crazy couple of weeks; this is the first of hopefully many. This is a paper to appear at CHI 2020 (with an Honorable Mention!) about the use of interpretability tools in machine learning, and how (uh oh) data scientists tend to over-trust them.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -35,7 +44,7 @@
       <pubDate>Mon, 16 Mar 2020 00:00:00 +0000</pubDate>
       
       <guid>/posts/is_twitter_real_life.html</guid>
-      <description>&lt;p&gt;I&#39;ve thought, and read, a lot about the extent to which Twitter is a good signal of what&#39;s happening in the world&amp;mdash;colloquially, the phrase being thrown around is &amp;ldquo;Twitter (is / isn&#39;t) real life.&amp;rdquo; Much like Twitter itself, this question oversimplifies things.&lt;/p&gt;</description>
+      <description>&lt;p&gt;I&amp;rsquo;ve thought, and read, a lot about the extent to which Twitter is a good signal of what&amp;rsquo;s happening in the world&amp;mdash;colloquially, the phrase being thrown around is &amp;ldquo;Twitter (is / isn&amp;rsquo;t) real life.&amp;rdquo; Much like Twitter itself, this question oversimplifies things.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -44,7 +53,7 @@
       <pubDate>Sun, 15 Mar 2020 00:00:00 +0000</pubDate>
       
       <guid>/what_i_read/20200315_coronavirus.html</guid>
-      <description>&lt;p&gt;I didn&#39;t get to read much this week, but I also decided to split up my weekly reading posts into the &lt;a href=&#34;/what_i_read/20200314.html&#34;&gt;usual one&lt;/a&gt; and this one, summarizing coronavirus-related pieces I&#39;ve read.&lt;/p&gt;</description>
+      <description>&lt;p&gt;I didn&amp;rsquo;t get to read much this week, but I also decided to split up my weekly reading posts into the &lt;a href=&#34;/what_i_read/20200314.html&#34;&gt;usual one&lt;/a&gt; and this one, summarizing coronavirus-related pieces I&amp;rsquo;ve read.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -62,7 +71,7 @@
       <pubDate>Sat, 07 Mar 2020 00:00:00 +0000</pubDate>
       
       <guid>/what_i_read/20200307.html</guid>
-      <description>&lt;p&gt;Hello! This week&#39;s reading was a lot of Morning Paper articles, AI skepticism from a VC firm, and posts from /r/MachineLearning.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Hello! This week&amp;rsquo;s reading was a lot of Morning Paper articles, AI skepticism from a VC firm, and posts from /r/MachineLearning.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -80,7 +89,7 @@
       <pubDate>Mon, 02 Mar 2020 00:00:00 +0000</pubDate>
       
       <guid>/books/network_propaganda_1.html</guid>
-      <description>&lt;p&gt;I wrote &lt;a href=&#34;/posts/cant_not_be_researcher.html&#34;&gt;previously&lt;/a&gt; that I was reading the book &lt;a href=&#34;https://www.oxfordscholarship.com/view/10.1093/oso/9780190923624.001.0001/oso-9780190923624&#34;&gt;Network Propaganda&lt;/a&gt; by Yochai Benkler, Robert Faris, and Hal Roberts. I believe I&#39;ll get more from the book if I write about it, &lt;a href=&#34;/posts/why_papers.html&#34;&gt;as with papers&lt;/a&gt;, so I plan to write up a summary and thoughts on each of four parts of the book. The entire book is available &lt;a href=&#34;https://www.oxfordscholarship.com/view/10.1093/oso/9780190923624.001.0001/oso-9780190923624&#34;&gt;for free online&lt;/a&gt;!&lt;/p&gt;</description>
+      <description>&lt;p&gt;I wrote &lt;a href=&#34;/posts/cant_not_be_researcher.html&#34;&gt;previously&lt;/a&gt; that I was reading the book &lt;a href=&#34;https://www.oxfordscholarship.com/view/10.1093/oso/9780190923624.001.0001/oso-9780190923624&#34;&gt;Network Propaganda&lt;/a&gt; by Yochai Benkler, Robert Faris, and Hal Roberts. I believe I&amp;rsquo;ll get more from the book if I write about it, &lt;a href=&#34;/posts/why_papers.html&#34;&gt;as with papers&lt;/a&gt;, so I plan to write up a summary and thoughts on each of four parts of the book. The entire book is available &lt;a href=&#34;https://www.oxfordscholarship.com/view/10.1093/oso/9780190923624.001.0001/oso-9780190923624&#34;&gt;for free online&lt;/a&gt;!&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -98,7 +107,7 @@
       <pubDate>Thu, 27 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>/posts/openai_unease.html</guid>
-      <description>&lt;p&gt;Early last week, an article was posted at the MIT Technology Review: &lt;a href=&#34;https://www.technologyreview.com/s/615181/ai-openai-moonshot-elon-musk-sam-altman-greg-brockman-messy-secretive-reality/&#34;&gt;the messy, secretive reality behind OpenAI&#39;s bid to save the world&lt;/a&gt; by Karen Hao. As well-written as it is long, I started thinking about what OpenAI stands for and why it makes me increasingly uneasy.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Early last week, an article was posted at the MIT Technology Review: &lt;a href=&#34;https://www.technologyreview.com/s/615181/ai-openai-moonshot-elon-musk-sam-altman-greg-brockman-messy-secretive-reality/&#34;&gt;the messy, secretive reality behind OpenAI&amp;rsquo;s bid to save the world&lt;/a&gt; by Karen Hao. As well-written as it is long, I started thinking about what OpenAI stands for and why it makes me increasingly uneasy.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -116,7 +125,7 @@
       <pubDate>Sun, 23 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>/papers/sketch_of_manosphere_ribeiro.html</guid>
-      <description>&lt;p&gt;This paper characterizes and studies the migration of fringe &amp;ldquo;men&#39;s rights&amp;rdquo; groups on Reddit and elsewhere. They demonstrate that these communities (the &amp;ldquo;Manosphere&amp;rdquo;) has more hateful speech than the rest of the web. Paper by &lt;a href=&#34;https://manoelhortaribeiro.github.io/&#34;&gt;Ribeiro&lt;/a&gt; et al.&lt;/p&gt;</description>
+      <description>&lt;p&gt;This paper characterizes and studies the migration of fringe &amp;ldquo;men&amp;rsquo;s rights&amp;rdquo; groups on Reddit and elsewhere. They demonstrate that these communities (the &amp;ldquo;Manosphere&amp;rdquo;) has more hateful speech than the rest of the web. Paper by &lt;a href=&#34;https://manoelhortaribeiro.github.io/&#34;&gt;Ribeiro&lt;/a&gt; et al.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -143,7 +152,7 @@
       <pubDate>Sat, 15 Feb 2020 00:00:00 -0500</pubDate>
       
       <guid>/posts/advice_for_reading_papers_ng.html</guid>
-      <description>&lt;p&gt;I spent half an hour watching one of Andrew Ng&#39;s &lt;a href=&#34;https://www.youtube.com/watch?v=733m6qBH-jI&#34;&gt;deep learning lectures&lt;/a&gt;, this one focusing on reading research papers and career advice. This post is a summary of what I learned.&lt;/p&gt;</description>
+      <description>&lt;p&gt;I spent half an hour watching one of Andrew Ng&amp;rsquo;s &lt;a href=&#34;https://www.youtube.com/watch?v=733m6qBH-jI&#34;&gt;deep learning lectures&lt;/a&gt;, this one focusing on reading research papers and career advice. This post is a summary of what I learned.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -170,7 +179,7 @@
       <pubDate>Sun, 09 Feb 2020 00:00:00 -0500</pubDate>
       
       <guid>/posts/cant_not_be_researcher.html</guid>
-      <description>I love flying. There&#39;s something about the act of being alone with my thoughts that forces introspection and self-awareness, and this post is about what I learned this time.</description>
+      <description>I love flying. There&amp;rsquo;s something about the act of being alone with my thoughts that forces introspection and self-awareness, and this post is about what I learned this time.</description>
     </item>
     
     <item>
@@ -180,15 +189,6 @@
       
       <guid>/what_i_read/20200208.html</guid>
       <description>&lt;p&gt;Articles I read this week, including privacy micro-networks, &amp;ldquo;so-so AI,&amp;rdquo; pieces on political modeling, and more.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Paper: A Comparison of Approaches to Advertising Measurement: Evidence from Big Field Experiments at Facebook</title>
-      <link>/papers/facebook_advertising_field_study_gordon.html</link>
-      <pubDate>Fri, 07 Feb 2020 00:00:00 -0500</pubDate>
-      
-      <guid>/papers/facebook_advertising_field_study_gordon.html</guid>
-      <description>&lt;p&gt;In what is probably my last digital advertising paper for now, I read a paper out of Kellogg + Facebook studying the causal effects of digital advertising. This is the nail in the coffin of my belief that digital advertising is overhyped and overvalued, and that they do far less than anyone appears to believe.&lt;/p&gt;</description>
     </item>
     
   </channel>

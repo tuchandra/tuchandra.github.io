@@ -3,16 +3,43 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/papers.html</loc>
-    <lastmod>2020-04-26T00:00:00-04:00</lastmod>
+    <loc>/posts.html</loc>
+    <lastmod>2020-04-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories.html</loc>
-    <lastmod>2020-04-26T00:00:00-04:00</lastmod>
+    <loc>/posts/password_tool_2.html</loc>
+    <lastmod>2020-04-27T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/categories.html</loc>
+    <lastmod>2020-04-27T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/projects.html</loc>
+    <lastmod>2020-04-27T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2020-04-27T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/papers.html</loc>
+    <lastmod>2020-04-26T00:00:00-04:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -30,27 +57,7 @@
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2020-04-26T00:00:00-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/posts.html</loc>
-    <lastmod>2020-04-26T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/posts/password_tool_1.html</loc>
-    <lastmod>2020-04-26T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/projects.html</loc>
     <lastmod>2020-04-26T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

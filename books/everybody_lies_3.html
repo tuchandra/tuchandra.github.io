@@ -23,7 +23,7 @@
   
   <meta name="description" content="The final post in my series about Everybody Lies is another abstract one. Here, I discuss the dangers of big data and how the wrong data can lead us astray.
 " />
-  <meta name="generator" content="Hugo 0.62.2 with theme pure" />
+  <meta name="generator" content="Hugo 0.65.3 with theme pure" />
   <title>The dangers of big data (&#34;Everybody Lies&#34;, part 3) - Tushar Chandra</title>
   
 
@@ -158,7 +158,7 @@
             <li class="category-list-item"><a href="/categories/books.html" class="category-list-link">books</a><span class="category-list-count">5</span></li>
             <li class="category-list-item"><a href="/categories/general.html" class="category-list-link">general</a><span class="category-list-count">30</span></li>
             <li class="category-list-item"><a href="/categories/papers.html" class="category-list-link">papers</a><span class="category-list-count">27</span></li>
-            <li class="category-list-item"><a href="/categories/projects.html" class="category-list-link">projects</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="/categories/projects.html" class="category-list-link">projects</a><span class="category-list-count">2</span></li>
             <li class="category-list-item"><a href="/categories/self.html" class="category-list-link">self</a><span class="category-list-count">3</span></li>
             <li class="category-list-item"><a href="/categories/spark.html" class="category-list-link">spark</a><span class="category-list-count">13</span></li>
             <li class="category-list-item"><a href="/categories/what-i-read.html" class="category-list-link">what-i-read</a><span class="category-list-count">23</span></li>
@@ -169,6 +169,16 @@
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget-body">
         <ul class="recent-post-list list-unstyled no-thumbnail">
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/posts/password_tool_2.html" class="title">Attempts at cracking a rescue password</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-04-27 00:00:00 &#43;0000 UTC" itemprop="datePublished">2020-04-27</time>
+                    </p>
+                </div>
+            </li>
             <li>
                 <div class="item-inner">
                     <p class="item-title">
@@ -206,16 +216,6 @@
                     </p>
                     <p class="item-date">
                         <time datetime="2020-04-19 00:00:00 -0400 EDT" itemprop="datePublished">2020-04-19</time>
-                    </p>
-                </div>
-            </li>
-            <li>
-                <div class="item-inner">
-                    <p class="item-title">
-                        <a href="/papers/auditing_radicalization_youtube_ribeiro.html" class="title">Paper: Auditing Radicalization Pathways on YouTube</a>
-                    </p>
-                    <p class="item-date">
-                        <time datetime="2020-04-18 00:00:00 -0400 EDT" itemprop="datePublished">2020-04-18</time>
                     </p>
                 </div>
             </li>
@@ -262,25 +262,25 @@
 <blockquote>
 <p>However, we no longer need to rely on what people tell us. New data from the internet—the traces of information that billions of people leave on Google, social media, dating, and even pornography sites—finally reveals the truth. By analyzing this digital goldmine, we can now learn what people really think, what they really want, and what they really do.</p>
 </blockquote>
-<p>This is &hellip; oversold, to say the least, if not outright misleading. But it's an advertisement, so I won't read too much into these claims.</p>
+<p>This is &hellip; oversold, to say the least, if not outright misleading. But it&rsquo;s an advertisement, so I won&rsquo;t read too much into these claims.</p>
 <p>I was, however, pleasantly surprised to find that the author dedicated the final part of the book to warning us of the shortcomings and pitfalls of big data.</p>
 <h2 id="misleading-datasets">Misleading datasets</h2>
 <p>Big data certainly can be used for extraordinary things &hellip; given enough time, money, talent, willingness to fail, and, of course, data. In my experience, big data is often the messiest, and the work required to wrangle it into a usable form is the hardest and most time-consuming. Big data is a harder sell when you have to spend days analyzing what at first might be indistinguishable from garbage.</p>
-<p>Moreover, big data can be biased in ways that you don't expect. Take a dataset of <em>all</em> cable box data from a cable provider, which I've worked with at Nielsen. One might reasonably expect this to be a good predictor of TV viewership. And it is!&mdash;but only to a first approximation, as it doesn't produce the high-quality estimates that a smaller, but representative, panel would.</p>
-<p>Rather, it overstates the channels that older people like (because they're the ones who have cable). It doesn't inform us how many people are watching TV in general (because it's household-level, not person-level). It extends the length of events (because people leave their boxes on when they go to bed). It's overrun with heartbeat &ldquo;on&rdquo; signals and other machine-generated noise. Its utility to inform your perceptions of TV viewing is useful to a degree, but our reality is messier, and big data often doesn't account for that.</p>
+<p>Moreover, big data can be biased in ways that you don&rsquo;t expect. Take a dataset of <em>all</em> cable box data from a cable provider, which I&rsquo;ve worked with at Nielsen. One might reasonably expect this to be a good predictor of TV viewership. And it is!&mdash;but only to a first approximation, as it doesn&rsquo;t produce the high-quality estimates that a smaller, but representative, panel would.</p>
+<p>Rather, it overstates the channels that older people like (because they&rsquo;re the ones who have cable). It doesn&rsquo;t inform us how many people are watching TV in general (because it&rsquo;s household-level, not person-level). It extends the length of events (because people leave their boxes on when they go to bed). It&rsquo;s overrun with heartbeat &ldquo;on&rdquo; signals and other machine-generated noise. Its utility to inform your perceptions of TV viewing is useful to a degree, but our reality is messier, and big data often doesn&rsquo;t account for that.</p>
 <p>The author calls this out&mdash;the mistaken attitude that simply throwing <em>more</em> data at a question will help us to solve it:</p>
 <blockquote>
 <p>The solution is not always more Big Data. A special sauce is often necessary to help Big Data work best: the judgment of humans and small surveys, what we might call small data.</p>
 </blockquote>
-<p>This is the messy reality of big data: that you often need to correct for its bias with a high-quality truth set. You might need to discard some of the data as unusable, or model information that's missing. Data, by itself, simply isn't always helpful.</p>
+<p>This is the messy reality of big data: that you often need to correct for its bias with a high-quality truth set. You might need to discard some of the data as unusable, or model information that&rsquo;s missing. Data, by itself, simply isn&rsquo;t always helpful.</p>
 <h2 id="beyond-bias">Beyond bias</h2>
-<p>The reality of big data isn't just that it's sometimes biased, though. It's that it requires you to think differently, and to ask different questions. A high-quality panel or expensive longitudinal study contains far different information than a catch-all census dataset. Later chapters discuss this reality:</p>
+<p>The reality of big data isn&rsquo;t just that it&rsquo;s sometimes biased, though. It&rsquo;s that it requires you to think differently, and to ask different questions. A high-quality panel or expensive longitudinal study contains far different information than a catch-all census dataset. Later chapters discuss this reality:</p>
 <blockquote>
 <p>And then, finally, the researchers realized their mistake. “Big Data is not just about doing the same thing you would have done with surveys except with more data,” [Raj] Chetty explains. <strong>They were asking little data questions of the massive collection of data they had been handed.</strong> “Big Data really should allow you to use completely different designs than what you would have with a survey,” Chetty adds.</p>
 </blockquote>
 <p>A question to ask of a panel might be &ldquo;what characteristics are associated with people who watch NBC,&rdquo; where the individual-level information is desirable. A question to ask of a large dataset might be &ldquo;how much does viewing differ across markets,&rdquo; where large sample sizes mean that individual-level <em>noise</em> gets averaged out.</p>
 <h2 id="closing-thoughts">Closing thoughts</h2>
-<p>The end of the book warns us of statistical significance leading us astray: see <a href="https://xkcd.com/882/">xkcd 882</a>. So, too, can big data: ask the wrong questions and get the wrong answers. Take the data at face value and get face-value approximations. It's powerful, for sure; but data isn't a silver bullet, and bad data can be as dangerous as no data.</p>
+<p>The end of the book warns us of statistical significance leading us astray: see <a href="https://xkcd.com/882/">xkcd 882</a>. So, too, can big data: ask the wrong questions and get the wrong answers. Take the data at face value and get face-value approximations. It&rsquo;s powerful, for sure; but data isn&rsquo;t a silver bullet, and bad data can be as dangerous as no data.</p>
     </div>
     <div class="article-footer">
     </div>

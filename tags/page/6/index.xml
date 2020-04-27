@@ -11,6 +11,15 @@
     
     
     <item>
+      <title>Predicting Communities via Graph Algorithms</title>
+      <link>/spark/graph_algorithms.html</link>
+      <pubDate>Wed, 24 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/spark/graph_algorithms.html</guid>
+      <description>&lt;p&gt;Speaker: Amy Holder and Soren Reichardt (Neo4j).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Smart Join Algorithms for Fighting Skew at Scale</title>
       <link>/spark/smart_join.html</link>
       <pubDate>Wed, 24 Apr 2019 00:00:00 +0000</pubDate>
@@ -25,7 +34,7 @@
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>/about/</guid>
-      <description>Hi, I&#39;m Tushar. I&#39;m a data scientist at Nielsen in Chicago, IL. I have an interest in human-computer interaction and how technology &amp;amp; new media are affecting our lives. On this site, I write summaries of papers that interest me along with other articles or talks.
+      <description>Hi, I&amp;rsquo;m Tushar. I&amp;rsquo;m a data scientist at Nielsen in Chicago, IL. I have an interest in human-computer interaction and how technology &amp;amp; new media are affecting our lives. On this site, I write summaries of papers that interest me along with other articles or talks.
 I can be reached at:
  Github: tuchandra Email: me [at] tusharc [dot] dev  </description>
     </item>
