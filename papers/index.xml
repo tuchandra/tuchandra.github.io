@@ -6,10 +6,19 @@
     <description>Recent content on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 27 Apr 2020 00:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 28 Apr 2020 00:00:00 -0400</lastBuildDate>
     
         <atom:link href="/papers/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Paper: &#39;On Finsta I can say Hail Satan&#39;: Being Authentic but Disagreeable on Instagram</title>
+      <link>/papers/finsta_authentic_disagreebale_taber.html</link>
+      <pubDate>Tue, 28 Apr 2020 00:00:00 -0400</pubDate>
+      
+      <guid>/papers/finsta_authentic_disagreebale_taber.html</guid>
+      <description>&lt;p&gt;This CHI 2020 paper studies how people use multiple accounts on Instagram, being the first to document personality differences between different accounts on the same platform.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>A variety of talks from CHI 2020</title>
@@ -44,7 +53,7 @@
       <pubDate>Sun, 26 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>/posts/password_tool_1.html</guid>
-      <description>&lt;p&gt;In this series of blog posts, I&amp;rsquo;ll be covering my newest personal project: a tool for the Pokemon Mystery Dungeon video games that help to make sense of otherwise-uninterpretable passwords. This post covers my motivation for the project and the choice of technologies.&lt;/p&gt;</description>
+      <description>&lt;p&gt;In this series of blog posts, I&#39;ll be covering my newest personal project: a tool for the Pokemon Mystery Dungeon video games that help to make sense of otherwise-uninterpretable passwords. This post covers my motivation for the project and the choice of technologies.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -53,7 +62,7 @@
       <pubDate>Sat, 25 Apr 2020 00:00:00 -0400</pubDate>
       
       <guid>/what_i_read/20200425.html</guid>
-      <description>&lt;p&gt;I didn&amp;rsquo;t read much this week, due to a project I&amp;rsquo;m working on that I&amp;rsquo;ll write more about soon. One evening, I sat down to work through a couple things that popped up, thoguh.&lt;/p&gt;</description>
+      <description>&lt;p&gt;I didn&#39;t read much this week, due to a project I&#39;m working on that I&#39;ll write more about soon. One evening, I sat down to work through a couple things that popped up, thoguh.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -62,7 +71,7 @@
       <pubDate>Sun, 19 Apr 2020 00:00:00 -0400</pubDate>
       
       <guid>/papers/acm_fat2020_talks.html</guid>
-      <description>&lt;p&gt;I sat down to watch a handful of talks from ACM FAT* 2020, picked from a survey of the &lt;a href=&#34;https://facctconference.org/2020/acceptedpapers.html#sess1&#34;&gt;Accepted Papers&lt;/a&gt; list. I found this to be a good way to consume a variety of papers that I probably wouldn&amp;rsquo;t have ordinarily read.&lt;/p&gt;</description>
+      <description>&lt;p&gt;I sat down to watch a handful of talks from ACM FAT* 2020, picked from a survey of the &lt;a href=&#34;https://facctconference.org/2020/acceptedpapers.html#sess1&#34;&gt;Accepted Papers&lt;/a&gt; list. I found this to be a good way to consume a variety of papers that I probably wouldn&#39;t have ordinarily read.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -71,7 +80,7 @@
       <pubDate>Sat, 18 Apr 2020 00:00:00 -0400</pubDate>
       
       <guid>/papers/auditing_radicalization_youtube_ribeiro.html</guid>
-      <description>&lt;p&gt;Does YouTube drive people to more extreme content? This is a question that many have posed, but this is the first paper to study this question in depth. I&amp;rsquo;ve had this on my reading list since I came across it on Twitter, so this Saturday I finally sat down to take a look.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Does YouTube drive people to more extreme content? This is a question that many have posed, but this is the first paper to study this question in depth. I&#39;ve had this on my reading list since I came across it on Twitter, so this Saturday I finally sat down to take a look.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -80,7 +89,7 @@
       <pubDate>Sat, 18 Apr 2020 00:00:00 -0400</pubDate>
       
       <guid>/what_i_read/20200418.html</guid>
-      <description>&lt;p&gt;This week&amp;rsquo;s reading happened almost all in one day, when I took time off work to recharge. I read articles and blog posts on COVID-19 models, focusing on the question of what it means to model something. There are also a couple of garden variety engineering &amp;amp; data science posts.&lt;/p&gt;</description>
+      <description>&lt;p&gt;This week&#39;s reading happened almost all in one day, when I took time off work to recharge. I read articles and blog posts on COVID-19 models, focusing on the question of what it means to model something. There are also a couple of garden variety engineering &amp;amp; data science posts.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -89,7 +98,7 @@
       <pubDate>Sun, 12 Apr 2020 00:00:00 -0400</pubDate>
       
       <guid>/posts/debugging_attitude.html</guid>
-      <description>&lt;p&gt;Today, I noticed myself doing something I&amp;rsquo;ve done many times before: running into an error, Googling it, finding code snippets, and making random changes in hopes that they&amp;rsquo;d work. In this post, I try to understand why.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Today, I noticed myself doing something I&#39;ve done many times before: running into an error, Googling it, finding code snippets, and making random changes in hopes that they&#39;d work. In this post, I try to understand why.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -134,7 +143,7 @@
       <pubDate>Sat, 04 Apr 2020 00:00:00 -0400</pubDate>
       
       <guid>/what_i_read/20200404.html</guid>
-      <description>&lt;p&gt;This week&amp;rsquo;s reading was short. It includes a technical deep dive into some zero-day Safari exploits, FiveThirtyEight on why it&amp;rsquo;s hard to build a good COVID-19 model, and reflections on the lockdown.&lt;/p&gt;</description>
+      <description>&lt;p&gt;This week&#39;s reading was short. It includes a technical deep dive into some zero-day Safari exploits, FiveThirtyEight on why it&#39;s hard to build a good COVID-19 model, and reflections on the lockdown.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -170,7 +179,7 @@
       <pubDate>Sat, 28 Mar 2020 00:00:00 +0000</pubDate>
       
       <guid>/what_i_read/20200328.html</guid>
-      <description>&lt;p&gt;This week, I read two articles about &amp;ldquo;broader impact&amp;rdquo; statements, soon to be required by NeurIPS. Other articles include a discussion of Facebook&amp;rsquo;s suicide prevention AI, suggestions on fighting fake news, and poll results showing Fox News viewers are less likely to take the coronavirus threat seriously.&lt;/p&gt;</description>
+      <description>&lt;p&gt;This week, I read two articles about &amp;ldquo;broader impact&amp;rdquo; statements, soon to be required by NeurIPS. Other articles include a discussion of Facebook&#39;s suicide prevention AI, suggestions on fighting fake news, and poll results showing Fox News viewers are less likely to take the coronavirus threat seriously.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -180,15 +189,6 @@
       
       <guid>/posts/normalcy_during_coronavirus.html</guid>
       <description>&lt;p&gt;Yesterday marked two weeks of fully remote work; my first day at home was Thursday, March 12th. This post reflects on my experience.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Paper: Methods in predictive techniques for mental health status on social media: a critical review</title>
-      <link>/papers/review_methods_predicting_mental_health_status_chancellor.html</link>
-      <pubDate>Thu, 26 Mar 2020 00:00:00 -0400</pubDate>
-      
-      <guid>/papers/review_methods_predicting_mental_health_status_chancellor.html</guid>
-      <description>&lt;p&gt;This new paper by Chancellor and De Choudhury is a literature review of predicting mental health states from social media, studying in particular the extent to which the papers report their methods in sufficient depth and clarity. They propose reporting standards for publications in this space.&lt;/p&gt;</description>
     </item>
     
   </channel>

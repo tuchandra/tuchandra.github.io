@@ -23,7 +23,7 @@
   
   <meta name="description" content="Articles I read this week, including &amp;ldquo;goodbye clean code,&amp;rdquo; the Neural ODEs paper retrospective, and technical writing.
 " />
-  <meta name="generator" content="Hugo 0.65.3 with theme pure" />
+  <meta name="generator" content="Hugo 0.62.2 with theme pure" />
   <title>What I read this week (January 12 - 18) - Tushar Chandra</title>
   
 
@@ -157,7 +157,7 @@
         <ul class="category-list">
             <li class="category-list-item"><a href="/categories/books.html" class="category-list-link">books</a><span class="category-list-count">5</span></li>
             <li class="category-list-item"><a href="/categories/general.html" class="category-list-link">general</a><span class="category-list-count">30</span></li>
-            <li class="category-list-item"><a href="/categories/papers.html" class="category-list-link">papers</a><span class="category-list-count">28</span></li>
+            <li class="category-list-item"><a href="/categories/papers.html" class="category-list-link">papers</a><span class="category-list-count">29</span></li>
             <li class="category-list-item"><a href="/categories/projects.html" class="category-list-link">projects</a><span class="category-list-count">2</span></li>
             <li class="category-list-item"><a href="/categories/self.html" class="category-list-link">self</a><span class="category-list-count">3</span></li>
             <li class="category-list-item"><a href="/categories/spark.html" class="category-list-link">spark</a><span class="category-list-count">13</span></li>
@@ -169,6 +169,16 @@
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget-body">
         <ul class="recent-post-list list-unstyled no-thumbnail">
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/papers/finsta_authentic_disagreebale_taber.html" class="title">Paper: &#39;On Finsta I can say Hail Satan&#39;: Being Authentic but Disagreeable on Instagram</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-04-28 00:00:00 -0400 EDT" itemprop="datePublished">2020-04-28</time>
+                    </p>
+                </div>
+            </li>
             <li>
                 <div class="item-inner">
                     <p class="item-title">
@@ -206,16 +216,6 @@
                     </p>
                     <p class="item-date">
                         <time datetime="2020-04-26 00:00:00 &#43;0000 UTC" itemprop="datePublished">2020-04-26</time>
-                    </p>
-                </div>
-            </li>
-            <li>
-                <div class="item-inner">
-                    <p class="item-title">
-                        <a href="/what_i_read/20200425.html" class="title">What I read this week (April 19 - April 25)</a>
-                    </p>
-                    <p class="item-date">
-                        <time datetime="2020-04-25 00:00:00 -0400 EDT" itemprop="datePublished">2020-04-25</time>
                     </p>
                 </div>
             </li>
@@ -259,27 +259,27 @@
 <h2 id="goodbye-clean-codehttpsoverreactediogoodbye-clean-code"><a href="https://overreacted.io/goodbye-clean-code/">Goodbye, clean code</a></h2>
 <p><strong>Author</strong>: Dan Abramov</p>
 <p><strong>How I found this</strong>: from /r/programming</p>
-<p><strong>Summary</strong>: this is a retrospective on how the author (years prior) made a code change that theoretically made the code &ldquo;cleaner,&rdquo; by most definitions of the word. In hindsight, the abstractions that they added (which are usually the tradeoff for cleaner code) were unnecessary and made it harder to change the requirements (while, yes, reducing duplication). The author&rsquo;s boss pulled him aside the next morning to ask him to revert the changes.</p>
-<p><strong>Thoughts</strong>: the more I think about this, the more I think the post misses the point. The clean code isn&rsquo;t the problem here: the problems are (1) the author making a code change without consulting the original author (where was code review? why did he commit overnight?) and (2) the author not recognizing that the requirements would change in the future. The original code wasn&rsquo;t great, and I <em>do</em> think it needed refactoring (make helper functions for the math?), but not in the author&rsquo;s way. Yes, abstractions have tradeoffs, but the problem wasn&rsquo;t caused by abstractions in the general sense&ndash;it was caused by the use of lousy abstractions. Reducing code duplication has been one of the most effective ways for me to untangle complex codebases.</p>
-<p><strong>Sidenote</strong>: originally, my &ldquo;thoughts&rdquo; paragraph was me just summarizing the article. After thinking some more about it, and reading some of the discussion that happened on <a href="https://old.reddit.com/r/programming/comments/eng355/goodbye_clean_code/">Reddit</a>, I switched course and decided that I don&rsquo;t really like this blog post at all. Disagreeing publicly is tough, though, and I felt a strange pressure to just rehash the important points and say &ldquo;yeah, good stuff.&rdquo; Being able to criticize the post is harder.</p>
+<p><strong>Summary</strong>: this is a retrospective on how the author (years prior) made a code change that theoretically made the code &ldquo;cleaner,&rdquo; by most definitions of the word. In hindsight, the abstractions that they added (which are usually the tradeoff for cleaner code) were unnecessary and made it harder to change the requirements (while, yes, reducing duplication). The author's boss pulled him aside the next morning to ask him to revert the changes.</p>
+<p><strong>Thoughts</strong>: the more I think about this, the more I think the post misses the point. The clean code isn't the problem here: the problems are (1) the author making a code change without consulting the original author (where was code review? why did he commit overnight?) and (2) the author not recognizing that the requirements would change in the future. The original code wasn't great, and I <em>do</em> think it needed refactoring (make helper functions for the math?), but not in the author's way. Yes, abstractions have tradeoffs, but the problem wasn't caused by abstractions in the general sense&ndash;it was caused by the use of lousy abstractions. Reducing code duplication has been one of the most effective ways for me to untangle complex codebases.</p>
+<p><strong>Sidenote</strong>: originally, my &ldquo;thoughts&rdquo; paragraph was me just summarizing the article. After thinking some more about it, and reading some of the discussion that happened on <a href="https://old.reddit.com/r/programming/comments/eng355/goodbye_clean_code/">Reddit</a>, I switched course and decided that I don't really like this blog post at all. Disagreeing publicly is tough, though, and I felt a strange pressure to just rehash the important points and say &ldquo;yeah, good stuff.&rdquo; Being able to criticize the post is harder.</p>
 <h2 id="bullshit-that-i-and-others-have-said-about-neural-odeshttpswwwyoutubecomwatchvyz-_e7a3v2w"><a href="https://www.youtube.com/watch?v=YZ-_E7A3V2w">Bullshit that I and others have said about Neural ODEs</a></h2>
 <p><strong>Speaker</strong>: David Duvenaud</p>
 <p><strong>How I found this</strong>: from /r/machinelearning</p>
-<p><strong>Summary</strong>: this is a research retrospective on the <a href="https://arxiv.org/abs/1806.07366">Neural ODEs paper</a> that took place at NeurIPS 2019 (the original paper was at NeurIPS 2018). It&rsquo;s a short talk (20 minutes) and there isn&rsquo;t a lot to summarize. Some highlights include the stated motivation being more or less made up, handwaving the non-ML parts (delegating to ODE solvers), and some of the press coverage being misinformed. He Duvenaud brings up the contributions of nice visualizations and a clean title as contributing to the hype.</p>
-<p><strong>Thoughts</strong>: I don&rsquo;t understand this paper nearly well enough to comment on the substance, but I <em>really</em> appreciate the idea of research retrospectives. Reflecting on one&rsquo;s successes is not nearly as common as reflecting on failures, and watching this talk brings down a paper that received a lot of attention to a more ordinary level. It also reminds me that even these prolific papers have hacks and kludges, which Duvenaud discusses.</p>
+<p><strong>Summary</strong>: this is a research retrospective on the <a href="https://arxiv.org/abs/1806.07366">Neural ODEs paper</a> that took place at NeurIPS 2019 (the original paper was at NeurIPS 2018). It's a short talk (20 minutes) and there isn't a lot to summarize. Some highlights include the stated motivation being more or less made up, handwaving the non-ML parts (delegating to ODE solvers), and some of the press coverage being misinformed. He Duvenaud brings up the contributions of nice visualizations and a clean title as contributing to the hype.</p>
+<p><strong>Thoughts</strong>: I don't understand this paper nearly well enough to comment on the substance, but I <em>really</em> appreciate the idea of research retrospectives. Reflecting on one's successes is not nearly as common as reflecting on failures, and watching this talk brings down a paper that received a lot of attention to a more ordinary level. It also reminds me that even these prolific papers have hacks and kludges, which Duvenaud discusses.</p>
 <h2 id="radical-candor-software-editionhttpsmediumcomrinaartsradical-candor-software-edition-d4b5ad401be3"><a href="https://medium.com/@rinaarts/radical-candor-software-edition-d4b5ad401be3">Radical Candor, Software Edition</a></h2>
 <p><strong>Author</strong>: Rina Artstain</p>
 <p><strong>How I found this</strong>: from <a href="Pointer">https://pointer.io</a></p>
-<p><strong>Summary</strong>: this is an article extending the principles in Kim Scott&rsquo;s book <a href="https://www.radicalcandor.com/the-book/">Radical Candor</a> to a software engineering team. Radical Candor has two key principles, &ldquo;care personally&rdquo; (about the people you work with or manage, treating them as people and not just employees), and &ldquo;challenge directly&rdquo; (by giving clear, actionable feedback and being direct with others). The article&rsquo;s author extends this to the code and design review settings, encouraging engineers to approve code reviews with comments and to take care to make sure everyone on a team has a voice in a design review.</p>
-<p><strong>Thoughts</strong>: this, I think, is really useful for someone who <em>hasn&rsquo;t</em> read Radical Candor. For someone who has, it doesn&rsquo;t add a ton of value; there&rsquo;s not that much in Radical Candor that isn&rsquo;t applicable to software engineers right out of the gate. Even as a non-manager, I&rsquo;ve found the book to have transformed my relationships at work.</p>
-<p>More broadly, though, this is an instance of &ldquo;tech isn&rsquo;t special,&rdquo; where workplace advice or traditional wisdom gets extended to the software engineering setting without a real need. Many of the problems that tech teams face are not tech-specific, <em>especially</em> the interpersonal ones.</p>
-<p>One example from the article is the quote &ldquo;It’s not just code. It’s our work. And we’re emotionally invested in it,&rdquo; referring to how code reviews often forget the person behind the code. I absolutely agree&ndash;that&rsquo;s happened several times at my company&ndash;but the same is true of any work that anyone does that receives feedback, code or otherwise.</p>
+<p><strong>Summary</strong>: this is an article extending the principles in Kim Scott's book <a href="https://www.radicalcandor.com/the-book/">Radical Candor</a> to a software engineering team. Radical Candor has two key principles, &ldquo;care personally&rdquo; (about the people you work with or manage, treating them as people and not just employees), and &ldquo;challenge directly&rdquo; (by giving clear, actionable feedback and being direct with others). The article's author extends this to the code and design review settings, encouraging engineers to approve code reviews with comments and to take care to make sure everyone on a team has a voice in a design review.</p>
+<p><strong>Thoughts</strong>: this, I think, is really useful for someone who <em>hasn't</em> read Radical Candor. For someone who has, it doesn't add a ton of value; there's not that much in Radical Candor that isn't applicable to software engineers right out of the gate. Even as a non-manager, I've found the book to have transformed my relationships at work.</p>
+<p>More broadly, though, this is an instance of &ldquo;tech isn't special,&rdquo; where workplace advice or traditional wisdom gets extended to the software engineering setting without a real need. Many of the problems that tech teams face are not tech-specific, <em>especially</em> the interpersonal ones.</p>
+<p>One example from the article is the quote &ldquo;It’s not just code. It’s our work. And we’re emotionally invested in it,&rdquo; referring to how code reviews often forget the person behind the code. I absolutely agree&ndash;that's happened several times at my company&ndash;but the same is true of any work that anyone does that receives feedback, code or otherwise.</p>
 <p>And, to be clear, there are ways in which tech <em>is</em> special; the companies pushing the limits of scalability or making breakthroughs in AI research are certainly in uncharted territory. The ease and speed at which software systems can impact society is both unprecedented and alarming. But I am not yet convinced that workplace relationships are one of those ways.</p>
 <h2 id="notes-on-technical-writinghttpsmkazblogmiscnotes-on-technical-writing"><a href="https://mkaz.blog/misc/notes-on-technical-writing">Notes on Technical Writing</a></h2>
 <p><strong>Author</strong>: Marcus Kazmierczak</p>
 <p><strong>How I found this</strong>: from Pointer</p>
-<p><strong>Summary</strong>: these are literally the author&rsquo;s notes on technical writing. There are principles to follow, discussions on minimalistic instruction and on the types of documentation, and resources to more.</p>
-<p><strong>Thoughts</strong>: bookmarked this. One of my responsibilities on a previous team was rebuilding all of the documentation for an internal software framework. Some of this was mechanical, like migrating pages from Confluence, Google Drive, PRs, etc., to a Sphinx-built site. The majority of the work, though, was reorganizing the documentation and consolidating and reworking disparate resources. I came up with my own ideas for technical writing then, so seeing someone else&rsquo;s is great.</p>
+<p><strong>Summary</strong>: these are literally the author's notes on technical writing. There are principles to follow, discussions on minimalistic instruction and on the types of documentation, and resources to more.</p>
+<p><strong>Thoughts</strong>: bookmarked this. One of my responsibilities on a previous team was rebuilding all of the documentation for an internal software framework. Some of this was mechanical, like migrating pages from Confluence, Google Drive, PRs, etc., to a Sphinx-built site. The majority of the work, though, was reorganizing the documentation and consolidating and reworking disparate resources. I came up with my own ideas for technical writing then, so seeing someone else's is great.</p>
     </div>
     <div class="article-footer">
     </div>

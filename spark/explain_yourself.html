@@ -23,7 +23,7 @@
   
   <meta name="description" content="Speakers: Niels Hanson (KPMG), Kishori Konwar (Broad Institute @ Harvard/MIT), Guohao Xiao (KPMG)
 " />
-  <meta name="generator" content="Hugo 0.65.3 with theme pure" />
+  <meta name="generator" content="Hugo 0.62.2 with theme pure" />
   <title>Explain Yourself: Why You Get the Recommendations You Do - Tushar Chandra</title>
   
 
@@ -157,7 +157,7 @@
         <ul class="category-list">
             <li class="category-list-item"><a href="/categories/books.html" class="category-list-link">books</a><span class="category-list-count">5</span></li>
             <li class="category-list-item"><a href="/categories/general.html" class="category-list-link">general</a><span class="category-list-count">30</span></li>
-            <li class="category-list-item"><a href="/categories/papers.html" class="category-list-link">papers</a><span class="category-list-count">28</span></li>
+            <li class="category-list-item"><a href="/categories/papers.html" class="category-list-link">papers</a><span class="category-list-count">29</span></li>
             <li class="category-list-item"><a href="/categories/projects.html" class="category-list-link">projects</a><span class="category-list-count">2</span></li>
             <li class="category-list-item"><a href="/categories/self.html" class="category-list-link">self</a><span class="category-list-count">3</span></li>
             <li class="category-list-item"><a href="/categories/spark.html" class="category-list-link">spark</a><span class="category-list-count">13</span></li>
@@ -169,6 +169,16 @@
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget-body">
         <ul class="recent-post-list list-unstyled no-thumbnail">
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/papers/finsta_authentic_disagreebale_taber.html" class="title">Paper: &#39;On Finsta I can say Hail Satan&#39;: Being Authentic but Disagreeable on Instagram</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-04-28 00:00:00 -0400 EDT" itemprop="datePublished">2020-04-28</time>
+                    </p>
+                </div>
+            </li>
             <li>
                 <div class="item-inner">
                     <p class="item-title">
@@ -206,16 +216,6 @@
                     </p>
                     <p class="item-date">
                         <time datetime="2020-04-26 00:00:00 &#43;0000 UTC" itemprop="datePublished">2020-04-26</time>
-                    </p>
-                </div>
-            </li>
-            <li>
-                <div class="item-inner">
-                    <p class="item-title">
-                        <a href="/what_i_read/20200425.html" class="title">What I read this week (April 19 - April 25)</a>
-                    </p>
-                    <p class="item-date">
-                        <time datetime="2020-04-25 00:00:00 -0400 EDT" itemprop="datePublished">2020-04-25</time>
                     </p>
                 </div>
             </li>
@@ -257,9 +257,9 @@
     <div class="article-entry marked-body js-toc-content" itemprop="articleBody">
       <p>Speakers: Niels Hanson (KPMG), Kishori Konwar (Broad Institute @ Harvard/MIT), Guohao Xiao (KPMG)</p>
 <h2 id="recommender-engines">Recommender engines</h2>
-<p>… are now essential tools for personalizing the web, but there&rsquo;s a huge problem with explainable recommendations. There is a growing need for transparency, but most models are viewed as black boxes. We should be striving for models that are both effective and understandable.</p>
+<p>… are now essential tools for personalizing the web, but there's a huge problem with explainable recommendations. There is a growing need for transparency, but most models are viewed as black boxes. We should be striving for models that are both effective and understandable.</p>
 <p>This talk is about explaining recommendations from the ALS Recommender model in Spark ML.</p>
-<p>There are two ways to develop a recommender system: <strong>collaborative filtering</strong> which looks at user / item interactions (&ldquo;you&rsquo;re starting to look like somebody who consumes these kinds of things …&quot;) and <strong>content-based filtering</strong> which recommends items that are similar to other items. Collaborative filtering has the cold-start problem (what do you recommend to a new person?) but content-based filtering makes it difficult to move beyond the starting point.</p>
+<p>There are two ways to develop a recommender system: <strong>collaborative filtering</strong> which looks at user / item interactions (&ldquo;you're starting to look like somebody who consumes these kinds of things …&quot;) and <strong>content-based filtering</strong> which recommends items that are similar to other items. Collaborative filtering has the cold-start problem (what do you recommend to a new person?) but content-based filtering makes it difficult to move beyond the starting point.</p>
 <p>They are often combined to form <strong>hybrid recommender systems.</strong></p>
 <h2 id="matrix-based-collaborative-filtering">Matrix-based collaborative filtering</h2>
 <p>This is the most widely used recommender model; try to predict missing values of the user-item matrix by decomposing the matrix into latent factors, whcih represent general trends of user-item consumption. This is also the model implemented in <a href="https://spark.apache.org/docs/2.4.0/ml-collaborative-filtering.html">Spark ML</a>.</p>
@@ -271,7 +271,7 @@
 <li>Grouping items might inform cross-selling initiatives</li>
 </ul>
 <h2 id="user-specific-item-spaces">User-specific item spaces</h2>
-<p>They propose a <strong>user-specific item space</strong> where you create a linear mapping $W^u$ that linearly transforms item similarities based on the user&rsquo;s interests $C^u$. Holy linear algebra! OK, time to stop trying to write down everything on the slide and actually understand.</p>
+<p>They propose a <strong>user-specific item space</strong> where you create a linear mapping $W^u$ that linearly transforms item similarities based on the user's interests $C^u$. Holy linear algebra! OK, time to stop trying to write down everything on the slide and actually understand.</p>
 <p>For a runner, you might warp their itemspace so that there is more distance between the running shoes, and move the musical instruments closer together. Do the opposite weighting for a musician. But why?</p>
 <p>The user-specific item-space allows you to decompose recommendations into their component parts; decomposing the recommended value into the sum of the distances (within the space) as weightings times the scores. Now you can say &ldquo;you got this recommendation because you clicked on this, bought this, and added this to your cart.&rdquo;</p>
 <p>This lets you decompose recommendations!</p>
@@ -281,12 +281,12 @@
 <li>and gives intuition about how CF works</li>
 <li>lets you add new prior information or perform man-in-the-middle corrections</li>
 </ul>
-<p>They created a new class ALSExplain that lets you do this on the SparkML ALS implementation, and they&rsquo;ve made a PR against Spark itself to add this in. They showed a demo of how this works on the MovieLens dataset, why someone would be recommended <em>Home Alone</em> or <em>Fight Club</em>.</p>
+<p>They created a new class ALSExplain that lets you do this on the SparkML ALS implementation, and they've made a PR against Spark itself to add this in. They showed a demo of how this works on the MovieLens dataset, why someone would be recommended <em>Home Alone</em> or <em>Fight Club</em>.</p>
 <h2 id="future-work">Future work</h2>
 <p>Currently ALSExplain only generates recommendations and decomposition scores without explicitly generating the full user-specific item-item matrix; it does it for the recommendations only. This might be interesting, but performance.</p>
 <p>Performance improvements can come — approximations to the matrix inverse and sparse matrix algorithms.</p>
-<p>Their proposed code design is their first attempt to change Spark ML, so they&rsquo;ve gotta work with the community on that.</p>
-<p>And the ALS paper is 10 years old, but this wasn&rsquo;t implemented in Spark! They want to explore generating explainable recommendations from more complex models (autoencoders, feed-forward neural nets, etc.). The paper they&rsquo;ve been referencing just has this in the back!</p>
+<p>Their proposed code design is their first attempt to change Spark ML, so they've gotta work with the community on that.</p>
+<p>And the ALS paper is 10 years old, but this wasn't implemented in Spark! They want to explore generating explainable recommendations from more complex models (autoencoders, feed-forward neural nets, etc.). The paper they've been referencing just has this in the back!</p>
     </div>
     <div class="article-footer">
     </div>
