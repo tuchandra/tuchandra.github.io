@@ -9,6 +9,13 @@
   </url>
   
   <url>
+    <loc>/papers/finsta_authentic_disagreebale_taber.html</loc>
+    <lastmod>2020-04-28T00:00:00-05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>/categories.html</loc>
     <lastmod>2020-04-28T00:00:00-05:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -17,13 +24,6 @@
   
   <url>
     <loc>/categories/chi2020.html</loc>
-    <lastmod>2020-04-28T00:00:00-05:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/papers/finsta_authentic_disagreebale_taber.html</loc>
     <lastmod>2020-04-28T00:00:00-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -126,6 +126,13 @@
   </url>
   
   <url>
+    <loc>/papers/model_facts_sendak.html</loc>
+    <lastmod>2020-04-12T00:00:00-05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>/categories/general.html</loc>
     <lastmod>2020-04-12T00:00:00-05:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -134,13 +141,6 @@
   
   <url>
     <loc>/posts/debugging_attitude.html</loc>
-    <lastmod>2020-04-12T00:00:00-05:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/papers/model_facts_sendak.html</loc>
     <lastmod>2020-04-12T00:00:00-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

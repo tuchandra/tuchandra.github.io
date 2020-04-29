@@ -30,21 +30,21 @@
     </item>
     
     <item>
-      <title>Paper: Discrimination in the Age of Algorithms (2/2)</title>
+      <title>[Paper] Discrimination in the Age of Algorithms (2/2)</title>
       <link>/papers/discrimination_algorithms_kleinberg_2.html</link>
       <pubDate>Mon, 30 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>/papers/discrimination_algorithms_kleinberg_2.html</guid>
-      <description>&lt;p&gt;Part 2 of the summary of the paper by Jon Kleinberg, Jens Ludwig, Sendhil Mullainathan, and Cass R Sunstein, published in the &lt;a href=&#34;https://academic.oup.com/jla/article/doi/10.1093/jla/laz001/5476086&#34;&gt;Journal of Legal Analysis&lt;/a&gt;. View part 1 &lt;a href=&#34;/papers/discrimination_algorithms_kleinberg_1.html&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
+      <description>&lt;p&gt;How do we regulate algorithms? How can they help us to create equity? This is part 2 of my summary of the paper by Kleinberg et al.&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>Paper: Discrimination in the Age of Algorithms (1/2)</title>
+      <title>[Paper] Discrimination in the Age of Algorithms (1/2)</title>
       <link>/papers/discrimination_algorithms_kleinberg_1.html</link>
       <pubDate>Sun, 29 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>/papers/discrimination_algorithms_kleinberg_1.html</guid>
-      <description>&lt;p&gt;Summary of the paper by Jon Kleinberg, Jens Ludwig, Sendhil Mullainathan, and Cass R Sunstein, published in the &lt;a href=&#34;https://academic.oup.com/jla/article/doi/10.1093/jla/laz001/5476086&#34;&gt;Journal of Legal Analysis&lt;/a&gt; (yeah, a law journal, we&#39;ll see how reading this goes).&lt;/p&gt;</description>
+      <description>&lt;p&gt;How do algorithms affect discrimination, in the legal sense of the word? Naively, one might say that algorithms must be regulated and heavily scrutinized to avoid computers encoding human biases. This paper studies not only that, but also the opposite idea: that they can be positive forces for good. (Part 1 of 2.)&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -93,12 +93,12 @@
     </item>
     
     <item>
-      <title>Paper: Me, My Echo Chamber, and I: Introspection on Social Media Polarization</title>
+      <title>[Paper] Me, My Echo Chamber, and I: Introspection on Social Media Polarization</title>
       <link>/papers/introspection_echo_chamber_gillani.html</link>
       <pubDate>Wed, 18 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>/papers/introspection_echo_chamber_gillani.html</guid>
-      <description>&lt;p&gt;Summary of the paper by Nabeel Gillani, Ann Yuan, Martin Saveski, Soroush Vosoughi, Deb Roy. View it on &lt;a href=&#34;https://arxiv.org/abs/1803.01731&#34;&gt;arXiv&lt;/a&gt;.&lt;/p&gt;</description>
+      <description>&lt;p&gt;It&#39;s well-known that &amp;ldquo;echo chambers&amp;rdquo; exist online, but to what extent are people aware of them? This paper studies that question by introducing an application to visualize how politically active and polarized users&amp;rsquo; Twitter networks are.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -111,12 +111,12 @@
     </item>
     
     <item>
-      <title>Paper: The spread of true and false news online</title>
+      <title>[Paper] The spread of true and false news online</title>
       <link>/papers/spread_of_news_vosoughi.html</link>
       <pubDate>Thu, 12 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>/papers/spread_of_news_vosoughi.html</guid>
-      <description>&lt;p&gt;Summary of &amp;ldquo;that paper on fake news&amp;rdquo; by Soroush Vosoughi, Deb Roy, and Sinan Aral, published in Science. View it on the &lt;a href=&#34;https://science.sciencemag.org/content/359/6380/1146&#34;&gt;Science website&lt;/a&gt;.&lt;/p&gt;</description>
+      <description>&lt;p&gt;This is &amp;ldquo;that paper on fake news,&amp;rdquo; with stunningly consistent conclusions. It studies the diffusion of verified true and false news on Twitter, and in particular how the patterns of information spread were different.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -156,12 +156,12 @@
     </item>
     
     <item>
-      <title>Paper: Who is the &#39;Human&#39; in Human-Centered Machine Learning: The Case of Predicting Mental Health from Social Media</title>
+      <title>[Paper] Who is the &#39;Human&#39; in Human-Centered Machine Learning: The Case of Predicting Mental Health from Social Media</title>
       <link>/papers/who_is_human_chancellor.html</link>
       <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>/papers/who_is_human_chancellor.html</guid>
-      <description>&lt;p&gt;Summary of the CSCW 2019 paper by Stevie Chancellor, Eric P.S. Baumer, and Munmun De Choudhury. View it on &lt;a href=&#34;http://steviechancellor.com/wp-content/uploads/2019/09/HCML-CSCW-2019.pdf&#34;&gt;Dr. Chancellor&#39;s website&lt;/a&gt;.&lt;/p&gt;</description>
+      <description>&lt;p&gt;What does &amp;ldquo;human-centered machine learning&amp;rdquo; even mean? Who are the &amp;ldquo;humans&amp;rdquo; being studied, and how do papers studying them refer to them? This paper studies the &lt;em&gt;discourse&lt;/em&gt; surrounding humans within HCML.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -174,7 +174,7 @@
     </item>
     
     <item>
-      <title>Paper: Bayesian Multilevel Estimation with Poststratification: State-Level Estimates from National Polls</title>
+      <title>[Paper] Bayesian Multilevel Estimation with Poststratification: State-Level Estimates from National Polls</title>
       <link>/papers/bayesian_multilevel_estimation_gelman.html</link>
       <pubDate>Tue, 26 Nov 2019 00:00:00 +0000</pubDate>
       
@@ -183,12 +183,12 @@
     </item>
     
     <item>
-      <title>Paper: A Taxonomy of Ethical Tensions in Inferring Mental Health States from Social Media (part 2/2)</title>
+      <title>[Paper] A Taxonomy of Ethical Tensions in Inferring Mental Health States from Social Media (part 2/2)</title>
       <link>/papers/ethical_tensions_social_media_chancellor_2.html</link>
       <pubDate>Mon, 25 Nov 2019 00:00:00 +0000</pubDate>
       
       <guid>/papers/ethical_tensions_social_media_chancellor_2.html</guid>
-      <description>&lt;p&gt;Part 2/2 of the summary of the FAT* 2019 paper by Stevie Chancellor, Michael Birnbaum, Eric Caine, Vince Silenzio, Munmun De Choudhury. View it on &lt;a href=&#34;http://steviechancellor.com/wp-content/uploads/2019/03/taxonomy-prediction-mh-fat2019.pdf&#34;&gt;Chancellor&#39;s website&lt;/a&gt;. See part 1 of the summary &lt;a href=&#34;/papers/ethical_tensions_social_media_chancellor_1.html&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Part 2/2 of the FAT* 2019 paper by Dr. Chancellor et al., studying all the various ethical tensions with inferring mental health states from social media. This post focuses on the calls to action and my reflections. View part 1 of the summary &lt;a href=&#34;/papers/ethical_tensions_social_media_chancellor_1.html&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
   </channel>
