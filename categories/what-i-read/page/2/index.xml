@@ -6,7 +6,7 @@
     <description>Recent content in what I read on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 25 Apr 2020 00:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Sat, 25 Apr 2020 00:00:00 -0500</lastBuildDate>
     
         <atom:link href="/categories/what-i-read/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,10 +14,10 @@
     <item>
       <title>Paper: Methods in predictive techniques for mental health status on social media: a critical review</title>
       <link>/papers/review_methods_predicting_mental_health_status_chancellor.html</link>
-      <pubDate>Thu, 26 Mar 2020 00:00:00 -0400</pubDate>
+      <pubDate>Thu, 26 Mar 2020 00:00:00 -0500</pubDate>
       
       <guid>/papers/review_methods_predicting_mental_health_status_chancellor.html</guid>
-      <description>&lt;p&gt;This new paper by Chancellor and De Choudhury is a literature review of predicting mental health states from social media, studying in particular the extent to which the papers report their methods in sufficient depth and clarity. They propose reporting standards for publications in this space.&lt;/p&gt;</description>
+      <description>&lt;p&gt;This new paper by Drs. Chancellor and De Choudhury is a literature review of predicting mental health states from social media, studying in particular the extent to which the papers report their methods in sufficient depth and clarity. They propose reporting standards for publications in this space.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -41,7 +41,7 @@
     <item>
       <title>Network Propaganda, part 2</title>
       <link>/books/network_propaganda_2.html</link>
-      <pubDate>Wed, 18 Mar 2020 00:00:00 -0400</pubDate>
+      <pubDate>Wed, 18 Mar 2020 00:00:00 -0500</pubDate>
       
       <guid>/books/network_propaganda_2.html</guid>
       <description>&lt;p&gt;Part 2 of the book &lt;em&gt;Network Propaganda&lt;/em&gt; studies its dynamics: the section goes into detail about how immigration came to be the central issue of the Trump presidency, but not in the way that the Republican Party expected, followed by a chapter focusing on Fox News and one on the failure modes of the mainstream media.&lt;/p&gt;</description>
@@ -50,7 +50,7 @@
     <item>
       <title>Paper: Interpreting Interpretability: Understanding Data Scientists&#39; Use of Interpretability Tools for Machine Learning</title>
       <link>/papers/interpreting_interpretability_kaur.html</link>
-      <pubDate>Tue, 17 Mar 2020 00:00:00 -0400</pubDate>
+      <pubDate>Tue, 17 Mar 2020 00:00:00 -0500</pubDate>
       
       <guid>/papers/interpreting_interpretability_kaur.html</guid>
       <description>&lt;p&gt;I&#39;m hoping to get back into a routine of reading papers after a crazy couple of weeks; this is the first of hopefully many. This is a paper to appear at CHI 2020 (with an Honorable Mention!) about the use of interpretability tools in machine learning, and how (uh oh) data scientists tend to over-trust them.&lt;/p&gt;</description>
@@ -95,7 +95,7 @@
     <item>
       <title>New computer setup</title>
       <link>/posts/new_computer_setup.html</link>
-      <pubDate>Thu, 05 Mar 2020 00:00:00 -0500</pubDate>
+      <pubDate>Thu, 05 Mar 2020 00:00:00 -0600</pubDate>
       
       <guid>/posts/new_computer_setup.html</guid>
       <description>&lt;p&gt;My work Macbook had to be sent in for repair, and the hard drive got wiped. I documented all the steps I took to set it up again. You can use this as a starting point for setting up a new machine, and so can I if I need to do this again soon!&lt;/p&gt;</description>
@@ -158,7 +158,7 @@
     <item>
       <title>Paper: Proposed Guidelines for the Responsible Use of Explainable Machine Learning</title>
       <link>/papers/proposed_guidelines_xai_hall.html</link>
-      <pubDate>Mon, 17 Feb 2020 00:00:00 -0500</pubDate>
+      <pubDate>Mon, 17 Feb 2020 00:00:00 -0600</pubDate>
       
       <guid>/papers/proposed_guidelines_xai_hall.html</guid>
       <description>&lt;p&gt;This is a paper attempting to make explainable AI (XAI) a little more concrete by developing proposed guidelines for its use. This was a workshop paper at NeurIPS 2019, then a talk at the KDD 2019 workshop.&lt;/p&gt;</description>
@@ -167,7 +167,7 @@
     <item>
       <title>Andrew Ng&#39;s advice for reading research papers</title>
       <link>/posts/advice_for_reading_papers_ng.html</link>
-      <pubDate>Sat, 15 Feb 2020 00:00:00 -0500</pubDate>
+      <pubDate>Sat, 15 Feb 2020 00:00:00 -0600</pubDate>
       
       <guid>/posts/advice_for_reading_papers_ng.html</guid>
       <description>&lt;p&gt;I spent half an hour watching one of Andrew Ng&#39;s &lt;a href=&#34;https://www.youtube.com/watch?v=733m6qBH-jI&#34;&gt;deep learning lectures&lt;/a&gt;, this one focusing on reading research papers and career advice. This post is a summary of what I learned.&lt;/p&gt;</description>
@@ -185,7 +185,7 @@
     <item>
       <title>Paper: Watching You Watch: The Tracking Ecosystem of Over-the-Top TV Streaming Devices</title>
       <link>/papers/ott_tracking_moghaddam.html</link>
-      <pubDate>Wed, 12 Feb 2020 00:00:00 -0500</pubDate>
+      <pubDate>Wed, 12 Feb 2020 00:00:00 -0600</pubDate>
       
       <guid>/papers/ott_tracking_moghaddam.html</guid>
       <description>&lt;p&gt;This paper studies the tracking ecosystem of Roku and Amazon Fire devices, discovering that channels on both platforms regularly send their traffic to known trackers. They also note that they often transmit unique identifiers, and that known methods to protect privacy are largely ineffective.&lt;/p&gt;</description>
