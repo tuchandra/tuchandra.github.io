@@ -6,10 +6,28 @@
     <description>Recent content in Selves on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 02 Jan 2020 00:00:00 -0600</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jan 2020 00:00:00 -0500</lastBuildDate>
     
         <atom:link href="/self/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Understanding Query Plans and Spark UIs</title>
+      <link>/spark/query_plans.html</link>
+      <pubDate>Thu, 25 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/spark/query_plans.html</guid>
+      <description>&lt;p&gt;Speaker: Xiao Li (Databricks).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Beyond Reason Codes: A Blueprint for Human-Centered, Low-Risk ML</title>
+      <link>/spark/interpretable_ai.html</link>
+      <pubDate>Wed, 24 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/spark/interpretable_ai.html</guid>
+      <description>&lt;p&gt;Speaker: Patrick Hall (H2O.ai).&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>High Performance Transfer Learning for Classifying Intent of Sales Engagement Emails: An Experimental Study</title>
