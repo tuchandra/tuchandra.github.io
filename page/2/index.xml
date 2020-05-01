@@ -6,10 +6,19 @@
     <description>Recent content on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 29 Apr 2020 00:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 30 Apr 2020 00:00:00 -0400</lastBuildDate>
     
         <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>&#34;Everybody Lies&#34;, part 1</title>
+      <link>/books/everybody_lies_1.html</link>
+      <pubDate>Mon, 30 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/books/everybody_lies_1.html</guid>
+      <description>&lt;p&gt;A group of data scientists in my office decided to start a (now virtual) book club; our first book is &lt;em&gt;Everybody Lies: Big Data, New Data, and What the Internet Can Tell Us about Who We Really Are&lt;/em&gt; by &lt;a href=&#34;http://sethsd.com/everybodylies&#34;&gt;Seth Stephens-Davidowitz&lt;/a&gt;. In this book, the Google data scientist turned NYT writer talks about what we can learn from &amp;ldquo;Big Data&amp;rdquo;&amp;mdash;and why the results might be surprising.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>What I read this week (March 22 - March 28)</title>
@@ -180,15 +189,6 @@
       
       <guid>/papers/proposed_guidelines_xai_hall.html</guid>
       <description>&lt;p&gt;This is a paper attempting to make explainable AI (XAI) a little more concrete by developing proposed guidelines for its use. This was a workshop paper at NeurIPS 2019, then a talk at the KDD 2019 workshop.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Andrew Ng&#39;s advice for reading research papers</title>
-      <link>/posts/advice_for_reading_papers_ng.html</link>
-      <pubDate>Sat, 15 Feb 2020 00:00:00 -0500</pubDate>
-      
-      <guid>/posts/advice_for_reading_papers_ng.html</guid>
-      <description>&lt;p&gt;I spent half an hour watching one of Andrew Ng&#39;s &lt;a href=&#34;https://www.youtube.com/watch?v=733m6qBH-jI&#34;&gt;deep learning lectures&lt;/a&gt;, this one focusing on reading research papers and career advice. This post is a summary of what I learned.&lt;/p&gt;</description>
     </item>
     
   </channel>

@@ -4,8 +4,43 @@
   
   <url>
     <loc>/papers.html</loc>
-    <lastmod>2020-04-29T00:00:00-04:00</lastmod>
+    <lastmod>2020-04-30T00:00:00-04:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/papers/computing_students_difficulties_hci_oleson.html</loc>
+    <lastmod>2020-04-30T00:00:00-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/categories.html</loc>
+    <lastmod>2020-04-30T00:00:00-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/chi2020.html</loc>
+    <lastmod>2020-04-30T00:00:00-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/papers.html</loc>
+    <lastmod>2020-04-30T00:00:00-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2020-04-30T00:00:00-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
@@ -22,20 +57,6 @@
   </url>
   
   <url>
-    <loc>/categories.html</loc>
-    <lastmod>2020-04-29T00:00:00-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/chi2020.html</loc>
-    <lastmod>2020-04-29T00:00:00-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>/categories/general.html</loc>
     <lastmod>2020-04-29T00:00:00-04:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -43,21 +64,7 @@
   </url>
   
   <url>
-    <loc>/categories/papers.html</loc>
-    <lastmod>2020-04-29T00:00:00-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>/posts/apr2020_website_changes.html</loc>
-    <lastmod>2020-04-29T00:00:00-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/</loc>
     <lastmod>2020-04-29T00:00:00-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
