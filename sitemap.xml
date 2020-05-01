@@ -4,40 +4,47 @@
   
   <url>
     <loc>/papers.html</loc>
-    <lastmod>2020-04-30T00:00:00-04:00</lastmod>
+    <lastmod>2020-05-01T00:00:00-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/papers/computing_students_difficulties_hci_oleson.html</loc>
-    <lastmod>2020-04-30T00:00:00-04:00</lastmod>
+    <loc>/papers/social_anxiety_mmorpgs_dechant.html</loc>
+    <lastmod>2020-05-01T00:00:00-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/categories.html</loc>
-    <lastmod>2020-04-30T00:00:00-04:00</lastmod>
+    <lastmod>2020-05-01T00:00:00-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/categories/chi2020.html</loc>
-    <lastmod>2020-04-30T00:00:00-04:00</lastmod>
+    <lastmod>2020-05-01T00:00:00-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/categories/papers.html</loc>
-    <lastmod>2020-04-30T00:00:00-04:00</lastmod>
+    <lastmod>2020-05-01T00:00:00-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/</loc>
+    <lastmod>2020-05-01T00:00:00-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/papers/computing_students_difficulties_hci_oleson.html</loc>
     <lastmod>2020-04-30T00:00:00-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

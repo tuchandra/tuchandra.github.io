@@ -6,10 +6,19 @@
     <description>Recent content on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 30 Apr 2020 00:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 01 May 2020 00:00:00 -0400</lastBuildDate>
     
         <atom:link href="/papers/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How Graph Technology is Changing AI</title>
+      <link>/spark/graph_technology.html</link>
+      <pubDate>Thu, 25 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/spark/graph_technology.html</guid>
+      <description>&lt;p&gt;Speakers: Jake Graham and Alicia Frame (Neo4j).&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Modular Apache Spark: Transform Your Code into Pieces</title>
@@ -80,7 +89,7 @@
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>/about/</guid>
-      <description>Hi, I&#39;m Tushar. I&#39;m a data scientist at Nielsen in Chicago, IL. I have an interest in human-computer interaction and how technology &amp;amp; new media are affecting our lives. On this site, I write summaries of papers that interest me along with other articles or talks.
+      <description>Hi, I&amp;rsquo;m Tushar. I&amp;rsquo;m a data scientist at Nielsen in Chicago, IL. I have an interest in human-computer interaction and how technology &amp;amp; new media are affecting our lives. On this site, I write summaries of papers that interest me along with other articles or talks.
 I can be reached at:
  Github: tuchandra Email: me [at] tusharc [dot] dev  </description>
     </item>

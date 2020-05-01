@@ -6,10 +6,19 @@
     <description>Recent content on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 30 Apr 2020 00:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 01 May 2020 00:00:00 -0400</lastBuildDate>
     
         <atom:link href="/papers/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Paper] In-game and Out-of-game Social Anxiety Influences Player Motivations, Activities, and Experiences in MMORPGs</title>
+      <link>/papers/social_anxiety_mmorpgs_dechant.html</link>
+      <pubDate>Fri, 01 May 2020 00:00:00 -0400</pubDate>
+      
+      <guid>/papers/social_anxiety_mmorpgs_dechant.html</guid>
+      <description>&lt;p&gt;How are MMORPGs perceived by people with social anxiety? What do they find enjoyable about MMORPGS? How does real-world anxiety translate to social experiences in a video game setting? This CHI 2020 paper by Dechant et al. studies these and other questions about the interactions between social anxiety and video games.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>[Paper] Computing Students&#39; Learning Difficulties in HCI Education</title>
@@ -26,7 +35,7 @@
       <pubDate>Wed, 29 Apr 2020 00:00:00 -0400</pubDate>
       
       <guid>/papers/intimate_reconfigurations_finsta_xiao.html</guid>
-      <description>&lt;p&gt;Another paper studying &amp;ldquo;finstas&amp;rdquo; (fake / secret Instagram accounts, shared only with a small group of people). This one, by Sijia Xiao et al., received an Honorable Mention at CHI 2020. In contrast to yesterday&#39;s, this work draws from feminist theory to explore finstas as &amp;ldquo;intimate reconfigurations&amp;rdquo; of the Instagram platform itself.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Another paper studying &amp;ldquo;finstas&amp;rdquo; (fake / secret Instagram accounts, shared only with a small group of people). This one, by Sijia Xiao et al., received an Honorable Mention at CHI 2020. In contrast to yesterday&amp;rsquo;s, this work draws from feminist theory to explore finstas as &amp;ldquo;intimate reconfigurations&amp;rdquo; of the Instagram platform itself.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -80,7 +89,7 @@
       <pubDate>Sun, 26 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>/posts/password_tool_1.html</guid>
-      <description>&lt;p&gt;In this series of blog posts, I&#39;ll be covering my newest personal project: a tool for the Pokemon Mystery Dungeon video games that help to make sense of otherwise-uninterpretable passwords. This post covers my motivation for the project and the choice of technologies.&lt;/p&gt;</description>
+      <description>&lt;p&gt;In this series of blog posts, I&amp;rsquo;ll be covering my newest personal project: a tool for the Pokemon Mystery Dungeon video games that help to make sense of otherwise-uninterpretable passwords. This post covers my motivation for the project and the choice of technologies.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -89,7 +98,7 @@
       <pubDate>Sat, 25 Apr 2020 00:00:00 -0400</pubDate>
       
       <guid>/what_i_read/20200425.html</guid>
-      <description>&lt;p&gt;I didn&#39;t read much this week, due to a project I&#39;m working on that I&#39;ll write more about soon. One evening, I sat down to work through a couple things that popped up, thoguh.&lt;/p&gt;</description>
+      <description>&lt;p&gt;I didn&amp;rsquo;t read much this week, due to a project I&amp;rsquo;m working on that I&amp;rsquo;ll write more about soon. One evening, I sat down to work through a couple things that popped up, thoguh.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -98,7 +107,7 @@
       <pubDate>Sun, 19 Apr 2020 00:00:00 -0400</pubDate>
       
       <guid>/papers/acm_fat2020_talks.html</guid>
-      <description>&lt;p&gt;I sat down to watch a handful of talks from ACM FAT* 2020, picked from a survey of the &lt;a href=&#34;https://facctconference.org/2020/acceptedpapers.html#sess1&#34;&gt;Accepted Papers&lt;/a&gt; list. I found this to be a good way to consume a variety of papers that I probably wouldn&#39;t have ordinarily read.&lt;/p&gt;</description>
+      <description>&lt;p&gt;I sat down to watch a handful of talks from ACM FAT* 2020, picked from a survey of the &lt;a href=&#34;https://facctconference.org/2020/acceptedpapers.html#sess1&#34;&gt;Accepted Papers&lt;/a&gt; list. I found this to be a good way to consume a variety of papers that I probably wouldn&amp;rsquo;t have ordinarily read.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -107,7 +116,7 @@
       <pubDate>Sat, 18 Apr 2020 00:00:00 -0400</pubDate>
       
       <guid>/papers/auditing_radicalization_youtube_ribeiro.html</guid>
-      <description>&lt;p&gt;Does YouTube drive people to more extreme content? This is a question that many have posed, but this is the first paper to study this question in depth. I&#39;ve had this on my reading list since I came across it on Twitter, so this Saturday I finally sat down to take a look.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Does YouTube drive people to more extreme content? This is a question that many have posed, but this is the first paper to study this question in depth. I&amp;rsquo;ve had this on my reading list since I came across it on Twitter, so this Saturday I finally sat down to take a look.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -116,7 +125,7 @@
       <pubDate>Sat, 18 Apr 2020 00:00:00 -0400</pubDate>
       
       <guid>/what_i_read/20200418.html</guid>
-      <description>&lt;p&gt;This week&#39;s reading happened almost all in one day, when I took time off work to recharge. I read articles and blog posts on COVID-19 models, focusing on the question of what it means to model something. There are also a couple of garden variety engineering &amp;amp; data science posts.&lt;/p&gt;</description>
+      <description>&lt;p&gt;This week&amp;rsquo;s reading happened almost all in one day, when I took time off work to recharge. I read articles and blog posts on COVID-19 models, focusing on the question of what it means to model something. There are also a couple of garden variety engineering &amp;amp; data science posts.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -134,7 +143,7 @@
       <pubDate>Sun, 12 Apr 2020 00:00:00 -0400</pubDate>
       
       <guid>/posts/debugging_attitude.html</guid>
-      <description>&lt;p&gt;Today, I noticed myself doing something I&#39;ve done many times before: running into an error, Googling it, finding code snippets, and making random changes in hopes that they&#39;d work. In this post, I try to understand why.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Today, I noticed myself doing something I&amp;rsquo;ve done many times before: running into an error, Googling it, finding code snippets, and making random changes in hopes that they&amp;rsquo;d work. In this post, I try to understand why.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -170,7 +179,7 @@
       <pubDate>Sat, 04 Apr 2020 00:00:00 -0400</pubDate>
       
       <guid>/what_i_read/20200404.html</guid>
-      <description>&lt;p&gt;This week&#39;s reading was short. It includes a technical deep dive into some zero-day Safari exploits, FiveThirtyEight on why it&#39;s hard to build a good COVID-19 model, and reflections on the lockdown.&lt;/p&gt;</description>
+      <description>&lt;p&gt;This week&amp;rsquo;s reading was short. It includes a technical deep dive into some zero-day Safari exploits, FiveThirtyEight on why it&amp;rsquo;s hard to build a good COVID-19 model, and reflections on the lockdown.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -180,15 +189,6 @@
       
       <guid>/books/everybody_lies_3.html</guid>
       <description>&lt;p&gt;The final post in my series about &lt;em&gt;Everybody Lies&lt;/em&gt; is another abstract one. Here, I discuss the dangers of big data and how the wrong data can lead us astray.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>What is data science? (&#34;Everybody Lies&#34;, part 2)</title>
-      <link>/books/everybody_lies_2.html</link>
-      <pubDate>Tue, 31 Mar 2020 00:00:00 -0400</pubDate>
-      
-      <guid>/books/everybody_lies_2.html</guid>
-      <description>&lt;p&gt;I had some more abstract thoughts about what &amp;ldquo;data science&amp;rdquo; really means while reading &lt;em&gt;Everybody Lies&lt;/em&gt;. In this post, I talk about data science as &lt;em&gt;discovery&lt;/em&gt; and about what it means to &amp;ldquo;do&amp;rdquo; data science.&lt;/p&gt;</description>
     </item>
     
   </channel>

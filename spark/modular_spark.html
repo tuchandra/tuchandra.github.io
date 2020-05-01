@@ -23,7 +23,7 @@
   
   <meta name="description" content="Speaker: Albert Franzi (SWE @ Alpha Health).
 " />
-  <meta name="generator" content="Hugo 0.62.2 with theme pure" />
+  <meta name="generator" content="Hugo 0.65.3 with theme pure" />
   <title>Modular Apache Spark: Transform Your Code into Pieces - Tushar Chandra</title>
   
 
@@ -156,9 +156,9 @@
     <div class="widget-body">
         <ul class="category-list">
             <li class="category-list-item"><a href="/categories/books.html" class="category-list-link">books</a><span class="category-list-count">5</span></li>
-            <li class="category-list-item"><a href="/categories/chi2020.html" class="category-list-link">chi2020</a><span class="category-list-count">6</span></li>
+            <li class="category-list-item"><a href="/categories/chi2020.html" class="category-list-link">chi2020</a><span class="category-list-count">7</span></li>
             <li class="category-list-item"><a href="/categories/general.html" class="category-list-link">general</a><span class="category-list-count">30</span></li>
-            <li class="category-list-item"><a href="/categories/papers.html" class="category-list-link">papers</a><span class="category-list-count">31</span></li>
+            <li class="category-list-item"><a href="/categories/papers.html" class="category-list-link">papers</a><span class="category-list-count">32</span></li>
             <li class="category-list-item"><a href="/categories/projects.html" class="category-list-link">projects</a><span class="category-list-count">3</span></li>
             <li class="category-list-item"><a href="/categories/self.html" class="category-list-link">self</a><span class="category-list-count">3</span></li>
             <li class="category-list-item"><a href="/categories/spark.html" class="category-list-link">spark</a><span class="category-list-count">13</span></li>
@@ -170,6 +170,16 @@
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget-body">
         <ul class="recent-post-list list-unstyled no-thumbnail">
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/papers/social_anxiety_mmorpgs_dechant.html" class="title">[Paper] In-game and Out-of-game Social Anxiety Influences Player Motivations, Activities, and Experiences in MMORPGs</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-05-01 00:00:00 -0400 EDT" itemprop="datePublished">2020-05-01</time>
+                    </p>
+                </div>
+            </li>
             <li>
                 <div class="item-inner">
                     <p class="item-title">
@@ -207,16 +217,6 @@
                     </p>
                     <p class="item-date">
                         <time datetime="2020-04-28 00:00:00 -0400 EDT" itemprop="datePublished">2020-04-28</time>
-                    </p>
-                </div>
-            </li>
-            <li>
-                <div class="item-inner">
-                    <p class="item-title">
-                        <a href="/papers/chi_2020_nordic_talks.html" class="title">A variety of talks from CHI 2020</a>
-                    </p>
-                    <p class="item-date">
-                        <time datetime="2020-04-27 00:00:00 -0400 EDT" itemprop="datePublished">2020-04-27</time>
                     </p>
                 </div>
             </li>
@@ -280,9 +280,9 @@
 <li>GDPR compliant <em>by design</em></li>
 </ul>
 <p>For <strong>Readers</strong>, he went through the code examples — just look at the slides.</p>
-<p>For <strong>Transformers</strong>, he recommends providing a list of available trasnformations to your data scientists. That's what Uni is trying to do, so that's nice. Recommends the libraries <a href="https://github.com/MrPowers/spark-daria">spark-daria</a> for Spark and <a href="https://github.com/MrPowers/quinn">quinn</a> for Pyspark specifically.</p>
-<p>For <strong>Task Contexts,</strong> you should … do … something. Have your data scientists write job runners that accept Readers and Writers as parameters (which also increases testability of the code, that's just dependency injection).</p>
-<p>A question was asked about how you socialize available Transformers, and what data scientists do if they don't find what they need … the answer boils down to organizational communication, and having data scientists contribute back to your codebase.</p>
+<p>For <strong>Transformers</strong>, he recommends providing a list of available trasnformations to your data scientists. That&rsquo;s what Uni is trying to do, so that&rsquo;s nice. Recommends the libraries <a href="https://github.com/MrPowers/spark-daria">spark-daria</a> for Spark and <a href="https://github.com/MrPowers/quinn">quinn</a> for Pyspark specifically.</p>
+<p>For <strong>Task Contexts,</strong> you should … do … something. Have your data scientists write job runners that accept Readers and Writers as parameters (which also increases testability of the code, that&rsquo;s just dependency injection).</p>
+<p>A question was asked about how you socialize available Transformers, and what data scientists do if they don&rsquo;t find what they need … the answer boils down to organizational communication, and having data scientists contribute back to your codebase.</p>
 <p>Use currying within your Transformers to reduce reliance on schemas:</p>
 <ul>
 <li>
@@ -296,8 +296,8 @@
 <p>Asked the question &ldquo;who here has put untested Spark code into production?&rdquo; and someone responded &ldquo;if we test in production then everything is tested!&rdquo;</p>
 <p>Library <a href="https://github.com/holdenk/spark-testing-base">spark-testing-base</a> from Holden Karau at Google. It lets you use a shared SparkContext across tests. This boils down to &ldquo;please test your code,&rdquo; and this is made easier by testing each piece independently.</p>
 <h2 id="reducing-test-time-execution">Reducing test time execution</h2>
-<p>&ldquo;How many of you are experiencing issues where your tests take too long? … Are the rest of you the ones who aren't testing?&rdquo;</p>
-<p>This was fairly Scala specific, sadly, since he talked about the package Junit4Git. It basically lets you skip tests whose related code wasn't changed by integrating with Git. Great talk.</p>
+<p>&ldquo;How many of you are experiencing issues where your tests take too long? … Are the rest of you the ones who aren&rsquo;t testing?&rdquo;</p>
+<p>This was fairly Scala specific, sadly, since he talked about the package Junit4Git. It basically lets you skip tests whose related code wasn&rsquo;t changed by integrating with Git. Great talk.</p>
     </div>
     <div class="article-footer">
     </div>

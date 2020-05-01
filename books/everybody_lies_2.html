@@ -23,7 +23,7 @@
   
   <meta name="description" content="I had some more abstract thoughts about what &amp;ldquo;data science&amp;rdquo; really means while reading Everybody Lies. In this post, I talk about data science as discovery and about what it means to &amp;ldquo;do&amp;rdquo; data science.
 " />
-  <meta name="generator" content="Hugo 0.62.2 with theme pure" />
+  <meta name="generator" content="Hugo 0.65.3 with theme pure" />
   <title>What is data science? (&#34;Everybody Lies&#34;, part 2) - Tushar Chandra</title>
   
 
@@ -156,9 +156,9 @@
     <div class="widget-body">
         <ul class="category-list">
             <li class="category-list-item"><a href="/categories/books.html" class="category-list-link">books</a><span class="category-list-count">5</span></li>
-            <li class="category-list-item"><a href="/categories/chi2020.html" class="category-list-link">chi2020</a><span class="category-list-count">6</span></li>
+            <li class="category-list-item"><a href="/categories/chi2020.html" class="category-list-link">chi2020</a><span class="category-list-count">7</span></li>
             <li class="category-list-item"><a href="/categories/general.html" class="category-list-link">general</a><span class="category-list-count">30</span></li>
-            <li class="category-list-item"><a href="/categories/papers.html" class="category-list-link">papers</a><span class="category-list-count">31</span></li>
+            <li class="category-list-item"><a href="/categories/papers.html" class="category-list-link">papers</a><span class="category-list-count">32</span></li>
             <li class="category-list-item"><a href="/categories/projects.html" class="category-list-link">projects</a><span class="category-list-count">3</span></li>
             <li class="category-list-item"><a href="/categories/self.html" class="category-list-link">self</a><span class="category-list-count">3</span></li>
             <li class="category-list-item"><a href="/categories/spark.html" class="category-list-link">spark</a><span class="category-list-count">13</span></li>
@@ -170,6 +170,16 @@
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget-body">
         <ul class="recent-post-list list-unstyled no-thumbnail">
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/papers/social_anxiety_mmorpgs_dechant.html" class="title">[Paper] In-game and Out-of-game Social Anxiety Influences Player Motivations, Activities, and Experiences in MMORPGs</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-05-01 00:00:00 -0400 EDT" itemprop="datePublished">2020-05-01</time>
+                    </p>
+                </div>
+            </li>
             <li>
                 <div class="item-inner">
                     <p class="item-title">
@@ -207,16 +217,6 @@
                     </p>
                     <p class="item-date">
                         <time datetime="2020-04-28 00:00:00 -0400 EDT" itemprop="datePublished">2020-04-28</time>
-                    </p>
-                </div>
-            </li>
-            <li>
-                <div class="item-inner">
-                    <p class="item-title">
-                        <a href="/papers/chi_2020_nordic_talks.html" class="title">A variety of talks from CHI 2020</a>
-                    </p>
-                    <p class="item-date">
-                        <time datetime="2020-04-27 00:00:00 -0400 EDT" itemprop="datePublished">2020-04-27</time>
                     </p>
                 </div>
             </li>
@@ -262,20 +262,20 @@
 <blockquote>
 <p>You are a data scientist, too. When you were a kid, you noticed that when you cried, your mom gave you attention. That is data science. When you reached adulthood, you noticed that if you complain too much, people want to hang out with you less. That is data science, too. When people hang out with you less, you noticed, you are less happy. When you are less happy, you are less friendly. When you are less friendly, people want to hang out with you even less. Data science. Data science. Data science.</p>
 </blockquote>
-<p>I quite like this perspective; data science isn't about statistics, or Python, or machine learning, at least in this abstract and idealized sense. Data science is instead about how we ask questions of and learn about the world, and use data to update our beliefs. Data science is about knowing what questions to ask, and knowing what information the answers give you.</p>
+<p>I quite like this perspective; data science isn&rsquo;t about statistics, or Python, or machine learning, at least in this abstract and idealized sense. Data science is instead about how we ask questions of and learn about the world, and use data to update our beliefs. Data science is about knowing what questions to ask, and knowing what information the answers give you.</p>
 <h2 id="a-case-study-predicting-pancreatic-cancer">A case study: predicting pancreatic cancer</h2>
 <p>The authors cite a compelling example of Columbia &amp; Microsoft researchers who wanted to find out what symptoms predict pancreatic cancer. When people searched &ldquo;diagnosed with pancreatic cancer&rdquo; or something similar, their searches from up to a few months prior were often about things like back pain or changes in skin color.</p>
-<p>It turns out that these searches were able to predict 10ish percent of cases with no false positives. A modest result, perhaps, but beating cancer is a race against the clock where every bit of time helps. (Here's an <a href="https://www.cs.columbia.edu/2016/web-searches-as-an-early-warning-system-for-pancreatic-cancer/">interview with the author</a>, an <a href="https://www.nytimes.com/2016/06/08/technology/online-searches-can-identify-cancer-victims-study-finds.html">NYT article</a>, and the <a href="http://erichorvitz.com/JOP_June_2016.pdf">original paper</a> (PDF)).</p>
-<p>Is this data science? Undoubtedly. But I don't think it's useful to say that the authors &ldquo;did&rdquo; data science. Rather, though, data science provided a new way of asking questions about this problem&mdash;how can this data be useful? What signals might we find here? What do the answers to these questions tell us?</p>
+<p>It turns out that these searches were able to predict 10ish percent of cases with no false positives. A modest result, perhaps, but beating cancer is a race against the clock where every bit of time helps. (Here&rsquo;s an <a href="https://www.cs.columbia.edu/2016/web-searches-as-an-early-warning-system-for-pancreatic-cancer/">interview with the author</a>, an <a href="https://www.nytimes.com/2016/06/08/technology/online-searches-can-identify-cancer-victims-study-finds.html">NYT article</a>, and the <a href="http://erichorvitz.com/JOP_June_2016.pdf">original paper</a> (PDF)).</p>
+<p>Is this data science? Undoubtedly. But I don&rsquo;t think it&rsquo;s useful to say that the authors &ldquo;did&rdquo; data science. Rather, though, data science provided a new way of asking questions about this problem&mdash;how can this data be useful? What signals might we find here? What do the answers to these questions tell us?</p>
 <h2 id="data-science-and-data-science">Data, science, and data science</h2>
-<p>A lot of that is just &ldquo;science,&rdquo; though: ask questions, run experiments, get answers (or don't!), reframe your questions, repeat. The &ldquo;data&rdquo; comes in when we ask falsifiable questions, get evidence from observations or experiments, and use the evidence to update our beliefs. The authors put this well:</p>
+<p>A lot of that is just &ldquo;science,&rdquo; though: ask questions, run experiments, get answers (or don&rsquo;t!), reframe your questions, repeat. The &ldquo;data&rdquo; comes in when we ask falsifiable questions, get evidence from observations or experiments, and use the evidence to update our beliefs. The authors put this well:</p>
 <blockquote>
 <p>We are often wrong, in other words, about how the world works when we rely just on what we hear or personally experience. While the methodology of good data science is often intuitive, the results are frequently counterintuitive. Data science takes a natural and intuitive human process—spotting patterns and making sense of them—and injects it with steroids, potentially showing us that the world works in a completely different way from how we thought it did.</p>
 </blockquote>
 <p>What a great perspective!</p>
 <h2 id="closing-thoughts">Closing thoughts</h2>
-<p>Data science is not magic, and it's not just prediction, either. We're seeing an explosion of people trying to use &ldquo;data science&rdquo; or &ldquo;AI&rdquo; to forecast the spread of COVID-19, who either don't realize that doing so requires deep epidemiological expertise, or who realize it and lack the humility to let it stop them.</p>
-<p>I have more thoughts about COVID-19 forecasting, but I'll close with this. One can't just &ldquo;do&rdquo; data science&mdash;it's a different way of thinking about the world, and the wrong way of thinking can quite easily lead us astray.</p>
+<p>Data science is not magic, and it&rsquo;s not just prediction, either. We&rsquo;re seeing an explosion of people trying to use &ldquo;data science&rdquo; or &ldquo;AI&rdquo; to forecast the spread of COVID-19, who either don&rsquo;t realize that doing so requires deep epidemiological expertise, or who realize it and lack the humility to let it stop them.</p>
+<p>I have more thoughts about COVID-19 forecasting, but I&rsquo;ll close with this. One can&rsquo;t just &ldquo;do&rdquo; data science&mdash;it&rsquo;s a different way of thinking about the world, and the wrong way of thinking can quite easily lead us astray.</p>
     </div>
     <div class="article-footer">
     </div>
