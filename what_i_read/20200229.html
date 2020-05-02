@@ -23,7 +23,7 @@
   
   <meta name="description" content="Happy leap year! This week focuses on articles about data science: production code, pipeline building, and design thinking.
 " />
-  <meta name="generator" content="Hugo 0.65.3 with theme pure" />
+  <meta name="generator" content="Hugo 0.62.2 with theme pure" />
   <title>What I read this week (February 23 - February 29) - Tushar Chandra</title>
   
 
@@ -162,7 +162,7 @@
             <li class="category-list-item"><a href="/categories/projects.html" class="category-list-link">projects</a><span class="category-list-count">3</span></li>
             <li class="category-list-item"><a href="/categories/self.html" class="category-list-link">self</a><span class="category-list-count">3</span></li>
             <li class="category-list-item"><a href="/categories/spark.html" class="category-list-link">spark</a><span class="category-list-count">13</span></li>
-            <li class="category-list-item"><a href="/categories/what-i-read.html" class="category-list-link">what-i-read</a><span class="category-list-count">23</span></li>
+            <li class="category-list-item"><a href="/categories/what-i-read.html" class="category-list-link">what-i-read</a><span class="category-list-count">24</span></li>
         </ul>
     </div>
 </div>
@@ -170,6 +170,16 @@
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget-body">
         <ul class="recent-post-list list-unstyled no-thumbnail">
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/what_i_read/20200502.html" class="title">What I read this week (April 26 - May 2)</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-05-02 00:00:00 -0400 EDT" itemprop="datePublished">2020-05-02</time>
+                    </p>
+                </div>
+            </li>
             <li>
                 <div class="item-inner">
                     <p class="item-title">
@@ -207,16 +217,6 @@
                     </p>
                     <p class="item-date">
                         <time datetime="2020-04-29 00:00:00 -0400 EDT" itemprop="datePublished">2020-04-29</time>
-                    </p>
-                </div>
-            </li>
-            <li>
-                <div class="item-inner">
-                    <p class="item-title">
-                        <a href="/papers/finsta_authentic_disagreebale_taber.html" class="title">[Paper] &#39;On Finsta I can say Hail Satan&#39;: Being Authentic but Disagreeable on Instagram</a>
-                    </p>
-                    <p class="item-date">
-                        <time datetime="2020-04-28 00:00:00 -0400 EDT" itemprop="datePublished">2020-04-28</time>
                     </p>
                 </div>
             </li>
@@ -260,35 +260,35 @@
 <h2 id="data-scientists-the-only-useful-code-is-production-codehttpsthuijskensgithubio20181113useful-code-is-production-code"><a href="https://thuijskens.github.io/2018/11/13/useful-code-is-production-code/">Data scientists, the only useful code is production code</a></h2>
 <p><strong>Author</strong>: Thomas Huijskens</p>
 <p><strong>How I found this</strong>: linked in a separate <a href="https://towardsdatascience.com/kedro-prepare-to-pimp-your-pipeline-f8f68c263466">blog post</a> by QuantumBlack that I was reading as part of interview prep</p>
-<p><strong>Summary</strong>: the author posits that production code is any code that feeds a business process. This includes ad-hoc analyses that inform financial decisions, reports that are automated and sent out weekly, and (most commonly understood as &ldquo;production code&rdquo;) modeling pipelines. Code is a main product or byproduct of a data scientist&rsquo;s work, and so its quality is paramount. The post goes on to include recommendations for writing good code, which I encourage anyone interested to read for themselves.</p>
-<p><strong>Thoughts</strong>: this is a more extreme version of what I wrote in <a href="/posts/software_in_dsci.html">Software Engineering is an Essential Part of Data Science</a>, and I wholeheartedly agree. I&rsquo;d never thought of ad-hoc analyses as production code, but extending that definition to anything that <em>might</em> need repeating seems prudent. Having a &ldquo;software-first&rdquo; mindset is critical to being an effective data scientist.</p>
+<p><strong>Summary</strong>: the author posits that production code is any code that feeds a business process. This includes ad-hoc analyses that inform financial decisions, reports that are automated and sent out weekly, and (most commonly understood as &ldquo;production code&rdquo;) modeling pipelines. Code is a main product or byproduct of a data scientist's work, and so its quality is paramount. The post goes on to include recommendations for writing good code, which I encourage anyone interested to read for themselves.</p>
+<p><strong>Thoughts</strong>: this is a more extreme version of what I wrote in <a href="/posts/software_in_dsci.html">Software Engineering is an Essential Part of Data Science</a>, and I wholeheartedly agree. I'd never thought of ad-hoc analyses as production code, but extending that definition to anything that <em>might</em> need repeating seems prudent. Having a &ldquo;software-first&rdquo; mindset is critical to being an effective data scientist.</p>
 <h2 id="kedro-a-new-tool-for-data-sciencehttpstowardsdatasciencecomkedro-prepare-to-pimp-your-pipeline-f8f68c263466"><a href="https://towardsdatascience.com/kedro-prepare-to-pimp-your-pipeline-f8f68c263466">Kedro: A new tool for data science</a></h2>
 <p><strong>Author</strong>: Jo Stichbury</p>
 <p><strong>Summary</strong>: this is a blog post introducing Kedro, a data science workflow tool to facilitate pipeline creation. It helps code to be more easily reproducible, modular, and well-documented. It is not a workflow scheduler, and it <a href="https://medium.com/@QuantumBlack/deploying-and-versioning-data-pipelines-at-scale-942b1d81b5f5">can work</a> alongside something like MLflow; Kedro provides the architecture and structure, and MLflow provides the tracking framework. The post continues with a basic usage tutorial.</p>
-<p><strong>Thoughts</strong>: I&rsquo;m getting a little exhausted with all the libraries claiming to be the missing puzzle piece in the data science workflow. Tons of companies have built their own data science platforms (see: Uber&rsquo;s Michelangelo, Facebook&rsquo;s FBLearner Flow, Nielsen&rsquo;s Intelligence Studio and Uni, and who knows how many others). But QB claims to have used this on 60+ projects before open-sourcing it, so I have hope about its robustness.</p>
-<p>Looking at the <a href="https://github.com/quantumblacklabs/kedro/issues">Github issues</a>, I appreciate the uncommon strategy of proactively seeking user input with <a href="https://github.com/quantumblacklabs/kedro/issues/208">&ldquo;how do you feel &hellip;&quot;</a> questions. The repo appears to be maintained, though the project hasn&rsquo;t existed for very long, and the maintainers seem to be receptive to public feedback. That checks most of my open source hygiene boxes.</p>
+<p><strong>Thoughts</strong>: I'm getting a little exhausted with all the libraries claiming to be the missing puzzle piece in the data science workflow. Tons of companies have built their own data science platforms (see: Uber's Michelangelo, Facebook's FBLearner Flow, Nielsen's Intelligence Studio and Uni, and who knows how many others). But QB claims to have used this on 60+ projects before open-sourcing it, so I have hope about its robustness.</p>
+<p>Looking at the <a href="https://github.com/quantumblacklabs/kedro/issues">Github issues</a>, I appreciate the uncommon strategy of proactively seeking user input with <a href="https://github.com/quantumblacklabs/kedro/issues/208">&ldquo;how do you feel &hellip;&quot;</a> questions. The repo appears to be maintained, though the project hasn't existed for very long, and the maintainers seem to be receptive to public feedback. That checks most of my open source hygiene boxes.</p>
 <h2 id="weaving-data-stories-and-driving-impact-a-design-led-approachhttpsmediumcomquantumblackweaving-data-stories-and-driving-impact-a-design-led-approach-4ec72e43e70a"><a href="https://medium.com/@QuantumBlack/weaving-data-stories-and-driving-impact-a-design-led-approach-4ec72e43e70a">Weaving data stories and driving impact: a design-led approach</a></h2>
 <p><strong>Author</strong>: Thomas Essl</p>
 <p><strong>Summary</strong>: this post talks about the virtues of design thinking in a data science context. The design team <em>started</em> with the questions &ldquo;what is the true underlying problem&rdquo; and &ldquo;whose problem is it&rdquo; before looking at any data (worried that this may bias or limit their thinking). Starting with this enables you to use data as a constraint and as an enabler, driving research forward while helping you to understand what might or might not be achieved.</p>
 <blockquote>
 <p>When searching for an answer to a data-focused question, we are obligated to first make sure the question is the right one.</p>
 </blockquote>
-<p>The author continues: uncover human stories in data by thinking of each row in terms of the person(s) it represents, and pay special attention to the data you <em>don&rsquo;t</em> have (this in particular can help inform a broader strategy).</p>
-<p><strong>Thoughts</strong>: I love design thinking, and I&rsquo;m really grateful to Northwestern Engineering for <a href="https://design.northwestern.edu/programs/take-design-course/design-thinking-communication/">helping (read: requiring) me</a> to learn it. Going from building models to designing solutions is, to me, an important step in a data scientist&rsquo;s development, and it&rsquo;s a step that I think I have begun taking in my current work. This post fits perfectly in the &ldquo;human-centered data science&rdquo; box within my interests.</p>
+<p>The author continues: uncover human stories in data by thinking of each row in terms of the person(s) it represents, and pay special attention to the data you <em>don't</em> have (this in particular can help inform a broader strategy).</p>
+<p><strong>Thoughts</strong>: I love design thinking, and I'm really grateful to Northwestern Engineering for <a href="https://design.northwestern.edu/programs/take-design-course/design-thinking-communication/">helping (read: requiring) me</a> to learn it. Going from building models to designing solutions is, to me, an important step in a data scientist's development, and it's a step that I think I have begun taking in my current work. This post fits perfectly in the &ldquo;human-centered data science&rdquo; box within my interests.</p>
 <blockquote>
 <p>It is therefore vital to build models with the user’s context and needs&mdash;their human story&mdash;to the front of mind. The work of an outcome-focused analytics team does not finish once a model is delivered&mdash;it must be proved to work, adopted by the user and optimised depending on how it is deployed.</p>
 </blockquote>
-<p>I love this. Data science doesn&rsquo;t start with a dataset; it starts with the people or events behind the dataset, and it must consider what data is there and what isn&rsquo;t (and why). Likewise, it doesn&rsquo;t end with a model; it ends with the people your work affects, and the impacts that it has on them. This is what I care about&mdash;how data science, machine learning, and complex technical systems affect real people.</p>
+<p>I love this. Data science doesn't start with a dataset; it starts with the people or events behind the dataset, and it must consider what data is there and what isn't (and why). Likewise, it doesn't end with a model; it ends with the people your work affects, and the impacts that it has on them. This is what I care about&mdash;how data science, machine learning, and complex technical systems affect real people.</p>
 <h2 id="how-to-be-better-election-forecastershttpsthecrosstabsubstackcomphow-to-be-better-election-forecasters"><a href="https://thecrosstab.substack.com/p/how-to-be-better-election-forecasters">How to be better election forecasters</a></h2>
 <p><strong>Author</strong>: G. Elliott Morris</p>
 <p><strong>How I found this</strong>: my friend and former coworker, <a href="https://judahgnewman.com/about/">Judah</a></p>
-<p>This piece appears to be a criticism of another analyst (or, perhaps, pundit) which morphs into general election forecasting advice. The biggest issues with novice election forecasters, Morris claims, is that they <strong>fail to think probabilistically</strong>. This doesn&rsquo;t mean not reporting uncertainty or speaking in terms of point estimates (though I&rsquo;ve seen that happen), but rather failing to account for the possibility of systematic error, treating 80+% as &ldquo;very likely,&rdquo; or talking about things that &ldquo;will&rdquo; or &ldquo;won&rsquo;t&rdquo; happen.</p>
-<p>Another important component is <strong>aggregating uncertainy</strong>, or figuring out how we jump from state-level forecasts (whose outcomes are correlated) to national results; that&rsquo;s &ldquo;the million dollar question,&rdquo; he writes, but typically we draw correlated random errors and call it a day. Accounting for <strong>known unknowns</strong> is also challenging&mdash;there are errors from misidentifying the size of the electorate or what voter turnout will be. Good forecasts account for these.</p>
-<p>This was a good piece by someone who appears to just be getting into election forecasting. Morris wrote about how the Democratic primary is in <a href="https://thecrosstab.substack.com/p/the-2020-primary-is-peak-__-right">uncharted waters</a>, and I largely agree. But I love this thrill, so it&rsquo;s fun to watch.</p>
+<p>This piece appears to be a criticism of another analyst (or, perhaps, pundit) which morphs into general election forecasting advice. The biggest issues with novice election forecasters, Morris claims, is that they <strong>fail to think probabilistically</strong>. This doesn't mean not reporting uncertainty or speaking in terms of point estimates (though I've seen that happen), but rather failing to account for the possibility of systematic error, treating 80+% as &ldquo;very likely,&rdquo; or talking about things that &ldquo;will&rdquo; or &ldquo;won't&rdquo; happen.</p>
+<p>Another important component is <strong>aggregating uncertainy</strong>, or figuring out how we jump from state-level forecasts (whose outcomes are correlated) to national results; that's &ldquo;the million dollar question,&rdquo; he writes, but typically we draw correlated random errors and call it a day. Accounting for <strong>known unknowns</strong> is also challenging&mdash;there are errors from misidentifying the size of the electorate or what voter turnout will be. Good forecasts account for these.</p>
+<p>This was a good piece by someone who appears to just be getting into election forecasting. Morris wrote about how the Democratic primary is in <a href="https://thecrosstab.substack.com/p/the-2020-primary-is-peak-__-right">uncharted waters</a>, and I largely agree. But I love this thrill, so it's fun to watch.</p>
 <h2 id="other-shorter-articles-and-media">Other, shorter articles (and media)</h2>
-<p><a href="https://www.mckinsey.com/featured-insights/artificial-intelligence/the-ethics-of-artificial-intelligence">The ethics of artificial intelligence (podcast)</a> is part of McKinsey&rsquo;s podcast talking about how companies can ethically deploy AI. This is substantially more pragmatic than most AI ethics pieces I read, and I think that was its primary value to me. AI deployment is often a risk management game, the speakers posit, and these risks take many forms: to the creators (financially, reputationally), to the people the models effect, to the public, etc. Likewise, &ldquo;bias&rdquo; has a lot of meanings, but in practice usually means &ldquo;disparate impact,&rdquo; which is well-defined legally.</p>
+<p><a href="https://www.mckinsey.com/featured-insights/artificial-intelligence/the-ethics-of-artificial-intelligence">The ethics of artificial intelligence (podcast)</a> is part of McKinsey's podcast talking about how companies can ethically deploy AI. This is substantially more pragmatic than most AI ethics pieces I read, and I think that was its primary value to me. AI deployment is often a risk management game, the speakers posit, and these risks take many forms: to the creators (financially, reputationally), to the people the models effect, to the public, etc. Likewise, &ldquo;bias&rdquo; has a lot of meanings, but in practice usually means &ldquo;disparate impact,&rdquo; which is well-defined legally.</p>
 <blockquote>
-<p>You think about everyone needs to understand a little bit about AI, and they have to understand, &ldquo;How can we deploy this technology in a way that&rsquo;s ethical, in a way that&rsquo;s compliant with regulations?&rdquo; That&rsquo;s true for the entire organization. It might start at the top, but it needs to cascade through the rest of the organization.</p>
+<p>You think about everyone needs to understand a little bit about AI, and they have to understand, &ldquo;How can we deploy this technology in a way that's ethical, in a way that's compliant with regulations?&rdquo; That's true for the entire organization. It might start at the top, but it needs to cascade through the rest of the organization.</p>
 </blockquote>
 <p>This was quite good&mdash;I expected a lot of fluff, but instead found nuanced discussion of complex, overlapping issues. Also, thanks McKinsey for providing a transcript of the podcast!</p>
 <hr>
