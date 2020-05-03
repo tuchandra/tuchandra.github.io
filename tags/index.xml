@@ -11,6 +11,15 @@
     
     
     <item>
+      <title>[Paper] Celebrating Everyday Success: Improving Engagement and Motivation using a System for Recording Daily Highlights</title>
+      <link>/papers/celebrating_everyday_success_avrahami.html</link>
+      <pubDate>Sat, 02 May 2020 00:00:00 -0400</pubDate>
+      
+      <guid>/papers/celebrating_everyday_success_avrahami.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>What I read this week (April 26 - May 2)</title>
       <link>/what_i_read/20200502.html</link>
       <pubDate>Sat, 02 May 2020 00:00:00 -0400</pubDate>
@@ -179,15 +188,6 @@
       
       <guid>/papers/decentralized_proximity_tracing.html</guid>
       <description>&lt;p&gt;This is a summary of a proposal for a &amp;ldquo;secure and privacy-preserving decentralized proximity tracing system,&amp;rdquo; aiming to help combat COVID-19 while placing individual privacy at high priority. View the proposal on &lt;a href=&#34;https://github.com/DP-3T/documents&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>What I read this week (March 29 - April 4)</title>
-      <link>/what_i_read/20200404.html</link>
-      <pubDate>Sat, 04 Apr 2020 00:00:00 -0400</pubDate>
-      
-      <guid>/what_i_read/20200404.html</guid>
-      <description>&lt;p&gt;This week&#39;s reading was short. It includes a technical deep dive into some zero-day Safari exploits, FiveThirtyEight on why it&#39;s hard to build a good COVID-19 model, and reflections on the lockdown.&lt;/p&gt;</description>
     </item>
     
   </channel>

@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>[Paper] From Pick-Up Artists to Incels: A Data-Driven Sketch of the Manosphere</title>
+      <link>/papers/sketch_of_manosphere_ribeiro.html</link>
+      <pubDate>Sun, 23 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/sketch_of_manosphere_ribeiro.html</guid>
+      <description>&lt;p&gt;This paper characterizes and studies the migration of fringe &amp;ldquo;men&#39;s rights&amp;rdquo; groups on Reddit and elsewhere. They demonstrate that these communities (the &amp;ldquo;Manosphere&amp;rdquo;) has more hateful speech than the rest of the web. Paper by &lt;a href=&#34;https://manoelhortaribeiro.github.io/&#34;&gt;Ribeiro&lt;/a&gt; et al.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>What I read this week (February 16 - February 22)</title>
       <link>/what_i_read/20200222.html</link>
       <pubDate>Sat, 22 Feb 2020 00:00:00 +0000</pubDate>
@@ -180,15 +189,6 @@
       
       <guid>/papers/removed_pro_ed_chancellor.html</guid>
       <description>&lt;p&gt;This is a social computing paper analyzing characteristics of over 30,000 pro-eating disorder (pro-ED) posts that were removed from Instagram after having been public at one time. The authors built a classifier for removed pro-ED posts against non-removed ones, and also studied the characteristics of removed posts more generally. Published in CHI 2016.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>What I read this week (January 5 - 11)</title>
-      <link>/what_i_read/20200111.html</link>
-      <pubDate>Sat, 11 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/what_i_read/20200111.html</guid>
-      <description>&lt;p&gt;Articles I read this week, including predictions for 2020 and FiveThirtyEight&#39;s primary methodology.&lt;/p&gt;</description>
     </item>
     
   </channel>
