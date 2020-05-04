@@ -23,7 +23,7 @@
   
   <meta name="description" content="Speaker: Josh Johnston (Director of AI Science @ Kount).
 " />
-  <meta name="generator" content="Hugo 0.62.2 with theme pure" />
+  <meta name="generator" content="Hugo 0.65.3 with theme pure" />
   <title>Moving a Fraud-Fighting Random Forest from sklearn to Spark with ML, MLflow, and Jupyter - Tushar Chandra</title>
   
 
@@ -259,7 +259,7 @@
       <p>Speaker: Josh Johnston (Director of AI Science @ Kount).</p>
 <h2 id="data-science-lifecycle">Data science lifecycle</h2>
 <p>Opened by talking about the model lifecycle - stole a slide from Microsoft about the data science lifecycle. Business understanding, modeling, data acquisition &amp; understanding, and deployment; these all connect to each other. Modeling includes feature engineering, training, evaluation. Data acquisition includes the data sources, pipelines, environment (on-prem / cloud), exploration, cleaning.</p>
-<p>Focus in this presentation is <strong>modeling</strong> - configuration management, speed, accuracy (how good is the model?), validation (is the model doing the right thing?). There are some <strong>governance</strong> questions about what model you're using and how you access it … e.g., the question &ldquo;what model is running in production?&rdquo; which is insane.</p>
+<p>Focus in this presentation is <strong>modeling</strong> - configuration management, speed, accuracy (how good is the model?), validation (is the model doing the right thing?). There are some <strong>governance</strong> questions about what model you&rsquo;re using and how you access it … e.g., the question &ldquo;what model is running in production?&rdquo; which is insane.</p>
 <p>There are some really specific questions that people always ask:</p>
 <ul>
 <li>what model are we using?</li>
@@ -269,9 +269,9 @@
 <li>what parameters did we use?</li>
 <li>how well does it work?</li>
 </ul>
-<p>and a lot boil down to &ldquo;<strong>why did we pick this model and not others?</strong>&rdquo; because you don't always know that. And this can super important in other industries, too, where you have to be audited or whatever … but that's still not the core problem.</p>
+<p>and a lot boil down to &ldquo;<strong>why did we pick this model and not others?</strong>&rdquo; because you don&rsquo;t always know that. And this can super important in other industries, too, where you have to be audited or whatever … but that&rsquo;s still not the core problem.</p>
 <h3 id="science-is-repeatable">Science is repeatable</h3>
-<p>Fundamentally, this problem isn't just to satisfy your legal department or auditors. Science needs to be repeatable; it's not enough to throw a model in production. As data scientists, we're probably not satisfied until these questions are all answered.</p>
+<p>Fundamentally, this problem isn&rsquo;t just to satisfy your legal department or auditors. Science needs to be repeatable; it&rsquo;s not enough to throw a model in production. As data scientists, we&rsquo;re probably not satisfied until these questions are all answered.</p>
 <h2 id="fraud-detection-model">Fraud detection model</h2>
 <p>They have a model called Boost, which is their supervised machine learning model for some specific type of fraud detection. This model helped in many quantitative ways (reduced manual reviews by 20% or 200h/month) and also many qualitative ones (&ldquo;we get fewer complaints from our fraud department&rdquo; etc.).</p>
 <p>Technical details:</p>
@@ -282,14 +282,14 @@
 </ul>
 <h3 id="old-process">Old process</h3>
 <p>&ldquo;Process&rdquo; is a loosely defined term here, because a lot of this was very ad-hoc. They had a huge analytics database, then a gigantic computer for all the model training … 400 GB RAM and 1TB into swap, which is absurd. Their model kept pounding their database and making enemies with their DBAs. Training the model took like 24 hours by itself, and the model got logged into a flat file and pickled into network storage.</p>
-<p>He says that it took 2.5 days, but that depended on the interruptions; everything running in memory meant if something breaks, it's back to square one.</p>
+<p>He says that it took 2.5 days, but that depended on the interruptions; everything running in memory meant if something breaks, it&rsquo;s back to square one.</p>
 <p><strong>What worked</strong>: got a high value model.</p>
-<p><strong>What didn't work</strong>: time-intensive, errors forced restarts, burdened the production database, and pickling tied the training environment to the execution / prod environment (because you serialize the trained model and then have to unpickle it in prod). Also, traceability of errors is just provided by logs and manual documentation. And there were a shitload of ad-hoc experiments.</p>
+<p><strong>What didn&rsquo;t work</strong>: time-intensive, errors forced restarts, burdened the production database, and pickling tied the training environment to the execution / prod environment (because you serialize the trained model and then have to unpickle it in prod). Also, traceability of errors is just provided by logs and manual documentation. And there were a shitload of ad-hoc experiments.</p>
 <p>Thinking back to the governance questions: which model are you using? why? how did you train it? why? how well does it work? why?</p>
 <h3 id="new-process-wip">New process, WIP</h3>
 <p>They made a cluster for distributed computing: 6 nodes, 484 vCores, 1.35 TB RAM, Cloudera and Spark 2.4, mostly Python.</p>
-<p>Still using the analytics database because that's what's in prod; but then they pull data out using Sqoop and store it in HDFS. That's the last time they have to deal with the prod database, which is incredible! And so the Spark cluster can do lookups against HDFS (automated with Luigi, for error checking) and train the model with Spark ML.</p>
-<p>They do remote development with Jupyter, claiming that most criticisms of notebooks are things you <em>could</em> do, not things you <em>must</em> do. Reliance on their tools to enforce good development practices is a sign that your development practices probably aren't very good. Good development practices are independent of tools.</p>
+<p>Still using the analytics database because that&rsquo;s what&rsquo;s in prod; but then they pull data out using Sqoop and store it in HDFS. That&rsquo;s the last time they have to deal with the prod database, which is incredible! And so the Spark cluster can do lookups against HDFS (automated with Luigi, for error checking) and train the model with Spark ML.</p>
+<p>They do remote development with Jupyter, claiming that most criticisms of notebooks are things you <em>could</em> do, not things you <em>must</em> do. Reliance on their tools to enforce good development practices is a sign that your development practices probably aren&rsquo;t very good. Good development practices are independent of tools.</p>
 <p>They use Git throughout, despite having notebooks. In increasing order of maturity, they have:</p>
 <ul>
 <li>notebooks, which are mostly research</li>
@@ -298,7 +298,7 @@
 <li>automated applications, which are refactored, hardened, and fully operationalized</li>
 </ul>
 <p><strong>What works</strong>: faster, failures restart in the middle (the last time you saved to HDFS), reducing burden on the production database, being able to redesign experiments at will, decoupled training and execution environment via MLeap.</p>
-<p><strong>What doesn't work</strong>: Spark tuning is a pain, and non-deterministic Spark ML behavior can be difficult. And Spark pipelines depend on configurations that change based on the input data. They can't go back and recreate a historical model because they don't have access to the historical configuration and state of the data.</p>
+<p><strong>What doesn&rsquo;t work</strong>: Spark tuning is a pain, and non-deterministic Spark ML behavior can be difficult. And Spark pipelines depend on configurations that change based on the input data. They can&rsquo;t go back and recreate a historical model because they don&rsquo;t have access to the historical configuration and state of the data.</p>
 <h2 id="tools">Tools</h2>
 <p>Repeating the governance questions:</p>
 <ul>
@@ -309,7 +309,7 @@
 <p>This gets us back to doing <em>real science</em>, in his words, instead of &ldquo;just&rdquo; being craftsmen making whatever we want.</p>
 <p><strong>Luigi</strong>: appears to be basically Airflow.</p>
 <p><strong>MLflow</strong>: is incredible and they discovered it too. Having everyone look at the same dashboard of parameters and metrics is super useful - avoids ad-hoc experiments and reports and presentations being decoupled. The metrics are preserved forever, and you can come back to the models whenever you want. The comparison plots of different runs help them too. They save artifacts of the model itself, plots, and the code to generate it.</p>
-<p>&ldquo;When you're answering governance questions, if you ever get audited, you don't want to have to answer anything—you don't want to have to <em>explain</em> anything. You want to be able to point to something and say &lsquo;that one&rsquo; and look at a dashboard and say &lsquo;here's why.'&rdquo;</p>
+<p>&ldquo;When you&rsquo;re answering governance questions, if you ever get audited, you don&rsquo;t want to have to answer anything—you don&rsquo;t want to have to <em>explain</em> anything. You want to be able to point to something and say &lsquo;that one&rsquo; and look at a dashboard and say &lsquo;here&rsquo;s why.'&rdquo;</p>
     </div>
     <div class="article-footer">
     </div>

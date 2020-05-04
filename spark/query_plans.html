@@ -23,7 +23,7 @@
   
   <meta name="description" content="Speaker: Xiao Li (Databricks).
 " />
-  <meta name="generator" content="Hugo 0.62.2 with theme pure" />
+  <meta name="generator" content="Hugo 0.65.3 with theme pure" />
   <title>Understanding Query Plans and Spark UIs - Tushar Chandra</title>
   
 
@@ -288,7 +288,7 @@
 <p>If a query is cached in one session, the new queries in all sessions might be impacted.</p>
 <pre><code># ?
 </code></pre><h3 id="join-hints-in-spark-30">Join hints in Spark 3.0</h3>
-<p>They'll help you with broadcasting and … other things that I didn't see in time.</p>
+<p>They&rsquo;ll help you with broadcasting and … other things that I didn&rsquo;t see in time.</p>
 <h2 id="tracking-execution-in-the-spark-ui">Tracking Execution in the Spark UI</h2>
 <p>A single SQL query can correspond to multiple Spark jobs: broadcast exchange, suffle exchange, subqueries, … and each Spark job is an RDD DAG.</p>
 <p>In query execution (selected physical plan —&gt; DAGs) you can see both the higher level SQL physical operators (Filter, Project, HashAggregate, Exchange, etc.) and lower level Spark RDD primitives.</p>
