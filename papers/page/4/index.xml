@@ -6,10 +6,19 @@
     <description>Recent content on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 03 May 2020 00:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 04 May 2020 00:00:00 -0400</lastBuildDate>
     
         <atom:link href="/papers/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Software engineering is an essential part of data science</title>
+      <link>/posts/software_in_dsci.html</link>
+      <pubDate>Mon, 13 Jan 2020 00:00:00 -0500</pubDate>
+      
+      <guid>/posts/software_in_dsci.html</guid>
+      <description>&lt;p&gt;Good software engineering is an indispensible part of good data science. I&#39;ve believed this for a while, but only recently come to feel strongly about it, and this post goes into more detail on why.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>[Paper] &#39;This Post Will Just Get Taken Down&#39;: Characterizing Removed Pro-Eating Disorder Content on Social Media</title>
@@ -26,7 +35,7 @@
       <pubDate>Sat, 11 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>/what_i_read/20200111.html</guid>
-      <description>&lt;p&gt;Articles I read this week, including predictions for 2020 and FiveThirtyEight&amp;rsquo;s primary methodology.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Articles I read this week, including predictions for 2020 and FiveThirtyEight&#39;s primary methodology.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -35,7 +44,7 @@
       <pubDate>Mon, 06 Jan 2020 00:00:00 -0500</pubDate>
       
       <guid>/posts/site_comparison.html</guid>
-      <description>&lt;p&gt;I migrated my site a couple of days ago. What are some of the differences, both feature-wise and visually? I&amp;rsquo;ll compare common actions on both.&lt;/p&gt;</description>
+      <description>&lt;p&gt;I migrated my site a couple of days ago. What are some of the differences, both feature-wise and visually? I&#39;ll compare common actions on both.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -71,7 +80,7 @@
       <pubDate>Thu, 02 Jan 2020 00:00:00 -0500</pubDate>
       
       <guid>/posts/migrating_to_hugo.html</guid>
-      <description>&lt;p&gt;Hello, Hugo! This post marks the first one written specifically for the new version of my site, built with &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt;. In this post, I&amp;rsquo;ll outline some of the reasons for switching to Hugo and talk about the process of moving everything over.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Hello, Hugo! This post marks the first one written specifically for the new version of my site, built with &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt;. In this post, I&#39;ll outline some of the reasons for switching to Hugo and talk about the process of moving everything over.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -80,8 +89,8 @@
       <pubDate>Thu, 02 Jan 2020 00:00:00 -0500</pubDate>
       
       <guid>/reading/</guid>
-      <description>&lt;p&gt;This is a page of things I&amp;rsquo;m hoping to read &amp;ldquo;soon&amp;rdquo; (for some value of soon). It&amp;rsquo;s some cross between a digital bookshelf and public bookmarks, where I drop papers that cross my radar or blog posts, talks, or other ideas.&lt;/p&gt;
-&lt;p&gt;Some of these I&amp;rsquo;ve printed out and carry around with me. Others are unlikely to ever be read because they&amp;rsquo;re so far out of my areas of expertise or interest. While this page is mostly for my own reference, it also pretty broadly shows the types of work I&amp;rsquo;m interested in.&lt;/p&gt;</description>
+      <description>&lt;p&gt;This is a page of things I&#39;m hoping to read &amp;ldquo;soon&amp;rdquo; (for some value of soon). It&#39;s some cross between a digital bookshelf and public bookmarks, where I drop papers that cross my radar or blog posts, talks, or other ideas.&lt;/p&gt;
+&lt;p&gt;Some of these I&#39;ve printed out and carry around with me. Others are unlikely to ever be read because they&#39;re so far out of my areas of expertise or interest. While this page is mostly for my own reference, it also pretty broadly shows the types of work I&#39;m interested in.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -90,7 +99,7 @@
       <pubDate>Tue, 31 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>/resume/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m currently a data scientist at Nielsen. I did my master&amp;rsquo;s in computer science and undergrad in computer science and the &lt;a href=&#34;https://www.isp.northwestern.edu/&#34;&gt;Integrated Science Program&lt;/a&gt;, both at Northwestern (go &amp;lsquo;cats!). My email address is me@(this domain).&lt;/p&gt;</description>
+      <description>&lt;p&gt;I&#39;m currently a data scientist at Nielsen. I did my master&#39;s in computer science and undergrad in computer science and the &lt;a href=&#34;https://www.isp.northwestern.edu/&#34;&gt;Integrated Science Program&lt;/a&gt;, both at Northwestern (go &amp;lsquo;cats!). My email address is me@(this domain).&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -135,7 +144,7 @@
       <pubDate>Fri, 27 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>/posts/talk_kidd_neurips.html</guid>
-      <description>&lt;p&gt;This is a summary of Celeste Kidd&amp;rsquo;s invited talk at NeurIPS 2019, &lt;a href=&#34;https://slideslive.com/38921495/how-to-know&#34;&gt;How to Know&lt;/a&gt;, plus some thoughts at the end.&lt;/p&gt;</description>
+      <description>&lt;p&gt;This is a summary of Celeste Kidd&#39;s invited talk at NeurIPS 2019, &lt;a href=&#34;https://slideslive.com/38921495/how-to-know&#34;&gt;How to Know&lt;/a&gt;, plus some thoughts at the end.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -144,7 +153,7 @@
       <pubDate>Thu, 26 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>/posts/imagenet_bias_wired.html</guid>
-      <description>&lt;p&gt;This post is a reflection on two articles, &lt;a href=&#34;https://www.wired.com/story/viral-app-labels-you-isnt-what-you-think/&#34;&gt;The viral app that labels you isn&amp;rsquo;t quite what you think&lt;/a&gt; and &lt;a href=&#34;https://www.wired.com/story/ai-biased-how-scientists-trying-fix/&#34;&gt;AI is biased. Here&amp;rsquo;s how scientists are trying to fix it&lt;/a&gt;, both from Wired.&lt;/p&gt;</description>
+      <description>&lt;p&gt;This post is a reflection on two articles, &lt;a href=&#34;https://www.wired.com/story/viral-app-labels-you-isnt-what-you-think/&#34;&gt;The viral app that labels you isn&#39;t quite what you think&lt;/a&gt; and &lt;a href=&#34;https://www.wired.com/story/ai-biased-how-scientists-trying-fix/&#34;&gt;AI is biased. Here&#39;s how scientists are trying to fix it&lt;/a&gt;, both from Wired.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -153,7 +162,7 @@
       <pubDate>Sat, 21 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>/what_i_read/20191221.html</guid>
-      <description>&lt;p&gt;Summaries of articles and blog posts that I&amp;rsquo;ve read this week, including articles on NeurIPS and many short posts.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Summaries of articles and blog posts that I&#39;ve read this week, including articles on NeurIPS and many short posts.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -162,7 +171,7 @@
       <pubDate>Wed, 18 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>/papers/introspection_echo_chamber_gillani.html</guid>
-      <description>&lt;p&gt;It&amp;rsquo;s well-known that &amp;ldquo;echo chambers&amp;rdquo; exist online, but to what extent are people aware of them? This paper studies that question by introducing an application to visualize how politically active and polarized users&amp;rsquo; Twitter networks are.&lt;/p&gt;</description>
+      <description>&lt;p&gt;It&#39;s well-known that &amp;ldquo;echo chambers&amp;rdquo; exist online, but to what extent are people aware of them? This paper studies that question by introducing an application to visualize how politically active and polarized users&amp;rsquo; Twitter networks are.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -181,15 +190,6 @@
       
       <guid>/papers/spread_of_news_vosoughi.html</guid>
       <description>&lt;p&gt;This is &amp;ldquo;that paper on fake news,&amp;rdquo; with stunningly consistent conclusions. It studies the diffusion of verified true and false news on Twitter, and in particular how the patterns of information spread were different.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Features I would like to add to my SSG</title>
-      <link>/posts/features_for_site.html</link>
-      <pubDate>Mon, 09 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/features_for_site.html</guid>
-      <description>&lt;p&gt;I &lt;a href=&#34;https://tusharc.dev/site/about_website.html&#34;&gt;wrote&lt;/a&gt; about my SSG and how I built this website back in April. Over time, I&amp;rsquo;ve started to realize that some of the features I stripped out may actually be useful. This post is a wishlist of features that I would like to add over time.&lt;/p&gt;</description>
     </item>
     
   </channel>

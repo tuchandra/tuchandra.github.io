@@ -23,7 +23,7 @@
   
   <meta name="description" content="I made a couple more changes to my website: giving more credit to the authors of the papers I read and adding a new category.
 " />
-  <meta name="generator" content="Hugo 0.65.3 with theme pure" />
+  <meta name="generator" content="Hugo 0.62.2 with theme pure" />
   <title>Recent website changes - Tushar Chandra</title>
   
 
@@ -156,9 +156,9 @@
     <div class="widget-body">
         <ul class="category-list">
             <li class="category-list-item"><a href="/categories/books.html" class="category-list-link">books</a><span class="category-list-count">5</span></li>
-            <li class="category-list-item"><a href="/categories/chi2020.html" class="category-list-link">chi2020</a><span class="category-list-count">9</span></li>
+            <li class="category-list-item"><a href="/categories/chi2020.html" class="category-list-link">chi2020</a><span class="category-list-count">10</span></li>
             <li class="category-list-item"><a href="/categories/general.html" class="category-list-link">general</a><span class="category-list-count">30</span></li>
-            <li class="category-list-item"><a href="/categories/papers.html" class="category-list-link">papers</a><span class="category-list-count">34</span></li>
+            <li class="category-list-item"><a href="/categories/papers.html" class="category-list-link">papers</a><span class="category-list-count">35</span></li>
             <li class="category-list-item"><a href="/categories/projects.html" class="category-list-link">projects</a><span class="category-list-count">3</span></li>
             <li class="category-list-item"><a href="/categories/self.html" class="category-list-link">self</a><span class="category-list-count">3</span></li>
             <li class="category-list-item"><a href="/categories/spark.html" class="category-list-link">spark</a><span class="category-list-count">13</span></li>
@@ -170,6 +170,16 @@
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget-body">
         <ul class="recent-post-list list-unstyled no-thumbnail">
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/papers/self_regulation_in_depression_eschler.html" class="title">[Paper] Emergent Self-Regulation Practices in Technology and Social Media Use of Individuals Living with Depression</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-05-04 00:00:00 -0400 EDT" itemprop="datePublished">2020-05-04</time>
+                    </p>
+                </div>
+            </li>
             <li>
                 <div class="item-inner">
                     <p class="item-title">
@@ -207,16 +217,6 @@
                     </p>
                     <p class="item-date">
                         <time datetime="2020-05-01 00:00:00 -0400 EDT" itemprop="datePublished">2020-05-01</time>
-                    </p>
-                </div>
-            </li>
-            <li>
-                <div class="item-inner">
-                    <p class="item-title">
-                        <a href="/papers/computing_students_difficulties_hci_oleson.html" class="title">[Paper] Computing Students&#39; Learning Difficulties in HCI Education</a>
-                    </p>
-                    <p class="item-date">
-                        <time datetime="2020-04-30 00:00:00 -0400 EDT" itemprop="datePublished">2020-04-30</time>
                     </p>
                 </div>
             </li>
@@ -258,14 +258,14 @@
     <div class="article-entry marked-body js-toc-content" itemprop="articleBody">
       <p>I made a couple more changes to my website: giving more credit to the authors of the papers I read and adding a new category.</p>
 <h2 id="changes-to-the-homepage">Changes to the homepage</h2>
-<p>It&rsquo;s important to give authors credit for their work. When writing paper summaries, I always made it a point to call out the authors of the paper at the top of the post. But I recently started thinking that I could do more.</p>
-<p>On my website&rsquo;s <a href="/">homepage</a>, you couldn&rsquo;t quickly see which posts were paper summaries and which were original. You also couldn&rsquo;t always see the authors of the papers that I was reviewing. I don&rsquo;t think I was hiding credit from them, but it wasn&rsquo;t as obvious as it could have been.</p>
-<p>I&rsquo;ve now added a list of authors to the homepage in the post preview, and prepended <code>[Paper]</code> to the start of every post title instead of <code>Paper:</code>. This should be apparent because of how much I&rsquo;ve been reading lately; it looks like this:</p>
+<p>It's important to give authors credit for their work. When writing paper summaries, I always made it a point to call out the authors of the paper at the top of the post. But I recently started thinking that I could do more.</p>
+<p>On my website's <a href="/">homepage</a>, you couldn't quickly see which posts were paper summaries and which were original. You also couldn't always see the authors of the papers that I was reviewing. I don't think I was hiding credit from them, but it wasn't as obvious as it could have been.</p>
+<p>I've now added a list of authors to the homepage in the post preview, and prepended <code>[Paper]</code> to the start of every post title instead of <code>Paper:</code>. This should be apparent because of how much I've been reading lately; it looks like this:</p>
 <p><figure>
     <img src="apr2020_website_changes_img1.png"/> 
 </figure>
   </p>
-<p>In Hugo, this was easy to do (but tedious). I added an <code>authors = [&quot;person1&quot;, &quot;person2&quot;]</code> tag to the TOML front matter (example <a href="https://github.com/tuchandra/sitev2/blob/master/content/papers/finsta_authentic_disagreebale_taber.md">here</a>), then changed the template for the post preview to include all of the author names. There were a lot of pages that already had the <code>authors</code> tag&mdash;I started adding it about a month ago, but didn&rsquo;t do anything with it until now&mdash;but I had to go back through 20ish ones that didn&rsquo;t.</p>
+<p>In Hugo, this was easy to do (but tedious). I added an <code>authors = [&quot;person1&quot;, &quot;person2&quot;]</code> tag to the TOML front matter (example <a href="https://github.com/tuchandra/sitev2/blob/master/content/papers/finsta_authentic_disagreebale_taber.md">here</a>), then changed the template for the post preview to include all of the author names. There were a lot of pages that already had the <code>authors</code> tag&mdash;I started adding it about a month ago, but didn't do anything with it until now&mdash;but I had to go back through 20ish ones that didn't.</p>
 <h2 id="changes-to-the-archives">Changes to the archives</h2>
 <p>Just like above, I added papers&rsquo; authors below the links within the <a href="/posts.html">archives</a> and <a href="/categories.html">categories</a> pages:</p>
 <p><figure>
@@ -274,7 +274,7 @@
   </p>
 <p>I rarely use these pages, but I wanted to make sure the authors&rsquo; names were displayed alongside their work wherever possible.</p>
 <h2 id="adding-a-chi-2020-category">Adding a CHI 2020 category</h2>
-<p>I&rsquo;m quite thankful that I&rsquo;m in a position where quarantine has given me time to read, rather than throwing me into a situation where I have to care for family members, work longer hours, or put my health at risk. I&rsquo;ve used this time to read more, and I&rsquo;m hoping to work through a lot of CHI 2020 papers in the coming weeks. I&rsquo;ve already done a few posts:</p>
+<p>I'm quite thankful that I'm in a position where quarantine has given me time to read, rather than throwing me into a situation where I have to care for family members, work longer hours, or put my health at risk. I've used this time to read more, and I'm hoping to work through a lot of CHI 2020 papers in the coming weeks. I've already done a few posts:</p>
 <ul>
 <li><a href="/papers/interpreting_interpretability_kaur.html">Interpreting Interpretability: Understanding Data Scientists&rsquo; Use of Interpretability Tools for Machine Learning</a> by Harmanpreet Kaur et al.</li>
 <li>[Data Everyday: Data Literacy Practices in a Division I Sports Context]({{ ref &ldquo;papers/data_literacy_sports_clegg.md&rdquo; &gt;}}) by Clegg et al.</li>
@@ -283,9 +283,9 @@
 </ul>
 <p>I have many more listed on my <a href="/reading/">reading list</a>, so I added a category for <a href="/categories/chi2020.html">CHI 2020</a>.</p>
 <h2 id="future-changes">Future changes</h2>
-<p>Eventually, I want to make the author names clickable links that take you to an author&rsquo;s page, where one could view all of the papers I&rsquo;ve written about by that author. That shouldn&rsquo;t be too hard&mdash;I think it&rsquo;d be a similar treatment to how &ldquo;categories&rdquo; works now, but I will eventually have to work out how to do this.</p>
-<p>I also need to come up with a better way of organizing content locally. I think it&rsquo;s fine on the website (for now?), but as I write more, the number of posts in each directory on my computer is increasing rapidly. The <a href="https://github.com/tuchandra/sitev2/tree/master/content/papers">&quot;/content/papers&rdquo; folder</a> has 42 items in it, which makes finding the exact paper that I&rsquo;m looking for a little challenging right now. This will only get harder.</p>
-<p>Finally, I would like to be more consistent about using the Dr. honorific in front of the names of those researchers who have PhDs. This is hard to do: it&rsquo;s not always apparent from an ACM DL entry, and including it can add visual clutter to a long list of author names. But female scientists in <a href="https://twitter.com/SarahEBond/status/1199057767631400961">particular</a> often <a href="https://twitter.com/jenheemstra/status/1244287273136422912">have</a> their <a href="https://twitter.com/iLemmon/status/1255139478714253315">credentials</a>, erased, and so I will try to err on the side of including it too often.</p>
+<p>Eventually, I want to make the author names clickable links that take you to an author's page, where one could view all of the papers I've written about by that author. That shouldn't be too hard&mdash;I think it'd be a similar treatment to how &ldquo;categories&rdquo; works now, but I will eventually have to work out how to do this.</p>
+<p>I also need to come up with a better way of organizing content locally. I think it's fine on the website (for now?), but as I write more, the number of posts in each directory on my computer is increasing rapidly. The <a href="https://github.com/tuchandra/sitev2/tree/master/content/papers">&quot;/content/papers&rdquo; folder</a> has 42 items in it, which makes finding the exact paper that I'm looking for a little challenging right now. This will only get harder.</p>
+<p>Finally, I would like to be more consistent about using the Dr. honorific in front of the names of those researchers who have PhDs. This is hard to do: it's not always apparent from an ACM DL entry, and including it can add visual clutter to a long list of author names. But female scientists in <a href="https://twitter.com/SarahEBond/status/1199057767631400961">particular</a> often <a href="https://twitter.com/jenheemstra/status/1244287273136422912">have</a> their <a href="https://twitter.com/iLemmon/status/1255139478714253315">credentials</a>, erased, and so I will try to err on the side of including it too often.</p>
     </div>
     <div class="article-footer">
     </div>

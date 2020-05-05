@@ -6,10 +6,19 @@
     <description>Recent content on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 03 May 2020 00:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 04 May 2020 00:00:00 -0400</lastBuildDate>
     
         <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>OpenAI Unease</title>
+      <link>/posts/openai_unease.html</link>
+      <pubDate>Thu, 27 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/openai_unease.html</guid>
+      <description>&lt;p&gt;Early last week, an article was posted at the MIT Technology Review: &lt;a href=&#34;https://www.technologyreview.com/s/615181/ai-openai-moonshot-elon-musk-sam-altman-greg-brockman-messy-secretive-reality/&#34;&gt;the messy, secretive reality behind OpenAI&#39;s bid to save the world&lt;/a&gt; by Karen Hao. As well-written as it is long, I started thinking about what OpenAI stands for and why it makes me increasingly uneasy.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Section 230, the internet, and neutrality</title>
@@ -26,7 +35,7 @@
       <pubDate>Sun, 23 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>/papers/sketch_of_manosphere_ribeiro.html</guid>
-      <description>&lt;p&gt;This paper characterizes and studies the migration of fringe &amp;ldquo;men&amp;rsquo;s rights&amp;rdquo; groups on Reddit and elsewhere. They demonstrate that these communities (the &amp;ldquo;Manosphere&amp;rdquo;) has more hateful speech than the rest of the web. Paper by &lt;a href=&#34;https://manoelhortaribeiro.github.io/&#34;&gt;Ribeiro&lt;/a&gt; et al.&lt;/p&gt;</description>
+      <description>&lt;p&gt;This paper characterizes and studies the migration of fringe &amp;ldquo;men&#39;s rights&amp;rdquo; groups on Reddit and elsewhere. They demonstrate that these communities (the &amp;ldquo;Manosphere&amp;rdquo;) has more hateful speech than the rest of the web. Paper by &lt;a href=&#34;https://manoelhortaribeiro.github.io/&#34;&gt;Ribeiro&lt;/a&gt; et al.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -53,7 +62,7 @@
       <pubDate>Sat, 15 Feb 2020 00:00:00 -0500</pubDate>
       
       <guid>/posts/advice_for_reading_papers_ng.html</guid>
-      <description>&lt;p&gt;I spent half an hour watching one of Andrew Ng&amp;rsquo;s &lt;a href=&#34;https://www.youtube.com/watch?v=733m6qBH-jI&#34;&gt;deep learning lectures&lt;/a&gt;, this one focusing on reading research papers and career advice. This post is a summary of what I learned.&lt;/p&gt;</description>
+      <description>&lt;p&gt;I spent half an hour watching one of Andrew Ng&#39;s &lt;a href=&#34;https://www.youtube.com/watch?v=733m6qBH-jI&#34;&gt;deep learning lectures&lt;/a&gt;, this one focusing on reading research papers and career advice. This post is a summary of what I learned.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -80,7 +89,7 @@
       <pubDate>Sun, 09 Feb 2020 00:00:00 -0500</pubDate>
       
       <guid>/posts/cant_not_be_researcher.html</guid>
-      <description>I love flying. There&amp;rsquo;s something about the act of being alone with my thoughts that forces introspection and self-awareness, and this post is about what I learned this time.</description>
+      <description>I love flying. There&#39;s something about the act of being alone with my thoughts that forces introspection and self-awareness, and this post is about what I learned this time.</description>
     </item>
     
     <item>
@@ -116,7 +125,7 @@
       <pubDate>Tue, 04 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>/what_i_read/20200205.html</guid>
-      <description>&lt;p&gt;Three article summaries, which I&amp;rsquo;m breaking out from my usual &amp;ldquo;what I read&amp;rdquo; posts because of the common theme (of CS research &amp;amp; grad school) that connects them.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Three article summaries, which I&#39;m breaking out from my usual &amp;ldquo;what I read&amp;rdquo; posts because of the common theme (of CS research &amp;amp; grad school) that connects them.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -143,7 +152,7 @@
       <pubDate>Tue, 28 Jan 2020 00:00:00 -0500</pubDate>
       
       <guid>/papers/contrasting_social_support_chancellor.html</guid>
-      <description>&lt;p&gt;My last of Dr. Chancellor&amp;rsquo;s papers for now. This paper studies the discourse within two online health communities for weight loss, /r/loseit and (the now banned) /r/proED. The authors discuss how different communities provide support differently and discuss design implications.&lt;/p&gt;</description>
+      <description>&lt;p&gt;My last of Dr. Chancellor&#39;s papers for now. This paper studies the discourse within two online health communities for weight loss, /r/loseit and (the now banned) /r/proED. The authors discuss how different communities provide support differently and discuss design implications.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -180,15 +189,6 @@
       
       <guid>/what_i_read/20200118.html</guid>
       <description>&lt;p&gt;Articles I read this week, including &amp;ldquo;goodbye clean code,&amp;rdquo; the Neural ODEs paper retrospective, and technical writing.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Software engineering is an essential part of data science</title>
-      <link>/posts/software_in_dsci.html</link>
-      <pubDate>Mon, 13 Jan 2020 00:00:00 -0500</pubDate>
-      
-      <guid>/posts/software_in_dsci.html</guid>
-      <description>&lt;p&gt;Good software engineering is an indispensible part of good data science. I&amp;rsquo;ve believed this for a while, but only recently come to feel strongly about it, and this post goes into more detail on why.&lt;/p&gt;</description>
     </item>
     
   </channel>

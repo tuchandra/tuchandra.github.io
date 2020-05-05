@@ -6,10 +6,19 @@
     <description>Recent content on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 03 May 2020 00:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 04 May 2020 00:00:00 -0400</lastBuildDate>
     
         <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Productivity and what motivates me</title>
+      <link>/posts/remote_work_productivity.html</link>
+      <pubDate>Thu, 09 Apr 2020 00:00:00 -0400</pubDate>
+      
+      <guid>/posts/remote_work_productivity.html</guid>
+      <description>&lt;p&gt;It took a month of remote work for me to fully abandon the expectation that I should be as productive as usual during this time. This post reflects on why.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>[Paper] Decentralized Privacy-Preserving Proximity Tracing</title>
@@ -26,7 +35,7 @@
       <pubDate>Sat, 04 Apr 2020 00:00:00 -0400</pubDate>
       
       <guid>/what_i_read/20200404.html</guid>
-      <description>&lt;p&gt;This week&amp;rsquo;s reading was short. It includes a technical deep dive into some zero-day Safari exploits, FiveThirtyEight on why it&amp;rsquo;s hard to build a good COVID-19 model, and reflections on the lockdown.&lt;/p&gt;</description>
+      <description>&lt;p&gt;This week&#39;s reading was short. It includes a technical deep dive into some zero-day Safari exploits, FiveThirtyEight on why it&#39;s hard to build a good COVID-19 model, and reflections on the lockdown.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -62,7 +71,7 @@
       <pubDate>Sat, 28 Mar 2020 00:00:00 +0000</pubDate>
       
       <guid>/what_i_read/20200328.html</guid>
-      <description>&lt;p&gt;This week, I read two articles about &amp;ldquo;broader impact&amp;rdquo; statements, soon to be required by NeurIPS. Other articles include a discussion of Facebook&amp;rsquo;s suicide prevention AI, suggestions on fighting fake news, and poll results showing Fox News viewers are less likely to take the coronavirus threat seriously.&lt;/p&gt;</description>
+      <description>&lt;p&gt;This week, I read two articles about &amp;ldquo;broader impact&amp;rdquo; statements, soon to be required by NeurIPS. Other articles include a discussion of Facebook&#39;s suicide prevention AI, suggestions on fighting fake news, and poll results showing Fox News viewers are less likely to take the coronavirus threat seriously.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -89,7 +98,7 @@
       <pubDate>Sun, 22 Mar 2020 00:00:00 +0000</pubDate>
       
       <guid>/posts/targeted_advertising.html</guid>
-      <description>&lt;p&gt;This is my response to an article from Wired, &lt;a href=&#34;https://www.wired.com/story/why-dont-we-just-ban-targeted-advertising/&#34;&gt;Why don&amp;rsquo;t we just ban targeted advertising?&lt;/a&gt;. My direct answer is &amp;ldquo;because that&amp;rsquo;s not the problem,&amp;rdquo; and I instead discuss the two more fundamental problems that I see in that space.&lt;/p&gt;</description>
+      <description>&lt;p&gt;This is my response to an article from Wired, &lt;a href=&#34;https://www.wired.com/story/why-dont-we-just-ban-targeted-advertising/&#34;&gt;Why don&#39;t we just ban targeted advertising?&lt;/a&gt;. My direct answer is &amp;ldquo;because that&#39;s not the problem,&amp;rdquo; and I instead discuss the two more fundamental problems that I see in that space.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -98,7 +107,7 @@
       <pubDate>Sat, 21 Mar 2020 00:00:00 +0000</pubDate>
       
       <guid>/what_i_read/20200321.html</guid>
-      <description>&lt;p&gt;It&amp;rsquo;s back to usual this week, as I try to create a healthy work-life balance while working from home indefinitely. This week&amp;rsquo;s articles focus on impacts of coronavirus and distributed / remote work.&lt;/p&gt;</description>
+      <description>&lt;p&gt;It&#39;s back to usual this week, as I try to create a healthy work-life balance while working from home indefinitely. This week&#39;s articles focus on impacts of coronavirus and distributed / remote work.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -116,7 +125,7 @@
       <pubDate>Tue, 17 Mar 2020 00:00:00 -0400</pubDate>
       
       <guid>/papers/interpreting_interpretability_kaur.html</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m hoping to get back into a routine of reading papers after a crazy couple of weeks; this is the first of hopefully many. This is a paper to appear at CHI 2020 (with an Honorable Mention!) about the use of interpretability tools in machine learning, and how (uh oh) data scientists tend to over-trust them.&lt;/p&gt;</description>
+      <description>&lt;p&gt;I&#39;m hoping to get back into a routine of reading papers after a crazy couple of weeks; this is the first of hopefully many. This is a paper to appear at CHI 2020 (with an Honorable Mention!) about the use of interpretability tools in machine learning, and how (uh oh) data scientists tend to over-trust them.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -125,7 +134,7 @@
       <pubDate>Mon, 16 Mar 2020 00:00:00 +0000</pubDate>
       
       <guid>/posts/is_twitter_real_life.html</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve thought, and read, a lot about the extent to which Twitter is a good signal of what&amp;rsquo;s happening in the world&amp;mdash;colloquially, the phrase being thrown around is &amp;ldquo;Twitter (is / isn&amp;rsquo;t) real life.&amp;rdquo; Much like Twitter itself, this question oversimplifies things.&lt;/p&gt;</description>
+      <description>&lt;p&gt;I&#39;ve thought, and read, a lot about the extent to which Twitter is a good signal of what&#39;s happening in the world&amp;mdash;colloquially, the phrase being thrown around is &amp;ldquo;Twitter (is / isn&#39;t) real life.&amp;rdquo; Much like Twitter itself, this question oversimplifies things.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -134,7 +143,7 @@
       <pubDate>Sun, 15 Mar 2020 00:00:00 +0000</pubDate>
       
       <guid>/what_i_read/20200315_coronavirus.html</guid>
-      <description>&lt;p&gt;I didn&amp;rsquo;t get to read much this week, but I also decided to split up my weekly reading posts into the &lt;a href=&#34;/what_i_read/20200314.html&#34;&gt;usual one&lt;/a&gt; and this one, summarizing coronavirus-related pieces I&amp;rsquo;ve read.&lt;/p&gt;</description>
+      <description>&lt;p&gt;I didn&#39;t get to read much this week, but I also decided to split up my weekly reading posts into the &lt;a href=&#34;/what_i_read/20200314.html&#34;&gt;usual one&lt;/a&gt; and this one, summarizing coronavirus-related pieces I&#39;ve read.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -152,7 +161,7 @@
       <pubDate>Sat, 07 Mar 2020 00:00:00 +0000</pubDate>
       
       <guid>/what_i_read/20200307.html</guid>
-      <description>&lt;p&gt;Hello! This week&amp;rsquo;s reading was a lot of Morning Paper articles, AI skepticism from a VC firm, and posts from /r/MachineLearning.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Hello! This week&#39;s reading was a lot of Morning Paper articles, AI skepticism from a VC firm, and posts from /r/MachineLearning.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -170,7 +179,7 @@
       <pubDate>Mon, 02 Mar 2020 00:00:00 +0000</pubDate>
       
       <guid>/books/network_propaganda_1.html</guid>
-      <description>&lt;p&gt;I wrote &lt;a href=&#34;/posts/cant_not_be_researcher.html&#34;&gt;previously&lt;/a&gt; that I was reading the book &lt;a href=&#34;https://www.oxfordscholarship.com/view/10.1093/oso/9780190923624.001.0001/oso-9780190923624&#34;&gt;Network Propaganda&lt;/a&gt; by Yochai Benkler, Robert Faris, and Hal Roberts. I believe I&amp;rsquo;ll get more from the book if I write about it, &lt;a href=&#34;/posts/why_papers.html&#34;&gt;as with papers&lt;/a&gt;, so I plan to write up a summary and thoughts on each of four parts of the book. The entire book is available &lt;a href=&#34;https://www.oxfordscholarship.com/view/10.1093/oso/9780190923624.001.0001/oso-9780190923624&#34;&gt;for free online&lt;/a&gt;!&lt;/p&gt;</description>
+      <description>&lt;p&gt;I wrote &lt;a href=&#34;/posts/cant_not_be_researcher.html&#34;&gt;previously&lt;/a&gt; that I was reading the book &lt;a href=&#34;https://www.oxfordscholarship.com/view/10.1093/oso/9780190923624.001.0001/oso-9780190923624&#34;&gt;Network Propaganda&lt;/a&gt; by Yochai Benkler, Robert Faris, and Hal Roberts. I believe I&#39;ll get more from the book if I write about it, &lt;a href=&#34;/posts/why_papers.html&#34;&gt;as with papers&lt;/a&gt;, so I plan to write up a summary and thoughts on each of four parts of the book. The entire book is available &lt;a href=&#34;https://www.oxfordscholarship.com/view/10.1093/oso/9780190923624.001.0001/oso-9780190923624&#34;&gt;for free online&lt;/a&gt;!&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -180,15 +189,6 @@
       
       <guid>/what_i_read/20200229.html</guid>
       <description>&lt;p&gt;Happy leap year! This week focuses on articles about data science: production code, pipeline building, and design thinking.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>OpenAI Unease</title>
-      <link>/posts/openai_unease.html</link>
-      <pubDate>Thu, 27 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/openai_unease.html</guid>
-      <description>&lt;p&gt;Early last week, an article was posted at the MIT Technology Review: &lt;a href=&#34;https://www.technologyreview.com/s/615181/ai-openai-moonshot-elon-musk-sam-altman-greg-brockman-messy-secretive-reality/&#34;&gt;the messy, secretive reality behind OpenAI&amp;rsquo;s bid to save the world&lt;/a&gt; by Karen Hao. As well-written as it is long, I started thinking about what OpenAI stands for and why it makes me increasingly uneasy.&lt;/p&gt;</description>
     </item>
     
   </channel>
