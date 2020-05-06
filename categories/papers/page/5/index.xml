@@ -6,10 +6,19 @@
     <description>Recent content in papers on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 04 May 2020 00:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 05 May 2020 00:00:00 -0500</lastBuildDate>
     
         <atom:link href="/categories/papers/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Paper] The spread of true and false news online</title>
+      <link>/papers/spread_of_news_vosoughi.html</link>
+      <pubDate>Thu, 12 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/spread_of_news_vosoughi.html</guid>
+      <description>&lt;p&gt;This is &amp;ldquo;that paper on fake news,&amp;rdquo; with stunningly consistent conclusions. It studies the diffusion of verified true and false news on Twitter, and in particular how the patterns of information spread were different.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Features I would like to add to my SSG</title>
@@ -170,7 +179,7 @@
       <pubDate>Wed, 16 Oct 2019 00:00:00 +0000</pubDate>
       
       <guid>/posts/silph.html</guid>
-      <description>pre::before { display: none; }pre::after { display: none; }analysis/*!** Twitter Bootstrap**//*!* Bootstrap v3.3.7 (http://getbootstrap.com)* Copyright 2011-2016 Twitter, Inc.* Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)*//*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */html {font-family: sans-serif;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;}body {margin: 0;}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary {display: block;}audio,canvas,progress,video {display: inline-block;vertical-align: baseline;}audio:not([controls]) {display: none;height: 0;}[hidden],template {display: none;}a {background-color: transparent;}a:active,a:hover {outline: 0;}abbr[title] {border-bottom: 1px dotted;}b,strong {font-weight: bold;}dfn {font-style: italic;}h1 {font-size: 2em;margin: 0.</description>
+      <description>pre::before { display: none; } pre::after { display: none; }   analysis   /*! * * Twitter Bootstrap * */ /*! * Bootstrap v3.3.7 (http://getbootstrap.com) * Copyright 2011-2016 Twitter, Inc. * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE) */ /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */ html { font-family: sans-serif; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; } body { margin: 0; } article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary { display: block; } audio, canvas, progress, video { display: inline-block; vertical-align: baseline; } audio:not([controls]) { display: none; height: 0; } [hidden], template { display: none; } a { background-color: transparent; } a:active, a:hover { outline: 0; } abbr[title] { border-bottom: 1px dotted; } b, strong { font-weight: bold; } dfn { font-style: italic; } h1 { font-size: 2em; margin: 0.</description>
     </item>
     
     <item>
@@ -180,16 +189,6 @@
       
       <guid>/spark/spark_overview.html</guid>
       <description>&lt;p&gt;I was fortunate enough to attend &lt;a href=&#34;https://databricks.com/sparkaisummit/north-america&#34;&gt;Spark + AI Summit&lt;/a&gt; in San Francisco in April 2019. This page contains links to all my notes from the talks I listened to.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>How I built my (old) website</title>
-      <link>/posts/about_website.html</link>
-      <pubDate>Mon, 29 Apr 2019 00:00:00 -0400</pubDate>
-      
-      <guid>/posts/about_website.html</guid>
-      <description>&lt;p&gt;You may have noticed that the &lt;a href=&#34;https://github.com/tuchandra/sitev1&#34;&gt;Github repo&lt;/a&gt; for this website has a tagline &amp;ldquo;&amp;hellip; for people who &lt;em&gt;aren&#39;t&lt;/em&gt; web developers.&amp;rdquo; I am a data scientist and certainly fit that description, and so I&#39;m going to talk about how I built this site using the tools I already know.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Update (Jan. 2, 2020)&lt;/strong&gt;: This post is outdated! See &lt;a href=&#34;/posts/migrating_to_hugo.html&#34;&gt;Migrating to Hugo&lt;/a&gt; for information on the new site.&lt;/p&gt;</description>
     </item>
     
   </channel>

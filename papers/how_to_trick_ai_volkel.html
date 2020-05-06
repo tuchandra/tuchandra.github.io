@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>
+        [Paper] How to Trick AI: Users&#39; Strategies for Protecting Themselves from Automatic Personality Assessment - Tushar Chandra
+      </title>
+    <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="Cache-Control" content="no-transform" />
+  <meta http-equiv="Cache-Control" content="no-siteapp" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="format-detection" content="telephone=no,email=no,adress=no">
+  
+  <meta name="theme-color" content="#000000" />
+  <meta http-equiv="window-target" content="_top" />
+  
+  <meta name="description" content="Suppose you were talking to a chatbot who was trying to infer your personality. To what extent would you be able to fake a personality and trick the bot? That&#39;s the central question in this paper by Völkel et al., which gets at deep questions about the transparency of and ethics behind computing systems.
+" />
+  <meta name="generator" content="Hugo 0.62.2 with theme pure" />
+  <title>[Paper] How to Trick AI: Users&#39; Strategies for Protecting Themselves from Automatic Personality Assessment - Tushar Chandra</title>
+  
+
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
+  <meta property="og:title" content="[Paper] How to Trick AI: Users&#39; Strategies for Protecting Themselves from Automatic Personality Assessment" />
+<meta property="og:description" content="Suppose you were talking to a chatbot who was trying to infer your personality. To what extent would you be able to fake a personality and trick the bot? That&#39;s the central question in this paper by Völkel et al., which gets at deep questions about the transparency of and ethics behind computing systems." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/papers/how_to_trick_ai_volkel.html" />
+<meta property="article:published_time" content="2020-05-05T00:00:00-05:00" />
+<meta property="article:modified_time" content="2020-05-05T00:00:00-05:00" />
+<meta itemprop="name" content="[Paper] How to Trick AI: Users&#39; Strategies for Protecting Themselves from Automatic Personality Assessment">
+<meta itemprop="description" content="Suppose you were talking to a chatbot who was trying to infer your personality. To what extent would you be able to fake a personality and trick the bot? That&#39;s the central question in this paper by Völkel et al., which gets at deep questions about the transparency of and ethics behind computing systems.">
+<meta itemprop="datePublished" content="2020-05-05T00:00:00-05:00" />
+<meta itemprop="dateModified" content="2020-05-05T00:00:00-05:00" />
+<meta itemprop="wordCount" content="1443">
+
+
+
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="[Paper] How to Trick AI: Users&#39; Strategies for Protecting Themselves from Automatic Personality Assessment"/>
+<meta name="twitter:description" content="Suppose you were talking to a chatbot who was trying to infer your personality. To what extent would you be able to fake a personality and trick the bot? That&#39;s the central question in this paper by Völkel et al., which gets at deep questions about the transparency of and ethics behind computing systems."/>
+</head>
+  </head>
+  
+
+  <body class="main-center theme-blue" itemscope itemtype="http://schema.org/WebPage"><header class="header" itemscope itemtype="http://schema.org/WPHeader">
+    <div class="slimContent">
+      <div class="navbar-header">
+        <div class="profile-block text-center">
+          <a id="avatar" href="/">
+            <img class="img-circle" src="/headshot.jpg" width="200" height="200">
+          </a>
+          <h2 id="name" class="hidden-xs hidden-sm"><b>Tushar Chandra</b></h2>
+          <h3 id="title" class="hidden-xs hidden-sm hidden-md">Data Scientist</h3>
+          <small id="location" class="text-muted hidden-xs hidden-sm"><i class="icon icon-map-marker"></i> Chicago, IL</small>
+        </div>
+
+        
+        <nav id="mobile-navbar" itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation">
+          <ul class="mobile-nav">
+              <a href="/">
+                <li class="menu-item-home">
+                    <i class="icon icon-home-fill"></i>
+                  <span class="menu-title"><br>Home</span>
+                </li>
+              </a>
+              <a href="/about">
+                <li class="menu-item-about">
+                    <i class="icon icon-cup-fill"></i>
+                  <span class="menu-title"><br>About</span>
+                </li>
+              </a>
+              <a href="/resume">
+                <li class="menu-item-resume">
+                    <i class="icon icon-file"></i>
+                  <span class="menu-title"><br>Resume</span>
+                </li>
+              </a>
+              <a href="/reading">
+                <li class="menu-item-reading">
+                    <i class="icon icon-shu-fill"></i>
+                  <span class="menu-title"><br>Reading</span>
+                </li>
+              </a>
+              <a href="/categories.html">
+                <li class="menu-item-categories">
+                    <i class="icon icon-folder-open"></i>
+                  <span class="menu-title"><br>Categories</span>
+                </li>
+              </a>
+              <a href="/posts.html">
+                <li class="menu-item-archives">
+                    <i class="icon icon-archives-fill"></i>
+                  <span class="menu-title"><br>Archives</span>
+                </li>
+              </a>
+
+          </ul>
+        </nav>
+      </div>
+      <nav id="main-navbar" class="collapse navbar-collapse" itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation">
+        <ul class="nav navbar-nav main-nav">
+            <li class="menu-item menu-item-home">
+                <a href="/">
+                    <i class="icon icon-home-fill"></i>
+                  <span class="menu-title">Home</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-about">
+                <a href="/about">
+                    <i class="icon icon-cup-fill"></i>
+                  <span class="menu-title">About</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-resume">
+                <a href="/resume">
+                    <i class="icon icon-file"></i>
+                  <span class="menu-title">Resume</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-reading">
+                <a href="/reading">
+                    <i class="icon icon-shu-fill"></i>
+                  <span class="menu-title">Reading</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-categories">
+                <a href="/categories.html">
+                    <i class="icon icon-folder-open"></i>
+                  <span class="menu-title">Categories</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-archives">
+                <a href="/posts.html">
+                    <i class="icon icon-archives-fill"></i>
+                  <span class="menu-title">Archives</span>
+                </a>
+            </li>
+
+        </ul>
+      </nav>
+    </div>
+  </header>
+<aside class="sidebar" itemscope itemtype="http://schema.org/WPSideBar">
+  <div class="slimContent">
+    <div class="widget">
+    <h3 class="widget-title"> Categories</h3>
+    <div class="widget-body">
+        <ul class="category-list">
+            <li class="category-list-item"><a href="/categories/books.html" class="category-list-link">books</a><span class="category-list-count">5</span></li>
+            <li class="category-list-item"><a href="/categories/chi2020.html" class="category-list-link">chi2020</a><span class="category-list-count">11</span></li>
+            <li class="category-list-item"><a href="/categories/general.html" class="category-list-link">general</a><span class="category-list-count">30</span></li>
+            <li class="category-list-item"><a href="/categories/papers.html" class="category-list-link">papers</a><span class="category-list-count">36</span></li>
+            <li class="category-list-item"><a href="/categories/projects.html" class="category-list-link">projects</a><span class="category-list-count">3</span></li>
+            <li class="category-list-item"><a href="/categories/self.html" class="category-list-link">self</a><span class="category-list-count">3</span></li>
+            <li class="category-list-item"><a href="/categories/spark.html" class="category-list-link">spark</a><span class="category-list-count">13</span></li>
+            <li class="category-list-item"><a href="/categories/what-i-read.html" class="category-list-link">what-i-read</a><span class="category-list-count">24</span></li>
+        </ul>
+    </div>
+</div>
+<div class="widget">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget-body">
+        <ul class="recent-post-list list-unstyled no-thumbnail">
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/papers/how_to_trick_ai_volkel.html" class="title">[Paper] How to Trick AI: Users&#39; Strategies for Protecting Themselves from Automatic Personality Assessment</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-05-05 00:00:00 -0500 CDT" itemprop="datePublished">2020-05-05</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/papers/self_regulation_in_depression_eschler.html" class="title">[Paper] Emergent Self-Regulation Practices in Technology and Social Media Use of Individuals Living with Depression</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-05-04 00:00:00 -0500 CDT" itemprop="datePublished">2020-05-04</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/papers/reshape_data_ethics_shapiro.html" class="title">[Paper] Re-Shape: A Method to Teach Data Ethics for Data Science Education</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-05-03 00:00:00 -0500 CDT" itemprop="datePublished">2020-05-03</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/papers/celebrating_everyday_success_avrahami.html" class="title">[Paper] Celebrating Everyday Success: Improving Engagement and Motivation using a System for Recording Daily Highlights</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-05-02 00:00:00 -0500 CDT" itemprop="datePublished">2020-05-02</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/what_i_read/20200502.html" class="title">What I read this week (April 26 - May 2)</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-05-02 00:00:00 -0500 CDT" itemprop="datePublished">2020-05-02</time>
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+  </div>
+</aside>
+
+    
+    
+<main class="main" role="main"><div class="content">
+  <article id="-" class="article article-type-" itemscope
+    itemtype="http://schema.org/BlogPosting">
+    
+    <div class="article-header">
+      <h1 itemprop="name">
+  <a
+    class=""
+    href="/papers/how_to_trick_ai_volkel.html"
+    >[Paper] How to Trick AI: Users&#39; Strategies for Protecting Themselves from Automatic Personality Assessment</a
+  >
+</h1>
+
+      <div class="article-meta">
+        <span class="article-date">
+  <i class="icon icon-calendar-check"></i>
+<a href="/papers/how_to_trick_ai_volkel.html">
+  <time datetime="2020-05-05 00:00:00 -0500 CDT" itemprop="datePublished">2020-05-05</time>
+</a>
+</span><span class="article-category">
+  <i class="icon icon-folder"></i>
+    <a class="article-category-link" href="/categories/papers.html"> papers, </a>
+    <a class="article-category-link" href="/categories/chi2020.html"> chi2020, </a>
+</span>
+
+        
+      </div>
+    </div>
+    <div class="article-entry marked-body js-toc-content" itemprop="articleBody">
+      <p>Suppose you were talking to a chatbot who was trying to infer your personality. To what extent would you be able to fake a personality and trick the bot? That's the central question in this paper by Völkel et al., which gets at deep questions about the transparency of and ethics behind computing systems.</p>
+<p><strong>Authors</strong>: Sarah Theres Völkel, Renate Haeuslschmid, Anna Werner, Heinrich Hussmann, Andreas Butz</p>
+<p><strong>Link</strong>: <a href="https://dl.acm.org/doi/abs/10.1145/3313831.3376877">ACM Digital Library</a></p>
+<h2 id="background">Background</h2>
+<p>Computing systems that infer individuals&rsquo; personalities are increasingly common. Like many computing technologies, it has great promise, for boosting interpersonal understanding or development, but also great risk&mdash;of typecasting, discriminating, or manipulating them. One famous example is the <em>Cambridge Analytica</em> scandal, which allegedly inferred personalities of Facebook users to figure out how best to advertise to them.</p>
+<p>The authors take an approach typically found in the adversarial machine learning space and apply it here, asking the question: <strong>to what extent are people able to trick personality assessment chatbots?</strong> This motivated a multi-stage user study:</p>
+<blockquote>
+<p>In the first interaction, we asked participants <strong>to interact naturally</strong> with the chatbot in order to capture their actual personality (baseline profile). In the second interaction, participants were framed with a data privacy and protection story and were asked to try <strong>to disguise their personality</strong> from the chatbot (falsified profile) &hellip; We asked participants about which aspects of the chat they believed were factored in the personality assessment, and how they could disguise their actual personality. We collected 41 personality disguise strategies and assessed their efficacy.</p>
+</blockquote>
+<h2 id="methods">Methods</h2>
+<p>The authors used the well-known OCEAN model (openness, conscientiousness, extraversion, agreeableness, neuroticism) for personality. They used a commercial personality assessment chatbot named <a href="https://juji.io/">Juji</a>, and &ldquo;one chatbot interaction contained three customer service scenarios: solving smartphone issues, booking holidays and buying a backpack.&rdquo; Each scenario was designed to take around 15 minutes.</p>
+<p>The study proceeded in three stages:</p>
+<ul>
+<li>Participants interacted naturally with the chatbot, which allowed it to collect a baseline assessment of their personality</li>
+<li>Participants were told that the chatbot was assessing their personality, then asked to construct a falsified one that differed from their real one as much as possible</li>
+<li>Participants took the BFI-2 questionnaire for a &ldquo;true&rdquo; assessment of their personalities</li>
+</ul>
+<p>The researchers interviewed the participants before the first chatbot interaction, between the two interactions, and after the second interaction. A primary goal was to gain insight into the participants&rsquo; mental models of how the chatbot assessed personality.</p>
+<h2 id="how-well-could-they-trick-the-chatbot">How well could they trick the chatbot?</h2>
+<p>This figure shows the extent to which each participant's BFI-2 (grey), chatbot-actual (blue) and chatbot-falsified (red) personality profiles differed. The largest web in the bottom-right shows the mean over all participants.</p>
+<p><figure>
+    <img src="how_to_trick_ai_volkel_img1.jpg"/> 
+</figure>
+  </p>
+<p>(This figure is harmed by how information-rich it tries to be; the colored lines are too thin for a colorblind person to make out.)</p>
+<p>First off, the chatbot was generally not accurate: it &ldquo;consistently calculated high values for extraversion, agreeableness, and neuroticism but low values for openness and conscientiousness for all participants.&rdquo;</p>
+<p>Participants were able to influence these (already inaccurate) predictions by an average absolute value of 5 - 10%. Note that in the &ldquo;average of all&rdquo; diagram at the bottom-right of the figure, it looks like there was no difference because the positive and negative differences averaged out.</p>
+<h2 id="tricking-strategies">Tricking strategies</h2>
+<p>I'm going to copy the author's summary here because I can't make it any more concise:</p>
+<blockquote>
+<p>Participants assumed that the chatbot would factor in <em>specific keywords</em>, which the user mingles in the text (n=15), the <em>text length</em> (n=16), <em>topics, interests and preferences</em> about which the user talks (n=10) as well as the <em>elaborateness and detailedness</em> of these texts (n=11), what users report as being their (usual) <em>behaviour</em> (n=11), the amount of <em>provided information</em> and the conversation dynamics doing so (n=10), and the users’ time needed to write a response (n=12). In contrast, the most applied strategies are <em>varying the text length</em> (n=12), <em>punctuation style, elaborateness and detailedness</em> of the text, and writing <em>opposites</em> to what would be replied usually (n=6 each).</p>
+</blockquote>
+<p>The researchers asked the participants if they could imagine applying these in everyday life (i.e., outside a lab setting). Six said they might change online behavior to &ldquo;provide less data,&rdquo; especially in cases where the user of the data or purpose of the assessment is unknown. Some expressed fears about being discovered (e.g., if attempting to trick a job interview chatbot).</p>
+<p>Why wouldn't participants attempt to trick a system? Because it was too exhausting, because they would forget about it, or because they had no reason to, many said.</p>
+<h2 id="attitudes">Attitudes</h2>
+<p>At first, 13 of 21 participants had a neutral attitude towards automatic personality assessment systems, 3 had a positive attitude, and 5 had a negative attitude. This did not change much after the study (two participants were more negative). Most mentioned that their attitude towards such systems would depend on their application.</p>
+<p>Most (20) participants identified &ldquo;commercial and personalisation purposes&rdquo; (advertising and marketing) as a setting in which they'd encounter a system like this. Eight suggested that it might be used for psychotherapy or other support. Many were concerned about their privacy (5) or data (7).</p>
+<p>Perhaps most importantly, <strong>&ldquo;participants were hardly aware that such assessments may happen without their awareness.&quot;</strong> One didn't think that it was possible to assess personality in this way, and six expressed general discomfort about these systems.</p>
+<h2 id="reflections-and-thoughts">Reflections and thoughts</h2>
+<p>I keep connecting this paper to <a href="https://en.wikipedia.org/wiki/Adversarial_machine_learning">adversarial machine learning</a> in my head, in which one attempts to fool a model through &ldquo;adversarial&rdquo; (malicious, invalid, or tainted input). This work makes the <em>users</em> the adversary, which I find extremely cool.</p>
+<p>Putting users at the center forces us to confront important questions about people's mental models of these systems. The extent to which people are able to trick a personality assessment chatbot will likely depend on how much they know about how it works.</p>
+<p>On the whole, participants were not very successful at tricking the chatbot. The authors believe one reason to be that participants were only able to vary a couple of things at once&mdash;while they could try to e.g., be more friendly or use more swear words, the mental burden of changing their <em>entire personality</em> at once was too much.</p>
+<h3 id="also-the-chatbot-did-poorly">Also, the chatbot did poorly</h3>
+<p>It's also worth calling out that the chatbot in question didn't even do a good job! It overpredicted extraversion, agreeableness, and neuroticism, and underpredicted conscientiousness and openness. The authors call this &ldquo;of secondary interest,&rdquo; since they were most interested in the changes participants were able to induce, and that's fair; it matters, though, when thinking about the bigger picture.</p>
+<p>Someone wishing to trick a <em>flawed</em> personality assessment chatbot needs more than a mental model of how automatic personality assessment works. They also need to develop a model of how and why they might be flawed, and how to exploit these flaws.</p>
+<p>It's also worth noting that many participants felt a moral obligation <em>not</em> to trick such systems. Furthermore, many were unfamiliar with the Big Five personality theory. In that case, how are you supposed to trick a chatbot trying to infer traits you've never heard of?</p>
+<h3 id="implications-for-education">Implications for education</h3>
+<p>The authors note that participants <em>underestimated</em> &ldquo;the depth and possibilities of automatic personality assessment&rdquo;&mdash;being surprised that these systems could be concealed and not knowing where they might be encountered. At the same time, they <em>overestimated</em> the accuracy of these systems&mdash;placing a lot of weight on the chatbot's assessment of their personality.</p>
+<p>This is an interesting dynamic; that people don't necessarily know where these systems are, but where people <em>do</em> find such systems, they assume that they work well. This suggests the need for more general computing literacy education: how these systems work, where they are, what their uses are, what their limitations are, and more.</p>
+<p>But perhaps this is too optimistic. &ldquo;<strong>Our participants felt helpless</strong> against profiling algorithms and the companies behind them, with the consequence of giving up on their data and privacy,&rdquo; the authors wrote (emphasis mine). Is this somewhere we need policy to help us? The authors think so, writing that &ldquo;current legislative approaches are not sufficient&rdquo;:</p>
+<blockquote>
+<p>Furthermore, we call for transparency and understandable explanations about the data collection and analysis practices. When users are aware of it, they may be able to act prudently or turn away from it. As for other data, users should be granted access to their profile and be in control of its’ use at any time.</p>
+</blockquote>
+<p>These are interesting questions about the interaction between people, technology, and society. What kinds of systems are we building? Who do they give power to? Who do we leave behind? This work is about so much more than personality chatbots&mdash;it's getting at the heart of core questions in HCI.</p>
+    </div>
+    <div class="article-footer">
+    </div>
+  </article>
+</div><nav class="bar bar-footer clearfix" data-stick-bottom>
+    <div class="bar-inner">
+        <ul class="pager pull-left">
+            <li class="prev">
+                <a href="/papers/self_regulation_in_depression_eschler.html" title="[Paper] Emergent Self-Regulation Practices in Technology and Social Media Use of Individuals Living with Depression"><i
+                        class="icon icon-angle-left"
+                        aria-hidden="true"></i><span>&nbsp;&nbsp;Older</span></a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+</main><footer class="footer" itemscope itemtype="http://schema.org/WPFooter">
+<ul class="social-links">
+    <li><a href="https://github.com/tuchandra" target="_blank" title="github" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-github"></i></a></li>
+    <li><a href="https://www.linkedin.com/in/tushar-chandra-76a623b6/" target="_blank" title="linkedin" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-linkedin"></i></a></li>
+    <li><a href="/index.xml" target="_blank" title="rss" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-rss"></i></a></li>
+</ul>
+  <div class="copyright">
+    &copy; 2019 - 2020 Tushar Chandra
+    <p style="margin-bottom: 4px">All opinions are my own.</p>
+    <div class="publishby">
+        Theme: <a href="https://github.com/xiaoheiAh/hugo-theme-pure" target="_blank">Hugo Pure</a>.
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_SVG"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+            showMathMenu: false, //disables context menu
+            tex2jax: {
+            inlineMath: [ ['$','$'], ['\\(','\\)'] ]
+           }
+    });
+</script>
+
+
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/highlight.min.js"></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/python.min.js"></script><script>
+    hljs.configure({
+        tabReplace: '    ', 
+        classPrefix: ''     
+        
+    })
+    hljs.initHighlightingOnLoad();
+</script>
+
+  </body>
+</html>
