@@ -11,9 +11,18 @@
     
     
     <item>
+      <title>Improving my debugging attitude</title>
+      <link>/posts/debugging_attitude.html</link>
+      <pubDate>Sun, 12 Apr 2020 00:00:00 -0400</pubDate>
+      
+      <guid>/posts/debugging_attitude.html</guid>
+      <description>&lt;p&gt;Today, I noticed myself doing something I&amp;rsquo;ve done many times before: running into an error, Googling it, finding code snippets, and making random changes in hopes that they&amp;rsquo;d work. In this post, I try to understand why.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>What I read this week (April 5 - April 11)</title>
       <link>/what_i_read/20200411.html</link>
-      <pubDate>Sat, 11 Apr 2020 00:00:00 -0500</pubDate>
+      <pubDate>Sat, 11 Apr 2020 00:00:00 -0400</pubDate>
       
       <guid>/what_i_read/20200411.html</guid>
       <description>&lt;p&gt;In which I read up on location tracking for stopping the spread of coronavirus. I also wrote a longer-form piece on one proposal, &lt;a href=&#34;/papers/decentralized_proximity_tracing.html&#34;&gt;Decentralized Privacy-Preserving Proximity Tracing&lt;/a&gt;.&lt;/p&gt;</description>
@@ -22,7 +31,7 @@
     <item>
       <title>Productivity and what motivates me</title>
       <link>/posts/remote_work_productivity.html</link>
-      <pubDate>Thu, 09 Apr 2020 00:00:00 -0500</pubDate>
+      <pubDate>Thu, 09 Apr 2020 00:00:00 -0400</pubDate>
       
       <guid>/posts/remote_work_productivity.html</guid>
       <description>&lt;p&gt;It took a month of remote work for me to fully abandon the expectation that I should be as productive as usual during this time. This post reflects on why.&lt;/p&gt;</description>
@@ -31,7 +40,7 @@
     <item>
       <title>[Paper] Decentralized Privacy-Preserving Proximity Tracing</title>
       <link>/papers/decentralized_proximity_tracing.html</link>
-      <pubDate>Wed, 08 Apr 2020 00:00:00 -0500</pubDate>
+      <pubDate>Wed, 08 Apr 2020 00:00:00 -0400</pubDate>
       
       <guid>/papers/decentralized_proximity_tracing.html</guid>
       <description>&lt;p&gt;This is a summary of a proposal for a &amp;ldquo;secure and privacy-preserving decentralized proximity tracing system,&amp;rdquo; aiming to help combat COVID-19 while placing individual privacy at high priority. View the proposal on &lt;a href=&#34;https://github.com/DP-3T/documents&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</description>
@@ -40,16 +49,16 @@
     <item>
       <title>What I read this week (March 29 - April 4)</title>
       <link>/what_i_read/20200404.html</link>
-      <pubDate>Sat, 04 Apr 2020 00:00:00 -0500</pubDate>
+      <pubDate>Sat, 04 Apr 2020 00:00:00 -0400</pubDate>
       
       <guid>/what_i_read/20200404.html</guid>
-      <description>&lt;p&gt;This week&#39;s reading was short. It includes a technical deep dive into some zero-day Safari exploits, FiveThirtyEight on why it&#39;s hard to build a good COVID-19 model, and reflections on the lockdown.&lt;/p&gt;</description>
+      <description>&lt;p&gt;This week&amp;rsquo;s reading was short. It includes a technical deep dive into some zero-day Safari exploits, FiveThirtyEight on why it&amp;rsquo;s hard to build a good COVID-19 model, and reflections on the lockdown.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>The dangers of big data (&#34;Everybody Lies&#34;, part 3)</title>
       <link>/books/everybody_lies_3.html</link>
-      <pubDate>Wed, 01 Apr 2020 00:00:00 -0500</pubDate>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 -0400</pubDate>
       
       <guid>/books/everybody_lies_3.html</guid>
       <description>&lt;p&gt;The final post in my series about &lt;em&gt;Everybody Lies&lt;/em&gt; is another abstract one. Here, I discuss the dangers of big data and how the wrong data can lead us astray.&lt;/p&gt;</description>
@@ -58,7 +67,7 @@
     <item>
       <title>What is data science? (&#34;Everybody Lies&#34;, part 2)</title>
       <link>/books/everybody_lies_2.html</link>
-      <pubDate>Tue, 31 Mar 2020 00:00:00 -0500</pubDate>
+      <pubDate>Tue, 31 Mar 2020 00:00:00 -0400</pubDate>
       
       <guid>/books/everybody_lies_2.html</guid>
       <description>&lt;p&gt;I had some more abstract thoughts about what &amp;ldquo;data science&amp;rdquo; really means while reading &lt;em&gt;Everybody Lies&lt;/em&gt;. In this post, I talk about data science as &lt;em&gt;discovery&lt;/em&gt; and about what it means to &amp;ldquo;do&amp;rdquo; data science.&lt;/p&gt;</description>
@@ -79,7 +88,7 @@
       <pubDate>Sat, 28 Mar 2020 00:00:00 +0000</pubDate>
       
       <guid>/what_i_read/20200328.html</guid>
-      <description>&lt;p&gt;This week, I read two articles about &amp;ldquo;broader impact&amp;rdquo; statements, soon to be required by NeurIPS. Other articles include a discussion of Facebook&#39;s suicide prevention AI, suggestions on fighting fake news, and poll results showing Fox News viewers are less likely to take the coronavirus threat seriously.&lt;/p&gt;</description>
+      <description>&lt;p&gt;This week, I read two articles about &amp;ldquo;broader impact&amp;rdquo; statements, soon to be required by NeurIPS. Other articles include a discussion of Facebook&amp;rsquo;s suicide prevention AI, suggestions on fighting fake news, and poll results showing Fox News viewers are less likely to take the coronavirus threat seriously.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -94,7 +103,7 @@
     <item>
       <title>[Paper] Methods in predictive techniques for mental health status on social media: a critical review</title>
       <link>/papers/review_methods_predicting_mental_health_status_chancellor.html</link>
-      <pubDate>Thu, 26 Mar 2020 00:00:00 -0500</pubDate>
+      <pubDate>Thu, 26 Mar 2020 00:00:00 -0400</pubDate>
       
       <guid>/papers/review_methods_predicting_mental_health_status_chancellor.html</guid>
       <description>&lt;p&gt;This new paper by Drs. Chancellor and De Choudhury is a literature review of predicting mental health states from social media, studying in particular the extent to which the papers report their methods in sufficient depth and clarity. They propose reporting standards for publications in this space.&lt;/p&gt;</description>
@@ -106,7 +115,7 @@
       <pubDate>Sun, 22 Mar 2020 00:00:00 +0000</pubDate>
       
       <guid>/posts/targeted_advertising.html</guid>
-      <description>&lt;p&gt;This is my response to an article from Wired, &lt;a href=&#34;https://www.wired.com/story/why-dont-we-just-ban-targeted-advertising/&#34;&gt;Why don&#39;t we just ban targeted advertising?&lt;/a&gt;. My direct answer is &amp;ldquo;because that&#39;s not the problem,&amp;rdquo; and I instead discuss the two more fundamental problems that I see in that space.&lt;/p&gt;</description>
+      <description>&lt;p&gt;This is my response to an article from Wired, &lt;a href=&#34;https://www.wired.com/story/why-dont-we-just-ban-targeted-advertising/&#34;&gt;Why don&amp;rsquo;t we just ban targeted advertising?&lt;/a&gt;. My direct answer is &amp;ldquo;because that&amp;rsquo;s not the problem,&amp;rdquo; and I instead discuss the two more fundamental problems that I see in that space.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -115,13 +124,13 @@
       <pubDate>Sat, 21 Mar 2020 00:00:00 +0000</pubDate>
       
       <guid>/what_i_read/20200321.html</guid>
-      <description>&lt;p&gt;It&#39;s back to usual this week, as I try to create a healthy work-life balance while working from home indefinitely. This week&#39;s articles focus on impacts of coronavirus and distributed / remote work.&lt;/p&gt;</description>
+      <description>&lt;p&gt;It&amp;rsquo;s back to usual this week, as I try to create a healthy work-life balance while working from home indefinitely. This week&amp;rsquo;s articles focus on impacts of coronavirus and distributed / remote work.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Network Propaganda, part 2</title>
       <link>/books/network_propaganda_2.html</link>
-      <pubDate>Wed, 18 Mar 2020 00:00:00 -0500</pubDate>
+      <pubDate>Wed, 18 Mar 2020 00:00:00 -0400</pubDate>
       
       <guid>/books/network_propaganda_2.html</guid>
       <description>&lt;p&gt;Part 2 of the book &lt;em&gt;Network Propaganda&lt;/em&gt; studies its dynamics: the section goes into detail about how immigration came to be the central issue of the Trump presidency, but not in the way that the Republican Party expected, followed by a chapter focusing on Fox News and one on the failure modes of the mainstream media.&lt;/p&gt;</description>
@@ -130,10 +139,10 @@
     <item>
       <title>[Paper] Interpreting Interpretability: Understanding Data Scientists&#39; Use of Interpretability Tools for Machine Learning</title>
       <link>/papers/interpreting_interpretability_kaur.html</link>
-      <pubDate>Tue, 17 Mar 2020 00:00:00 -0500</pubDate>
+      <pubDate>Tue, 17 Mar 2020 00:00:00 -0400</pubDate>
       
       <guid>/papers/interpreting_interpretability_kaur.html</guid>
-      <description>&lt;p&gt;I&#39;m hoping to get back into a routine of reading papers after a crazy couple of weeks; this is the first of hopefully many. This is a paper to appear at CHI 2020 (with an Honorable Mention!) about the use of interpretability tools in machine learning, and how (uh oh) data scientists tend to over-trust them.&lt;/p&gt;</description>
+      <description>&lt;p&gt;I&amp;rsquo;m hoping to get back into a routine of reading papers after a crazy couple of weeks; this is the first of hopefully many. This is a paper to appear at CHI 2020 (with an Honorable Mention!) about the use of interpretability tools in machine learning, and how (uh oh) data scientists tend to over-trust them.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -142,7 +151,7 @@
       <pubDate>Mon, 16 Mar 2020 00:00:00 +0000</pubDate>
       
       <guid>/posts/is_twitter_real_life.html</guid>
-      <description>&lt;p&gt;I&#39;ve thought, and read, a lot about the extent to which Twitter is a good signal of what&#39;s happening in the world&amp;mdash;colloquially, the phrase being thrown around is &amp;ldquo;Twitter (is / isn&#39;t) real life.&amp;rdquo; Much like Twitter itself, this question oversimplifies things.&lt;/p&gt;</description>
+      <description>&lt;p&gt;I&amp;rsquo;ve thought, and read, a lot about the extent to which Twitter is a good signal of what&amp;rsquo;s happening in the world&amp;mdash;colloquially, the phrase being thrown around is &amp;ldquo;Twitter (is / isn&amp;rsquo;t) real life.&amp;rdquo; Much like Twitter itself, this question oversimplifies things.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -151,7 +160,7 @@
       <pubDate>Sun, 15 Mar 2020 00:00:00 +0000</pubDate>
       
       <guid>/what_i_read/20200315_coronavirus.html</guid>
-      <description>&lt;p&gt;I didn&#39;t get to read much this week, but I also decided to split up my weekly reading posts into the &lt;a href=&#34;/what_i_read/20200314.html&#34;&gt;usual one&lt;/a&gt; and this one, summarizing coronavirus-related pieces I&#39;ve read.&lt;/p&gt;</description>
+      <description>&lt;p&gt;I didn&amp;rsquo;t get to read much this week, but I also decided to split up my weekly reading posts into the &lt;a href=&#34;/what_i_read/20200314.html&#34;&gt;usual one&lt;/a&gt; and this one, summarizing coronavirus-related pieces I&amp;rsquo;ve read.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -169,25 +178,16 @@
       <pubDate>Sat, 07 Mar 2020 00:00:00 +0000</pubDate>
       
       <guid>/what_i_read/20200307.html</guid>
-      <description>&lt;p&gt;Hello! This week&#39;s reading was a lot of Morning Paper articles, AI skepticism from a VC firm, and posts from /r/MachineLearning.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Hello! This week&amp;rsquo;s reading was a lot of Morning Paper articles, AI skepticism from a VC firm, and posts from /r/MachineLearning.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>New computer setup</title>
       <link>/posts/new_computer_setup.html</link>
-      <pubDate>Thu, 05 Mar 2020 00:00:00 -0600</pubDate>
+      <pubDate>Thu, 05 Mar 2020 00:00:00 -0500</pubDate>
       
       <guid>/posts/new_computer_setup.html</guid>
       <description>&lt;p&gt;My work Macbook had to be sent in for repair, and the hard drive got wiped. I documented all the steps I took to set it up again. You can use this as a starting point for setting up a new machine, and so can I if I need to do this again soon!&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Network Propaganda, part 1</title>
-      <link>/books/network_propaganda_1.html</link>
-      <pubDate>Mon, 02 Mar 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/books/network_propaganda_1.html</guid>
-      <description>&lt;p&gt;I wrote &lt;a href=&#34;/posts/cant_not_be_researcher.html&#34;&gt;previously&lt;/a&gt; that I was reading the book &lt;a href=&#34;https://www.oxfordscholarship.com/view/10.1093/oso/9780190923624.001.0001/oso-9780190923624&#34;&gt;Network Propaganda&lt;/a&gt; by Yochai Benkler, Robert Faris, and Hal Roberts. I believe I&#39;ll get more from the book if I write about it, &lt;a href=&#34;/posts/why_papers.html&#34;&gt;as with papers&lt;/a&gt;, so I plan to write up a summary and thoughts on each of four parts of the book. The entire book is available &lt;a href=&#34;https://www.oxfordscholarship.com/view/10.1093/oso/9780190923624.001.0001/oso-9780190923624&#34;&gt;for free online&lt;/a&gt;!&lt;/p&gt;</description>
     </item>
     
   </channel>

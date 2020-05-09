@@ -6,24 +6,33 @@
     <description>Recent content on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 05 May 2020 00:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Fri, 08 May 2020 00:00:00 -0400</lastBuildDate>
     
         <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>[Paper] Understanding and Visualizing Data Iteration in Machine Learning</title>
+      <link>/papers/undestanding_data_iteration_ml_hohman.html</link>
+      <pubDate>Fri, 08 May 2020 00:00:00 -0400</pubDate>
+      
+      <guid>/papers/undestanding_data_iteration_ml_hohman.html</guid>
+      <description>&lt;p&gt;TODO&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>[Paper] How to Trick AI: Users&#39; Strategies for Protecting Themselves from Automatic Personality Assessment</title>
       <link>/papers/how_to_trick_ai_volkel.html</link>
-      <pubDate>Tue, 05 May 2020 00:00:00 -0500</pubDate>
+      <pubDate>Tue, 05 May 2020 00:00:00 -0400</pubDate>
       
       <guid>/papers/how_to_trick_ai_volkel.html</guid>
-      <description>&lt;p&gt;Suppose you were talking to a chatbot who was trying to infer your personality. To what extent would you be able to fake a personality and trick the bot? That&#39;s the central question in this paper by Völkel et al., which gets at deep questions about the transparency of and ethics behind computing systems.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Suppose you were talking to a chatbot who was trying to infer your personality. To what extent would you be able to fake a personality and trick the bot? That&amp;rsquo;s the central question in this paper by Völkel et al., which gets at deep questions about the transparency of and ethics behind computing systems.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>[Paper] Emergent Self-Regulation Practices in Technology and Social Media Use of Individuals Living with Depression</title>
       <link>/papers/self_regulation_in_depression_eschler.html</link>
-      <pubDate>Mon, 04 May 2020 00:00:00 -0500</pubDate>
+      <pubDate>Mon, 04 May 2020 00:00:00 -0400</pubDate>
       
       <guid>/papers/self_regulation_in_depression_eschler.html</guid>
       <description>&lt;p&gt;How do people with depression use technology at a personal level? The answer &amp;ldquo;they all use it differently&amp;rdquo; may or may not be surprising, depending on your perspective, but in my experience this is often assumed to be the case. Eschler et al. take on this question by interviewing people about the roles technology plays in their lives and opportunities to use it in a healthy way.&lt;/p&gt;</description>
@@ -32,7 +41,7 @@
     <item>
       <title>[Paper] Re-Shape: A Method to Teach Data Ethics for Data Science Education</title>
       <link>/papers/reshape_data_ethics_shapiro.html</link>
-      <pubDate>Sun, 03 May 2020 00:00:00 -0500</pubDate>
+      <pubDate>Sun, 03 May 2020 00:00:00 -0400</pubDate>
       
       <guid>/papers/reshape_data_ethics_shapiro.html</guid>
       <description>&lt;p&gt;Imagine that a week of your personal location data were made public. What would strangers be able to learn about you? The authors use this question to motivate Re-Shape, a method for teaching students about the ethics of data collection and use, building on the feminist idea of &amp;ldquo;cultivating care.&amp;rdquo;&lt;/p&gt;</description>
@@ -41,7 +50,7 @@
     <item>
       <title>[Paper] Celebrating Everyday Success: Improving Engagement and Motivation using a System for Recording Daily Highlights</title>
       <link>/papers/celebrating_everyday_success_avrahami.html</link>
-      <pubDate>Sat, 02 May 2020 00:00:00 -0500</pubDate>
+      <pubDate>Sat, 02 May 2020 00:00:00 -0400</pubDate>
       
       <guid>/papers/celebrating_everyday_success_avrahami.html</guid>
       <description>&lt;p&gt;Recognizing your own successes is important for cultivating a positive outlook and sense of purpose. Modern work environments often do not offer this, with the idea of there always being more to do standing in the way of reflection that celebrates progress. &lt;em&gt;Highlight Matome&lt;/em&gt; is a personal online tool for workers to quickly record short, daily highlights with the goal of improving their inner work life.&lt;/p&gt;</description>
@@ -50,16 +59,16 @@
     <item>
       <title>What I read this week (April 26 - May 2)</title>
       <link>/what_i_read/20200502.html</link>
-      <pubDate>Sat, 02 May 2020 00:00:00 -0500</pubDate>
+      <pubDate>Sat, 02 May 2020 00:00:00 -0400</pubDate>
       
       <guid>/what_i_read/20200502.html</guid>
-      <description>&lt;p&gt;This week, I&#39;ve focused mostly on articles from CHI, but I did read a few shorter things in my spare time.&lt;/p&gt;</description>
+      <description>&lt;p&gt;This week, I&amp;rsquo;ve focused mostly on articles from CHI, but I did read a few shorter things in my spare time.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>[Paper] In-game and Out-of-game Social Anxiety Influences Player Motivations, Activities, and Experiences in MMORPGs</title>
       <link>/papers/social_anxiety_mmorpgs_dechant.html</link>
-      <pubDate>Fri, 01 May 2020 00:00:00 -0500</pubDate>
+      <pubDate>Fri, 01 May 2020 00:00:00 -0400</pubDate>
       
       <guid>/papers/social_anxiety_mmorpgs_dechant.html</guid>
       <description>&lt;p&gt;How are MMORPGs perceived by people with social anxiety? What do they find enjoyable about MMORPGS? How does real-world anxiety translate to social experiences in a video game setting? This CHI 2020 paper by Dechant et al. studies these and other questions about the interactions between social anxiety and video games.&lt;/p&gt;</description>
@@ -68,7 +77,7 @@
     <item>
       <title>[Paper] Computing Students&#39; Learning Difficulties in HCI Education</title>
       <link>/papers/computing_students_difficulties_hci_oleson.html</link>
-      <pubDate>Thu, 30 Apr 2020 00:00:00 -0500</pubDate>
+      <pubDate>Thu, 30 Apr 2020 00:00:00 -0400</pubDate>
       
       <guid>/papers/computing_students_difficulties_hci_oleson.html</guid>
       <description>&lt;p&gt;Why is it so hard for students to learn about HCI? Oleson et al. try to find out in this paper, interviewing computing students about difficulties they experienced in HCI design education.&lt;/p&gt;</description>
@@ -77,16 +86,16 @@
     <item>
       <title>[Paper] Random, Messy, Funny, Raw: Finstas as Intimate Reconfigurations of Social Media</title>
       <link>/papers/intimate_reconfigurations_finsta_xiao.html</link>
-      <pubDate>Wed, 29 Apr 2020 00:00:00 -0500</pubDate>
+      <pubDate>Wed, 29 Apr 2020 00:00:00 -0400</pubDate>
       
       <guid>/papers/intimate_reconfigurations_finsta_xiao.html</guid>
-      <description>&lt;p&gt;Another paper studying &amp;ldquo;finstas&amp;rdquo; (fake / secret Instagram accounts, shared only with a small group of people). This one, by Sijia Xiao et al., received an Honorable Mention at CHI 2020. In contrast to yesterday&#39;s, this work draws from feminist theory to explore finstas as &amp;ldquo;intimate reconfigurations&amp;rdquo; of the Instagram platform itself.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Another paper studying &amp;ldquo;finstas&amp;rdquo; (fake / secret Instagram accounts, shared only with a small group of people). This one, by Sijia Xiao et al., received an Honorable Mention at CHI 2020. In contrast to yesterday&amp;rsquo;s, this work draws from feminist theory to explore finstas as &amp;ldquo;intimate reconfigurations&amp;rdquo; of the Instagram platform itself.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Recent website changes</title>
       <link>/posts/apr2020_website_changes.html</link>
-      <pubDate>Wed, 29 Apr 2020 00:00:00 -0500</pubDate>
+      <pubDate>Wed, 29 Apr 2020 00:00:00 -0400</pubDate>
       
       <guid>/posts/apr2020_website_changes.html</guid>
       <description>&lt;p&gt;I made a couple more changes to my website: giving more credit to the authors of the papers I read and adding a new category.&lt;/p&gt;</description>
@@ -95,7 +104,7 @@
     <item>
       <title>[Paper] &#39;On Finsta I can say Hail Satan&#39;: Being Authentic but Disagreeable on Instagram</title>
       <link>/papers/finsta_authentic_disagreebale_taber.html</link>
-      <pubDate>Tue, 28 Apr 2020 00:00:00 -0500</pubDate>
+      <pubDate>Tue, 28 Apr 2020 00:00:00 -0400</pubDate>
       
       <guid>/papers/finsta_authentic_disagreebale_taber.html</guid>
       <description>&lt;p&gt;This CHI 2020 paper studies how people use multiple accounts on Instagram, being the first to document personality differences between different accounts on the same platform.&lt;/p&gt;</description>
@@ -104,7 +113,7 @@
     <item>
       <title>A variety of talks from CHI 2020</title>
       <link>/papers/chi_2020_nordic_talks.html</link>
-      <pubDate>Mon, 27 Apr 2020 00:00:00 -0500</pubDate>
+      <pubDate>Mon, 27 Apr 2020 00:00:00 -0400</pubDate>
       
       <guid>/papers/chi_2020_nordic_talks.html</guid>
       <description>&lt;p&gt;On Tuesday morning, I came across &lt;a href=&#34;https://www.chinordic2020.org/&#34;&gt;CHI Nordic 2020&lt;/a&gt;, which was a mini-conference put together to present and discuss Nordic papers from CHI 2020. I joined the last session on &amp;ldquo;computational materials&amp;rdquo; and watched 3 talks.&lt;/p&gt;</description>
@@ -122,7 +131,7 @@
     <item>
       <title>[Paper] Data Everyday: Data Literacy Practices in a Division I Sports Context</title>
       <link>/papers/data_literacy_sports_clegg.html</link>
-      <pubDate>Sun, 26 Apr 2020 00:00:00 -0500</pubDate>
+      <pubDate>Sun, 26 Apr 2020 00:00:00 -0400</pubDate>
       
       <guid>/papers/data_literacy_sports_clegg.html</guid>
       <description>&lt;p&gt;CHI 2020 was supposed to be happening right now, but it was regrettably &lt;a href=&#34;https://chi2020.acm.org/&#34;&gt;cancelled&lt;/a&gt; due to coronavirus. All of the papers were put into the ACM Digital Library as scheduled, though, so I started looking at them. This paper studies data literacy among student-athletes at the University of Maryland.&lt;/p&gt;</description>
@@ -134,61 +143,52 @@
       <pubDate>Sun, 26 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>/posts/password_tool_1.html</guid>
-      <description>&lt;p&gt;In this series of blog posts, I&#39;ll be covering my newest personal project: a tool for the Pokemon Mystery Dungeon video games that help to make sense of otherwise-uninterpretable passwords. This post covers my motivation for the project and the choice of technologies.&lt;/p&gt;</description>
+      <description>&lt;p&gt;In this series of blog posts, I&amp;rsquo;ll be covering my newest personal project: a tool for the Pokemon Mystery Dungeon video games that help to make sense of otherwise-uninterpretable passwords. This post covers my motivation for the project and the choice of technologies.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>What I read this week (April 19 - April 25)</title>
       <link>/what_i_read/20200425.html</link>
-      <pubDate>Sat, 25 Apr 2020 00:00:00 -0500</pubDate>
+      <pubDate>Sat, 25 Apr 2020 00:00:00 -0400</pubDate>
       
       <guid>/what_i_read/20200425.html</guid>
-      <description>&lt;p&gt;I didn&#39;t read much this week, due to a project I&#39;m working on that I&#39;ll write more about soon. One evening, I sat down to work through a couple things that popped up, thoguh.&lt;/p&gt;</description>
+      <description>&lt;p&gt;I didn&amp;rsquo;t read much this week, due to a project I&amp;rsquo;m working on that I&amp;rsquo;ll write more about soon. One evening, I sat down to work through a couple things that popped up, thoguh.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>A variety of talks from ACM FAT* 2020</title>
       <link>/papers/acm_fat2020_talks.html</link>
-      <pubDate>Sun, 19 Apr 2020 00:00:00 -0500</pubDate>
+      <pubDate>Sun, 19 Apr 2020 00:00:00 -0400</pubDate>
       
       <guid>/papers/acm_fat2020_talks.html</guid>
-      <description>&lt;p&gt;I sat down to watch a handful of talks from ACM FAT* 2020, picked from a survey of the &lt;a href=&#34;https://facctconference.org/2020/acceptedpapers.html#sess1&#34;&gt;Accepted Papers&lt;/a&gt; list. I found this to be a good way to consume a variety of papers that I probably wouldn&#39;t have ordinarily read.&lt;/p&gt;</description>
+      <description>&lt;p&gt;I sat down to watch a handful of talks from ACM FAT* 2020, picked from a survey of the &lt;a href=&#34;https://facctconference.org/2020/acceptedpapers.html#sess1&#34;&gt;Accepted Papers&lt;/a&gt; list. I found this to be a good way to consume a variety of papers that I probably wouldn&amp;rsquo;t have ordinarily read.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>[Paper] Auditing Radicalization Pathways on YouTube</title>
       <link>/papers/auditing_radicalization_youtube_ribeiro.html</link>
-      <pubDate>Sat, 18 Apr 2020 00:00:00 -0500</pubDate>
+      <pubDate>Sat, 18 Apr 2020 00:00:00 -0400</pubDate>
       
       <guid>/papers/auditing_radicalization_youtube_ribeiro.html</guid>
-      <description>&lt;p&gt;Does YouTube drive people to more extreme content? This is a question that many have posed, but this is the first paper to study this question in depth. I&#39;ve had this on my reading list since I came across it on Twitter, so this Saturday I finally sat down to take a look.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Does YouTube drive people to more extreme content? This is a question that many have posed, but this is the first paper to study this question in depth. I&amp;rsquo;ve had this on my reading list since I came across it on Twitter, so this Saturday I finally sat down to take a look.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>What I read this week (April 12 - April 18)</title>
       <link>/what_i_read/20200418.html</link>
-      <pubDate>Sat, 18 Apr 2020 00:00:00 -0500</pubDate>
+      <pubDate>Sat, 18 Apr 2020 00:00:00 -0400</pubDate>
       
       <guid>/what_i_read/20200418.html</guid>
-      <description>&lt;p&gt;This week&#39;s reading happened almost all in one day, when I took time off work to recharge. I read articles and blog posts on COVID-19 models, focusing on the question of what it means to model something. There are also a couple of garden variety engineering &amp;amp; data science posts.&lt;/p&gt;</description>
+      <description>&lt;p&gt;This week&amp;rsquo;s reading happened almost all in one day, when I took time off work to recharge. I read articles and blog posts on COVID-19 models, focusing on the question of what it means to model something. There are also a couple of garden variety engineering &amp;amp; data science posts.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>[Paper] Presenting machine learning model information to clinical end users with model facts labels</title>
       <link>/papers/model_facts_sendak.html</link>
-      <pubDate>Sun, 12 Apr 2020 00:00:00 -0500</pubDate>
+      <pubDate>Sun, 12 Apr 2020 00:00:00 -0400</pubDate>
       
       <guid>/papers/model_facts_sendak.html</guid>
       <description>&lt;p&gt;This is another &amp;ldquo;interpeting machine learning&amp;rdquo; paper, this time in a medical context. The Duke researchers propose a &amp;ldquo;model facts&amp;rdquo; label, a la &amp;ldquo;nutrition facts&amp;rdquo; that we see on food packaging.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Improving my debugging attitude</title>
-      <link>/posts/debugging_attitude.html</link>
-      <pubDate>Sun, 12 Apr 2020 00:00:00 -0500</pubDate>
-      
-      <guid>/posts/debugging_attitude.html</guid>
-      <description>&lt;p&gt;Today, I noticed myself doing something I&#39;ve done many times before: running into an error, Googling it, finding code snippets, and making random changes in hopes that they&#39;d work. In this post, I try to understand why.&lt;/p&gt;</description>
     </item>
     
   </channel>

@@ -6,18 +6,27 @@
     <description>Recent content in Selves on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 02 Jan 2020 00:00:00 -0600</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jan 2020 00:00:00 -0500</lastBuildDate>
     
         <atom:link href="/self/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Spark &#43; AI Summit 2019 Notes</title>
+      <link>/spark/spark_overview.html</link>
+      <pubDate>Tue, 30 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/spark/spark_overview.html</guid>
+      <description>&lt;p&gt;I was fortunate enough to attend &lt;a href=&#34;https://databricks.com/sparkaisummit/north-america&#34;&gt;Spark + AI Summit&lt;/a&gt; in San Francisco in April 2019. This page contains links to all my notes from the talks I listened to.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>How I built my (old) website</title>
       <link>/posts/about_website.html</link>
-      <pubDate>Mon, 29 Apr 2019 00:00:00 -0500</pubDate>
+      <pubDate>Mon, 29 Apr 2019 00:00:00 -0400</pubDate>
       
       <guid>/posts/about_website.html</guid>
-      <description>&lt;p&gt;You may have noticed that the &lt;a href=&#34;https://github.com/tuchandra/sitev1&#34;&gt;Github repo&lt;/a&gt; for this website has a tagline &amp;ldquo;&amp;hellip; for people who &lt;em&gt;aren&#39;t&lt;/em&gt; web developers.&amp;rdquo; I am a data scientist and certainly fit that description, and so I&#39;m going to talk about how I built this site using the tools I already know.&lt;/p&gt;
+      <description>&lt;p&gt;You may have noticed that the &lt;a href=&#34;https://github.com/tuchandra/sitev1&#34;&gt;Github repo&lt;/a&gt; for this website has a tagline &amp;ldquo;&amp;hellip; for people who &lt;em&gt;aren&amp;rsquo;t&lt;/em&gt; web developers.&amp;rdquo; I am a data scientist and certainly fit that description, and so I&amp;rsquo;m going to talk about how I built this site using the tools I already know.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Update (Jan. 2, 2020)&lt;/strong&gt;: This post is outdated! See &lt;a href=&#34;/posts/migrating_to_hugo.html&#34;&gt;Migrating to Hugo&lt;/a&gt; for information on the new site.&lt;/p&gt;</description>
     </item>
     
@@ -135,7 +144,7 @@
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>/about/</guid>
-      <description>Hi, I&#39;m Tushar. I&#39;m a data scientist at Nielsen in Chicago, IL. I have an interest in human-computer interaction and how technology &amp;amp; new media are affecting our lives. On this site, I write summaries of papers that interest me along with other articles or talks.
+      <description>Hi, I&amp;rsquo;m Tushar. I&amp;rsquo;m a data scientist at Nielsen in Chicago, IL. I have an interest in human-computer interaction and how technology &amp;amp; new media are affecting our lives. On this site, I write summaries of papers that interest me along with other articles or talks.
 I can be reached at:
  Github: tuchandra Email: me [at] tusharc [dot] dev  </description>
     </item>

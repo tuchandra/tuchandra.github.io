@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Comparing my old and new sites, part 2</title>
+      <link>/posts/site_comparison_part2.html</link>
+      <pubDate>Tue, 21 Jan 2020 00:00:00 -0500</pubDate>
+      
+      <guid>/posts/site_comparison_part2.html</guid>
+      <description>&lt;p&gt;In a &lt;a href=&#34;/posts/site_comparison.html&#34;&gt;previous post&lt;/a&gt;, I compared the features of my old and new site. This is part 2 of that post, focusing on things that I missed then that have only come up after a few weeks of using the site.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>What I read this week (January 12 - 18)</title>
       <link>/what_i_read/20200118.html</link>
       <pubDate>Sat, 18 Jan 2020 00:00:00 +0000</pubDate>
@@ -23,16 +32,16 @@
     <item>
       <title>Software engineering is an essential part of data science</title>
       <link>/posts/software_in_dsci.html</link>
-      <pubDate>Mon, 13 Jan 2020 00:00:00 -0600</pubDate>
+      <pubDate>Mon, 13 Jan 2020 00:00:00 -0500</pubDate>
       
       <guid>/posts/software_in_dsci.html</guid>
-      <description>&lt;p&gt;Good software engineering is an indispensible part of good data science. I&#39;ve believed this for a while, but only recently come to feel strongly about it, and this post goes into more detail on why.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Good software engineering is an indispensible part of good data science. I&amp;rsquo;ve believed this for a while, but only recently come to feel strongly about it, and this post goes into more detail on why.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>[Paper] &#39;This Post Will Just Get Taken Down&#39;: Characterizing Removed Pro-Eating Disorder Content on Social Media</title>
       <link>/papers/removed_pro_ed_chancellor.html</link>
-      <pubDate>Sat, 11 Jan 2020 00:00:00 -0600</pubDate>
+      <pubDate>Sat, 11 Jan 2020 00:00:00 -0500</pubDate>
       
       <guid>/papers/removed_pro_ed_chancellor.html</guid>
       <description>&lt;p&gt;This is a social computing paper analyzing characteristics of over 30,000 pro-eating disorder (pro-ED) posts that were removed from Instagram after having been public at one time. The authors built a classifier for removed pro-ED posts against non-removed ones, and also studied the characteristics of removed posts more generally. Published in CHI 2016.&lt;/p&gt;</description>
@@ -44,16 +53,16 @@
       <pubDate>Sat, 11 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>/what_i_read/20200111.html</guid>
-      <description>&lt;p&gt;Articles I read this week, including predictions for 2020 and FiveThirtyEight&#39;s primary methodology.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Articles I read this week, including predictions for 2020 and FiveThirtyEight&amp;rsquo;s primary methodology.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Comparing my old and new sites</title>
       <link>/posts/site_comparison.html</link>
-      <pubDate>Mon, 06 Jan 2020 00:00:00 -0600</pubDate>
+      <pubDate>Mon, 06 Jan 2020 00:00:00 -0500</pubDate>
       
       <guid>/posts/site_comparison.html</guid>
-      <description>&lt;p&gt;I migrated my site a couple of days ago. What are some of the differences, both feature-wise and visually? I&#39;ll compare common actions on both.&lt;/p&gt;</description>
+      <description>&lt;p&gt;I migrated my site a couple of days ago. What are some of the differences, both feature-wise and visually? I&amp;rsquo;ll compare common actions on both.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -68,7 +77,7 @@
     <item>
       <title>[Paper] Competition and Crowd-out for Brand Keywords in Sponsored Search</title>
       <link>/papers/competition_crowd_out_simonov.html</link>
-      <pubDate>Fri, 03 Jan 2020 15:24:00 -0600</pubDate>
+      <pubDate>Fri, 03 Jan 2020 15:24:00 -0500</pubDate>
       
       <guid>/papers/competition_crowd_out_simonov.html</guid>
       <description>&lt;p&gt;Another paper on digital search advertising, this one on the effects of competition on ads placed on brand keyword searches. This was another study reacting to the eBay study on own-brand advertising.&lt;/p&gt;</description>
@@ -77,7 +86,7 @@
     <item>
       <title>[Paper] Firms&#39; Reactions to Public Information on Business Practices: Case of Search Advertising</title>
       <link>/papers/reactions_to_search_ads_rao.html</link>
-      <pubDate>Fri, 03 Jan 2020 14:00:00 -0600</pubDate>
+      <pubDate>Fri, 03 Jan 2020 14:00:00 -0500</pubDate>
       
       <guid>/papers/reactions_to_search_ads_rao.html</guid>
       <description>&lt;p&gt;This is a paper evaluating the effects of the infamous eBay online advertising experiment, in which eBay pulled millions of dollars of own-brand advertising and saw no measurable effect on web traffic. The study (using data from Bing) evaluated how other companies reacted to this news.&lt;/p&gt;</description>
@@ -86,20 +95,20 @@
     <item>
       <title>Migrating to Hugo</title>
       <link>/posts/migrating_to_hugo.html</link>
-      <pubDate>Thu, 02 Jan 2020 00:00:00 -0600</pubDate>
+      <pubDate>Thu, 02 Jan 2020 00:00:00 -0500</pubDate>
       
       <guid>/posts/migrating_to_hugo.html</guid>
-      <description>&lt;p&gt;Hello, Hugo! This post marks the first one written specifically for the new version of my site, built with &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt;. In this post, I&#39;ll outline some of the reasons for switching to Hugo and talk about the process of moving everything over.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Hello, Hugo! This post marks the first one written specifically for the new version of my site, built with &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt;. In this post, I&amp;rsquo;ll outline some of the reasons for switching to Hugo and talk about the process of moving everything over.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Reading List</title>
       <link>/reading/</link>
-      <pubDate>Thu, 02 Jan 2020 00:00:00 -0600</pubDate>
+      <pubDate>Thu, 02 Jan 2020 00:00:00 -0500</pubDate>
       
       <guid>/reading/</guid>
-      <description>&lt;p&gt;This is a page of things I&#39;m hoping to read &amp;ldquo;soon&amp;rdquo; (for some value of soon). It&#39;s some cross between a digital bookshelf and public bookmarks, where I drop papers that cross my radar or blog posts, talks, or other ideas.&lt;/p&gt;
-&lt;p&gt;Some of these I&#39;ve printed out and carry around with me. Others are unlikely to ever be read because they&#39;re so far out of my areas of expertise or interest. While this page is mostly for my own reference, it also pretty broadly shows the types of work I&#39;m interested in.&lt;/p&gt;</description>
+      <description>&lt;p&gt;This is a page of things I&amp;rsquo;m hoping to read &amp;ldquo;soon&amp;rdquo; (for some value of soon). It&amp;rsquo;s some cross between a digital bookshelf and public bookmarks, where I drop papers that cross my radar or blog posts, talks, or other ideas.&lt;/p&gt;
+&lt;p&gt;Some of these I&amp;rsquo;ve printed out and carry around with me. Others are unlikely to ever be read because they&amp;rsquo;re so far out of my areas of expertise or interest. While this page is mostly for my own reference, it also pretty broadly shows the types of work I&amp;rsquo;m interested in.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -108,7 +117,7 @@
       <pubDate>Tue, 31 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>/resume/</guid>
-      <description>&lt;p&gt;I&#39;m currently a data scientist at Nielsen. I did my master&#39;s in computer science and undergrad in computer science and the &lt;a href=&#34;https://www.isp.northwestern.edu/&#34;&gt;Integrated Science Program&lt;/a&gt;, both at Northwestern (go &amp;lsquo;cats!). My email address is me@(this domain).&lt;/p&gt;</description>
+      <description>&lt;p&gt;I&amp;rsquo;m currently a data scientist at Nielsen. I did my master&amp;rsquo;s in computer science and undergrad in computer science and the &lt;a href=&#34;https://www.isp.northwestern.edu/&#34;&gt;Integrated Science Program&lt;/a&gt;, both at Northwestern (go &amp;lsquo;cats!). My email address is me@(this domain).&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -153,7 +162,7 @@
       <pubDate>Fri, 27 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>/posts/talk_kidd_neurips.html</guid>
-      <description>&lt;p&gt;This is a summary of Celeste Kidd&#39;s invited talk at NeurIPS 2019, &lt;a href=&#34;https://slideslive.com/38921495/how-to-know&#34;&gt;How to Know&lt;/a&gt;, plus some thoughts at the end.&lt;/p&gt;</description>
+      <description>&lt;p&gt;This is a summary of Celeste Kidd&amp;rsquo;s invited talk at NeurIPS 2019, &lt;a href=&#34;https://slideslive.com/38921495/how-to-know&#34;&gt;How to Know&lt;/a&gt;, plus some thoughts at the end.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -162,7 +171,7 @@
       <pubDate>Thu, 26 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>/posts/imagenet_bias_wired.html</guid>
-      <description>&lt;p&gt;This post is a reflection on two articles, &lt;a href=&#34;https://www.wired.com/story/viral-app-labels-you-isnt-what-you-think/&#34;&gt;The viral app that labels you isn&#39;t quite what you think&lt;/a&gt; and &lt;a href=&#34;https://www.wired.com/story/ai-biased-how-scientists-trying-fix/&#34;&gt;AI is biased. Here&#39;s how scientists are trying to fix it&lt;/a&gt;, both from Wired.&lt;/p&gt;</description>
+      <description>&lt;p&gt;This post is a reflection on two articles, &lt;a href=&#34;https://www.wired.com/story/viral-app-labels-you-isnt-what-you-think/&#34;&gt;The viral app that labels you isn&amp;rsquo;t quite what you think&lt;/a&gt; and &lt;a href=&#34;https://www.wired.com/story/ai-biased-how-scientists-trying-fix/&#34;&gt;AI is biased. Here&amp;rsquo;s how scientists are trying to fix it&lt;/a&gt;, both from Wired.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -171,7 +180,7 @@
       <pubDate>Sat, 21 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>/what_i_read/20191221.html</guid>
-      <description>&lt;p&gt;Summaries of articles and blog posts that I&#39;ve read this week, including articles on NeurIPS and many short posts.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Summaries of articles and blog posts that I&amp;rsquo;ve read this week, including articles on NeurIPS and many short posts.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -180,16 +189,7 @@
       <pubDate>Wed, 18 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>/papers/introspection_echo_chamber_gillani.html</guid>
-      <description>&lt;p&gt;It&#39;s well-known that &amp;ldquo;echo chambers&amp;rdquo; exist online, but to what extent are people aware of them? This paper studies that question by introducing an application to visualize how politically active and polarized users&amp;rsquo; Twitter networks are.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>What I read this week (December 8 - 14)</title>
-      <link>/what_i_read/20191214.html</link>
-      <pubDate>Sat, 14 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/what_i_read/20191214.html</guid>
-      <description>&lt;p&gt;Similar to last week, here are summaries of blog posts, articles, or news that I read this week.&lt;/p&gt;</description>
+      <description>&lt;p&gt;It&amp;rsquo;s well-known that &amp;ldquo;echo chambers&amp;rdquo; exist online, but to what extent are people aware of them? This paper studies that question by introducing an application to visualize how politically active and polarized users&amp;rsquo; Twitter networks are.&lt;/p&gt;</description>
     </item>
     
   </channel>
