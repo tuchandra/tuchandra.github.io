@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>
+        [Paper] Modeling Organizational Culture with Workplace Experiences Shared on Glassdoor - Tushar Chandra
+      </title>
+    <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="Cache-Control" content="no-transform" />
+  <meta http-equiv="Cache-Control" content="no-siteapp" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="format-detection" content="telephone=no,email=no,adress=no">
+  
+  <meta name="theme-color" content="#000000" />
+  <meta http-equiv="window-target" content="_top" />
+  
+  <meta name="description" content="Glassdoor is a valuable source of data on what life is like at different companies, and in particular the organizational culture there. To what extent can organizational culture be modeled using word embeddings? Is it useful for predicting job performance. This paper, from the De Choudhury lab at Georgia Tech, investigates.
+" />
+  <meta name="generator" content="Hugo 0.70.0 with theme pure" />
+  <title>[Paper] Modeling Organizational Culture with Workplace Experiences Shared on Glassdoor - Tushar Chandra</title>
+  
+
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
+  <meta property="og:title" content="[Paper] Modeling Organizational Culture with Workplace Experiences Shared on Glassdoor" />
+<meta property="og:description" content="Glassdoor is a valuable source of data on what life is like at different companies, and in particular the organizational culture there. To what extent can organizational culture be modeled using word embeddings? Is it useful for predicting job performance. This paper, from the De Choudhury lab at Georgia Tech, investigates." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/papers/modeling_org_culture_dasswain.html" />
+<meta property="article:published_time" content="2020-05-11T00:00:00-04:00" />
+<meta property="article:modified_time" content="2020-05-11T00:00:00-04:00" />
+<meta itemprop="name" content="[Paper] Modeling Organizational Culture with Workplace Experiences Shared on Glassdoor">
+<meta itemprop="description" content="Glassdoor is a valuable source of data on what life is like at different companies, and in particular the organizational culture there. To what extent can organizational culture be modeled using word embeddings? Is it useful for predicting job performance. This paper, from the De Choudhury lab at Georgia Tech, investigates.">
+<meta itemprop="datePublished" content="2020-05-11T00:00:00-04:00" />
+<meta itemprop="dateModified" content="2020-05-11T00:00:00-04:00" />
+<meta itemprop="wordCount" content="1569">
+
+
+
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="[Paper] Modeling Organizational Culture with Workplace Experiences Shared on Glassdoor"/>
+<meta name="twitter:description" content="Glassdoor is a valuable source of data on what life is like at different companies, and in particular the organizational culture there. To what extent can organizational culture be modeled using word embeddings? Is it useful for predicting job performance. This paper, from the De Choudhury lab at Georgia Tech, investigates."/>
+</head>
+  </head>
+  
+
+  <body class="main-center theme-blue" itemscope itemtype="http://schema.org/WebPage"><header class="header" itemscope itemtype="http://schema.org/WPHeader">
+    <div class="slimContent">
+      <div class="navbar-header">
+        <div class="profile-block text-center">
+          <a id="avatar" href="/">
+            <img class="img-circle" src="/headshot.jpg" width="200" height="200">
+          </a>
+          <h2 id="name" class="hidden-xs hidden-sm"><b>Tushar Chandra</b></h2>
+          <h3 id="title" class="hidden-xs hidden-sm hidden-md">Data Scientist</h3>
+          <small id="location" class="text-muted hidden-xs hidden-sm"><i class="icon icon-map-marker"></i> Chicago, IL</small>
+        </div>
+
+        
+        <nav id="mobile-navbar" itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation">
+          <ul class="mobile-nav">
+              <a href="/">
+                <li class="menu-item-home">
+                    <i class="icon icon-home-fill"></i>
+                  <span class="menu-title"><br>Home</span>
+                </li>
+              </a>
+              <a href="/about">
+                <li class="menu-item-about">
+                    <i class="icon icon-cup-fill"></i>
+                  <span class="menu-title"><br>About</span>
+                </li>
+              </a>
+              <a href="/resume">
+                <li class="menu-item-resume">
+                    <i class="icon icon-file"></i>
+                  <span class="menu-title"><br>Resume</span>
+                </li>
+              </a>
+              <a href="/reading">
+                <li class="menu-item-reading">
+                    <i class="icon icon-shu-fill"></i>
+                  <span class="menu-title"><br>Reading</span>
+                </li>
+              </a>
+              <a href="/categories.html">
+                <li class="menu-item-categories">
+                    <i class="icon icon-folder-open"></i>
+                  <span class="menu-title"><br>Categories</span>
+                </li>
+              </a>
+              <a href="/posts.html">
+                <li class="menu-item-archives">
+                    <i class="icon icon-archives-fill"></i>
+                  <span class="menu-title"><br>Archives</span>
+                </li>
+              </a>
+
+          </ul>
+        </nav>
+      </div>
+      <nav id="main-navbar" class="collapse navbar-collapse" itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation">
+        <ul class="nav navbar-nav main-nav">
+            <li class="menu-item menu-item-home">
+                <a href="/">
+                    <i class="icon icon-home-fill"></i>
+                  <span class="menu-title">Home</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-about">
+                <a href="/about">
+                    <i class="icon icon-cup-fill"></i>
+                  <span class="menu-title">About</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-resume">
+                <a href="/resume">
+                    <i class="icon icon-file"></i>
+                  <span class="menu-title">Resume</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-reading">
+                <a href="/reading">
+                    <i class="icon icon-shu-fill"></i>
+                  <span class="menu-title">Reading</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-categories">
+                <a href="/categories.html">
+                    <i class="icon icon-folder-open"></i>
+                  <span class="menu-title">Categories</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-archives">
+                <a href="/posts.html">
+                    <i class="icon icon-archives-fill"></i>
+                  <span class="menu-title">Archives</span>
+                </a>
+            </li>
+
+        </ul>
+      </nav>
+    </div>
+  </header>
+<aside class="sidebar" itemscope itemtype="http://schema.org/WPSideBar">
+  <div class="slimContent">
+    <div class="widget">
+    <h3 class="widget-title"> Categories</h3>
+    <div class="widget-body">
+        <ul class="category-list">
+            <li class="category-list-item"><a href="/categories/books.html" class="category-list-link">books</a><span class="category-list-count">5</span></li>
+            <li class="category-list-item"><a href="/categories/chi2020.html" class="category-list-link">chi2020</a><span class="category-list-count">14</span></li>
+            <li class="category-list-item"><a href="/categories/general.html" class="category-list-link">general</a><span class="category-list-count">30</span></li>
+            <li class="category-list-item"><a href="/categories/papers.html" class="category-list-link">papers</a><span class="category-list-count">39</span></li>
+            <li class="category-list-item"><a href="/categories/projects.html" class="category-list-link">projects</a><span class="category-list-count">5</span></li>
+            <li class="category-list-item"><a href="/categories/self.html" class="category-list-link">self</a><span class="category-list-count">3</span></li>
+            <li class="category-list-item"><a href="/categories/spark.html" class="category-list-link">spark</a><span class="category-list-count">13</span></li>
+            <li class="category-list-item"><a href="/categories/what-i-read.html" class="category-list-link">what-i-read</a><span class="category-list-count">24</span></li>
+        </ul>
+    </div>
+</div>
+<div class="widget">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget-body">
+        <ul class="recent-post-list list-unstyled no-thumbnail">
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/papers/modeling_org_culture_dasswain.html" class="title">[Paper] Modeling Organizational Culture with Workplace Experiences Shared on Glassdoor</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-05-11 00:00:00 -0400 EDT" itemprop="datePublished">2020-05-11</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/posts/password_tool_4.html" class="title">A data scientist builds a web app</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-05-11 00:00:00 &#43;0000 UTC" itemprop="datePublished">2020-05-11</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/posts/password_tool_3.html" class="title">A data scientist builds a web app</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-05-10 00:00:00 &#43;0000 UTC" itemprop="datePublished">2020-05-10</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/papers/computational_notebooks_chattopadhyay.html" class="title">[Paper] What&#39;s Wrong with Computational Notebooks? Pain Points, Needs, and Design Opportunities</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-05-09 00:00:00 -0400 EDT" itemprop="datePublished">2020-05-09</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/papers/undestanding_data_iteration_ml_hohman.html" class="title">[Paper] Understanding and Visualizing Data Iteration in Machine Learning</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-05-08 00:00:00 -0400 EDT" itemprop="datePublished">2020-05-08</time>
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+  </div>
+</aside>
+
+    
+    
+<main class="main" role="main"><div class="content">
+  <article id="-" class="article article-type-" itemscope
+    itemtype="http://schema.org/BlogPosting">
+    
+    <div class="article-header">
+      <h1 itemprop="name">
+  <a
+    class=""
+    href="/papers/modeling_org_culture_dasswain.html"
+    >[Paper] Modeling Organizational Culture with Workplace Experiences Shared on Glassdoor</a
+  >
+</h1>
+
+      <div class="article-meta">
+        <span class="article-date">
+  <i class="icon icon-calendar-check"></i>
+<a href="/papers/modeling_org_culture_dasswain.html">
+  <time datetime="2020-05-11 00:00:00 -0400 EDT" itemprop="datePublished">2020-05-11</time>
+</a>
+</span><span class="article-category">
+  <i class="icon icon-folder"></i>
+    <a class="article-category-link" href="/categories/papers.html"> papers, </a>
+    <a class="article-category-link" href="/categories/chi2020.html"> chi2020, </a>
+</span>
+
+        
+      </div>
+    </div>
+    <div class="article-entry marked-body js-toc-content" itemprop="articleBody">
+      <p>Glassdoor is a valuable source of data on what life is like at different companies, and in particular the <em>organizational culture</em> there. To what extent can organizational culture be modeled using word embeddings? Is it useful for predicting job performance. This paper, from the De Choudhury lab at Georgia Tech, investigates.</p>
+<p><strong>Authors</strong>: Vedant Das Swain, Koustuv Saha, Manikanta D. Reddy, Hemang Rajvanshy, Gregory D. Abowd, Munmun De Choudhury</p>
+<p><strong>Link</strong>: <a href="https://dl.acm.org/doi/abs/10.1145/3313831.3376793">ACM Digital Library</a></p>
+<p>I&rsquo;m hoping to timebox this paper review to an hour, because these are fulfilling but are taking way more of my time than I&rsquo;d like, so here goes.</p>
+<h2 id="background">Background</h2>
+<p><em>Organizational culture</em> (and in this paper, the culture of a workplace) &ldquo;encompasses the underlying beliefs, values, and practices&rdquo; of an organization. Glassdoor is one source of insight into OC, and this paper makes use of Glassdoor data to operationalize and quantify OC. From the abstract:</p>
+<blockquote>
+<p>We use multiple job descriptors to operationalize OC as a word vector representation. We validate this construct with language used in 650k different Glassdoor reviews. Next, we propose a methodology to apply our construct on Glassdoor reviews to quantify the OC of employees by sector. We validate our measure of OC on a dataset of 341 employees by providing empirical evidence that it helps explain job performance. We discuss the implications of our work in guiding tailored interventions and designing tools for improving employee functioning.</p>
+</blockquote>
+<p>I&rsquo;m glad that the abstract mentions their validation, as that was the first question I had; it also (hopefully) means that it will play a large role in the paper.</p>
+<p>Companies have a variety of strategies for attempting to understand their own culture&mdash;employee engagement surveys are the most common. (And I actually worked on Qualtrics&rsquo; EE platform, used by many large and small organizations, in 2017!) Naturally, these aren&rsquo;t always accurate, as questions of confidentiality or retailiation may underlie them.</p>
+<p>Glassdoor is another source of information on organizational culture; it can be harder to understand, and also biased (people with negative opinions may be more likely to leave a review), but certainly valuable.</p>
+<blockquote>
+<p>Take for instance a review that states, &ldquo;<em>[Company] work was horrible, and upper management is poor at recognizing achievement, but the opportunity to work with my colleagues kept me coming in daily.</em>&rdquo; The language in this shared experience reflects an organizational culture where recognition is not prioritized but concern for others and cooperation is upheld. In fact, through the affordance of descriptive text, platforms like Glassdoor provide an accessible, scalable and flexible medium to express cultural and ecological differences.</p>
+</blockquote>
+<p>The goals of this paper are (1) to operationalize and validate OC as a multidimensional construct (word vector), and (2) to model OC of a sector and see if it can explain job performance. Super interesting!</p>
+<h2 id="operationalizing-organizational-culture">Operationalizing organizational culture</h2>
+<p>The authors take a three-step approach: (1) identifying the multiple dimensions of OC (2) transforming descriptions into word vectors (3) comparing the word-vector-based OC with posts qualitatively, and use this to establish validity.</p>
+<p><strong>(1)</strong>: the authors took the 189 job descriptors from Occupational Information Network (O*Net), by the US Department of Labor. They had two raters decide which were related to organizational culture (and not to characteristics of the job itself), based on four existing OC frameworks, leaving 41 descriptors. This domain-driven approach makes sure that their idea of OC is valid from the start.</p>
+<p><strong>(2)</strong>: the 41 descriptors were transformed into a 50-dimensional word vector using pretrained GloVe embeddings. Easy enough.</p>
+<table>
+<thead>
+<tr>
+<th>Category</th>
+<th>Organizational Culture Dimensions</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Interests</td>
+<td>Conventional, Enterprising, Social</td>
+</tr>
+<tr>
+<td>Work Values</td>
+<td>Relationships, Support, Achievement, Independence, Recognition, Working Conditions</td>
+</tr>
+<tr>
+<td>Wk. Activities</td>
+<td>Assisting &amp; Caring for Others, Establishing &amp; Maintaining Relationships, Guiding &amp; Motivating Subordinates, Monitoring &amp; Controlling Resources, Training &amp; Teaching Others, Coaching &amp; Developing Others, Developing &amp; Building Teams, Resolving Conflicts &amp; Negotiating</td>
+</tr>
+<tr>
+<td>Social Skills</td>
+<td>Instructing, Service Orientation</td>
+</tr>
+<tr>
+<td>Struct. Job Characteristics*</td>
+<td>Consequence of Error, Importance of Being Exact, Level of Competition, Work Schedules, Frequency of Decision Making, Freedom to Make Decisions, Structured versus Unstructured Work</td>
+</tr>
+<tr>
+<td>Work Styles</td>
+<td>Concern for Others, Leadership, Social Orientation, Independence, Integrity, Stress Tolerance, Self Control, Adaptability, Cooperation, Initiative, Achievement</td>
+</tr>
+<tr>
+<td>Interpersonal Relationships*</td>
+<td>Frequency of Conflict Situations, Face-to-Face Discussions, Responsibility for Outcomes &amp; Results, Work w. Group or Team</td>
+</tr>
+</tbody>
+</table>
+<p><em>Table</em> (reproduced from the paper): the 41 descriptors used to model organizational culture.</p>
+<p><strong>(3)</strong>: validation! First, the authors scraped reviews of the top 100 companies of the <em>Fortune 500</em>. They created word vectors for each sentence, then computed the cosine similarity between the sentences and each of 41 OC vectors, and kept sentences that had an 0.9 similarity or higher with any dimension. This was to keep sentences relevant to OC.</p>
+<blockquote>
+<p>We draw upon the validity theory [87], to establish face and construct validity of contextualizing OC in Glassdoor data by qualitatively examining the importance of the keywords in the OC dimensions.</p>
+</blockquote>
+<p>I know that this is well-studied and trust that social scientists know what they&rsquo;re doing, but I don&rsquo;t know how these methods came to be. Perhaps ([87])[https://www.microsoft.com/en-us/research/publication/social-data-biases-methodological-pitfalls-ethical-boundaries/] is future reading for me. I trust the authors writing &ldquo;The evidence we have provided indicates that the OC construct built from curated O*Net job aspect descriptors can capture the OC-related language used in Glassdoor reviews.&rdquo;</p>
+<h2 id="modeling-oc-and-studying-its-impact-on-job-performance">Modeling OC and studying its impact on job performance</h2>
+<p>The authors obtained a ground-truth dataset of job performance from the Tesserae project. It contained individual attributes (demographics, Big Five personality indicators, executive function measures) and two job performance metrics (in-role behavior &amp; organizational citizenship behavior). Participants were grouped into 18 sectors based on role (&ldquo;business and financial operations,&rdquo; &ldquo;computer and mathematical,&rdquo; generic &ldquo;management,&rdquo; &ldquo;healthcare practitioner,&rdquo; etc.).</p>
+<blockquote>
+<p>Since culture is a collectively experienced and manifested, we consider experiences expressed by employees who share a common basis, such as a team, department or sector in an organization. Such an approach facilitates a robust and replicable mechanism to study OC both between and within organizations – as prior work investigated the phenomenon on varying levels of organizational granularity [40, 114]. <strong>In as much, we are motivated by recent social media language analyses that use word embeddings [104, 105] to model OC.</strong></p>
+</blockquote>
+<p>Using the same word embeddings, the authors take reviews from Glassdoor for each company / sector combinatino. They apply the cosine similarity to each dimension of OC, multiply the similarity by +1 or -1 depending on if the sentence was listed as a &ldquo;pro&rdquo; or &ldquo;con&rdquo; within the Glassdoor review, and construct a 41-D vector of that company &amp; sector&rsquo;s culture.</p>
+<p><strong>Modeling</strong>: The authors build two models of job performance&mdash;one using just individual attributes (age, gender, tenure, executive function, personality, org. sector), and one using all those plus the 41-dimensional culture vector. They tested linear regressions (lasso, ridge, and elastic net, i.e., L1, L2, and L1 + L2), an SVM, and a random forest.</p>
+<p>The model including culture features performs better than the model without. They test another baseline, using only the mean rating within a sector instead of OC features, and it barely outperforms the original, indicating that language (and its multidimensional representation) was indeed helpful here.</p>
+<h2 id="discussion">Discussion</h2>
+<p>The most interesting implication for me is in going beyond numerical surveys. There&rsquo;s a lot of promise in being able to automatically use text reviews to better understand OC in the cases where the data volume is too large for manual review. The multidimensional nature of OC is important, too.</p>
+<p>That the authors just used pretrained word vectors speaks to how much information is packed into those! I also wonder what kinds of biases are present in those embeddings. That&rsquo;s of course out of scope for this paper, but are there companies whose Glassdoor reviews are more aligned with other biased text sources than others? Are there ways that these reviews could hint at internal biases within companies?</p>
+<p>The authors discuss how companies might apply this data:</p>
+<blockquote>
+<p>Our approach helps to quantitatively assess OC. Moreover, its multi-dimensional nature can allow a company unpack the atmosphere developing within the workplace through questions like: “Does our culture support work-life balance? Does our organization enhance employee creativity? Or is it concentrated only on productivity? Do we celebrate, incentivize, reward, recognize individual efforts well enough? Do we have enough collaboration? Do employees enjoy doing that?” <strong>Importantly, with an ability to quantitatively gauge OC, companies can inspect how well leadership structures model behaviors that embody the company culture,</strong> how important events (e.g., IPOs, product releases), may impact the culture, and what steps might address issues of unhealthy culture.</p>
+</blockquote>
+<p><strong>Ethical implications</strong> (wow, I&rsquo;m glad this was included!): is Glassdoor data meaningful? Probably, based on verification processes and their TOS, but it can still be a target of abuse. Dissatisfied employees might be more likely to leave a review, which is my single biggest question about the <em>entire</em> paper: to what extent is Glassdoor actually representative of an organization&rsquo;s culture, and not just the culture of the people who are motivated to post there?</p>
+<p>There are also questions about how, if companies were to use methods like this, smaller companies might be the target of disgruntled employees or malicious actors intentionally tanking their culture reviews. There are other potential harms with crowdsourced data, too, like that the Glassdoor platform norms are not considered here. This type of quantitative modeling could be an attack vector.</p>
+<p>This was a good read! I&rsquo;m glad to have knocked it off my list, and I came <em>close</em> to finishing it in an hour. But these used to take me an afternoon, so we&rsquo;ll get there.</p>
+    </div>
+    <div class="article-footer">
+    </div>
+  </article>
+</div><nav class="bar bar-footer clearfix" data-stick-bottom>
+    <div class="bar-inner">
+        <ul class="pager pull-left">
+            <li class="prev">
+                <a href="/posts/password_tool_4.html" title="A data scientist builds a web app"><i
+                        class="icon icon-angle-left"
+                        aria-hidden="true"></i><span>&nbsp;&nbsp;Older</span></a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+</main><footer class="footer" itemscope itemtype="http://schema.org/WPFooter">
+<ul class="social-links">
+    <li><a href="https://github.com/tuchandra" target="_blank" title="github" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-github"></i></a></li>
+    <li><a href="https://www.linkedin.com/in/tushar-chandra-76a623b6/" target="_blank" title="linkedin" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-linkedin"></i></a></li>
+    <li><a href="/index.xml" target="_blank" title="rss" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-rss"></i></a></li>
+</ul>
+  <div class="copyright">
+    &copy; 2019 - 2020 Tushar Chandra
+    <p style="margin-bottom: 4px">All opinions are my own.</p>
+    <div class="publishby">
+        Theme: <a href="https://github.com/xiaoheiAh/hugo-theme-pure" target="_blank">Hugo Pure</a>.
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_SVG"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+            showMathMenu: false, //disables context menu
+            tex2jax: {
+            inlineMath: [ ['$','$'], ['\\(','\\)'] ]
+           }
+    });
+</script>
+
+
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/highlight.min.js"></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/python.min.js"></script><script>
+    hljs.configure({
+        tabReplace: '    ', 
+        classPrefix: ''     
+        
+    })
+    hljs.initHighlightingOnLoad();
+</script>
+
+  </body>
+</html>
