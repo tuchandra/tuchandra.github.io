@@ -6,7 +6,7 @@
     <description>Recent content in projects on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 11 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 10 May 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/categories/projects/index.xml" rel="self" type="application/rss+xml" />
     
@@ -18,15 +18,6 @@
       
       <guid>/papers/modeling_org_culture_dasswain.html</guid>
       <description>&lt;p&gt;Glassdoor is a valuable source of data on what life is like at different companies, and in particular the &lt;em&gt;organizational culture&lt;/em&gt; there. To what extent can organizational culture be modeled using word embeddings? Is it useful for predicting job performance. This paper, from the De Choudhury lab at Georgia Tech, investigates.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>A data scientist builds a web app</title>
-      <link>/posts/password_tool_4.html</link>
-      <pubDate>Mon, 11 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/password_tool_4.html</guid>
-      <description></description>
     </item>
     
     <item>
@@ -189,6 +180,15 @@
       
       <guid>/what_i_read/20200425.html</guid>
       <description>&lt;p&gt;I didn&amp;rsquo;t read much this week, due to a project I&amp;rsquo;m working on that I&amp;rsquo;ll write more about soon. One evening, I sat down to work through a couple things that popped up, thoguh.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>A variety of talks from ACM FAT* 2020</title>
+      <link>/papers/acm_fat2020_talks.html</link>
+      <pubDate>Sun, 19 Apr 2020 00:00:00 -0400</pubDate>
+      
+      <guid>/papers/acm_fat2020_talks.html</guid>
+      <description>&lt;p&gt;I sat down to watch a handful of talks from ACM FAT* 2020, picked from a survey of the &lt;a href=&#34;https://facctconference.org/2020/acceptedpapers.html#sess1&#34;&gt;Accepted Papers&lt;/a&gt; list. I found this to be a good way to consume a variety of papers that I probably wouldn&amp;rsquo;t have ordinarily read.&lt;/p&gt;</description>
     </item>
     
   </channel>
