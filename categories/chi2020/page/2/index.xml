@@ -6,10 +6,19 @@
     <description>Recent content in chi2020 on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 11 May 2020 00:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 12 May 2020 00:00:00 -0400</lastBuildDate>
     
         <atom:link href="/categories/chi2020/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>A variety of talks from ACM FAT* 2020</title>
+      <link>/papers/acm_fat2020_talks.html</link>
+      <pubDate>Sun, 19 Apr 2020 00:00:00 -0400</pubDate>
+      
+      <guid>/papers/acm_fat2020_talks.html</guid>
+      <description>&lt;p&gt;I sat down to watch a handful of talks from ACM FAT* 2020, picked from a survey of the &lt;a href=&#34;https://facctconference.org/2020/acceptedpapers.html#sess1&#34;&gt;Accepted Papers&lt;/a&gt; list. I found this to be a good way to consume a variety of papers that I probably wouldn&amp;rsquo;t have ordinarily read.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>[Paper] Auditing Radicalization Pathways on YouTube</title>
@@ -180,15 +189,6 @@
       
       <guid>/posts/is_twitter_real_life.html</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve thought, and read, a lot about the extent to which Twitter is a good signal of what&amp;rsquo;s happening in the world&amp;mdash;colloquially, the phrase being thrown around is &amp;ldquo;Twitter (is / isn&amp;rsquo;t) real life.&amp;rdquo; Much like Twitter itself, this question oversimplifies things.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>What I read recently (coronavirus edition)</title>
-      <link>/what_i_read/20200315_coronavirus.html</link>
-      <pubDate>Sun, 15 Mar 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/what_i_read/20200315_coronavirus.html</guid>
-      <description>&lt;p&gt;I didn&amp;rsquo;t get to read much this week, but I also decided to split up my weekly reading posts into the &lt;a href=&#34;/what_i_read/20200314.html&#34;&gt;usual one&lt;/a&gt; and this one, summarizing coronavirus-related pieces I&amp;rsquo;ve read.&lt;/p&gt;</description>
     </item>
     
   </channel>
