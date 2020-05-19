@@ -6,10 +6,19 @@
     <description>Recent content in Categories on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 16 May 2020 00:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 18 May 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Three article summaries (on grad school advice)</title>
+      <link>/what_i_read/20200205.html</link>
+      <pubDate>Tue, 04 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/what_i_read/20200205.html</guid>
+      <description>&lt;p&gt;Three article summaries, which I&amp;rsquo;m breaking out from my usual &amp;ldquo;what I read&amp;rdquo; posts because of the common theme (of CS research &amp;amp; grad school) that connects them.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>What I read this week (January 26 - February 1)</title>
@@ -181,15 +190,6 @@
       
       <guid>/papers/discrimination_algorithms_kleinberg_1.html</guid>
       <description>&lt;p&gt;How do algorithms affect discrimination, in the legal sense of the word? Naively, one might say that algorithms must be regulated and heavily scrutinized to avoid computers encoding human biases. This paper studies not only that, but also the opposite idea: that they can be positive forces for good. (Part 1 of 2.)&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Blaise Aguera y Arcas: Social Intelligence (NeurIPS 2019)</title>
-      <link>/posts/talk_aguera_neurips.html</link>
-      <pubDate>Sat, 28 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/talk_aguera_neurips.html</guid>
-      <description>&lt;p&gt;This is my summary of the talk by Blaise Augera y Arcas at NeurIPS 2019, &lt;a href=&#34;https://slideslive.com/38921748/social-intelligence&#34;&gt;Social Intelligence&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
   </channel>
