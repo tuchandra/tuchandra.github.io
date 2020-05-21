@@ -637,13 +637,6 @@
   </url>
   
   <url>
-    <loc>/resume/</loc>
-    <lastmod>2019-12-31T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>/papers/discrimination_algorithms_kleinberg_2.html</loc>
     <lastmod>2019-12-30T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -835,6 +828,13 @@
   <url>
     <loc>/posts/silph.html</loc>
     <lastmod>2019-10-16T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/resume/</loc>
+    <lastmod>2019-05-20T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

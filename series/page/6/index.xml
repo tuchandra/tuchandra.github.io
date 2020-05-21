@@ -11,15 +11,6 @@
     
     
     <item>
-      <title>Using papermill to wrap model runs</title>
-      <link>/posts/papermill_experiences.html</link>
-      <pubDate>Fri, 15 Nov 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/papermill_experiences.html</guid>
-      <description>&lt;p&gt;I recently started using &lt;a href=&#34;https://github.com/nteract/papermill/&#34;&gt;papermill&lt;/a&gt; from nteract to parameterize model runs. I&amp;rsquo;ve started to like it a lot, and this post will discuss my experiences with it and my current setup.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
       <title>[Paper] The Curse of Knowledge in Visual Data Communication</title>
       <link>/papers/curse_of_knowledge_xiong.html</link>
       <pubDate>Wed, 13 Nov 2019 00:00:00 +0000</pubDate>
@@ -62,6 +53,15 @@
       
       <guid>/posts/silph.html</guid>
       <description>pre::before { display: none; } pre::after { display: none; }   analysis   /*! * * Twitter Bootstrap * */ /*! * Bootstrap v3.3.7 (http://getbootstrap.com) * Copyright 2011-2016 Twitter, Inc. * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE) */ /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */ html { font-family: sans-serif; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; } body { margin: 0; } article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary { display: block; } audio, canvas, progress, video { display: inline-block; vertical-align: baseline; } audio:not([controls]) { display: none; height: 0; } [hidden], template { display: none; } a { background-color: transparent; } a:active, a:hover { outline: 0; } abbr[title] { border-bottom: 1px dotted; } b, strong { font-weight: bold; } dfn { font-style: italic; } h1 { font-size: 2em; margin: 0.</description>
+    </item>
+    
+    <item>
+      <title>Resume</title>
+      <link>/resume/</link>
+      <pubDate>Mon, 20 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/resume/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m currently a data scientist at Nielsen. I did my master&amp;rsquo;s in computer science and undergrad in computer science and the &lt;a href=&#34;https://www.isp.northwestern.edu/&#34;&gt;Integrated Science Program&lt;/a&gt;, both at Northwestern (go &amp;lsquo;cats!). My email address is me@(this domain).&lt;/p&gt;</description>
     </item>
     
     <item>
