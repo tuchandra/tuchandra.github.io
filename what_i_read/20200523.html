@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <title>
-        Modular Apache Spark: Transform Your Code into Pieces - Tushar Chandra
+        What I read this week (May 17 - May 23) - Tushar Chandra
       </title>
     <head>
   <meta charset="utf-8">
@@ -21,32 +21,32 @@
   <meta name="theme-color" content="#000000" />
   <meta http-equiv="window-target" content="_top" />
   
-  <meta name="description" content="Speaker: Albert Franzi (SWE @ Alpha Health).
+  <meta name="description" content="I spent most of my free time this week working on my island in Animal Crossing and the rescue project; but this week&amp;rsquo;s articles include an article from FB Engineering about rebuilding their main site, an article about distractions, and a host of shorter articles.
 " />
   <meta name="generator" content="Hugo 0.70.0 with theme pure" />
-  <title>Modular Apache Spark: Transform Your Code into Pieces - Tushar Chandra</title>
+  <title>What I read this week (May 17 - May 23) - Tushar Chandra</title>
   
 
   <link rel="stylesheet" href="/css/style.css">
   <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
-  <meta property="og:title" content="Modular Apache Spark: Transform Your Code into Pieces" />
-<meta property="og:description" content="Speaker: Albert Franzi (SWE @ Alpha Health)." />
+  <meta property="og:title" content="What I read this week (May 17 - May 23)" />
+<meta property="og:description" content="I spent most of my free time this week working on my island in Animal Crossing and the rescue project; but this week&rsquo;s articles include an article from FB Engineering about rebuilding their main site, an article about distractions, and a host of shorter articles." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/spark/modular_spark.html" />
-<meta property="article:published_time" content="2019-04-25T00:00:00+00:00" />
-<meta property="article:modified_time" content="2019-04-25T00:00:00+00:00" />
-<meta itemprop="name" content="Modular Apache Spark: Transform Your Code into Pieces">
-<meta itemprop="description" content="Speaker: Albert Franzi (SWE @ Alpha Health).">
-<meta itemprop="datePublished" content="2019-04-25T00:00:00&#43;00:00" />
-<meta itemprop="dateModified" content="2019-04-25T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="393">
+<meta property="og:url" content="/what_i_read/20200523.html" />
+<meta property="article:published_time" content="2020-05-23T00:00:00-04:00" />
+<meta property="article:modified_time" content="2020-05-23T00:00:00-04:00" />
+<meta itemprop="name" content="What I read this week (May 17 - May 23)">
+<meta itemprop="description" content="I spent most of my free time this week working on my island in Animal Crossing and the rescue project; but this week&rsquo;s articles include an article from FB Engineering about rebuilding their main site, an article about distractions, and a host of shorter articles.">
+<meta itemprop="datePublished" content="2020-05-23T00:00:00-04:00" />
+<meta itemprop="dateModified" content="2020-05-23T00:00:00-04:00" />
+<meta itemprop="wordCount" content="1041">
 
 
 
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Modular Apache Spark: Transform Your Code into Pieces"/>
-<meta name="twitter:description" content="Speaker: Albert Franzi (SWE @ Alpha Health)."/>
+<meta name="twitter:title" content="What I read this week (May 17 - May 23)"/>
+<meta name="twitter:description" content="I spent most of my free time this week working on my island in Animal Crossing and the rescue project; but this week&rsquo;s articles include an article from FB Engineering about rebuilding their main site, an article about distractions, and a host of shorter articles."/>
 </head>
   </head>
   
@@ -236,68 +236,78 @@
       <h1 itemprop="name">
   <a
     class=""
-    href="/spark/modular_spark.html"
-    >Modular Apache Spark: Transform Your Code into Pieces</a
+    href="/what_i_read/20200523.html"
+    >What I read this week (May 17 - May 23)</a
   >
 </h1>
 
       <div class="article-meta">
         <span class="article-date">
   <i class="icon icon-calendar-check"></i>
-<a href="/spark/modular_spark.html">
-  <time datetime="2019-04-25 00:00:00 &#43;0000 UTC" itemprop="datePublished">2019-04-25</time>
+<a href="/what_i_read/20200523.html">
+  <time datetime="2020-05-23 00:00:00 -0400 EDT" itemprop="datePublished">2020-05-23</time>
 </a>
 </span><span class="article-category">
   <i class="icon icon-folder"></i>
-    <a class="article-category-link" href="/categories/spark.html"> spark, </a>
+    <a class="article-category-link" href="/categories/what-i-read.html"> what I read, </a>
 </span>
 
         
       </div>
     </div>
     <div class="article-entry marked-body js-toc-content" itemprop="articleBody">
-      <p>Speaker: Albert Franzi (SWE @ Alpha Health).</p>
-<p>Slides available <a href="https://docs.google.com/presentation/d/19XWds36PwDeYQw3A9UwaRBZvDi5g2p79-9aljEWHknI/edit#slide=id.g41055d5fd6_0_62">here</a>. The audience was 60–70% data engineers, remainder data scientists and random others.</p>
-<h2 id="simplifying-spark-code">Simplifying Spark code</h2>
-<p>This is &ldquo;how we simplified our Spark code by modularizing it.&rdquo; Asked the questions to the data engineers:</p>
-<ul>
-<li>have you ever played with duplicated code in your Spark jobs?</li>
-<li>have you ever had a code review turn into chaos?</li>
-</ul>
-<p>Talked about how the Spark job can be fragmented into:</p>
-<ul>
-<li>readers</li>
-<li>transformers, including aliases, joins, formattesr, etc.</li>
-<li>task context</li>
-<li>writers</li>
-</ul>
-<p>For the <strong>Readers and Writers</strong>, he recommends:</p>
-<ul>
-<li>enforce schemas</li>
-<li>use schemas to read only the fields you are going to use</li>
-<li>provide Readers per dataset, and attach its sources to it</li>
-<li>share schemas and sources between Readers and Writers</li>
-<li>GDPR compliant <em>by design</em></li>
-</ul>
-<p>For <strong>Readers</strong>, he went through the code examples — just look at the slides.</p>
-<p>For <strong>Transformers</strong>, he recommends providing a list of available trasnformations to your data scientists. That&rsquo;s what Uni is trying to do, so that&rsquo;s nice. Recommends the libraries <a href="https://github.com/MrPowers/spark-daria">spark-daria</a> for Spark and <a href="https://github.com/MrPowers/quinn">quinn</a> for Pyspark specifically.</p>
-<p>For <strong>Task Contexts,</strong> you should … do … something. Have your data scientists write job runners that accept Readers and Writers as parameters (which also increases testability of the code, that&rsquo;s just dependency injection).</p>
-<p>A question was asked about how you socialize available Transformers, and what data scientists do if they don&rsquo;t find what they need … the answer boils down to organizational communication, and having data scientists contribute back to your codebase.</p>
-<p>Use currying within your Transformers to reduce reliance on schemas:</p>
-<ul>
+      <p>I spent most of my free time this week working on my island in Animal Crossing and the rescue project; but this week&rsquo;s articles include an article from FB Engineering about rebuilding their main site, an article about distractions, and a host of shorter articles.</p>
+<h2 id="rebuilding-our-tech-stack-for-the-new-facebookcomhttpsengineeringfbcomwebfacebook-redesign"><a href="https://engineering.fb.com/web/facebook-redesign/">Rebuilding our tech stack for the new Facebook.com</a></h2>
+<p>This is a Facebook Engineering blog post talking about a rearchitecting of the Facebook.com desktop site. Their two technical mantras were:</p>
+<blockquote>
+<ol>
 <li>
-<p><a href="https://medium.com/@mrpowers/chaining-custom-dataframe-transformations-in-spark-a39e315f903c">Chaining Custom DataFrame Transformations in Spark</a></p>
+<p>As little as possible, as early as possible. We should deliver only the resources we need, and we should strive to have them arrive right before we need them.</p>
 </li>
 <li>
-<p><a href="https://medium.com/@mrpowers/schema-independent-dataframe-transformations-d6b36e12dca6">Schema Independent DataFrame Transformations with Spark</a></p>
+<p>Engineering experience in service of user experience. The end goal of our development is all about the people using our website. As we think about the UX challenges on our site, we can adapt the experience to guide engineers to do the right thing by default.</p>
 </li>
+</ol>
+</blockquote>
+<p>One major change was in generating atomic CSS at build time. This helped to control a slow ballooning of their CSS; by the time of writing, they were serving over 400 KB compressed / 2 MB uncompressed of CSS.</p>
+<p>Another was incremental code downloading&mdash;they split the website loading into three &ldquo;tiers&rdquo; to help performance. The first is the basic layout: where things are and UI skeletons. Tier 2 is all the code to render what appears on the screen; after this, nothing should be visually changing as a result of code loading. Tier 3 is behind-the-scenes work like logging and subscriptions for live data.</p>
+<p>Other interesting architectural choices include:</p>
+<ul>
+<li>dynamically loading components or pieces of code when users are part of an A/B test, instead of loading both and not using one</li>
+<li>setting JavaScript budgets to stop code from ballooning in the future</li>
+<li>using GraphQL to get data as early as possible, and streaming data for e.g., News Feed posts but deferring data that&rsquo;s not needed immediately</li>
 </ul>
-<h2 id="increasing-test-coverage-of-spark-code">Increasing test coverage of Spark code</h2>
-<p>Asked the question &ldquo;who here has put untested Spark code into production?&rdquo; and someone responded &ldquo;if we test in production then everything is tested!&rdquo;</p>
-<p>Library <a href="https://github.com/holdenk/spark-testing-base">spark-testing-base</a> from Holden Karau at Google. It lets you use a shared SparkContext across tests. This boils down to &ldquo;please test your code,&rdquo; and this is made easier by testing each piece independently.</p>
-<h2 id="reducing-test-time-execution">Reducing test time execution</h2>
-<p>&ldquo;How many of you are experiencing issues where your tests take too long? … Are the rest of you the ones who aren&rsquo;t testing?&rdquo;</p>
-<p>This was fairly Scala specific, sadly, since he talked about the package Junit4Git. It basically lets you skip tests whose related code wasn&rsquo;t changed by integrating with Git. Great talk.</p>
+<p>I found the decision to do a complete rewrite interesting:</p>
+<blockquote>
+<p>A complete rewrite is extremely rare, but in this case, since so much has changed on the web over the course of the past decade, we knew it was the only way we’d be able to achieve our goals for performance and sustainable future growth.</p>
+</blockquote>
+<p>Conventional wisdom says to never rewrite your whole codebase&mdash;but Facebook is large enough (and has enough engineers) that they can rewrite both conventional wisdom and, apparently, their entire website.</p>
+<h2 id="stop-trying-to-make-hard-work-easy">Stop trying to make hard work easy</h2>
+<p>This is a an interview with a behavioral design expert, Nir Eyal.</p>
+<blockquote>
+<p>The problem is, when we expect work to be effortless and it ends up being difficult, we often blame ourselves. So the very tools we’re using to make work easier, can instead make it easier for us to give up.</p>
+</blockquote>
+<p>The barrier to getting work done, Eyal uncontroversially says, is distraction. This I&rsquo;ve heard before, but what I haven&rsquo;t is that Eyal argues that distraction is an emotional reaction to the discomfort of sitting down to work.</p>
+<p>Eyal contrasts <em>traction</em> and <em>distraction</em>, saying that since &ldquo;traction&rdquo; is any action that pulls you towards what you want to do, distraction is anything that pulls you away from what you planned to do. This includes things that <em>feel</em> productive. Most moments of distraction are caused by &ldquo;internal triggers,&rdquo; in contrast to external triggers like notifications or noise.</p>
+<p>Eyal has strategies for handling internal triggers (write it down and wait ten minutes, then decide to deal with it; or keeping two hours of time during which he will <em>only</em> write), but the key &ldquo;is that sometimes this stuff just isn&rsquo;t easy.&rdquo;</p>
+<blockquote>
+<p>When people say, “I want to start a habit,” what they’re really saying is: “I want something that&rsquo;s difficult to become effortless.” They’re saying: “I want the benefits, but I don&rsquo;t want it to be hard.”</p>
+<p>That&rsquo;s why there&rsquo;s this myth of habits, because people know the definition of a habit is a behavior done with little or no conscious thought. But I have news for you folks: writing, like many other behaviors, is hard, it requires a lot of conscious thought, at least it is for me.</p>
+</blockquote>
+<p>The post continues with the necessity of planning your time, to make time for traction. &ldquo;Your schedule should be defined by your values&rdquo;&mdash;wow, that&rsquo;s a throwback to my emotional intelligence class in my last quarter of school, in which we drove home the importance of making values-based decisions.</p>
+<p>The rest of the interview is long, and I read it but don&rsquo;t really want to write about it. But honestly, it&rsquo;s hitting home so hard that I think I will just read <a href="https://www.nirandfar.com/indistractable/">Eyals&rsquo;s book</a>.</p>
+<h2 id="shorter-articles">Shorter articles</h2>
+<p><em><a href="https://www.chuxinhuang.com/blog/working-with-data/">Working with data</a></em>* by Chuxin Huang is a reflection that Huang wrote about data-related careers.</p>
+<blockquote>
+<p>Both at work and in the book, I have to constantly remind myself that asking the right questions and building relationships are the most effective ways to help me become productive.</p>
+<p>“Asking questions helps you understand the details of your job more quickly. Building relationships allows you to understand the context of your role in the organization.”</p>
+</blockquote>
+<p>Huang also summarized the paper <a href="https://dl.acm.org/doi/10.1145/3366423.3380281">Algorithmic Effects on the Diversity of Consumption on Spotify</a>, which I&rsquo;m adding to my <a href="/reading/">reading list</a>.</p>
+<hr>
+<p><a href="https://www.cyanhall.com/posts/notes/8.javascript-cheatsheet/">Modern JavaScript Cheatsheet</a> was a quick reference of newer, more idiomatic ways of doing things in JavaScript. A lot of these were things that I didn&rsquo;t know existed&mdash;e.g., for array manipulation routines, I had used <a href="https://lodash.com/">lodash</a> as recently as 2017. Seeing the new way of doing things helped me to write better code.</p>
+<p>Perhaps more importantly, though, it helped me to appreciate JavaScript more by showing me how it&rsquo;s matured over such a short time. In some ways, working on this project has made me feel like I owe an apology to JavaScript&mdash;the newer syntax, plus incredible debugging tools, have in some ways made it <em>more</em> fun than writing the Python code here.</p>
+<hr>
+<p><a href="https://www.quantamagazine.org/graduate-student-solves-decades-old-conway-knot-problem-20200519">Graduate student solves decades old Conway knot problem</a> is an article about Lisa Piccirillo, a mathematics grad student who solved an open question about a knot that John Conway created. The details of the problem are above my head, but this article is amazingly well-written. It is written in an approachable way without dumbing things down the way that lots of popular science articles do.</p>
     </div>
     <div class="article-footer">
     </div>
@@ -306,14 +316,9 @@
     <div class="bar-inner">
         <ul class="pager pull-left">
             <li class="prev">
-                <a href="/spark/query_plans.html" title="Understanding Query Plans and Spark UIs"><i
+                <a href="/posts/password_tool_5.html" title="PMD password tool: making it all work"><i
                         class="icon icon-angle-left"
                         aria-hidden="true"></i><span>&nbsp;&nbsp;Older</span></a>
-            </li>
-            <li class="next">
-                <a href="/spark/graph_technology.html"
-                    title="How Graph Technology is Changing AI"><span>Newer&nbsp;&nbsp;</span><i
-                        class="icon icon-angle-right" aria-hidden="true"></i></a>
             </li>
         </ul>
     </div>

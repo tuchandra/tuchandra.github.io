@@ -6,10 +6,19 @@
     <description>Recent content on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 23 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 23 May 2020 00:00:00 -0400</lastBuildDate>
     
         <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>What I read this week (February 2 - February 8)</title>
+      <link>/what_i_read/20200208.html</link>
+      <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/what_i_read/20200208.html</guid>
+      <description>&lt;p&gt;Articles I read this week, including privacy micro-networks, &amp;ldquo;so-so AI,&amp;rdquo; pieces on political modeling, and more.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>[Paper] A Comparison of Approaches to Advertising Measurement: Evidence from Big Field Experiments at Facebook</title>
@@ -181,15 +190,6 @@
       <guid>/reading/</guid>
       <description>&lt;p&gt;This is a page of things I&amp;rsquo;m hoping to read &amp;ldquo;soon&amp;rdquo; (for some value of soon). It&amp;rsquo;s some cross between a digital bookshelf and public bookmarks, where I drop papers that cross my radar or blog posts, talks, or other ideas.&lt;/p&gt;
 &lt;p&gt;Some of these I&amp;rsquo;ve printed out and carry around with me. Others are unlikely to ever be read because they&amp;rsquo;re so far out of my areas of expertise or interest. While this page is mostly for my own reference, it also pretty broadly shows the types of work I&amp;rsquo;m interested in.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] Discrimination in the Age of Algorithms (2/2)</title>
-      <link>/papers/discrimination_algorithms_kleinberg_2.html</link>
-      <pubDate>Mon, 30 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/papers/discrimination_algorithms_kleinberg_2.html</guid>
-      <description>&lt;p&gt;How do we regulate algorithms? How can they help us to create equity? This is part 2 of my summary of the paper by Kleinberg et al.&lt;/p&gt;</description>
     </item>
     
   </channel>
