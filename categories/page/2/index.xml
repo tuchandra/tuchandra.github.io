@@ -6,10 +6,19 @@
     <description>Recent content in Categories on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 23 May 2020 00:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 27 May 2020 00:00:00 -0400</lastBuildDate>
     
         <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Paper] &#39;On Finsta I can say Hail Satan&#39;: Being Authentic but Disagreeable on Instagram</title>
+      <link>/papers/finsta_authentic_disagreebale_taber.html</link>
+      <pubDate>Tue, 28 Apr 2020 00:00:00 -0400</pubDate>
+      
+      <guid>/papers/finsta_authentic_disagreebale_taber.html</guid>
+      <description>&lt;p&gt;This CHI 2020 paper studies how people use multiple accounts on Instagram, being the first to document personality differences between different accounts on the same platform.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>A variety of talks from CHI 2020</title>
@@ -180,15 +189,6 @@
       
       <guid>/posts/normalcy_during_coronavirus.html</guid>
       <description>&lt;p&gt;Yesterday marked two weeks of fully remote work; my first day at home was Thursday, March 12th. This post reflects on my experience.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] Methods in predictive techniques for mental health status on social media: a critical review</title>
-      <link>/papers/review_methods_predicting_mental_health_status_chancellor.html</link>
-      <pubDate>Thu, 26 Mar 2020 00:00:00 -0400</pubDate>
-      
-      <guid>/papers/review_methods_predicting_mental_health_status_chancellor.html</guid>
-      <description>&lt;p&gt;This new paper by Drs. Chancellor and De Choudhury is a literature review of predicting mental health states from social media, studying in particular the extent to which the papers report their methods in sufficient depth and clarity. They propose reporting standards for publications in this space.&lt;/p&gt;</description>
     </item>
     
   </channel>
