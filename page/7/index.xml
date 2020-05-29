@@ -6,10 +6,19 @@
     <description>Recent content on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 27 May 2020 00:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 28 May 2020 00:00:00 -0400</lastBuildDate>
     
         <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Beyond Reason Codes: A Blueprint for Human-Centered, Low-Risk ML</title>
+      <link>/spark/interpretable_ai.html</link>
+      <pubDate>Wed, 24 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/spark/interpretable_ai.html</guid>
+      <description>&lt;p&gt;Speaker: Patrick Hall (H2O.ai).&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>High Performance Transfer Learning for Classifying Intent of Sales Engagement Emails: An Experimental Study</title>
