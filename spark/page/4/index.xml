@@ -12,9 +12,27 @@
     
     
     <item>
+      <title>Andrew Ng&#39;s advice for reading research papers</title>
+      <link>/posts/advice_for_reading_papers_ng.html</link>
+      <pubDate>Sat, 15 Feb 2020 00:00:00 -0600</pubDate>
+      
+      <guid>/posts/advice_for_reading_papers_ng.html</guid>
+      <description>&lt;p&gt;I spent half an hour watching one of Andrew Ng&amp;rsquo;s &lt;a href=&#34;https://www.youtube.com/watch?v=733m6qBH-jI&#34;&gt;deep learning lectures&lt;/a&gt;, this one focusing on reading research papers and career advice. This post is a summary of what I learned.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>What I read this week (February 9 - February 15)</title>
+      <link>/what_i_read/20200215.html</link>
+      <pubDate>Sat, 15 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/what_i_read/20200215.html</guid>
+      <description>&lt;p&gt;Articles I read this week, about procrastination, high-output management, technical research, and more.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>[Paper] Watching You Watch: The Tracking Ecosystem of Over-the-Top TV Streaming Devices</title>
       <link>/papers/ott_tracking_moghaddam.html</link>
-      <pubDate>Wed, 12 Feb 2020 00:00:00 -0500</pubDate>
+      <pubDate>Wed, 12 Feb 2020 00:00:00 -0600</pubDate>
       
       <guid>/papers/ott_tracking_moghaddam.html</guid>
       <description>&lt;p&gt;This paper studies the tracking ecosystem of Roku and Amazon Fire devices, discovering that channels on both platforms regularly send their traffic to known trackers. They also note that they often transmit unique identifiers, and that known methods to protect privacy are largely ineffective.&lt;/p&gt;</description>
@@ -23,7 +41,7 @@
     <item>
       <title>I love flying (or: I can&#39;t not be a researcher)</title>
       <link>/posts/cant_not_be_researcher.html</link>
-      <pubDate>Sun, 09 Feb 2020 00:00:00 -0500</pubDate>
+      <pubDate>Sun, 09 Feb 2020 00:00:00 -0600</pubDate>
       
       <guid>/posts/cant_not_be_researcher.html</guid>
       <description>I love flying. There&amp;rsquo;s something about the act of being alone with my thoughts that forces introspection and self-awareness, and this post is about what I learned this time.</description>
@@ -41,7 +59,7 @@
     <item>
       <title>[Paper] A Comparison of Approaches to Advertising Measurement: Evidence from Big Field Experiments at Facebook</title>
       <link>/papers/facebook_advertising_field_study_gordon.html</link>
-      <pubDate>Fri, 07 Feb 2020 00:00:00 -0500</pubDate>
+      <pubDate>Fri, 07 Feb 2020 00:00:00 -0600</pubDate>
       
       <guid>/papers/facebook_advertising_field_study_gordon.html</guid>
       <description>&lt;p&gt;In what is probably my last digital advertising paper for now, I read a paper out of Kellogg + Facebook studying the causal effects of digital advertising. This is the nail in the coffin of my belief that digital advertising is overhyped and overvalued, and that they do far less than anyone appears to believe.&lt;/p&gt;</description>
@@ -50,7 +68,7 @@
     <item>
       <title>A disaster in Iowa</title>
       <link>/posts/iowa_caucus_disaster.html</link>
-      <pubDate>Wed, 05 Feb 2020 00:00:00 -0500</pubDate>
+      <pubDate>Wed, 05 Feb 2020 00:00:00 -0600</pubDate>
       
       <guid>/posts/iowa_caucus_disaster.html</guid>
       <description>&lt;p&gt;Like many on Monday, I left work eagerly awaiting the results of the Iowa caucuses happening one state west of me. I got home, cooked dinner, and opened up the &lt;a href=&#34;https://fivethirtyeight.com/live-blog/iowa-caucus-2020-election-live/&#34;&gt;FiveThirtyEight live blog&lt;/a&gt; to start following election results. A couple of hours passed, and it became increasingly clear that something had gone very, very wrong.&lt;/p&gt;</description>
@@ -86,7 +104,7 @@
     <item>
       <title>[Paper] Norms Matter: Contrasting Social Support Around Behavior Change in Online Weight Loss Communities</title>
       <link>/papers/contrasting_social_support_chancellor.html</link>
-      <pubDate>Tue, 28 Jan 2020 00:00:00 -0500</pubDate>
+      <pubDate>Tue, 28 Jan 2020 00:00:00 -0600</pubDate>
       
       <guid>/papers/contrasting_social_support_chancellor.html</guid>
       <description>&lt;p&gt;My last of Dr. Chancellor&amp;rsquo;s papers for now. This paper studies the discourse within two online health communities for weight loss, /r/loseit and (the now banned) /r/proED. The authors discuss how different communities provide support differently and discuss design implications.&lt;/p&gt;</description>
@@ -95,7 +113,7 @@
     <item>
       <title>[Paper] Multimodal Classification of Moderated Online Pro-Eating Disorder Content</title>
       <link>/papers/classification_pro_ed_chancellor.html</link>
-      <pubDate>Sun, 26 Jan 2020 00:00:00 -0500</pubDate>
+      <pubDate>Sun, 26 Jan 2020 00:00:00 -0600</pubDate>
       
       <guid>/papers/classification_pro_ed_chancellor.html</guid>
       <description>&lt;p&gt;This is another social computing paper that develops a deep learning classifier for pro-eating disorder content on Tumblr. This work bridges the gap between deep learning and social computing, contributing an image+text classifier for identifying deviant posts.&lt;/p&gt;</description>
@@ -113,7 +131,7 @@
     <item>
       <title>Comparing my old and new sites, part 2</title>
       <link>/posts/site_comparison_part2.html</link>
-      <pubDate>Tue, 21 Jan 2020 00:00:00 -0500</pubDate>
+      <pubDate>Tue, 21 Jan 2020 00:00:00 -0600</pubDate>
       
       <guid>/posts/site_comparison_part2.html</guid>
       <description>&lt;p&gt;In a &lt;a href=&#34;/posts/site_comparison.html&#34;&gt;previous post&lt;/a&gt;, I compared the features of my old and new site. This is part 2 of that post, focusing on things that I missed then that have only come up after a few weeks of using the site.&lt;/p&gt;</description>
@@ -131,7 +149,7 @@
     <item>
       <title>Software engineering is an essential part of data science</title>
       <link>/posts/software_in_dsci.html</link>
-      <pubDate>Mon, 13 Jan 2020 00:00:00 -0500</pubDate>
+      <pubDate>Mon, 13 Jan 2020 00:00:00 -0600</pubDate>
       
       <guid>/posts/software_in_dsci.html</guid>
       <description>&lt;p&gt;Good software engineering is an indispensible part of good data science. I&amp;rsquo;ve believed this for a while, but only recently come to feel strongly about it, and this post goes into more detail on why.&lt;/p&gt;</description>
@@ -140,7 +158,7 @@
     <item>
       <title>[Paper] &#39;This Post Will Just Get Taken Down&#39;: Characterizing Removed Pro-Eating Disorder Content on Social Media</title>
       <link>/papers/removed_pro_ed_chancellor.html</link>
-      <pubDate>Sat, 11 Jan 2020 00:00:00 -0500</pubDate>
+      <pubDate>Sat, 11 Jan 2020 00:00:00 -0600</pubDate>
       
       <guid>/papers/removed_pro_ed_chancellor.html</guid>
       <description>&lt;p&gt;This is a social computing paper analyzing characteristics of over 30,000 pro-eating disorder (pro-ED) posts that were removed from Instagram after having been public at one time. The authors built a classifier for removed pro-ED posts against non-removed ones, and also studied the characteristics of removed posts more generally. Published in CHI 2016.&lt;/p&gt;</description>
@@ -158,7 +176,7 @@
     <item>
       <title>Comparing my old and new sites</title>
       <link>/posts/site_comparison.html</link>
-      <pubDate>Mon, 06 Jan 2020 00:00:00 -0500</pubDate>
+      <pubDate>Mon, 06 Jan 2020 00:00:00 -0600</pubDate>
       
       <guid>/posts/site_comparison.html</guid>
       <description>&lt;p&gt;I migrated my site a couple of days ago. What are some of the differences, both feature-wise and visually? I&amp;rsquo;ll compare common actions on both.&lt;/p&gt;</description>
@@ -171,24 +189,6 @@
       
       <guid>/what_i_read/20200104.html</guid>
       <description>&lt;p&gt;Articles I read this week, including the future of the web and different ways of conveying information, thoughts on the current state of software, and more.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] Competition and Crowd-out for Brand Keywords in Sponsored Search</title>
-      <link>/papers/competition_crowd_out_simonov.html</link>
-      <pubDate>Fri, 03 Jan 2020 15:24:00 -0500</pubDate>
-      
-      <guid>/papers/competition_crowd_out_simonov.html</guid>
-      <description>&lt;p&gt;Another paper on digital search advertising, this one on the effects of competition on ads placed on brand keyword searches. This was another study reacting to the eBay study on own-brand advertising.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] Firms&#39; Reactions to Public Information on Business Practices: Case of Search Advertising</title>
-      <link>/papers/reactions_to_search_ads_rao.html</link>
-      <pubDate>Fri, 03 Jan 2020 14:00:00 -0500</pubDate>
-      
-      <guid>/papers/reactions_to_search_ads_rao.html</guid>
-      <description>&lt;p&gt;This is a paper evaluating the effects of the infamous eBay online advertising experiment, in which eBay pulled millions of dollars of own-brand advertising and saw no measurable effect on web traffic. The study (using data from Bing) evaluated how other companies reacted to this news.&lt;/p&gt;</description>
     </item>
     
   </channel>

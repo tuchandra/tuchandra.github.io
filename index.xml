@@ -6,15 +6,33 @@
     <description>Recent content on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 28 May 2020 00:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jun 2020 00:00:00 -0500</lastBuildDate>
     
         <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Something that made me a better programmer</title>
+      <link>/posts/thinking_through_code.html</link>
+      <pubDate>Fri, 05 Jun 2020 00:00:00 -0500</pubDate>
+      
+      <guid>/posts/thinking_through_code.html</guid>
+      <description>&lt;p&gt;Something that has made me a better programmer is thinking through my code step-by-step before I run it. Stupid, right? It kind of seems that way in hindsight, but writing about it makes me feel better.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>What I read this week (May 24 - May 30)</title>
+      <link>/what_i_read/20200530.html</link>
+      <pubDate>Sat, 30 May 2020 00:00:00 -0500</pubDate>
+      
+      <guid>/what_i_read/20200530.html</guid>
+      <description>&lt;p&gt;This week, I read a lot of advice: on writing, on grad school, and more. Most of this was written while waiting for a particularly painful MCMC model to sample.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>PMD password tool: should I do this?</title>
       <link>/posts/password_tool_6.html</link>
-      <pubDate>Thu, 28 May 2020 00:00:00 -0400</pubDate>
+      <pubDate>Thu, 28 May 2020 00:00:00 -0500</pubDate>
       
       <guid>/posts/password_tool_6.html</guid>
       <description>&lt;p&gt;This is a long one; it&amp;rsquo;s not a paper summary, it&amp;rsquo;s not technical, and it&amp;rsquo;s far more personal than what I usually post here. In this post, I discuss whether or not the password tool should even exist by telling a story about a community from 14 years ago.&lt;/p&gt;</description>
@@ -23,7 +41,7 @@
     <item>
       <title>Bookmarklet for SudokuExchange</title>
       <link>/posts/sudoku_bookmarklet.html</link>
-      <pubDate>Wed, 27 May 2020 00:00:00 -0400</pubDate>
+      <pubDate>Wed, 27 May 2020 00:00:00 -0500</pubDate>
       
       <guid>/posts/sudoku_bookmarklet.html</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve been playing a lot of Sudoku while at home, and today I made a quick tool to make it easier for myself: a bookmarklet to open NY Times Sudoku puzzles on &lt;a href=&#34;https://sudokuexchange.com&#34;&gt;SudokuExchange.com&lt;/a&gt;.&lt;/p&gt;</description>
@@ -32,7 +50,7 @@
     <item>
       <title>What I read this week (May 17 - May 23)</title>
       <link>/what_i_read/20200523.html</link>
-      <pubDate>Sat, 23 May 2020 00:00:00 -0400</pubDate>
+      <pubDate>Sat, 23 May 2020 00:00:00 -0500</pubDate>
       
       <guid>/what_i_read/20200523.html</guid>
       <description>&lt;p&gt;I spent most of my free time this week working on my island in Animal Crossing and the rescue project; but this week&amp;rsquo;s articles include an article from FB Engineering about rebuilding their main site, an article about distractions, and a host of shorter articles.&lt;/p&gt;</description>
@@ -50,7 +68,7 @@
     <item>
       <title>[Paper] Taking Data Out of Context to Hyper-Personalize Ads: Crowdworkers&#39; Privacy Perceptions and Decisions to Disclose Private Information</title>
       <link>/papers/taking_data_out_of_context_ur.html</link>
-      <pubDate>Fri, 22 May 2020 00:00:00 -0400</pubDate>
+      <pubDate>Fri, 22 May 2020 00:00:00 -0500</pubDate>
       
       <guid>/papers/taking_data_out_of_context_ur.html</guid>
       <description></description>
@@ -68,7 +86,7 @@
     <item>
       <title>What I read this week (May 10 - May 16)</title>
       <link>/what_i_read/20200516.html</link>
-      <pubDate>Sat, 16 May 2020 00:00:00 -0400</pubDate>
+      <pubDate>Sat, 16 May 2020 00:00:00 -0500</pubDate>
       
       <guid>/what_i_read/20200516.html</guid>
       <description>&lt;p&gt;I took last week off as I focused on full papers from CHI, but this week&amp;rsquo;s edition of &lt;a href=&#34;http://www.pointer.io/&#34;&gt;Pointer&lt;/a&gt; had several articles that caught my eye.&lt;/p&gt;</description>
@@ -77,7 +95,7 @@
     <item>
       <title>[Paper] How Visualizing Inferential Uncertainty Can Mislead Readers About Treatment Effects in Scientific Results</title>
       <link>/papers/visualizing_inferential_uncertainty_mislead_hofman.html</link>
-      <pubDate>Tue, 12 May 2020 00:00:00 -0400</pubDate>
+      <pubDate>Tue, 12 May 2020 00:00:00 -0500</pubDate>
       
       <guid>/papers/visualizing_inferential_uncertainty_mislead_hofman.html</guid>
       <description>&lt;p&gt;When visualizing the uncertainty around treatment effects, one can choose (among others) to visualize the standard error (uncertainty in the mean) or the standard deviations (uncertainty in the observations). Modulo sample size, the two contain the same information, but this paper demonstrates how people regularly associate the former with larger effects than the latter.&lt;/p&gt;</description>
@@ -86,7 +104,7 @@
     <item>
       <title>[Paper] Modeling Organizational Culture with Workplace Experiences Shared on Glassdoor</title>
       <link>/papers/modeling_org_culture_dasswain.html</link>
-      <pubDate>Mon, 11 May 2020 00:00:00 -0400</pubDate>
+      <pubDate>Mon, 11 May 2020 00:00:00 -0500</pubDate>
       
       <guid>/papers/modeling_org_culture_dasswain.html</guid>
       <description>&lt;p&gt;Glassdoor is a valuable source of data on what life is like at different companies, and in particular the &lt;em&gt;organizational culture&lt;/em&gt; there. To what extent can organizational culture be modeled using word embeddings? Is it useful for predicting job performance. This paper, from the De Choudhury lab at Georgia Tech, investigates.&lt;/p&gt;</description>
@@ -104,7 +122,7 @@
     <item>
       <title>[Paper] What&#39;s Wrong with Computational Notebooks? Pain Points, Needs, and Design Opportunities</title>
       <link>/papers/computational_notebooks_chattopadhyay.html</link>
-      <pubDate>Sat, 09 May 2020 00:00:00 -0400</pubDate>
+      <pubDate>Sat, 09 May 2020 00:00:00 -0500</pubDate>
       
       <guid>/papers/computational_notebooks_chattopadhyay.html</guid>
       <description>&lt;p&gt;Computational notebooks are one of the most common tools in the data science world, but they are not without their limitations. This paper studies pain points and design opportunities for notebooks as used by professional data scientists.&lt;/p&gt;</description>
@@ -113,7 +131,7 @@
     <item>
       <title>[Paper] Understanding and Visualizing Data Iteration in Machine Learning</title>
       <link>/papers/undestanding_data_iteration_ml_hohman.html</link>
-      <pubDate>Fri, 08 May 2020 00:00:00 -0400</pubDate>
+      <pubDate>Fri, 08 May 2020 00:00:00 -0500</pubDate>
       
       <guid>/papers/undestanding_data_iteration_ml_hohman.html</guid>
       <description>&lt;p&gt;Machine learning is as much&amp;mdash;if not more&amp;mdash;about the data as it is the models. This paper explores &lt;em&gt;data&lt;/em&gt; iteration, in contrast to model iteration, and studies ways that ML practitioners manage changing data.&lt;/p&gt;</description>
@@ -122,7 +140,7 @@
     <item>
       <title>[Paper] How to Trick AI: Users&#39; Strategies for Protecting Themselves from Automatic Personality Assessment</title>
       <link>/papers/how_to_trick_ai_volkel.html</link>
-      <pubDate>Tue, 05 May 2020 00:00:00 -0400</pubDate>
+      <pubDate>Tue, 05 May 2020 00:00:00 -0500</pubDate>
       
       <guid>/papers/how_to_trick_ai_volkel.html</guid>
       <description>&lt;p&gt;Suppose you were talking to a chatbot who was trying to infer your personality. To what extent would you be able to fake a personality and trick the bot? That&amp;rsquo;s the central question in this paper by Völkel et al., which gets at deep questions about the transparency of and ethics behind computing systems.&lt;/p&gt;</description>
@@ -131,7 +149,7 @@
     <item>
       <title>[Paper] Emergent Self-Regulation Practices in Technology and Social Media Use of Individuals Living with Depression</title>
       <link>/papers/self_regulation_in_depression_eschler.html</link>
-      <pubDate>Mon, 04 May 2020 00:00:00 -0400</pubDate>
+      <pubDate>Mon, 04 May 2020 00:00:00 -0500</pubDate>
       
       <guid>/papers/self_regulation_in_depression_eschler.html</guid>
       <description>&lt;p&gt;How do people with depression use technology at a personal level? The answer &amp;ldquo;they all use it differently&amp;rdquo; may or may not be surprising, depending on your perspective, but in my experience this is often assumed to be the case. Eschler et al. take on this question by interviewing people about the roles technology plays in their lives and opportunities to use it in a healthy way.&lt;/p&gt;</description>
@@ -140,7 +158,7 @@
     <item>
       <title>[Paper] Re-Shape: A Method to Teach Data Ethics for Data Science Education</title>
       <link>/papers/reshape_data_ethics_shapiro.html</link>
-      <pubDate>Sun, 03 May 2020 00:00:00 -0400</pubDate>
+      <pubDate>Sun, 03 May 2020 00:00:00 -0500</pubDate>
       
       <guid>/papers/reshape_data_ethics_shapiro.html</guid>
       <description>&lt;p&gt;Imagine that a week of your personal location data were made public. What would strangers be able to learn about you? The authors use this question to motivate Re-Shape, a method for teaching students about the ethics of data collection and use, building on the feminist idea of &amp;ldquo;cultivating care.&amp;rdquo;&lt;/p&gt;</description>
@@ -149,7 +167,7 @@
     <item>
       <title>[Paper] Celebrating Everyday Success: Improving Engagement and Motivation using a System for Recording Daily Highlights</title>
       <link>/papers/celebrating_everyday_success_avrahami.html</link>
-      <pubDate>Sat, 02 May 2020 00:00:00 -0400</pubDate>
+      <pubDate>Sat, 02 May 2020 00:00:00 -0500</pubDate>
       
       <guid>/papers/celebrating_everyday_success_avrahami.html</guid>
       <description>&lt;p&gt;Recognizing your own successes is important for cultivating a positive outlook and sense of purpose. Modern work environments often do not offer this, with the idea of there always being more to do standing in the way of reflection that celebrates progress. &lt;em&gt;Highlight Matome&lt;/em&gt; is a personal online tool for workers to quickly record short, daily highlights with the goal of improving their inner work life.&lt;/p&gt;</description>
@@ -158,7 +176,7 @@
     <item>
       <title>What I read this week (April 26 - May 2)</title>
       <link>/what_i_read/20200502.html</link>
-      <pubDate>Sat, 02 May 2020 00:00:00 -0400</pubDate>
+      <pubDate>Sat, 02 May 2020 00:00:00 -0500</pubDate>
       
       <guid>/what_i_read/20200502.html</guid>
       <description>&lt;p&gt;This week, I&amp;rsquo;ve focused mostly on articles from CHI, but I did read a few shorter things in my spare time.&lt;/p&gt;</description>
@@ -167,28 +185,10 @@
     <item>
       <title>[Paper] In-game and Out-of-game Social Anxiety Influences Player Motivations, Activities, and Experiences in MMORPGs</title>
       <link>/papers/social_anxiety_mmorpgs_dechant.html</link>
-      <pubDate>Fri, 01 May 2020 00:00:00 -0400</pubDate>
+      <pubDate>Fri, 01 May 2020 00:00:00 -0500</pubDate>
       
       <guid>/papers/social_anxiety_mmorpgs_dechant.html</guid>
       <description>&lt;p&gt;How are MMORPGs perceived by people with social anxiety? What do they find enjoyable about MMORPGS? How does real-world anxiety translate to social experiences in a video game setting? This CHI 2020 paper by Dechant et al. studies these and other questions about the interactions between social anxiety and video games.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] Computing Students&#39; Learning Difficulties in HCI Education</title>
-      <link>/papers/computing_students_difficulties_hci_oleson.html</link>
-      <pubDate>Thu, 30 Apr 2020 00:00:00 -0400</pubDate>
-      
-      <guid>/papers/computing_students_difficulties_hci_oleson.html</guid>
-      <description>&lt;p&gt;Why is it so hard for students to learn about HCI? Oleson et al. try to find out in this paper, interviewing computing students about difficulties they experienced in HCI design education.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] Random, Messy, Funny, Raw: Finstas as Intimate Reconfigurations of Social Media</title>
-      <link>/papers/intimate_reconfigurations_finsta_xiao.html</link>
-      <pubDate>Wed, 29 Apr 2020 00:00:00 -0400</pubDate>
-      
-      <guid>/papers/intimate_reconfigurations_finsta_xiao.html</guid>
-      <description>&lt;p&gt;Another paper studying &amp;ldquo;finstas&amp;rdquo; (fake / secret Instagram accounts, shared only with a small group of people). This one, by Sijia Xiao et al., received an Honorable Mention at CHI 2020. In contrast to yesterday&amp;rsquo;s, this work draws from feminist theory to explore finstas as &amp;ldquo;intimate reconfigurations&amp;rdquo; of the Instagram platform itself.&lt;/p&gt;</description>
     </item>
     
   </channel>

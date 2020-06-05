@@ -6,15 +6,33 @@
     <description>Recent content on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 28 May 2020 00:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jun 2020 00:00:00 -0500</lastBuildDate>
     
         <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>[Paper] Computing Students&#39; Learning Difficulties in HCI Education</title>
+      <link>/papers/computing_students_difficulties_hci_oleson.html</link>
+      <pubDate>Thu, 30 Apr 2020 00:00:00 -0500</pubDate>
+      
+      <guid>/papers/computing_students_difficulties_hci_oleson.html</guid>
+      <description>&lt;p&gt;Why is it so hard for students to learn about HCI? Oleson et al. try to find out in this paper, interviewing computing students about difficulties they experienced in HCI design education.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[Paper] Random, Messy, Funny, Raw: Finstas as Intimate Reconfigurations of Social Media</title>
+      <link>/papers/intimate_reconfigurations_finsta_xiao.html</link>
+      <pubDate>Wed, 29 Apr 2020 00:00:00 -0500</pubDate>
+      
+      <guid>/papers/intimate_reconfigurations_finsta_xiao.html</guid>
+      <description>&lt;p&gt;Another paper studying &amp;ldquo;finstas&amp;rdquo; (fake / secret Instagram accounts, shared only with a small group of people). This one, by Sijia Xiao et al., received an Honorable Mention at CHI 2020. In contrast to yesterday&amp;rsquo;s, this work draws from feminist theory to explore finstas as &amp;ldquo;intimate reconfigurations&amp;rdquo; of the Instagram platform itself.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Recent website changes</title>
       <link>/posts/apr2020_website_changes.html</link>
-      <pubDate>Wed, 29 Apr 2020 00:00:00 -0400</pubDate>
+      <pubDate>Wed, 29 Apr 2020 00:00:00 -0500</pubDate>
       
       <guid>/posts/apr2020_website_changes.html</guid>
       <description>&lt;p&gt;I made a couple more changes to my website: giving more credit to the authors of the papers I read and adding a new category.&lt;/p&gt;</description>
@@ -23,7 +41,7 @@
     <item>
       <title>[Paper] &#39;On Finsta I can say Hail Satan&#39;: Being Authentic but Disagreeable on Instagram</title>
       <link>/papers/finsta_authentic_disagreebale_taber.html</link>
-      <pubDate>Tue, 28 Apr 2020 00:00:00 -0400</pubDate>
+      <pubDate>Tue, 28 Apr 2020 00:00:00 -0500</pubDate>
       
       <guid>/papers/finsta_authentic_disagreebale_taber.html</guid>
       <description>&lt;p&gt;This CHI 2020 paper studies how people use multiple accounts on Instagram, being the first to document personality differences between different accounts on the same platform.&lt;/p&gt;</description>
@@ -32,7 +50,7 @@
     <item>
       <title>A variety of talks from CHI 2020</title>
       <link>/papers/chi_2020_nordic_talks.html</link>
-      <pubDate>Mon, 27 Apr 2020 00:00:00 -0400</pubDate>
+      <pubDate>Mon, 27 Apr 2020 00:00:00 -0500</pubDate>
       
       <guid>/papers/chi_2020_nordic_talks.html</guid>
       <description>&lt;p&gt;On Tuesday morning, I came across &lt;a href=&#34;https://www.chinordic2020.org/&#34;&gt;CHI Nordic 2020&lt;/a&gt;, which was a mini-conference put together to present and discuss Nordic papers from CHI 2020. I joined the last session on &amp;ldquo;computational materials&amp;rdquo; and watched 3 talks.&lt;/p&gt;</description>
@@ -50,7 +68,7 @@
     <item>
       <title>[Paper] Data Everyday: Data Literacy Practices in a Division I Sports Context</title>
       <link>/papers/data_literacy_sports_clegg.html</link>
-      <pubDate>Sun, 26 Apr 2020 00:00:00 -0400</pubDate>
+      <pubDate>Sun, 26 Apr 2020 00:00:00 -0500</pubDate>
       
       <guid>/papers/data_literacy_sports_clegg.html</guid>
       <description>&lt;p&gt;CHI 2020 was supposed to be happening right now, but it was regrettably &lt;a href=&#34;https://chi2020.acm.org/&#34;&gt;cancelled&lt;/a&gt; due to coronavirus. All of the papers were put into the ACM Digital Library as scheduled, though, so I started looking at them. This paper studies data literacy among student-athletes at the University of Maryland.&lt;/p&gt;</description>
@@ -68,7 +86,7 @@
     <item>
       <title>What I read this week (April 19 - April 25)</title>
       <link>/what_i_read/20200425.html</link>
-      <pubDate>Sat, 25 Apr 2020 00:00:00 -0400</pubDate>
+      <pubDate>Sat, 25 Apr 2020 00:00:00 -0500</pubDate>
       
       <guid>/what_i_read/20200425.html</guid>
       <description>&lt;p&gt;I didn&amp;rsquo;t read much this week, due to a project I&amp;rsquo;m working on that I&amp;rsquo;ll write more about soon. One evening, I sat down to work through a couple things that popped up, thoguh.&lt;/p&gt;</description>
@@ -77,7 +95,7 @@
     <item>
       <title>A variety of talks from ACM FAT* 2020</title>
       <link>/papers/acm_fat2020_talks.html</link>
-      <pubDate>Sun, 19 Apr 2020 00:00:00 -0400</pubDate>
+      <pubDate>Sun, 19 Apr 2020 00:00:00 -0500</pubDate>
       
       <guid>/papers/acm_fat2020_talks.html</guid>
       <description>&lt;p&gt;I sat down to watch a handful of talks from ACM FAT* 2020, picked from a survey of the &lt;a href=&#34;https://facctconference.org/2020/acceptedpapers.html#sess1&#34;&gt;Accepted Papers&lt;/a&gt; list. I found this to be a good way to consume a variety of papers that I probably wouldn&amp;rsquo;t have ordinarily read.&lt;/p&gt;</description>
@@ -86,7 +104,7 @@
     <item>
       <title>[Paper] Auditing Radicalization Pathways on YouTube</title>
       <link>/papers/auditing_radicalization_youtube_ribeiro.html</link>
-      <pubDate>Sat, 18 Apr 2020 00:00:00 -0400</pubDate>
+      <pubDate>Sat, 18 Apr 2020 00:00:00 -0500</pubDate>
       
       <guid>/papers/auditing_radicalization_youtube_ribeiro.html</guid>
       <description>&lt;p&gt;Does YouTube drive people to more extreme content? This is a question that many have posed, but this is the first paper to study this question in depth. I&amp;rsquo;ve had this on my reading list since I came across it on Twitter, so this Saturday I finally sat down to take a look.&lt;/p&gt;</description>
@@ -95,7 +113,7 @@
     <item>
       <title>What I read this week (April 12 - April 18)</title>
       <link>/what_i_read/20200418.html</link>
-      <pubDate>Sat, 18 Apr 2020 00:00:00 -0400</pubDate>
+      <pubDate>Sat, 18 Apr 2020 00:00:00 -0500</pubDate>
       
       <guid>/what_i_read/20200418.html</guid>
       <description>&lt;p&gt;This week&amp;rsquo;s reading happened almost all in one day, when I took time off work to recharge. I read articles and blog posts on COVID-19 models, focusing on the question of what it means to model something. There are also a couple of garden variety engineering &amp;amp; data science posts.&lt;/p&gt;</description>
@@ -104,7 +122,7 @@
     <item>
       <title>[Paper] Presenting machine learning model information to clinical end users with model facts labels</title>
       <link>/papers/model_facts_sendak.html</link>
-      <pubDate>Sun, 12 Apr 2020 00:00:00 -0400</pubDate>
+      <pubDate>Sun, 12 Apr 2020 00:00:00 -0500</pubDate>
       
       <guid>/papers/model_facts_sendak.html</guid>
       <description>&lt;p&gt;This is another &amp;ldquo;interpeting machine learning&amp;rdquo; paper, this time in a medical context. The Duke researchers propose a &amp;ldquo;model facts&amp;rdquo; label, a la &amp;ldquo;nutrition facts&amp;rdquo; that we see on food packaging.&lt;/p&gt;</description>
@@ -113,7 +131,7 @@
     <item>
       <title>Improving my debugging attitude</title>
       <link>/posts/debugging_attitude.html</link>
-      <pubDate>Sun, 12 Apr 2020 00:00:00 -0400</pubDate>
+      <pubDate>Sun, 12 Apr 2020 00:00:00 -0500</pubDate>
       
       <guid>/posts/debugging_attitude.html</guid>
       <description>&lt;p&gt;Today, I noticed myself doing something I&amp;rsquo;ve done many times before: running into an error, Googling it, finding code snippets, and making random changes in hopes that they&amp;rsquo;d work. In this post, I try to understand why.&lt;/p&gt;</description>
@@ -122,7 +140,7 @@
     <item>
       <title>What I read this week (April 5 - April 11)</title>
       <link>/what_i_read/20200411.html</link>
-      <pubDate>Sat, 11 Apr 2020 00:00:00 -0400</pubDate>
+      <pubDate>Sat, 11 Apr 2020 00:00:00 -0500</pubDate>
       
       <guid>/what_i_read/20200411.html</guid>
       <description>&lt;p&gt;In which I read up on location tracking for stopping the spread of coronavirus. I also wrote a longer-form piece on one proposal, &lt;a href=&#34;/papers/decentralized_proximity_tracing.html&#34;&gt;Decentralized Privacy-Preserving Proximity Tracing&lt;/a&gt;.&lt;/p&gt;</description>
@@ -131,7 +149,7 @@
     <item>
       <title>Productivity and what motivates me</title>
       <link>/posts/remote_work_productivity.html</link>
-      <pubDate>Thu, 09 Apr 2020 00:00:00 -0400</pubDate>
+      <pubDate>Thu, 09 Apr 2020 00:00:00 -0500</pubDate>
       
       <guid>/posts/remote_work_productivity.html</guid>
       <description>&lt;p&gt;It took a month of remote work for me to fully abandon the expectation that I should be as productive as usual during this time. This post reflects on why.&lt;/p&gt;</description>
@@ -140,7 +158,7 @@
     <item>
       <title>[Paper] Decentralized Privacy-Preserving Proximity Tracing</title>
       <link>/papers/decentralized_proximity_tracing.html</link>
-      <pubDate>Wed, 08 Apr 2020 00:00:00 -0400</pubDate>
+      <pubDate>Wed, 08 Apr 2020 00:00:00 -0500</pubDate>
       
       <guid>/papers/decentralized_proximity_tracing.html</guid>
       <description>&lt;p&gt;This is a summary of a proposal for a &amp;ldquo;secure and privacy-preserving decentralized proximity tracing system,&amp;rdquo; aiming to help combat COVID-19 while placing individual privacy at high priority. View the proposal on &lt;a href=&#34;https://github.com/DP-3T/documents&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</description>
@@ -149,7 +167,7 @@
     <item>
       <title>What I read this week (March 29 - April 4)</title>
       <link>/what_i_read/20200404.html</link>
-      <pubDate>Sat, 04 Apr 2020 00:00:00 -0400</pubDate>
+      <pubDate>Sat, 04 Apr 2020 00:00:00 -0500</pubDate>
       
       <guid>/what_i_read/20200404.html</guid>
       <description>&lt;p&gt;This week&amp;rsquo;s reading was short. It includes a technical deep dive into some zero-day Safari exploits, FiveThirtyEight on why it&amp;rsquo;s hard to build a good COVID-19 model, and reflections on the lockdown.&lt;/p&gt;</description>
@@ -158,7 +176,7 @@
     <item>
       <title>The dangers of big data (&#34;Everybody Lies&#34;, part 3)</title>
       <link>/books/everybody_lies_3.html</link>
-      <pubDate>Wed, 01 Apr 2020 00:00:00 -0400</pubDate>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 -0500</pubDate>
       
       <guid>/books/everybody_lies_3.html</guid>
       <description>&lt;p&gt;The final post in my series about &lt;em&gt;Everybody Lies&lt;/em&gt; is another abstract one. Here, I discuss the dangers of big data and how the wrong data can lead us astray.&lt;/p&gt;</description>
@@ -167,28 +185,10 @@
     <item>
       <title>What is data science? (&#34;Everybody Lies&#34;, part 2)</title>
       <link>/books/everybody_lies_2.html</link>
-      <pubDate>Tue, 31 Mar 2020 00:00:00 -0400</pubDate>
+      <pubDate>Tue, 31 Mar 2020 00:00:00 -0500</pubDate>
       
       <guid>/books/everybody_lies_2.html</guid>
       <description>&lt;p&gt;I had some more abstract thoughts about what &amp;ldquo;data science&amp;rdquo; really means while reading &lt;em&gt;Everybody Lies&lt;/em&gt;. In this post, I talk about data science as &lt;em&gt;discovery&lt;/em&gt; and about what it means to &amp;ldquo;do&amp;rdquo; data science.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>&#34;Everybody Lies&#34;, part 1</title>
-      <link>/books/everybody_lies_1.html</link>
-      <pubDate>Mon, 30 Mar 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/books/everybody_lies_1.html</guid>
-      <description>&lt;p&gt;A group of data scientists in my office decided to start a (now virtual) book club; our first book is &lt;em&gt;Everybody Lies: Big Data, New Data, and What the Internet Can Tell Us about Who We Really Are&lt;/em&gt; by &lt;a href=&#34;http://sethsd.com/everybodylies&#34;&gt;Seth Stephens-Davidowitz&lt;/a&gt;. In this book, the Google data scientist turned NYT writer talks about what we can learn from &amp;ldquo;Big Data&amp;rdquo;&amp;mdash;and why the results might be surprising.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>What I read this week (March 22 - March 28)</title>
-      <link>/what_i_read/20200328.html</link>
-      <pubDate>Sat, 28 Mar 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/what_i_read/20200328.html</guid>
-      <description>&lt;p&gt;This week, I read two articles about &amp;ldquo;broader impact&amp;rdquo; statements, soon to be required by NeurIPS. Other articles include a discussion of Facebook&amp;rsquo;s suicide prevention AI, suggestions on fighting fake news, and poll results showing Fox News viewers are less likely to take the coronavirus threat seriously.&lt;/p&gt;</description>
     </item>
     
   </channel>

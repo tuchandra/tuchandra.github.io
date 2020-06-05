@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <title>
-        Defending Deep Learning from Adversarial Attacks - Tushar Chandra
+        Something that made me a better programmer - Tushar Chandra
       </title>
     <head>
   <meta charset="utf-8">
@@ -21,32 +21,32 @@
   <meta name="theme-color" content="#000000" />
   <meta http-equiv="window-target" content="_top" />
   
-  <meta name="description" content="Speakers: Animesh Singh and Svetlana Levitan (IBM). They work at the &amp;ldquo;center for open source data and AI technologies&amp;rdquo; @ IBM.
+  <meta name="description" content="Something that has made me a better programmer is thinking through my code step-by-step before I run it. Stupid, right? It kind of seems that way in hindsight, but writing about it makes me feel better.
 " />
   <meta name="generator" content="Hugo 0.65.3 with theme pure" />
-  <title>Defending Deep Learning from Adversarial Attacks - Tushar Chandra</title>
+  <title>Something that made me a better programmer - Tushar Chandra</title>
   
 
   <link rel="stylesheet" href="/css/style.css">
   <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
-  <meta property="og:title" content="Defending Deep Learning from Adversarial Attacks" />
-<meta property="og:description" content="Speakers: Animesh Singh and Svetlana Levitan (IBM). They work at the &ldquo;center for open source data and AI technologies&rdquo; @ IBM." />
+  <meta property="og:title" content="Something that made me a better programmer" />
+<meta property="og:description" content="Something that has made me a better programmer is thinking through my code step-by-step before I run it. Stupid, right? It kind of seems that way in hindsight, but writing about it makes me feel better." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/spark/adversarial_attacks.html" />
-<meta property="article:published_time" content="2019-04-25T00:00:00+00:00" />
-<meta property="article:modified_time" content="2019-04-25T00:00:00+00:00" />
-<meta itemprop="name" content="Defending Deep Learning from Adversarial Attacks">
-<meta itemprop="description" content="Speakers: Animesh Singh and Svetlana Levitan (IBM). They work at the &ldquo;center for open source data and AI technologies&rdquo; @ IBM.">
-<meta itemprop="datePublished" content="2019-04-25T00:00:00&#43;00:00" />
-<meta itemprop="dateModified" content="2019-04-25T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="459">
+<meta property="og:url" content="/posts/thinking_through_code.html" />
+<meta property="article:published_time" content="2020-06-05T00:00:00-05:00" />
+<meta property="article:modified_time" content="2020-06-05T00:00:00-05:00" />
+<meta itemprop="name" content="Something that made me a better programmer">
+<meta itemprop="description" content="Something that has made me a better programmer is thinking through my code step-by-step before I run it. Stupid, right? It kind of seems that way in hindsight, but writing about it makes me feel better.">
+<meta itemprop="datePublished" content="2020-06-05T00:00:00-05:00" />
+<meta itemprop="dateModified" content="2020-06-05T00:00:00-05:00" />
+<meta itemprop="wordCount" content="348">
 
 
 
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Defending Deep Learning from Adversarial Attacks"/>
-<meta name="twitter:description" content="Speakers: Animesh Singh and Svetlana Levitan (IBM). They work at the &ldquo;center for open source data and AI technologies&rdquo; @ IBM."/>
+<meta name="twitter:title" content="Something that made me a better programmer"/>
+<meta name="twitter:description" content="Something that has made me a better programmer is thinking through my code step-by-step before I run it. Stupid, right? It kind of seems that way in hindsight, but writing about it makes me feel better."/>
 </head>
   </head>
   
@@ -236,50 +236,35 @@
       <h1 itemprop="name">
   <a
     class=""
-    href="/spark/adversarial_attacks.html"
-    >Defending Deep Learning from Adversarial Attacks</a
+    href="/posts/thinking_through_code.html"
+    >Something that made me a better programmer</a
   >
 </h1>
 
       <div class="article-meta">
         <span class="article-date">
   <i class="icon icon-calendar-check"></i>
-<a href="/spark/adversarial_attacks.html">
-  <time datetime="2019-04-25 00:00:00 &#43;0000 UTC" itemprop="datePublished">2019-04-25</time>
+<a href="/posts/thinking_through_code.html">
+  <time datetime="2020-06-05 00:00:00 -0500 CDT" itemprop="datePublished">2020-06-05</time>
 </a>
 </span><span class="article-category">
   <i class="icon icon-folder"></i>
-    <a class="article-category-link" href="/categories/spark.html"> spark, </a>
+    <a class="article-category-link" href="/categories/general.html"> general, </a>
 </span>
 
         
       </div>
     </div>
     <div class="article-entry marked-body js-toc-content" itemprop="articleBody">
-      <p>Speakers: Animesh Singh and Svetlana Levitan (IBM). They work at the &ldquo;center for open source data and AI technologies&rdquo; @ IBM.</p>
-<h2 id="bias-throughout-the-ai-lifecycle">Bias throughout the AI lifecycle</h2>
-<p>There&rsquo;s an open source toolkit <a href="https://github.com/IBM/AIF360">AIF360</a> (&ldquo;AI Fairness 360&rdquo;) to monitor and remove bias in machine learning models. It includes 70+ fairness metrics and 10 mitigation algorithms to help remove those. One of those metrics is disparate impact (!!!) along with tons of others, and this actually seems incredible.</p>
-<h2 id="adversarial-attacks">Adversarial attacks</h2>
-<p>This field is getting a lot noisier (heh) and more research; adding white noise that is imperceptible to humans can blow up models and make their predictions vary wildly. Famous examples include the adversarial patch that makes everything appear to be a toaster; scarier ones include adding adversarial noise to self-driving cars.</p>
-<p><strong>Poisoning attacks</strong> are performed at training, by inserting poisoned samples in training data. This lets a malicious agent use a backdoor later. <strong>Evasion attacks</strong> are performed at test time.</p>
-<p>Threat models include:</p>
-<ul>
-<li><strong>black box vs. white box</strong>; what knowledge does the attacker have about the model? how do they access the model?</li>
-<li><strong>plausible deniability</strong>: how important is it for the attacker to use adversarial samples that resemble original inputs?</li>
-<li><strong>type I vs. II errors</strong>: bypass safeguards or increase false alarms?</li>
-<li>one more that I missed</li>
-</ul>
-<p>Some evasion attacks push neural networks (or other models) out of their desired operating range — either finding a region of space that&rsquo;s sparse or pushing it out of the range that it was trained on. Key point is that DNNs don&rsquo;t learn to <em>recognize</em> a schoolbus, but rather to discriminate it from other objects in the training set.</p>
-<h2 id="defending-adversarial-attacks">Defending adversarial attacks</h2>
-<p><strong>Training solely on adversarial examples</strong>, which increases the capacity to maintain accuracy on clean data. Use a specific algorithm to intentionally introduce poisoned data as the model is trained.</p>
-<p><strong>Preprocess data</strong> to remove adversarial noise, and input the cleaned samples into the classifier. But this can be defeated by an adaptive adversary (someone who knows how the cleaning is done).</p>
-<p><strong>Robustness metrics</strong>, e.g., CLEVER, which evaluate how robust neural networks are. Paper: &ldquo;<a href="https://openreview.net/pdf?id=BkUHlMZ0b">Evaluating the Robustness of Neural Networks: An Extreme Value Theory</a>.&rdquo;</p>
-<p><strong>Poisoning detection</strong>, where you look at clustering of the training data and see if it&rsquo;s been poisoned.</p>
-<p>Many, many others …</p>
-<p>All of this to say that IBM built the <a href="https://github.com/IBM/adversarial-robustness-toolbox">Adversarial Robustness Toolbox</a>, which is open-source and is a library for adversarial machine learning. It includes evasion attacks, evasion defenses, poisioning and evasion detection, and robustness metrics.</p>
-<h2 id="demos">Demos</h2>
-<p>These were all super slick. This <a href="https://art-demo.mybluemix.net/">demo</a> lets you interactively add imperceptible noise to images, and wow this is so cool. Then they showed some Jupyter notebooks with code samples from their toolbox.</p>
-<p>Another paper: <a href="https://arxiv.org/pdf/1706.06083.pdf">Towards Deep Learning Models Resistant to Adversarial Attacks</a>.</p>
+      <p>Something that has made me a better programmer is thinking through my code step-by-step before I run it. Stupid, right? It kind of seems that way in hindsight, but writing about it makes me feel better.</p>
+<h2 id="thinking-in-steps">Thinking in steps</h2>
+<p>I realized that I was getting into a habit of trying something, seeing how it broke, fixing that <em>and only that</em>, and repeating. This process left my code prone to lots of bugs. I wasn’t thinking through the whole system, or how different components had to interact.</p>
+<p>Problems were more likely to arise at the boundaries between pieces—between model and model training, model training and posterior, posterior and visualization. Training code that worked with one model might not work with another. Visualization code was not portable across different models’ posteriors. And changing that code sometimes felt like a minefield.</p>
+<p>I think that part of this is due to the culture and norms around the “data science process.” In this process, you get your data, <em>then</em> build a model, <em>then</em> evaluate its performance. (And then iterate.) But in my current work, I’m creating synthetic data then trying to model it; there’s a lot of interaction between the two “phases” that I don’t typically see.</p>
+<p>And so today, I spent a lot of time planning out what I was going to do. I started with the simplest possible example that would show me that all the pieces were working together. For me, this meant only running MCMC for a couple hundred samples and using a naive model without multiple levels.</p>
+<p>Gelman’s <a href="https://mc-stan.org/users/documentation/case-studies/golf.html">case study</a> on golf putting model expansion is inspiring me, I think. I’m treating this work—which I’m starting from scratch—as a model expansion problem. Start simple and build up from there.</p>
+<h3 id="post-script">Post script</h3>
+<p>This isn&rsquo;t a long post, and I only took about 20 minutes to write it. I realized that my free time has been consumed by moving and unpacking, and my free <em>energy</em> has been consumed by the state of the world right now. Getting <em>something</em> written down, after a week or more without doing anything, feels great.</p>
     </div>
     <div class="article-footer">
     </div>
@@ -288,14 +273,9 @@
     <div class="bar-inner">
         <ul class="pager pull-left">
             <li class="prev">
-                <a href="/spark/explain_yourself.html" title="Explain Yourself: Why You Get the Recommendations You Do"><i
+                <a href="/what_i_read/20200530.html" title="What I read this week (May 24 - May 30)"><i
                         class="icon icon-angle-left"
                         aria-hidden="true"></i><span>&nbsp;&nbsp;Older</span></a>
-            </li>
-            <li class="next">
-                <a href="/spark/data_agility.html"
-                    title="Data Agility - A Journey to Advanced Analytics and ML at Scale"><span>Newer&nbsp;&nbsp;</span><i
-                        class="icon icon-angle-right" aria-hidden="true"></i></a>
             </li>
         </ul>
     </div>
