@@ -6,10 +6,19 @@
     <description>Recent content in Categories on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 08 Jun 2020 00:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jun 2020 00:00:00 -0500</lastBuildDate>
     
         <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Comparing my old and new sites</title>
+      <link>/posts/site_comparison.html</link>
+      <pubDate>Mon, 06 Jan 2020 00:00:00 -0600</pubDate>
+      
+      <guid>/posts/site_comparison.html</guid>
+      <description>&lt;p&gt;I migrated my site a couple of days ago. What are some of the differences, both feature-wise and visually? I&amp;rsquo;ll compare common actions on both.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>What I read this week (December 29 - January 4)</title>
@@ -181,15 +190,6 @@
       
       <guid>/posts/talk_equity_indicators.html</guid>
       <description>&lt;p&gt;These are notes from a &lt;a href=&#34;https://www.meetup.com/ChicagoCityData/events/266787601/&#34;&gt;tech talk&lt;/a&gt; that I went to on December 4th. The talk was by &lt;strong&gt;Dan Cooper&lt;/strong&gt;, the Director of Research @ the &lt;a href=&#34;https://metroplanning.org&#34;&gt;Metropolitan Planning Council&lt;/a&gt;. It was hosted by the Chicago City Data Users Group.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] Who is the &#39;Human&#39; in Human-Centered Machine Learning: The Case of Predicting Mental Health from Social Media</title>
-      <link>/papers/who_is_human_chancellor.html</link>
-      <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/papers/who_is_human_chancellor.html</guid>
-      <description>&lt;p&gt;What does &amp;ldquo;human-centered machine learning&amp;rdquo; even mean? Who are the &amp;ldquo;humans&amp;rdquo; being studied, and how do papers studying them refer to them? This paper studies the &lt;em&gt;discourse&lt;/em&gt; surrounding humans within HCML.&lt;/p&gt;</description>
     </item>
     
   </channel>
