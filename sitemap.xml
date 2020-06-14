@@ -37,6 +37,12 @@
   </url>
   
   <url>
+    <loc>/what_i_read.html</loc>
+    <lastmod>2020-06-13T00:00:00-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/categories/what-i-read.html</loc>
     <lastmod>2020-06-13T00:00:00-05:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -44,7 +50,7 @@
   </url>
   
   <url>
-    <loc>/papers/20200613.html</loc>
+    <loc>/what_i_read/20200613.html</loc>
     <lastmod>2020-06-13T00:00:00-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -89,12 +95,6 @@
     <lastmod>2020-06-05T00:00:00-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/what_i_read.html</loc>
-    <lastmod>2020-05-30T00:00:00-05:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
