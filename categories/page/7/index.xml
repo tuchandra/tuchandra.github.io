@@ -6,10 +6,28 @@
     <description>Recent content in Categories on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 10 Jun 2020 00:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Sun, 14 Jun 2020 00:00:00 -0500</lastBuildDate>
     
         <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Data Agility - A Journey to Advanced Analytics and ML at Scale</title>
+      <link>/spark/data_agility.html</link>
+      <pubDate>Thu, 25 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/spark/data_agility.html</guid>
+      <description>&lt;p&gt;Speaker: Hari Subramanian (Eng. Manager @ Uber).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Defending Deep Learning from Adversarial Attacks</title>
+      <link>/spark/adversarial_attacks.html</link>
+      <pubDate>Thu, 25 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/spark/adversarial_attacks.html</guid>
+      <description>&lt;p&gt;Speakers: Animesh Singh and Svetlana Levitan (IBM). They work at the &amp;ldquo;center for open source data and AI technologies&amp;rdquo; @ IBM.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Explain Yourself: Why You Get the Recommendations You Do</title>

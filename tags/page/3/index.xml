@@ -11,6 +11,24 @@
     
     
     <item>
+      <title>[Paper] Decentralized Privacy-Preserving Proximity Tracing</title>
+      <link>/papers/decentralized_proximity_tracing.html</link>
+      <pubDate>Wed, 08 Apr 2020 00:00:00 -0500</pubDate>
+      
+      <guid>/papers/decentralized_proximity_tracing.html</guid>
+      <description>&lt;p&gt;This is a summary of a proposal for a &amp;ldquo;secure and privacy-preserving decentralized proximity tracing system,&amp;rdquo; aiming to help combat COVID-19 while placing individual privacy at high priority. View the proposal on &lt;a href=&#34;https://github.com/DP-3T/documents&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>What I read this week (March 29 - April 4)</title>
+      <link>/what_i_read/20200404.html</link>
+      <pubDate>Sat, 04 Apr 2020 00:00:00 -0500</pubDate>
+      
+      <guid>/what_i_read/20200404.html</guid>
+      <description>&lt;p&gt;This week&amp;rsquo;s reading was short. It includes a technical deep dive into some zero-day Safari exploits, FiveThirtyEight on why it&amp;rsquo;s hard to build a good COVID-19 model, and reflections on the lockdown.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>The dangers of big data (&#34;Everybody Lies&#34;, part 3)</title>
       <link>/books/everybody_lies_3.html</link>
       <pubDate>Wed, 01 Apr 2020 00:00:00 -0500</pubDate>
@@ -170,24 +188,6 @@
       
       <guid>/posts/openai_unease.html</guid>
       <description>&lt;p&gt;Early last week, an article was posted at the MIT Technology Review: &lt;a href=&#34;https://www.technologyreview.com/s/615181/ai-openai-moonshot-elon-musk-sam-altman-greg-brockman-messy-secretive-reality/&#34;&gt;the messy, secretive reality behind OpenAI&amp;rsquo;s bid to save the world&lt;/a&gt; by Karen Hao. As well-written as it is long, I started thinking about what OpenAI stands for and why it makes me increasingly uneasy.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Section 230, the internet, and neutrality</title>
-      <link>/posts/section_230_and_neutrality.html</link>
-      <pubDate>Mon, 24 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/section_230_and_neutrality.html</guid>
-      <description>&lt;p&gt;Section 230 of the Communications Decency Act, which protects publishers of third-party content, is the foundation of the modern internet. Recent debate has focused on algorithmic curation and content moderation, but this misses the heart of the issue.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] From Pick-Up Artists to Incels: A Data-Driven Sketch of the Manosphere</title>
-      <link>/papers/sketch_of_manosphere_ribeiro.html</link>
-      <pubDate>Sun, 23 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/papers/sketch_of_manosphere_ribeiro.html</guid>
-      <description>&lt;p&gt;This paper characterizes and studies the migration of fringe &amp;ldquo;men&amp;rsquo;s rights&amp;rdquo; groups on Reddit and elsewhere. They demonstrate that these communities (the &amp;ldquo;Manosphere&amp;rdquo;) has more hateful speech than the rest of the web. Paper by &lt;a href=&#34;https://manoelhortaribeiro.github.io/&#34;&gt;Ribeiro&lt;/a&gt; et al.&lt;/p&gt;</description>
     </item>
     
   </channel>

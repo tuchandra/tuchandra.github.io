@@ -4,33 +4,54 @@
   
   <url>
     <loc>/papers.html</loc>
-    <lastmod>2020-06-10T00:00:00-05:00</lastmod>
+    <lastmod>2020-06-14T00:00:00-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/papers/information_operations_blm_arif.html</loc>
-    <lastmod>2020-06-10T00:00:00-05:00</lastmod>
+    <loc>/papers/facebook_self_reported_survey_ernala.html</loc>
+    <lastmod>2020-06-14T00:00:00-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/categories.html</loc>
-    <lastmod>2020-06-10T00:00:00-05:00</lastmod>
+    <lastmod>2020-06-14T00:00:00-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/categories/papers.html</loc>
-    <lastmod>2020-06-10T00:00:00-05:00</lastmod>
+    <lastmod>2020-06-14T00:00:00-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/</loc>
+    <lastmod>2020-06-14T00:00:00-05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/what-i-read.html</loc>
+    <lastmod>2020-06-13T00:00:00-05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/papers/20200613.html</loc>
+    <lastmod>2020-06-13T00:00:00-05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/papers/information_operations_blm_arif.html</loc>
     <lastmod>2020-06-10T00:00:00-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -74,13 +95,6 @@
     <loc>/what_i_read.html</loc>
     <lastmod>2020-05-30T00:00:00-05:00</lastmod>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/what-i-read.html</loc>
-    <lastmod>2020-05-30T00:00:00-05:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>

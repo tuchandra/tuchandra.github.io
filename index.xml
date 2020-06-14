@@ -6,10 +6,28 @@
     <description>Recent content on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 10 Jun 2020 00:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Sun, 14 Jun 2020 00:00:00 -0500</lastBuildDate>
     
         <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Paper] How Well Do People Report Time Spent on Facebook?: An Evaluation of Established Survey Questions with Recommendations</title>
+      <link>/papers/facebook_self_reported_survey_ernala.html</link>
+      <pubDate>Sun, 14 Jun 2020 00:00:00 -0500</pubDate>
+      
+      <guid>/papers/facebook_self_reported_survey_ernala.html</guid>
+      <description>&lt;p&gt;How reliable are self-reported measures of social media use? Lots of studies rely on them, but it&amp;rsquo;s well-known that self-reported behaviors can be noisy. This paper studies how noisy by comparing the results from 10 self-reported questions with actual usage data from Facebook server logs.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>What I read this week (June 7 - 13)</title>
+      <link>/papers/20200613.html</link>
+      <pubDate>Sat, 13 Jun 2020 00:00:00 -0500</pubDate>
+      
+      <guid>/papers/20200613.html</guid>
+      <description>&lt;p&gt;This week&amp;rsquo;s writing features TODO.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>[Paper] Acting the Part: Examining Information Operations Within #BlackLivesMatter Discourse</title>
@@ -171,24 +189,6 @@
       
       <guid>/papers/self_regulation_in_depression_eschler.html</guid>
       <description>&lt;p&gt;How do people with depression use technology at a personal level? The answer &amp;ldquo;they all use it differently&amp;rdquo; may or may not be surprising, depending on your perspective, but in my experience this is often assumed to be the case. Eschler et al. take on this question by interviewing people about the roles technology plays in their lives and opportunities to use it in a healthy way.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] Re-Shape: A Method to Teach Data Ethics for Data Science Education</title>
-      <link>/papers/reshape_data_ethics_shapiro.html</link>
-      <pubDate>Sun, 03 May 2020 00:00:00 -0500</pubDate>
-      
-      <guid>/papers/reshape_data_ethics_shapiro.html</guid>
-      <description>&lt;p&gt;Imagine that a week of your personal location data were made public. What would strangers be able to learn about you? The authors use this question to motivate Re-Shape, a method for teaching students about the ethics of data collection and use, building on the feminist idea of &amp;ldquo;cultivating care.&amp;rdquo;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] Celebrating Everyday Success: Improving Engagement and Motivation using a System for Recording Daily Highlights</title>
-      <link>/papers/celebrating_everyday_success_avrahami.html</link>
-      <pubDate>Sat, 02 May 2020 00:00:00 -0500</pubDate>
-      
-      <guid>/papers/celebrating_everyday_success_avrahami.html</guid>
-      <description>&lt;p&gt;Recognizing your own successes is important for cultivating a positive outlook and sense of purpose. Modern work environments often do not offer this, with the idea of there always being more to do standing in the way of reflection that celebrates progress. &lt;em&gt;Highlight Matome&lt;/em&gt; is a personal online tool for workers to quickly record short, daily highlights with the goal of improving their inner work life.&lt;/p&gt;</description>
     </item>
     
   </channel>
