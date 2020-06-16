@@ -6,10 +6,20 @@
     <description>Recent content on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 05 Jun 2020 00:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jun 2020 00:00:00 -0500</lastBuildDate>
     
         <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Spark Summit 2020: an early look at the schedule</title>
+      <link>/posts/spark_2020_schedule.html</link>
+      <pubDate>Tue, 16 Jun 2020 00:00:00 -0500</pubDate>
+      
+      <guid>/posts/spark_2020_schedule.html</guid>
+      <description>&lt;style type=&#34;text/css&#34; rel=&#34;stylesheet&#34;&gt;.main .content { max-width: none; }&lt;/style&gt;
+&lt;p&gt;&lt;a href=&#34;https://databricks.com/sparkaisummit/north-america-2020&#34;&gt;Spark + AI Summit&lt;/a&gt; is happening virtually next week, and I will be spending the second half of next week watching talks from there. I went through the &lt;a href=&#34;https://databricks.com/sparkaisummit/north-america-2020/agenda&#34;&gt;schedule&lt;/a&gt; to make a preliminary list of the talks that sound interesting to me. And just like &lt;a href=&#34;/spark/spark_overview.html&#34;&gt;last year&lt;/a&gt;, I&amp;rsquo;ll be writing about them here.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>[Paper] Fragile Masculinity: Men, Gender, and Online Harassment</title>
@@ -180,15 +190,6 @@
       
       <guid>/papers/understanding_data_iteration_ml_hohman.html</guid>
       <description>&lt;p&gt;Machine learning is as much&amp;mdash;if not more&amp;mdash;about the data as it is the models. This paper explores &lt;em&gt;data&lt;/em&gt; iteration, in contrast to model iteration, and studies ways that ML practitioners manage changing data.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] How to Trick AI: Users&#39; Strategies for Protecting Themselves from Automatic Personality Assessment</title>
-      <link>/papers/how_to_trick_ai_volkel.html</link>
-      <pubDate>Tue, 05 May 2020 00:00:00 -0500</pubDate>
-      
-      <guid>/papers/how_to_trick_ai_volkel.html</guid>
-      <description>&lt;p&gt;Suppose you were talking to a chatbot who was trying to infer your personality. To what extent would you be able to fake a personality and trick the bot? That&amp;rsquo;s the central question in this paper by Völkel et al., which gets at deep questions about the transparency of and ethics behind computing systems.&lt;/p&gt;</description>
     </item>
     
   </channel>
