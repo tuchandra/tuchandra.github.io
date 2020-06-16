@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Automating Predictive Modeling at Zynga with Pandas UDFs</title>
+      <link>/spark/automated_modeling.html</link>
+      <pubDate>Thu, 25 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/spark/automated_modeling.html</guid>
+      <description>&lt;p&gt;Speaker: Ben Weber (Principal Data Scientist @ Zynga).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Data Agility - A Journey to Advanced Analytics and ML at Scale</title>
       <link>/spark/data_agility.html</link>
       <pubDate>Thu, 25 Apr 2019 00:00:00 +0000</pubDate>
