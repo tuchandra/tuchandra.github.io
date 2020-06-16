@@ -6,7 +6,7 @@
     <description>Recent content in chi2020 on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 08 Jun 2020 00:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Sun, 14 Jun 2020 00:00:00 -0500</lastBuildDate>
     
         <atom:link href="/categories/chi2020/index.xml" rel="self" type="application/rss+xml" />
     
@@ -166,10 +166,10 @@
     
     <item>
       <title>[Paper] Understanding and Visualizing Data Iteration in Machine Learning</title>
-      <link>/papers/undestanding_data_iteration_ml_hohman.html</link>
+      <link>/papers/understanding_data_iteration_ml_hohman.html</link>
       <pubDate>Fri, 08 May 2020 00:00:00 -0500</pubDate>
       
-      <guid>/papers/undestanding_data_iteration_ml_hohman.html</guid>
+      <guid>/papers/understanding_data_iteration_ml_hohman.html</guid>
       <description>&lt;p&gt;Machine learning is as much&amp;mdash;if not more&amp;mdash;about the data as it is the models. This paper explores &lt;em&gt;data&lt;/em&gt; iteration, in contrast to model iteration, and studies ways that ML practitioners manage changing data.&lt;/p&gt;</description>
     </item>
     
