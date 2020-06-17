@@ -16,7 +16,7 @@
       <pubDate>Tue, 16 Jun 2020 00:00:00 -0500</pubDate>
       
       <guid>/posts/spark_2020_schedule.html</guid>
-      <description>&lt;style type=&#34;text/css&#34; rel=&#34;stylesheet&#34;&gt;.main .content { max-width: none; }&lt;/style&gt;
+      <description>&lt;style type=&#34;text/css&#34; rel=&#34;stylesheet&#34;&gt;.main .content { max-width: none; overflow-x: scroll; }&lt;/style&gt;
 &lt;p&gt;&lt;a href=&#34;https://databricks.com/sparkaisummit/north-america-2020&#34;&gt;Spark + AI Summit&lt;/a&gt; is happening virtually next week, and I will be spending the second half of next week watching talks from there. I went through the &lt;a href=&#34;https://databricks.com/sparkaisummit/north-america-2020/agenda&#34;&gt;schedule&lt;/a&gt; to make a preliminary list of the talks that sound interesting to me. And just like &lt;a href=&#34;/spark/spark_overview.html&#34;&gt;last year&lt;/a&gt;, I&amp;rsquo;ll be writing about them here.&lt;/p&gt;</description>
     </item>
     
