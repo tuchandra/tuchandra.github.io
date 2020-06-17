@@ -239,7 +239,6 @@ optgroup {
 table {
   border-collapse: collapse;
   border-spacing: 0;
-  overflow-x: scroll;
 }
 
 td,
@@ -8992,8 +8991,6 @@ body.okayNav-loaded {
 
 @media (max-width: 480px) {
   .header #avatar {
-    width: 24px;
-    height: 24px;
     margin-left: 15px;
   }
 }
