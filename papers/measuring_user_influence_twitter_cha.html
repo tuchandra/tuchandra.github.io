@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>
+        [Paper] Measuring User Influence on Twitter: The Million Follower Fallacy - Tushar Chandra
+      </title>
+    <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="Cache-Control" content="no-transform" />
+  <meta http-equiv="Cache-Control" content="no-siteapp" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="format-detection" content="telephone=no,email=no,adress=no">
+  
+  <meta name="theme-color" content="#000000" />
+  <meta http-equiv="window-target" content="_top" />
+  
+  <meta name="description" content="This 2010 paper recently won the ICWSM Test of Time award, so I gave it a look. One of the earliest papers studying Twitter, key findings include that followers are not a measure of engagement (but retweets and mentions are), and that influential users are influential about diverse and unrelated topics.
+" />
+  <meta name="generator" content="Hugo 0.70.0 with theme pure" />
+  <title>[Paper] Measuring User Influence on Twitter: The Million Follower Fallacy - Tushar Chandra</title>
+  
+
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
+  <meta property="og:title" content="[Paper] Measuring User Influence on Twitter: The Million Follower Fallacy" />
+<meta property="og:description" content="This 2010 paper recently won the ICWSM Test of Time award, so I gave it a look. One of the earliest papers studying Twitter, key findings include that followers are not a measure of engagement (but retweets and mentions are), and that influential users are influential about diverse and unrelated topics." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/papers/measuring_user_influence_twitter_cha.html" />
+<meta property="article:published_time" content="2020-06-22T00:00:00-05:00" />
+<meta property="article:modified_time" content="2020-06-22T00:00:00-05:00" />
+<meta itemprop="name" content="[Paper] Measuring User Influence on Twitter: The Million Follower Fallacy">
+<meta itemprop="description" content="This 2010 paper recently won the ICWSM Test of Time award, so I gave it a look. One of the earliest papers studying Twitter, key findings include that followers are not a measure of engagement (but retweets and mentions are), and that influential users are influential about diverse and unrelated topics.">
+<meta itemprop="datePublished" content="2020-06-22T00:00:00-05:00" />
+<meta itemprop="dateModified" content="2020-06-22T00:00:00-05:00" />
+<meta itemprop="wordCount" content="871">
+
+
+
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="[Paper] Measuring User Influence on Twitter: The Million Follower Fallacy"/>
+<meta name="twitter:description" content="This 2010 paper recently won the ICWSM Test of Time award, so I gave it a look. One of the earliest papers studying Twitter, key findings include that followers are not a measure of engagement (but retweets and mentions are), and that influential users are influential about diverse and unrelated topics."/>
+</head>
+  </head>
+  
+
+  <body class="main-center theme-blue" itemscope itemtype="http://schema.org/WebPage"><header class="header" itemscope itemtype="http://schema.org/WPHeader">
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-169859131-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+
+    <div class="slimContent">
+      <div class="navbar-header">
+        <div class="profile-block text-center">
+          <a id="avatar" href="/">
+            <img class="img-circle" src="/headshot.jpg" width="200" height="200">
+          </a>
+          <h2 id="name" class="hidden-xs hidden-sm"><b>Tushar Chandra</b></h2>
+          <h3 id="title" class="hidden-xs hidden-sm hidden-md">Data Scientist</h3>
+          <small id="location" class="text-muted hidden-xs hidden-sm"><i class="icon icon-map-marker"></i> Chicago, IL</small>
+        </div>
+
+        
+        <nav id="mobile-navbar" itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation">
+          <ul class="mobile-nav">
+              <a href="/">
+                <li class="menu-item-home">
+                    <i class="icon icon-home-fill"></i>
+                  <span class="menu-title"><br>Home</span>
+                </li>
+              </a>
+              <a href="/about">
+                <li class="menu-item-about">
+                    <i class="icon icon-cup-fill"></i>
+                  <span class="menu-title"><br>About</span>
+                </li>
+              </a>
+              <a href="/resume">
+                <li class="menu-item-resume">
+                    <i class="icon icon-file"></i>
+                  <span class="menu-title"><br>Resume</span>
+                </li>
+              </a>
+              <a href="/reading">
+                <li class="menu-item-reading">
+                    <i class="icon icon-shu-fill"></i>
+                  <span class="menu-title"><br>Reading</span>
+                </li>
+              </a>
+              <a href="/categories.html">
+                <li class="menu-item-categories">
+                    <i class="icon icon-folder-open"></i>
+                  <span class="menu-title"><br>Categories</span>
+                </li>
+              </a>
+              <a href="/posts.html">
+                <li class="menu-item-archives">
+                    <i class="icon icon-archives-fill"></i>
+                  <span class="menu-title"><br>Archives</span>
+                </li>
+              </a>
+
+          </ul>
+        </nav>
+      </div>
+      <nav id="main-navbar" class="collapse navbar-collapse" itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation">
+        <ul class="nav navbar-nav main-nav">
+            <li class="menu-item menu-item-home">
+                <a href="/">
+                    <i class="icon icon-home-fill"></i>
+                  <span class="menu-title">Home</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-about">
+                <a href="/about">
+                    <i class="icon icon-cup-fill"></i>
+                  <span class="menu-title">About</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-resume">
+                <a href="/resume">
+                    <i class="icon icon-file"></i>
+                  <span class="menu-title">Resume</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-reading">
+                <a href="/reading">
+                    <i class="icon icon-shu-fill"></i>
+                  <span class="menu-title">Reading</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-categories">
+                <a href="/categories.html">
+                    <i class="icon icon-folder-open"></i>
+                  <span class="menu-title">Categories</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-archives">
+                <a href="/posts.html">
+                    <i class="icon icon-archives-fill"></i>
+                  <span class="menu-title">Archives</span>
+                </a>
+            </li>
+
+        </ul>
+      </nav>
+    </div>
+  </header>
+<aside class="sidebar" itemscope itemtype="http://schema.org/WPSideBar">
+  <div class="slimContent">
+    <div class="widget">
+    <h3 class="widget-title"> Categories</h3>
+    <div class="widget-body">
+        <ul class="category-list">
+            <li class="category-list-item"><a href="/categories/books.html" class="category-list-link">books</a><span class="category-list-count">6</span></li>
+            <li class="category-list-item"><a href="/categories/chi2020.html" class="category-list-link">chi2020</a><span class="category-list-count">19</span></li>
+            <li class="category-list-item"><a href="/categories/general.html" class="category-list-link">general</a><span class="category-list-count">32</span></li>
+            <li class="category-list-item"><a href="/categories/papers.html" class="category-list-link">papers</a><span class="category-list-count">46</span></li>
+            <li class="category-list-item"><a href="/categories/posts.html" class="category-list-link">posts</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="/categories/projects.html" class="category-list-link">projects</a><span class="category-list-count">7</span></li>
+            <li class="category-list-item"><a href="/categories/self.html" class="category-list-link">self</a><span class="category-list-count">3</span></li>
+            <li class="category-list-item"><a href="/categories/spark.html" class="category-list-link">spark</a><span class="category-list-count">14</span></li>
+            <li class="category-list-item"><a href="/categories/what-i-read.html" class="category-list-link">what-i-read</a><span class="category-list-count">28</span></li>
+        </ul>
+    </div>
+</div>
+<div class="widget">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget-body">
+        <ul class="recent-post-list list-unstyled no-thumbnail">
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/papers/measuring_user_influence_twitter_cha.html" class="title">[Paper] Measuring User Influence on Twitter: The Million Follower Fallacy</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-06-22 00:00:00 -0500 CDT" itemprop="datePublished">2020-06-22</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/posts/mindfulness_and_tech.html" class="title">Mindful phone usage</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-06-18 00:00:00 -0500 CDT" itemprop="datePublished">2020-06-18</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/books/network_propaganda_3.html" class="title">Network Propaganda, part 3</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-06-17 00:00:00 -0500 CDT" itemprop="datePublished">2020-06-17</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/posts/spark_2020_schedule.html" class="title">Spark Summit 2020: an early look at the schedule</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-06-16 00:00:00 -0500 CDT" itemprop="datePublished">2020-06-16</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/papers/fragile_masculinity_online_harassment_rubin.html" class="title">[Paper] Fragile Masculinity: Men, Gender, and Online Harassment</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-06-15 00:00:00 -0500 CDT" itemprop="datePublished">2020-06-15</time>
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+  </div>
+</aside>
+
+    
+    
+<main class="main" role="main"><div class="content">
+  <article id="-" class="article article-type-" itemscope
+    itemtype="http://schema.org/BlogPosting">
+    
+    <div class="article-header">
+      <h1 itemprop="name">
+  <a
+    class=""
+    href="/papers/measuring_user_influence_twitter_cha.html"
+    >[Paper] Measuring User Influence on Twitter: The Million Follower Fallacy</a
+  >
+</h1>
+
+      <div class="article-meta">
+        <span class="article-date">
+  <i class="icon icon-calendar-check"></i>
+<a href="/papers/measuring_user_influence_twitter_cha.html">
+  <time datetime="2020-06-22 00:00:00 -0500 CDT" itemprop="datePublished">2020-06-22</time>
+</a>
+</span><span class="article-category">
+  <i class="icon icon-folder"></i>
+    <a class="article-category-link" href="/categories/papers.html"> papers, </a>
+</span>
+
+        
+      </div>
+    </div>
+    <div class="article-entry marked-body js-toc-content" itemprop="articleBody">
+      <p>This 2010 paper recently won the <a href="https://twitter.com/icwsm/status/1272747094554574848">ICWSM Test of Time award</a>, so I gave it a look. One of the earliest papers studying Twitter, key findings include that followers are <em>not</em> a measure of engagement (but retweets and mentions are), and that influential users are influential about diverse and unrelated topics.</p>
+<p><strong>Authors</strong>: Meeyoung Cha, Hamed Haddadi, Fabrício Benevenu Benevenuto, Krishna P. Gummadi</p>
+<p><strong>Link</strong>: <a href="https://homepages.dcc.ufmg.br/~fabricio/download/icwsm2010_cha.pdf">PDF</a></p>
+<h2 id="background">Background</h2>
+<p>This paper studies <em>influence</em> on Twitter, which is measured here through indegree (the number of people who follow a user), retweets, and mentions. The authors studied <a href="http://twitter.mpi-sws.org/">a dataset</a> of 2 billion follow links among 54 million users who produced 1.7 billion tweets:</p>
+<ul>
+<li>they looked for all user IDs between 0 and 80 million, finding 55M accounts</li>
+<li>those were connected to each other by 2B social links</li>
+<li>they scraped all the tweets ever posted by every user since the start of Twitter, which was 1.7B</li>
+<li>the user network has a single large connected component with 94.8% of users, so they kept that and ignored the others</li>
+<li>they ignored private accounts and accounts with &lt; 10 tweets, leaving 6M users</li>
+</ul>
+<p>What simpler times, when you could just get &hellip; all the tweets! The paper studied how these 6M active users interacted with the entire set of 55M.</p>
+<h2 id="measures-of-influence">Measures of influence</h2>
+<p>The most followed users were news sources (CNN, NYT), politicians (Obama), athletes (Shaq), celebrities (Ashton Kutcher, Britney Spears &hellip; oh yeah, 2010). The most retweeted users were aggregators (Mashable, TwitterTips, etc.), businessmen, and news. The most mentioned users were primarily celebrities. None of this is shocking, but it&rsquo;s good to know that 2010 was similar to today.</p>
+<p>The table below shows two things at play:</p>
+<ul>
+<li>among all users, these measures of influence are all correlated, but this is mostly driven by the least connected users having zero retweets, mentions, or followers</li>
+<li>among just the top 10% or 1% of users (by indegree), only retweets and mentions are highly correlated.</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Correlation</th>
+<th>All</th>
+<th>Top 10%</th>
+<th>Top 1%</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>indegree vs. retweets</td>
+<td>0.549</td>
+<td>0.122</td>
+<td>0.109</td>
+</tr>
+<tr>
+<td>indegree vs. mentions</td>
+<td>0.638</td>
+<td>0.286</td>
+<td>0.309</td>
+</tr>
+<tr>
+<td>retweets vs. mentions</td>
+<td>0.580</td>
+<td>0.638</td>
+<td>0.605</td>
+</tr>
+</tbody>
+</table>
+<p><em>Table 1 from the paper: Spearman&rsquo;s rank correlation coefficients</em></p>
+<h2 id="how-does-influence-hold-across-different-topics">How does influence hold across different topics?</h2>
+<p>The authors picked three topics that were popular in 2009: the Iranian presidential election, swine flu, and Michael Jackson&rsquo;s death. They used keywords to identify the tweets about these during 60-day windows. 2% of users (13K) discussed all three topics; these users had an average of 2000 followers and, together, reached 16 million people.</p>
+<p>They found a power law relationship between users&rsquo; influence and the number of retweets and mentions that they got. (I don&rsquo;t fully understand this&mdash;how did they measure what they call &ldquo;user ranks&rdquo; if not exactly by those two metrics?)</p>
+<p>These influential users also show their influence across diverse topics:</p>
+<table>
+<thead>
+<tr>
+<th>Topics</th>
+<th>RT 10%</th>
+<th>RT 1%</th>
+<th>Mentions 10%</th>
+<th>Mentions 1%</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Iran vs. Swine Flu</td>
+<td>0.54</td>
+<td>0.62</td>
+<td>0.59</td>
+<td>0.68</td>
+</tr>
+<tr>
+<td>Iran vs. Michael Jackson</td>
+<td>0.48</td>
+<td>0.54</td>
+<td>0.59</td>
+<td>0.63</td>
+</tr>
+<tr>
+<td>Swine Flu vs. Michael Jackson</td>
+<td>0.55</td>
+<td>0.50</td>
+<td>0.80</td>
+<td>0.68</td>
+</tr>
+</tbody>
+</table>
+<p><em>Table 3 from the paper: correlations over topics</em></p>
+<p>This leads to two interesting findings:</p>
+<blockquote>
+<p>First, most influential users hold significant influence over a variety of topics. This means that local opinion leaders and highly popular figures could indeed be used to spread information outside their area of expertise. In fact, new advertisement campaigns have recently been launched that insert advertisement links into a popular person’s tweet (Fiorillo 2009).</p>
+</blockquote>
+<p>and:</p>
+<blockquote>
+<p>Second, the power-law trend in the difference among influence of individuals indicates that it is substantially more effective to target the top influentials than to employ a massive number of non-popular users in order to kick start a viral campaign.</p>
+</blockquote>
+<p>This seems obvious now, but one of the reasons this paper received the Test of Time award is precisely because it was responsible for ideas that we take for granted today. Anyone on Twitter today could tell you that a handful of accounts control a great deal of the discourse; I don&rsquo;t know if this was as clear in 2010.</p>
+<p>The rest of the paper looks into the temporal evolution of these metrics, which is interesting but less clear. I choose not to summarize it here, but encourage folks to check it out.</p>
+<h2 id="thoughts">Thoughts</h2>
+<p>This is one of those papers that makes me realize that the things I&rsquo;ve been wondering about&mdash;and seen being debated&mdash;are topics that researchers have been studying for a long time. The idea of &ldquo;influentials&rdquo; (a minority of users good at persuading others) comes from 1962 communication theory. This research is from 10 years ago&mdash;an eternity in Twitter-time&mdash;and yet, it persists today.</p>
+<p>The &ldquo;million follower fallacy&rdquo; in the title refers to the finding that followers alone are not a great measure of influence on Twitter. Retweets and mentions, meanwhile, show how much people are talking about you or to you.</p>
+<p>I really enjoyed reading this early-Twitter research. Imagine being able to just get <em>all</em> of the users and <em>all</em> of the tweets! As social media grows, this kind of work is only possible by the largest industry labs, which is probably a bad thing.</p>
+<p>Nonetheless, this was a good and light read. I will be diving more into the ICWSM papers (but from 2020 this time!) in the coming days.</p>
+    </div>
+    <div class="article-footer">
+    </div>
+  </article>
+</div><nav class="bar bar-footer clearfix" data-stick-bottom>
+    <div class="bar-inner">
+        <ul class="pager pull-left">
+            <li class="prev">
+                <a href="/posts/mindfulness_and_tech.html" title="Mindful phone usage"><i
+                        class="icon icon-angle-left"
+                        aria-hidden="true"></i><span>&nbsp;&nbsp;Older</span></a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+</main><footer class="footer" itemscope itemtype="http://schema.org/WPFooter">
+<ul class="social-links">
+    <li><a href="https://github.com/tuchandra" target="_blank" title="github" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-github"></i></a></li>
+    <li><a href="https://www.linkedin.com/in/tushar-chandra-76a623b6/" target="_blank" title="linkedin" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-linkedin"></i></a></li>
+    <li><a href="/index.xml" target="_blank" title="rss" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-rss"></i></a></li>
+</ul>
+  <div class="copyright">
+    &copy; 2019 - 2020 Tushar Chandra
+    <p style="margin-bottom: 4px">All opinions are my own.</p>
+    <div class="publishby">
+        Theme: <a href="https://github.com/xiaoheiAh/hugo-theme-pure" target="_blank">Hugo Pure</a>.
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_SVG"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+            showMathMenu: false, //disables context menu
+            tex2jax: {
+            inlineMath: [ ['$','$'], ['\\(','\\)'] ]
+           }
+    });
+</script>
+
+
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/highlight.min.js"></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/python.min.js"></script><script>
+    hljs.configure({
+        tabReplace: '    ', 
+        classPrefix: ''     
+        
+    })
+    hljs.initHighlightingOnLoad();
+</script>
+
+  </body>
+</html>
