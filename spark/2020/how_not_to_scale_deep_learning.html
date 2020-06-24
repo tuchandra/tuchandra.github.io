@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>
+        How (not) to scale deep learning in 6 easy steps - Tushar Chandra
+      </title>
+    <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="Cache-Control" content="no-transform" />
+  <meta http-equiv="Cache-Control" content="no-siteapp" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="format-detection" content="telephone=no,email=no,adress=no">
+  
+  <meta name="theme-color" content="#000000" />
+  <meta http-equiv="window-target" content="_top" />
+  
+  <meta name="description" content="The last talk of the morning session talked about common problems scaling ML and DL models: common pitfalls, things that people try too early (more hardware), and what to do instead.
+" />
+  <meta name="generator" content="Hugo 0.65.3 with theme pure" />
+  <title>How (not) to scale deep learning in 6 easy steps - Tushar Chandra</title>
+  
+
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
+  <meta property="og:title" content="How (not) to scale deep learning in 6 easy steps" />
+<meta property="og:description" content="The last talk of the morning session talked about common problems scaling ML and DL models: common pitfalls, things that people try too early (more hardware), and what to do instead." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/spark/2020/how_not_to_scale_deep_learning.html" />
+<meta property="article:published_time" content="2020-06-24T14:00:00-05:00" />
+<meta property="article:modified_time" content="2020-06-24T14:00:00-05:00" />
+<meta itemprop="name" content="How (not) to scale deep learning in 6 easy steps">
+<meta itemprop="description" content="The last talk of the morning session talked about common problems scaling ML and DL models: common pitfalls, things that people try too early (more hardware), and what to do instead.">
+<meta itemprop="datePublished" content="2020-06-24T14:00:00-05:00" />
+<meta itemprop="dateModified" content="2020-06-24T14:00:00-05:00" />
+<meta itemprop="wordCount" content="575">
+
+
+
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="How (not) to scale deep learning in 6 easy steps"/>
+<meta name="twitter:description" content="The last talk of the morning session talked about common problems scaling ML and DL models: common pitfalls, things that people try too early (more hardware), and what to do instead."/>
+</head>
+  </head>
+  
+
+  <body class="main-center theme-blue" itemscope itemtype="http://schema.org/WebPage"><header class="header" itemscope itemtype="http://schema.org/WPHeader">
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-169859131-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-169859131-1');
+    </script>
+
+    <div class="slimContent">
+      <div class="navbar-header">
+        <div class="profile-block text-center">
+          <a id="avatar" href="/">
+            <img class="img-circle" src="/headshot.jpg" width="200" height="200">
+          </a>
+          <h2 id="name" class="hidden-xs hidden-sm"><b>Tushar Chandra</b></h2>
+          <h3 id="title" class="hidden-xs hidden-sm hidden-md">Data Scientist</h3>
+          <small id="location" class="text-muted hidden-xs hidden-sm"><i class="icon icon-map-marker"></i> Chicago, IL</small>
+        </div>
+
+        
+        <nav id="mobile-navbar" itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation">
+          <ul class="mobile-nav">
+              <a href="/">
+                <li class="menu-item-home">
+                    <i class="icon icon-home-fill"></i>
+                  <span class="menu-title"><br>Home</span>
+                </li>
+              </a>
+              <a href="/about">
+                <li class="menu-item-about">
+                    <i class="icon icon-cup-fill"></i>
+                  <span class="menu-title"><br>About</span>
+                </li>
+              </a>
+              <a href="/resume">
+                <li class="menu-item-resume">
+                    <i class="icon icon-file"></i>
+                  <span class="menu-title"><br>Resume</span>
+                </li>
+              </a>
+              <a href="/reading">
+                <li class="menu-item-reading">
+                    <i class="icon icon-shu-fill"></i>
+                  <span class="menu-title"><br>Reading</span>
+                </li>
+              </a>
+              <a href="/categories.html">
+                <li class="menu-item-categories">
+                    <i class="icon icon-folder-open"></i>
+                  <span class="menu-title"><br>Categories</span>
+                </li>
+              </a>
+              <a href="/posts.html">
+                <li class="menu-item-archives">
+                    <i class="icon icon-archives-fill"></i>
+                  <span class="menu-title"><br>Archives</span>
+                </li>
+              </a>
+
+          </ul>
+        </nav>
+      </div>
+      <nav id="main-navbar" class="collapse navbar-collapse" itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation">
+        <ul class="nav navbar-nav main-nav">
+            <li class="menu-item menu-item-home">
+                <a href="/">
+                    <i class="icon icon-home-fill"></i>
+                  <span class="menu-title">Home</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-about">
+                <a href="/about">
+                    <i class="icon icon-cup-fill"></i>
+                  <span class="menu-title">About</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-resume">
+                <a href="/resume">
+                    <i class="icon icon-file"></i>
+                  <span class="menu-title">Resume</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-reading">
+                <a href="/reading">
+                    <i class="icon icon-shu-fill"></i>
+                  <span class="menu-title">Reading</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-categories">
+                <a href="/categories.html">
+                    <i class="icon icon-folder-open"></i>
+                  <span class="menu-title">Categories</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-archives">
+                <a href="/posts.html">
+                    <i class="icon icon-archives-fill"></i>
+                  <span class="menu-title">Archives</span>
+                </a>
+            </li>
+
+        </ul>
+      </nav>
+    </div>
+  </header>
+<aside class="sidebar" itemscope itemtype="http://schema.org/WPSideBar">
+  <div class="slimContent">
+    <div class="widget">
+    <h3 class="widget-title"> Categories</h3>
+    <div class="widget-body">
+        <ul class="category-list">
+            <li class="category-list-item"><a href="/categories/books.html" class="category-list-link">books</a><span class="category-list-count">6</span></li>
+            <li class="category-list-item"><a href="/categories/chi2020.html" class="category-list-link">chi2020</a><span class="category-list-count">19</span></li>
+            <li class="category-list-item"><a href="/categories/general.html" class="category-list-link">general</a><span class="category-list-count">32</span></li>
+            <li class="category-list-item"><a href="/categories/papers.html" class="category-list-link">papers</a><span class="category-list-count">46</span></li>
+            <li class="category-list-item"><a href="/categories/posts.html" class="category-list-link">posts</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="/categories/projects.html" class="category-list-link">projects</a><span class="category-list-count">7</span></li>
+            <li class="category-list-item"><a href="/categories/self.html" class="category-list-link">self</a><span class="category-list-count">3</span></li>
+            <li class="category-list-item"><a href="/categories/spark.html" class="category-list-link">spark</a><span class="category-list-count">18</span></li>
+            <li class="category-list-item"><a href="/categories/what-i-read.html" class="category-list-link">what-i-read</a><span class="category-list-count">28</span></li>
+        </ul>
+    </div>
+</div>
+<div class="widget">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget-body">
+        <ul class="recent-post-list list-unstyled no-thumbnail">
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/spark/2020/how_not_to_scale_deep_learning.html" class="title">How (not) to scale deep learning in 6 easy steps</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-06-24 14:00:00 -0500 CDT" itemprop="datePublished">2020-06-24</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/spark/2020/productionalizing_models_mlflow.html" class="title">Productionalizing Models through CI/CD Design with MLflow</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-06-24 13:30:00 -0500 CDT" itemprop="datePublished">2020-06-24</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/spark/2020/portable_scalable_data_viz.html" class="title">Portable Scalable Data Visualization Techniques for Apache Spark and Python Notebook-based Analytics</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-06-24 13:00:00 -0500 CDT" itemprop="datePublished">2020-06-24</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/spark/2020/wednesday_morning_keynotes.html" class="title">Notes from the Wednesday Morning Keynotes</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-06-24 12:00:00 -0500 CDT" itemprop="datePublished">2020-06-24</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/papers/measuring_user_influence_twitter_cha.html" class="title">[Paper] Measuring User Influence on Twitter: The Million Follower Fallacy</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-06-22 00:00:00 -0500 CDT" itemprop="datePublished">2020-06-22</time>
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+  </div>
+</aside>
+
+    
+    
+<main class="main" role="main"><div class="content">
+  <article id="-" class="article article-type-" itemscope
+    itemtype="http://schema.org/BlogPosting">
+    
+    <div class="article-header">
+      <h1 itemprop="name">
+  <a
+    class=""
+    href="/spark/2020/how_not_to_scale_deep_learning.html"
+    >How (not) to scale deep learning in 6 easy steps</a
+  >
+</h1>
+
+      <div class="article-meta">
+        <span class="article-date">
+  <i class="icon icon-calendar-check"></i>
+<a href="/spark/2020/how_not_to_scale_deep_learning.html">
+  <time datetime="2020-06-24 14:00:00 -0500 CDT" itemprop="datePublished">2020-06-24</time>
+</a>
+</span><span class="article-category">
+  <i class="icon icon-folder"></i>
+    <a class="article-category-link" href="/categories/spark.html"> spark, </a>
+</span>
+
+        
+      </div>
+    </div>
+    <div class="article-entry marked-body js-toc-content" itemprop="articleBody">
+      <p>The last talk of the morning session talked about common problems scaling ML and DL models: common pitfalls, things that people try too early (more hardware), and what to do instead.</p>
+<p>How many of us, Owen asks, have stared at our terminal hoping that our model didn&rsquo;t break? Or logged onto a VM every few hours to check on the loss? And then had an instinct to throw more hardware at the problem? Yeah. Not good.</p>
+<p>(Note: this talk is about tuning an existing architecture for performance, and getting it to run as fast as it can instead of wasting your time. Not about deciding between architectures.)</p>
+<p><strong>Model setup</strong>: 256-image classification, using a transfer learning setup with an existing image classifier and a fully connected layer or two to fit our purposes. Using TF / Keras on Databricks.</p>
+<h2 id="advice">Advice</h2>
+<p><strong>(1) Use a GPU</strong>: which is kind of tip zero, but definitely use one. Start with a small GPU, and work in memory if you can early on (take a sample of your data if you have to). He gives an example of classical overfitting, where after training a model for an hour we saw 90% training accuracy but 70% test. What a waste of time!</p>
+<p><strong>(2) Use early stopping</strong>: use a validation set to figure out when to stop training (when loss stops going down on that set). In Keras, that just means adding a callback function, and in this example it gave the same results in just 14 epochs.</p>
+<p>Epochs, by the way, end up being arbitrary: the number matters as a unit of training, but they aren&rsquo;t themselves a parameter to tune (especially if you use early stopping).</p>
+<p><strong>(3) Max out the GPU with larger batches</strong>: inspect the GPU utilization, to make sure you can squeeze out as much performance as possible. You can try increasing the learning rate, too; a N-fold increase on batch size is roughly a sqrt(N)-fold increase in the learning rate.</p>
+<p><strong>(4) Use Petastorm to read large data</strong>: Petastorm is an open source project from Uber, which is a &ldquo;parquet to deep learning dataset&rdquo; streaming framework. Its primary use is to feed remote data to your training data.</p>
+<p>In this case study, using Petastorm to stream their full dataset used 10x more data, and led to a better model, but it was 11x slower. A step after this is to use larger GPUs, if available.</p>
+<p><strong>(5) Use multiple GPUs and Horovod</strong>: do this <em>after</em> everything above; don&rsquo;t just throw more hardware at the problem immediately. If you use the native multi-GPU support in Keras, you won&rsquo;t see anywhere near a linear speedup in the number of GPUs. Horovod can help with this, because it uses a faster gradient sharing algorithm to share gradients across devices.</p>
+<p>In this case, using Horovod got the same performance with 8 GPUS and 10x more data as they had with a 10% sample of the data.</p>
+<p><strong>(6) Use multiple machines</strong>: ouch. No thanks. I don&rsquo;t anticipate being in a position where this matters to me, but you can use Horovod for this too.</p>
+<h2 id="closing-thoughts">Closing thoughts</h2>
+<p>Look at your GPU utilization! Make sure that you&rsquo;re using it effectively, and increase your batch size if needed. Other tools can help you, but start simple. I&rsquo;m reminded of <a href="http://karpathy.github.io/2019/04/25/recipe/">Andrej Karpathy&rsquo;s advice for training neural nets</a>, too.</p>
+<p>This was great! The practical advice offered will be immediately applicable to me and a lot of folks I work with.</p>
+    </div>
+    <div class="article-footer">
+    </div>
+  </article>
+</div><nav class="bar bar-footer clearfix" data-stick-bottom>
+    <div class="bar-inner">
+        <ul class="pager pull-left">
+            <li class="prev">
+                <a href="/spark/2020/productionalizing_models_mlflow.html" title="Productionalizing Models through CI/CD Design with MLflow"><i
+                        class="icon icon-angle-left"
+                        aria-hidden="true"></i><span>&nbsp;&nbsp;Older</span></a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+</main><footer class="footer" itemscope itemtype="http://schema.org/WPFooter">
+<ul class="social-links">
+    <li><a href="https://github.com/tuchandra" target="_blank" title="github" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-github"></i></a></li>
+    <li><a href="https://www.linkedin.com/in/tushar-chandra-76a623b6/" target="_blank" title="linkedin" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-linkedin"></i></a></li>
+    <li><a href="/index.xml" target="_blank" title="rss" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-rss"></i></a></li>
+</ul>
+  <div class="copyright">
+    &copy; 2019 - 2020 Tushar Chandra
+    <p style="margin-bottom: 4px">All opinions are my own.</p>
+    <div class="publishby">
+        Theme: <a href="https://github.com/xiaoheiAh/hugo-theme-pure" target="_blank">Hugo Pure</a>.
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_SVG"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+            showMathMenu: false, //disables context menu
+            tex2jax: {
+            inlineMath: [ ['$','$'], ['\\(','\\)'] ]
+           }
+    });
+</script>
+
+
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/highlight.min.js"></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/python.min.js"></script><script>
+    hljs.configure({
+        tabReplace: '    ', 
+        classPrefix: ''     
+        
+    })
+    hljs.initHighlightingOnLoad();
+</script>
+
+  </body>
+</html>

@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>
+        Productionalizing Models through CI/CD Design with MLflow - Tushar Chandra
+      </title>
+    <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="Cache-Control" content="no-transform" />
+  <meta http-equiv="Cache-Control" content="no-siteapp" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="format-detection" content="telephone=no,email=no,adress=no">
+  
+  <meta name="theme-color" content="#000000" />
+  <meta http-equiv="window-target" content="_top" />
+  
+  <meta name="description" content="This talk, by Mary Grace Moesta &amp;amp; Peter Tamisin at Databricks, dove into MLOps and productionalization of machine learning models using MLflow. How can we apply principles from CI/CD to machine learning? And how can MLflow help us to do so?
+" />
+  <meta name="generator" content="Hugo 0.65.3 with theme pure" />
+  <title>Productionalizing Models through CI/CD Design with MLflow - Tushar Chandra</title>
+  
+
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
+  <meta property="og:title" content="Productionalizing Models through CI/CD Design with MLflow" />
+<meta property="og:description" content="This talk, by Mary Grace Moesta &amp; Peter Tamisin at Databricks, dove into MLOps and productionalization of machine learning models using MLflow. How can we apply principles from CI/CD to machine learning? And how can MLflow help us to do so?" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/spark/2020/productionalizing_models_mlflow.html" />
+<meta property="article:published_time" content="2020-06-24T13:30:00-05:00" />
+<meta property="article:modified_time" content="2020-06-24T13:30:00-05:00" />
+<meta itemprop="name" content="Productionalizing Models through CI/CD Design with MLflow">
+<meta itemprop="description" content="This talk, by Mary Grace Moesta &amp; Peter Tamisin at Databricks, dove into MLOps and productionalization of machine learning models using MLflow. How can we apply principles from CI/CD to machine learning? And how can MLflow help us to do so?">
+<meta itemprop="datePublished" content="2020-06-24T13:30:00-05:00" />
+<meta itemprop="dateModified" content="2020-06-24T13:30:00-05:00" />
+<meta itemprop="wordCount" content="526">
+
+
+
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Productionalizing Models through CI/CD Design with MLflow"/>
+<meta name="twitter:description" content="This talk, by Mary Grace Moesta &amp; Peter Tamisin at Databricks, dove into MLOps and productionalization of machine learning models using MLflow. How can we apply principles from CI/CD to machine learning? And how can MLflow help us to do so?"/>
+</head>
+  </head>
+  
+
+  <body class="main-center theme-blue" itemscope itemtype="http://schema.org/WebPage"><header class="header" itemscope itemtype="http://schema.org/WPHeader">
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-169859131-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-169859131-1');
+    </script>
+
+    <div class="slimContent">
+      <div class="navbar-header">
+        <div class="profile-block text-center">
+          <a id="avatar" href="/">
+            <img class="img-circle" src="/headshot.jpg" width="200" height="200">
+          </a>
+          <h2 id="name" class="hidden-xs hidden-sm"><b>Tushar Chandra</b></h2>
+          <h3 id="title" class="hidden-xs hidden-sm hidden-md">Data Scientist</h3>
+          <small id="location" class="text-muted hidden-xs hidden-sm"><i class="icon icon-map-marker"></i> Chicago, IL</small>
+        </div>
+
+        
+        <nav id="mobile-navbar" itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation">
+          <ul class="mobile-nav">
+              <a href="/">
+                <li class="menu-item-home">
+                    <i class="icon icon-home-fill"></i>
+                  <span class="menu-title"><br>Home</span>
+                </li>
+              </a>
+              <a href="/about">
+                <li class="menu-item-about">
+                    <i class="icon icon-cup-fill"></i>
+                  <span class="menu-title"><br>About</span>
+                </li>
+              </a>
+              <a href="/resume">
+                <li class="menu-item-resume">
+                    <i class="icon icon-file"></i>
+                  <span class="menu-title"><br>Resume</span>
+                </li>
+              </a>
+              <a href="/reading">
+                <li class="menu-item-reading">
+                    <i class="icon icon-shu-fill"></i>
+                  <span class="menu-title"><br>Reading</span>
+                </li>
+              </a>
+              <a href="/categories.html">
+                <li class="menu-item-categories">
+                    <i class="icon icon-folder-open"></i>
+                  <span class="menu-title"><br>Categories</span>
+                </li>
+              </a>
+              <a href="/posts.html">
+                <li class="menu-item-archives">
+                    <i class="icon icon-archives-fill"></i>
+                  <span class="menu-title"><br>Archives</span>
+                </li>
+              </a>
+
+          </ul>
+        </nav>
+      </div>
+      <nav id="main-navbar" class="collapse navbar-collapse" itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation">
+        <ul class="nav navbar-nav main-nav">
+            <li class="menu-item menu-item-home">
+                <a href="/">
+                    <i class="icon icon-home-fill"></i>
+                  <span class="menu-title">Home</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-about">
+                <a href="/about">
+                    <i class="icon icon-cup-fill"></i>
+                  <span class="menu-title">About</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-resume">
+                <a href="/resume">
+                    <i class="icon icon-file"></i>
+                  <span class="menu-title">Resume</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-reading">
+                <a href="/reading">
+                    <i class="icon icon-shu-fill"></i>
+                  <span class="menu-title">Reading</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-categories">
+                <a href="/categories.html">
+                    <i class="icon icon-folder-open"></i>
+                  <span class="menu-title">Categories</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-archives">
+                <a href="/posts.html">
+                    <i class="icon icon-archives-fill"></i>
+                  <span class="menu-title">Archives</span>
+                </a>
+            </li>
+
+        </ul>
+      </nav>
+    </div>
+  </header>
+<aside class="sidebar" itemscope itemtype="http://schema.org/WPSideBar">
+  <div class="slimContent">
+    <div class="widget">
+    <h3 class="widget-title"> Categories</h3>
+    <div class="widget-body">
+        <ul class="category-list">
+            <li class="category-list-item"><a href="/categories/books.html" class="category-list-link">books</a><span class="category-list-count">6</span></li>
+            <li class="category-list-item"><a href="/categories/chi2020.html" class="category-list-link">chi2020</a><span class="category-list-count">19</span></li>
+            <li class="category-list-item"><a href="/categories/general.html" class="category-list-link">general</a><span class="category-list-count">32</span></li>
+            <li class="category-list-item"><a href="/categories/papers.html" class="category-list-link">papers</a><span class="category-list-count">46</span></li>
+            <li class="category-list-item"><a href="/categories/posts.html" class="category-list-link">posts</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="/categories/projects.html" class="category-list-link">projects</a><span class="category-list-count">7</span></li>
+            <li class="category-list-item"><a href="/categories/self.html" class="category-list-link">self</a><span class="category-list-count">3</span></li>
+            <li class="category-list-item"><a href="/categories/spark.html" class="category-list-link">spark</a><span class="category-list-count">18</span></li>
+            <li class="category-list-item"><a href="/categories/what-i-read.html" class="category-list-link">what-i-read</a><span class="category-list-count">28</span></li>
+        </ul>
+    </div>
+</div>
+<div class="widget">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget-body">
+        <ul class="recent-post-list list-unstyled no-thumbnail">
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/spark/2020/how_not_to_scale_deep_learning.html" class="title">How (not) to scale deep learning in 6 easy steps</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-06-24 14:00:00 -0500 CDT" itemprop="datePublished">2020-06-24</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/spark/2020/productionalizing_models_mlflow.html" class="title">Productionalizing Models through CI/CD Design with MLflow</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-06-24 13:30:00 -0500 CDT" itemprop="datePublished">2020-06-24</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/spark/2020/portable_scalable_data_viz.html" class="title">Portable Scalable Data Visualization Techniques for Apache Spark and Python Notebook-based Analytics</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-06-24 13:00:00 -0500 CDT" itemprop="datePublished">2020-06-24</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/spark/2020/wednesday_morning_keynotes.html" class="title">Notes from the Wednesday Morning Keynotes</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-06-24 12:00:00 -0500 CDT" itemprop="datePublished">2020-06-24</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/papers/measuring_user_influence_twitter_cha.html" class="title">[Paper] Measuring User Influence on Twitter: The Million Follower Fallacy</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-06-22 00:00:00 -0500 CDT" itemprop="datePublished">2020-06-22</time>
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+  </div>
+</aside>
+
+    
+    
+<main class="main" role="main"><div class="content">
+  <article id="-" class="article article-type-" itemscope
+    itemtype="http://schema.org/BlogPosting">
+    
+    <div class="article-header">
+      <h1 itemprop="name">
+  <a
+    class=""
+    href="/spark/2020/productionalizing_models_mlflow.html"
+    >Productionalizing Models through CI/CD Design with MLflow</a
+  >
+</h1>
+
+      <div class="article-meta">
+        <span class="article-date">
+  <i class="icon icon-calendar-check"></i>
+<a href="/spark/2020/productionalizing_models_mlflow.html">
+  <time datetime="2020-06-24 13:30:00 -0500 CDT" itemprop="datePublished">2020-06-24</time>
+</a>
+</span><span class="article-category">
+  <i class="icon icon-folder"></i>
+    <a class="article-category-link" href="/categories/spark.html"> spark, </a>
+</span>
+
+        
+      </div>
+    </div>
+    <div class="article-entry marked-body js-toc-content" itemprop="articleBody">
+      <p>This talk, by Mary Grace Moesta &amp; Peter Tamisin at Databricks, dove into MLOps and productionalization of machine learning models using MLflow. How can we apply principles from CI/CD to machine learning? And how can MLflow help us to do so?</p>
+<h2 id="mlops">MLOps</h2>
+<p>MLOps is relevant because:</p>
+<ul>
+<li>the data science development framework and tools are typically centered around local development</li>
+<li>as data and complexity grow, so do the number of integration points</li>
+<li>ML operations allow for development at scale and hands off production runs</li>
+</ul>
+<p>She doesn&rsquo;t need to convince me&mdash;I&rsquo;ve been aware that this was a blind spot in my understanding of machine learning for a while. Mary Grace passed it to the other speaker, Pete, to talk about CI/CD.</p>
+<p>I think the second point is particularly important: as the scale of your data increases, and as you add more tools, the integration points become increasingly challenging to manage. Bugs are most likely to arise at the boundaries between services: when passing data from one module to another, when moving from local execution to the cloud, when running on unseen production data, etc.</p>
+<h2 id="cicd">CI/CD</h2>
+<p>Pete Tamisin described CI as code (running tests and linting), building (pulling everything together, running more automated tasks, packaging libraries), and generating releases. CD, meanwhile, is deploying your code (as a notebook or library), testing it (and reporting on it), and operating with it (scheduling downstream ingestion, ML pipelines, analytics, etc.).</p>
+<p>There&rsquo;s a lot more, based on my understanding of these: monitoring, sending feedback, debugging production issues, creating reports, and far, far more. There&rsquo;s a reason this is a whole field!</p>
+<p>In machine learning, this looks like:</p>
+<ul>
+<li>tracking experiments, runs, results, hyperparameters, artifacts</li>
+<li>having a notebook or IDE environment to iterate on models</li>
+<li>train models with different features or hyperparams, and track how they do</li>
+<li>release the model code or a trained model</li>
+<li>serve the model in real time or with batch scoring</li>
+<li>etc &hellip;</li>
+</ul>
+<p>MLflow can enable this (that&rsquo;s the point of the talk). I&rsquo;ve known about <a href="https://www.mlflow.org/docs/latest/tracking.html">MLflow tracking</a> for a while, but the <a href="https://www.mlflow.org/docs/latest/model-registry.html">model registry</a> is totally new to me (minus them announcing it last year). The model registry lets you catalog different versions of models and manage where they are deployed.</p>
+<p>Using MLflow, you can use the model registry to track models in different stages (dev, staging, prod, others). All of this is managed through Python code with the MLflow API, which is <em>really</em> nice (no more YML files!). That&rsquo;s one of the reasons I like MLflow tracking so much, too.</p>
+<p>The talk finished off with a demo of different MLflow features. Good to see, but hard to summarize here.</p>
+<h2 id="in-conclusion---">In conclusion&mdash;</h2>
+<p>&ldquo;MLops is an important piece of the machine learning framework that enables the business to consume downstream results with ease.&rdquo; The basic of CI/CD, they demonstrated, still apply to a machine learning project, but need some modifications (e.g., what kinds of artifacts are you deploying&mdash;a trained model that you need to use downstream, instead of website code).</p>
+<p>That&rsquo;s what MLflow has been created to help with; it acts as an intermediary between different steps of the process and different tools, which sounds great. This was an awesome talk!</p>
+    </div>
+    <div class="article-footer">
+    </div>
+  </article>
+</div><nav class="bar bar-footer clearfix" data-stick-bottom>
+    <div class="bar-inner">
+        <ul class="pager pull-left">
+            <li class="prev">
+                <a href="/spark/2020/portable_scalable_data_viz.html" title="Portable Scalable Data Visualization Techniques for Apache Spark and Python Notebook-based Analytics"><i
+                        class="icon icon-angle-left"
+                        aria-hidden="true"></i><span>&nbsp;&nbsp;Older</span></a>
+            </li>
+            <li class="next">
+                <a href="/spark/2020/how_not_to_scale_deep_learning.html"
+                    title="How (not) to scale deep learning in 6 easy steps"><span>Newer&nbsp;&nbsp;</span><i
+                        class="icon icon-angle-right" aria-hidden="true"></i></a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+</main><footer class="footer" itemscope itemtype="http://schema.org/WPFooter">
+<ul class="social-links">
+    <li><a href="https://github.com/tuchandra" target="_blank" title="github" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-github"></i></a></li>
+    <li><a href="https://www.linkedin.com/in/tushar-chandra-76a623b6/" target="_blank" title="linkedin" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-linkedin"></i></a></li>
+    <li><a href="/index.xml" target="_blank" title="rss" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-rss"></i></a></li>
+</ul>
+  <div class="copyright">
+    &copy; 2019 - 2020 Tushar Chandra
+    <p style="margin-bottom: 4px">All opinions are my own.</p>
+    <div class="publishby">
+        Theme: <a href="https://github.com/xiaoheiAh/hugo-theme-pure" target="_blank">Hugo Pure</a>.
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_SVG"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+            showMathMenu: false, //disables context menu
+            tex2jax: {
+            inlineMath: [ ['$','$'], ['\\(','\\)'] ]
+           }
+    });
+</script>
+
+
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/highlight.min.js"></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/python.min.js"></script><script>
+    hljs.configure({
+        tabReplace: '    ', 
+        classPrefix: ''     
+        
+    })
+    hljs.initHighlightingOnLoad();
+</script>
+
+  </body>
+</html>

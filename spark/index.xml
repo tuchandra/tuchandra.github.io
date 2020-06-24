@@ -6,10 +6,46 @@
     <description>Recent content on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 30 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jun 2020 14:00:00 -0500</lastBuildDate>
     
         <atom:link href="/spark/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How (not) to scale deep learning in 6 easy steps</title>
+      <link>/spark/2020/how_not_to_scale_deep_learning.html</link>
+      <pubDate>Wed, 24 Jun 2020 14:00:00 -0500</pubDate>
+      
+      <guid>/spark/2020/how_not_to_scale_deep_learning.html</guid>
+      <description>&lt;p&gt;The last talk of the morning session talked about common problems scaling ML and DL models: common pitfalls, things that people try too early (more hardware), and what to do instead.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Productionalizing Models through CI/CD Design with MLflow</title>
+      <link>/spark/2020/productionalizing_models_mlflow.html</link>
+      <pubDate>Wed, 24 Jun 2020 13:30:00 -0500</pubDate>
+      
+      <guid>/spark/2020/productionalizing_models_mlflow.html</guid>
+      <description>&lt;p&gt;This talk, by Mary Grace Moesta &amp;amp; Peter Tamisin at Databricks, dove into MLOps and productionalization of machine learning models using MLflow. How can we apply principles from CI/CD to machine learning? And how can MLflow help us to do so?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Portable Scalable Data Visualization Techniques for Apache Spark and Python Notebook-based Analytics</title>
+      <link>/spark/2020/portable_scalable_data_viz.html</link>
+      <pubDate>Wed, 24 Jun 2020 13:00:00 -0500</pubDate>
+      
+      <guid>/spark/2020/portable_scalable_data_viz.html</guid>
+      <description>&lt;p&gt;This talk, by Douglas Moore at Databricks, briefly discussed strategies for data visualization using Spark and different visualization libraries.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Notes from the Wednesday Morning Keynotes</title>
+      <link>/spark/2020/wednesday_morning_keynotes.html</link>
+      <pubDate>Wed, 24 Jun 2020 12:00:00 -0500</pubDate>
+      
+      <guid>/spark/2020/wednesday_morning_keynotes.html</guid>
+      <description>&lt;p&gt;Spark + AI Summit kicked off with keynotes by Ali Ghodsi (Databricks CEO), Matei Zaharia (creator of Spark) and Brooke Wenig (Databricks machine learning lead), Reynold Xin (Spark contributor), and Vishwanath Subramanian (Starbucks director of data). I wasn&amp;rsquo;t able to listen to all of it, but this post has a few highlights.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>[Paper] Measuring User Influence on Twitter: The Million Follower Fallacy</title>
@@ -44,8 +80,7 @@
       <pubDate>Tue, 16 Jun 2020 00:00:00 -0500</pubDate>
       
       <guid>/posts/spark_2020_schedule.html</guid>
-      <description>&lt;style type=&#34;text/css&#34; rel=&#34;stylesheet&#34;&gt;.main .content { max-width: none; overflow-x: scroll; }&lt;/style&gt;
-&lt;p&gt;&lt;a href=&#34;https://databricks.com/sparkaisummit/north-america-2020&#34;&gt;Spark + AI Summit&lt;/a&gt; is happening virtually next week, and I will be spending the second half of next week watching talks from there. I went through the &lt;a href=&#34;https://databricks.com/sparkaisummit/north-america-2020/agenda&#34;&gt;schedule&lt;/a&gt; to make a preliminary list of the talks that sound interesting to me. And just like &lt;a href=&#34;/spark/spark_overview.html&#34;&gt;last year&lt;/a&gt;, I&amp;rsquo;ll be writing about them here.&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://databricks.com/sparkaisummit/north-america-2020&#34;&gt;Spark + AI Summit&lt;/a&gt; is happening virtually next week, and I will be spending the second half of next week watching talks from there. I went through the &lt;a href=&#34;https://databricks.com/sparkaisummit/north-america-2020/agenda&#34;&gt;schedule&lt;/a&gt; to make a preliminary list of the talks that sound interesting to me. And just like &lt;a href=&#34;/spark/spark_overview.html&#34;&gt;last year&lt;/a&gt;, I&amp;rsquo;ll be writing about them here.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -154,42 +189,6 @@
       
       <guid>/papers/taking_data_out_of_context_ur.html</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Hacking together Python and JavaScript</title>
-      <link>/posts/password_tool_4.html</link>
-      <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/password_tool_4.html</guid>
-      <description>&lt;p&gt;Alternative title: &amp;ldquo;Python in the browser console tells us that science has indeed come too far.&amp;rdquo; The fourth post in this series dives into how Pyodide enabled me to hook up Python and JavaScript&amp;mdash;sometimes in less-than-clean ways.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>What I read this week (May 10 - May 16)</title>
-      <link>/what_i_read/20200516.html</link>
-      <pubDate>Sat, 16 May 2020 00:00:00 -0500</pubDate>
-      
-      <guid>/what_i_read/20200516.html</guid>
-      <description>&lt;p&gt;I took last week off as I focused on full papers from CHI, but this week&amp;rsquo;s edition of &lt;a href=&#34;http://www.pointer.io/&#34;&gt;Pointer&lt;/a&gt; had several articles that caught my eye.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] How Visualizing Inferential Uncertainty Can Mislead Readers About Treatment Effects in Scientific Results</title>
-      <link>/papers/visualizing_inferential_uncertainty_mislead_hofman.html</link>
-      <pubDate>Tue, 12 May 2020 00:00:00 -0500</pubDate>
-      
-      <guid>/papers/visualizing_inferential_uncertainty_mislead_hofman.html</guid>
-      <description>&lt;p&gt;When visualizing the uncertainty around treatment effects, one can choose (among others) to visualize the standard error (uncertainty in the mean) or the standard deviations (uncertainty in the observations). Modulo sample size, the two contain the same information, but this paper demonstrates how people regularly associate the former with larger effects than the latter.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] Modeling Organizational Culture with Workplace Experiences Shared on Glassdoor</title>
-      <link>/papers/modeling_org_culture_dasswain.html</link>
-      <pubDate>Mon, 11 May 2020 00:00:00 -0500</pubDate>
-      
-      <guid>/papers/modeling_org_culture_dasswain.html</guid>
-      <description>&lt;p&gt;Glassdoor is a valuable source of data on what life is like at different companies, and in particular the &lt;em&gt;organizational culture&lt;/em&gt; there. To what extent can organizational culture be modeled using word embeddings? Is it useful for predicting job performance. This paper, from the De Choudhury lab at Georgia Tech, investigates.&lt;/p&gt;</description>
     </item>
     
   </channel>

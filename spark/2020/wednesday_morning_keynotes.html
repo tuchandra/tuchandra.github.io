@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>
+        Notes from the Wednesday Morning Keynotes - Tushar Chandra
+      </title>
+    <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="Cache-Control" content="no-transform" />
+  <meta http-equiv="Cache-Control" content="no-siteapp" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="format-detection" content="telephone=no,email=no,adress=no">
+  
+  <meta name="theme-color" content="#000000" />
+  <meta http-equiv="window-target" content="_top" />
+  
+  <meta name="description" content="Spark &#43; AI Summit kicked off with keynotes by Ali Ghodsi (Databricks CEO), Matei Zaharia (creator of Spark) and Brooke Wenig (Databricks machine learning lead), Reynold Xin (Spark contributor), and Vishwanath Subramanian (Starbucks director of data). I wasn&amp;rsquo;t able to listen to all of it, but this post has a few highlights.
+" />
+  <meta name="generator" content="Hugo 0.65.3 with theme pure" />
+  <title>Notes from the Wednesday Morning Keynotes - Tushar Chandra</title>
+  
+
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
+  <meta property="og:title" content="Notes from the Wednesday Morning Keynotes" />
+<meta property="og:description" content="Spark &#43; AI Summit kicked off with keynotes by Ali Ghodsi (Databricks CEO), Matei Zaharia (creator of Spark) and Brooke Wenig (Databricks machine learning lead), Reynold Xin (Spark contributor), and Vishwanath Subramanian (Starbucks director of data). I wasn&rsquo;t able to listen to all of it, but this post has a few highlights." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/spark/2020/wednesday_morning_keynotes.html" />
+<meta property="article:published_time" content="2020-06-24T12:00:00-05:00" />
+<meta property="article:modified_time" content="2020-06-24T12:00:00-05:00" />
+<meta itemprop="name" content="Notes from the Wednesday Morning Keynotes">
+<meta itemprop="description" content="Spark &#43; AI Summit kicked off with keynotes by Ali Ghodsi (Databricks CEO), Matei Zaharia (creator of Spark) and Brooke Wenig (Databricks machine learning lead), Reynold Xin (Spark contributor), and Vishwanath Subramanian (Starbucks director of data). I wasn&rsquo;t able to listen to all of it, but this post has a few highlights.">
+<meta itemprop="datePublished" content="2020-06-24T12:00:00-05:00" />
+<meta itemprop="dateModified" content="2020-06-24T12:00:00-05:00" />
+<meta itemprop="wordCount" content="524">
+
+
+
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Notes from the Wednesday Morning Keynotes"/>
+<meta name="twitter:description" content="Spark &#43; AI Summit kicked off with keynotes by Ali Ghodsi (Databricks CEO), Matei Zaharia (creator of Spark) and Brooke Wenig (Databricks machine learning lead), Reynold Xin (Spark contributor), and Vishwanath Subramanian (Starbucks director of data). I wasn&rsquo;t able to listen to all of it, but this post has a few highlights."/>
+</head>
+  </head>
+  
+
+  <body class="main-center theme-blue" itemscope itemtype="http://schema.org/WebPage"><header class="header" itemscope itemtype="http://schema.org/WPHeader">
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-169859131-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-169859131-1');
+    </script>
+
+    <div class="slimContent">
+      <div class="navbar-header">
+        <div class="profile-block text-center">
+          <a id="avatar" href="/">
+            <img class="img-circle" src="/headshot.jpg" width="200" height="200">
+          </a>
+          <h2 id="name" class="hidden-xs hidden-sm"><b>Tushar Chandra</b></h2>
+          <h3 id="title" class="hidden-xs hidden-sm hidden-md">Data Scientist</h3>
+          <small id="location" class="text-muted hidden-xs hidden-sm"><i class="icon icon-map-marker"></i> Chicago, IL</small>
+        </div>
+
+        
+        <nav id="mobile-navbar" itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation">
+          <ul class="mobile-nav">
+              <a href="/">
+                <li class="menu-item-home">
+                    <i class="icon icon-home-fill"></i>
+                  <span class="menu-title"><br>Home</span>
+                </li>
+              </a>
+              <a href="/about">
+                <li class="menu-item-about">
+                    <i class="icon icon-cup-fill"></i>
+                  <span class="menu-title"><br>About</span>
+                </li>
+              </a>
+              <a href="/resume">
+                <li class="menu-item-resume">
+                    <i class="icon icon-file"></i>
+                  <span class="menu-title"><br>Resume</span>
+                </li>
+              </a>
+              <a href="/reading">
+                <li class="menu-item-reading">
+                    <i class="icon icon-shu-fill"></i>
+                  <span class="menu-title"><br>Reading</span>
+                </li>
+              </a>
+              <a href="/categories.html">
+                <li class="menu-item-categories">
+                    <i class="icon icon-folder-open"></i>
+                  <span class="menu-title"><br>Categories</span>
+                </li>
+              </a>
+              <a href="/posts.html">
+                <li class="menu-item-archives">
+                    <i class="icon icon-archives-fill"></i>
+                  <span class="menu-title"><br>Archives</span>
+                </li>
+              </a>
+
+          </ul>
+        </nav>
+      </div>
+      <nav id="main-navbar" class="collapse navbar-collapse" itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation">
+        <ul class="nav navbar-nav main-nav">
+            <li class="menu-item menu-item-home">
+                <a href="/">
+                    <i class="icon icon-home-fill"></i>
+                  <span class="menu-title">Home</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-about">
+                <a href="/about">
+                    <i class="icon icon-cup-fill"></i>
+                  <span class="menu-title">About</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-resume">
+                <a href="/resume">
+                    <i class="icon icon-file"></i>
+                  <span class="menu-title">Resume</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-reading">
+                <a href="/reading">
+                    <i class="icon icon-shu-fill"></i>
+                  <span class="menu-title">Reading</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-categories">
+                <a href="/categories.html">
+                    <i class="icon icon-folder-open"></i>
+                  <span class="menu-title">Categories</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-archives">
+                <a href="/posts.html">
+                    <i class="icon icon-archives-fill"></i>
+                  <span class="menu-title">Archives</span>
+                </a>
+            </li>
+
+        </ul>
+      </nav>
+    </div>
+  </header>
+<aside class="sidebar" itemscope itemtype="http://schema.org/WPSideBar">
+  <div class="slimContent">
+    <div class="widget">
+    <h3 class="widget-title"> Categories</h3>
+    <div class="widget-body">
+        <ul class="category-list">
+            <li class="category-list-item"><a href="/categories/books.html" class="category-list-link">books</a><span class="category-list-count">6</span></li>
+            <li class="category-list-item"><a href="/categories/chi2020.html" class="category-list-link">chi2020</a><span class="category-list-count">19</span></li>
+            <li class="category-list-item"><a href="/categories/general.html" class="category-list-link">general</a><span class="category-list-count">32</span></li>
+            <li class="category-list-item"><a href="/categories/papers.html" class="category-list-link">papers</a><span class="category-list-count">46</span></li>
+            <li class="category-list-item"><a href="/categories/posts.html" class="category-list-link">posts</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="/categories/projects.html" class="category-list-link">projects</a><span class="category-list-count">7</span></li>
+            <li class="category-list-item"><a href="/categories/self.html" class="category-list-link">self</a><span class="category-list-count">3</span></li>
+            <li class="category-list-item"><a href="/categories/spark.html" class="category-list-link">spark</a><span class="category-list-count">18</span></li>
+            <li class="category-list-item"><a href="/categories/what-i-read.html" class="category-list-link">what-i-read</a><span class="category-list-count">28</span></li>
+        </ul>
+    </div>
+</div>
+<div class="widget">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget-body">
+        <ul class="recent-post-list list-unstyled no-thumbnail">
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/spark/2020/how_not_to_scale_deep_learning.html" class="title">How (not) to scale deep learning in 6 easy steps</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-06-24 14:00:00 -0500 CDT" itemprop="datePublished">2020-06-24</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/spark/2020/productionalizing_models_mlflow.html" class="title">Productionalizing Models through CI/CD Design with MLflow</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-06-24 13:30:00 -0500 CDT" itemprop="datePublished">2020-06-24</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/spark/2020/portable_scalable_data_viz.html" class="title">Portable Scalable Data Visualization Techniques for Apache Spark and Python Notebook-based Analytics</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-06-24 13:00:00 -0500 CDT" itemprop="datePublished">2020-06-24</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/spark/2020/wednesday_morning_keynotes.html" class="title">Notes from the Wednesday Morning Keynotes</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-06-24 12:00:00 -0500 CDT" itemprop="datePublished">2020-06-24</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/papers/measuring_user_influence_twitter_cha.html" class="title">[Paper] Measuring User Influence on Twitter: The Million Follower Fallacy</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-06-22 00:00:00 -0500 CDT" itemprop="datePublished">2020-06-22</time>
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+  </div>
+</aside>
+
+    
+    
+<main class="main" role="main"><div class="content">
+  <article id="-" class="article article-type-" itemscope
+    itemtype="http://schema.org/BlogPosting">
+    
+    <div class="article-header">
+      <h1 itemprop="name">
+  <a
+    class=""
+    href="/spark/2020/wednesday_morning_keynotes.html"
+    >Notes from the Wednesday Morning Keynotes</a
+  >
+</h1>
+
+      <div class="article-meta">
+        <span class="article-date">
+  <i class="icon icon-calendar-check"></i>
+<a href="/spark/2020/wednesday_morning_keynotes.html">
+  <time datetime="2020-06-24 12:00:00 -0500 CDT" itemprop="datePublished">2020-06-24</time>
+</a>
+</span><span class="article-category">
+  <i class="icon icon-folder"></i>
+    <a class="article-category-link" href="/categories/spark.html"> spark, </a>
+</span>
+
+        
+      </div>
+    </div>
+    <div class="article-entry marked-body js-toc-content" itemprop="articleBody">
+      <p>Spark + AI Summit kicked off with keynotes by Ali Ghodsi (Databricks CEO), Matei Zaharia (creator of Spark) and Brooke Wenig (Databricks machine learning lead), Reynold Xin (Spark contributor), and Vishwanath Subramanian (Starbucks director of data). I wasn&rsquo;t able to listen to all of it, but this post has a few highlights.</p>
+<h2 id="whats-new-in-spark">What&rsquo;s new in Spark?</h2>
+<p>One seemingly big feature is <strong>Adaptive Query Execution</strong>: Spark can automatically decide how to optimize jobs and split queries up into subqueries. This is opt-in right now, and will soon become the default, making shufflings easier. They&rsquo;re adding hints for join optimizations, too.</p>
+<p>Python 2 is being deprecated (yay!) and they&rsquo;re improving GPU support (right now it&rsquo;s kind of hacky?). They&rsquo;re also improving support for distributed machine learning (previously we had to use something like HorovodRunner, and it was super finnicky).</p>
+<p>The <a href="https://databricks.com/blog/2020/05/20/new-pandas-udfs-and-python-type-hints-in-the-upcoming-release-of-apache-spark-3-0.html">redesigned UDFs</a> look great, too; UDFs were pretty challenging to work with before now.</p>
+<h2 id="other-announcements-koalas-and-pyspark">Other announcements: koalas and pyspark</h2>
+<p>Databricks announced <a href="https://github.com/databricks/koalas">koalas v1.0</a>, noting that they&rsquo;re near 80% API coverage of pandas. It&rsquo;s really cool to see how far they&rsquo;ve come in just a year after <a href="https://databricks.com/blog/2019/04/24/koalas-easy-transition-from-pandas-to-apache-spark.html">having announced</a> koalas last year.</p>
+<p>They also noted miscellaneous improvements to Pyspark, which they&rsquo;re calling Project Zen (in line with the Zen of Python):</p>
+<ul>
+<li><strong>better error messages!</strong> the Pyspark stack traces that were hundreds of lines of Java, only to find a <code>ValueError</code> buried within, were probably my least favorite part of using Pyspark before.</li>
+<li>better documentation (it looks pandas-inspired!)</li>
+<li>some API changes that they didn&rsquo;t expand on at all</li>
+</ul>
+<p>This is great&mdash;it&rsquo;s cool to see Databricks investing more in the usability of their platform.</p>
+<h2 id="the-data-lake-myth">The data lake myth</h2>
+<p>Ali spent a while discussing how the transition from data warehouses to data lakes often left a lot to be desired. In theory, you should have a data lake that has all of your data, right? In practice, when their solutions architects were working on these projects, they noticed 9 common challenges with data lakes:</p>
+<ol>
+<li>hard to append data (adding newly arrived data causes incorrect reads)</li>
+<li>hard to modify existing data (due to GDPR or CCPA)</li>
+<li>jobs failed midway through, causing some data to be missing</li>
+<li>real-time operations were challenging, due to inconsistencies between streaming and batch</li>
+<li>costly to keep history</li>
+<li>difficult to manage metadata</li>
+<li>problems with too many files</li>
+<li>poor performance</li>
+<li>data quality issues (these are getting pretty vague &hellip;)</li>
+</ol>
+<p>They described how <a href="https://delta.io/">Delta Lake</a> (and recent improvements to it) can help these problems. By making every operation transactional, things will either fully fail or fully succeed, and this apparently solves the first five problems. One of the flashiest parts is that you can do a <code>SELECT * FROM table AS OF TIMESTAMP [a year ago]</code>, which is wild!</p>
+<h2 id="more-changes-still">More changes, still</h2>
+<p>Reynold went into more detail about Delta Engine, which I frankly neither understand nor expect to need to understand. Spark is faster?</p>
+<p>Databricks announced their acquisition of <a href="https://github.com/getredash/redash/">Redash</a>, which is an open-source dashboarding service for an entire company. This followed by a slick demo of Redash, which I had never seen before, but combines SQL queries with your normal database schemas with click-and-drag, dropdown-customizable visualizations. It seems nice!</p>
+    </div>
+    <div class="article-footer">
+    </div>
+  </article>
+</div><nav class="bar bar-footer clearfix" data-stick-bottom>
+    <div class="bar-inner">
+        <ul class="pager pull-left">
+            <li class="prev">
+                <a href="/papers/measuring_user_influence_twitter_cha.html" title="[Paper] Measuring User Influence on Twitter: The Million Follower Fallacy"><i
+                        class="icon icon-angle-left"
+                        aria-hidden="true"></i><span>&nbsp;&nbsp;Older</span></a>
+            </li>
+            <li class="next">
+                <a href="/spark/2020/portable_scalable_data_viz.html"
+                    title="Portable Scalable Data Visualization Techniques for Apache Spark and Python Notebook-based Analytics"><span>Newer&nbsp;&nbsp;</span><i
+                        class="icon icon-angle-right" aria-hidden="true"></i></a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+</main><footer class="footer" itemscope itemtype="http://schema.org/WPFooter">
+<ul class="social-links">
+    <li><a href="https://github.com/tuchandra" target="_blank" title="github" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-github"></i></a></li>
+    <li><a href="https://www.linkedin.com/in/tushar-chandra-76a623b6/" target="_blank" title="linkedin" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-linkedin"></i></a></li>
+    <li><a href="/index.xml" target="_blank" title="rss" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-rss"></i></a></li>
+</ul>
+  <div class="copyright">
+    &copy; 2019 - 2020 Tushar Chandra
+    <p style="margin-bottom: 4px">All opinions are my own.</p>
+    <div class="publishby">
+        Theme: <a href="https://github.com/xiaoheiAh/hugo-theme-pure" target="_blank">Hugo Pure</a>.
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_SVG"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+            showMathMenu: false, //disables context menu
+            tex2jax: {
+            inlineMath: [ ['$','$'], ['\\(','\\)'] ]
+           }
+    });
+</script>
+
+
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/highlight.min.js"></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/python.min.js"></script><script>
+    hljs.configure({
+        tabReplace: '    ', 
+        classPrefix: ''     
+        
+    })
+    hljs.initHighlightingOnLoad();
+</script>
+
+  </body>
+</html>

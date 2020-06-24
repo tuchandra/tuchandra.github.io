@@ -6,10 +6,46 @@
     <description>Recent content on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 30 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jun 2020 14:00:00 -0500</lastBuildDate>
     
         <atom:link href="/spark/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Paper] The Curse of Knowledge in Visual Data Communication</title>
+      <link>/papers/curse_of_knowledge_xiong.html</link>
+      <pubDate>Wed, 13 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/curse_of_knowledge_xiong.html</guid>
+      <description>&lt;p&gt;This is the first of (hopefully!) many paper reviews I&amp;rsquo;ll be writing on this blog. Inspired by &lt;a href=&#34;https://blog.acolyer.org/about/&#34;&gt;The Morning Paper&lt;/a&gt;, my goal is to read a lot of papers over the next several months (and longer). This one is a psychology paper by Cindy Xiong, Lisanne van Weelden, and Steven Franconeri. View it on the &lt;a href=&#34;http://visualthinking.psych.northwestern.edu/VisualizationCurse2017/Xiong,%20van%20Weelden%20&amp;amp;%20Franconeri%20InfoVis%202017%20.pdf&#34;&gt;Northwestern Psychology department&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Why I&#39;m interested in HCI</title>
+      <link>/posts/hci_directions.html</link>
+      <pubDate>Mon, 28 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/hci_directions.html</guid>
+      <description>&lt;p&gt;A couple nights ago, I was at a bar talking to a grad student friend and we started having a conversation about HCI and research interests. This post captures some of my thoughts after reflecting for a couple of days.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Netflix and Polynote: first thoughts</title>
+      <link>/posts/polynote_netflix.html</link>
+      <pubDate>Thu, 24 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/polynote_netflix.html</guid>
+      <description>&lt;p&gt;Netflix &lt;a href=&#34;https://medium.com/netflix-techblog/open-sourcing-polynote-an-ide-inspired-polyglot-notebook-7f929d3f447&#34;&gt;announced yesterday&lt;/a&gt; that they are open-sourcing Polynote, a new notebook with features like Spark integration, as-you-type autocomplete, and more. At a glance, it seems to address almost every common complaint with notebooks. How much of that is too good to be true?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Statistical nuance &amp; the importance of uncertainty</title>
+      <link>/posts/statistical_nuance.html</link>
+      <pubDate>Thu, 17 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/statistical_nuance.html</guid>
+      <description>&lt;p&gt;In &lt;a href=&#34;silph.md&#34;&gt;my last post&lt;/a&gt;, I re-analyzed shiny rates from The Silph Road and came to the conclusion that their proposed shiny rates were inconsistent with their own data. This post explores how that happened and what we can do to avoid it in the future.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Pokemon GO shiny rates: a Bayesian perspective</title>
@@ -154,17 +190,6 @@
       
       <guid>/spark/smart_join.html</guid>
       <description>&lt;p&gt;Speaker: Andrew Clegg (Applied ML Group @ Yelp).&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>About Me</title>
-      <link>/about/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/about/</guid>
-      <description>Hi, I&amp;rsquo;m Tushar. I&amp;rsquo;m a data scientist at Nielsen in Chicago, IL. I have an interest in human-computer interaction and how technology &amp;amp; new media are affecting our lives. On this site, I write summaries of papers that interest me along with other articles or talks.
-I can be reached at:
- Github: tuchandra Email: me [at] tusharc [dot] dev  </description>
     </item>
     
   </channel>
