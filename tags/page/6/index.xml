@@ -11,15 +11,6 @@
     
     
     <item>
-      <title>[Paper] Discrimination in the Age of Algorithms (1/2)</title>
-      <link>/papers/discrimination_algorithms_kleinberg_1.html</link>
-      <pubDate>Sun, 29 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/papers/discrimination_algorithms_kleinberg_1.html</guid>
-      <description>&lt;p&gt;How do algorithms affect discrimination, in the legal sense of the word? Naively, one might say that algorithms must be regulated and heavily scrutinized to avoid computers encoding human biases. This paper studies not only that, but also the opposite idea: that they can be positive forces for good. (Part 1 of 2.)&lt;/p&gt;</description>
-    </item>
-    
-    <item>
       <title>Blaise Aguera y Arcas: Social Intelligence (NeurIPS 2019)</title>
       <link>/posts/talk_aguera_neurips.html</link>
       <pubDate>Sat, 28 Dec 2019 00:00:00 +0000</pubDate>
@@ -188,6 +179,15 @@
       
       <guid>/papers/bayesian_cognition_viz_kim.html</guid>
       <description>&lt;p&gt;Data visualization is common for communicating information, but how do people interpret visualizations? How do they reconicle information presented to them with their prior beliefs? The authors study a Bayesian cognition approach in this CHI 2019 paper.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[Paper] Model Cards for Model Reporting</title>
+      <link>/papers/model_cards_mitchell.html</link>
+      <pubDate>Sun, 17 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/model_cards_mitchell.html</guid>
+      <description>&lt;p&gt;What kinds of documentation should exist for machine learning models? This paper proposes one idea called &amp;ldquo;model cards&amp;rdquo; for reporting models&amp;rsquo; performance, limitations, expected usage, and more, with a goal of minimizing their misuse.&lt;/p&gt;</description>
     </item>
     
   </channel>

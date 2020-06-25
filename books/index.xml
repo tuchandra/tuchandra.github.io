@@ -6,7 +6,7 @@
     <description>Recent content in Books on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 24 Jun 2020 00:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 17 Jun 2020 00:00:00 -0500</lastBuildDate>
     
         <atom:link href="/books/index.xml" rel="self" type="application/rss+xml" />
     
@@ -54,15 +54,6 @@
       
       <guid>/spark/2020/wednesday_morning_keynotes.html</guid>
       <description>&lt;p&gt;Spark + AI Summit kicked off with keynotes by Ali Ghodsi (Databricks CEO), Matei Zaharia (creator of Spark) and Brooke Wenig (Databricks machine learning lead), Reynold Xin (Spark contributor), and Vishwanath Subramanian (Starbucks director of data). I wasn&amp;rsquo;t able to listen to all of it, but this post has a few highlights.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Network Propaganda, part 4</title>
-      <link>/books/network_propaganda_4.html</link>
-      <pubDate>Wed, 24 Jun 2020 00:00:00 -0500</pubDate>
-      
-      <guid>/books/network_propaganda_4.html</guid>
-      <description>&lt;p&gt;Part 4 of the book &lt;em&gt;Network Propaganda&lt;/em&gt; is titled &amp;ldquo;Can Democracy Survive the Internet?&amp;quot;, and it focuses on how polarization came to be, how the media ecosystem came to be the way that it is, and proposed interventions (most realistically, regulating political advertising).&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -189,6 +180,15 @@
       
       <guid>/what_i_read/20200523.html</guid>
       <description>&lt;p&gt;I spent most of my free time this week working on my island in Animal Crossing and the rescue project; but this week&amp;rsquo;s articles include an article from FB Engineering about rebuilding their main site, an article about distractions, and a host of shorter articles.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>PMD password tool: making it all work</title>
+      <link>/posts/password_tool_5.html</link>
+      <pubDate>Sat, 23 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/password_tool_5.html</guid>
+      <description>&lt;p&gt;After clearing up unexpected challenges and removing roadblocks, all that was left was to &lt;em&gt;build&lt;/em&gt;. A full evening of coding later, the Pokemon Mystery Dungeon rescue tool &lt;em&gt;works&lt;/em&gt;, which is huge! This post reflects on the last few steps of the process.&lt;/p&gt;</description>
     </item>
     
   </channel>
