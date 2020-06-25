@@ -4,33 +4,68 @@
   
   <url>
     <loc>/spark.html</loc>
-    <lastmod>2020-06-25T13:00:00-05:00</lastmod>
+    <lastmod>2020-06-25T17:30:00-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/categories.html</loc>
-    <lastmod>2020-06-25T13:00:00-05:00</lastmod>
+    <lastmod>2020-06-25T17:30:00-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/spark/2020/probabilistic_data_structures.html</loc>
-    <lastmod>2020-06-25T13:00:00-05:00</lastmod>
+    <loc>/spark/2020/geospatial_analytics_esri.html</loc>
+    <lastmod>2020-06-25T17:30:00-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/categories/spark.html</loc>
-    <lastmod>2020-06-25T13:00:00-05:00</lastmod>
+    <lastmod>2020-06-25T17:30:00-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/</loc>
+    <lastmod>2020-06-25T17:30:00-05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/spark/2020/clinical_decision_support_roche.html</loc>
+    <lastmod>2020-06-25T16:30:00-05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/spark/2020/data_quality_netflix.html</loc>
+    <lastmod>2020-06-25T16:00:00-05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/spark/2020/thursday_afternoon_keynotes.html</loc>
+    <lastmod>2020-06-25T15:00:00-05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/spark/2020/bayesian_generative_models.html</loc>
+    <lastmod>2020-06-25T14:00:00-05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/spark/2020/probabilistic_data_structures.html</loc>
     <lastmod>2020-06-25T13:00:00-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

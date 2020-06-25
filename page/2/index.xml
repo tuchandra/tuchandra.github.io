@@ -6,10 +6,55 @@
     <description>Recent content on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 25 Jun 2020 13:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jun 2020 17:30:00 -0500</lastBuildDate>
     
         <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Paper] Critical Race Theory for HCI</title>
+      <link>/papers/critical_race_theory_ogburu.html</link>
+      <pubDate>Mon, 08 Jun 2020 00:00:00 -0500</pubDate>
+      
+      <guid>/papers/critical_race_theory_ogburu.html</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve had my eye on this paper since I saw that it received Best Paper at CHI 2020, but in light of recent events it seems more timely than ever. How does critical race theory fit into HCI? How do technological systems perpetuate racism? How can we do better?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Something that made me a better programmer</title>
+      <link>/posts/thinking_through_code.html</link>
+      <pubDate>Fri, 05 Jun 2020 00:00:00 -0500</pubDate>
+      
+      <guid>/posts/thinking_through_code.html</guid>
+      <description>&lt;p&gt;Something that has made me a better programmer is thinking through my code step-by-step before I run it. Stupid, right? It kind of seems that way in hindsight, but writing about it makes me feel better.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>What I read this week (May 24 - May 30)</title>
+      <link>/what_i_read/20200530.html</link>
+      <pubDate>Sat, 30 May 2020 00:00:00 -0500</pubDate>
+      
+      <guid>/what_i_read/20200530.html</guid>
+      <description>&lt;p&gt;This week, I read a lot of advice: on writing, on grad school, and more. Most of this was written while waiting for a particularly painful MCMC model to sample.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>PMD password tool: should I do this?</title>
+      <link>/posts/password_tool_6.html</link>
+      <pubDate>Thu, 28 May 2020 00:00:00 -0500</pubDate>
+      
+      <guid>/posts/password_tool_6.html</guid>
+      <description>&lt;p&gt;This is a long one; it&amp;rsquo;s not a paper summary, it&amp;rsquo;s not technical, and it&amp;rsquo;s far more personal than what I usually post here. In this post, I discuss whether or not the password tool should even exist by telling a story about a community from 14 years ago.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Bookmarklet for SudokuExchange</title>
+      <link>/posts/sudoku_bookmarklet.html</link>
+      <pubDate>Wed, 27 May 2020 00:00:00 -0500</pubDate>
+      
+      <guid>/posts/sudoku_bookmarklet.html</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve been playing a lot of Sudoku while at home, and today I made a quick tool to make it easier for myself: a bookmarklet to open NY Times Sudoku puzzles on &lt;a href=&#34;https://sudokuexchange.com&#34;&gt;SudokuExchange.com&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>What I read this week (May 17 - May 23)</title>
@@ -144,51 +189,6 @@
       
       <guid>/what_i_read/20200502.html</guid>
       <description>&lt;p&gt;This week, I&amp;rsquo;ve focused mostly on articles from CHI, but I did read a few shorter things in my spare time.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] In-game and Out-of-game Social Anxiety Influences Player Motivations, Activities, and Experiences in MMORPGs</title>
-      <link>/papers/social_anxiety_mmorpgs_dechant.html</link>
-      <pubDate>Fri, 01 May 2020 00:00:00 -0500</pubDate>
-      
-      <guid>/papers/social_anxiety_mmorpgs_dechant.html</guid>
-      <description>&lt;p&gt;How are MMORPGs perceived by people with social anxiety? What do they find enjoyable about MMORPGS? How does real-world anxiety translate to social experiences in a video game setting? This CHI 2020 paper by Dechant et al. studies these and other questions about the interactions between social anxiety and video games.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] Computing Students&#39; Learning Difficulties in HCI Education</title>
-      <link>/papers/computing_students_difficulties_hci_oleson.html</link>
-      <pubDate>Thu, 30 Apr 2020 00:00:00 -0500</pubDate>
-      
-      <guid>/papers/computing_students_difficulties_hci_oleson.html</guid>
-      <description>&lt;p&gt;Why is it so hard for students to learn about HCI? Oleson et al. try to find out in this paper, interviewing computing students about difficulties they experienced in HCI design education.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] Random, Messy, Funny, Raw: Finstas as Intimate Reconfigurations of Social Media</title>
-      <link>/papers/intimate_reconfigurations_finsta_xiao.html</link>
-      <pubDate>Wed, 29 Apr 2020 00:00:00 -0500</pubDate>
-      
-      <guid>/papers/intimate_reconfigurations_finsta_xiao.html</guid>
-      <description>&lt;p&gt;Another paper studying &amp;ldquo;finstas&amp;rdquo; (fake / secret Instagram accounts, shared only with a small group of people). This one, by Sijia Xiao et al., received an Honorable Mention at CHI 2020. In contrast to yesterday&amp;rsquo;s, this work draws from feminist theory to explore finstas as &amp;ldquo;intimate reconfigurations&amp;rdquo; of the Instagram platform itself.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Recent website changes</title>
-      <link>/posts/apr2020_website_changes.html</link>
-      <pubDate>Wed, 29 Apr 2020 00:00:00 -0500</pubDate>
-      
-      <guid>/posts/apr2020_website_changes.html</guid>
-      <description>&lt;p&gt;I made a couple more changes to my website: giving more credit to the authors of the papers I read and adding a new category.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] &#39;On Finsta I can say Hail Satan&#39;: Being Authentic but Disagreeable on Instagram</title>
-      <link>/papers/finsta_authentic_disagreebale_taber.html</link>
-      <pubDate>Tue, 28 Apr 2020 00:00:00 -0500</pubDate>
-      
-      <guid>/papers/finsta_authentic_disagreebale_taber.html</guid>
-      <description>&lt;p&gt;This CHI 2020 paper studies how people use multiple accounts on Instagram, being the first to document personality differences between different accounts on the same platform.&lt;/p&gt;</description>
     </item>
     
   </channel>

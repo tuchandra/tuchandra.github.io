@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>
+        Thursday afternoon keynotes: on deep learning and deep fakes - Tushar Chandra
+      </title>
+    <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="Cache-Control" content="no-transform" />
+  <meta http-equiv="Cache-Control" content="no-siteapp" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="format-detection" content="telephone=no,email=no,adress=no">
+  
+  <meta name="theme-color" content="#000000" />
+  <meta http-equiv="window-target" content="_top" />
+  
+  <meta name="description" content="" />
+  <meta name="generator" content="Hugo 0.65.3 with theme pure" />
+  <title>Thursday afternoon keynotes: on deep learning and deep fakes - Tushar Chandra</title>
+  
+
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
+  <meta property="og:title" content="Thursday afternoon keynotes: on deep learning and deep fakes" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/spark/2020/thursday_afternoon_keynotes.html" />
+<meta property="article:published_time" content="2020-06-25T15:00:00-05:00" />
+<meta property="article:modified_time" content="2020-06-25T15:00:00-05:00" />
+<meta itemprop="name" content="Thursday afternoon keynotes: on deep learning and deep fakes">
+<meta itemprop="description" content="">
+<meta itemprop="datePublished" content="2020-06-25T15:00:00-05:00" />
+<meta itemprop="dateModified" content="2020-06-25T15:00:00-05:00" />
+<meta itemprop="wordCount" content="511">
+
+
+
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Thursday afternoon keynotes: on deep learning and deep fakes"/>
+<meta name="twitter:description" content=""/>
+</head>
+  </head>
+  
+
+  <body class="main-center theme-blue" itemscope itemtype="http://schema.org/WebPage"><header class="header" itemscope itemtype="http://schema.org/WPHeader">
+    
+    <script 
+      data-goatcounter="https://tusharc.goatcounter.com/count"
+      async src="//gc.zgo.at/count.js">
+    </script>
+
+    <div class="slimContent">
+      <div class="navbar-header">
+        <div class="profile-block text-center">
+          <a id="avatar" href="/">
+            <img class="img-circle" src="/headshot.jpg" width="200" height="200">
+          </a>
+          <h2 id="name" class="hidden-xs hidden-sm"><b>Tushar Chandra</b></h2>
+          <h3 id="title" class="hidden-xs hidden-sm hidden-md">Data Scientist</h3>
+          <small id="location" class="text-muted hidden-xs hidden-sm"><i class="icon icon-map-marker"></i> Chicago, IL</small>
+        </div>
+
+        
+        <nav id="mobile-navbar" itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation">
+          <ul class="mobile-nav">
+              <a href="/">
+                <li class="menu-item-home">
+                    <i class="icon icon-home-fill"></i>
+                  <span class="menu-title"><br>Home</span>
+                </li>
+              </a>
+              <a href="/about">
+                <li class="menu-item-about">
+                    <i class="icon icon-cup-fill"></i>
+                  <span class="menu-title"><br>About</span>
+                </li>
+              </a>
+              <a href="/resume">
+                <li class="menu-item-resume">
+                    <i class="icon icon-file"></i>
+                  <span class="menu-title"><br>Resume</span>
+                </li>
+              </a>
+              <a href="/reading">
+                <li class="menu-item-reading">
+                    <i class="icon icon-shu-fill"></i>
+                  <span class="menu-title"><br>Reading</span>
+                </li>
+              </a>
+              <a href="/categories.html">
+                <li class="menu-item-categories">
+                    <i class="icon icon-folder-open"></i>
+                  <span class="menu-title"><br>Categories</span>
+                </li>
+              </a>
+              <a href="/posts.html">
+                <li class="menu-item-archives">
+                    <i class="icon icon-archives-fill"></i>
+                  <span class="menu-title"><br>Archives</span>
+                </li>
+              </a>
+
+          </ul>
+        </nav>
+      </div>
+      <nav id="main-navbar" class="collapse navbar-collapse" itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation">
+        <ul class="nav navbar-nav main-nav">
+            <li class="menu-item menu-item-home">
+                <a href="/">
+                    <i class="icon icon-home-fill"></i>
+                  <span class="menu-title">Home</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-about">
+                <a href="/about">
+                    <i class="icon icon-cup-fill"></i>
+                  <span class="menu-title">About</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-resume">
+                <a href="/resume">
+                    <i class="icon icon-file"></i>
+                  <span class="menu-title">Resume</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-reading">
+                <a href="/reading">
+                    <i class="icon icon-shu-fill"></i>
+                  <span class="menu-title">Reading</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-categories">
+                <a href="/categories.html">
+                    <i class="icon icon-folder-open"></i>
+                  <span class="menu-title">Categories</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-archives">
+                <a href="/posts.html">
+                    <i class="icon icon-archives-fill"></i>
+                  <span class="menu-title">Archives</span>
+                </a>
+            </li>
+
+        </ul>
+      </nav>
+    </div>
+  </header>
+<aside class="sidebar" itemscope itemtype="http://schema.org/WPSideBar">
+  <div class="slimContent">
+    <div class="widget">
+    <h3 class="widget-title"> Categories</h3>
+    <div class="widget-body">
+        <ul class="category-list">
+            <li class="category-list-item"><a href="/categories/books.html" class="category-list-link">books</a><span class="category-list-count">6</span></li>
+            <li class="category-list-item"><a href="/categories/chi2020.html" class="category-list-link">chi2020</a><span class="category-list-count">19</span></li>
+            <li class="category-list-item"><a href="/categories/general.html" class="category-list-link">general</a><span class="category-list-count">32</span></li>
+            <li class="category-list-item"><a href="/categories/papers.html" class="category-list-link">papers</a><span class="category-list-count">46</span></li>
+            <li class="category-list-item"><a href="/categories/posts.html" class="category-list-link">posts</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="/categories/projects.html" class="category-list-link">projects</a><span class="category-list-count">7</span></li>
+            <li class="category-list-item"><a href="/categories/self.html" class="category-list-link">self</a><span class="category-list-count">3</span></li>
+            <li class="category-list-item"><a href="/categories/spark.html" class="category-list-link">spark</a><span class="category-list-count">26</span></li>
+            <li class="category-list-item"><a href="/categories/what-i-read.html" class="category-list-link">what-i-read</a><span class="category-list-count">28</span></li>
+        </ul>
+    </div>
+</div>
+<div class="widget">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget-body">
+        <ul class="recent-post-list list-unstyled no-thumbnail">
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/spark/2020/geospatial_analytics_esri.html" class="title">Geospatial Analytics At Scale: Analyzing Human Movement Patterns During A Pandemic</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-06-25 17:30:00 -0500 CDT" itemprop="datePublished">2020-06-25</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/spark/2020/clinical_decision_support_roche.html" class="title">Automated And Explainable Deep Learning For Clinical Language Understanding At Roche</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-06-25 16:30:00 -0500 CDT" itemprop="datePublished">2020-06-25</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/spark/2020/data_quality_netflix.html" class="title">An Approach To Data Quality For Netflix Personalization Systems</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-06-25 16:00:00 -0500 CDT" itemprop="datePublished">2020-06-25</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/spark/2020/thursday_afternoon_keynotes.html" class="title">Thursday afternoon keynotes: on deep learning and deep fakes</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-06-25 15:00:00 -0500 CDT" itemprop="datePublished">2020-06-25</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/spark/2020/bayesian_generative_models.html" class="title">Using Bayesian Generative Models With Apache Spark To Solve Entity Resolution Problems At Scale</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-06-25 14:00:00 -0500 CDT" itemprop="datePublished">2020-06-25</time>
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+  </div>
+</aside>
+
+    
+    
+<main class="main" role="main"><div class="content">
+  <article id="-" class="article article-type-" itemscope
+    itemtype="http://schema.org/BlogPosting">
+    
+    <div class="article-header">
+      <h1 itemprop="name">
+  <a
+    class=""
+    href="/spark/2020/thursday_afternoon_keynotes.html"
+    >Thursday afternoon keynotes: on deep learning and deep fakes</a
+  >
+</h1>
+
+      <div class="article-meta">
+        <span class="article-date">
+  <i class="icon icon-calendar-check"></i>
+<a href="/spark/2020/thursday_afternoon_keynotes.html">
+  <time datetime="2020-06-25 15:00:00 -0500 CDT" itemprop="datePublished">2020-06-25</time>
+</a>
+</span><span class="article-category">
+  <i class="icon icon-folder"></i>
+    <a class="article-category-link" href="/categories/spark.html"> spark, </a>
+</span>
+
+        
+      </div>
+    </div>
+    <div class="article-entry marked-body js-toc-content" itemprop="articleBody">
+      <h2 id="deep-learning-its-not-all-about-recognizing-cats-and-dogs">Deep Learning: It’s Not All About Recognizing Cats and Dogs</h2>
+<p><strong>Speaker</strong>: Kim Hazelwood (west coast head of engineering at Facebook AI Research)</p>
+<p>Hazelwood opens her talk with what drives the machine learning growth (better data &gt; better models &gt; better systems &gt; better data again), and how Facebook&rsquo;s use of machine learning is increasing quickly (2x engineers working on it, 5x models being trained, 8x compute being used). For inference, meanwhile, they make 200 trillion predictions <em>daily</em> (<em>what</em>??); and they remove 99% of fake accounts automatically daily.</p>
+<p>She discussed how many people have a simplified view of machine learning, where it&rsquo;s either computer vision or NLP; but here, they have all kinds of systems in practice. There are more than just CNNs and RNNs out there, and Facebook uses a wide variety of machine learning models.</p>
+<h2 id="creating-weaponizing-and-detecting-deep-fakes">Creating, Weaponizing, and Detecting Deep Fakes</h2>
+<p><strong>Speaker</strong>: Hany Farid (UC Berkeley)</p>
+<p>Farid opens with a discussion of photo and video manipulation; tools like Photoshop have made this accessible for a long time, and even video manipulation has been possible for a while. But since 2015 or so, we&rsquo;ve entered a new era of this kind of manipulation. See, for example, <a href="https://thispersondoesnotexist.com/">thispersondoesnotexist.com</a>.</p>
+<p>This is powered through GANs, where you start with noise, pass it through a generator, have a discriminator try to distinguish between it and a real image, and repeat. This, given enough time and data, will produce images that are very, very difficult to discriminate from reality.</p>
+<p>The same is possible when starting from existing images; pass the discriminator a bunch of images of Donald Trump, and seed the generator with one of Alec Baldwin on SNL, and you can get &ldquo;face swaps.&rdquo;</p>
+<p>While obviously funny, this can be weaponized into (primarily, right now) non-consensual pornography or other forms of manipulated media. Consider, for example, a manipulated video of Zuckerberg saying that profits are down 10%; how much would that impact the stock market?</p>
+<p>What about detecting deep fakes? Farid gives an example of President Obama saying &ldquo;Hi everybody,&rdquo; during which he typically turns his head up and to the right while pursing his lips afterwards. When watching hours of videos of him speaking (or having a computer watch it), one can find these kinds of behavioral tells; these are often not present in deep fakes.</p>
+<p>They give an example of tracking all kinds of signals like these from videos of presidential candidates, then projecting them into a 2D space:</p>
+<p><figure>
+    <img src="president_embedding.png" width="700px"/> 
+</figure>
+  </p>
+<p>Woah!</p>
+<p>Another example was looking at the specific shape that mouths make when saying different phonemes. These are usually consistent when the same person says the same thing multiple times. GANs don&rsquo;t know these; they just think in terms of pixels, and so the aggregate shapes are likely to be different in generated video.</p>
+<p>Farid closed the talk with warnings: that yes, we have to get better at detecting manipulated media and mis/disinformation. But tech companies have to get better at regulating the presence thereof on their platform, and policy needs to catch up to the nature of media today. What a great talk!</p>
+    </div>
+    <div class="article-footer">
+    </div>
+  </article>
+</div><nav class="bar bar-footer clearfix" data-stick-bottom>
+    <div class="bar-inner">
+        <ul class="pager pull-left">
+            <li class="prev">
+                <a href="/spark/2020/bayesian_generative_models.html" title="Using Bayesian Generative Models With Apache Spark To Solve Entity Resolution Problems At Scale"><i
+                        class="icon icon-angle-left"
+                        aria-hidden="true"></i><span>&nbsp;&nbsp;Older</span></a>
+            </li>
+            <li class="next">
+                <a href="/spark/2020/data_quality_netflix.html"
+                    title="An Approach To Data Quality For Netflix Personalization Systems"><span>Newer&nbsp;&nbsp;</span><i
+                        class="icon icon-angle-right" aria-hidden="true"></i></a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+</main><footer class="footer" itemscope itemtype="http://schema.org/WPFooter">
+<ul class="social-links">
+    <li><a href="https://github.com/tuchandra" target="_blank" title="github" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-github"></i></a></li>
+    <li><a href="https://www.linkedin.com/in/tushar-chandra-76a623b6/" target="_blank" title="linkedin" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-linkedin"></i></a></li>
+    <li><a href="/index.xml" target="_blank" title="rss" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-rss"></i></a></li>
+</ul>
+  <div class="copyright">
+    &copy; 2019 - 2020 Tushar Chandra
+    <p style="margin-bottom: 4px">All opinions are my own.</p>
+    <div class="publishby">
+        Theme: <a href="https://github.com/xiaoheiAh/hugo-theme-pure" target="_blank">Hugo Pure</a>.
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_SVG"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+            showMathMenu: false, //disables context menu
+            tex2jax: {
+            inlineMath: [ ['$','$'], ['\\(','\\)'] ]
+           }
+    });
+</script>
+
+
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/highlight.min.js"></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/python.min.js"></script><script>
+    hljs.configure({
+        tabReplace: '    ', 
+        classPrefix: ''     
+        
+    })
+    hljs.initHighlightingOnLoad();
+</script>
+
+  </body>
+</html>

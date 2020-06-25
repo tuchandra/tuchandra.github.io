@@ -6,10 +6,55 @@
     <description>Recent content in spark on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 25 Jun 2020 13:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jun 2020 17:30:00 -0500</lastBuildDate>
     
         <atom:link href="/categories/spark/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Paper] In-game and Out-of-game Social Anxiety Influences Player Motivations, Activities, and Experiences in MMORPGs</title>
+      <link>/papers/social_anxiety_mmorpgs_dechant.html</link>
+      <pubDate>Fri, 01 May 2020 00:00:00 -0500</pubDate>
+      
+      <guid>/papers/social_anxiety_mmorpgs_dechant.html</guid>
+      <description>&lt;p&gt;How are MMORPGs perceived by people with social anxiety? What do they find enjoyable about MMORPGS? How does real-world anxiety translate to social experiences in a video game setting? This CHI 2020 paper by Dechant et al. studies these and other questions about the interactions between social anxiety and video games.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[Paper] Computing Students&#39; Learning Difficulties in HCI Education</title>
+      <link>/papers/computing_students_difficulties_hci_oleson.html</link>
+      <pubDate>Thu, 30 Apr 2020 00:00:00 -0500</pubDate>
+      
+      <guid>/papers/computing_students_difficulties_hci_oleson.html</guid>
+      <description>&lt;p&gt;Why is it so hard for students to learn about HCI? Oleson et al. try to find out in this paper, interviewing computing students about difficulties they experienced in HCI design education.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[Paper] Random, Messy, Funny, Raw: Finstas as Intimate Reconfigurations of Social Media</title>
+      <link>/papers/intimate_reconfigurations_finsta_xiao.html</link>
+      <pubDate>Wed, 29 Apr 2020 00:00:00 -0500</pubDate>
+      
+      <guid>/papers/intimate_reconfigurations_finsta_xiao.html</guid>
+      <description>&lt;p&gt;Another paper studying &amp;ldquo;finstas&amp;rdquo; (fake / secret Instagram accounts, shared only with a small group of people). This one, by Sijia Xiao et al., received an Honorable Mention at CHI 2020. In contrast to yesterday&amp;rsquo;s, this work draws from feminist theory to explore finstas as &amp;ldquo;intimate reconfigurations&amp;rdquo; of the Instagram platform itself.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Recent website changes</title>
+      <link>/posts/apr2020_website_changes.html</link>
+      <pubDate>Wed, 29 Apr 2020 00:00:00 -0500</pubDate>
+      
+      <guid>/posts/apr2020_website_changes.html</guid>
+      <description>&lt;p&gt;I made a couple more changes to my website: giving more credit to the authors of the papers I read and adding a new category.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[Paper] &#39;On Finsta I can say Hail Satan&#39;: Being Authentic but Disagreeable on Instagram</title>
+      <link>/papers/finsta_authentic_disagreebale_taber.html</link>
+      <pubDate>Tue, 28 Apr 2020 00:00:00 -0500</pubDate>
+      
+      <guid>/papers/finsta_authentic_disagreebale_taber.html</guid>
+      <description>&lt;p&gt;This CHI 2020 paper studies how people use multiple accounts on Instagram, being the first to document personality differences between different accounts on the same platform.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>A variety of talks from CHI 2020</title>
@@ -144,51 +189,6 @@
       
       <guid>/books/everybody_lies_3.html</guid>
       <description>&lt;p&gt;The final post in my series about &lt;em&gt;Everybody Lies&lt;/em&gt; is another abstract one. Here, I discuss the dangers of big data and how the wrong data can lead us astray.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>What is data science? (&#34;Everybody Lies&#34;, part 2)</title>
-      <link>/books/everybody_lies_2.html</link>
-      <pubDate>Tue, 31 Mar 2020 00:00:00 -0500</pubDate>
-      
-      <guid>/books/everybody_lies_2.html</guid>
-      <description>&lt;p&gt;I had some more abstract thoughts about what &amp;ldquo;data science&amp;rdquo; really means while reading &lt;em&gt;Everybody Lies&lt;/em&gt;. In this post, I talk about data science as &lt;em&gt;discovery&lt;/em&gt; and about what it means to &amp;ldquo;do&amp;rdquo; data science.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>&#34;Everybody Lies&#34;, part 1</title>
-      <link>/books/everybody_lies_1.html</link>
-      <pubDate>Mon, 30 Mar 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/books/everybody_lies_1.html</guid>
-      <description>&lt;p&gt;A group of data scientists in my office decided to start a (now virtual) book club; our first book is &lt;em&gt;Everybody Lies: Big Data, New Data, and What the Internet Can Tell Us about Who We Really Are&lt;/em&gt; by &lt;a href=&#34;http://sethsd.com/everybodylies&#34;&gt;Seth Stephens-Davidowitz&lt;/a&gt;. In this book, the Google data scientist turned NYT writer talks about what we can learn from &amp;ldquo;Big Data&amp;rdquo;&amp;mdash;and why the results might be surprising.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>What I read this week (March 22 - March 28)</title>
-      <link>/what_i_read/20200328.html</link>
-      <pubDate>Sat, 28 Mar 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/what_i_read/20200328.html</guid>
-      <description>&lt;p&gt;This week, I read two articles about &amp;ldquo;broader impact&amp;rdquo; statements, soon to be required by NeurIPS. Other articles include a discussion of Facebook&amp;rsquo;s suicide prevention AI, suggestions on fighting fake news, and poll results showing Fox News viewers are less likely to take the coronavirus threat seriously.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Normalcy during coronavirus</title>
-      <link>/posts/normalcy_during_coronavirus.html</link>
-      <pubDate>Fri, 27 Mar 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/normalcy_during_coronavirus.html</guid>
-      <description>&lt;p&gt;Yesterday marked two weeks of fully remote work; my first day at home was Thursday, March 12th. This post reflects on my experience.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] Methods in predictive techniques for mental health status on social media: a critical review</title>
-      <link>/papers/review_methods_predicting_mental_health_status_chancellor.html</link>
-      <pubDate>Thu, 26 Mar 2020 00:00:00 -0500</pubDate>
-      
-      <guid>/papers/review_methods_predicting_mental_health_status_chancellor.html</guid>
-      <description>&lt;p&gt;This new paper by Drs. Chancellor and De Choudhury is a literature review of predicting mental health states from social media, studying in particular the extent to which the papers report their methods in sufficient depth and clarity. They propose reporting standards for publications in this space.&lt;/p&gt;</description>
     </item>
     
   </channel>

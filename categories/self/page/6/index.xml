@@ -12,6 +12,52 @@
     
     
     <item>
+      <title>What I read this week (December 29 - January 4)</title>
+      <link>/what_i_read/20200104.html</link>
+      <pubDate>Sat, 04 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/what_i_read/20200104.html</guid>
+      <description>&lt;p&gt;Articles I read this week, including the future of the web and different ways of conveying information, thoughts on the current state of software, and more.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[Paper] Competition and Crowd-out for Brand Keywords in Sponsored Search</title>
+      <link>/papers/competition_crowd_out_simonov.html</link>
+      <pubDate>Fri, 03 Jan 2020 15:24:00 -0600</pubDate>
+      
+      <guid>/papers/competition_crowd_out_simonov.html</guid>
+      <description>&lt;p&gt;Another paper on digital search advertising, this one on the effects of competition on ads placed on brand keyword searches. This was another study reacting to the eBay study on own-brand advertising.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[Paper] Firms&#39; Reactions to Public Information on Business Practices: Case of Search Advertising</title>
+      <link>/papers/reactions_to_search_ads_rao.html</link>
+      <pubDate>Fri, 03 Jan 2020 14:00:00 -0600</pubDate>
+      
+      <guid>/papers/reactions_to_search_ads_rao.html</guid>
+      <description>&lt;p&gt;This is a paper evaluating the effects of the infamous eBay online advertising experiment, in which eBay pulled millions of dollars of own-brand advertising and saw no measurable effect on web traffic. The study (using data from Bing) evaluated how other companies reacted to this news.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Migrating to Hugo</title>
+      <link>/posts/migrating_to_hugo.html</link>
+      <pubDate>Thu, 02 Jan 2020 00:00:00 -0600</pubDate>
+      
+      <guid>/posts/migrating_to_hugo.html</guid>
+      <description>&lt;p&gt;Hello, Hugo! This post marks the first one written specifically for the new version of my site, built with &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt;. In this post, I&amp;rsquo;ll outline some of the reasons for switching to Hugo and talk about the process of moving everything over.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Reading List</title>
+      <link>/reading/</link>
+      <pubDate>Thu, 02 Jan 2020 00:00:00 -0600</pubDate>
+      
+      <guid>/reading/</guid>
+      <description>&lt;p&gt;This is a page of things I&amp;rsquo;m hoping to read &amp;ldquo;soon&amp;rdquo; (for some value of soon). It&amp;rsquo;s some cross between a digital bookshelf and public bookmarks, where I drop papers that cross my radar or blog posts, talks, or other ideas.&lt;/p&gt;
+&lt;p&gt;Some of these I&amp;rsquo;ve printed out and carry around with me. Others are unlikely to ever be read because they&amp;rsquo;re so far out of my areas of expertise or interest. While this page is mostly for my own reference, it also pretty broadly shows the types of work I&amp;rsquo;m interested in.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>[Paper] Discrimination in the Age of Algorithms (2/2)</title>
       <link>/papers/discrimination_algorithms_kleinberg_2.html</link>
       <pubDate>Mon, 30 Dec 2019 00:00:00 +0000</pubDate>
@@ -144,51 +190,6 @@
       
       <guid>/papers/who_is_human_chancellor.html</guid>
       <description>&lt;p&gt;What does &amp;ldquo;human-centered machine learning&amp;rdquo; even mean? Who are the &amp;ldquo;humans&amp;rdquo; being studied, and how do papers studying them refer to them? This paper studies the &lt;em&gt;discourse&lt;/em&gt; surrounding humans within HCML.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Why all the paper summaries?</title>
-      <link>/posts/why_papers.html</link>
-      <pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/why_papers.html</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve been writing a bunch of paper summaries over the past couple of weeks, and I hope to continue this for several months. Why, though? This post will clear that up.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] Bayesian Multilevel Estimation with Poststratification: State-Level Estimates from National Polls</title>
-      <link>/papers/bayesian_multilevel_estimation_gelman.html</link>
-      <pubDate>Tue, 26 Nov 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/papers/bayesian_multilevel_estimation_gelman.html</guid>
-      <description>&lt;p&gt;This is a summary of the seminal paper by David K. Park, Andrew Gelman, and Joseph Bafumi. View the original on &lt;a href=&#34;http://www.stat.columbia.edu/~gelman/research/published/parkgelmanbafumi.pdf&#34;&gt;Gelman&amp;rsquo;s website&lt;/a&gt;.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] A Taxonomy of Ethical Tensions in Inferring Mental Health States from Social Media (part 2/2)</title>
-      <link>/papers/ethical_tensions_social_media_chancellor_2.html</link>
-      <pubDate>Mon, 25 Nov 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/papers/ethical_tensions_social_media_chancellor_2.html</guid>
-      <description>&lt;p&gt;Part 2/2 of the FAT* 2019 paper by Dr. Chancellor et al., studying all the various ethical tensions with inferring mental health states from social media. This post focuses on the calls to action and my reflections. View part 1 of the summary &lt;a href=&#34;/papers/ethical_tensions_social_media_chancellor_1.html&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] A Taxonomy of Ethical Tensions in Inferring Mental Health States from Social Media (part 1/2)</title>
-      <link>/papers/ethical_tensions_social_media_chancellor_1.html</link>
-      <pubDate>Sun, 24 Nov 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/papers/ethical_tensions_social_media_chancellor_1.html</guid>
-      <description>&lt;p&gt;Research shows that it&amp;rsquo;s possible to infer individuals&amp;rsquo; mental health status from social media. While this has great potential for good, it also has great potential for misuse. So much, in fact, that this FAT* 2019 paper creates a taxonomy of all the different ethical tensions with this! This is part 1 of 2.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>On the digital ad industry</title>
-      <link>/posts/digital_advertising.html</link>
-      <pubDate>Thu, 21 Nov 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/digital_advertising.html</guid>
-      <description>&lt;p&gt;I recently read a fantastic article on The Correspondent about digital advertising, called &lt;a href=&#34;https://thecorrespondent.com/100/the-new-dot-com-bubble-is-here-its-called-online-advertising/13228924500-22d5fd24&#34;&gt;The new dot com bubble is here: it’s called online advertising&lt;/a&gt;. This post summarizes my thoughts.&lt;/p&gt;</description>
     </item>
     
   </channel>

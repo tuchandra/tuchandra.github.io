@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>
+        Using Bayesian Generative Models With Apache Spark To Solve Entity Resolution Problems At Scale - Tushar Chandra
+      </title>
+    <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="Cache-Control" content="no-transform" />
+  <meta http-equiv="Cache-Control" content="no-siteapp" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="format-detection" content="telephone=no,email=no,adress=no">
+  
+  <meta name="theme-color" content="#000000" />
+  <meta http-equiv="window-target" content="_top" />
+  
+  <meta name="description" content="Deduplication is a huge problem in many domains; this talk by two people from MavenCode discusses how they&amp;rsquo;ve used Spark-driven Bayesian generative models to solve large entity resolution problems.
+" />
+  <meta name="generator" content="Hugo 0.65.3 with theme pure" />
+  <title>Using Bayesian Generative Models With Apache Spark To Solve Entity Resolution Problems At Scale - Tushar Chandra</title>
+  
+
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
+  <meta property="og:title" content="Using Bayesian Generative Models With Apache Spark To Solve Entity Resolution Problems At Scale" />
+<meta property="og:description" content="Deduplication is a huge problem in many domains; this talk by two people from MavenCode discusses how they&rsquo;ve used Spark-driven Bayesian generative models to solve large entity resolution problems." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/spark/2020/bayesian_generative_models.html" />
+<meta property="article:published_time" content="2020-06-25T14:00:00-05:00" />
+<meta property="article:modified_time" content="2020-06-25T14:00:00-05:00" />
+<meta itemprop="name" content="Using Bayesian Generative Models With Apache Spark To Solve Entity Resolution Problems At Scale">
+<meta itemprop="description" content="Deduplication is a huge problem in many domains; this talk by two people from MavenCode discusses how they&rsquo;ve used Spark-driven Bayesian generative models to solve large entity resolution problems.">
+<meta itemprop="datePublished" content="2020-06-25T14:00:00-05:00" />
+<meta itemprop="dateModified" content="2020-06-25T14:00:00-05:00" />
+<meta itemprop="wordCount" content="357">
+
+
+
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Using Bayesian Generative Models With Apache Spark To Solve Entity Resolution Problems At Scale"/>
+<meta name="twitter:description" content="Deduplication is a huge problem in many domains; this talk by two people from MavenCode discusses how they&rsquo;ve used Spark-driven Bayesian generative models to solve large entity resolution problems."/>
+</head>
+  </head>
+  
+
+  <body class="main-center theme-blue" itemscope itemtype="http://schema.org/WebPage"><header class="header" itemscope itemtype="http://schema.org/WPHeader">
+    
+    <script 
+      data-goatcounter="https://tusharc.goatcounter.com/count"
+      async src="//gc.zgo.at/count.js">
+    </script>
+
+    <div class="slimContent">
+      <div class="navbar-header">
+        <div class="profile-block text-center">
+          <a id="avatar" href="/">
+            <img class="img-circle" src="/headshot.jpg" width="200" height="200">
+          </a>
+          <h2 id="name" class="hidden-xs hidden-sm"><b>Tushar Chandra</b></h2>
+          <h3 id="title" class="hidden-xs hidden-sm hidden-md">Data Scientist</h3>
+          <small id="location" class="text-muted hidden-xs hidden-sm"><i class="icon icon-map-marker"></i> Chicago, IL</small>
+        </div>
+
+        
+        <nav id="mobile-navbar" itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation">
+          <ul class="mobile-nav">
+              <a href="/">
+                <li class="menu-item-home">
+                    <i class="icon icon-home-fill"></i>
+                  <span class="menu-title"><br>Home</span>
+                </li>
+              </a>
+              <a href="/about">
+                <li class="menu-item-about">
+                    <i class="icon icon-cup-fill"></i>
+                  <span class="menu-title"><br>About</span>
+                </li>
+              </a>
+              <a href="/resume">
+                <li class="menu-item-resume">
+                    <i class="icon icon-file"></i>
+                  <span class="menu-title"><br>Resume</span>
+                </li>
+              </a>
+              <a href="/reading">
+                <li class="menu-item-reading">
+                    <i class="icon icon-shu-fill"></i>
+                  <span class="menu-title"><br>Reading</span>
+                </li>
+              </a>
+              <a href="/categories.html">
+                <li class="menu-item-categories">
+                    <i class="icon icon-folder-open"></i>
+                  <span class="menu-title"><br>Categories</span>
+                </li>
+              </a>
+              <a href="/posts.html">
+                <li class="menu-item-archives">
+                    <i class="icon icon-archives-fill"></i>
+                  <span class="menu-title"><br>Archives</span>
+                </li>
+              </a>
+
+          </ul>
+        </nav>
+      </div>
+      <nav id="main-navbar" class="collapse navbar-collapse" itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation">
+        <ul class="nav navbar-nav main-nav">
+            <li class="menu-item menu-item-home">
+                <a href="/">
+                    <i class="icon icon-home-fill"></i>
+                  <span class="menu-title">Home</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-about">
+                <a href="/about">
+                    <i class="icon icon-cup-fill"></i>
+                  <span class="menu-title">About</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-resume">
+                <a href="/resume">
+                    <i class="icon icon-file"></i>
+                  <span class="menu-title">Resume</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-reading">
+                <a href="/reading">
+                    <i class="icon icon-shu-fill"></i>
+                  <span class="menu-title">Reading</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-categories">
+                <a href="/categories.html">
+                    <i class="icon icon-folder-open"></i>
+                  <span class="menu-title">Categories</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-archives">
+                <a href="/posts.html">
+                    <i class="icon icon-archives-fill"></i>
+                  <span class="menu-title">Archives</span>
+                </a>
+            </li>
+
+        </ul>
+      </nav>
+    </div>
+  </header>
+<aside class="sidebar" itemscope itemtype="http://schema.org/WPSideBar">
+  <div class="slimContent">
+    <div class="widget">
+    <h3 class="widget-title"> Categories</h3>
+    <div class="widget-body">
+        <ul class="category-list">
+            <li class="category-list-item"><a href="/categories/books.html" class="category-list-link">books</a><span class="category-list-count">6</span></li>
+            <li class="category-list-item"><a href="/categories/chi2020.html" class="category-list-link">chi2020</a><span class="category-list-count">19</span></li>
+            <li class="category-list-item"><a href="/categories/general.html" class="category-list-link">general</a><span class="category-list-count">32</span></li>
+            <li class="category-list-item"><a href="/categories/papers.html" class="category-list-link">papers</a><span class="category-list-count">46</span></li>
+            <li class="category-list-item"><a href="/categories/posts.html" class="category-list-link">posts</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="/categories/projects.html" class="category-list-link">projects</a><span class="category-list-count">7</span></li>
+            <li class="category-list-item"><a href="/categories/self.html" class="category-list-link">self</a><span class="category-list-count">3</span></li>
+            <li class="category-list-item"><a href="/categories/spark.html" class="category-list-link">spark</a><span class="category-list-count">26</span></li>
+            <li class="category-list-item"><a href="/categories/what-i-read.html" class="category-list-link">what-i-read</a><span class="category-list-count">28</span></li>
+        </ul>
+    </div>
+</div>
+<div class="widget">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget-body">
+        <ul class="recent-post-list list-unstyled no-thumbnail">
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/spark/2020/geospatial_analytics_esri.html" class="title">Geospatial Analytics At Scale: Analyzing Human Movement Patterns During A Pandemic</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-06-25 17:30:00 -0500 CDT" itemprop="datePublished">2020-06-25</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/spark/2020/clinical_decision_support_roche.html" class="title">Automated And Explainable Deep Learning For Clinical Language Understanding At Roche</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-06-25 16:30:00 -0500 CDT" itemprop="datePublished">2020-06-25</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/spark/2020/data_quality_netflix.html" class="title">An Approach To Data Quality For Netflix Personalization Systems</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-06-25 16:00:00 -0500 CDT" itemprop="datePublished">2020-06-25</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/spark/2020/thursday_afternoon_keynotes.html" class="title">Thursday afternoon keynotes: on deep learning and deep fakes</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-06-25 15:00:00 -0500 CDT" itemprop="datePublished">2020-06-25</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/spark/2020/bayesian_generative_models.html" class="title">Using Bayesian Generative Models With Apache Spark To Solve Entity Resolution Problems At Scale</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-06-25 14:00:00 -0500 CDT" itemprop="datePublished">2020-06-25</time>
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+  </div>
+</aside>
+
+    
+    
+<main class="main" role="main"><div class="content">
+  <article id="-" class="article article-type-" itemscope
+    itemtype="http://schema.org/BlogPosting">
+    
+    <div class="article-header">
+      <h1 itemprop="name">
+  <a
+    class=""
+    href="/spark/2020/bayesian_generative_models.html"
+    >Using Bayesian Generative Models With Apache Spark To Solve Entity Resolution Problems At Scale</a
+  >
+</h1>
+
+      <div class="article-meta">
+        <span class="article-date">
+  <i class="icon icon-calendar-check"></i>
+<a href="/spark/2020/bayesian_generative_models.html">
+  <time datetime="2020-06-25 14:00:00 -0500 CDT" itemprop="datePublished">2020-06-25</time>
+</a>
+</span><span class="article-category">
+  <i class="icon icon-folder"></i>
+    <a class="article-category-link" href="/categories/spark.html"> spark, </a>
+</span>
+
+        
+      </div>
+    </div>
+    <div class="article-entry marked-body js-toc-content" itemprop="articleBody">
+      <p>Deduplication is a huge problem in many domains; this talk by two people from MavenCode discusses how they&rsquo;ve used Spark-driven Bayesian generative models to solve large entity resolution problems.</p>
+<p><strong>Speaker</strong>: Charles Adetiloye, Timo Mechler (MavenCode)</p>
+<p>This talk is on different deduplication problems, which is a class of problems that I&rsquo;m currently working on. Deduplication broadly means linking up records that refer to the same person, but might not appear so; perhaps due to companies being acquired, people having multiple accounts, data coming in from different sources, or any number of other reasons.</p>
+<p>What might you do? One option is supervised learning; while this is easy to implement (just do logistic regression on <code>p(match)</code>), it requires labeled data. You could also do probabilistic supervised learning, and the speaker gave the example of naive Bayes.</p>
+<p>Unsupervised learning is an option, too; they suggested k-means clustering, but that sounds insane for this problem.</p>
+<p>They suggest <em>blocking keys</em>, where you subset your data based on things that you are highly confident are correct (e.g., gender). Then you can match the males from one dataset to the males in the other, and likewise for females. (Yeah, there&rsquo;s more to gender than this; too bad most of our data science practice is based on gender as a binary attribute. :/)</p>
+<p>Then we got a demo on fuzzy string matching. Yuck.</p>
+<h2 id="their-actual-approach-bayesian-generative-models">Their actual approach: Bayesian generative models</h2>
+<p>Their actual approach is completely unsupervised and Bayesian so as to preserve uncertainty. The summary was &hellip; hard to understand.</p>
+<p>Their dataset of user profiles has entities E and attributes A; they partition their dataset based on one of the categorical attributes, which allows Spark to step in for parallelization. To partition efficiently, they use a KD Tree, which isn&rsquo;t <em>perfect</em> but is good enough, in theory.</p>
+<p>Within a partition, look at the similarity distances (defined differently for different kinds of features&mdash;string similarity for names, physical distance for locations, numerical distance for numbers, etc.). Based on this, they use MCMC to cluster &hellip; something. I&rsquo;m confused.</p>
+<p>They showed a demo, which looked cool. The approach still doesn&rsquo;t make sense to me. I guess that&rsquo;s how these go.</p>
+    </div>
+    <div class="article-footer">
+    </div>
+  </article>
+</div><nav class="bar bar-footer clearfix" data-stick-bottom>
+    <div class="bar-inner">
+        <ul class="pager pull-left">
+            <li class="prev">
+                <a href="/spark/2020/probabilistic_data_structures.html" title="Everyday Probabilistic Data Structures for Humans"><i
+                        class="icon icon-angle-left"
+                        aria-hidden="true"></i><span>&nbsp;&nbsp;Older</span></a>
+            </li>
+            <li class="next">
+                <a href="/spark/2020/thursday_afternoon_keynotes.html"
+                    title="Thursday afternoon keynotes: on deep learning and deep fakes"><span>Newer&nbsp;&nbsp;</span><i
+                        class="icon icon-angle-right" aria-hidden="true"></i></a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+</main><footer class="footer" itemscope itemtype="http://schema.org/WPFooter">
+<ul class="social-links">
+    <li><a href="https://github.com/tuchandra" target="_blank" title="github" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-github"></i></a></li>
+    <li><a href="https://www.linkedin.com/in/tushar-chandra-76a623b6/" target="_blank" title="linkedin" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-linkedin"></i></a></li>
+    <li><a href="/index.xml" target="_blank" title="rss" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-rss"></i></a></li>
+</ul>
+  <div class="copyright">
+    &copy; 2019 - 2020 Tushar Chandra
+    <p style="margin-bottom: 4px">All opinions are my own.</p>
+    <div class="publishby">
+        Theme: <a href="https://github.com/xiaoheiAh/hugo-theme-pure" target="_blank">Hugo Pure</a>.
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_SVG"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+            showMathMenu: false, //disables context menu
+            tex2jax: {
+            inlineMath: [ ['$','$'], ['\\(','\\)'] ]
+           }
+    });
+</script>
+
+
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/highlight.min.js"></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/python.min.js"></script><script>
+    hljs.configure({
+        tabReplace: '    ', 
+        classPrefix: ''     
+        
+    })
+    hljs.initHighlightingOnLoad();
+</script>
+
+  </body>
+</html>
