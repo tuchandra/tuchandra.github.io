@@ -6,10 +6,28 @@
     <description>Recent content in Categories on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 25 Jun 2020 17:30:00 -0500</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jun 2020 12:00:00 -0500</lastBuildDate>
     
         <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Paper] Celebrating Everyday Success: Improving Engagement and Motivation using a System for Recording Daily Highlights</title>
+      <link>/papers/celebrating_everyday_success_avrahami.html</link>
+      <pubDate>Sat, 02 May 2020 00:00:00 -0500</pubDate>
+      
+      <guid>/papers/celebrating_everyday_success_avrahami.html</guid>
+      <description>&lt;p&gt;Recognizing your own successes is important for cultivating a positive outlook and sense of purpose. Modern work environments often do not offer this, with the idea of there always being more to do standing in the way of reflection that celebrates progress. &lt;em&gt;Highlight Matome&lt;/em&gt; is a personal online tool for workers to quickly record short, daily highlights with the goal of improving their inner work life.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>What I read this week (April 26 - May 2)</title>
+      <link>/what_i_read/20200502.html</link>
+      <pubDate>Sat, 02 May 2020 00:00:00 -0500</pubDate>
+      
+      <guid>/what_i_read/20200502.html</guid>
+      <description>&lt;p&gt;This week, I&amp;rsquo;ve focused mostly on articles from CHI, but I did read a few shorter things in my spare time.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>[Paper] In-game and Out-of-game Social Anxiety Influences Player Motivations, Activities, and Experiences in MMORPGs</title>
@@ -171,24 +189,6 @@
       
       <guid>/papers/decentralized_proximity_tracing.html</guid>
       <description>&lt;p&gt;This is a summary of a proposal for a &amp;ldquo;secure and privacy-preserving decentralized proximity tracing system,&amp;rdquo; aiming to help combat COVID-19 while placing individual privacy at high priority. View the proposal on &lt;a href=&#34;https://github.com/DP-3T/documents&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>What I read this week (March 29 - April 4)</title>
-      <link>/what_i_read/20200404.html</link>
-      <pubDate>Sat, 04 Apr 2020 00:00:00 -0500</pubDate>
-      
-      <guid>/what_i_read/20200404.html</guid>
-      <description>&lt;p&gt;This week&amp;rsquo;s reading was short. It includes a technical deep dive into some zero-day Safari exploits, FiveThirtyEight on why it&amp;rsquo;s hard to build a good COVID-19 model, and reflections on the lockdown.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>The dangers of big data (&#34;Everybody Lies&#34;, part 3)</title>
-      <link>/books/everybody_lies_3.html</link>
-      <pubDate>Wed, 01 Apr 2020 00:00:00 -0500</pubDate>
-      
-      <guid>/books/everybody_lies_3.html</guid>
-      <description>&lt;p&gt;The final post in my series about &lt;em&gt;Everybody Lies&lt;/em&gt; is another abstract one. Here, I discuss the dangers of big data and how the wrong data can lead us astray.&lt;/p&gt;</description>
     </item>
     
   </channel>

@@ -4,33 +4,47 @@
   
   <url>
     <loc>/spark.html</loc>
-    <lastmod>2020-06-25T17:30:00-05:00</lastmod>
+    <lastmod>2020-06-26T12:00:00-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/categories.html</loc>
-    <lastmod>2020-06-25T17:30:00-05:00</lastmod>
+    <lastmod>2020-06-26T12:00:00-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/spark/2020/geospatial_analytics_esri.html</loc>
-    <lastmod>2020-06-25T17:30:00-05:00</lastmod>
+    <loc>/spark/2020/democratizing_pyspark.html</loc>
+    <lastmod>2020-06-26T12:00:00-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/categories/spark.html</loc>
-    <lastmod>2020-06-25T17:30:00-05:00</lastmod>
+    <lastmod>2020-06-26T12:00:00-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/</loc>
+    <lastmod>2020-06-26T12:00:00-05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/spark/2020/friday_morning_keynotes.html</loc>
+    <lastmod>2020-06-26T11:00:00-05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/spark/2020/geospatial_analytics_esri.html</loc>
     <lastmod>2020-06-25T17:30:00-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
