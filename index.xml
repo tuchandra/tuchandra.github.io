@@ -6,10 +6,19 @@
     <description>Recent content on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 26 Jun 2020 13:30:00 -0500</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jun 2020 14:00:00 -0500</lastBuildDate>
     
         <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Using Apache Spark And Differential Privacy For Protecting The Privacy Of The 2020 Census Respondents</title>
+      <link>/spark/2020/census_differential_privacy.html</link>
+      <pubDate>Fri, 26 Jun 2020 14:00:00 -0500</pubDate>
+      
+      <guid>/spark/2020/census_differential_privacy.html</guid>
+      <description>&lt;p&gt;As the 2020 Census is happening, the US Census Bureau has developed a new system to use differential privacy to protect people&amp;rsquo;s personal data. This talk describes what motivated this system (being able to reconstruct personal data in 2010&amp;mdash;oh no!) and how they created a differential privacy algorithm to help them out.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Scoring At Scale: Generating Follow Recommendations For Over 690 Million LinkedIn Members</title>
@@ -180,15 +189,6 @@
       
       <guid>/posts/mindfulness_and_tech.html</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve been trying to use technology more mindfully, and in particular be more mindful about how I use my phone. I&amp;rsquo;m now trying to have an intention when I pick up my phone, instead of unlocking it and instinctively opening Chrome to hop on Twitter.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Network Propaganda, part 3</title>
-      <link>/books/network_propaganda_3.html</link>
-      <pubDate>Wed, 17 Jun 2020 00:00:00 -0500</pubDate>
-      
-      <guid>/books/network_propaganda_3.html</guid>
-      <description>&lt;p&gt;Part 3 of the book &lt;em&gt;Network Propaganda&lt;/em&gt; is titled &amp;ldquo;The Usual Suspects,&amp;rdquo; and its focus is on the propaganda culprits who received sustained public attention. Chapter 7 focuses on the alt-right; chapter 8 Russian information operations; and chapter 9 Facebook and Cambridge Analytica.&lt;/p&gt;</description>
     </item>
     
   </channel>
