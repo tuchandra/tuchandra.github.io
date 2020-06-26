@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>[Paper] &#39;This Post Will Just Get Taken Down&#39;: Characterizing Removed Pro-Eating Disorder Content on Social Media</title>
+      <link>/papers/removed_pro_ed_chancellor.html</link>
+      <pubDate>Sat, 11 Jan 2020 00:00:00 -0600</pubDate>
+      
+      <guid>/papers/removed_pro_ed_chancellor.html</guid>
+      <description>&lt;p&gt;This is a social computing paper analyzing characteristics of over 30,000 pro-eating disorder (pro-ED) posts that were removed from Instagram after having been public at one time. The authors built a classifier for removed pro-ED posts against non-removed ones, and also studied the characteristics of removed posts more generally. Published in CHI 2016.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>What I read this week (January 5 - 11)</title>
       <link>/what_i_read/20200111.html</link>
       <pubDate>Sat, 11 Jan 2020 00:00:00 +0000</pubDate>
@@ -181,15 +190,6 @@
       
       <guid>/what_i_read/20191207.html</guid>
       <description>&lt;p&gt;I am considering posting regularly about other things I&amp;rsquo;m reading, particularly blog posts and articles. But these rarely warrant their own standalone post (a blog post about someone else&amp;rsquo;s blog post?), so I&amp;rsquo;ll write a couple paragraphs about interesting articles I find.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>I don&#39;t know if that&#39;ll work, but go ahead and try it</title>
-      <link>/posts/effective_hunches.html</link>
-      <pubDate>Fri, 06 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/effective_hunches.html</guid>
-      <description>&lt;p&gt;This post is about some memorable words from good managers.&lt;/p&gt;</description>
     </item>
     
   </channel>

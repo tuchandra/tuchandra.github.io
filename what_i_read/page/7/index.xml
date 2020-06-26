@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>I don&#39;t know if that&#39;ll work, but go ahead and try it</title>
+      <link>/posts/effective_hunches.html</link>
+      <pubDate>Fri, 06 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/effective_hunches.html</guid>
+      <description>&lt;p&gt;This post is about some memorable words from good managers.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Data Indicators for Equity: Flash in the Pan or Mobilizing Force?</title>
       <link>/posts/talk_equity_indicators.html</link>
       <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
@@ -181,15 +190,6 @@
       
       <guid>/spark/automated_modeling.html</guid>
       <description>&lt;p&gt;Speaker: Ben Weber (Principal Data Scientist @ Zynga).&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Data Agility - A Journey to Advanced Analytics and ML at Scale</title>
-      <link>/spark/data_agility.html</link>
-      <pubDate>Thu, 25 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/spark/data_agility.html</guid>
-      <description>&lt;p&gt;Speaker: Hari Subramanian (Eng. Manager @ Uber).&lt;/p&gt;</description>
     </item>
     
   </channel>

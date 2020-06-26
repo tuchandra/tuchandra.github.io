@@ -6,10 +6,19 @@
     <description>Recent content in Categories on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 26 Jun 2020 12:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jun 2020 12:30:00 -0500</lastBuildDate>
     
         <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Automated Testing For Protecting Data Pipelines from Undocumented Assumptions</title>
+      <link>/spark/2020/automated_testing_undocumented_assumptions.html</link>
+      <pubDate>Fri, 26 Jun 2020 12:30:00 -0500</pubDate>
+      
+      <guid>/spark/2020/automated_testing_undocumented_assumptions.html</guid>
+      <description>&lt;p&gt;Data pipelines are fraught with undocumented assumptions: about column data types, nullability, acceptable values, and more. Automated unit testing often fails to catch violations of these assumptions. The speakers from Superconductive introduce &lt;a href=&#34;https://github.com/great-expectations/great_expectations&#34;&gt;Great Expectations&lt;/a&gt;, a library to build these assumptions into a data pipeline.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Democratizing PySpark For Mobile Game Publishing</title>
@@ -180,15 +189,6 @@
       
       <guid>/papers/fragile_masculinity_online_harassment_rubin.html</guid>
       <description>&lt;p&gt;What motivates gendered harassment online? This paper surveys young, white, heterosexual men to reveal how anxieties about masculinity can explain endorsement of harassment towards women. Put otherwise, the online world copies the imbalances and power dynamics of the offline one.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] How Well Do People Report Time Spent on Facebook?: An Evaluation of Established Survey Questions with Recommendations</title>
-      <link>/papers/facebook_self_reported_survey_ernala.html</link>
-      <pubDate>Sun, 14 Jun 2020 00:00:00 -0500</pubDate>
-      
-      <guid>/papers/facebook_self_reported_survey_ernala.html</guid>
-      <description>&lt;p&gt;How reliable are self-reported measures of social media use? Lots of studies rely on them, but it&amp;rsquo;s well-known that self-reported behaviors can be noisy. This paper studies how noisy by comparing the results from 10 self-reported questions with actual usage data from Facebook server logs.&lt;/p&gt;</description>
     </item>
     
   </channel>
