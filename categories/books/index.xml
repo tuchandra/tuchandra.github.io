@@ -6,10 +6,28 @@
     <description>Recent content in books on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 17 Jun 2020 00:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Sat, 27 Jun 2020 00:00:00 -0500</lastBuildDate>
     
         <atom:link href="/categories/books/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Network Propaganda, part 4</title>
+      <link>/books/network_propaganda_4.html</link>
+      <pubDate>Sat, 27 Jun 2020 00:00:00 -0500</pubDate>
+      
+      <guid>/books/network_propaganda_4.html</guid>
+      <description>&lt;p&gt;Part 4 of the book &lt;em&gt;Network Propaganda&lt;/em&gt; is titled &amp;ldquo;Can Democracy Survive the Internet?&amp;quot;, and it focuses on how polarization came to be, how the media ecosystem came to be the way that it is, and proposed interventions (most realistically, regulating political advertising).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>What I read this week (June 21 - 27)</title>
+      <link>/what_i_read/20200627.html</link>
+      <pubDate>Sat, 27 Jun 2020 00:00:00 -0500</pubDate>
+      
+      <guid>/what_i_read/20200627.html</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Using Apache Spark And Differential Privacy For Protecting The Privacy Of The 2020 Census Respondents</title>
@@ -171,24 +189,6 @@
       
       <guid>/spark/2020/wednesday_morning_keynotes.html</guid>
       <description>&lt;p&gt;Spark + AI Summit kicked off with keynotes by Ali Ghodsi (Databricks CEO), Matei Zaharia (creator of Spark) and Brooke Wenig (Databricks machine learning lead), Reynold Xin (Spark contributor), and Vishwanath Subramanian (Starbucks director of data). I wasn&amp;rsquo;t able to listen to all of it, but this post has a few highlights.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] Measuring User Influence on Twitter: The Million Follower Fallacy</title>
-      <link>/papers/measuring_user_influence_twitter_cha.html</link>
-      <pubDate>Mon, 22 Jun 2020 00:00:00 -0500</pubDate>
-      
-      <guid>/papers/measuring_user_influence_twitter_cha.html</guid>
-      <description>&lt;p&gt;This 2010 paper recently won the &lt;a href=&#34;https://twitter.com/icwsm/status/1272747094554574848&#34;&gt;ICWSM Test of Time award&lt;/a&gt;, so I gave it a look. One of the earliest papers studying Twitter, key findings include that followers are &lt;em&gt;not&lt;/em&gt; a measure of engagement (but retweets and mentions are), and that influential users are influential about diverse and unrelated topics.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Mindful phone usage</title>
-      <link>/posts/mindfulness_and_tech.html</link>
-      <pubDate>Thu, 18 Jun 2020 00:00:00 -0500</pubDate>
-      
-      <guid>/posts/mindfulness_and_tech.html</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve been trying to use technology more mindfully, and in particular be more mindful about how I use my phone. I&amp;rsquo;m now trying to have an intention when I pick up my phone, instead of unlocking it and instinctively opening Chrome to hop on Twitter.&lt;/p&gt;</description>
     </item>
     
   </channel>

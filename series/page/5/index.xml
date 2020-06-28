@@ -11,6 +11,24 @@
     
     
     <item>
+      <title>What I read this week (March 1 - March 7)</title>
+      <link>/what_i_read/20200307.html</link>
+      <pubDate>Sat, 07 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/what_i_read/20200307.html</guid>
+      <description>&lt;p&gt;Hello! This week&amp;rsquo;s reading was a lot of Morning Paper articles, AI skepticism from a VC firm, and posts from /r/MachineLearning.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>New computer setup</title>
+      <link>/posts/new_computer_setup.html</link>
+      <pubDate>Thu, 05 Mar 2020 00:00:00 -0600</pubDate>
+      
+      <guid>/posts/new_computer_setup.html</guid>
+      <description>&lt;p&gt;My work Macbook had to be sent in for repair, and the hard drive got wiped. I documented all the steps I took to set it up again. You can use this as a starting point for setting up a new machine, and so can I if I need to do this again soon!&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Network Propaganda, part 1</title>
       <link>/books/network_propaganda_1.html</link>
       <pubDate>Mon, 02 Mar 2020 00:00:00 +0000</pubDate>
@@ -170,24 +188,6 @@
       
       <guid>/papers/contrasting_social_support_chancellor.html</guid>
       <description>&lt;p&gt;My last of Dr. Chancellor&amp;rsquo;s papers for now. This paper studies the discourse within two online health communities for weight loss, /r/loseit and (the now banned) /r/proED. The authors discuss how different communities provide support differently and discuss design implications.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] Multimodal Classification of Moderated Online Pro-Eating Disorder Content</title>
-      <link>/papers/classification_pro_ed_chancellor.html</link>
-      <pubDate>Sun, 26 Jan 2020 00:00:00 -0600</pubDate>
-      
-      <guid>/papers/classification_pro_ed_chancellor.html</guid>
-      <description>&lt;p&gt;This is another social computing paper that develops a deep learning classifier for pro-eating disorder content on Tumblr. This work bridges the gap between deep learning and social computing, contributing an image+text classifier for identifying deviant posts.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>What I read this week (January 19 - 25)</title>
-      <link>/what_i_read/20200125.html</link>
-      <pubDate>Sat, 25 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/what_i_read/20200125.html</guid>
-      <description>&lt;p&gt;Articles I read this week, including &amp;ldquo;data science is different now&amp;rdquo; and a Washington Post editorial about regulating AI.&lt;/p&gt;</description>
     </item>
     
   </channel>

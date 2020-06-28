@@ -6,10 +6,28 @@
     <description>Recent content in Categories on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 26 Jun 2020 14:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Sat, 27 Jun 2020 00:00:00 -0500</lastBuildDate>
     
         <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Paper] Measuring User Influence on Twitter: The Million Follower Fallacy</title>
+      <link>/papers/measuring_user_influence_twitter_cha.html</link>
+      <pubDate>Mon, 22 Jun 2020 00:00:00 -0500</pubDate>
+      
+      <guid>/papers/measuring_user_influence_twitter_cha.html</guid>
+      <description>&lt;p&gt;This 2010 paper recently won the &lt;a href=&#34;https://twitter.com/icwsm/status/1272747094554574848&#34;&gt;ICWSM Test of Time award&lt;/a&gt;, so I gave it a look. One of the earliest papers studying Twitter, key findings include that followers are &lt;em&gt;not&lt;/em&gt; a measure of engagement (but retweets and mentions are), and that influential users are influential about diverse and unrelated topics.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Mindful phone usage</title>
+      <link>/posts/mindfulness_and_tech.html</link>
+      <pubDate>Thu, 18 Jun 2020 00:00:00 -0500</pubDate>
+      
+      <guid>/posts/mindfulness_and_tech.html</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve been trying to use technology more mindfully, and in particular be more mindful about how I use my phone. I&amp;rsquo;m now trying to have an intention when I pick up my phone, instead of unlocking it and instinctively opening Chrome to hop on Twitter.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Network Propaganda, part 3</title>
@@ -171,24 +189,6 @@
       
       <guid>/papers/modeling_org_culture_dasswain.html</guid>
       <description>&lt;p&gt;Glassdoor is a valuable source of data on what life is like at different companies, and in particular the &lt;em&gt;organizational culture&lt;/em&gt; there. To what extent can organizational culture be modeled using word embeddings? Is it useful for predicting job performance. This paper, from the De Choudhury lab at Georgia Tech, investigates.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>A data scientist builds a web app</title>
-      <link>/posts/password_tool_3.html</link>
-      <pubDate>Sun, 10 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/password_tool_3.html</guid>
-      <description>&lt;p&gt;Continuing my series on buliding a tool for Pokemon Mystery Dungeon, this post describes my experiences trying, failing, and trying again to build a web app.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] What&#39;s Wrong with Computational Notebooks? Pain Points, Needs, and Design Opportunities</title>
-      <link>/papers/computational_notebooks_chattopadhyay.html</link>
-      <pubDate>Sat, 09 May 2020 00:00:00 -0500</pubDate>
-      
-      <guid>/papers/computational_notebooks_chattopadhyay.html</guid>
-      <description>&lt;p&gt;Computational notebooks are one of the most common tools in the data science world, but they are not without their limitations. This paper studies pain points and design opportunities for notebooks as used by professional data scientists.&lt;/p&gt;</description>
     </item>
     
   </channel>

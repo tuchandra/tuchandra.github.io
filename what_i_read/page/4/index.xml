@@ -6,10 +6,28 @@
     <description>Recent content on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 13 Jun 2020 00:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Sat, 27 Jun 2020 00:00:00 -0500</lastBuildDate>
     
         <atom:link href="/what_i_read/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>What I read this week (April 12 - April 18)</title>
+      <link>/what_i_read/20200418.html</link>
+      <pubDate>Sat, 18 Apr 2020 00:00:00 -0500</pubDate>
+      
+      <guid>/what_i_read/20200418.html</guid>
+      <description>&lt;p&gt;This week&amp;rsquo;s reading happened almost all in one day, when I took time off work to recharge. I read articles and blog posts on COVID-19 models, focusing on the question of what it means to model something. There are also a couple of garden variety engineering &amp;amp; data science posts.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[Paper] Presenting machine learning model information to clinical end users with model facts labels</title>
+      <link>/papers/model_facts_sendak.html</link>
+      <pubDate>Sun, 12 Apr 2020 00:00:00 -0500</pubDate>
+      
+      <guid>/papers/model_facts_sendak.html</guid>
+      <description>&lt;p&gt;This is another &amp;ldquo;interpeting machine learning&amp;rdquo; paper, this time in a medical context. The Duke researchers propose a &amp;ldquo;model facts&amp;rdquo; label, a la &amp;ldquo;nutrition facts&amp;rdquo; that we see on food packaging.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Improving my debugging attitude</title>
@@ -171,24 +189,6 @@
       
       <guid>/what_i_read/20200314.html</guid>
       <description>&lt;p&gt;Like many, coronavirus-related things have been taking over my life; in the first few days of working fully remotely, I struggled to find an appropriate work-life balance. This resulted in me reading less than usual, which is reflected in this post.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>What I read this week (March 1 - March 7)</title>
-      <link>/what_i_read/20200307.html</link>
-      <pubDate>Sat, 07 Mar 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/what_i_read/20200307.html</guid>
-      <description>&lt;p&gt;Hello! This week&amp;rsquo;s reading was a lot of Morning Paper articles, AI skepticism from a VC firm, and posts from /r/MachineLearning.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>New computer setup</title>
-      <link>/posts/new_computer_setup.html</link>
-      <pubDate>Thu, 05 Mar 2020 00:00:00 -0600</pubDate>
-      
-      <guid>/posts/new_computer_setup.html</guid>
-      <description>&lt;p&gt;My work Macbook had to be sent in for repair, and the hard drive got wiped. I documented all the steps I took to set it up again. You can use this as a starting point for setting up a new machine, and so can I if I need to do this again soon!&lt;/p&gt;</description>
     </item>
     
   </channel>
