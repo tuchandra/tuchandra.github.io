@@ -6,7 +6,7 @@
     <description>Recent content on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 26 Jun 2020 14:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jun 2020 14:00:00 +0000</lastBuildDate>
     
         <atom:link href="/spark/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Network Propaganda, part 4</title>
       <link>/books/network_propaganda_4.html</link>
-      <pubDate>Sat, 27 Jun 2020 00:00:00 -0500</pubDate>
+      <pubDate>Sat, 27 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>/books/network_propaganda_4.html</guid>
       <description>&lt;p&gt;Part 4 of the book &lt;em&gt;Network Propaganda&lt;/em&gt; is titled &amp;ldquo;Can Democracy Survive the Internet?&amp;quot;, and it focuses on how polarization came to be, how the media ecosystem came to be the way that it is, and proposed interventions (most realistically, regulating political advertising).&lt;/p&gt;</description>
@@ -23,16 +23,16 @@
     <item>
       <title>What I read this week (June 21 - 27)</title>
       <link>/what_i_read/20200627.html</link>
-      <pubDate>Sat, 27 Jun 2020 00:00:00 -0500</pubDate>
+      <pubDate>Sat, 27 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>/what_i_read/20200627.html</guid>
-      <description></description>
+      <description>&lt;p&gt;This week&amp;rsquo;s reading had a presentation about CS education within higher education and another blog post by Will Larson. Most of my time was taken up by Spark Summit and rebuilding (again!) this site&amp;rsquo;s layout.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Using Apache Spark And Differential Privacy For Protecting The Privacy Of The 2020 Census Respondents</title>
       <link>/spark/2020/census_differential_privacy.html</link>
-      <pubDate>Fri, 26 Jun 2020 14:00:00 -0500</pubDate>
+      <pubDate>Fri, 26 Jun 2020 14:00:00 +0000</pubDate>
       
       <guid>/spark/2020/census_differential_privacy.html</guid>
       <description>&lt;p&gt;As the 2020 Census is happening, the US Census Bureau has developed a new system to use differential privacy to protect people&amp;rsquo;s personal data. This talk describes what motivated this system (being able to reconstruct personal data in 2010&amp;mdash;oh no!) and how they created a differential privacy algorithm to help them out.&lt;/p&gt;</description>
@@ -41,7 +41,7 @@
     <item>
       <title>Scoring At Scale: Generating Follow Recommendations For Over 690 Million LinkedIn Members</title>
       <link>/spark/2020/follow_recommendations_linkedin.html</link>
-      <pubDate>Fri, 26 Jun 2020 13:30:00 -0500</pubDate>
+      <pubDate>Fri, 26 Jun 2020 13:30:00 +0000</pubDate>
       
       <guid>/spark/2020/follow_recommendations_linkedin.html</guid>
       <description>&lt;p&gt;How does LinkedIn generate follow recommendations for hundreds of millions of users and entities? Anything involving large shuffles is a non-starter; this talk describes how they developed a custom hash-partitioned join algorithm to handle such large data.&lt;/p&gt;</description>
@@ -50,7 +50,7 @@
     <item>
       <title>Generalized SEIR Model On Large Networks</title>
       <link>/spark/2020/generalized_seir_models.html</link>
-      <pubDate>Fri, 26 Jun 2020 13:00:00 -0500</pubDate>
+      <pubDate>Fri, 26 Jun 2020 13:00:00 +0000</pubDate>
       
       <guid>/spark/2020/generalized_seir_models.html</guid>
       <description>&lt;p&gt;SEIR models for epidemiology break down a population into four partitions: susceptible, exposed, infected, and recovered. This talk gives an overview of how &lt;a href=&#34;https://github.com/ryansmcgee/seirsplus&#34;&gt;seirsplus&lt;/a&gt; can be used with MLflow and hyperopt to run simulations and experiments of possible COVID-19 scenarios.&lt;/p&gt;</description>
@@ -59,7 +59,7 @@
     <item>
       <title>Automated Testing For Protecting Data Pipelines from Undocumented Assumptions</title>
       <link>/spark/2020/automated_testing_undocumented_assumptions.html</link>
-      <pubDate>Fri, 26 Jun 2020 12:30:00 -0500</pubDate>
+      <pubDate>Fri, 26 Jun 2020 12:30:00 +0000</pubDate>
       
       <guid>/spark/2020/automated_testing_undocumented_assumptions.html</guid>
       <description>&lt;p&gt;Data pipelines are fraught with undocumented assumptions: about column data types, nullability, acceptable values, and more. Automated unit testing often fails to catch violations of these assumptions. The speakers from Superconductive introduce &lt;a href=&#34;https://github.com/great-expectations/great_expectations&#34;&gt;Great Expectations&lt;/a&gt;, a library to build these assumptions into a data pipeline.&lt;/p&gt;</description>
@@ -68,7 +68,7 @@
     <item>
       <title>Democratizing PySpark For Mobile Game Publishing</title>
       <link>/spark/2020/democratizing_pyspark.html</link>
-      <pubDate>Fri, 26 Jun 2020 12:00:00 -0500</pubDate>
+      <pubDate>Fri, 26 Jun 2020 12:00:00 +0000</pubDate>
       
       <guid>/spark/2020/democratizing_pyspark.html</guid>
       <description>&lt;p&gt;This talk, by Ben Weber of Zynga, talks about their experiences making their PySpark environment available to everyone in their analytics function. Democratizing PySpark in this way, while not easy, helped to improve their analytics function.&lt;/p&gt;</description>
@@ -77,7 +77,7 @@
     <item>
       <title>Friday morning keynotes: on PyTorch and COVID</title>
       <link>/spark/2020/friday_morning_keynotes.html</link>
-      <pubDate>Fri, 26 Jun 2020 11:00:00 -0500</pubDate>
+      <pubDate>Fri, 26 Jun 2020 11:00:00 +0000</pubDate>
       
       <guid>/spark/2020/friday_morning_keynotes.html</guid>
       <description>&lt;p&gt;The Friday morning keynotes included a talk about PyTorch by its author Adam Paszke, and &amp;ldquo;science vs. COVID&amp;rdquo; from Amy Heineike of Covid19Primer.com.&lt;/p&gt;</description>
@@ -86,7 +86,7 @@
     <item>
       <title>Geospatial Analytics At Scale: Analyzing Human Movement Patterns During A Pandemic</title>
       <link>/spark/2020/geospatial_analytics_esri.html</link>
-      <pubDate>Thu, 25 Jun 2020 17:30:00 -0500</pubDate>
+      <pubDate>Thu, 25 Jun 2020 17:30:00 +0000</pubDate>
       
       <guid>/spark/2020/geospatial_analytics_esri.html</guid>
       <description>&lt;p&gt;How does Esri use Spark and GIS to analyze human movement? How do they use this insight to assess risk? This talk attempts to answer these.&lt;/p&gt;</description>
@@ -95,7 +95,7 @@
     <item>
       <title>Patterns And Anti-Patterns For Memorializing Data Science Project Artifacts</title>
       <link>/spark/2020/patterns_for_artifacts.html</link>
-      <pubDate>Thu, 25 Jun 2020 17:00:00 -0500</pubDate>
+      <pubDate>Thu, 25 Jun 2020 17:00:00 +0000</pubDate>
       
       <guid>/spark/2020/patterns_for_artifacts.html</guid>
       <description>&lt;p&gt;So you need to save your work for future data scientists; how do you do this? This talk discusses best practices for saving artifacts from data science projects.&lt;/p&gt;</description>
@@ -104,7 +104,7 @@
     <item>
       <title>Automated And Explainable Deep Learning For Clinical Language Understanding At Roche</title>
       <link>/spark/2020/clinical_decision_support_roche.html</link>
-      <pubDate>Thu, 25 Jun 2020 16:30:00 -0500</pubDate>
+      <pubDate>Thu, 25 Jun 2020 16:30:00 +0000</pubDate>
       
       <guid>/spark/2020/clinical_decision_support_roche.html</guid>
       <description>&lt;p&gt;How does Roche use machine learning to help understand pathology reports? This talk gives a high-level overview of their data pipeline and tech stack, including infrastructure they&amp;rsquo;ve built up to do OCR and NLP.&lt;/p&gt;</description>
@@ -113,7 +113,7 @@
     <item>
       <title>An Approach To Data Quality For Netflix Personalization Systems</title>
       <link>/spark/2020/data_quality_netflix.html</link>
-      <pubDate>Thu, 25 Jun 2020 16:00:00 -0500</pubDate>
+      <pubDate>Thu, 25 Jun 2020 16:00:00 +0000</pubDate>
       
       <guid>/spark/2020/data_quality_netflix.html</guid>
       <description>&lt;p&gt;Netflix ingests terabytes of data and billions of rows daily, and these are used for personalized recommendations both online and offline. How do they manage data quality? By lots and lots of quality checks early on.&lt;/p&gt;</description>
@@ -122,7 +122,7 @@
     <item>
       <title>Using Bayesian Generative Models With Apache Spark To Solve Entity Resolution Problems At Scale</title>
       <link>/spark/2020/bayesian_generative_models.html</link>
-      <pubDate>Thu, 25 Jun 2020 14:00:00 -0500</pubDate>
+      <pubDate>Thu, 25 Jun 2020 14:00:00 +0000</pubDate>
       
       <guid>/spark/2020/bayesian_generative_models.html</guid>
       <description>&lt;p&gt;Deduplication is a huge problem in many domains; this talk by two people from MavenCode discusses how they&amp;rsquo;ve used Spark-driven Bayesian generative models to solve large entity resolution problems.&lt;/p&gt;</description>
@@ -131,7 +131,7 @@
     <item>
       <title>Everyday Probabilistic Data Structures for Humans</title>
       <link>/spark/2020/probabilistic_data_structures.html</link>
-      <pubDate>Thu, 25 Jun 2020 13:00:00 -0500</pubDate>
+      <pubDate>Thu, 25 Jun 2020 13:00:00 +0000</pubDate>
       
       <guid>/spark/2020/probabilistic_data_structures.html</guid>
       <description>&lt;p&gt;When your data gets extremely large, real-time queries can become expensive and slow. Yeshwanth Vijayakumar from Adobe discusses how &lt;em&gt;probabilistic data structures&lt;/em&gt; can help to solve these scaling problems efficiently.&lt;/p&gt;</description>
@@ -140,7 +140,7 @@
     <item>
       <title>Notes from the Thursday morning Spark keynotes</title>
       <link>/spark/2020/thursday_morning_keynotes.html</link>
-      <pubDate>Thu, 25 Jun 2020 12:00:00 -0500</pubDate>
+      <pubDate>Thu, 25 Jun 2020 12:00:00 +0000</pubDate>
       
       <guid>/spark/2020/thursday_morning_keynotes.html</guid>
       <description>&lt;p&gt;The morning keynotes were more Databricks-focused; topics included updates to the Databricks workspace environment, new and upcoming features in MLflow (and that it&amp;rsquo;s joining the Linux Foundation!), and demos on &amp;ldquo;responsible AI&amp;rdquo; from Microsoft.&lt;/p&gt;</description>
@@ -149,7 +149,7 @@
     <item>
       <title>Wednesday afternoon keynotes: racism, COVID, and politics</title>
       <link>/spark/2020/wednesday_afternoon_keynotes.html</link>
-      <pubDate>Wed, 24 Jun 2020 16:00:00 -0500</pubDate>
+      <pubDate>Wed, 24 Jun 2020 16:00:00 +0000</pubDate>
       
       <guid>/spark/2020/wednesday_afternoon_keynotes.html</guid>
       <description>&lt;p&gt;The afternoon keynotes were on racism in policing, data in COVID-19, and lessons from FiveThirtyEight. Dr. Phillip Goff delivered an incredible talk on what we need to invest in to support Black communities, and Nate Silver went on with what it means to think probabilistically and work together in crisis. Amazing!&lt;/p&gt;</description>
@@ -158,7 +158,7 @@
     <item>
       <title>How (not) to scale deep learning in 6 easy steps</title>
       <link>/spark/2020/how_not_to_scale_deep_learning.html</link>
-      <pubDate>Wed, 24 Jun 2020 14:00:00 -0500</pubDate>
+      <pubDate>Wed, 24 Jun 2020 14:00:00 +0000</pubDate>
       
       <guid>/spark/2020/how_not_to_scale_deep_learning.html</guid>
       <description>&lt;p&gt;The last talk of the morning session talked about common problems scaling ML and DL models: common pitfalls, things that people try too early (more hardware), and what to do instead.&lt;/p&gt;</description>
@@ -167,7 +167,7 @@
     <item>
       <title>Productionalizing Models through CI/CD Design with MLflow</title>
       <link>/spark/2020/productionalizing_models_mlflow.html</link>
-      <pubDate>Wed, 24 Jun 2020 13:30:00 -0500</pubDate>
+      <pubDate>Wed, 24 Jun 2020 13:30:00 +0000</pubDate>
       
       <guid>/spark/2020/productionalizing_models_mlflow.html</guid>
       <description>&lt;p&gt;This talk, by Mary Grace Moesta &amp;amp; Peter Tamisin at Databricks, dove into MLOps and productionalization of machine learning models using MLflow. How can we apply principles from CI/CD to machine learning? And how can MLflow help us to do so?&lt;/p&gt;</description>
@@ -176,7 +176,7 @@
     <item>
       <title>Portable Scalable Data Visualization Techniques for Apache Spark and Python Notebook-based Analytics</title>
       <link>/spark/2020/portable_scalable_data_viz.html</link>
-      <pubDate>Wed, 24 Jun 2020 13:00:00 -0500</pubDate>
+      <pubDate>Wed, 24 Jun 2020 13:00:00 +0000</pubDate>
       
       <guid>/spark/2020/portable_scalable_data_viz.html</guid>
       <description>&lt;p&gt;This talk, by Douglas Moore at Databricks, briefly discussed strategies for data visualization using Spark and different visualization libraries.&lt;/p&gt;</description>
@@ -185,7 +185,7 @@
     <item>
       <title>Notes from the Wednesday morning Spark keynotes</title>
       <link>/spark/2020/wednesday_morning_keynotes.html</link>
-      <pubDate>Wed, 24 Jun 2020 12:00:00 -0500</pubDate>
+      <pubDate>Wed, 24 Jun 2020 12:00:00 +0000</pubDate>
       
       <guid>/spark/2020/wednesday_morning_keynotes.html</guid>
       <description>&lt;p&gt;Spark + AI Summit kicked off with keynotes by Ali Ghodsi (Databricks CEO), Matei Zaharia (creator of Spark) and Brooke Wenig (Databricks machine learning lead), Reynold Xin (Spark contributor), and Vishwanath Subramanian (Starbucks director of data). I wasn&amp;rsquo;t able to listen to all of it, but this post has a few highlights.&lt;/p&gt;</description>

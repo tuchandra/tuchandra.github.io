@@ -6,7 +6,7 @@
     <description>Recent content in projects on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 28 May 2020 00:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Thu, 28 May 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/categories/projects/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>[Paper] Measuring User Influence on Twitter: The Million Follower Fallacy</title>
       <link>/papers/measuring_user_influence_twitter_cha.html</link>
-      <pubDate>Mon, 22 Jun 2020 00:00:00 -0500</pubDate>
+      <pubDate>Mon, 22 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>/papers/measuring_user_influence_twitter_cha.html</guid>
       <description>&lt;p&gt;This 2010 paper recently won the &lt;a href=&#34;https://twitter.com/icwsm/status/1272747094554574848&#34;&gt;ICWSM Test of Time award&lt;/a&gt;, so I gave it a look. One of the earliest papers studying Twitter, key findings include that followers are &lt;em&gt;not&lt;/em&gt; a measure of engagement (but retweets and mentions are), and that influential users are influential about diverse and unrelated topics.&lt;/p&gt;</description>
@@ -23,7 +23,7 @@
     <item>
       <title>Mindful phone usage</title>
       <link>/posts/mindfulness_and_tech.html</link>
-      <pubDate>Thu, 18 Jun 2020 00:00:00 -0500</pubDate>
+      <pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>/posts/mindfulness_and_tech.html</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve been trying to use technology more mindfully, and in particular be more mindful about how I use my phone. I&amp;rsquo;m now trying to have an intention when I pick up my phone, instead of unlocking it and instinctively opening Chrome to hop on Twitter.&lt;/p&gt;</description>
@@ -32,7 +32,7 @@
     <item>
       <title>Network Propaganda, part 3</title>
       <link>/books/network_propaganda_3.html</link>
-      <pubDate>Wed, 17 Jun 2020 00:00:00 -0500</pubDate>
+      <pubDate>Wed, 17 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>/books/network_propaganda_3.html</guid>
       <description>&lt;p&gt;Part 3 of the book &lt;em&gt;Network Propaganda&lt;/em&gt; is titled &amp;ldquo;The Usual Suspects,&amp;rdquo; and its focus is on the propaganda culprits who received sustained public attention. Chapter 7 focuses on the alt-right; chapter 8 Russian information operations; and chapter 9 Facebook and Cambridge Analytica.&lt;/p&gt;</description>
@@ -41,7 +41,7 @@
     <item>
       <title>Spark Summit 2020: an early look at the schedule</title>
       <link>/posts/spark_2020_schedule.html</link>
-      <pubDate>Tue, 16 Jun 2020 00:00:00 -0500</pubDate>
+      <pubDate>Tue, 16 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>/posts/spark_2020_schedule.html</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://databricks.com/sparkaisummit/north-america-2020&#34;&gt;Spark + AI Summit&lt;/a&gt; is happening virtually next week, and I will be spending the second half of next week watching talks from there. I went through the &lt;a href=&#34;https://databricks.com/sparkaisummit/north-america-2020/agenda&#34;&gt;schedule&lt;/a&gt; to make a preliminary list of the talks that sound interesting to me. And just like &lt;a href=&#34;/spark/spark_overview.html&#34;&gt;last year&lt;/a&gt;, I&amp;rsquo;ll be writing about them here.&lt;/p&gt;</description>
@@ -50,7 +50,7 @@
     <item>
       <title>[Paper] Fragile Masculinity: Men, Gender, and Online Harassment</title>
       <link>/papers/fragile_masculinity_online_harassment_rubin.html</link>
-      <pubDate>Mon, 15 Jun 2020 00:00:00 -0500</pubDate>
+      <pubDate>Mon, 15 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>/papers/fragile_masculinity_online_harassment_rubin.html</guid>
       <description>&lt;p&gt;What motivates gendered harassment online? This paper surveys young, white, heterosexual men to reveal how anxieties about masculinity can explain endorsement of harassment towards women. Put otherwise, the online world copies the imbalances and power dynamics of the offline one.&lt;/p&gt;</description>
@@ -59,7 +59,7 @@
     <item>
       <title>[Paper] How Well Do People Report Time Spent on Facebook?: An Evaluation of Established Survey Questions with Recommendations</title>
       <link>/papers/facebook_self_reported_survey_ernala.html</link>
-      <pubDate>Sun, 14 Jun 2020 00:00:00 -0500</pubDate>
+      <pubDate>Sun, 14 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>/papers/facebook_self_reported_survey_ernala.html</guid>
       <description>&lt;p&gt;How reliable are self-reported measures of social media use? Lots of studies rely on them, but it&amp;rsquo;s well-known that self-reported behaviors can be noisy. This paper studies how noisy by comparing the results from 10 self-reported questions with actual usage data from Facebook server logs.&lt;/p&gt;</description>
@@ -68,7 +68,7 @@
     <item>
       <title>What I read this week (June 7 - 13)</title>
       <link>/what_i_read/20200613.html</link>
-      <pubDate>Sat, 13 Jun 2020 00:00:00 -0500</pubDate>
+      <pubDate>Sat, 13 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>/what_i_read/20200613.html</guid>
       <description>&lt;p&gt;Back to mostly-weekly reading, this week with &amp;ldquo;Where did software go wrong?&amp;rdquo; and a piece on encouraging written communication.&lt;/p&gt;</description>
@@ -77,7 +77,7 @@
     <item>
       <title>[Paper] Acting the Part: Examining Information Operations Within #BlackLivesMatter Discourse</title>
       <link>/papers/information_operations_blm_arif.html</link>
-      <pubDate>Wed, 10 Jun 2020 00:00:00 -0500</pubDate>
+      <pubDate>Wed, 10 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>/papers/information_operations_blm_arif.html</guid>
       <description>&lt;p&gt;This CWCW 2018 paper studies tweets and profiles of accounts that were suspended by for affiliation with Russian information operation campaigns. How did these accounts contribute to the discourse? What kinds of things did they tweet about? What were their profiles like? Another timely paper, Dr. Starbird shared this on Twitter and it immediately stood out.&lt;/p&gt;</description>
@@ -86,7 +86,7 @@
     <item>
       <title>[Paper] Critical Race Theory for HCI</title>
       <link>/papers/critical_race_theory_ogburu.html</link>
-      <pubDate>Mon, 08 Jun 2020 00:00:00 -0500</pubDate>
+      <pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>/papers/critical_race_theory_ogburu.html</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve had my eye on this paper since I saw that it received Best Paper at CHI 2020, but in light of recent events it seems more timely than ever. How does critical race theory fit into HCI? How do technological systems perpetuate racism? How can we do better?&lt;/p&gt;</description>
@@ -95,7 +95,7 @@
     <item>
       <title>Something that made me a better programmer</title>
       <link>/posts/thinking_through_code.html</link>
-      <pubDate>Fri, 05 Jun 2020 00:00:00 -0500</pubDate>
+      <pubDate>Fri, 05 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>/posts/thinking_through_code.html</guid>
       <description>&lt;p&gt;Something that has made me a better programmer is thinking through my code step-by-step before I run it. Stupid, right? It kind of seems that way in hindsight, but writing about it makes me feel better.&lt;/p&gt;</description>
@@ -104,7 +104,7 @@
     <item>
       <title>What I read this week (May 24 - May 30)</title>
       <link>/what_i_read/20200530.html</link>
-      <pubDate>Sat, 30 May 2020 00:00:00 -0500</pubDate>
+      <pubDate>Sat, 30 May 2020 00:00:00 +0000</pubDate>
       
       <guid>/what_i_read/20200530.html</guid>
       <description>&lt;p&gt;This week, I read a lot of advice: on writing, on grad school, and more. Most of this was written while waiting for a particularly painful MCMC model to sample.&lt;/p&gt;</description>
@@ -113,7 +113,7 @@
     <item>
       <title>PMD password tool: should I do this?</title>
       <link>/posts/password_tool_6.html</link>
-      <pubDate>Thu, 28 May 2020 00:00:00 -0500</pubDate>
+      <pubDate>Thu, 28 May 2020 00:00:00 +0000</pubDate>
       
       <guid>/posts/password_tool_6.html</guid>
       <description>&lt;p&gt;This is a long one; it&amp;rsquo;s not a paper summary, it&amp;rsquo;s not technical, and it&amp;rsquo;s far more personal than what I usually post here. In this post, I discuss whether or not the password tool should even exist by telling a story about a community from 14 years ago.&lt;/p&gt;</description>
@@ -122,19 +122,10 @@
     <item>
       <title>Bookmarklet for SudokuExchange</title>
       <link>/posts/sudoku_bookmarklet.html</link>
-      <pubDate>Wed, 27 May 2020 00:00:00 -0500</pubDate>
+      <pubDate>Wed, 27 May 2020 00:00:00 +0000</pubDate>
       
       <guid>/posts/sudoku_bookmarklet.html</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve been playing a lot of Sudoku while at home, and today I made a quick tool to make it easier for myself: a bookmarklet to open NY Times Sudoku puzzles on &lt;a href=&#34;https://sudokuexchange.com&#34;&gt;SudokuExchange.com&lt;/a&gt;.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>What I read this week (May 17 - May 23)</title>
-      <link>/what_i_read/20200523.html</link>
-      <pubDate>Sat, 23 May 2020 00:00:00 -0500</pubDate>
-      
-      <guid>/what_i_read/20200523.html</guid>
-      <description>&lt;p&gt;I spent most of my free time this week working on my island in Animal Crossing and the rescue project; but this week&amp;rsquo;s articles include an article from FB Engineering about rebuilding their main site, an article about distractions, and a host of shorter articles.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -147,9 +138,18 @@
     </item>
     
     <item>
+      <title>What I read this week (May 17 - May 23)</title>
+      <link>/what_i_read/20200523.html</link>
+      <pubDate>Sat, 23 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/what_i_read/20200523.html</guid>
+      <description>&lt;p&gt;I spent most of my free time this week working on my island in Animal Crossing and the rescue project; but this week&amp;rsquo;s articles include an article from FB Engineering about rebuilding their main site, an article about distractions, and a host of shorter articles.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>[Paper] Taking Data Out of Context to Hyper-Personalize Ads: Crowdworkers&#39; Privacy Perceptions and Decisions to Disclose Private Information</title>
       <link>/papers/taking_data_out_of_context_ur.html</link>
-      <pubDate>Fri, 22 May 2020 00:00:00 -0500</pubDate>
+      <pubDate>Fri, 22 May 2020 00:00:00 +0000</pubDate>
       
       <guid>/papers/taking_data_out_of_context_ur.html</guid>
       <description></description>
@@ -167,7 +167,7 @@
     <item>
       <title>What I read this week (May 10 - May 16)</title>
       <link>/what_i_read/20200516.html</link>
-      <pubDate>Sat, 16 May 2020 00:00:00 -0500</pubDate>
+      <pubDate>Sat, 16 May 2020 00:00:00 +0000</pubDate>
       
       <guid>/what_i_read/20200516.html</guid>
       <description>&lt;p&gt;I took last week off as I focused on full papers from CHI, but this week&amp;rsquo;s edition of &lt;a href=&#34;http://www.pointer.io/&#34;&gt;Pointer&lt;/a&gt; had several articles that caught my eye.&lt;/p&gt;</description>
@@ -176,7 +176,7 @@
     <item>
       <title>[Paper] How Visualizing Inferential Uncertainty Can Mislead Readers About Treatment Effects in Scientific Results</title>
       <link>/papers/visualizing_inferential_uncertainty_mislead_hofman.html</link>
-      <pubDate>Tue, 12 May 2020 00:00:00 -0500</pubDate>
+      <pubDate>Tue, 12 May 2020 00:00:00 +0000</pubDate>
       
       <guid>/papers/visualizing_inferential_uncertainty_mislead_hofman.html</guid>
       <description>&lt;p&gt;When visualizing the uncertainty around treatment effects, one can choose (among others) to visualize the standard error (uncertainty in the mean) or the standard deviations (uncertainty in the observations). Modulo sample size, the two contain the same information, but this paper demonstrates how people regularly associate the former with larger effects than the latter.&lt;/p&gt;</description>
@@ -185,7 +185,7 @@
     <item>
       <title>[Paper] Modeling Organizational Culture with Workplace Experiences Shared on Glassdoor</title>
       <link>/papers/modeling_org_culture_dasswain.html</link>
-      <pubDate>Mon, 11 May 2020 00:00:00 -0500</pubDate>
+      <pubDate>Mon, 11 May 2020 00:00:00 +0000</pubDate>
       
       <guid>/papers/modeling_org_culture_dasswain.html</guid>
       <description>&lt;p&gt;Glassdoor is a valuable source of data on what life is like at different companies, and in particular the &lt;em&gt;organizational culture&lt;/em&gt; there. To what extent can organizational culture be modeled using word embeddings? Is it useful for predicting job performance. This paper, from the De Choudhury lab at Georgia Tech, investigates.&lt;/p&gt;</description>
