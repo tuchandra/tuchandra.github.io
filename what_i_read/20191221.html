@@ -212,8 +212,10 @@
 <p><a href="https://snarky.ca/why-you-should-use-python-m-pip/">Why you should use <code>python -m pip</code></a> by Brett Cannon is about what it says. The reason is basically to have more control over where everything gets installed, so that you avoid <code>pip</code> picking up the wrong Python interpreter by accident. This way, you will always use whatever python is active.</p>
 <p><a href="https://eng.getwisdom.io/hacking-github-with-unicode-dotless-i/">Hacking Github with dotless &ldquo;i&rdquo;</a> is an article about a (now fixed) security vulnerability in Github that resulted from different Unicode characters colliding into the same character when made uppercase or lowercase. The &ldquo;forgot password&rdquo; form lowercased the user-provided email address and the email address in the user database to compare them, which could cause false positive matches based on character collisions, and an email being sent to the email the user entered. This is the kind of stuff that makes me glad I&rsquo;m not a software engineer.</p>
 <p><a href="https://omarabid.com/the-modern-web">The modern web is becoming an unsuable, user-hostile wasteland</a> is a blog post about how awful modern websites are becoming. This includes demanding you create an account to access anything, downloading megabytes of JS for simple text, asking you to turn off your ad blocker, all the cookie banners &hellip; and a dozen odd others at the bottom of the article. I agree with absolutely everything here.</p>
+      <p><i class="fas fa-square font-green-800"></i></p>
     </div>
-    <div class="article-footer">
+    <div class="font-semibold text-green-800 pt-4">
+      <a href="/"><i class="fas fa-arrow-left"></i> Return home</a>
     </div>
   </article>
 </div><nav class="bar bar-footer clearfix" data-stick-bottom>
@@ -246,7 +248,7 @@
             </a><span class="">19</span>
         </li>
         <li class="">+ <a href="/categories/general.html" class="font-bold text-green-900">general
-            </a><span class="">33</span>
+            </a><span class="">34</span>
         </li>
         <li class="">+ <a href="/categories/papers.html" class="font-bold text-green-900">papers
             </a><span class="">46</span>
@@ -268,6 +270,14 @@
 <div class="pb-12">
     <h3 class="font-semibold text-xl">Recent Posts</h3>
     <ul class="recent-post-list list-unstyled no-thumbnail">
+        <li class="pb-4">
+            <p>
+                <a href="/posts/another_new_layout.html" class="font-bold text-green-900">Another website redesign</a>
+                <time datetime="2020-06-29 00:00:00 &#43;0000 UTC" itemprop="datePublished" class="text-gray-600 text-sm">2020-06-29
+                </time>
+            </p>
+
+        </li>
         <li class="pb-4">
             <p>
                 <a href="/books/network_propaganda_4.html" class="font-bold text-green-900">Network Propaganda, part 4</a>
@@ -300,21 +310,13 @@
             </p>
 
         </li>
-        <li class="pb-4">
-            <p>
-                <a href="/spark/2020/generalized_seir_models.html" class="font-bold text-green-900">Generalized SEIR Model On Large Networks</a>
-                <time datetime="2020-06-26 13:00:00 &#43;0000 UTC" itemprop="datePublished" class="text-gray-600 text-sm">2020-06-26
-                </time>
-            </p>
-
-        </li>
     </ul>
 </div>
 </aside><footer class="" itemscope itemtype="http://schema.org/WPFooter">
   <div class="py-4 text-sm">
     &copy; 2019 - 2020 Tushar Chandra
     <p style="margin-bottom: 4px">All opinions are my own.</p>
-    <div class="publishby">Theme: custom built.</div>
+    <div class="publishby">Powered by Hugo with a custom theme.</div>
   </div>
   <ul class="">
     <li class="inline text-xl pr-4">
@@ -347,7 +349,7 @@
   <div class="py-4 text-sm">
     &copy; 2019 - 2020 Tushar Chandra
     <p style="margin-bottom: 4px">All opinions are my own.</p>
-    <div class="publishby">Theme: custom built.</div>
+    <div class="publishby">Powered by Hugo with a custom theme.</div>
   </div>
   <ul class="">
     <li class="inline text-xl pr-4">

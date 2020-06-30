@@ -6,10 +6,19 @@
     <description>Recent content in Categories on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 27 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 29 Jun 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>What I read this week (March 8 - March 14)</title>
+      <link>/what_i_read/20200314.html</link>
+      <pubDate>Sat, 14 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/what_i_read/20200314.html</guid>
+      <description>&lt;p&gt;Like many, coronavirus-related things have been taking over my life; in the first few days of working fully remotely, I struggled to find an appropriate work-life balance. This resulted in me reading less than usual, which is reflected in this post.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>What I read this week (March 1 - March 7)</title>
@@ -180,15 +189,6 @@
       
       <guid>/posts/talk_global_energy_challenge.html</guid>
       <description>&lt;p&gt;I had the pleasure of hearing &lt;a href=&#34;https://www.michaelgreenstone.com/&#34;&gt;Michael Greenstone&lt;/a&gt;, former Chief Economist to President Obama and now professor at UChicago, speak about the Global Energy Challenge. These are my notes and my thoughts.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] Norms Matter: Contrasting Social Support Around Behavior Change in Online Weight Loss Communities</title>
-      <link>/papers/contrasting_social_support_chancellor.html</link>
-      <pubDate>Tue, 28 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/papers/contrasting_social_support_chancellor.html</guid>
-      <description>&lt;p&gt;My last of Dr. Chancellor&amp;rsquo;s papers for now. This paper studies the discourse within two online health communities for weight loss, /r/loseit and (the now banned) /r/proED. The authors discuss how different communities provide support differently and discuss design implications.&lt;/p&gt;</description>
     </item>
     
   </channel>
