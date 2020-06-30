@@ -128,6 +128,15 @@
     </item>
     
     <item>
+      <title>Thursday afternoon keynotes: on deep learning and deep fakes</title>
+      <link>/spark/2020/thursday_afternoon_keynotes.html</link>
+      <pubDate>Thu, 25 Jun 2020 15:00:00 +0000</pubDate>
+      
+      <guid>/spark/2020/thursday_afternoon_keynotes.html</guid>
+      <description>&lt;p&gt;The afternoon keynotes featured Kim Hazelwood, the west cost head of engineering at FAIR, discussing recommender systems; and Hany Farid, from UC Berkeley, discussing deepfakes.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Using Bayesian Generative Models With Apache Spark To Solve Entity Resolution Problems At Scale</title>
       <link>/spark/2020/bayesian_generative_models.html</link>
       <pubDate>Thu, 25 Jun 2020 14:00:00 +0000</pubDate>
@@ -179,15 +188,6 @@
       
       <guid>/spark/2020/productionalizing_models_mlflow.html</guid>
       <description>&lt;p&gt;This talk, by Mary Grace Moesta &amp;amp; Peter Tamisin at Databricks, dove into MLOps and productionalization of machine learning models using MLflow. How can we apply principles from CI/CD to machine learning? And how can MLflow help us to do so?&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Portable Scalable Data Visualization Techniques for Apache Spark and Python Notebook-based Analytics</title>
-      <link>/spark/2020/portable_scalable_data_viz.html</link>
-      <pubDate>Wed, 24 Jun 2020 13:00:00 +0000</pubDate>
-      
-      <guid>/spark/2020/portable_scalable_data_viz.html</guid>
-      <description>&lt;p&gt;This talk, by Douglas Moore at Databricks, briefly discussed strategies for data visualization using Spark and different visualization libraries.&lt;/p&gt;</description>
     </item>
     
   </channel>
