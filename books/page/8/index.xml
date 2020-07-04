@@ -6,10 +6,19 @@
     <description>Recent content in Books on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 02 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 Jul 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/books/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Using papermill to wrap model runs</title>
+      <link>/posts/papermill_experiences.html</link>
+      <pubDate>Fri, 15 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/papermill_experiences.html</guid>
+      <description>&lt;p&gt;I recently started using &lt;a href=&#34;https://github.com/nteract/papermill/&#34;&gt;papermill&lt;/a&gt; from nteract to parameterize model runs. I&amp;rsquo;ve started to like it a lot, and this post will discuss my experiences with it and my current setup.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>[Paper] The Curse of Knowledge in Visual Data Communication</title>
@@ -181,15 +190,6 @@
       
       <guid>/spark/graph_algorithms.html</guid>
       <description>&lt;p&gt;Speaker: Amy Holder and Soren Reichardt (Neo4j).&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Smart Join Algorithms for Fighting Skew at Scale</title>
-      <link>/spark/smart_join.html</link>
-      <pubDate>Wed, 24 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/spark/smart_join.html</guid>
-      <description>&lt;p&gt;Speaker: Andrew Clegg (Applied ML Group @ Yelp).&lt;/p&gt;</description>
     </item>
     
   </channel>

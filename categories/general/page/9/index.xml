@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Smart Join Algorithms for Fighting Skew at Scale</title>
+      <link>/spark/smart_join.html</link>
+      <pubDate>Wed, 24 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/spark/smart_join.html</guid>
+      <description>&lt;p&gt;Speaker: Andrew Clegg (Applied ML Group @ Yelp).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>About Me</title>
       <link>/about/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
