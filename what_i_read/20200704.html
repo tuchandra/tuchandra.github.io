@@ -20,7 +20,8 @@
   <meta name="format-detection" content="telephone=no,email=no,adress=no">
   
   <meta name="theme-color" content="#000000" />
-  <meta http-equiv="window-target" content="_top" /><meta name="description" content="" />
+  <meta http-equiv="window-target" content="_top" /><meta name="description" content="This week&amp;rsquo;s reading was all over the place: a talk on Docker and Python for data science, authorial intent in code, the book Clean Code, and an essay on NPM.
+" />
   <meta name="generator" content="Hugo 0.70.0" />
   <title>What I read this week (June 28 - July 4) - Tushar Chandra</title>
 
@@ -32,22 +33,22 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
 
   <meta property="og:title" content="What I read this week (June 28 - July 4)" />
-<meta property="og:description" content="" />
+<meta property="og:description" content="This week&rsquo;s reading was all over the place: a talk on Docker and Python for data science, authorial intent in code, the book Clean Code, and an essay on NPM." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/what_i_read/20200704.html" />
 <meta property="article:published_time" content="2020-07-04T00:00:00+00:00" />
 <meta property="article:modified_time" content="2020-07-04T00:00:00+00:00" />
 <meta itemprop="name" content="What I read this week (June 28 - July 4)">
-<meta itemprop="description" content="">
+<meta itemprop="description" content="This week&rsquo;s reading was all over the place: a talk on Docker and Python for data science, authorial intent in code, the book Clean Code, and an essay on NPM.">
 <meta itemprop="datePublished" content="2020-07-04T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2020-07-04T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="574">
+<meta itemprop="wordCount" content="809">
 
 
 
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="What I read this week (June 28 - July 4)"/>
-<meta name="twitter:description" content=""/>
+<meta name="twitter:description" content="This week&rsquo;s reading was all over the place: a talk on Docker and Python for data science, authorial intent in code, the book Clean Code, and an essay on NPM."/>
 </head>
 </head>
 
@@ -133,14 +134,15 @@
 <time datetime="2020-07-04 00:00:00 &#43;0000 UTC" class="text-sm text-gray-600"
   itemprop="datePublished">2020-07-04</time>
 <span class="text-sm text-gray-600" itemprop="wordCount">
-	<i class="fas fa-pencil-alt text-gray-500 pl-4 pr-2"></i>574 words
+	<i class="fas fa-pencil-alt text-gray-500 pl-4 pr-2"></i>809 words
 </span><i class="fas fa-folder-open text-gray-500 pl-4 pr-1"></i>
 <a class="text-sm text-gray-600" href=" /categories/what-i-read.html"> what I read, </a>
 
       </div>
     </div>
     <div class="rich-text" itemprop="articleBody">
-      <h2 id="talk-docker-and-python-making-them-play-nicely-and-security-for-data-science-and-mlhttpsuspyconorg2020schedulepresentation175">[Talk] <a href="https://us.pycon.org/2020/schedule/presentation/175/">Docker and Python: making them play nicely and security for data science and ML</a></h2>
+      <p>This week&rsquo;s reading was all over the place: a talk on Docker and Python for data science, authorial intent in code, the book <em>Clean Code</em>, and an essay on NPM.</p>
+<h2 id="talk-docker-and-python-making-them-play-nicely-and-security-for-data-science-and-mlhttpsuspyconorg2020schedulepresentation175">[Talk] <a href="https://us.pycon.org/2020/schedule/presentation/175/">Docker and Python: making them play nicely and security for data science and ML</a></h2>
 <p><strong>Speaker</strong>: Tania Allard</p>
 <p>This talk, from (the online) PyCon 2020, was a data science-focused introduction to Docker. The start of the talk was a pretty standard overview of what Docker is and why you might want to use it. Allard explained these clearly, which I appreciated, and her slides were <em>amazing</em>. I learned about tools like <code>repo2docker</code> and cookie-cutter for Docker.</p>
 <p>Allard concluded by discussing automation. Using CI to rebuild your Docker images on new pushes <em>and</em> every 2-ish weeks can be a good practice, since it helps you to keep dependencies up to date or (at the very least) install security updates. She showed an example workflow using (I think?) Github Actions.</p>
@@ -162,9 +164,20 @@
 <blockquote>
 <p>The NPM ecosystem seems unwell. If you are concerned with security, reliability, or long-term maintenance, it is almost impossible to pick a suitable package to use&mdash;both because there are 1.3 million packages available, and even if you find one that is well documented and maintained, it might depend on hundreds of other packages, with dependency trees stretching ten or more levels deep&mdash;as one developer, it’s impossible to validate them all.</p>
 </blockquote>
-<p>This is a much more well-argued take than <a href="https://medium.com/commitlog/the-internet-is-at-the-mercy-of-a-handful-of-people-73fac4bc5068">The NodeJS Ecosystem is Chaotic and Insecure</a>, which makes the rounds every few months, while ultimately coming to the same conclusions.</p>
+<p>This is a much more well-argued take than <a href="https://medium.com/commitlog/the-internet-is-at-the-mercy-of-a-handful-of-people-73fac4bc5068">The NodeJS Ecosystem is Chaotic and Insecure</a>, which makes the rounds every few months, while ultimately coming to the same conclusions. Bleckley takes a data-driven approach by charting dependencies of packages in NPM, which ideally would be low-depth, have few indirect dependencies, and few cycles.</p>
+<p>Why? NPM makes it easy to create a package; the <code>package.json</code> file is used to define projects and packages alike. And JavaScript has no standard library. That packages are easy to make isn&rsquo;t bad&mdash;it enables people to get into programming and feel like they&rsquo;re doing something &ldquo;real&rdquo; much more easily than in, say, Python.</p>
+<p><strong>&ldquo;I suggest that this is a social problem, more than a technical one, and propose a semi-social solution&rdquo;</strong>, he writes.</p>
+<p>Bleckley proposes labeling &ldquo;healthy&rdquo; packages, which are actively maintained, triage bugs, resolve security issues, etc., and then goes on to explain why this would never work. &ldquo;The most popular javascript packages, especially large frameworks, have no impetus to dramatically change their practices just because some person in West Michigan made some graphs and said it would be nice.&rdquo; How thoughtfully self-aware!</p>
 <blockquote>
-<p><strong>I suggest that this is a social problem, more than a technical one, and propose a semi-social solution:</strong> a human-maintained subset of the total registry, based on shared criteria by which a “healthy” package can receive a seal of approval. One criterion would be to only depend on other approved packages.</p>
+<p>I cannot offer a batteries-included answer, but I want you to walk away with these conclusions:</p>
+<ul>
+<li>Something is wrong with the javascript ecosystem.</li>
+<li>It’s not just a feeling; it’s measurable.</li>
+<li>It’s not really a technical problem, but mostly a social one.</li>
+<li>A functional solution will not be to change how packages are published, but how packages are selected for use.</li>
+<li>That solution will need to take into account not just a package, but all its direct and indirect dependencies, too.</li>
+<li>And, for approval and adoption, it will need the social clout of major names in the field.</li>
+</ul>
 </blockquote>
       <p><i class="fas fa-square font-green-800"></i></p>
     </div>
