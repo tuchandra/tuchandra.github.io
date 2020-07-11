@@ -6,10 +6,19 @@
     <description>Recent content on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 04 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 11 Jul 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/what_i_read/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>A variety of talks from CHI 2020</title>
+      <link>/papers/chi_2020_nordic_talks.html</link>
+      <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/chi_2020_nordic_talks.html</guid>
+      <description>&lt;p&gt;On Tuesday morning, I came across &lt;a href=&#34;https://www.chinordic2020.org/&#34;&gt;CHI Nordic 2020&lt;/a&gt;, which was a mini-conference put together to present and discuss Nordic papers from CHI 2020. I joined the last session on &amp;ldquo;computational materials&amp;rdquo; and watched 3 talks.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Attempts at cracking a rescue password</title>
@@ -180,15 +189,6 @@
       
       <guid>/papers/review_methods_predicting_mental_health_status_chancellor.html</guid>
       <description>&lt;p&gt;This new paper by Drs. Chancellor and De Choudhury is a literature review of predicting mental health states from social media, studying in particular the extent to which the papers report their methods in sufficient depth and clarity. They propose reporting standards for publications in this space.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>On targeted advertising</title>
-      <link>/posts/targeted_advertising.html</link>
-      <pubDate>Sun, 22 Mar 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/targeted_advertising.html</guid>
-      <description>&lt;p&gt;This is my response to an article from Wired, &lt;a href=&#34;https://www.wired.com/story/why-dont-we-just-ban-targeted-advertising/&#34;&gt;Why don&amp;rsquo;t we just ban targeted advertising?&lt;/a&gt;. My direct answer is &amp;ldquo;because that&amp;rsquo;s not the problem,&amp;rdquo; and I instead discuss the two more fundamental problems that I see in that space.&lt;/p&gt;</description>
     </item>
     
   </channel>
