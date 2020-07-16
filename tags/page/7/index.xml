@@ -11,6 +11,16 @@
     
     
     <item>
+      <title>Reading List</title>
+      <link>/reading/</link>
+      <pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/reading/</guid>
+      <description>&lt;p&gt;This is a page of things I&amp;rsquo;m hoping to read &amp;ldquo;soon&amp;rdquo; (for some value of soon). It&amp;rsquo;s some cross between a digital bookshelf and public bookmarks, where I drop papers that cross my radar or blog posts, talks, or other ideas.&lt;/p&gt;
+&lt;p&gt;Some of these I&amp;rsquo;ve printed out and carry around with me. Others are unlikely to ever be read because they&amp;rsquo;re so far out of my areas of expertise or interest. While this page is mostly for my own reference, it also pretty broadly shows the types of work I&amp;rsquo;m interested in.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>[Paper] Discrimination in the Age of Algorithms (2/2)</title>
       <link>/papers/discrimination_algorithms_kleinberg_2.html</link>
       <pubDate>Mon, 30 Dec 2019 00:00:00 +0000</pubDate>
@@ -179,15 +189,6 @@
       
       <guid>/papers/ethical_tensions_social_media_chancellor_1.html</guid>
       <description>&lt;p&gt;Research shows that it&amp;rsquo;s possible to infer individuals&amp;rsquo; mental health status from social media. While this has great potential for good, it also has great potential for misuse. So much, in fact, that this FAT* 2019 paper creates a taxonomy of all the different ethical tensions with this! This is part 1 of 2.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>On the digital ad industry</title>
-      <link>/posts/digital_advertising.html</link>
-      <pubDate>Thu, 21 Nov 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/digital_advertising.html</guid>
-      <description>&lt;p&gt;I recently read a fantastic article on The Correspondent about digital advertising, called &lt;a href=&#34;https://thecorrespondent.com/100/the-new-dot-com-bubble-is-here-its-called-online-advertising/13228924500-22d5fd24&#34;&gt;The new dot com bubble is here: it’s called online advertising&lt;/a&gt;. This post summarizes my thoughts.&lt;/p&gt;</description>
     </item>
     
   </channel>
