@@ -6,10 +6,19 @@
     <description>Recent content in Books on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 16 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jul 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/books/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Normalcy during coronavirus</title>
+      <link>/posts/normalcy_during_coronavirus.html</link>
+      <pubDate>Fri, 27 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/normalcy_during_coronavirus.html</guid>
+      <description>&lt;p&gt;Yesterday marked two weeks of fully remote work; my first day at home was Thursday, March 12th. This post reflects on my experience.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>[Paper] Methods in predictive techniques for mental health status on social media: a critical review</title>
@@ -180,15 +189,6 @@
       
       <guid>/what_i_read/20200215.html</guid>
       <description>&lt;p&gt;Articles I read this week, about procrastination, high-output management, technical research, and more.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] Watching You Watch: The Tracking Ecosystem of Over-the-Top TV Streaming Devices</title>
-      <link>/papers/ott_tracking_moghaddam.html</link>
-      <pubDate>Wed, 12 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/papers/ott_tracking_moghaddam.html</guid>
-      <description>&lt;p&gt;This paper studies the tracking ecosystem of Roku and Amazon Fire devices, discovering that channels on both platforms regularly send their traffic to known trackers. They also note that they often transmit unique identifiers, and that known methods to protect privacy are largely ineffective.&lt;/p&gt;</description>
     </item>
     
   </channel>
