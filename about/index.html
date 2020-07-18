@@ -22,7 +22,7 @@
   <meta name="theme-color" content="#000000" />
   <meta http-equiv="window-target" content="_top" /><meta name="description" content="Hi, I&amp;rsquo;m Tushar. I&amp;rsquo;m a data scientist at Nielsen in Chicago, IL. I have an interest in human-computer interaction and how technology &amp;amp; new media are affecting our lives. On this site, I write summaries of papers that interest me along with other articles or talks.
 I can be reached at:
- Github: tuchandra Email: me [at] tusharc [dot] dev  " />
+ Github: tuchandra Email: me [at] tusharc [dot] dev  Projects I take pride in identifying problems and building tools to fix them." />
   <meta name="generator" content="Hugo 0.70.0" />
   <title>About Me - Tushar Chandra</title>
 
@@ -36,7 +36,7 @@ I can be reached at:
   <meta property="og:title" content="About Me" />
 <meta property="og:description" content="Hi, I&rsquo;m Tushar. I&rsquo;m a data scientist at Nielsen in Chicago, IL. I have an interest in human-computer interaction and how technology &amp; new media are affecting our lives. On this site, I write summaries of papers that interest me along with other articles or talks.
 I can be reached at:
- Github: tuchandra Email: me [at] tusharc [dot] dev  " />
+ Github: tuchandra Email: me [at] tusharc [dot] dev  Projects I take pride in identifying problems and building tools to fix them." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/about/" />
 <meta property="article:published_time" content="2019-01-01T00:00:00+00:00" />
@@ -44,10 +44,10 @@ I can be reached at:
 <meta itemprop="name" content="About Me">
 <meta itemprop="description" content="Hi, I&rsquo;m Tushar. I&rsquo;m a data scientist at Nielsen in Chicago, IL. I have an interest in human-computer interaction and how technology &amp; new media are affecting our lives. On this site, I write summaries of papers that interest me along with other articles or talks.
 I can be reached at:
- Github: tuchandra Email: me [at] tusharc [dot] dev  ">
+ Github: tuchandra Email: me [at] tusharc [dot] dev  Projects I take pride in identifying problems and building tools to fix them.">
 <meta itemprop="datePublished" content="2019-01-01T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2019-01-01T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="59">
+<meta itemprop="wordCount" content="932">
 
 
 
@@ -55,7 +55,7 @@ I can be reached at:
 <meta name="twitter:title" content="About Me"/>
 <meta name="twitter:description" content="Hi, I&rsquo;m Tushar. I&rsquo;m a data scientist at Nielsen in Chicago, IL. I have an interest in human-computer interaction and how technology &amp; new media are affecting our lives. On this site, I write summaries of papers that interest me along with other articles or talks.
 I can be reached at:
- Github: tuchandra Email: me [at] tusharc [dot] dev  "/>
+ Github: tuchandra Email: me [at] tusharc [dot] dev  Projects I take pride in identifying problems and building tools to fix them."/>
 </head>
 </head>
 
@@ -141,7 +141,7 @@ I can be reached at:
 <time datetime="2019-01-01 00:00:00 &#43;0000 UTC" class="text-sm text-gray-600"
   itemprop="datePublished">2019-01-01</time>
 <span class="text-sm text-gray-600" itemprop="wordCount">
-	<i class="fas fa-pencil-alt text-gray-500 pl-4 pr-2"></i>59 words
+	<i class="fas fa-pencil-alt text-gray-500 pl-4 pr-2"></i>932 words
 </span><i class="fas fa-folder-open text-gray-500 pl-4 pr-1"></i>
 <a class="text-sm text-gray-600" href=" /categories/self.html"> self, </a>
 
@@ -154,6 +154,37 @@ I can be reached at:
 <li>Github: <a href="https://github.com/tuchandra">tuchandra</a></li>
 <li>Email: me [at] tusharc [dot] dev</li>
 </ul>
+<h2 id="projects">Projects</h2>
+<p>I take pride in identifying problems and building tools to fix them. I believe that small projects, when carefully designed and targeted, are capable of having outsized impacts. I choose my personal projects with this in mind.</p>
+<h3 id="zebra-puzzle-generator">Zebra puzzle generator</h3>
+<p>When I was a kid, I really loved the grid-style logic puzzles, where you&rsquo;re given clues like &ldquo;the tea drinker owns a cat&rdquo; and &ldquo;the coffee lover does not live in the red house.&rdquo; After watching a Raymond Hettinger <a href="https://www.youtube.com/watch?v=_GP9OpZPUYc">talk</a> from PyCon 2019, I was inspired to write a program that could create these puzzles for me.</p>
+<p>This involved figuring out how to solve these puzzles, creating sensible data structures for representing them, and designing my own custom algorithm to generate them from scratch. The project was written in barebones Python with the help of a SAT solver. Anyone can find it on <a href="https://github.com/tuchandra/zebra">Github</a>.</p>
+<h3 id="ci-doku">CI-Doku</h3>
+<p>CI-Doku as my first foray into continuous integration. I love playing Sudoku, and a website <a href="https://sudokuexchange.com">SudokuExchange.com</a> came out a couple months ago which has the best online puzzle interface that I&rsquo;d seen. I vastly preferred solving Sudoku puzzles from the NY Times, Chicago Tribune, and other places in SudokuExchange, but this required manually entering the puzzles into the SudokuExchange website.</p>
+<p>I wrote a family of web scrapers in Python and NodeJS to go to these daily puzzle sources, scrape their puzzles, and put them into SudokuExchange. I also automated this to run daily using CI on Github Actions. The end result is <a href="https://github.com/tuchandra/sudoku/">CI-Doku</a>, which, every morning at 8AM, creates a Github issue with that day&rsquo;s puzzles.</p>
+<h3 id="tech-for-campaigns">Tech for Campaigns</h3>
+<p>I volunteer with <a href="https://www.techforcampaigns.org/">Tech for Campaigns</a>, a group of tech-focused volunteers trying to help Democrats get elected at the state and local levels (recognizing that there&rsquo;s far less investment in these races than national ones). I help as a data scientist, data engineer, and software engineer.</p>
+<p>I&rsquo;ve helped build a model to predict the outcomes of state &amp; local elections. I&rsquo;ve improved the robustness of our data ingestion pipeline with better CI and more unit tests. I&rsquo;ve written scripts to download, parse, and ingest messy electoral data from state election boards. And I&rsquo;ve analyzed downstream &ldquo;diffs&rdquo; of model predictions to introspect why it&rsquo;s making the decisions that it is.</p>
+<h3 id="pokemon-mystery-dungeon-rescues">Pokemon Mystery Dungeon Rescues</h3>
+<p>One of my favorite video games, Pokemon Mystery Dungeon: Rescue Team DX, was released for the Switch in March 2020. One of the core elements of the game is rescuing other players when they are defeated. However, this feature isn&rsquo;t always accessible (you need to know someone with the game, join an online forum, or pay for an online subscription). I wrote a <a href="https://tusharc.dev/rescue/">web app</a> to solve this problem.</p>
+<p>Using my rescue tool, you can both revive yourself when you&rsquo;re defeated in-game and create bespoke, custom missions to go on if you run out of content. The tool was built using vanilla JavaScript, <a href="tailwindcss.com/">Tailwind CSS</a>, Python, and <a href="https://github.com/iodide-project/pyodide">Pyodide</a>. I also wrote a series of blog posts:</p>
+<ul>
+<li><a href="/posts/password_tool_1.html">My newest project: a Pokemon Mystery Dungeon password tool</a></li>
+<li><a href="/posts/password_tool_2.html">Attempts at cracking a rescue password</a></li>
+<li><a href="/posts/password_tool_3.html">A data scientist builds a web app</a></li>
+<li><a href="/posts/password_tool_4.html">Hacking together Python and JavaScript</a></li>
+<li><a href="/posts/password_tool_5.html">PMD password tool: making it all work</a></li>
+<li><a href="/posts/password_tool_6.html">PMD password tool: should I do this?</a></li>
+</ul>
+<h3 id="red-tweet-blue-tweet">Red Tweet, Blue Tweet</h3>
+<p>This was a course project for Brent Hecht&rsquo;s <a href="http://www.psacomputing.org/algsoc/basics/">Algorithms and Society</a>. I found a paper studying <a href="https://journals.sagepub.com/doi/abs/10.1177/0956797615594620">political polarization on Twitter</a>, so I decided to <a href="https://github.com/tuchandra/red-tweet-blue-tweet/">replicate the results</a>.</p>
+<p>The experience of reimplementing a paper&rsquo;s methods, working with messy Twitter data, and all the database management and administration for storing the tweets made this a very fulfilling project. I used an equal mix of R and Python for the project.</p>
+<h3 id="northwestern-it-footprints-helper">Northwestern IT Footprints Helper</h3>
+<p>When I worked at Northwestern IT as an undergrad, we had to fill out a &ldquo;location&rdquo; field on every single ticket we completed. It wasn&rsquo;t a mandatory field, though, so tickets could still be saved without it being filled out. (This was because of office politics&mdash;the non-student employees didn&rsquo;t want to do this, and because they have leverage and power, we were stuck with having to remember it.)</p>
+<p>I recognized that something like 1 in every 10 tickets was missing this field. Inconveniently, I was one of the people who had to go back and fix them, too. I decided to write a <a href="https://github.com/tuchandra/footprints-selector/">Chrome extension</a> for all the student employees, which would detect their location and fill out this field for them. This reduced the number of incomplete tickets to zero</p>
+<h3 id="sleep-analysis">Sleep Analysis</h3>
+<p>One of my earliest projects was done during a summer in college, when I was first learning about data science. I didn&rsquo;t know what APIs were, had only heard of pandas offhand from a classmate, and had never seen matplotlib or seaborn. This was back in 2016 and 2017, and so it&rsquo;s this project that was my first foray into data science.</p>
+<p>In the spirit of &ldquo;find a question you&rsquo;re interested in and solve it,&rdquo; I decided to analyze the sleep data coming out of my Fitbit. I extracted two years of minute-by-minute sleep data from the Fitbit API, then answered some questions I had (how much do I sleep? when am I most likely to nap? what days of the week are the worst?) about my sleep habits.</p>
 
       <p><i class="fas fa-square font-green-800"></i></p>
     </div>
