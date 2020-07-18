@@ -1016,20 +1016,9 @@ table td {
   --text-opacity: 1;
   color: #2f855a;
   color: rgba(47, 133, 90, var(--text-opacity));
-  text-decoration: underline;
-}
-
-.rich-text p > a {
-  font-weight: 500;
   --bg-opacity: 1;
   background-color: #c6f6d5;
   background-color: rgba(198, 246, 213, var(--bg-opacity));
-  --text-opacity: 1;
-  color: #2f855a;
-  color: rgba(47, 133, 90, var(--text-opacity));
-}
-
-.rich-text a:hover {
   text-decoration: underline;
 }
 
