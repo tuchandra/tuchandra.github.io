@@ -6,10 +6,19 @@
     <description>Recent content on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 19 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jul 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/papers/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Why all the paper summaries?</title>
+      <link>/posts/why_papers.html</link>
+      <pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/why_papers.html</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve been writing a bunch of paper summaries over the past couple of weeks, and I hope to continue this for several months. Why, though? This post will clear that up.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>[Paper] Bayesian Multilevel Estimation with Poststratification: State-Level Estimates from National Polls</title>
@@ -181,15 +190,6 @@
       
       <guid>/spark/explain_yourself.html</guid>
       <description>&lt;p&gt;Speakers: Niels Hanson (KPMG), Kishori Konwar (Broad Institute @ Harvard/MIT), Guohao Xiao (KPMG)&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>How Graph Technology is Changing AI</title>
-      <link>/spark/graph_technology.html</link>
-      <pubDate>Thu, 25 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/spark/graph_technology.html</guid>
-      <description>&lt;p&gt;Speakers: Jake Graham and Alicia Frame (Neo4j).&lt;/p&gt;</description>
     </item>
     
   </channel>

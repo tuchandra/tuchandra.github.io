@@ -6,10 +6,19 @@
     <description>Recent content on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 19 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jul 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Paper] Critical Race Theory for HCI</title>
+      <link>/papers/critical_race_theory_ogburu.html</link>
+      <pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/critical_race_theory_ogburu.html</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve had my eye on this paper since I saw that it received Best Paper at CHI 2020, but in light of recent events it seems more timely than ever. How does critical race theory fit into HCI? How do technological systems perpetuate racism? How can we do better?&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Something that made me a better programmer</title>
@@ -180,15 +189,6 @@
       
       <guid>/what_i_read/20200502.html</guid>
       <description>&lt;p&gt;This week, I&amp;rsquo;ve focused mostly on articles from CHI, but I did read a few shorter things in my spare time.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] In-game and Out-of-game Social Anxiety Influences Player Motivations, Activities, and Experiences in MMORPGs</title>
-      <link>/papers/social_anxiety_mmorpgs_dechant.html</link>
-      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/papers/social_anxiety_mmorpgs_dechant.html</guid>
-      <description>&lt;p&gt;How are MMORPGs perceived by people with social anxiety? What do they find enjoyable about MMORPGS? How does real-world anxiety translate to social experiences in a video game setting? This CHI 2020 paper by Dechant et al. studies these and other questions about the interactions between social anxiety and video games.&lt;/p&gt;</description>
     </item>
     
   </channel>
