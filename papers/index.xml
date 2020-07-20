@@ -13,10 +13,10 @@
     
     <item>
       <title>[Paper] What are you optimizing for? Aligning Recommender Systems with Human Values</title>
-      <link>/papers/icml_workshops_1.html</link>
+      <link>/papers/aligning_recommender_human_values_stray.html</link>
       <pubDate>Sun, 19 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>/papers/icml_workshops_1.html</guid>
+      <guid>/papers/aligning_recommender_human_values_stray.html</guid>
       <description>&lt;p&gt;How can recommender systems better align to human values, like fairness, diversity, or equity? This paper, from the ICML Participatory Approaches to ML workshop, discusses approaches to answering this question.&lt;/p&gt;</description>
     </item>
     
