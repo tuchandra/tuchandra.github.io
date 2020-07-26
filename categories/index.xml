@@ -6,10 +6,19 @@
     <description>Recent content in Categories on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 21 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 25 Jul 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>What I read this week (July 19 - 25)</title>
+      <link>/what_i_read/20200725.html</link>
+      <pubDate>Sat, 25 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/what_i_read/20200725.html</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m spending a lot of time reading Cathy O&amp;rsquo;Neil&amp;rsquo;s &lt;em&gt;Weapons of Math Destruction&lt;/em&gt;, which is excellent. This week&amp;rsquo;s articles include advice for grad students and some advice on software engineering.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>[Papers] Two more papers from the ICML Participatory Approaches to ML workshop</title>
@@ -180,15 +189,6 @@
       
       <guid>/spark/2020/democratizing_pyspark.html</guid>
       <description>&lt;p&gt;This talk, by Ben Weber of Zynga, talks about their experiences making their PySpark environment available to everyone in their analytics function. Democratizing PySpark in this way, while not easy, helped to improve their analytics function.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Friday morning keynotes: on PyTorch and COVID</title>
-      <link>/spark/2020/friday_morning_keynotes.html</link>
-      <pubDate>Fri, 26 Jun 2020 11:00:00 +0000</pubDate>
-      
-      <guid>/spark/2020/friday_morning_keynotes.html</guid>
-      <description>&lt;p&gt;The Friday morning keynotes included a talk about PyTorch by its author Adam Paszke, and &amp;ldquo;science vs. COVID&amp;rdquo; from Amy Heineike of Covid19Primer.com.&lt;/p&gt;</description>
     </item>
     
   </channel>
