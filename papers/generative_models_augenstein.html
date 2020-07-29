@@ -5,7 +5,7 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <title>
-    [Paper] Understanding and Visualizing Data Iteration in Machine Learning - Tushar Chandra
+    [Paper] Generative Models for Effective ML on Private, Decentralized Datasets - Tushar Chandra
     </title>
   <head>
   <meta charset="utf-8">
@@ -20,10 +20,10 @@
   <meta name="format-detection" content="telephone=no,email=no,adress=no">
   
   <meta name="theme-color" content="#000000" />
-  <meta http-equiv="window-target" content="_top" /><meta name="description" content="Machine learning is as much&amp;mdash;if not more&amp;mdash;about the data as it is the models. This paper explores data iteration, in contrast to model iteration, and studies ways that ML practitioners manage changing data.
+  <meta http-equiv="window-target" content="_top" /><meta name="description" content="How do you build and debug machine learning models when you don&amp;rsquo;t have access to the raw data? Maybe it&amp;rsquo;s sensitive information, or that it&amp;rsquo;s stored on user devices. This Google paper from ICLR 2020 proposes using generative models as a privacy-preserving stand-in for user data.
 " />
   <meta name="generator" content="Hugo 0.70.0" />
-  <title>[Paper] Understanding and Visualizing Data Iteration in Machine Learning - Tushar Chandra</title>
+  <title>[Paper] Generative Models for Effective ML on Private, Decentralized Datasets - Tushar Chandra</title>
 
   
   
@@ -32,23 +32,23 @@
   <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
 
-  <meta property="og:title" content="[Paper] Understanding and Visualizing Data Iteration in Machine Learning" />
-<meta property="og:description" content="Machine learning is as much&mdash;if not more&mdash;about the data as it is the models. This paper explores data iteration, in contrast to model iteration, and studies ways that ML practitioners manage changing data." />
+  <meta property="og:title" content="[Paper] Generative Models for Effective ML on Private, Decentralized Datasets" />
+<meta property="og:description" content="How do you build and debug machine learning models when you don&rsquo;t have access to the raw data? Maybe it&rsquo;s sensitive information, or that it&rsquo;s stored on user devices. This Google paper from ICLR 2020 proposes using generative models as a privacy-preserving stand-in for user data." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/papers/understanding_data_iteration_ml_hohman.html" />
-<meta property="article:published_time" content="2020-05-08T00:00:00+00:00" />
-<meta property="article:modified_time" content="2020-05-08T00:00:00+00:00" />
-<meta itemprop="name" content="[Paper] Understanding and Visualizing Data Iteration in Machine Learning">
-<meta itemprop="description" content="Machine learning is as much&mdash;if not more&mdash;about the data as it is the models. This paper explores data iteration, in contrast to model iteration, and studies ways that ML practitioners manage changing data.">
-<meta itemprop="datePublished" content="2020-05-08T00:00:00&#43;00:00" />
-<meta itemprop="dateModified" content="2020-05-08T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="1039">
+<meta property="og:url" content="/papers/generative_models_augenstein.html" />
+<meta property="article:published_time" content="2020-07-29T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-07-29T00:00:00+00:00" />
+<meta itemprop="name" content="[Paper] Generative Models for Effective ML on Private, Decentralized Datasets">
+<meta itemprop="description" content="How do you build and debug machine learning models when you don&rsquo;t have access to the raw data? Maybe it&rsquo;s sensitive information, or that it&rsquo;s stored on user devices. This Google paper from ICLR 2020 proposes using generative models as a privacy-preserving stand-in for user data.">
+<meta itemprop="datePublished" content="2020-07-29T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2020-07-29T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="1153">
 
 
 
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="[Paper] Understanding and Visualizing Data Iteration in Machine Learning"/>
-<meta name="twitter:description" content="Machine learning is as much&mdash;if not more&mdash;about the data as it is the models. This paper explores data iteration, in contrast to model iteration, and studies ways that ML practitioners manage changing data."/>
+<meta name="twitter:title" content="[Paper] Generative Models for Effective ML on Private, Decentralized Datasets"/>
+<meta name="twitter:description" content="How do you build and debug machine learning models when you don&rsquo;t have access to the raw data? Maybe it&rsquo;s sensitive information, or that it&rsquo;s stored on user devices. This Google paper from ICLR 2020 proposes using generative models as a privacy-preserving stand-in for user data."/>
 </head>
 </head>
 
@@ -127,55 +127,105 @@
   <article id="-" class="" itemscope itemtype="http://schema.org/BlogPosting">
     <div class="pt-4">
       <span class="font-semibold text-3xl"><h1 itemprop="name">
-  <a class="" href="/papers/understanding_data_iteration_ml_hohman.html">[Paper] Understanding and Visualizing Data Iteration in Machine Learning</a>
+  <a class="" href="/papers/generative_models_augenstein.html">[Paper] Generative Models for Effective ML on Private, Decentralized Datasets</a>
 </h1>
       </span>
       <div class="pb-4"><i class="fas fa-calendar-check text-gray-500 pr-1"></i>
-<time datetime="2020-05-08 00:00:00 &#43;0000 UTC" class="text-sm text-gray-600"
-  itemprop="datePublished">2020-05-08</time>
+<time datetime="2020-07-29 00:00:00 &#43;0000 UTC" class="text-sm text-gray-600"
+  itemprop="datePublished">2020-07-29</time>
 <span class="text-sm text-gray-600" itemprop="wordCount">
-	<i class="fas fa-pencil-alt text-gray-500 pl-4 pr-2"></i>1039 words
+	<i class="fas fa-pencil-alt text-gray-500 pl-4 pr-2"></i>1153 words
 </span><i class="fas fa-folder-open text-gray-500 pl-4 pr-1"></i>
 <a class="text-sm text-gray-600" href=" /categories/papers.html"> papers, </a>
-<a class="text-sm text-gray-600" href=" /categories/chi2020.html"> chi2020, </a>
 <span class="article-category text-sm text-gray-600 pl-4">
   <i class="fa fa-users "></i>
-  Fred Hohman, Kanit Wongsuphasawat, Mary Beth Kery, Kayur Patel
+  Sean Augenstein, Brendan McMahan, Daniel Ramage, Swaroop Ramaswamy, Peter Kairouz, Mingqing Chen, Rajiv Mathews, Blaise Aguera-Arcas
 </span>
       </div>
     </div>
     <div class="rich-text" itemprop="articleBody">
-      <p>Machine learning is as much&mdash;if not more&mdash;about the data as it is the models. This paper explores <em>data</em> iteration, in contrast to model iteration, and studies ways that ML practitioners manage changing data.</p>
-<p><strong>Authors</strong>: Fred Hohman, Kanit Wongsuphasawat, Mary Beth Kery, Kayur Patel</p>
-<p><strong>Link</strong>: <a href="https://dl.acm.org/doi/abs/10.1145/3313831.3376177">ACM Digital Library</a></p>
+      <p>How do you build and debug machine learning models when you don&rsquo;t have access to the raw data? Maybe it&rsquo;s sensitive information, or that it&rsquo;s stored on user devices. This Google paper from ICLR 2020 proposes using <em>generative models</em> as a privacy-preserving stand-in for user data.</p>
+<p><strong>Authors</strong>: Sean Augenstein, Brendan McMahan, Daniel Ramage, Swaroop Ramaswamy, Peter Kairouz, Mingqing Chen, Rajiv Mathews, Blaise Aguera-Arcas (Google)</p>
+<p><strong>Link</strong>: on <a href="https://research.google/pubs/pub48690/">Google Research</a> or <a href="https://arxiv.org/pdf/1911.06679.pdf">arXiv</a></p>
+<p>Why this paper? I&rsquo;m starting a weekly reading club with my friend <a href="https://judahgnewman.com/">Judah Newman</a>, and this was the first one that we picked.</p>
 <h2 id="background">Background</h2>
-<p>Machine learning is all about iteration&mdash;you never get good results the first time around, and if you do then you&rsquo;ve probably made a mistake. Typical ML workflows will include <em>model iteration</em>, where one enhances their model (by adding features, changing the model type, tuning hyperparameters, etc.) in order to improve performance at some task. This paper studies <em>data iteration</em>, which focuses on improving the <em>dataset</em> itself. From the abstract (emphasis mine):</p>
+<p>When building and debugging machine learning models, it&rsquo;s common to manually inspect raw data. Just today, I looked at raw data in order to:</p>
+<ul>
+<li>see what one batch of data looked like</li>
+<li>figure out how to reshape a batch of data as part of a preprocessing step</li>
+<li>try to figure out why another preprocessing step failed on a particular batch</li>
+<li>try said preprocessing step on a different batch, then compare the two batches</li>
+</ul>
+<p>and probably a half dozen other things that I don&rsquo;t remember. Table 1 from the paper summarizes these kinds of tasks:</p>
+<table>
+<thead>
+<tr>
+<th>Task</th>
+<th>What data do you inspect?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Sanity checking data</td>
+<td>Random training data</td>
+</tr>
+<tr>
+<td>Debugging mistakes</td>
+<td>Misclassified examples</td>
+</tr>
+<tr>
+<td>Debugging unknown labels/classes (out-of-vocab words)</td>
+<td>Examples of unknown classes</td>
+</tr>
+<tr>
+<td>Debugging poor performance on certain classes/slices/users</td>
+<td>Examples from the low-accuracy classes</td>
+</tr>
+<tr>
+<td>Human labeling examples</td>
+<td>Unlabeled examples from training set</td>
+</tr>
+<tr>
+<td>Detecting bias in training data</td>
+<td>Examples with high density at training but low density at serving</td>
+</tr>
+</tbody>
+</table>
+<p>These are basically &ldquo;sanity checking and model debugging&rdquo; (the first four), data labeling (#5), and detecting bias (#6).</p>
+<p>Manual data inspection isn&rsquo;t (or perhaps shouldn&rsquo;t be) always possible, though:</p>
 <blockquote>
-<p>Our interviews with 23 ML practitioners reveal that they improve model performance frequently by <strong>iterating on their data (e.g., collecting new data, adding labels) rather than their models.</strong> We also identify common types of data iterations and associated analysis tasks and challenges.</p>
+<p>However, manual data inspection is risky for privacy-sensitive datasets, such as those representing the behavior of real-world individuals. Furthermore, manual data inspection is impossible in the increasingly important setting of federated learning, where raw examples are stored at the edge and the practitioner may only access aggregated outputs such as metrics or model parameters.</p>
 </blockquote>
-<p>Sounds promising&mdash;I can think of a scenario at work literally this week where this happened, where we needed more (better) data to actually tackle our question of interest. I also think this is undervalued in typical machine learning conversation, where things like Kaggle give the data to you and instead focus on model iteration. The authors call out how this is a property of the &ldquo;real world&rdquo;:</p>
-<blockquote>
-<p>The classic ML colloquialism, “garbage in, garbage out,” evokes this essential fact that data needs to have the appropriate signal for a model be useful. In real world applications, rarely do teams start out with a dataset that is a high-quality match to their specific ML project goals. Thus data iteration is vital to the success of production ML projects.</p>
-</blockquote>
-<p>Some of these concerns are unique to machine learning systems. There&rsquo;s the principle that &ldquo;changing anything changes everything,&rdquo; where any change in any part of an ML system (more or less data, different processing, model tweaks, different metrics, etc.) can drastically impact the overall results. This is different from many software systems where you can make small changes and be reasonably confident that they&rsquo;ll only affect a small part of the system.</p>
-<blockquote>
-<p>These unique challenges also impact software development for machine learning [29]. A recent study of ML industry professionals found that “discovering, managing, and versioning the data needed for machine learning applications is much more complex and difficult than other types of software engineering”</p>
-</blockquote>
-<p>For a great paper on the challenges with ML systems, see Google&rsquo;s <a href="https://research.google/pubs/pub43146/">Machine Learning: The High Interest Credit Card of Technical Debt</a>. In this work, the authors focus on data iteration.</p>
-<h2 id="user-interviews">User interviews</h2>
-<p>The authors interviewed 30 ML practitioners&mdash;8 in computer vision, 8 in natural language processing, 5 in applied ML, and one in sensors. One question was &ldquo;why do data iteration?&quot;, with numerous answers: starting with a small amount of data can help bootstrap modeling by letting you conduct quick feasibility studies and iron our the details of the problem. Data improves performance, obviously, as one researcher wrote: &ldquo;Most of the time, we improve performance more by adding additional data or cleaning data rather than changing the model.&rdquo; And data changes over time&mdash;the NLP researchers pointed out how language evolves over time, so keeping up with data is important.</p>
-<p><strong>How do practitioners iterate on data?</strong> A lot of different ways: adding sampled instances (representative of a population), add specific instances (for a specific label or feature), add synthetic instances (notably in computer vision), adding labels, removing noisy data, and modifying features or labels.</p>
-<p><strong>What were data iteration challenges?</strong> The main one was tracking experiment history, which I <em>definitely</em> understand. It&rsquo;s one thing to track different versions of models&mdash;a commit hash + metrics is usually sufficient, with a ton of caveats. But tracking different versions of <em>data</em> is another beast entirely. Practioners described training the same models on old &amp; new data with constant test sets and coming up with ways to recognize data drift.</p>
-<p>Freezing and unfreezing data versions was also a problem; users reported fixing data to tune model architectures, but eventually you have to unfreeze it and hope that your models work on the live data. Another concern was when to stop collecting data, and so were analyzing failure modes and buliding &ldquo;blacklists&rdquo; of bad data.</p>
-<h2 id="chameleon-visualization-for-evolving-data">Chameleon: visualization for evolving data</h2>
-<p>The authors prototyped a visualization tool for exploring data that changes over time. A &ldquo;data timeline view&rdquo; shows the data versions, a sidebar shows the version summaries and instance predictions, and a feature view visualizes performance histograms.</p>
-<p>I didn&rsquo;t spend very much time on this part of the paper because (1) I&rsquo;m generally skeptical of new visualization tools, and (2) showing is better than telling; reading about a visualization system is boring.</p>
-<p>The authors did do case studies with the tool: one on sensor prediction and another on learning from log data. These were fairly complex case studies with changing data and difficult requirements, which is nice to see.</p>
-<h2 id="reflections-and-opportunities">Reflections and opportunities</h2>
-<p>I love seeing user studies and interviews in HCI. I could go on for hours about how my tools help and limit me, what kinds of things I do repeatedly, what I think about different parts of my workflow, and more. There&rsquo;s there&rsquo;s a <em>ton</em> of value in getting deep, qualitative feedback from users that reflects their experiences.</p>
-<p>The authors mention an opportunity for a tool that jointly manages data iteration and model iteration. I agree; this (to my knowledge) is a hole that is usually solved by two separate solutions. Being able to organize and manage messy, changing data is a huge problem that teams that I&rsquo;ve worked on face.</p>
-<p>Another suggestion is for visualizing probabilistic labels; a recent trend in ML is creating probabilistic label generation instead of doing (often extensive) data labeling. Being able to visualize that is an open problem.</p>
-<p><strong>Closing thoughts</strong>: this was a good paper. It wasn&rsquo;t one of my favorites, but not every paper will be. There&rsquo;s a lot of value in reading papers that aren&rsquo;t directly related to what I&rsquo;m interested in, so I&rsquo;m still glad I&rsquo;ve read it. I&rsquo;m also working on spending less time on these summaries when I&rsquo;m not reading the paper in depth, and I accomplished that today.</p>
+<p>This paper presents a research agenda to address this problem. &ldquo;We demonstrate that generative models&mdash;trained using federated methods and with formal differential privacy guarantees&mdash;can be used to effectively debug data issues even when the data cannot be directly inspected.&rdquo;</p>
+<p>Sounds &hellip; too good to be true? My immediate skepticism is that the results from this paper are only useful in an academic setting, and not an industry one. Let&rsquo;s dig in.</p>
+<h2 id="approach">Approach</h2>
+<p>&ldquo;How can a modeler effectively debug when training data is privacy sensitive or decentralized?&rdquo; the authors write. How, indeed?</p>
+<p>The idea, simply put, is that:</p>
+<ul>
+<li>you find yourself in a situation where you would be looking at raw data</li>
+<li>you express the &ldquo;criteria&rdquo; for what data you want as a data selection procedure</li>
+<li>the procedure gets passed to one of these &ldquo;privacy-preserving generative models&rdquo;</li>
+<li>that model gives you data &ldquo;like&rdquo; the data you actually want, without actually revealing it.</li>
+</ul>
+<p><strong>Why generative models?</strong> Well, if you don&rsquo;t <em>have</em> to use real user data, then perhaps synthetic data that&rsquo;s &ldquo;close enough&rdquo; will work. The generative models here are based on neural nets (&ldquo;deep generative models&rdquo;).</p>
+<p><strong>Why federated learning?</strong> (Or why decentralized data?) The generative models are trained on edge devices (e.g., user phones), so that raw user data never leaves them. Model updates, not data, are sent to a central server, which trains a global model.</p>
+<p><strong>Why differential privacy?</strong> Because deep generative models (and other ML models) can memorize training examples and leak personal information. This paper uses user-level DP, which is &ldquo;per-user update clipping and post-aggregation Gaussian noising.&rdquo; So, uh, clip extreme values and add noise?</p>
+<h2 id="application-1-debugging-an-rnn">Application 1: debugging an RNN</h2>
+<p>Consider an Android keyboard app that uses a word-RNN to offer next-word predictions. The app takes raw text, tokenizes and normalizes it, then passes these words as input to the RNN. The RNN has a fixed vocabulary, and any other words are marked as out-of-vocabulary. Training happens on-device via federated learning.</p>
+<p>Suppose there&rsquo;s a bug in tokenization that causes a spike in out-of-vocabulary rates. You&rsquo;d feasibly notice the spike, but you can&rsquo;t inspect the data (it is local to the user device).</p>
+<p>They simulate this with a dataset of StackOverflow questions and answers (where all posts by author X are treated as a user), then artificially introduce a tokenization bug. What do you do?</p>
+<p>You build an auxiliary model, apparently, which is a character-level RNN trained only on out-of-vocabulary words. Because RNNs are generative models, you can draw samples from them to help debug the tokenization issue.</p>
+<p>That sounds like a pretty specific use case: a natural language model, using RNNs, with edge learning. I can&rsquo;t decide whether the example is contrived or natural, which is weird.</p>
+<h2 id="application-2-debugging-gans-during-inference">Application 2: debugging GANs during inference</h2>
+<p>GANs (generative adversarial networks) consist of a generator and a discriminator that are trained together. The generator tries to create content (images) that the discriminator can&rsquo;t tell from real content; the discriminator tries to tell them apart.</p>
+<p>&ldquo;We can take the GAN training framework and adapt it to FL and DP,&rdquo; they claim. The generator&rsquo;s training does not require user data, so it can be trained like normal on a central server. The generator&rsquo;s loss is a function of the discriminator, too, so if the <em>discriminator</em> is trained with differential privacy, then the generator will be as well.</p>
+<p>The experiment here was to &ldquo;monitor an on-device handwriting classification network being used for inference.&rdquo; Consider a banking app that lets users take pictures of checks to deposit. The images are processed on-device with a pre-trained CNN.</p>
+<p>Suppose that a bug is introduced in preprocessing; a metric about how often users correct the algorithm&rsquo;s output spikes, indicating that there is <em>a</em> problem but not what it is. The data cannot be inspected because it&rsquo;s sensitive (images of checks).</p>
+<p>The solution here is to train two (DP, federated) GANs: one on a subpopulation of users for whom the model performs well, and one on whom it performs poorly. Because the generators are private, inspecting the generated images on both populations would reveal the bug that it was learning.</p>
+<h2 id="closing-thoughts">Closing thoughts</h2>
+<p>I like this a lot! The approach really doesn&rsquo;t seem that out there&mdash;use generative models as a stand-in for user data, and pick your generative models in a clever way so that they&rsquo;re useful.</p>
+<p>I think it would be really interesting to try to train a machine learning model from start to finish without being able to inspect the data. Building a model might be easy enough, but you&rsquo;d have to worry about things like target leakage, performance in production, and who knows what else.</p>
+<p>Differential privacy is becoming more important at my company, and reading this paper gives me a lot of ideas. Suppose we were modeling TV viewing by our TV panelists (we&rsquo;re not, but suppose &hellip;). To preserve their privacy, we might try generating synthetic panelists and modeling how they would view, instead of the real panelists.</p>
       <p><i class="fas fa-square font-green-800"></i></p>
     </div>
     <div class="font-semibold text-green-800 pt-4">
@@ -186,14 +236,9 @@
     <div class="bar-inner">
         <ul class="pager pull-left">
             <li class="prev">
-                <a href="/papers/how_to_trick_ai_volkel.html" title="[Paper] How to Trick AI: Users&#39; Strategies for Protecting Themselves from Automatic Personality Assessment"><i
+                <a href="/what_i_read/20200725.html" title="What I read this week (July 19 - 25)"><i
                         class="icon icon-angle-left"
                         aria-hidden="true"></i><span>&nbsp;&nbsp;</span></a>
-            </li>
-            <li class="next">
-                <a href="/papers/computational_notebooks_chattopadhyay.html"
-                    title="[Paper] What&#39;s Wrong with Computational Notebooks? Pain Points, Needs, and Design Opportunities"><span>&nbsp;&nbsp;</span><i
-                        class="icon icon-angle-right" aria-hidden="true"></i></a>
             </li>
         </ul>
     </div>

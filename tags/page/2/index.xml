@@ -11,6 +11,15 @@
     
     
     <item>
+      <title>Democratizing PySpark For Mobile Game Publishing</title>
+      <link>/spark/2020/democratizing_pyspark.html</link>
+      <pubDate>Fri, 26 Jun 2020 12:00:00 +0000</pubDate>
+      
+      <guid>/spark/2020/democratizing_pyspark.html</guid>
+      <description>&lt;p&gt;This talk, by Ben Weber of Zynga, talks about their experiences making their PySpark environment available to everyone in their analytics function. Democratizing PySpark in this way, while not easy, helped to improve their analytics function.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Friday morning keynotes: on PyTorch and COVID</title>
       <link>/spark/2020/friday_morning_keynotes.html</link>
       <pubDate>Fri, 26 Jun 2020 11:00:00 +0000</pubDate>
@@ -179,15 +188,6 @@
       
       <guid>/papers/fragile_masculinity_online_harassment_rubin.html</guid>
       <description>&lt;p&gt;What motivates gendered harassment online? This paper surveys young, white, heterosexual men to reveal how anxieties about masculinity can explain endorsement of harassment towards women. Put otherwise, the online world copies the imbalances and power dynamics of the offline one.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] How Well Do People Report Time Spent on Facebook?: An Evaluation of Established Survey Questions with Recommendations</title>
-      <link>/papers/facebook_self_reported_survey_ernala.html</link>
-      <pubDate>Sun, 14 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/papers/facebook_self_reported_survey_ernala.html</guid>
-      <description>&lt;p&gt;How reliable are self-reported measures of social media use? Lots of studies rely on them, but it&amp;rsquo;s well-known that self-reported behaviors can be noisy. This paper studies how noisy by comparing the results from 10 self-reported questions with actual usage data from Facebook server logs.&lt;/p&gt;</description>
     </item>
     
   </channel>

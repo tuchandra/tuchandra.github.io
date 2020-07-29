@@ -639,6 +639,10 @@ video {
   border-radius: 9999px;
 }
 
+.border {
+  border-width: 1px;
+}
+
 .block {
   display: block;
 }
@@ -1129,6 +1133,12 @@ table td {
 .rich-text pre code {
   font-size: 0.875rem;
   padding: 0;
+}
+
+.rich-text hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #888;
 }
 
 @media (min-width: 640px) {
