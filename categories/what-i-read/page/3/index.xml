@@ -6,10 +6,19 @@
     <description>Recent content in what I read on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 25 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 01 Aug 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/categories/what-i-read/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Paper] Fragile Masculinity: Men, Gender, and Online Harassment</title>
+      <link>/papers/fragile_masculinity_online_harassment_rubin.html</link>
+      <pubDate>Mon, 15 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/fragile_masculinity_online_harassment_rubin.html</guid>
+      <description>&lt;p&gt;What motivates gendered harassment online? This paper surveys young, white, heterosexual men to reveal how anxieties about masculinity can explain endorsement of harassment towards women. Put otherwise, the online world copies the imbalances and power dynamics of the offline one.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>[Paper] How Well Do People Report Time Spent on Facebook?: An Evaluation of Established Survey Questions with Recommendations</title>
@@ -180,15 +189,6 @@
       
       <guid>/papers/how_to_trick_ai_volkel.html</guid>
       <description>&lt;p&gt;Suppose you were talking to a chatbot who was trying to infer your personality. To what extent would you be able to fake a personality and trick the bot? That&amp;rsquo;s the central question in this paper by Völkel et al., which gets at deep questions about the transparency of and ethics behind computing systems.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] Emergent Self-Regulation Practices in Technology and Social Media Use of Individuals Living with Depression</title>
-      <link>/papers/self_regulation_in_depression_eschler.html</link>
-      <pubDate>Mon, 04 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/papers/self_regulation_in_depression_eschler.html</guid>
-      <description>&lt;p&gt;How do people with depression use technology at a personal level? The answer &amp;ldquo;they all use it differently&amp;rdquo; may or may not be surprising, depending on your perspective, but in my experience this is often assumed to be the case. Eschler et al. take on this question by interviewing people about the roles technology plays in their lives and opportunities to use it in a healthy way.&lt;/p&gt;</description>
     </item>
     
   </channel>

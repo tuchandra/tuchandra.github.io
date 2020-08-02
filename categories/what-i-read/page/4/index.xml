@@ -6,10 +6,19 @@
     <description>Recent content in what I read on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 25 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 01 Aug 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/categories/what-i-read/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Paper] Emergent Self-Regulation Practices in Technology and Social Media Use of Individuals Living with Depression</title>
+      <link>/papers/self_regulation_in_depression_eschler.html</link>
+      <pubDate>Mon, 04 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/self_regulation_in_depression_eschler.html</guid>
+      <description>&lt;p&gt;How do people with depression use technology at a personal level? The answer &amp;ldquo;they all use it differently&amp;rdquo; may or may not be surprising, depending on your perspective, but in my experience this is often assumed to be the case. Eschler et al. take on this question by interviewing people about the roles technology plays in their lives and opportunities to use it in a healthy way.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>[Paper] Re-Shape: A Method to Teach Data Ethics for Data Science Education</title>
@@ -180,15 +189,6 @@
       
       <guid>/what_i_read/20200411.html</guid>
       <description>&lt;p&gt;In which I read up on location tracking for stopping the spread of coronavirus. I also wrote a longer-form piece on one proposal, &lt;a href=&#34;/papers/decentralized_proximity_tracing.html&#34;&gt;Decentralized Privacy-Preserving Proximity Tracing&lt;/a&gt;.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Productivity and what motivates me</title>
-      <link>/posts/remote_work_productivity.html</link>
-      <pubDate>Thu, 09 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/remote_work_productivity.html</guid>
-      <description>&lt;p&gt;It took a month of remote work for me to fully abandon the expectation that I should be as productive as usual during this time. This post reflects on why.&lt;/p&gt;</description>
     </item>
     
   </channel>
