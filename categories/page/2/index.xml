@@ -6,10 +6,19 @@
     <description>Recent content in Categories on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 01 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 02 Aug 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Generalized SEIR Model On Large Networks</title>
+      <link>/spark/2020/generalized_seir_models.html</link>
+      <pubDate>Fri, 26 Jun 2020 13:00:00 +0000</pubDate>
+      
+      <guid>/spark/2020/generalized_seir_models.html</guid>
+      <description>&lt;p&gt;SEIR models for epidemiology break down a population into four partitions: susceptible, exposed, infected, and recovered. This talk gives an overview of how &lt;a href=&#34;https://github.com/ryansmcgee/seirsplus&#34;&gt;seirsplus&lt;/a&gt; can be used with MLflow and hyperopt to run simulations and experiments of possible COVID-19 scenarios.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Automated Testing For Protecting Data Pipelines from Undocumented Assumptions</title>
@@ -180,15 +189,6 @@
       
       <guid>/books/network_propaganda_3.html</guid>
       <description>&lt;p&gt;Part 3 of the book &lt;em&gt;Network Propaganda&lt;/em&gt; is titled &amp;ldquo;The Usual Suspects,&amp;rdquo; and its focus is on the propaganda culprits who received sustained public attention. Chapter 7 focuses on the alt-right; chapter 8 Russian information operations; and chapter 9 Facebook and Cambridge Analytica.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Spark Summit 2020: an early look at the schedule</title>
-      <link>/posts/spark_2020_schedule.html</link>
-      <pubDate>Tue, 16 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/spark_2020_schedule.html</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://databricks.com/sparkaisummit/north-america-2020&#34;&gt;Spark + AI Summit&lt;/a&gt; is happening virtually next week, and I will be spending the second half of next week watching talks from there. I went through the &lt;a href=&#34;https://databricks.com/sparkaisummit/north-america-2020/agenda&#34;&gt;schedule&lt;/a&gt; to make a preliminary list of the talks that sound interesting to me. And just like &lt;a href=&#34;/spark/spark_overview.html&#34;&gt;last year&lt;/a&gt;, I&amp;rsquo;ll be writing about them here.&lt;/p&gt;</description>
     </item>
     
   </channel>
