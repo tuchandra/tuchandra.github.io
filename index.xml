@@ -6,10 +6,19 @@
     <description>Recent content on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 02 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 04 Aug 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Paper] An Experimental Study of Structural Diversity in Social Networks</title>
+      <link>/papers/experimental_study_structural_diversity_su.html</link>
+      <pubDate>Tue, 04 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/experimental_study_structural_diversity_su.html</guid>
+      <description>&lt;p&gt;In a social network, structural diversity is a measure of how (dis)similar one&amp;rsquo;s social connections are. It&amp;rsquo;s positively correlated with engagement, but the mechanism behind this is unknown. This work experimentally alters structural diversity for new Twitter users, studying whether or not it affects user retention.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>[Paper] Local Trends in Global Music Streaming</title>
@@ -180,15 +189,6 @@
       
       <guid>/spark/2020/census_differential_privacy.html</guid>
       <description>&lt;p&gt;As the 2020 Census is happening, the US Census Bureau has developed a new system to use differential privacy to protect people&amp;rsquo;s personal data. This talk describes what motivated this system (being able to reconstruct personal data in 2010&amp;mdash;oh no!) and how they created a differential privacy algorithm to help them out.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Scoring At Scale: Generating Follow Recommendations For Over 690 Million LinkedIn Members</title>
-      <link>/spark/2020/follow_recommendations_linkedin.html</link>
-      <pubDate>Fri, 26 Jun 2020 13:30:00 +0000</pubDate>
-      
-      <guid>/spark/2020/follow_recommendations_linkedin.html</guid>
-      <description>&lt;p&gt;How does LinkedIn generate follow recommendations for hundreds of millions of users and entities? Anything involving large shuffles is a non-starter; this talk describes how they developed a custom hash-partitioned join algorithm to handle such large data.&lt;/p&gt;</description>
     </item>
     
   </channel>
