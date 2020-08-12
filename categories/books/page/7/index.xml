@@ -12,15 +12,6 @@
     
     
     <item>
-      <title>[Paper] Norms Matter: Contrasting Social Support Around Behavior Change in Online Weight Loss Communities</title>
-      <link>/papers/contrasting_social_support_chancellor.html</link>
-      <pubDate>Tue, 28 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/papers/contrasting_social_support_chancellor.html</guid>
-      <description>&lt;p&gt;My last of Dr. Chancellor&amp;rsquo;s papers for now. This paper studies the discourse within two online health communities for weight loss, /r/loseit and (the now banned) /r/proED. The authors discuss how different communities provide support differently and discuss design implications.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
       <title>[Paper] Multimodal Classification of Moderated Online Pro-Eating Disorder Content</title>
       <link>/papers/classification_pro_ed_chancellor.html</link>
       <pubDate>Sun, 26 Jan 2020 00:00:00 +0000</pubDate>
@@ -190,6 +181,15 @@
       
       <guid>/posts/imagenet_bias_wired.html</guid>
       <description>&lt;p&gt;This post is a reflection on two articles, &lt;a href=&#34;https://www.wired.com/story/viral-app-labels-you-isnt-what-you-think/&#34;&gt;The viral app that labels you isn&amp;rsquo;t quite what you think&lt;/a&gt; and &lt;a href=&#34;https://www.wired.com/story/ai-biased-how-scientists-trying-fix/&#34;&gt;AI is biased. Here&amp;rsquo;s how scientists are trying to fix it&lt;/a&gt;, both from Wired.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>What I read this week (December 15 - 21)</title>
+      <link>/what_i_read/20191221.html</link>
+      <pubDate>Sat, 21 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/what_i_read/20191221.html</guid>
+      <description>&lt;p&gt;Summaries of articles and blog posts that I&amp;rsquo;ve read this week, including articles on NeurIPS and many short posts.&lt;/p&gt;</description>
     </item>
     
   </channel>
