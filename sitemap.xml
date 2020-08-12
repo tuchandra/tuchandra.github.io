@@ -3,23 +3,43 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/what_i_read.html</loc>
-    <lastmod>2020-08-08T00:00:00+00:00</lastmod>
+    <loc>/papers.html</loc>
+    <lastmod>2020-08-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>/papers/understanding_dl_generalization_zhang.html</loc>
+    <lastmod>2020-08-12T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>/categories.html</loc>
-    <lastmod>2020-08-08T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-12T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/papers.html</loc>
+    <lastmod>2020-08-12T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/</loc>
-    <lastmod>2020-08-08T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-12T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/what_i_read.html</loc>
+    <lastmod>2020-08-08T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -37,20 +57,7 @@
   </url>
   
   <url>
-    <loc>/papers.html</loc>
-    <lastmod>2020-08-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/papers/experimental_study_structural_diversity_su.html</loc>
-    <lastmod>2020-08-04T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/papers.html</loc>
     <lastmod>2020-08-04T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
