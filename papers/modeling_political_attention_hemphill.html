@@ -5,7 +5,7 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <title>
-    [Paper] Bayesian Multilevel Estimation with Poststratification: State-Level Estimates from National Polls - Tushar Chandra
+    [Paper] Two Computational Models for Analyzing Political Attention in Social Media - Tushar Chandra
     </title>
   <head>
   <meta charset="utf-8">
@@ -20,10 +20,10 @@
   <meta name="format-detection" content="telephone=no,email=no,adress=no">
   
   <meta name="theme-color" content="#000000" />
-  <meta http-equiv="window-target" content="_top" /><meta name="description" content="This is a summary of the seminal paper by David K. Park, Andrew Gelman, and Joseph Bafumi. View the original on Gelman&amp;rsquo;s website.
+  <meta http-equiv="window-target" content="_top" /><meta name="description" content="What are members of Congress tweeting about, and how can we use machine learning to infer this? In this ICWSM 2020 paper, the researchers try out both supervised and unsupervised learning on all the tweets from members of the 115th Congress (Jan. 2017 - Jan. 2019).
 " />
   <meta name="generator" content="Hugo 0.70.0" />
-  <title>[Paper] Bayesian Multilevel Estimation with Poststratification: State-Level Estimates from National Polls - Tushar Chandra</title>
+  <title>[Paper] Two Computational Models for Analyzing Political Attention in Social Media - Tushar Chandra</title>
 
   
   
@@ -32,23 +32,23 @@
   <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
 
-  <meta property="og:title" content="[Paper] Bayesian Multilevel Estimation with Poststratification: State-Level Estimates from National Polls" />
-<meta property="og:description" content="This is a summary of the seminal paper by David K. Park, Andrew Gelman, and Joseph Bafumi. View the original on Gelman&rsquo;s website." />
+  <meta property="og:title" content="[Paper] Two Computational Models for Analyzing Political Attention in Social Media" />
+<meta property="og:description" content="What are members of Congress tweeting about, and how can we use machine learning to infer this? In this ICWSM 2020 paper, the researchers try out both supervised and unsupervised learning on all the tweets from members of the 115th Congress (Jan. 2017 - Jan. 2019)." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/papers/bayesian_multilevel_estimation_gelman.html" />
-<meta property="article:published_time" content="2019-11-26T00:00:00+00:00" />
-<meta property="article:modified_time" content="2019-11-26T00:00:00+00:00" />
-<meta itemprop="name" content="[Paper] Bayesian Multilevel Estimation with Poststratification: State-Level Estimates from National Polls">
-<meta itemprop="description" content="This is a summary of the seminal paper by David K. Park, Andrew Gelman, and Joseph Bafumi. View the original on Gelman&rsquo;s website.">
-<meta itemprop="datePublished" content="2019-11-26T00:00:00&#43;00:00" />
-<meta itemprop="dateModified" content="2019-11-26T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="856">
+<meta property="og:url" content="/papers/modeling_political_attention_hemphill.html" />
+<meta property="article:published_time" content="2020-08-13T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-08-13T00:00:00+00:00" />
+<meta itemprop="name" content="[Paper] Two Computational Models for Analyzing Political Attention in Social Media">
+<meta itemprop="description" content="What are members of Congress tweeting about, and how can we use machine learning to infer this? In this ICWSM 2020 paper, the researchers try out both supervised and unsupervised learning on all the tweets from members of the 115th Congress (Jan. 2017 - Jan. 2019).">
+<meta itemprop="datePublished" content="2020-08-13T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2020-08-13T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="989">
 
 
 
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="[Paper] Bayesian Multilevel Estimation with Poststratification: State-Level Estimates from National Polls"/>
-<meta name="twitter:description" content="This is a summary of the seminal paper by David K. Park, Andrew Gelman, and Joseph Bafumi. View the original on Gelman&rsquo;s website."/>
+<meta name="twitter:title" content="[Paper] Two Computational Models for Analyzing Political Attention in Social Media"/>
+<meta name="twitter:description" content="What are members of Congress tweeting about, and how can we use machine learning to infer this? In this ICWSM 2020 paper, the researchers try out both supervised and unsupervised learning on all the tweets from members of the 115th Congress (Jan. 2017 - Jan. 2019)."/>
 </head>
 </head>
 
@@ -127,49 +127,75 @@
   <article id="-" class="" itemscope itemtype="http://schema.org/BlogPosting">
     <div class="pt-4">
       <span class="font-semibold text-3xl"><h1 itemprop="name">
-  <a class="" href="/papers/bayesian_multilevel_estimation_gelman.html">[Paper] Bayesian Multilevel Estimation with Poststratification: State-Level Estimates from National Polls</a>
+  <a class="" href="/papers/modeling_political_attention_hemphill.html">[Paper] Two Computational Models for Analyzing Political Attention in Social Media</a>
 </h1>
       </span>
       <div class="pb-4"><i class="fas fa-calendar-check text-gray-500 pr-1"></i>
-<time datetime="2019-11-26 00:00:00 &#43;0000 UTC" class="text-sm text-gray-600"
-  itemprop="datePublished">2019-11-26</time>
+<time datetime="2020-08-13 00:00:00 &#43;0000 UTC" class="text-sm text-gray-600"
+  itemprop="datePublished">2020-08-13</time>
 <span class="text-sm text-gray-600" itemprop="wordCount">
-	<i class="fas fa-pencil-alt text-gray-500 pl-4 pr-2"></i>856 words
+	<i class="fas fa-pencil-alt text-gray-500 pl-4 pr-2"></i>989 words
 </span><i class="fas fa-folder-open text-gray-500 pl-4 pr-1"></i>
 <a class="text-sm text-gray-600" href=" /categories/papers.html"> papers, </a>
 <span class="article-category text-sm text-gray-600 pl-4">
   <i class="fa fa-users "></i>
-  David K. Park, Andrew Gelman, Joseph Bafumi
+  Libby Hemphill, Angela M. Schöpke-Gonzalez
 </span>
       </div>
     </div>
     <div class="rich-text" itemprop="articleBody">
-      <p>This is a summary of the seminal paper by David K. Park, Andrew Gelman, and Joseph Bafumi. View the original on <a href="http://www.stat.columbia.edu/~gelman/research/published/parkgelmanbafumi.pdf">Gelman&rsquo;s website</a>.</p>
-<p><strong>How I found this paper</strong>: I&rsquo;m working on a Bayesian inference project at work, and Gelman&rsquo;s name of course appears repeatedly. I&rsquo;ve seen this paper linked as a great one to read, so here we are.</p>
-<h2 id="summary">Summary</h2>
-<p><strong>From the abstract:</strong> &ldquo;We fit a multilevel logistic regression model for the mean of a binary response variable conditional on poststratification cells &hellip; we apply it to US preelection polls for 1988 and 1992, poststratified by state, region, and the usual demographic variables &hellip; the multilevel model outperforms more commonly used models in political science.&rdquo; In other words, they fit a multilevel (also called hierarchical) model for voting behavior.</p>
-<p>Why fit a multilevel model? The authors are interested in estimating opinions at the state level, but have primarily national data. They&rsquo;re also interested in estimating opinions based on different demographics (sex, ethnicity, age, education). Even though most surveys won&rsquo;t have data in most categories, multilevel models are capable of sharing information across groups. It&rsquo;s also appropriate because &ldquo;the data have a hierarchical demographic and geographic structure.&rdquo;</p>
-<p>They model the probability that an individual is a supporter of the Republican candidate from 0 (indicating they support the Democrat) to 1, excluding undecideds and things like third parties.</p>
-<pre><code>logit p(y = 1)
-    = β_0
-	+ β_female * female[i] + β_black * black[i]
-	+ β_female,black * female[i] * black[i]
-	+ β_age[age[i]] + β_edu[edu[i]] + β_age,edu[age[i], edu[i]]
-</code></pre><p>(I need to set up this blog to handle LaTeX &hellip;) In this equation, <code>female[i]</code> and <code>black[i]</code> are indicator variables, and the <code>β_age</code> and <code>β_edu</code> are additive factors based on age and education.</p>
-<p>They then set up a state-level model:</p>
-<pre><code>β_state[j] ~ N(β_region[region[j]] + β_previous * previous[j], σ_state^2)
-</code></pre><p>where <code>previous[j]</code> is the Republican vote share in the previous three elections.</p>
-<p>The model can be extended to handle &ldquo;leaners&rdquo; or undecided voters by using an ordered probit to handle a scale of intermediate opinions. It can account for turnout and third-party candidates by building one model for whether or not people are registered / expected to vote; another model <em>on those people</em> for those expected to vote for either of the two major-party candidates; and a third model on <em>those</em> major-party-voters for which major-party candidate they will vote for.</p>
-<p><strong>Data</strong>: from a CBS/NYT national poll. The poll had no data from Alaska or Hawaii, but by virtue of constructing a multilevel model we can still make estimates for those states based off demographic information! They fit the model in WinBUGS (is it available anywhere?), then inspected the fitted coefficients.</p>
-<p><img src="bayesian_multilevel_estimation_gelman_img1.png" alt="Estimates and 50% and 95% intervals"></p>
-<p>Demographic variables besides ethnicity don&rsquo;t seem to have a large effect. Another figure (not shown here) shows how, despite having no data for Alaska, we still recover a reasonably precise estimate. When looking at <code>previous</code> (the proportion of Republican vote in previous elections), &ldquo;region and previous vote give good, but not perfect, predictions of state-level coefficients.&rdquo;</p>
-<p><strong>State-level estimates</strong>: now that we have a fitted model, we can use those to simulate the probability that a person prefers the Republican candidate, given their {sex, ethnicity, age, education, and state}. They do this, then compare to actual election results, and results (not shown here) seem fairly reasonable.</p>
-<p><strong>The takeaway:</strong> multilevel modeling is super powerful! On the surface, one might expect polling data to be pretty simple&ndash;it&rsquo;s an estimate of how likely one candidate is to win, right? But the authors are able to extract quite a bit of information from a single poll, including info that wasn&rsquo;t actually present (Alaska). The poststratification allowed the authors to correct for nonresponse bias and weight their estimates by demographics by state.</p>
-<h2 id="thoughts-connections-and-questions">Thoughts, connections, and questions</h2>
-<p>I&rsquo;ve been studying this for just a few months now, and I&rsquo;m continually in awe of how elegant Bayesian methods are. The image above has so much information in it&ndash;which variables matter, how certain we are about them, what the interactions between them are. Doing this in the frequentist paradigm would be a nightmare of statistical tests; with MCMC we get them all at once.</p>
-<p>Likewise, simulating the probability that any particular person will prefer the Republican candidate is almost trivial&ndash;draw values from the posterior, plug them into the model, and out comes a result. Repeat until you have an uncertainty estimate that you&rsquo;re satisfied with.</p>
-<p>I think the part of this that I&rsquo;m least comfortable with is the posterior diagnoses and checks. Once I have an MCMC trace, there are some obvious things to do&ndash;convergence checks, verify that learned distributions are vaguely reasonable, look for things that I expect to be present (differentiation between groups, etc.), and draw from the posterior and study those predictions. This is where everything gets fuzzier, though; the authors here were lucky to have actual election data to benchmark with, but our problems aren&rsquo;t always that nice.</p>
-<p>Finally, it feels good to have gotten through one of (what I have heard to be) the foundational papers in Bayesian inference &amp; statistical modeling. I would love to see (or myself do) an implementation of this if the data is available.</p>
+      <p>What are members of Congress tweeting about, and how can we use machine learning to infer this? In this ICWSM 2020 paper, the researchers try out both supervised and unsupervised learning on all the tweets from members of the 115th Congress (Jan. 2017 - Jan. 2019).</p>
+<p><strong>Authors</strong>: Libby Hemphill, Angela M. Schöpke-Gonzalez (from University of Michigan)</p>
+<p><strong>Link</strong>: <a href="https://aaai.org/ojs/index.php/ICWSM/article/view/7297">ICWSM Proceedings</a> (open access), <a href="https://www.youtube.com/watch?v=mFF6B9T9bYo&amp;list=PLfNOQlmqSceVLXrBkjxLzBb2wfalJ4iJu&amp;index=94">prerecorded talk</a></p>
+<h2 id="summary-and-contributions">Summary and contributions</h2>
+<p>Knowing what politicians are talking about helps to create an informed constituency. As more politicians use social media, knowing what politicians are talking about <em>on social media</em> is still helpful, and can now (as this paper shows) be automated.</p>
+<p>This work contributes two models for labeling topics in political social media content, one supervised and one supervised. They also discuss the costs and benefits of these approaches (and tradeoffs between them). And their code is <a href="https://github.com/casmlab/modeling-political-attention">open source</a>!</p>
+<p><strong>Why Twitter?</strong> Existing work on political attention focuses on political speeches. But Twitter is being used more and more by politicians. And while <a href="/posts/is_twitter_real_life.html">it might not be representative</a> of how the average American votes or thinks, it&rsquo;s used by political elites (including the media!) to shape coverage and discourse.</p>
+<p><strong>Why automation?</strong> Two reasons:</p>
+<ul>
+<li>manual labeling is not efficient given how much members of Congress tweet</li>
+<li>topics change over time, and an unsupervised approach might fill in the gaps left by pre-defined codebooks</li>
+</ul>
+<h2 id="datasets">Datasets</h2>
+<p>Using the Twitter search API, the authors collected all tweets from official members of the 115th Congress (from January 2017 - January 2019). This was a dataset of 1.5M original tweets from 524 accounts.</p>
+<p><strong>Preprocessing</strong>: these steps were&mdash;</p>
+<ul>
+<li>stemming: not done, because the (mis)spelling of tweets is often semantically meaningful</li>
+<li>stop-words: removed in both English and Spanish. Words were tokenized with NLTK&rsquo;s <code>tweetTokenizer</code>.</li>
+<li>tokenization: they stuck with unigrams, finding them more interpretable than bigrams and unigrams+bigrams.</li>
+</ul>
+<p>In NLP terms, &ldquo;documents&rdquo; were individual tweets (rather than, e.g., all the tweets by someone in a day). This makes sense in the Twitter context; members of Congress will tweet about multiple unrelated topics per day.</p>
+<p>When reading about NLP work, it seems like so much of the work is dependent on your preprocessing choices. I&rsquo;m glad that the authors explained it in so much detail (and releasing the code is even better!), but it&rsquo;s surprising to me that nearly a page was devoted to preprocessing.</p>
+<h2 id="models">Models</h2>
+<p>Both the supervised and unsupervised models label the probability that a tweet is about a particular topic (which are given in the supervised case, but inferred in the unsupervised ase).</p>
+<p><strong>The supervised classifier</strong> is trained on tweets from Russell&rsquo;s <a href="https://journals.sagepub.com/doi/10.1177/1532673X17715619">past</a> / <a href="https://www.degruyter.com/view/journals/for/16/2/article-p331.xml">analyses</a> of Senators on Twitter. The labels are from the Comparative Agenda Project&rsquo;s codebook.</p>
+<p>They trained four models, using a 90/10 train/test split for each. These models were:</p>
+<ol>
+<li>a random guessing, baseline model</li>
+<li>a naive Bayes model</li>
+<li>a logistic regression</li>
+<li>an SVM</li>
+</ol>
+<p><strong>The unsupervised topic model</strong>: they used the <a href="http://mallet.cs.umass.edu/topics.php">MALLET LDA model</a>, where LDA stands for Latent Dirichlet Allocation. They found that using 50 topics (searching between 5 and 70) produced &ldquo;the most interpretable, relevant, and distinct results.&rdquo;</p>
+<p>Along the way, they tried <a href="https://radimrehurek.com/gensim/models/wrappers/ldamallet.html">LDA in Gensim</a> (finding it too hard to interpret) and <a href="https://github.com/cemoody/lda2vec">Moody&rsquo;s lda2vec</a> (finding it took too long).</p>
+<p><strong>Evaluation</strong>: their primary evaluation for the supervised model was through an F1 score. The logistic regression achieved a score of 0.79, and other models performed worse.</p>
+<p>Their evaluation for the unsupervised model is more interesting. They had two experts manually label topics then resolve disagreements. Quantitatively, they used the NPMI topic coherence measure (what?) to assess these.</p>
+<p>Perhaps the biggest benefit of the unsupervised model is the ability to label non-policy tweets (which are out of scope for the CAP codebook). These topics include sports, holidays, sympathy, emergency response, or constituent relations.</p>
+<h2 id="research-applications">Research applications</h2>
+<p>I&rsquo;m taking this slide the authors&rsquo; talk because it&rsquo;s excellent:</p>
+<figure>
+    <img src="modeling_political_attention_hemphill_img1.png"/> 
+</figure>
+
+<p>One of the reasons I like ICWSM is because its submissions are often more practical than at other conferences. This slide is a great example.</p>
+<p>The whole question about &ldquo;how could this be used&rdquo; is interesting because the timescale for how this could be use is so immediate. It doesn&rsquo;t sound like that much more work to deploy this in the wild, but that could be useful in the leadup to the election in November!</p>
+<h2 id="other-thoughts">Other thoughts</h2>
+<p>To me, this paper is a good example of how so much research is an example of asking (and properly framing) the right <em>question</em>. &ldquo;Hey, can we use topic modeling on tweets by members of Congress?&rdquo; sounds like such a simple question, and none of the models they use are anything special.</p>
+<p>Still, though, the combination of the question and results are clearly interesting enough to be published. (This isn&rsquo;t a criticism of the paper&mdash;I just think the interesting parts are the questions, applications, and implications for future design, not the methods or results.)</p>
+<p>On that note, I wish the authors had discussed more real-world implications for how this might be used. Would it be feasible for Twitter to label politicians&rsquo; tweets based on models like this? Would it be possible to create a search engine for members&rsquo; of Congress tweets about healthcare, social justice, or immigration?</p>
+<p>Less importantly, I wish the authors had validated their unsupervised learning approach against some other kind of baseline. I&rsquo;ve had issues running and tuning LDA in the past, and I would have liked to see its utility compared to, say, a tweet clustering algorithm, or some kind of simple keyword matching.</p>
+<p>(Smaller questions: I wonder how these results apply to other countries. I wonder how these results apply to the current US Congress. I wonder how the ways in which Senators use Twitter changes during their 6 year tenure, i.e., closer or further from re-election.)</p>
+<p>The &ldquo;politicians on social media&rdquo; space is interesting, though, and I think there&rsquo;s more work to be done here. Perhaps most importantly, this kind of paper makes me feel like I could do this research, too.</p>
       <p><i class="fas fa-square font-green-800"></i></p>
     </div>
     <div class="font-semibold text-green-800 pt-4">
@@ -180,14 +206,9 @@
     <div class="bar-inner">
         <ul class="pager pull-left">
             <li class="prev">
-                <a href="/papers/ethical_tensions_social_media_chancellor_2.html" title="[Paper] A Taxonomy of Ethical Tensions in Inferring Mental Health States from Social Media (part 2/2)"><i
+                <a href="/papers/understanding_dl_generalization_zhang.html" title="[Paper] Understanding deep learning requires rethinking generalization"><i
                         class="icon icon-angle-left"
                         aria-hidden="true"></i><span>&nbsp;&nbsp;</span></a>
-            </li>
-            <li class="next">
-                <a href="/posts/why_papers.html"
-                    title="Why all the paper summaries?"><span>&nbsp;&nbsp;</span><i
-                        class="icon icon-angle-right" aria-hidden="true"></i></a>
             </li>
         </ul>
     </div>
