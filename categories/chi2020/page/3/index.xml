@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Portable Scalable Data Visualization Techniques for Apache Spark and Python Notebook-based Analytics</title>
+      <link>/spark/2020/portable_scalable_data_viz.html</link>
+      <pubDate>Wed, 24 Jun 2020 13:00:00 +0000</pubDate>
+      
+      <guid>/spark/2020/portable_scalable_data_viz.html</guid>
+      <description>&lt;p&gt;This talk, by Douglas Moore at Databricks, briefly discussed strategies for data visualization using Spark and different visualization libraries.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Notes from the Wednesday morning Spark keynotes</title>
       <link>/spark/2020/wednesday_morning_keynotes.html</link>
       <pubDate>Wed, 24 Jun 2020 12:00:00 +0000</pubDate>
@@ -180,15 +189,6 @@
       
       <guid>/what_i_read/20200516.html</guid>
       <description>&lt;p&gt;I took last week off as I focused on full papers from CHI, but this week&amp;rsquo;s edition of &lt;a href=&#34;http://www.pointer.io/&#34;&gt;Pointer&lt;/a&gt; had several articles that caught my eye.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] How Visualizing Inferential Uncertainty Can Mislead Readers About Treatment Effects in Scientific Results</title>
-      <link>/papers/visualizing_inferential_uncertainty_mislead_hofman.html</link>
-      <pubDate>Tue, 12 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/papers/visualizing_inferential_uncertainty_mislead_hofman.html</guid>
-      <description>&lt;p&gt;When visualizing the uncertainty around treatment effects, one can choose (among others) to visualize the standard error (uncertainty in the mean) or the standard deviations (uncertainty in the observations). Modulo sample size, the two contain the same information, but this paper demonstrates how people regularly associate the former with larger effects than the latter.&lt;/p&gt;</description>
     </item>
     
   </channel>
