@@ -6,10 +6,19 @@
     <description>Recent content in Categories on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 17 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Paper] Data Everyday: Data Literacy Practices in a Division I Sports Context</title>
+      <link>/papers/data_literacy_sports_clegg.html</link>
+      <pubDate>Sun, 26 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/data_literacy_sports_clegg.html</guid>
+      <description>&lt;p&gt;CHI 2020 was supposed to be happening right now, but it was regrettably &lt;a href=&#34;https://chi2020.acm.org/&#34;&gt;cancelled&lt;/a&gt; due to coronavirus. All of the papers were put into the ACM Digital Library as scheduled, though, so I started looking at them. This paper studies data literacy among student-athletes at the University of Maryland.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>My newest project: a Pokemon Mystery Dungeon password tool</title>
@@ -180,15 +189,6 @@
       
       <guid>/what_i_read/20200321.html</guid>
       <description>&lt;p&gt;It&amp;rsquo;s back to usual this week, as I try to create a healthy work-life balance while working from home indefinitely. This week&amp;rsquo;s articles focus on impacts of coronavirus and distributed / remote work.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Network Propaganda, part 2</title>
-      <link>/books/network_propaganda_2.html</link>
-      <pubDate>Wed, 18 Mar 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/books/network_propaganda_2.html</guid>
-      <description>&lt;p&gt;Part 2 of the book &lt;em&gt;Network Propaganda&lt;/em&gt; studies its dynamics: the section goes into detail about how immigration came to be the central issue of the Trump presidency, but not in the way that the Republican Party expected, followed by a chapter focusing on Fox News and one on the failure modes of the mainstream media.&lt;/p&gt;</description>
     </item>
     
   </channel>

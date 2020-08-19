@@ -11,6 +11,15 @@
     
     
     <item>
+      <title>Network Propaganda, part 2</title>
+      <link>/books/network_propaganda_2.html</link>
+      <pubDate>Wed, 18 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/books/network_propaganda_2.html</guid>
+      <description>&lt;p&gt;Part 2 of the book &lt;em&gt;Network Propaganda&lt;/em&gt; studies its dynamics: the section goes into detail about how immigration came to be the central issue of the Trump presidency, but not in the way that the Republican Party expected, followed by a chapter focusing on Fox News and one on the failure modes of the mainstream media.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>[Paper] Interpreting Interpretability: Understanding Data Scientists&#39; Use of Interpretability Tools for Machine Learning</title>
       <link>/papers/interpreting_interpretability_kaur.html</link>
       <pubDate>Tue, 17 Mar 2020 00:00:00 +0000</pubDate>
@@ -179,15 +188,6 @@
       
       <guid>/papers/facebook_advertising_field_study_gordon.html</guid>
       <description>&lt;p&gt;In what is probably my last digital advertising paper for now, I read a paper out of Kellogg + Facebook studying the causal effects of digital advertising. This is the nail in the coffin of my belief that digital advertising is overhyped and overvalued, and that they do far less than anyone appears to believe.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>A disaster in Iowa</title>
-      <link>/posts/iowa_caucus_disaster.html</link>
-      <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/iowa_caucus_disaster.html</guid>
-      <description>&lt;p&gt;Like many on Monday, I left work eagerly awaiting the results of the Iowa caucuses happening one state west of me. I got home, cooked dinner, and opened up the &lt;a href=&#34;https://fivethirtyeight.com/live-blog/iowa-caucus-2020-election-live/&#34;&gt;FiveThirtyEight live blog&lt;/a&gt; to start following election results. A couple of hours passed, and it became increasingly clear that something had gone very, very wrong.&lt;/p&gt;</description>
     </item>
     
   </channel>

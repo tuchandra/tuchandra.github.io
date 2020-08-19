@@ -6,10 +6,19 @@
     <description>Recent content on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 17 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Paper] What is AI Literacy? Competencies and Design Considerations</title>
+      <link>/papers/what_is_ai_literacy_long.html</link>
+      <pubDate>Wed, 19 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/what_is_ai_literacy_long.html</guid>
+      <description>&lt;p&gt;What does it mean to be AI literate? This work, which received a Best Paper Honorable Mention at CHI 2020, first defines &lt;em&gt;AI literacy&lt;/em&gt; in terms of its core competencies, then discusses considerations for the design of AI systems.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Personal news: I got promoted!</title>
@@ -180,15 +189,6 @@
       
       <guid>/what_i_read/20200704.html</guid>
       <description>&lt;p&gt;This week&amp;rsquo;s reading was all over the place: a talk on Docker and Python for data science, authorial intent in code, the book &lt;em&gt;Clean Code&lt;/em&gt;, and an essay on NPM.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>CompuServe and Prodigy: a story about the early internet</title>
-      <link>/books/twenty_six_words_2.html</link>
-      <pubDate>Fri, 03 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/books/twenty_six_words_2.html</guid>
-      <description>&lt;p&gt;This is my second post on &lt;a href=&#34;https://www.jeffkosseff.com/home&#34;&gt;The Twenty-Six Words That Created The Internet&lt;/a&gt;, by Jeff Kosseff. Chapter 2 tells the story of two online service providers, CompuServe and Prodigy, and how litigation against them with opposite outcomes set the scene for the passing of Section 230.&lt;/p&gt;</description>
     </item>
     
   </channel>

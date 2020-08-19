@@ -6,10 +6,19 @@
     <description>Recent content in chi2020 on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 15 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/categories/chi2020/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Wednesday afternoon keynotes: racism, COVID, and politics</title>
+      <link>/spark/2020/wednesday_afternoon_keynotes.html</link>
+      <pubDate>Wed, 24 Jun 2020 16:00:00 +0000</pubDate>
+      
+      <guid>/spark/2020/wednesday_afternoon_keynotes.html</guid>
+      <description>&lt;p&gt;The afternoon keynotes were on racism in policing, data in COVID-19, and lessons from FiveThirtyEight. Dr. Phillip Goff delivered an incredible talk on what we need to invest in to support Black communities, and Nate Silver went on with what it means to think probabilistically and work together in crisis. Amazing!&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>How (not) to scale deep learning in 6 easy steps</title>
@@ -180,15 +189,6 @@
       
       <guid>/what_i_read/20200523.html</guid>
       <description>&lt;p&gt;I spent most of my free time this week working on my island in Animal Crossing and the rescue project; but this week&amp;rsquo;s articles include an article from FB Engineering about rebuilding their main site, an article about distractions, and a host of shorter articles.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] Taking Data Out of Context to Hyper-Personalize Ads: Crowdworkers&#39; Privacy Perceptions and Decisions to Disclose Private Information</title>
-      <link>/papers/taking_data_out_of_context_ur.html</link>
-      <pubDate>Fri, 22 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/papers/taking_data_out_of_context_ur.html</guid>
-      <description></description>
     </item>
     
   </channel>

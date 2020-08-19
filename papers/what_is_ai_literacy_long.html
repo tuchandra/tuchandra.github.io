@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <title>
+    [Paper] What is AI Literacy? Competencies and Design Considerations - Tushar Chandra
+    </title>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="Cache-Control" content="no-transform" />
+  <meta http-equiv="Cache-Control" content="no-siteapp" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="format-detection" content="telephone=no,email=no,adress=no">
+  
+  <meta name="theme-color" content="#000000" />
+  <meta http-equiv="window-target" content="_top" /><meta name="description" content="What does it mean to be AI literate? This work, which received a Best Paper Honorable Mention at CHI 2020, first defines AI literacy in terms of its core competencies, then discusses considerations for the design of AI systems.
+" />
+  <meta name="generator" content="Hugo 0.70.0" />
+  <title>[Paper] What is AI Literacy? Competencies and Design Considerations - Tushar Chandra</title>
+
+  
+  
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
+
+  <meta property="og:title" content="[Paper] What is AI Literacy? Competencies and Design Considerations" />
+<meta property="og:description" content="What does it mean to be AI literate? This work, which received a Best Paper Honorable Mention at CHI 2020, first defines AI literacy in terms of its core competencies, then discusses considerations for the design of AI systems." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/papers/what_is_ai_literacy_long.html" />
+<meta property="article:published_time" content="2020-08-19T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-08-19T00:00:00+00:00" />
+<meta itemprop="name" content="[Paper] What is AI Literacy? Competencies and Design Considerations">
+<meta itemprop="description" content="What does it mean to be AI literate? This work, which received a Best Paper Honorable Mention at CHI 2020, first defines AI literacy in terms of its core competencies, then discusses considerations for the design of AI systems.">
+<meta itemprop="datePublished" content="2020-08-19T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2020-08-19T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="1722">
+
+
+
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="[Paper] What is AI Literacy? Competencies and Design Considerations"/>
+<meta name="twitter:description" content="What does it mean to be AI literate? This work, which received a Best Paper Honorable Mention at CHI 2020, first defines AI literacy in terms of its core competencies, then discusses considerations for the design of AI systems."/>
+</head>
+</head>
+
+
+
+<body class="h-screen flex flex-col justify-between" itemscope itemtype="http://schema.org/WebPage"><header class="w-screen bg-green-500" itemscope itemtype="http://schema.org/WPHeader">
+  <div class="flex max-w-8xl container mx-auto">
+    <div class="hidden sm:inline flex items-center">
+      <a href="/">
+        <img class="rounded-full m-1 md:m-4" src="/headshot.jpg" width="100" height="100">
+      </a>
+    </div>
+    <div class="w-full px-4 flex flex-col lg:flex-row justify-between lg:items-center my-4">
+      <div class="xl:flex-grow">
+        <a href="/">
+          <span class="text-lg sm:text-2xl md:text-3xl font-semibold">Tushar Chandra</span>
+          <span class="hidden pl-4 lg:inline"><br></span>
+          <span class="text-sm md:text-xl font-thin pl-4 md:pl-0 lg:text-xl">Data Scientist / Chicago, IL
+          </span>
+        </a>
+      </div>
+      <nav class="" itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation">
+        <ul class="flex lg:justify-between">
+          <li class="flex-grow-0 inline pr-1 md:pr-2 xl:px-4">
+            <p class="text-center">
+              <a href="/about">
+                <i class="fas text-green-800 pl-1 md:px-1 text-sm md:text-xl lg:text-2xl fa-mug-hot"></i>
+                <span class="font-thin text-sm md:text-lg lg:text-2xl">About</span>
+              </a>
+            </p>
+          </li>
+          <li class="flex-grow-0 inline pr-1 md:pr-2 xl:px-4">
+            <p class="text-center">
+              <a href="/resume">
+                <i class="fas text-green-800 pl-1 md:px-1 text-sm md:text-xl lg:text-2xl fa-file"></i>
+                <span class="font-thin text-sm md:text-lg lg:text-2xl">Resume</span>
+              </a>
+            </p>
+          </li>
+          <li class="flex-grow-0 inline pr-1 md:pr-2 xl:px-4">
+            <p class="text-center">
+              <a href="/reading">
+                <i class="fas text-green-800 pl-1 md:px-1 text-sm md:text-xl lg:text-2xl fa-book-open"></i>
+                <span class="font-thin text-sm md:text-lg lg:text-2xl">Reading</span>
+              </a>
+            </p>
+          </li>
+          <li class="flex-grow-0 inline pr-1 md:pr-2 xl:px-4">
+            <p class="text-center">
+              <a href="/categories.html">
+                <i class="fas text-green-800 pl-1 md:px-1 text-sm md:text-xl lg:text-2xl fa-folder-open"></i>
+                <span class="font-thin text-sm md:text-lg lg:text-2xl">Categories</span>
+              </a>
+            </p>
+          </li>
+          <li class="flex-grow-0 inline pr-1 md:pr-2 xl:px-4">
+            <p class="text-center">
+              <a href="/posts.html">
+                <i class="fas text-green-800 pl-1 md:px-1 text-sm md:text-xl lg:text-2xl fa-archive"></i>
+                <span class="font-thin text-sm md:text-lg lg:text-2xl">Archives</span>
+              </a>
+            </p>
+          </li>
+
+        </ul>
+
+      </nav>
+    </div>
+
+  </div>
+</header>
+  <div class="container mx-auto max-w-8xl px-4 flex flex-row flex-grow">
+    <div class="w-full md:w-3/4">
+      
+<main class="main" role="main"><div class="content container mx-auto max-w-6xl">
+  <article id="-" class="" itemscope itemtype="http://schema.org/BlogPosting">
+    <div class="pt-4">
+      <span class="font-semibold text-3xl"><h1 itemprop="name">
+  <a class="" href="/papers/what_is_ai_literacy_long.html">[Paper] What is AI Literacy? Competencies and Design Considerations</a>
+</h1>
+      </span>
+      <div class="pb-4"><i class="fas fa-calendar-check text-gray-500 pr-1"></i>
+<time datetime="2020-08-19 00:00:00 &#43;0000 UTC" class="text-sm text-gray-600"
+  itemprop="datePublished">2020-08-19</time>
+<span class="text-sm text-gray-600" itemprop="wordCount">
+	<i class="fas fa-pencil-alt text-gray-500 pl-4 pr-2"></i>1722 words
+</span><i class="fas fa-folder-open text-gray-500 pl-4 pr-1"></i>
+<a class="text-sm text-gray-600" href=" /categories/papers.html"> papers, </a>
+<a class="text-sm text-gray-600" href=" /categories/chi2020.html"> chi2020, </a>
+<span class="article-category text-sm text-gray-600 pl-4">
+  <i class="fa fa-users "></i>
+  Duri Long, Brian S Magerko
+</span>
+      </div>
+    </div>
+    <div class="rich-text" itemprop="articleBody">
+      <p>What does it mean to be AI literate? This work, which received a Best Paper Honorable Mention at CHI 2020, first defines <em>AI literacy</em> in terms of its core competencies, then discusses considerations for the design of AI systems.</p>
+<p><strong>Authors</strong>: Duri Long, Brian S Magerko (Georgia Tech)</p>
+<p><strong>Link</strong>: <a href="https://dl.acm.org/doi/abs/10.1145/3313831.3376727">ACM Digital Library</a>, <a href="https://static1.squarespace.com/static/53c69580e4b08011fc2337bf/t/5e2893e4a9d342214836e832/1579717605435/CHI+2020+AI+Literacy+Paper-Camera+Ready.pdf">PDF</a></p>
+<h2 id="my-definition-of-ai-literacy">My definition of AI literacy</h2>
+<p>This paper answers the question of what &ldquo;AI literacy&rdquo; actually means. One of its core contributions is a set of <em>competencies</em> that, together, make up AI literacy.</p>
+<p>Before I started reading, I thought about what I believe AI literacy to be. I came up with this:</p>
+<blockquote>
+<p>AI literacy is the ability to understand what AI systems are doing (to the extent that the system allows) and what the consequences of their use might be.</p>
+<p>This includes an understanding of how AI systems are making decisions (based on what data; according to what criteria; on what population) and an understanding of what impact its outputs have (how the outputs inform decisions; how accurate its outputs are; how its outputs affect different groups of people).</p>
+<p>Underlying this is an understanding of the types of problems AI systems attempt to solve (and which problems are and aren&rsquo;t appropriate for AI) and a data literacy (where different kinds of data come from; who data belongs to; how data is collected, processed, and shared).</p>
+</blockquote>
+<p>I don&rsquo;t claim that this is a good definition of AI literacy (I&rsquo;m sure the paper will do a much better job), but I think writing this down helped to ground my understanding.</p>
+<h2 id="background-and-motivation">Background and motivation</h2>
+<p>Why does AI literacy matter? Mostly because of misconceptions, the authors claim. People might not know they are even interacting with AI, creating misconceptions about what AI is and is not. &ldquo;These misconceptions can limit people&rsquo;s ability to effectively use, collaborate with, and act as critical consumers of AI,&rdquo; or cause improper regulatory action or public disappointment.</p>
+<p>There is a need, then, for additional research investigating:</p>
+<blockquote>
+<p>(a) what competencies users need in order to effectively interact with and critically evaluate AI, and</p>
+<p>(b) how to design leaner-centered AI technologies that foster increased user understanding of AI.</p>
+</blockquote>
+<p>Part (b) is driven by the fact that most research on AI education for non-technical learners is under a year old. But AI research has existed for decades, and general <em>education</em> research can inform this work as well. The authors draw on both in this paper.</p>
+<h2 id="the-papers-definition-of-ai-literacy">The paper&rsquo;s definition of AI literacy</h2>
+<p>The authors define AI literacy in terms of the competencies discussed later.</p>
+<blockquote>
+<p>We define <em>AI literacy</em> as <em>a set of competencies that enables individuals to critically evaluate AI technologies; communicate and collaborate effectively with AI; and use AI as a tool online, at home, and in the workplace.</em></p>
+</blockquote>
+<p>They develop a conceptual framework of five themes, or questions about AI:</p>
+<ol>
+<li>What is AI?</li>
+<li>What can AI do?</li>
+<li>How does AI work?</li>
+<li>How should AI be used?</li>
+<li>How do people perceive AI?</li>
+</ol>
+<p>They explore each of these themes and their associated competencies next.</p>
+<h3 id="1-what-is-ai">1: What is AI?</h3>
+<p>Defining AI can be confusing for experts, leave alone for people without technical backgrounds. One of the core competencies is simply being able to recognize AI, and others have to do with understanding its characteristics.</p>
+<blockquote>
+<p><strong>(1) Recognizing AI</strong>: distinguish between technological artifacts that do and do not use AI.</p>
+<p><strong>(2) Understanding Intelligence</strong>: critically analyze and discuss features that make an entity &ldquo;intelligent,&rdquo; including discussing differences between human, animal, and machine intelligence.</p>
+</blockquote>
+<p>I like that this calls out the differences between human and machine intelligence. I think the &ldquo;intelligence&rdquo; of AI is often thought of as similar to humans&rsquo;, but that&rsquo;s not true (just ask a deep learning researcher about how similar neural nets are to brains).</p>
+<blockquote>
+<p><strong>(3) Interdisciplinarity</strong>: recognize that there are many ways to think about and develop &ldquo;intelligent&rdquo; machines. Identify a variety of technologies that use AI, including technology spanning cognitive systems, robotics, and ML.</p>
+<p><strong>(4) General vs. Narrow</strong>: distinguish between general and narrow AI.</p>
+</blockquote>
+<h3 id="2-what-can-ai-do">2: What can AI do?</h3>
+<p>People&rsquo;s trust in AI is task-dependent. Understanding how well AI can complete different kinds of tasks can help people decide whether or not to trust AI. That gives us:</p>
+<blockquote>
+<p><strong>(5) AI&rsquo;s Strengths and Weaknesses</strong>: identify problem types that AI excels at and problems that are more challenging for AI. Use this information to determine when it is more appropriate to use AI and when to leverage human skills.</p>
+<p><strong>(6) Imagine Future AI</strong>: imagine possible future applications of AI and consider the effects of such applications on the world.</p>
+</blockquote>
+<p>Coming up with &ldquo;<em>design fictions</em>,&rdquo; which are fictional scenarios about what might exist in the future and how it might affect the world, can help to explore perceptions of AI, they write.</p>
+<h3 id="3-how-does-ai-work">3: How does AI work?</h3>
+<p>People often develop &ldquo;folk theories&rdquo; to explain AI algorithms, which (accurate or not) shape their experience. The authors studied cognitive systems, robotics, and machine learning to understand the concepts included in various AI education curricula.</p>
+<p>The competencies here relate to understanding &ldquo;representations&rdquo; (to a computer, what is an image?) and decision making.</p>
+<blockquote>
+<p><strong>(7) Representations</strong>: understand what a knowledge representation is and describe some examples of knowledge representations.</p>
+<p><strong>(8) Decision Making</strong>: recognize and describe examples of how computers reason and make decisions.</p>
+</blockquote>
+<p>There are more related to machine learning in particular. The authors studied misconceptions that students without a CS or statistics background have about machine learning: assuming humans think like computers, assuming that ML is fully automated, or not understanding the limits of ML.</p>
+<blockquote>
+<p><strong>(9) ML Steps</strong>: understand the steps involved in machine learning and the practices and challenges that each step entails.</p>
+<p><strong>(10) Human Role in AI</strong>: recognize that humans play an important role in programming, choosing models, and fine-tuning AI systems.</p>
+</blockquote>
+<p>Competency (10) reminds me of the idea that AI is not magic. It&rsquo;s still very, very messy, and humans (who themselves are flawed, operating under constraints, and yet likely doing the best they can) are involved at every step of the way.</p>
+<blockquote>
+<p><strong>(11) Data Literacy</strong>: understand basic data literacy concepts.</p>
+<p><strong>(12) Learning from Data</strong>: recognize that computers often learn from data (including one&rsquo;s own data).</p>
+</blockquote>
+<p>Another &ldquo;machine learning is not magic.&rdquo; It&rsquo;s often operating on the data that we produce ourselves for corporations.</p>
+<blockquote>
+<p><strong>(13) Critically Interpreting Data</strong>: understand that data cannot be taken at face-value and requires interpretation. Describe how the training examples provided in an initial dataset can affect the results of an algorithm.</p>
+</blockquote>
+<p>I love this one. An understanding of data itself is its own subject.</p>
+<p>From robotics, there were two more competencies:</p>
+<blockquote>
+<p><strong>(14) Action &amp; Reaction</strong>: understand that some AI systems have the ability to physically act on the world. This action can be directed by higher-level reasoning &hellip; or it can be reactive.</p>
+<p><strong>(15) Sensors</strong>: understand what sensors are, recognize that computers perceive the world using sensors, and identify sensors on a variety of devices. Recognize that different sensors support different types of representation and reasoning about the world.</p>
+</blockquote>
+<h3 id="5-how-should-ai-be-used">5: How should AI be used?</h3>
+<p>This section dives into AI ethics. They discuss all of the topics listed in the quote below, briefly stating some relevant ethical issues from each.</p>
+<blockquote>
+<p><strong>(16) Ethics</strong>: identify and describe different perspectives on the key ethical issues surrounding AI (i.e., privacy, employment, misinformation, the singularity, ethical decision making, diversity, bias, transparency, accountability)</p>
+</blockquote>
+<p>The inclusion of this competency suggests that you cannot be AI literate without an understanding of AI ethics. I like that.</p>
+<h2 id="how-do-people-perceive-ai">How do people perceive AI?</h2>
+<p>This section reviews &ldquo;how humans perceive and make sense of AI.&rdquo; Typically, humans understand agents through <em>theory of mind</em>, which attributes people&rsquo;s behavior to mental states (like beliefs or desires). But AIs don&rsquo;t reason like humans do, which can create misconceptions.</p>
+<p>Systems can be internally complex but appear simple (the <em>Tale-Spin effect</em>), or internally simple but appear complex (the <em>Eliza effect</em>). The associated design consideration are to <strong>promote transparency</strong></p>
+<p>There&rsquo;s also the <em>SimCity effect</em>, where systems gradually reveal how they work &ldquo;through play.&rdquo; Revealing a system all at once is likely to overwhelm a user. Instead, allowing users to inspect different parts of a system over time can help to develop their understanding. The design consideration here is to <strong>unveil gradually</strong>.</p>
+<p>Children, meanwhile, are developing their understanding of intelligence itself over time. They &ldquo;personify agents and then recognize that they are programmable,&rdquo; leading to one more competency (<strong>programmability</strong>) and design consideration (<strong>opportunities to program</strong>).</p>
+<h2 id="other-design-considerations">Other design considerations</h2>
+<p>The authors present more design considerations. The first several of these were informed by a discussion of how children are developing, and the last few by a study of how AI is perceived in popular media.</p>
+<ul>
+<li><strong>milestones</strong>: consider how developmental milestones and prior experience with technology affect perceptions of AI</li>
+<li><strong>critical thinking</strong>: encourage learners to question AIs&rsquo; intelligence and trustworthiness</li>
+<li><strong>identity, values, and backgrounds</strong>: consider how these affect one&rsquo;s interest in and preconceptions of AI.</li>
+<li><strong>support for parents</strong>: when designing for families, consider providing support to aid parents</li>
+<li><strong>social interaction</strong>: consider designing AI learning experiences that foster social interaction and collaboration</li>
+<li><strong>leverage learners&rsquo; interests</strong>: consider doing this when designing literacy interventions</li>
+<li><strong>acknowledge preconceptions</strong>: which may arise from popular media, and consider how to address and expand upon these.</li>
+<li><strong>new perspectives</strong>: consider introducing new perspectives that are less prevalent in popular media</li>
+<li><strong>low barrier to entry</strong>: consider how to communicate to learners <em>without</em> extensive background in math or CS.</li>
+</ul>
+<h2 id="closing-thoughts">Closing thoughts</h2>
+<p>Wow, this paper was dense but great. The lists of 19 competencies and 15 design considerations were tough to work through, especially because I felt the need to include most of them in this summary.</p>
+<p>I appreciate how comprehensive this work is (or appears to be&mdash;maybe there are blind spots that future research will reveal). Looking back to my own definition above, the authors included everything that I did, plus quite a bit more.</p>
+<p>Papers like this can be challenging to get through because there&rsquo;s so much information, and all of it matters. It&rsquo;s not like a traditional ML paper where you might be able to skip the related work, or skim the methods, or get everything out of a couple figures; this is equal parts a literature review and agenda-setting paper.</p>
+<p>But that&rsquo;s also what makes it valuable. I started skimming it towards the end, but this is one of those papers that I&rsquo;ll ideally be returning to down the road.</p>
+      <p><i class="fas fa-square font-green-800"></i></p>
+    </div>
+    <div class="font-semibold text-green-800 pt-4">
+      <a href="/"><i class="fas fa-arrow-left"></i> Return home</a>
+    </div>
+  </article>
+</div><nav class="bar bar-footer clearfix" data-stick-bottom>
+    <div class="bar-inner">
+        <ul class="pager pull-left">
+            <li class="prev">
+                <a href="/posts/promotion_senior.html" title="Personal news: I got promoted!"><i
+                        class="icon icon-angle-left"
+                        aria-hidden="true"></i><span>&nbsp;&nbsp;</span></a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+</main>
+    </div>
+    <div class="hidden w-0 md:block md:w-1/4 md:pt-8 md:pl-12"><aside class="" itemscope itemtype="http://schema.org/WPSideBar">
+  <div class="pb-8">
+    <h3 class="font-semibold text-xl">Categories</h3>
+    <ul class="">
+        <li class="">+ <a href="/categories/books.html" class="font-bold text-green-900">books
+            </a><span class="">12</span>
+        </li>
+        <li class="">+ <a href="/categories/chi2020.html" class="font-bold text-green-900">chi2020
+            </a><span class="">20</span>
+        </li>
+        <li class="">+ <a href="/categories/general.html" class="font-bold text-green-900">general
+            </a><span class="">35</span>
+        </li>
+        <li class="">+ <a href="/categories/news.html" class="font-bold text-green-900">news
+            </a><span class="">1</span>
+        </li>
+        <li class="">+ <a href="/categories/papers.html" class="font-bold text-green-900">papers
+            </a><span class="">55</span>
+        </li>
+        <li class="">+ <a href="/categories/projects.html" class="font-bold text-green-900">projects
+            </a><span class="">7</span>
+        </li>
+        <li class="">+ <a href="/categories/self.html" class="font-bold text-green-900">self
+            </a><span class="">3</span>
+        </li>
+        <li class="">+ <a href="/categories/spark.html" class="font-bold text-green-900">spark
+            </a><span class="">34</span>
+        </li>
+        <li class="">+ <a href="/categories/what-i-read.html" class="font-bold text-green-900">what-i-read
+            </a><span class="">36</span>
+        </li>
+    </ul>
+</div>
+<div class="pb-12">
+    <h3 class="font-semibold text-xl">Recent Posts</h3>
+    <ul class="recent-post-list list-unstyled no-thumbnail">
+        <li class="pb-4">
+            <p>
+                <a href="/papers/what_is_ai_literacy_long.html" class="font-bold text-green-900">[Paper] What is AI Literacy? Competencies and Design Considerations</a>
+                <time datetime="2020-08-19 00:00:00 &#43;0000 UTC" itemprop="datePublished" class="text-gray-600 text-sm">2020-08-19
+                </time>
+            </p>
+
+        </li>
+        <li class="pb-4">
+            <p>
+                <a href="/posts/promotion_senior.html" class="font-bold text-green-900">Personal news: I got promoted!</a>
+                <time datetime="2020-08-17 00:00:00 &#43;0000 UTC" itemprop="datePublished" class="text-gray-600 text-sm">2020-08-17
+                </time>
+            </p>
+
+        </li>
+        <li class="pb-4">
+            <p>
+                <a href="/books/weapons_math_destruction.html" class="font-bold text-green-900">My review of &#39;Weapons of Math Destruction&#39;</a>
+                <time datetime="2020-08-16 00:00:00 &#43;0000 UTC" itemprop="datePublished" class="text-gray-600 text-sm">2020-08-16
+                </time>
+            </p>
+
+        </li>
+        <li class="pb-4">
+            <p>
+                <a href="/what_i_read/20200815.html" class="font-bold text-green-900">What I read this week (August 9 - 15)</a>
+                <time datetime="2020-08-15 00:00:00 &#43;0000 UTC" itemprop="datePublished" class="text-gray-600 text-sm">2020-08-15
+                </time>
+            </p>
+
+        </li>
+        <li class="pb-4">
+            <p>
+                <a href="/papers/modeling_political_attention_hemphill.html" class="font-bold text-green-900">[Paper] Two Computational Models for Analyzing Political Attention in Social Media</a>
+                <time datetime="2020-08-13 00:00:00 &#43;0000 UTC" itemprop="datePublished" class="text-gray-600 text-sm">2020-08-13
+                </time>
+            </p>
+
+        </li>
+    </ul>
+</div>
+</aside><footer class="" itemscope itemtype="http://schema.org/WPFooter">
+  <div class="py-4 text-sm">
+    &copy; 2019 - 2020 Tushar Chandra
+    <p style="margin-bottom: 4px">All opinions are my own.</p>
+    <div class="publishby">Powered by Hugo with a custom theme.</div>
+  </div>
+  <ul class="">
+    <li class="inline text-xl pr-4">
+      <a href="https://github.com/tuchandra" target="_blank" title="github">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+    <li class="inline text-xl pr-4">
+      <a href="https://www.linkedin.com/in/tushar-chandra-76a623b6/" target="_blank" title="linkedin">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+    <li class="inline text-xl pr-4">
+      <a href="mailto:me@tusharc.dev" target="_blank" title="envelope">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+    <li class="inline text-xl pr-4">
+      <a href="/index.xml" target="_blank" title="rss">
+        <i class="fas fa-rss"></i>
+      </a>
+    </li>
+
+  </ul>
+</footer>
+    </div>
+  </div>
+  <div class="mx-auto w-screen px-4 bg-green-500 mt-4 md:py-8">
+    <div class="md:invisible md:hidden max-w-8xl"><footer class="" itemscope itemtype="http://schema.org/WPFooter">
+  <div class="py-4 text-sm">
+    &copy; 2019 - 2020 Tushar Chandra
+    <p style="margin-bottom: 4px">All opinions are my own.</p>
+    <div class="publishby">Powered by Hugo with a custom theme.</div>
+  </div>
+  <ul class="">
+    <li class="inline text-xl pr-4">
+      <a href="https://github.com/tuchandra" target="_blank" title="github">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+    <li class="inline text-xl pr-4">
+      <a href="https://www.linkedin.com/in/tushar-chandra-76a623b6/" target="_blank" title="linkedin">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+    <li class="inline text-xl pr-4">
+      <a href="mailto:me@tusharc.dev" target="_blank" title="envelope">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+    <li class="inline text-xl pr-4">
+      <a href="/index.xml" target="_blank" title="rss">
+        <i class="fas fa-rss"></i>
+      </a>
+    </li>
+
+  </ul>
+</footer>
+    </div>
+  </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_SVG"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+            showMathMenu: false, //disables context menu
+            tex2jax: {
+            inlineMath: [ ['$','$'], ['\\(','\\)'] ]
+           }
+    });
+</script>
+
+
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/highlight.min.js"></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/python.min.js"></script><script>
+    hljs.configure({
+        tabReplace: '    ', 
+        classPrefix: ''     
+        
+    })
+    hljs.initHighlightingOnLoad();
+</script>
+
+
+<script data-goatcounter="https://tusharc.goatcounter.com/count" async src="//gc.zgo.at/count.js">
+</script>
+</body>
+
+</html>
