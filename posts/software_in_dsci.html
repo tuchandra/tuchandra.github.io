@@ -170,6 +170,7 @@
 <p>Talking about writing better code and doing better engineering becomes exhausting if I don&rsquo;t have buy-in from everyone around me (but in the cases where I do, it&rsquo;s incredibly rewarding). It takes team-wide effort to start code reviews and write unit tests, leave alone adopt more basic practices like using Git and documenting dependencies. What can we do as individuals?</p>
 <p>One change I have had success with is adopting a software-first mindset. Forget notebooks; do experimentation in an IPython console. The fact that consoles are ephemeral will force you to factor out reused code into a library almost immediately. This can be checked into Git, letting you track changes, remove dead code, and collaborate with others.</p>
 <p>Writing a full unit test suite, while a noble goal, is a harder sell. Rather, I&rsquo;ve started adding <code>assert</code> statements into pipeline code to make sure things are behaving as I expect. I recognize that this is far from an ideal solution. But in my experience, this is an easy way for people to document their assumptions about what data should look like at different steps, and it has the bonus of halting execution if things go awry.</p>
+
       <p><i class="fas fa-square font-green-800"></i></p>
     </div>
     <div class="font-semibold text-green-800 pt-4">

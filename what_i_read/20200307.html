@@ -180,6 +180,7 @@
 <hr>
 <p><a href="https://bair.berkeley.edu/blog/2020/03/05/compress/">Speeding Up Transformer Training and Inference by Increasing Model Size</a> by Eric Wallace is a blog post from Berkeley AI Research. Wallace summarizes a new paper that suggests that, when training <em>Transformer</em> models, it may be better to <em>increase</em> model size but cut off training early. &ldquo;We rethink the implicit assumption that models must be trained until convergence by demonstrating the opportunity to increase model size while sacrificing convergence.&rdquo;</p>
 <p>This happens because large models converge to lower test error with fewer gradient updates. Empirically, training deeper or wider versions of RoBERTa shows lower perplexity and higher BLEU (?) given the same wall clock training time. I find this interesting because there is so much we don&rsquo;t know about neural networks: the topology of the training landscape is one of the major ones. I&rsquo;m excited to see where research goes in the future.</p>
+
       <p><i class="fas fa-square font-green-800"></i></p>
     </div>
     <div class="font-semibold text-green-800 pt-4">

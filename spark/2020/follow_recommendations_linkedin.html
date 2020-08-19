@@ -179,6 +179,7 @@
 <p>To do the join, they launch a mapper for each of (V x E) pair partitions, then load the entity partition into memory and the viewer partition into a stream reader. They go through each and merge the three features together, <em>score immediately</em>, and store it to HDFS. Because they score the merged record immediately, they can use a nonlinear model (they use XGBoost), too.</p>
 <p>This improved cost by 5x, reduced storage of intermediate outputs by 8x, and (due to the use of XGBoost) improved interest and engagement by 11% and 17% (I think&mdash;slide moved away).</p>
 <p><strong>Closing thoughts</strong>: this was another awesome talk! The slides were incredibly well-designed, and I considered including even more screenshots in this post. The speaker Emilie de Longueau was fantastic and explained this complex topic in an accessible way. The talk went into enough depth to be interesting, but not so much that it lost me.</p>
+
       <p><i class="fas fa-square font-green-800"></i></p>
     </div>
     <div class="font-semibold text-green-800 pt-4">

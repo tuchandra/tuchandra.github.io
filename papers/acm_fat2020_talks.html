@@ -172,6 +172,7 @@
 <p>Word embeddings are a widely used technique for mapping words to a vector of real numbers, and they encode the biases of the corpus on which they are trained. The authors trained word embeddings on biased datasets and demonstrated &ldquo;bias diffusion,&rdquo; in which existing biases are transferred to models that use these embeddings. They then demonstrate that existing &ldquo;bias mitigation&rdquo; efforts are insufficient; instead, they distort the geometry of the biased vectors, rather than removing it.</p>
 <p>This work, like many others, treats gender and sexuality as binaries (men/women, homosexual/heterosexual). Noting that they are multidimensional spectra, I think there&rsquo;s a huge gap in the machine learning literature about how handling gender &amp; sexuality features differently would affect downstream models.</p>
 <p>Another interesting question would be how different sets of word vectors affect model predictions; take different pretrained embeddings, from biased datasets and from datasets where there has been an effort to debias them (noting that no dataset is unbiased), train different models making use of these embeddings, and see how the models perform differently. The authors showed an interesting (and kind of funny) result that the use of gender-biased word embeddings was better at predicting sexism (in some canned dataset) than other embeddings.</p>
+
       <p><i class="fas fa-square font-green-800"></i></p>
     </div>
     <div class="font-semibold text-green-800 pt-4">

@@ -153,6 +153,7 @@
 <p>Their dataset of user profiles has entities E and attributes A; they partition their dataset based on one of the categorical attributes, which allows Spark to step in for parallelization. To partition efficiently, they use a KD Tree, which isn&rsquo;t <em>perfect</em> but is good enough, in theory.</p>
 <p>Within a partition, look at the similarity distances (defined differently for different kinds of features&mdash;string similarity for names, physical distance for locations, numerical distance for numbers, etc.). Based on this, they use MCMC to cluster &hellip; something. I&rsquo;m confused.</p>
 <p>They showed a demo, which looked cool. The approach still doesn&rsquo;t make sense to me. I guess that&rsquo;s how these go.</p>
+
       <p><i class="fas fa-square font-green-800"></i></p>
     </div>
     <div class="font-semibold text-green-800 pt-4">
