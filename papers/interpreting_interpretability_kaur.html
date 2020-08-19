@@ -148,7 +148,7 @@
       <p>I&rsquo;m hoping to get back into a routine of reading papers after a crazy couple of weeks; this is the first of hopefully many. This is a paper to appear at CHI 2020 (with an Honorable Mention!) about the use of interpretability tools in machine learning, and how (uh oh) data scientists tend to over-trust them.</p>
 <p><strong>Authors</strong>: Harmanpreet Kaur, Harsha Nori, Samuel Jenkins, Rich Caruana, Hanna Wallach, Jennifer Wortman Vaughan</p>
 <p><strong>Link</strong>: on Kaur&rsquo;s <a href="http://www-personal.umich.edu/~harmank/Papers/CHI2020_Interpretability.pdf">website</a> (to appear in CHI 2020)</p>
-<h2 id="summary">Summary</h2>
+<h2 id="summary"><a class="not-rich" href="#summary"><i class="fas fa-link"></i></a> Summary</h2>
 <p>From the abstract:</p>
 <blockquote>
 <p>Interpretability tools have been designed to help data scientists and machine learning practitioners better understand how ML models work. However, there has been little evaluation of the extent to which these tools achieve this goal. We study &hellip; the InterpretML implementation of GAMs and the SHAP Python package.</p>
@@ -158,7 +158,7 @@
 <p>Our results indicate that data scientists over-trust and misuse interpretability tools.</p>
 </blockquote>
 <p>Uh oh.</p>
-<h2 id="study-interviews-and-contextual-inquiry">Study: interviews and contextual inquiry</h2>
+<h2 id="study-interviews-and-contextual-inquiry"><a class="not-rich" href="#study-interviews-and-contextual-inquiry"><i class="fas fa-link"></i></a> Study: interviews and contextual inquiry</h2>
 <p>The authors conduced semi-structured pilot interviews with six data scientists at a &ldquo;large technology company&rdquo; (hmm &hellip;). The goal was to &ldquo;surface common issues that arise when building and evaluating ML models.&rdquo; They identified the following themes:</p>
 <figure>
     <img src="interpreting_interpretability_kaur_img1.png"/> 
@@ -173,10 +173,10 @@
 <li>A general lack of understanding of how SHAP importance scores are calculated</li>
 </ul>
 <p><em>Social context</em> was important, too: one participant said &ldquo;this is a pretty popular tool &hellip; so it made sense, I suppose&rdquo; in regards to SHAP, rationalizing explanations that they didn&rsquo;t fully understand. Additionally, the visualizations themselves were sometimes misleading (by not explaining or giving appropriate context for the meaning of the values they presented).</p>
-<h2 id="study-survey">Study: survey</h2>
+<h2 id="study-survey"><a class="not-rich" href="#study-survey"><i class="fas fa-link"></i></a> Study: survey</h2>
 <p>The goal of this was to quantify the previous findings at a larger scale. Participants were asked the same questions as during the interviews, but this time shown the results of exploration commands and asked questions about the dataset and model. The questions covered &ldquo;global feature importance, the relationship between age and the output variable, &hellip; the local explanation for a correctly classified data point, and the local explanation for a misclassified data point.&rdquo; Participants were asked a variety of questions, from multiple-choice with an objectively correct answer to open-ended questions designed to test participants&rsquo; understanding.</p>
 <p>Participants were assigned to either GAM or SHAP, as before, but this time each was stratified into &ldquo;normal&rdquo; (where the viz outputs were correct) and &ldquo;manipulated&rdquo; (where features were rearranged, so the least important features were displayed as most important). Participants in the &ldquo;manipulated&rdquo; conditions were less confident that the results were reasonable, thankfully.</p>
-<h2 id="factors-that-affect-willingness-to-deploy">Factors that affect willingness to deploy</h2>
+<h2 id="factors-that-affect-willingness-to-deploy"><a class="not-rich" href="#factors-that-affect-willingness-to-deploy"><i class="fas fa-link"></i></a> Factors that affect willingness to deploy</h2>
 <p>One part of the survey asked what makes a model ready for deployment. The themes were:</p>
 <ul>
 <li><strong>Intuition</strong>: most participants relied heavily on past experience, sometimes suggesting that they&rsquo;d ask customers to trust their judgment.</li>
@@ -188,7 +188,7 @@
 <p>These results indicate that participants did not fully understand the visualizations output by the interpretability tools. However, despite this, they had high expectations for these visualizations, above and beyond these tools&rsquo; capabilities.</p>
 </blockquote>
 <p>Wouldn&rsquo;t it be great if model evaluation were easy? This is a good example of something I&rsquo;ve encountered a lot in practice: that it&rsquo;s really easy to convince yourself of the <em>wrong</em> thing based on the mere <em>presence</em> of an explanation. I&rsquo;m certainly guilty of taking explanations at face value when I later found them to be wrong (based on a bug in my data, model, or visualization).</p>
-<h2 id="implications-for-design-and-other-thoughts">Implications for design and other thoughts</h2>
+<h2 id="implications-for-design-and-other-thoughts"><a class="not-rich" href="#implications-for-design-and-other-thoughts"><i class="fas fa-link"></i></a> Implications for design and other thoughts</h2>
 <p>The authors write that &ldquo;research on interpretability in the ML and HCI communities has evolved somewhat independently.&rdquo; It&rsquo;s not clear how machine learning practitioners use interpretability tools in practice, which is a gap that this paper helped to fill. One of the key findings was that data scientists were <em>unable</em> to fully understand the outputs of existing tools.</p>
 <p>There&rsquo;s clearly a gap between what the tools are built for and how they&rsquo;re used. Perhaps this means the tools aren&rsquo;t designed to adequately meet users&rsquo; needs, and this is what a human-centered approach might suggest. I suspect, however, that a lot of people in the ML community would take the opposite persepctive and say that it&rsquo;s the <em>users</em> (data scientists) who should learn how to use them properly.</p>
 <p>The question of &ldquo;how people use tools&rdquo; is incredibly important. Interpretability is a hot topic, and one that I&rsquo;m particularly interested in, and it&rsquo;s great to read a paper that studies how (in)effective interpretability tools are in practice. This helps me to believe in using inherently interpretable models over post-hoc explanations when possible (see <a href="https://www.nature.com/articles/s42256-019-0048-x">Rudin in Nature</a>).</p>

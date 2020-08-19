@@ -1026,6 +1026,16 @@ table td {
   text-decoration: underline;
 }
 
+a.not-rich {
+  font-weight: 500;
+  --text-opacity: 1;
+  color: #cbd5e0;
+  color: rgba(203, 213, 224, var(--text-opacity));
+  --bg-opacity: 1;
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, var(--bg-opacity));
+}
+
 .rich-text code {
   background-color: #edf2f7;
   font-size: .875em;

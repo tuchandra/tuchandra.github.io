@@ -142,9 +142,9 @@
     </div>
     <div class="rich-text" itemprop="articleBody">
       <p>Speakers: Animesh Singh and Svetlana Levitan (IBM). They work at the &ldquo;center for open source data and AI technologies&rdquo; @ IBM.</p>
-<h2 id="bias-throughout-the-ai-lifecycle">Bias throughout the AI lifecycle</h2>
+<h2 id="bias-throughout-the-ai-lifecycle"><a class="not-rich" href="#bias-throughout-the-ai-lifecycle"><i class="fas fa-link"></i></a> Bias throughout the AI lifecycle</h2>
 <p>There&rsquo;s an open source toolkit <a href="https://github.com/IBM/AIF360">AIF360</a> (&ldquo;AI Fairness 360&rdquo;) to monitor and remove bias in machine learning models. It includes 70+ fairness metrics and 10 mitigation algorithms to help remove those. One of those metrics is disparate impact (!!!) along with tons of others, and this actually seems incredible.</p>
-<h2 id="adversarial-attacks">Adversarial attacks</h2>
+<h2 id="adversarial-attacks"><a class="not-rich" href="#adversarial-attacks"><i class="fas fa-link"></i></a> Adversarial attacks</h2>
 <p>This field is getting a lot noisier (heh) and more research; adding white noise that is imperceptible to humans can blow up models and make their predictions vary wildly. Famous examples include the adversarial patch that makes everything appear to be a toaster; scarier ones include adding adversarial noise to self-driving cars.</p>
 <p><strong>Poisoning attacks</strong> are performed at training, by inserting poisoned samples in training data. This lets a malicious agent use a backdoor later. <strong>Evasion attacks</strong> are performed at test time.</p>
 <p>Threat models include:</p>
@@ -155,14 +155,14 @@
 <li>one more that I missed</li>
 </ul>
 <p>Some evasion attacks push neural networks (or other models) out of their desired operating range — either finding a region of space that&rsquo;s sparse or pushing it out of the range that it was trained on. Key point is that DNNs don&rsquo;t learn to <em>recognize</em> a schoolbus, but rather to discriminate it from other objects in the training set.</p>
-<h2 id="defending-adversarial-attacks">Defending adversarial attacks</h2>
+<h2 id="defending-adversarial-attacks"><a class="not-rich" href="#defending-adversarial-attacks"><i class="fas fa-link"></i></a> Defending adversarial attacks</h2>
 <p><strong>Training solely on adversarial examples</strong>, which increases the capacity to maintain accuracy on clean data. Use a specific algorithm to intentionally introduce poisoned data as the model is trained.</p>
 <p><strong>Preprocess data</strong> to remove adversarial noise, and input the cleaned samples into the classifier. But this can be defeated by an adaptive adversary (someone who knows how the cleaning is done).</p>
 <p><strong>Robustness metrics</strong>, e.g., CLEVER, which evaluate how robust neural networks are. Paper: &ldquo;<a href="https://openreview.net/pdf?id=BkUHlMZ0b">Evaluating the Robustness of Neural Networks: An Extreme Value Theory</a>.&rdquo;</p>
 <p><strong>Poisoning detection</strong>, where you look at clustering of the training data and see if it&rsquo;s been poisoned.</p>
 <p>Many, many others …</p>
 <p>All of this to say that IBM built the <a href="https://github.com/IBM/adversarial-robustness-toolbox">Adversarial Robustness Toolbox</a>, which is open-source and is a library for adversarial machine learning. It includes evasion attacks, evasion defenses, poisioning and evasion detection, and robustness metrics.</p>
-<h2 id="demos">Demos</h2>
+<h2 id="demos"><a class="not-rich" href="#demos"><i class="fas fa-link"></i></a> Demos</h2>
 <p>These were all super slick. This <a href="https://art-demo.mybluemix.net/">demo</a> lets you interactively add imperceptible noise to images, and wow this is so cool. Then they showed some Jupyter notebooks with code samples from their toolbox.</p>
 <p>Another paper: <a href="https://arxiv.org/pdf/1706.06083.pdf">Towards Deep Learning Models Resistant to Adversarial Attacks</a>.</p>
       <p><i class="fas fa-square font-green-800"></i></p>

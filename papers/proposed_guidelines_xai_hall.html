@@ -148,9 +148,9 @@
 <p><strong>Authors</strong>: Patrick Hall, Navdeep Gill, Nicholas Schmidt</p>
 <p><strong>Link</strong>: on <a href="https://arxiv.org/abs/1906.03533">arXiv</a>, plus related slides <a href="https://github.com/jphall663/kdd_2019">on Github</a></p>
 <p><strong>How I found this paper</strong>: I met the lead author at Spark + AI Summit where he gave <a href="https://tusharc.dev/spark/interpretable_ai.html">a talk on ML interpretability</a> (link is to my notes). This paper came onto my radar after following some links from the talk late last year.</p>
-<h2 id="summary">Summary</h2>
+<h2 id="summary"><a class="not-rich" href="#summary"><i class="fas fa-link"></i></a> Summary</h2>
 <p>Explainable AI (XAI) has been in vogue recently, as ML models continue to become more complex and more opaque. It&rsquo;s great for enabling humans to learn from ML and to understand why a model behaved the way it did, but (like any technology) it can be misused.</p>
-<h3 id="definitions">Definitions</h3>
+<h3 id="definitions"><a class="not-rich" href="#definitions"><i class="fas fa-link"></i></a> Definitions</h3>
 <p>The paper includes definitions that will be useful for this blog post and future ones:</p>
 <ul>
 <li><strong>Interpretability</strong>: the ability to explain or present in understandable terms to a human</li>
@@ -160,14 +160,14 @@
 <li><strong>Unwanted sociological bias</strong>: one of many forms of discrimination, including overt discrimination or disparate treatment or impact.</li>
 </ul>
 <p>A model is <em>biased</em> if (1) group membership is not independent of the likelihood of a favorable outcome, or (2) membership in a subset of a group is not independent of that likelihood. The discrimination that causes this bias may or may not be illegal.</p>
-<h3 id="proposed-guidelines">Proposed guidelines</h3>
+<h3 id="proposed-guidelines"><a class="not-rich" href="#proposed-guidelines"><i class="fas fa-link"></i></a> Proposed guidelines</h3>
 <p><strong>Use explanations to enable understanding</strong>: explanations typically increase understanding and transparency, but not necessarily trust. It&rsquo;s possible to understand a model without trusting it (e.g., when a feature is overemphasized, so you know <em>why</em> it&rsquo;s making a decision but don&rsquo;t expect it to work when that feature varies). It&rsquo;s possible to trust a model without understanding it (pick your favorite neural network).</p>
 <p><strong>Learn how explainable ML is used for nefarious purposes</strong>: these methods can cover for intentionally misused black-boxes or enable stealing of training data. Understanding the dark side of this technology can help to detect abuse.</p>
 <p><strong>Augment surrogate models with direct explanation</strong>: &ldquo;models of models&rdquo; (surrogates) can be helpful, but they should be used alongside techniques that use the original model (e.g., Shapley values, partial dependence plots, ALE, or ICE plots).</p>
 <p><strong>Use highly interpretable mechanisms for mission- or life-critical ML</strong>: given the fact that explaining black boxes is still super challenging, if a decision is life-altering or high-value, use an interpretable model. Interpretable models are also recommended for when a value needs to be appealable.</p>
 <p>Regulatory statutes are likely to require interpretable models (and in some cases, they already do). Adverse action notices (e.g., why you got denied for a credit card) are also required in many cases, and models that enable these are required by default.</p>
 <p>A corollary to the last guideline that I like is to use explanations alongside testing for disparate impact. Explanations increase transparency, but testing for disparate impact increases trust. As discussed in the first section, these are not the same!</p>
-<h2 id="thoughts-connections-and-questions">Thoughts, connections, and questions</h2>
+<h2 id="thoughts-connections-and-questions"><a class="not-rich" href="#thoughts-connections-and-questions"><i class="fas fa-link"></i></a> Thoughts, connections, and questions</h2>
 <p>I like how this paper gives <em>practical</em> advice in the wake of a wave of coverage on explainable and interpretable AI. As ML systems continue to proliferate into everyday decision making, it&rsquo;s important that we continue to develop techniques to understand them.</p>
 <p>Development of new techniques in this field appears to be tightly linked to tech policy. It seems to me that interpretable and explainable AI are starting to receive more attention as <a href="https://www.bbc.com/news/technology-51178198">calls to regulate AI</a> increase and as stories of AI bias <a href="/posts/imagenet_bias_wired.html">continue to appear</a> in the news. There is likely to be a hodgepodge of regulations that allow certain things in certain situations, and I think we&rsquo;ll see this field grow quickly as these regulations continue to appear.</p>
 <p>I really love Hall&rsquo;s point about understanding and trust being different. I think this will continue to be an important distinction as we (regular people) are on the &ldquo;receiving end&rdquo; of ML models. For example, I trust the neural nets behind my Google Home to process what I say and give me a reasonable response. I don&rsquo;t, however, understand them at all. That&rsquo;s fine for this application, though, because I don&rsquo;t <em>need</em> to understand how it parses my speech.</p>

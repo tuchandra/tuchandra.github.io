@@ -142,7 +142,7 @@
     </div>
     <div class="rich-text" itemprop="articleBody">
       <p>I made a couple more changes to my website: giving more credit to the authors of the papers I read and adding a new category.</p>
-<h2 id="changes-to-the-homepage">Changes to the homepage</h2>
+<h2 id="changes-to-the-homepage"><a class="not-rich" href="#changes-to-the-homepage"><i class="fas fa-link"></i></a> Changes to the homepage</h2>
 <p>It&rsquo;s important to give authors credit for their work. When writing paper summaries, I always made it a point to call out the authors of the paper at the top of the post. But I recently started thinking that I could do more.</p>
 <p>On my website&rsquo;s <a href="/">homepage</a>, you couldn&rsquo;t quickly see which posts were paper summaries and which were original. You also couldn&rsquo;t always see the authors of the papers that I was reviewing. I don&rsquo;t think I was hiding credit from them, but it wasn&rsquo;t as obvious as it could have been.</p>
 <p>I&rsquo;ve now added a list of authors to the homepage in the post preview, and prepended <code>[Paper]</code> to the start of every post title instead of <code>Paper:</code>. This should be apparent because of how much I&rsquo;ve been reading lately; it looks like this:</p>
@@ -151,14 +151,14 @@
 </figure>
   </p>
 <p>In Hugo, this was easy to do (but tedious). I added an <code>authors = [&quot;person1&quot;, &quot;person2&quot;]</code> tag to the TOML front matter (example <a href="https://github.com/tuchandra/sitev2/blob/master/content/papers/finsta_authentic_disagreebale_taber.md">here</a>), then changed the template for the post preview to include all of the author names. There were a lot of pages that already had the <code>authors</code> tag&mdash;I started adding it about a month ago, but didn&rsquo;t do anything with it until now&mdash;but I had to go back through 20ish ones that didn&rsquo;t.</p>
-<h2 id="changes-to-the-archives">Changes to the archives</h2>
+<h2 id="changes-to-the-archives"><a class="not-rich" href="#changes-to-the-archives"><i class="fas fa-link"></i></a> Changes to the archives</h2>
 <p>Just like above, I added papers&rsquo; authors below the links within the <a href="/posts.html">archives</a> and <a href="/categories.html">categories</a> pages:</p>
 <p><figure>
     <img src="apr2020_website_changes_img2.png"/> 
 </figure>
   </p>
 <p>I rarely use these pages, but I wanted to make sure the authors&rsquo; names were displayed alongside their work wherever possible.</p>
-<h2 id="adding-a-chi-2020-category">Adding a CHI 2020 category</h2>
+<h2 id="adding-a-chi-2020-category"><a class="not-rich" href="#adding-a-chi-2020-category"><i class="fas fa-link"></i></a> Adding a CHI 2020 category</h2>
 <p>I&rsquo;m quite thankful that I&rsquo;m in a position where quarantine has given me time to read, rather than throwing me into a situation where I have to care for family members, work longer hours, or put my health at risk. I&rsquo;ve used this time to read more, and I&rsquo;m hoping to work through a lot of CHI 2020 papers in the coming weeks. I&rsquo;ve already done a few posts:</p>
 <ul>
 <li><a href="/papers/interpreting_interpretability_kaur.html">Interpreting Interpretability: Understanding Data Scientists&rsquo; Use of Interpretability Tools for Machine Learning</a> by Harmanpreet Kaur et al.</li>
@@ -167,7 +167,7 @@
 <li><a href="/papers/intimate_reconfigurations_finsta_xiao.html">Random, Messy, Funny, Raw: Finstas as Intimate Reconfigurations of Social Media</a></li>
 </ul>
 <p>I have many more listed on my <a href="/reading/">reading list</a>, so I added a category for <a href="/categories/chi2020.html">CHI 2020</a>.</p>
-<h2 id="future-changes">Future changes</h2>
+<h2 id="future-changes"><a class="not-rich" href="#future-changes"><i class="fas fa-link"></i></a> Future changes</h2>
 <p>Eventually, I want to make the author names clickable links that take you to an author&rsquo;s page, where one could view all of the papers I&rsquo;ve written about by that author. That shouldn&rsquo;t be too hard&mdash;I think it&rsquo;d be a similar treatment to how &ldquo;categories&rdquo; works now, but I will eventually have to work out how to do this.</p>
 <p>I also need to come up with a better way of organizing content locally. I think it&rsquo;s fine on the website (for now?), but as I write more, the number of posts in each directory on my computer is increasing rapidly. The <a href="https://github.com/tuchandra/sitev2/tree/master/content/papers">&quot;/content/papers&rdquo; folder</a> has 42 items in it, which makes finding the exact paper that I&rsquo;m looking for a little challenging right now. This will only get harder.</p>
 <p>I would like to further streamline deployment of the site; right now I have to commit posts to my <a href="https://github.com/tuchandra/sitev2">sitev2 repo</a> first, then use a Makefile to generate the static site and toss it into my <a href="https://github.com/tuchandra/tuchandra.github.io">tuchandra.github.io repo</a>. I would love to be able to set up Github Actions to handle deployment for me&mdash;building every time I push and building nightly (for when I finish posts in advance).</p>

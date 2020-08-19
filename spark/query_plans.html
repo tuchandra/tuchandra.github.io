@@ -143,7 +143,7 @@
     <div class="rich-text" itemprop="articleBody">
       <p>Speaker: Xiao Li (Databricks).</p>
 <p>Speaker is one of the core committers to Spark, @gatorsmile on Twitter.</p>
-<h2 id="intro-how-queries-get-executed">Intro: how queries get executed</h2>
+<h2 id="intro-how-queries-get-executed"><a class="not-rich" href="#intro-how-queries-get-executed"><i class="fas fa-link"></i></a> Intro: how queries get executed</h2>
 <ul>
 <li>you have SQL / datasets / dataframes</li>
 <li>that turn into an unresolved logical plan via a parser</li>
@@ -153,13 +153,13 @@
 <li>which then finally gets executed into DAGs</li>
 </ul>
 <p>In the Spark UI, you can read the parsed plan, analyzed plan, optimized plan, and physical plan. Great. How do you understand and tune them?</p>
-<h2 id="understanding-and-tuning-plans">Understanding and tuning plans</h2>
+<h2 id="understanding-and-tuning-plans"><a class="not-rich" href="#understanding-and-tuning-plans"><i class="fas fa-link"></i></a> Understanding and tuning plans</h2>
 <p>This section is a bunch of examples followed by pieces of advice.</p>
-<h3 id="read-the-analyzed-plan-to-check-implicit-type-casting">Read the analyzed plan to check implicit type casting</h3>
+<h3 id="read-the-analyzed-plan-to-check-implicit-type-casting"><a class="not-rich" href="#read-the-analyzed-plan-to-check-implicit-type-casting"><i class="fas fa-link"></i></a> Read the analyzed plan to check implicit type casting</h3>
 <p>This followed an example where you got different results with a constraint <code>where x != 0</code> vs. <code>where x != 0.0</code>, due to implict type casting within the analyzed plan. His suggestion is to explicitly cast the types in your queries.</p>
-<h3 id="create-native-tables">Create native tables</h3>
+<h3 id="create-native-tables"><a class="not-rich" href="#create-native-tables"><i class="fas fa-link"></i></a> Create native tables</h3>
 <p>Not sure what this was about … create native data source tables for better performance and stability. Using something called ORC.</p>
-<h3 id="collapse-projects">Collapse projects</h3>
+<h3 id="collapse-projects"><a class="not-rich" href="#collapse-projects"><i class="fas fa-link"></i></a> Collapse projects</h3>
 <p>Look out for UDFs being called multiple times in the query plan.</p>
 <pre><code>df.select(
     some_udf(&quot;col1&quot;).alias(&quot;new_col1&quot;)
@@ -169,12 +169,12 @@
 )
 
 # --&gt; causes udf to be executed three times. forgot what to do to fix this.
-</code></pre><h3 id="cross-session-sql-cache">Cross-session SQL cache</h3>
+</code></pre><h3 id="cross-session-sql-cache"><a class="not-rich" href="#cross-session-sql-cache"><i class="fas fa-link"></i></a> Cross-session SQL cache</h3>
 <p>If a query is cached in one session, the new queries in all sessions might be impacted.</p>
 <pre><code># ?
-</code></pre><h3 id="join-hints-in-spark-30">Join hints in Spark 3.0</h3>
+</code></pre><h3 id="join-hints-in-spark-30"><a class="not-rich" href="#join-hints-in-spark-30"><i class="fas fa-link"></i></a> Join hints in Spark 3.0</h3>
 <p>They&rsquo;ll help you with broadcasting and … other things that I didn&rsquo;t see in time.</p>
-<h2 id="tracking-execution-in-the-spark-ui">Tracking Execution in the Spark UI</h2>
+<h2 id="tracking-execution-in-the-spark-ui"><a class="not-rich" href="#tracking-execution-in-the-spark-ui"><i class="fas fa-link"></i></a> Tracking Execution in the Spark UI</h2>
 <p>A single SQL query can correspond to multiple Spark jobs: broadcast exchange, suffle exchange, subqueries, … and each Spark job is an RDD DAG.</p>
 <p>In query execution (selected physical plan —&gt; DAGs) you can see both the higher level SQL physical operators (Filter, Project, HashAggregate, Exchange, etc.) and lower level Spark RDD primitives.</p>
 <p>The Stages tab has task-specific information, letting you know how time is spent, what tasks are blocking others, how well things are balanced, etc. … each task corresponds to a partition, so maybe you have to repartition things. You can use the Duration column to see if task execution times are balanced, Input Size / Records column to look for skew in your data (based on partitioning).</p>

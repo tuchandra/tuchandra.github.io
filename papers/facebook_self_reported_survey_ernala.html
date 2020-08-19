@@ -148,11 +148,11 @@
       <p>How reliable are self-reported measures of social media use? Lots of studies rely on them, but it&rsquo;s well-known that self-reported behaviors can be noisy. This paper studies how noisy by comparing the results from 10 self-reported questions with actual usage data from Facebook server logs.</p>
 <p><strong>Authors</strong>: Sindhu Kiranmai Ernala, Moira Burke, Alex Leavitt, Nicole B. Ellison</p>
 <p><strong>Link</strong>: <a href="https://dl.acm.org/doi/abs/10.1145/3313831.3376435">ACM DL</a></p>
-<h2 id="background-and-motivation">Background and motivation</h2>
+<h2 id="background-and-motivation"><a class="not-rich" href="#background-and-motivation"><i class="fas fa-link"></i></a> Background and motivation</h2>
 <p>Measuring how much people use different technologies is clearly important; that&rsquo;s Nielsen&rsquo;s entire business. But, for many reasons, scientists often have to use self-reported survey measures of media use (e.g., &ldquo;how much did you use Facebook in the past week?&quot;).</p>
 <p>Self-reports are known to be noisy. People might not remember, might underreport or overreport based on which is seen as more desirable, might be primed to respond a certain way, or might be cognitively overloaded. &ldquo;Measurement validity&rdquo;&mdash;that this kind of question is actually a reasonable way to measure the thing it&rsquo;s trying to (Facebook usage)&mdash;is an important concern.</p>
 <p>This paper evaluates 10 different self-reported time-spent questions about Facebook usage by comparing participants&rsquo; answers to their actual usage from Facebook server logs. That is, it takes the results to questions like &ldquo;How much did you use Facebook in the last week?&rdquo; and sees how accurate they actually are.</p>
-<h2 id="methods">Methods</h2>
+<h2 id="methods"><a class="not-rich" href="#methods"><i class="fas fa-link"></i></a> Methods</h2>
 <p>The authors asked one of ten questions:</p>
 <ol>
 <li>How many hours a day, if any, do you typically spend using Facebook? (open text)</li>
@@ -175,7 +175,7 @@
 <p>Respondents were 1.1 years younger, 5% more likely to be female, had 55% more friends, spent 115% more time on the site in the past month, and had 14% fewer sessions in the past month (all p &lt; 0.001).</p>
 </blockquote>
 <p>This is a limitation of this work (the 115% more time stands out in particular!), but I think it&rsquo;s still useful with that caveat.</p>
-<h2 id="results">Results</h2>
+<h2 id="results"><a class="not-rich" href="#results"><i class="fas fa-link"></i></a> Results</h2>
 <p>The results are &hellip; really bad! People are awful at judging their Facebook usage! Question 2 had a mean absolute error of nearly 90 minutes. Question 3 had a mean absolute error of over 4 hours! Correlations between actual and self-reported usage were between 0.23 and 0.42, indicating that these results are noisy indicators.</p>
 <figure>
     <img src="facebook_self_reported_survey_ernala_img1.png"/> 
@@ -190,7 +190,7 @@
 </ul>
 <p>One of the best-performing questions was &ldquo;In the past week, on average, approximately how much time PER DAY have you spent actively using Facebook? (multiple choice),&rdquo; which had 27% of participants selecting the correct choice, and the mean absolute error being just 1.2 bins away (i.e., on average participants chose an answer bin adjacent to the correct one). This question had no relationship between error and actual time spent, which is desirable!</p>
 <p>The authors dive deeper into results from this question and two others, examining specific properties of the responses (error based on age, error across different countries, over- vs. under-reporting, etc.).</p>
-<h2 id="recommendations-for-researchers">Recommendations for researchers</h2>
+<h2 id="recommendations-for-researchers"><a class="not-rich" href="#recommendations-for-researchers"><i class="fas fa-link"></i></a> Recommendations for researchers</h2>
 <p>The authors make recommendations to future researchers aiming to measure time spent on Facebook&mdash;</p>
 <ul>
 <li>use time tracking applications, which on modern phones are built into the OS (Apple&rsquo;s Screen Time or Android&rsquo;s Digital Wellbeing)</li>
@@ -199,7 +199,7 @@
 <li>(importantly) <strong>interpret people&rsquo;s self-reported time as a noisy estimate for where they fall &hellip; relative to other respondents</strong>, instead of using the values directly.</li>
 </ul>
 <p>Using a stable set of measures helps ensure that the measurements are valid in the first place, and also for meta-analyses in the future. The authors give the example of the Facebook Intensity Scale, which was originally created for undergrads at one institution <em>before</em> the News Feed was even launched; but the measure has been used regularly in different contexts and populations without establishing its validity.</p>
-<h2 id="thoughts">Thoughts</h2>
+<h2 id="thoughts"><a class="not-rich" href="#thoughts"><i class="fas fa-link"></i></a> Thoughts</h2>
 <p>This was one of the easier papers I&rsquo;ve read lately, which feels like a nice mental break. The question is so simple&mdash;&ldquo;how accurate are people when you ask them how much they&rsquo;ve used Facebook?&quot;&mdash;and while I knew that self-reported survey measures weren&rsquo;t always accurate, I had no idea that it&rsquo;d be this noisy.</p>
 <p>It&rsquo;s a little unsettling to see the kind of research that&rsquo;s only possible in industry (or via industry collaborations). If Facebook had not been interested in doing this study, it simply wouldn&rsquo;t have been possible (due to both the server logs and participant recruitment).</p>
 <p>It&rsquo;s also worth noting (and the authors do call this out) that &ldquo;time spent&rdquo; is often itself not a meaningful metric, and might be a proxy for other things that are harder to quantify, like the role social media plays in someone&rsquo;s life, the exposure they have to different things happening on Facebook, or the impact of Facebook on well-being.</p>

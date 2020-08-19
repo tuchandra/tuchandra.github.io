@@ -151,7 +151,7 @@
 <li>how many items has seller X sold today?</li>
 </ul>
 <p>Because the data volume is so large, we enter a cost/latency/accuracy tradeoff. Vijayakumar focuses, in this talk, on the latency.</p>
-<h2 id="bloom-filters">Bloom filters</h2>
+<h2 id="bloom-filters"><a class="not-rich" href="#bloom-filters"><i class="fas fa-link"></i></a> Bloom filters</h2>
 <p>These answer &ldquo;set membership&rdquo; in a probabilistic way; they&rsquo;re a replacement for normal <code>if x in set</code> lookups, and answer &ldquo;Is the element I&rsquo;m looking for possibly here? With what possibility?&rdquo; (with the note that if they answer &ldquo;No,&rdquo; they&rsquo;re 100% correct).</p>
 <p><strong>Monoids</strong>: a monoid is a set <code>M</code> and an operation <code>op</code>:</p>
 <ul>
@@ -174,7 +174,7 @@
 <li>with a BloomFilter, we can quickly ask &ldquo;did this user view this product?&rdquo; and get &ldquo;yes, with X probability.&rdquo;</li>
 </ul>
 <p>Why not just use a hash set? I asked this question, and the answer is because the hash set will grow linearly, but the bloom filter wil be constant. Oh!</p>
-<h2 id="hyper-log-log">Hyper log log</h2>
+<h2 id="hyper-log-log"><a class="not-rich" href="#hyper-log-log"><i class="fas fa-link"></i></a> Hyper log log</h2>
 <p>This lets you estimate super high cardinalities within 2% error. Here, we&rsquo;d use it to answer the question &ldquo;how many unique users bought items A, B, and C?&quot;.</p>
 <p>The monoid property comes into play here, too, because you can split up your ingestion into any number of threads / workers and have HLL operating on each one sending data to a centralized store (he&rsquo;s a big Redis fan).</p>
 <p>The demo:</p>
@@ -184,11 +184,11 @@
 </ul>
 <p>Even in the toy example, the DataFrame generation took ~30 seconds and a lookup 2 seconds; the HyperLogLog queries each took a constant 0.15 seconds. Crazy!</p>
 <p>The time and space complexity is huge here, right, okay. I found <a href="https://odino.org/my-favorite-data-structure-hyperloglog/">this blog post</a> as a good intro to hyperloglog.</p>
-<h2 id="count-min-sketch">Count Min Sketch</h2>
+<h2 id="count-min-sketch"><a class="not-rich" href="#count-min-sketch"><i class="fas fa-link"></i></a> Count Min Sketch</h2>
 <p>This is a &ldquo;space efficient frequency table,&rdquo; or vaguely dumbed down a hash table replacement. Here, space efficient means sublinear. It might lead to overcounting, but it happens, and this is the logical extension of a Bloom Filter.</p>
 <p>The question: how many items has seller X sold today? In SQL, this would mean groupby the seller and count the sales; but that&rsquo;s expensive.</p>
 <p>On an ingestion microbatch, create a CountMinSketch for each seller for each date; merge them together and send to an external store. What? I got lost here.</p>
-<h2 id="closing-thoughts">Closing thoughts</h2>
+<h2 id="closing-thoughts"><a class="not-rich" href="#closing-thoughts"><i class="fas fa-link"></i></a> Closing thoughts</h2>
 <p>Using these patterns and data structures, you can optimize questions that you know will be asked really often. If you need real-time responses, trading off accuracy for cost and latency can be a relaly great idea. The speaker uses these three quite often, but there are lots of other probabilistic data structures out there.</p>
       <p><i class="fas fa-square font-green-800"></i></p>
     </div>

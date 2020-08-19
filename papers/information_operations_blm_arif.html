@@ -147,14 +147,14 @@
       <p>This CWCW 2018 paper studies tweets and profiles of accounts that were suspended by for affiliation with Russian information operation campaigns. How did these accounts contribute to the discourse? What kinds of things did they tweet about? What were their profiles like? Another timely paper, Dr. Starbird shared this on Twitter and it immediately stood out.</p>
 <p><strong>Authors</strong>: Ahmer Arif, Leo Graiden Stewart, Kate Starbird</p>
 <p><strong>Link</strong>: <a href="https://dl.acm.org/doi/abs/10.1145/3274289">ACM Digital Library</a>, from CSCW 2018</p>
-<h2 id="background">Background</h2>
+<h2 id="background"><a class="not-rich" href="#background"><i class="fas fa-link"></i></a> Background</h2>
 <p>Social media companies have started acknowledging that their platforms becoming host to <em>information operations</em>, which are &ldquo;actions taken by governments or organized non-state actors to manipulate public opinion.&rdquo; Famous examples include Cambridge Analytica and the nebulous &ldquo;Russian interference&rdquo; in &lt;pick a social movement&gt;. Information operations are not new, but their interaction with social media platforms is.</p>
 <p>From the abstract:</p>
 <blockquote>
 <p>This research examines how social media accounts linked to one such operation&mdash;allegedly conducted by Russia&rsquo;s Internet Research Agency&mdash;participated in an online discourse about the #BlackLivesMatter movement and police-related shootings in the U.S. during 2016. &hellip; Our empirical findings show how these accounts imitated ordinary users to systematically micro-target different audiences, foster antagonism, and undermine trust in information intermediaries.</p>
 </blockquote>
 <p>The story of how this work got started is interesting. The authors study accounts that were publicly suspended by Twitter for being affiliated with the Russian Internet Research Agency (RU-IRA), but they did not expect to land on the #BlackLivesMatter movement. When Twitter released these account names, the authors recognized several from earlier work, then decided to dig deeper. That&rsquo;s a nice insight into how the research process can be highly nonlinear.</p>
-<h2 id="methods">Methods</h2>
+<h2 id="methods"><a class="not-rich" href="#methods"><i class="fas fa-link"></i></a> Methods</h2>
 <p>The methods, loosely speaking, were:</p>
 <ul>
 <li>generate a network graph of retweets that reveals distinct communities</li>
@@ -175,7 +175,7 @@
 <li>social media data is ephemeral, as shown by their use of Internet Archive data, which limits past-looking analyses</li>
 </ul>
 <p>That Twitter data is only generally available in real-time (via the Streaming API) is, in my head, one of the biggest challenges in studying it. Identifying events as they are happening, and the hashtags or keywords to focus on, seems really hard!</p>
-<h2 id="interesting-findings">Interesting findings</h2>
+<h2 id="interesting-findings"><a class="not-rich" href="#interesting-findings"><i class="fas fa-link"></i></a> Interesting findings</h2>
 <p>As expected, the retweet network clusters readily into left- and right-leaning. Perhaps more surprising is the fact that the RU-IRA accounts occur within both clusters and circulate around:</p>
 <p><figure>
     <img src="information_operations_blm_arif_img1.png"/> 
@@ -204,14 +204,14 @@
 <p>This is so interesting&mdash;I really wonder how much this has been successful. The past two weeks have seen a marked increase in anti-police sentiment (and rightly so, in my opinion), and I wonder about the extent to which #BlackLivesMatter is seen as anti-police in this way.</p>
 <p>Put otherwise, it seems that the goal was to amplify the voice of #BlackLivesMatter, but to subtly twist it along the way&mdash;to make it more hateful than it is, to make people question what it stands for, and to sow discord. That, I think, is the goal of broader disinformation campaigns that we hear about&mdash;to cause distrust in institutions, and make us feel like we live in a post-truth world.</p>
 <p>Accounts on both sides used topical memes, casual language, and emotionally charged content effectively; put otherwise, they behaved like normal Twitter users. Both clusters also criticized the &ldquo;mainstream media,&rdquo; on the left criticizing media for its coverage of police violence and BLM itself, and on the right crying out about fake news.</p>
-<h2 id="discussion">Discussion</h2>
+<h2 id="discussion"><a class="not-rich" href="#discussion"><i class="fas fa-link"></i></a> Discussion</h2>
 <p>This is another paper that&rsquo;s quite timely in light of recent events; I know that studying these kinds of accounts&rsquo; impact today would be a lot harder (Twitter is bigger, the BLM movement is bigger and noisier, and surely the Russians have gotten better at this), but I would love to work at Twitter Research and study this problem.</p>
 <p>This paper paints a much more sophisticated picture of Russian disinformation campaigns than I think is typically discussed. When I hear people talk about information operations or sockpuppets, I hear a lot of &ldquo;you can notice them by their poor grammar&rdquo; or &ldquo;they all just follow each other,&rdquo; but this paper shows that the opposite is true:</p>
 <blockquote>
 <p>Our research suggests that these performances are not simply automated or even scripted, but are instead like an improvisation in the sense that an actor is given a set of constraints, but then dynamically adapts their performance in interaction with the crowd.</p>
 </blockquote>
 <p>Understanding the performative aspect, the authors write, is critical for understanding these information operations. The activity did not attempt to infiltrate a single side of the conversation&mdash;it joined both, then amplified divisive messages from both sides.</p>
-<h2 id="questions-i-have">Questions I have</h2>
+<h2 id="questions-i-have"><a class="not-rich" href="#questions-i-have"><i class="fas fa-link"></i></a> Questions I have</h2>
 <p>What proportion of Twitter is bots or (studied here) sockpuppets? How can we measure their impact on public opinion and discourse? Hell, how can we measure <em>anyone&rsquo;s</em> impact on this? What kind of quantitative approaches would even be possible here?</p>
 <p>How have these accounts succeeded in changing public perception of #BlackLivesMatter? To what extent are they still doing so today? How has this changed over time?</p>
 <p>To what extent are people able to recognize these accounts? To what extent do people unwittingly promote their content? (The authors mentioned that Twitter&rsquo;s CEO Jack Dorsey and one of their researchers both retweeted one of these accounts.) How do we develop algorithms and systems for recognizing inauthentic accounts?</p>

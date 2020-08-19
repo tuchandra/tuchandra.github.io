@@ -142,7 +142,7 @@
     </div>
     <div class="rich-text" itemprop="articleBody">
       <p>Speaker: Josh Johnston (Director of AI Science @ Kount).</p>
-<h2 id="data-science-lifecycle">Data science lifecycle</h2>
+<h2 id="data-science-lifecycle"><a class="not-rich" href="#data-science-lifecycle"><i class="fas fa-link"></i></a> Data science lifecycle</h2>
 <p>Opened by talking about the model lifecycle - stole a slide from Microsoft about the data science lifecycle. Business understanding, modeling, data acquisition &amp; understanding, and deployment; these all connect to each other. Modeling includes feature engineering, training, evaluation. Data acquisition includes the data sources, pipelines, environment (on-prem / cloud), exploration, cleaning.</p>
 <p>Focus in this presentation is <strong>modeling</strong> - configuration management, speed, accuracy (how good is the model?), validation (is the model doing the right thing?). There are some <strong>governance</strong> questions about what model you&rsquo;re using and how you access it … e.g., the question &ldquo;what model is running in production?&rdquo; which is insane.</p>
 <p>There are some really specific questions that people always ask:</p>
@@ -155,9 +155,9 @@
 <li>how well does it work?</li>
 </ul>
 <p>and a lot boil down to &ldquo;<strong>why did we pick this model and not others?</strong>&rdquo; because you don&rsquo;t always know that. And this can super important in other industries, too, where you have to be audited or whatever … but that&rsquo;s still not the core problem.</p>
-<h3 id="science-is-repeatable">Science is repeatable</h3>
+<h3 id="science-is-repeatable"><a class="not-rich" href="#science-is-repeatable"><i class="fas fa-link"></i></a> Science is repeatable</h3>
 <p>Fundamentally, this problem isn&rsquo;t just to satisfy your legal department or auditors. Science needs to be repeatable; it&rsquo;s not enough to throw a model in production. As data scientists, we&rsquo;re probably not satisfied until these questions are all answered.</p>
-<h2 id="fraud-detection-model">Fraud detection model</h2>
+<h2 id="fraud-detection-model"><a class="not-rich" href="#fraud-detection-model"><i class="fas fa-link"></i></a> Fraud detection model</h2>
 <p>They have a model called Boost, which is their supervised machine learning model for some specific type of fraud detection. This model helped in many quantitative ways (reduced manual reviews by 20% or 200h/month) and also many qualitative ones (&ldquo;we get fewer complaints from our fraud department&rdquo; etc.).</p>
 <p>Technical details:</p>
 <ul>
@@ -165,13 +165,13 @@
 <li>random forest with 250 trees, 100K nodes per trees, which is about 1GB when serialized</li>
 <li>model training = 150 features <em>after</em> feature reduction (before this the cardinality is in the billions, because things are tokenized), 60M observations.</li>
 </ul>
-<h3 id="old-process">Old process</h3>
+<h3 id="old-process"><a class="not-rich" href="#old-process"><i class="fas fa-link"></i></a> Old process</h3>
 <p>&ldquo;Process&rdquo; is a loosely defined term here, because a lot of this was very ad-hoc. They had a huge analytics database, then a gigantic computer for all the model training … 400 GB RAM and 1TB into swap, which is absurd. Their model kept pounding their database and making enemies with their DBAs. Training the model took like 24 hours by itself, and the model got logged into a flat file and pickled into network storage.</p>
 <p>He says that it took 2.5 days, but that depended on the interruptions; everything running in memory meant if something breaks, it&rsquo;s back to square one.</p>
 <p><strong>What worked</strong>: got a high value model.</p>
 <p><strong>What didn&rsquo;t work</strong>: time-intensive, errors forced restarts, burdened the production database, and pickling tied the training environment to the execution / prod environment (because you serialize the trained model and then have to unpickle it in prod). Also, traceability of errors is just provided by logs and manual documentation. And there were a shitload of ad-hoc experiments.</p>
 <p>Thinking back to the governance questions: which model are you using? why? how did you train it? why? how well does it work? why?</p>
-<h3 id="new-process-wip">New process, WIP</h3>
+<h3 id="new-process-wip"><a class="not-rich" href="#new-process-wip"><i class="fas fa-link"></i></a> New process, WIP</h3>
 <p>They made a cluster for distributed computing: 6 nodes, 484 vCores, 1.35 TB RAM, Cloudera and Spark 2.4, mostly Python.</p>
 <p>Still using the analytics database because that&rsquo;s what&rsquo;s in prod; but then they pull data out using Sqoop and store it in HDFS. That&rsquo;s the last time they have to deal with the prod database, which is incredible! And so the Spark cluster can do lookups against HDFS (automated with Luigi, for error checking) and train the model with Spark ML.</p>
 <p>They do remote development with Jupyter, claiming that most criticisms of notebooks are things you <em>could</em> do, not things you <em>must</em> do. Reliance on their tools to enforce good development practices is a sign that your development practices probably aren&rsquo;t very good. Good development practices are independent of tools.</p>
@@ -184,7 +184,7 @@
 </ul>
 <p><strong>What works</strong>: faster, failures restart in the middle (the last time you saved to HDFS), reducing burden on the production database, being able to redesign experiments at will, decoupled training and execution environment via MLeap.</p>
 <p><strong>What doesn&rsquo;t work</strong>: Spark tuning is a pain, and non-deterministic Spark ML behavior can be difficult. And Spark pipelines depend on configurations that change based on the input data. They can&rsquo;t go back and recreate a historical model because they don&rsquo;t have access to the historical configuration and state of the data.</p>
-<h2 id="tools">Tools</h2>
+<h2 id="tools"><a class="not-rich" href="#tools"><i class="fas fa-link"></i></a> Tools</h2>
 <p>Repeating the governance questions:</p>
 <ul>
 <li>which model are you using? why?</li>

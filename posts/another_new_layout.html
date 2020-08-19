@@ -142,7 +142,7 @@
     </div>
     <div class="rich-text" itemprop="articleBody">
       <p>My homepage has been given a new look&mdash;still Hugo, but now powered by my own custom layout and Tailwind CSS. This post is a technical dive into the process of rebuilding it.</p>
-<h2 id="why-change">Why change?</h2>
+<h2 id="why-change"><a class="not-rich" href="#why-change"><i class="fas fa-link"></i></a> Why change?</h2>
 <p>Let me quote myself from six months ago, in my post <a href="/posts/migrating_to_hugo.html">Migrating to Hugo</a>:</p>
 <blockquote>
 <p>The specific moment when I chose to switch came when I tried redesigning my homepage a few days ago. I wanted to automatically generate my homepage and create a two-column layout (like the one you see on this site now, but without the right side). Sounds simple enough, right? It&rsquo;s easy enough to generate the content by (loosely speaking) iterating over the source directories, pulling the first few sentences from each post, and sorting the posts. <strong>The layout, though, &hellip; ouch! A few hours into experimenting with flexboxes and I was ready to delete my entire website.</strong></p>
@@ -151,7 +151,7 @@
 <p>So what changed?</p>
 <p>The answer, at the risk of sounding like a shill, was <a href="tailwindcss.com/">Tailwind CSS</a>. I can honestly say that it feels like what CSS has been missing all this time. I&rsquo;m sure it has its flaws, and I had some trouble myself that I&rsquo;ll expand upon below. But using Tailwind made making the layout of my site <em>much</em> easier than possible before.</p>
 <p>(I&rsquo;ve read some strong opinions on <a href="https://www.browserlondon.com/blog/2019/06/10/functional-css-perils/">the perils of functional CSS</a> or <a href="https://old.reddit.com/r/Frontend/comments/8c2mt3/in_defense_of_utilityfirst_css/">which style of CSS to use</a> or <a href="https://blog.logrocket.com/tailwind-css-is-it-tomorrows-bootstrap-ebe560f9d00b/">Tailwind vs. Bootstrap</a>. And my <a href="https://joonpark.me/">roommate</a> tells me that Tailwind seems reasonable, but folks in industry will use some kind of CSS-in-JS framework, like <a href="https://styled-components.com/">Styled Components</a> or <a href="https://github.com/emotion-js/emotion">Emotion</a> because they integrate better with other tools like React. I&rsquo;m sure all of these opinions are valid, but the nuances of these different frameworks don&rsquo;t really matter to me, as someone whose primary expertise is in data science!)</p>
-<h2 id="building-the-layout">Building the layout</h2>
+<h2 id="building-the-layout"><a class="not-rich" href="#building-the-layout"><i class="fas fa-link"></i></a> Building the layout</h2>
 <p>Building the layout itself was just a single weekend&rsquo;s work. I originally timeboxed two days for &ldquo;messing around&rdquo;: trying out Tailwind, building a mockup of a new layout, and scoping out the effort it would take to move my website over. But by Sunday night, I was 90% of the way done!</p>
 <p>One thing that made this easy was <strong>Hugo&rsquo;s organization</strong>. Having all of my site&rsquo;s content live in the <code>content</code> directory, independent of any styles or layout, makes sense from a separation-of-responsibilities perspective. But it also made iterating a lot easier, because I already knew what the end goal was (to have all of my posts displayed nicely). It meant that I didn&rsquo;t have to write any lorem ipsum placeholders or worry about how things would look when it was live; my writing was all already there.</p>
 <p>Loosely speaking, my process consisted of copying the templates from the <a href="https://github.com/xiaoheiAh/hugo-theme-pure">Pure theme</a> into a new directory, stripping out the class names and CSS, and rebuilding the CSS from scratch.</p>
@@ -165,19 +165,19 @@
 <li>style the sidebar</li>
 <li>tweak these until I was happy</li>
 </ul>
-<h2 id="responsiveness">Responsiveness</h2>
+<h2 id="responsiveness"><a class="not-rich" href="#responsiveness"><i class="fas fa-link"></i></a> Responsiveness</h2>
 <p>The other reason that I chose Tailwind was because responsiveness is <a href="https://tailwindcss.com/docs/responsive-design">tightly integrated</a> into the framework. I had messed around with <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries">media queries</a> before, but writing them manually was not appealing at all.</p>
 <p>Tailwind makes this easy. To make an element pink on small screens and blue on large screens, you&rsquo;d do <code>class=&quot;pink lg:blue&quot;</code>, which says that &ldquo;once the screen is past the &lsquo;large&rsquo; size, make the element blue.&rdquo; You&rsquo;ll notice that the sidebar disappears on smaller screens, and the upper navigation bar becomes more compact as well. This took a little bit of fiddling around, but I&rsquo;m mostly happy with the result.</p>
-<h2 id="integrating-tailwind-with-hugo">Integrating Tailwind with Hugo</h2>
+<h2 id="integrating-tailwind-with-hugo"><a class="not-rich" href="#integrating-tailwind-with-hugo"><i class="fas fa-link"></i></a> Integrating Tailwind with Hugo</h2>
 <p>This was the hardest part of the whole migration. There are a <a href="https://github.com/dirkolbrich/hugo-theme-tailwindcss-starter">couple</a> / <a href="https://github.com/pdlug/hugo-tailwind-boilerplate">resources</a> about how to integrate Tailwind with Hugo, but these were pretty rough to get started with.</p>
 <p>Tailwind&rsquo;s own documentation, while amazing for styling, wasn&rsquo;t helpful for this task. The vibe that I get from Tailwind is that there&rsquo;s one &ldquo;right&rdquo; way to do everything, and that it&rsquo;s suited for true web applications&mdash;not really static sites, and not really sites with Markdown content. That&rsquo;s not that bad; it&rsquo;s okay for tools to be opinionated. But it did make it harder to get started.</p>
 <p>The end result is something that you can see in my <a href="https://github.com/tuchandra/sitev2/tree/master/themes/windy/"><code>themes/windy</code></a> directory. Loosely, <code>tailwind.config.js</code> and <code>postcss.config.js</code> are boilerplate, <code>assets/css/app.css</code> is where the magic happens, and <code>layouts/partials/head.html</code> dynamically uses <a href="https://gohugo.io/hugo-pipes/">Hugo Pipes</a> to figure out what CSS file to call. How these pieces all interact is still a little bit of a mystery to me, so I might write more when I understand it better!</p>
-<h2 id="typography">Typography</h2>
+<h2 id="typography"><a class="not-rich" href="#typography"><i class="fas fa-link"></i></a> Typography</h2>
 <p>This was another pain point. Because almost all of my content is generated from Markdown files (that&rsquo;s how Hugo works), I wasn&rsquo;t able to style it the same way that I was able to style the layouts (that is, directly in the templates).</p>
 <p>And nor did I want to! Styling every post would be silly; this is what CSS classes were made for.</p>
 <p>I found a <a href="https://github.com/tailwindcss/typography">WIP Tailwind plugin</a> for sensible defaults for rich text (demo <a href="https://pensive-agnesi-f6bc76.netlify.app/">here</a>). It isn&rsquo;t ready for actual use, though, and it was highly unclear how to make it work.</p>
 <p>I tried copying down the <code>index.js</code> file and importing it in <code>tailwind.config.js</code> and my <code>app.css</code> files, but neither succeeded. I tried dropping the contents of <code>index.js</code> into <code>tailwind.config.js</code> directly, and that failed too. Eventually, I went to the demo page and just ripped the generated CSS from there. It lives in my <a href="https://github.com/tuchandra/sitev2/blob/master/themes/windy/assets/css/app.css"><code>app.css</code></a> file.</p>
-<h2 id="whats-next">What&rsquo;s next?</h2>
+<h2 id="whats-next"><a class="not-rich" href="#whats-next"><i class="fas fa-link"></i></a> What&rsquo;s next?</h2>
 <p>There are a couple of improvements that I want to make. I&rsquo;ve wanted these for a while, but it&rsquo;s only now that I feel <em>capable</em> of making them. I feel this way because I finally have control over the layout and all the different parts of my toolchain!</p>
 <p>I&rsquo;m hoping to add:</p>
 <ul>

@@ -148,7 +148,7 @@
 <p><strong>Authors</strong>: Sean Augenstein, Brendan McMahan, Daniel Ramage, Swaroop Ramaswamy, Peter Kairouz, Mingqing Chen, Rajiv Mathews, Blaise Aguera-Arcas (Google)</p>
 <p><strong>Link</strong>: on <a href="https://research.google/pubs/pub48690/">Google Research</a> or <a href="https://arxiv.org/pdf/1911.06679.pdf">arXiv</a></p>
 <p>Why this paper? I&rsquo;m starting a weekly reading club with my friend <a href="https://judahgnewman.com/">Judah Newman</a>, and this was the first one that we picked.</p>
-<h2 id="background">Background</h2>
+<h2 id="background"><a class="not-rich" href="#background"><i class="fas fa-link"></i></a> Background</h2>
 <p>When building and debugging machine learning models, it&rsquo;s common to manually inspect raw data. Just today, I looked at raw data in order to:</p>
 <ul>
 <li>see what one batch of data looked like</li>
@@ -198,7 +198,7 @@
 </blockquote>
 <p>This paper presents a research agenda to address this problem. &ldquo;We demonstrate that generative models&mdash;trained using federated methods and with formal differential privacy guarantees&mdash;can be used to effectively debug data issues even when the data cannot be directly inspected.&rdquo;</p>
 <p>Sounds &hellip; too good to be true? My immediate skepticism is that the results from this paper are only useful in an academic setting, and not an industry one. Let&rsquo;s dig in.</p>
-<h2 id="approach">Approach</h2>
+<h2 id="approach"><a class="not-rich" href="#approach"><i class="fas fa-link"></i></a> Approach</h2>
 <p>&ldquo;How can a modeler effectively debug when training data is privacy sensitive or decentralized?&rdquo; the authors write. How, indeed?</p>
 <p>The idea, simply put, is that:</p>
 <ul>
@@ -210,19 +210,19 @@
 <p><strong>Why generative models?</strong> Well, if you don&rsquo;t <em>have</em> to use real user data, then perhaps synthetic data that&rsquo;s &ldquo;close enough&rdquo; will work. The generative models here are based on neural nets (&ldquo;deep generative models&rdquo;).</p>
 <p><strong>Why federated learning?</strong> (Or why decentralized data?) The generative models are trained on edge devices (e.g., user phones), so that raw user data never leaves them. Model updates, not data, are sent to a central server, which trains a global model.</p>
 <p><strong>Why differential privacy?</strong> Because deep generative models (and other ML models) can memorize training examples and leak personal information. This paper uses user-level DP, which is &ldquo;per-user update clipping and post-aggregation Gaussian noising.&rdquo; So, uh, clip extreme values and add noise?</p>
-<h2 id="application-1-debugging-an-rnn">Application 1: debugging an RNN</h2>
+<h2 id="application-1-debugging-an-rnn"><a class="not-rich" href="#application-1-debugging-an-rnn"><i class="fas fa-link"></i></a> Application 1: debugging an RNN</h2>
 <p>Consider an Android keyboard app that uses a word-RNN to offer next-word predictions. The app takes raw text, tokenizes and normalizes it, then passes these words as input to the RNN. The RNN has a fixed vocabulary, and any other words are marked as out-of-vocabulary. Training happens on-device via federated learning.</p>
 <p>Suppose there&rsquo;s a bug in tokenization that causes a spike in out-of-vocabulary rates. You&rsquo;d feasibly notice the spike, but you can&rsquo;t inspect the data (it is local to the user device).</p>
 <p>They simulate this with a dataset of StackOverflow questions and answers (where all posts by author X are treated as a user), then artificially introduce a tokenization bug. What do you do?</p>
 <p>You build an auxiliary model, apparently, which is a character-level RNN trained only on out-of-vocabulary words. Because RNNs are generative models, you can draw samples from them to help debug the tokenization issue.</p>
 <p>That sounds like a pretty specific use case: a natural language model, using RNNs, with edge learning. I can&rsquo;t decide whether the example is contrived or natural, which is weird.</p>
-<h2 id="application-2-debugging-gans-during-inference">Application 2: debugging GANs during inference</h2>
+<h2 id="application-2-debugging-gans-during-inference"><a class="not-rich" href="#application-2-debugging-gans-during-inference"><i class="fas fa-link"></i></a> Application 2: debugging GANs during inference</h2>
 <p>GANs (generative adversarial networks) consist of a generator and a discriminator that are trained together. The generator tries to create content (images) that the discriminator can&rsquo;t tell from real content; the discriminator tries to tell them apart.</p>
 <p>&ldquo;We can take the GAN training framework and adapt it to FL and DP,&rdquo; they claim. The generator&rsquo;s training does not require user data, so it can be trained like normal on a central server. The generator&rsquo;s loss is a function of the discriminator, too, so if the <em>discriminator</em> is trained with differential privacy, then the generator will be as well.</p>
 <p>The experiment here was to &ldquo;monitor an on-device handwriting classification network being used for inference.&rdquo; Consider a banking app that lets users take pictures of checks to deposit. The images are processed on-device with a pre-trained CNN.</p>
 <p>Suppose that a bug is introduced in preprocessing; a metric about how often users correct the algorithm&rsquo;s output spikes, indicating that there is <em>a</em> problem but not what it is. The data cannot be inspected because it&rsquo;s sensitive (images of checks).</p>
 <p>The solution here is to train two (DP, federated) GANs: one on a subpopulation of users for whom the model performs well, and one on whom it performs poorly. Because the generators are private, inspecting the generated images on both populations would reveal the bug that it was learning.</p>
-<h2 id="closing-thoughts">Closing thoughts</h2>
+<h2 id="closing-thoughts"><a class="not-rich" href="#closing-thoughts"><i class="fas fa-link"></i></a> Closing thoughts</h2>
 <p>I like this a lot! The approach really doesn&rsquo;t seem that out there&mdash;use generative models as a stand-in for user data, and pick your generative models in a clever way so that they&rsquo;re useful.</p>
 <p>I think it would be really interesting to try to train a machine learning model from start to finish without being able to inspect the data. Building a model might be easy enough, but you&rsquo;d have to worry about things like target leakage, performance in production, and who knows what else.</p>
 <p>Differential privacy is becoming more important at my company, and reading this paper gives me a lot of ideas. Suppose we were modeling TV viewing by our TV panelists (we&rsquo;re not, but suppose &hellip;). To preserve their privacy, we might try generating synthetic panelists and modeling how they would view, instead of the real panelists.</p>

@@ -148,13 +148,13 @@
       <p>Computational notebooks are one of the most common tools in the data science world, but they are not without their limitations. This paper studies pain points and design opportunities for notebooks as used by professional data scientists.</p>
 <p><strong>Authors</strong>: Souti Chattopadhyay, Ishita Prasad, Austin Z. Henley, Anita Sarma, Titus Barik</p>
 <p><strong>Link</strong>: <a href="https://dl.acm.org/doi/abs/10.1145/3313831.3376729">ACM Digital Library</a></p>
-<h2 id="background">Background</h2>
+<h2 id="background"><a class="not-rich" href="#background"><i class="fas fa-link"></i></a> Background</h2>
 <p>Computational notebooks&mdash;Jupyter, Databricks, Colab, nteract, etc. &hellip; but mainly Jupyter&mdash;are extremely popular in data science. They have flaws: that out-of-order execution is weird and unintuitive, that they don&rsquo;t easily facilitate normal software engineering best practices like version control and dependency management, and more. But the &ldquo;literate programming&rdquo; model of having code, text, and visualizations all in the same place is nonetheless powerful.</p>
 <p>This work investigates the pain points and needs of data scientists who work within notebooks; its central contribution is &ldquo;a taxonomy of validated pain points across data scientists&rsquo; notebook activities.&rdquo; From the abstract:</p>
 <blockquote>
 <p>Our findings suggest that data scientists face numerous pain points throughout the entire workflow—from setting up notebooks to deploying to production—across many notebook environments. Our data scientists report essential notebook requirements, such as supporting data exploration and visualization. The results of our study inform and inspire the design of computational notebooks.</p>
 </blockquote>
-<h2 id="summary-of-pain-points">Summary of pain points</h2>
+<h2 id="summary-of-pain-points"><a class="not-rich" href="#summary-of-pain-points"><i class="fas fa-link"></i></a> Summary of pain points</h2>
 <p>The authors observed 5 data scientists at Microsoft and watched them do normal work, and they interviewed 15 others. The survey was sent to 156 data scientists across different companies. The table of pain points is reproduced below:</p>
 <table>
 <thead>
@@ -212,7 +212,7 @@
 </tr>
 </tbody>
 </table>
-<h2 id="highlights">Highlights</h2>
+<h2 id="highlights"><a class="not-rich" href="#highlights"><i class="fas fa-link"></i></a> Highlights</h2>
 <p>The full paper is worth reading, but the majority of it is essentially a laundry list of already-summarized difficulties, so I&rsquo;ll just pick out a few here.</p>
 <p>One interview paricipant mentionded that writing code in notebooks was challenging, since the notebook offered almost no assistance that traditional IDEs do (autocomplete, documentation, etc.). There&rsquo;s likewise no <em>standard</em> way to test code in notebooks, so this leads to difficulties and inconsistencies.</p>
 <p>Debugging experiences were mixed&mdash;on one hand, the shared global state can make debugging easier, since you can throw the contents of a broken function into the top-level global scope and use interactivity to figure out what went wrong. On the other hand, a shared global scope is super dangerous, and <code>pdb</code> inside Jupyter is miserable (e.g., not being able to use the up arrow to get the last command!).</p>
@@ -221,16 +221,16 @@
 <blockquote>
 <p>In contrast to version control typically found in software engineering systems (git), preserving the history of artifacts is also important to data scientists. Novel innovations in the notebook space are required to support these unique requirements. For example, Head and colleagues [13] found that data scientists do not want to spend up-front effort in managing code versions or organizing their code, and that data scientists prefer automated approaches to version control management. Some notebook environments, such as Nextjournal9, attempt to address this need by automatically and periodically versioning the notebook, data, and full runtime environment.</p>
 </blockquote>
-<h2 id="the-cost-of-abstraction">The cost of abstraction</h2>
+<h2 id="the-cost-of-abstraction"><a class="not-rich" href="#the-cost-of-abstraction"><i class="fas fa-link"></i></a> The cost of abstraction</h2>
 <p>I think this paper gets at a tricky balance that notebook developers and users are grappling with: to what extent should notebooks make things &ldquo;easier&rdquo; at the expense of them being &ldquo;incorrect&rdquo;?</p>
 <p>To use a concrete example: notebooks let you run cells out of order. This is helpful when you make a change and want to re-run previous code. This can also spiral out of control and lead to unmanageable, messy state. But the people who like notebooks probably like them precisely because they facilitate doing things that &ldquo;normal&rdquo; tools don&rsquo;t.</p>
 <p>Another one is running one notebook inside another using the `%run% magic. This is literally <em>called magic</em>&mdash; that might tip you off that you really shouldn&rsquo;t be doing this&mdash;but at the same time, it&rsquo;s convenient and reduces the requirement to understand how modules and packages work in Python.</p>
 <p>Notebooks do a lot to lower the barrier to entry to programming&mdash;&ldquo;here, just go to this page in Chrome!&quot;&mdash;but they introduce a lot of faulty abstractions and incorrect models along the way. To what extent are these acceptable? Do they harm learning in the long run, or are they worth it for making programming more accessible? How much does this depend on the audience (professional data scientists, which this paper studied, vs. people trying to learn programming)?</p>
-<h2 id="design-opportunities">Design opportunities</h2>
+<h2 id="design-opportunities"><a class="not-rich" href="#design-opportunities"><i class="fas fa-link"></i></a> Design opportunities</h2>
 <p>Data scientists reported that proper coding assistance within notebooks was &ldquo;almost non-existent,&rdquo; as discussed above. The Python for VS Code team has done a great job at <a href="https://code.visualstudio.com/docs/python/jupyter-support">supporting Jupyter notebooks natively</a> within VS Code, but inconsistency between the VS Code Jupyter and Jupyter itself poses its own challenges.</p>
 <p>Deploying notebooks is a challenge, too; deployment is one of my personal blind spots, and heavy use of notebooks makes it harder to productionalize code. Data scientists, the authors find, generally desire &ldquo;push-button approaches&rdquo; for deployment. This sets off alarm bells&mdash;running real software is <em>hard</em>, and sending a notebook off into the wild seems like a terrible idea. But that&rsquo;s the same question about the cost of abstraction that I wrote about above.</p>
 <p>This work focused on professional data scientists (hi!). It may not generalize to hobbyists, educators or students, or other kinds of programmers. This also focused on Jupyter notebooks, since most participants used those, and in my experience when people hear &ldquo;notebooks&rdquo; they think of Jupyter &hellip; but there are other notebook ecosystems out there.</p>
-<h2 id="reflections">Reflections</h2>
+<h2 id="reflections"><a class="not-rich" href="#reflections"><i class="fas fa-link"></i></a> Reflections</h2>
 <p>It&rsquo;s funny how a paper using interviews and surveys can be called &ldquo;a systematic mixed-method study using field observations, semi-structured interviews, and a confirmation survey with data science practitioners.&rdquo; Academic writing.</p>
 <p>I was pleased to see the authors address construct validity at the end of the paper. The question of &ldquo;are we studying the right thing?&rdquo; is a useful one to ask, and the authors are confident that they were from (1) calculating inter-rater reliability, (2) using a survey to link interviews and field results, and (3) discussing findings with a few other data scientists and notebook developers.s</p>
 <p>From reading all these papers, I&rsquo;m also starting to see a lot of common themes in how this kind of research goes: using Cohen&rsquo;s kappa for inter-rater agreement when coding interviews, using Likert scales for surveys, specifying recruitment for study particpiants, and more. The important consequence of this is that it makes reading the papers faster, because I don&rsquo;t have to spend time thinking about those parts anymore. Growth!</p>

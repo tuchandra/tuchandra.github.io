@@ -142,7 +142,7 @@
     </div>
     <div class="rich-text" itemprop="articleBody">
       <p>The morning keynotes were more Databricks-focused; topics included updates to the Databricks workspace environment, new and upcoming features in MLflow (and that it&rsquo;s joining the Linux Foundation!), and demos on &ldquo;responsible AI&rdquo; from Microsoft.</p>
-<h2 id="the-next-generation-databricks-workspace">The next generation Databricks workspace</h2>
+<h2 id="the-next-generation-databricks-workspace"><a class="not-rich" href="#the-next-generation-databricks-workspace"><i class="fas fa-link"></i></a> The next generation Databricks workspace</h2>
 <p><strong>Speakers</strong>: Clemens Mewald, Lauren Richie</p>
 <p>Databricks announced a lot of changes to their platform, working towards a more mature editing environment that&rsquo;s more than just &ldquo;here are your notebooks.&rdquo; These include:</p>
 <ul>
@@ -153,7 +153,7 @@
 </ul>
 <p>I didn&rsquo;t pay too much attention to this&mdash;I try to avoid working in notebooks where possible&mdash;but objectively, these are great changes for the platform. First class Git support is great to see.</p>
 <p>They gave a great demo of opening a notebook in a feature branch (not possible before), making comments and working collaboratively with a teammate (kind of possible before), and scheduling the notebook as a cron job. They deployed the now-automatically-updating forecast as a dashboard for imaginary stakeholders, too, which was great.</p>
-<h2 id="simplifying-model-development-and-management-with-mlflow">Simplifying Model Development and Management with MLflow</h2>
+<h2 id="simplifying-model-development-and-management-with-mlflow"><a class="not-rich" href="#simplifying-model-development-and-management-with-mlflow"><i class="fas fa-link"></i></a> Simplifying Model Development and Management with MLflow</h2>
 <p><strong>Speakers</strong>: Matei Zaharia, Sue Ann Hong</p>
 <p>This started as a pitch for MLflow, talking about what it is and what its use cases are. The major announcement was that <strong>MLflow is joining the Linux Foundation</strong>! That&rsquo;s huge and totally unexpected. (See the <a href="https://databricks.com/blog/2020/06/25/mlflow-joins-the-linux-foundation-to-become-the-open-standard-for-machine-learning-platforms.html">Databricks blog post</a> and the <a href="https://www.linuxfoundation.org/press-release/2020/06/the-mlflow-project-joins-linux-foundation/">Linux foundation blog post</a>).</p>
 <p>Another major feature announced is <strong>autologging</strong>, which helps make note of data versions (I think). I didn&rsquo;t understand this as much, but I&rsquo;m excited to come back to it. They showed an example of how you can clone a model run exactly by making use of data versioning and better environment management.</p>
@@ -161,7 +161,7 @@
 <p><strong>MLflow model registry tags</strong> let you add metadata to models in the reigstry (e.g., <code>passed_gdpr_review</code>, <code>passed_performance_test</code>), and this is possible through both the UI and API (so it can integrate with CI).</p>
 <p>Finally, the <strong>MLflow deployments API</strong> helps to manage depoyments in RedisAI and GCP (for now), and eventually K8s, AWS SageMaker, and Azure ML. Within the Databricks platform, you can deploy models from the registry, too. Cool!</p>
 <p>There was a cute demo making use of these tools that included puppies. Yay!</p>
-<h2 id="responsible-ml--bringing-accountability-to-data-science">Responsible ML – Bringing Accountability to Data Science</h2>
+<h2 id="responsible-ml--bringing-accountability-to-data-science"><a class="not-rich" href="#responsible-ml--bringing-accountability-to-data-science"><i class="fas fa-link"></i></a> Responsible ML – Bringing Accountability to Data Science</h2>
 <p><strong>Speakers</strong>: Rohan Kumar and Sarah Bird (Microsoft)</p>
 <p>This talk was about Microsoft&rsquo;s approach to responsible AI. It started off with surface level explanations of what interpretable and explainable AI are, along with different tools Microsoft offers to help with these.</p>
 <p>Dr. Bird gave a demo afterwards, showing how tools from one of Microsoft&rsquo;s responsible AI toolkit can do things like post-hoc analysis and force demographic parity at training or testing time. Pretty surface level and definitely cherrypicked, but that&rsquo;s every keynote.</p>

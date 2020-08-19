@@ -142,7 +142,7 @@
     </div>
     <div class="rich-text" itemprop="articleBody">
       <p>My work Macbook had to be sent in for repair, and the hard drive got wiped. I documented all the steps I took to set it up again. You can use this as a starting point for setting up a new machine, and so can I if I need to do this again soon!</p>
-<h2 id="system-preferences-and-settings">System preferences and settings</h2>
+<h2 id="system-preferences-and-settings"><a class="not-rich" href="#system-preferences-and-settings"><i class="fas fa-link"></i></a> System preferences and settings</h2>
 <p>Went to System Preferences &gt; Keyboard &gt; Modifier Keys to switch Option and Command on the Dell USB keyboard that I use, since by default the key closer to the spacebar was option (unlike the native Mac keyboard).</p>
 <p>Disabled Cisco AnyConnect on startup because it was annoying me (<a href="https://apple.stackexchange.com/questions/202296/stop-cisco-anyconnect-secure-mobility-client-from-starting-up-automatically">source</a>).</p>
 <p>Allowed any apps that I download to be run, since Catalina is very protective. The command was <code>sudo spctl --master-disable</code>, from <a href="https://github.com/hashicorp/terraform/issues/23033">here</a>.</p>
@@ -151,7 +151,7 @@
 <p>Changed the name of the computer (command <code>sudo scutil --set HostName &lt;new name&gt;</code>).</p>
 <p>Signed into Google Chrome, then Slack (via Google). Reconfigured the color scheme and downloaded the desktop client.</p>
 <p>Signed into Facebook Messenger and Android Messages.</p>
-<h2 id="software-downloads-and-setup">Software downloads and setup</h2>
+<h2 id="software-downloads-and-setup"><a class="not-rich" href="#software-downloads-and-setup"><i class="fas fa-link"></i></a> Software downloads and setup</h2>
 <p>Installed <a href="https://pilotmoon.com/scrollreverser/">Scroll Reverser</a> so that my USB mouse scrolled the right way.</p>
 <p>Installed <a href="https://software.sil.org/ukelele/">Ukelele</a> to create a custom keyboard layout; I have underscore and hyphen swapped, so pressing that key gives an underscore. I also have most of my option + letter combinations mapped to Greek letters. I created the layout, saved it, and copied it to /Library/Keyboard Layouts (<a href="https://superuser.com/questions/665494/how-to-make-a-custom-keyboard-layout-in-os-x">source</a>).</p>
 <p>Installed <a href="https://github.com/gohugoio/hugo/releases">Hugo</a> for my website.</p>
@@ -160,7 +160,7 @@
 <p>Installed ITerm2 and my .zshrc (backed up from my old computer). Enabled ITerm2 &gt; Preferences &gt; Profiles &gt; Keys &gt; Load Preset &gt; Natural Text Editing to let me use combinations like option+backspace in the terminal.</p>
 <p>Installed <a href="https://github.com/daleroberts/itermplot">itermplot</a> to plot inline in my terminal.</p>
 <p>Installed <a href="https://github.com/b-ryan/powerline-shell">powerline-shell</a>, downloaded and installed a <a href="https://gist.github.com/kevin-smets/8568070">patched font</a>, and enabled it via ITerm2 &gt; Preferences &gt; Profiles &gt; Text &gt; Change Font. Changed the powerline-shell config, which I generated with <a href="https://github.com/b-ryan/powerline-shell#config-file">these instructions</a>, then removed my username and hostname from the default setup.</p>
-<h2 id="environment-and-code-setup">Environment and code setup</h2>
+<h2 id="environment-and-code-setup"><a class="not-rich" href="#environment-and-code-setup"><i class="fas fa-link"></i></a> Environment and code setup</h2>
 <p>Installed <a href="https://docs.conda.io/en/latest/miniconda.html">Miniconda</a>.</p>
 <p>Cloned my project repo for work. Created a conda environment for the project.</p>
 <p>Set up my SSH keys: ran <code>ssh-keygen</code>, added it to work Bitbucket, added it to personal Github, added it to our team&rsquo;s training box. To do this, I sent my public key to a different computer that had access, saved it to a file, then ran <code>cat that_key_file | ssh tushar@wherever &quot;cat &gt;&gt; ~/.ssh/authorized_keys&quot;</code> to put it on the machine. Added an alias to <code>~/.ssh/config</code>.</p>

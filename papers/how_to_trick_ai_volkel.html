@@ -148,13 +148,13 @@
       <p>Suppose you were talking to a chatbot who was trying to infer your personality. To what extent would you be able to fake a personality and trick the bot? That&rsquo;s the central question in this paper by Völkel et al., which gets at deep questions about the transparency of and ethics behind computing systems.</p>
 <p><strong>Authors</strong>: Sarah Theres Völkel, Renate Haeuslschmid, Anna Werner, Heinrich Hussmann, Andreas Butz</p>
 <p><strong>Link</strong>: <a href="https://dl.acm.org/doi/abs/10.1145/3313831.3376877">ACM Digital Library</a></p>
-<h2 id="background">Background</h2>
+<h2 id="background"><a class="not-rich" href="#background"><i class="fas fa-link"></i></a> Background</h2>
 <p>Computing systems that infer individuals&rsquo; personalities are increasingly common. Like many computing technologies, it has great promise, for boosting interpersonal understanding or development, but also great risk&mdash;of typecasting, discriminating, or manipulating them. One famous example is the <em>Cambridge Analytica</em> scandal, which allegedly inferred personalities of Facebook users to figure out how best to advertise to them.</p>
 <p>The authors take an approach typically found in the adversarial machine learning space and apply it here, asking the question: <strong>to what extent are people able to trick personality assessment chatbots?</strong> This motivated a multi-stage user study:</p>
 <blockquote>
 <p>In the first interaction, we asked participants <strong>to interact naturally</strong> with the chatbot in order to capture their actual personality (baseline profile). In the second interaction, participants were framed with a data privacy and protection story and were asked to try <strong>to disguise their personality</strong> from the chatbot (falsified profile) &hellip; We asked participants about which aspects of the chat they believed were factored in the personality assessment, and how they could disguise their actual personality. We collected 41 personality disguise strategies and assessed their efficacy.</p>
 </blockquote>
-<h2 id="methods">Methods</h2>
+<h2 id="methods"><a class="not-rich" href="#methods"><i class="fas fa-link"></i></a> Methods</h2>
 <p>The authors used the well-known OCEAN model (openness, conscientiousness, extraversion, agreeableness, neuroticism) for personality. They used a commercial personality assessment chatbot named <a href="https://juji.io/">Juji</a>, and &ldquo;one chatbot interaction contained three customer service scenarios: solving smartphone issues, booking holidays and buying a backpack.&rdquo; Each scenario was designed to take around 15 minutes.</p>
 <p>The study proceeded in three stages:</p>
 <ul>
@@ -163,7 +163,7 @@
 <li>Participants took the BFI-2 questionnaire for a &ldquo;true&rdquo; assessment of their personalities</li>
 </ul>
 <p>The researchers interviewed the participants before the first chatbot interaction, between the two interactions, and after the second interaction. A primary goal was to gain insight into the participants&rsquo; mental models of how the chatbot assessed personality.</p>
-<h2 id="how-well-could-they-trick-the-chatbot">How well could they trick the chatbot?</h2>
+<h2 id="how-well-could-they-trick-the-chatbot"><a class="not-rich" href="#how-well-could-they-trick-the-chatbot"><i class="fas fa-link"></i></a> How well could they trick the chatbot?</h2>
 <p>This figure shows the extent to which each participant&rsquo;s BFI-2 (grey), chatbot-actual (blue) and chatbot-falsified (red) personality profiles differed. The largest web in the bottom-right shows the mean over all participants.</p>
 <p><figure>
     <img src="how_to_trick_ai_volkel_img1.jpg"/> 
@@ -172,26 +172,26 @@
 <p>(This figure is harmed by how information-rich it tries to be; the colored lines are too thin for a colorblind person to make out.)</p>
 <p>First off, the chatbot was generally not accurate: it &ldquo;consistently calculated high values for extraversion, agreeableness, and neuroticism but low values for openness and conscientiousness for all participants.&rdquo;</p>
 <p>Participants were able to influence these (already inaccurate) predictions by an average absolute value of 5 - 10%. Note that in the &ldquo;average of all&rdquo; diagram at the bottom-right of the figure, it looks like there was no difference because the positive and negative differences averaged out.</p>
-<h2 id="tricking-strategies">Tricking strategies</h2>
+<h2 id="tricking-strategies"><a class="not-rich" href="#tricking-strategies"><i class="fas fa-link"></i></a> Tricking strategies</h2>
 <p>I&rsquo;m going to copy the author&rsquo;s summary here because I can&rsquo;t make it any more concise:</p>
 <blockquote>
 <p>Participants assumed that the chatbot would factor in <em>specific keywords</em>, which the user mingles in the text (n=15), the <em>text length</em> (n=16), <em>topics, interests and preferences</em> about which the user talks (n=10) as well as the <em>elaborateness and detailedness</em> of these texts (n=11), what users report as being their (usual) <em>behaviour</em> (n=11), the amount of <em>provided information</em> and the conversation dynamics doing so (n=10), and the users’ time needed to write a response (n=12). In contrast, the most applied strategies are <em>varying the text length</em> (n=12), <em>punctuation style, elaborateness and detailedness</em> of the text, and writing <em>opposites</em> to what would be replied usually (n=6 each).</p>
 </blockquote>
 <p>The researchers asked the participants if they could imagine applying these in everyday life (i.e., outside a lab setting). Six said they might change online behavior to &ldquo;provide less data,&rdquo; especially in cases where the user of the data or purpose of the assessment is unknown. Some expressed fears about being discovered (e.g., if attempting to trick a job interview chatbot).</p>
 <p>Why wouldn&rsquo;t participants attempt to trick a system? Because it was too exhausting, because they would forget about it, or because they had no reason to, many said.</p>
-<h2 id="attitudes">Attitudes</h2>
+<h2 id="attitudes"><a class="not-rich" href="#attitudes"><i class="fas fa-link"></i></a> Attitudes</h2>
 <p>At first, 13 of 21 participants had a neutral attitude towards automatic personality assessment systems, 3 had a positive attitude, and 5 had a negative attitude. This did not change much after the study (two participants were more negative). Most mentioned that their attitude towards such systems would depend on their application.</p>
 <p>Most (20) participants identified &ldquo;commercial and personalisation purposes&rdquo; (advertising and marketing) as a setting in which they&rsquo;d encounter a system like this. Eight suggested that it might be used for psychotherapy or other support. Many were concerned about their privacy (5) or data (7).</p>
 <p>Perhaps most importantly, <strong>&ldquo;participants were hardly aware that such assessments may happen without their awareness.&quot;</strong> One didn&rsquo;t think that it was possible to assess personality in this way, and six expressed general discomfort about these systems.</p>
-<h2 id="reflections-and-thoughts">Reflections and thoughts</h2>
+<h2 id="reflections-and-thoughts"><a class="not-rich" href="#reflections-and-thoughts"><i class="fas fa-link"></i></a> Reflections and thoughts</h2>
 <p>I keep connecting this paper to <a href="https://en.wikipedia.org/wiki/Adversarial_machine_learning">adversarial machine learning</a> in my head, in which one attempts to fool a model through &ldquo;adversarial&rdquo; (malicious, invalid, or tainted input). This work makes the <em>users</em> the adversary, which I find extremely cool.</p>
 <p>Putting users at the center forces us to confront important questions about people&rsquo;s mental models of these systems. The extent to which people are able to trick a personality assessment chatbot will likely depend on how much they know about how it works.</p>
 <p>On the whole, participants were not very successful at tricking the chatbot. The authors believe one reason to be that participants were only able to vary a couple of things at once&mdash;while they could try to e.g., be more friendly or use more swear words, the mental burden of changing their <em>entire personality</em> at once was too much.</p>
-<h3 id="also-the-chatbot-did-poorly">Also, the chatbot did poorly</h3>
+<h3 id="also-the-chatbot-did-poorly"><a class="not-rich" href="#also-the-chatbot-did-poorly"><i class="fas fa-link"></i></a> Also, the chatbot did poorly</h3>
 <p>It&rsquo;s also worth calling out that the chatbot in question didn&rsquo;t even do a good job! It overpredicted extraversion, agreeableness, and neuroticism, and underpredicted conscientiousness and openness. The authors call this &ldquo;of secondary interest,&rdquo; since they were most interested in the changes participants were able to induce, and that&rsquo;s fair; it matters, though, when thinking about the bigger picture.</p>
 <p>Someone wishing to trick a <em>flawed</em> personality assessment chatbot needs more than a mental model of how automatic personality assessment works. They also need to develop a model of how and why they might be flawed, and how to exploit these flaws.</p>
 <p>It&rsquo;s also worth noting that many participants felt a moral obligation <em>not</em> to trick such systems. Furthermore, many were unfamiliar with the Big Five personality theory. In that case, how are you supposed to trick a chatbot trying to infer traits you&rsquo;ve never heard of?</p>
-<h3 id="implications-for-education">Implications for education</h3>
+<h3 id="implications-for-education"><a class="not-rich" href="#implications-for-education"><i class="fas fa-link"></i></a> Implications for education</h3>
 <p>The authors note that participants <em>underestimated</em> &ldquo;the depth and possibilities of automatic personality assessment&rdquo;&mdash;being surprised that these systems could be concealed and not knowing where they might be encountered. At the same time, they <em>overestimated</em> the accuracy of these systems&mdash;placing a lot of weight on the chatbot&rsquo;s assessment of their personality.</p>
 <p>This is an interesting dynamic; that people don&rsquo;t necessarily know where these systems are, but where people <em>do</em> find such systems, they assume that they work well. This suggests the need for more general computing literacy education: how these systems work, where they are, what their uses are, what their limitations are, and more.</p>
 <p>But perhaps this is too optimistic. &ldquo;<strong>Our participants felt helpless</strong> against profiling algorithms and the companies behind them, with the consequence of giving up on their data and privacy,&rdquo; the authors wrote (emphasis mine). Is this somewhere we need policy to help us? The authors think so, writing that &ldquo;current legislative approaches are not sufficient&rdquo;:</p>

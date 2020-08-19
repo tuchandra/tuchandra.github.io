@@ -149,7 +149,7 @@ Update (Jan. 2, 2020): This post is outdated! See Migrating to Hugo for informat
 <p><strong>Update (Jan. 2, 2020)</strong>: This post is outdated! See <a href="/posts/migrating_to_hugo.html">Migrating to Hugo</a> for information on the new site.</p>
 <p>This website is hosted on Github Pages at tuchandra.github.io. I write posts in Markdown and render them via a 150-line Python script (<code>python makesite.py</code>). Since the content and the publishing tools all live in this repo, everything is managed by Git.</p>
 <p>Sounds simple, right? It is.</p>
-<h2 id="motivation">Motivation</h2>
+<h2 id="motivation"><a class="not-rich" href="#motivation"><i class="fas fa-link"></i></a> Motivation</h2>
 <p>My requirements are simple, and can be boiled down to a website that:</p>
 <ul>
 <li>has basic, static content like my contact info, my resume, and some blog posts</li>
@@ -159,7 +159,7 @@ Update (Jan. 2, 2020): This post is outdated! See Migrating to Hugo for informat
 </ul>
 <p>In short, I don&rsquo;t need anything fancy. Notably, I also want my toolchain to have a similar degree of simplicity.</p>
 <p>This post isn&rsquo;t about setting up a Github Pages site, or about hooking up your domain name to it. I followed some tutorial a month ago, and while I don&rsquo;t remember the exact one, <a href="https://dev.to/trentyang/how-to-setup-google-domain-for-github-pages-1p58">any</a> <a href="https://hackernoon.com/use-custom-domain-with-github-pages-2-straightforward-steps-cf561eee244f">of</a> <a href="https://medium.com/employbl/launch-a-website-with-a-custom-url-using-github-pages-and-google-domains-3dd8d90cc33b">these</a> should probably work.</p>
-<h2 id="static-site-generators">Static site generators</h2>
+<h2 id="static-site-generators"><a class="not-rich" href="#static-site-generators"><i class="fas fa-link"></i></a> Static site generators</h2>
 <p>Like any programmer, I started by Googling for solutions that did what I wanted. The term &ldquo;static site generator&rdquo; captured what I wanted, and I came across common ones like <a href="https://jekyllrb.com/">Jekyll</a>, <a href="https://www.gatsbyjs.org/">Gatsby</a>, or <a href="https://gohugo.io/">Hugo</a>. These were seriously impressive, offering things like:</p>
 <ul>
 <li>easy installation via NPM</li>
@@ -170,7 +170,7 @@ Update (Jan. 2, 2020): This post is outdated! See Migrating to Hugo for informat
 <p>&hellip; and I didn&rsquo;t need any of it.</p>
 <p>I don&rsquo;t want to manage an NPM installation on the Chromebook from which I&rsquo;m writing this. I don&rsquo;t even <em>know</em> React, and though my roommate loves it, I am certain that I don&rsquo;t need to learn it just to build this simple website. And the idea of a <a href="https://old.reddit.com/r/programming/comments/adbu86/why_medium_is_no_longer_the_goto_platform_for/edfyuj4/?context=2">static site generator rendering pages entirely in JavaScript</a> still sounds like an oxymoron to me &ndash; again, nothing on my site needs JS.</p>
 <p>Please do note that I&rsquo;m not trying to hate on these technologies &ndash; rather the opposite. I know that React is incredibly powerful, and that much of the modern web is built in it, and that it can do almost anything. These are exactly the reasons why I <em>don&rsquo;t</em> want it. Using a powerful SSG would introduce unnecessary complexity to this process, and I am a firm believer in not overengineering. My requirements are minimal and well-defined, so there&rsquo;s no reason my toolchain can&rsquo;t be.</p>
-<h2 id="another-approach-makesitepy">Another approach: makesite.py</h2>
+<h2 id="another-approach-makesitepy"><a class="not-rich" href="#another-approach-makesitepy"><i class="fas fa-link"></i></a> Another approach: makesite.py</h2>
 <p>After static site generators seemed to be overkill, I started searching for more basic solutions. One stuck out: makesite.py (<a href="https://github.com/sunainapai/makesite">Github link</a>), which described itself as a &ldquo;simple, lightweight, and magic-free static site/blog generator for Python coders.&rdquo; I know Python well, and this seemed easy enough to understand. Great!</p>
 <p>This turned out to be awesome: write in Markdown, run the script, have it all render as HTML. It sounded dead simple, and yet I still didn&rsquo;t need everything that this offered me. But I figured that this was as simple as I was going to find online, so I dove into the code and started stripping things down myself. Let&rsquo;s walk through some of the changes that I made:</p>
 <ul>
@@ -187,13 +187,13 @@ Update (Jan. 2, 2020): This post is outdated! See Migrating to Hugo for informat
 <li><a href="https://github.com/sdispater/poetry/">Poetry</a> for environment management, since I like it better than basic virtualenvs or pipenv, and I don&rsquo;t have conda on my Chromebook</li>
 </ul>
 <p>Finally, I cleaned up the main function <code>make_pages</code> to be considerably simpler. I wanted to throw everything into a <code>content/</code> directory and have my generated site retain that structure, so I wrote a straightforward recursion to take care of it for me.</p>
-<h3 id="sakuracss---minimal-classless-css">sakura.css - minimal, classless CSS</h3>
+<h3 id="sakuracss---minimal-classless-css"><a class="not-rich" href="#sakuracss---minimal-classless-css"><i class="fas fa-link"></i></a> sakura.css - minimal, classless CSS</h3>
 <p>I came across <a href="https://github.com/oxalorg/sakura">sakura.css</a>, which described itself as a &ldquo;minimal classless CSS theme.&rdquo; In theory, you drop it in your folder, include it in your HTML files, and everything magically gets prettier. In practice, that&rsquo;s exactly what happened; I added the file to my <code>static</code> folder and updated the template, and that was it.</p>
 <p>My site uses a slightly modified version of this file &ndash; I used a sans-serif font, made the headings smaller, and changed some of the colors (still a work in progress). CSS is one of the things that I appreciate and respect, but, as a data scientist, also dread working with. Having a single, easy to modify file made applying a theme to my site painless.</p>
-<h3 id="workflow">Workflow</h3>
+<h3 id="workflow"><a class="not-rich" href="#workflow"><i class="fas fa-link"></i></a> Workflow</h3>
 <p>The entire <code>makesite.py</code> script is just over 150 lines of code, including comments and whitespace, and it handles my use case flawlessly. See the script <a href="https://github.com/tuchandra/tuchandra.github.io/blob/master/makesite.py">here</a>.</p>
 <p>I can write my blog posts in Markdown &ndash; see the <a href="https://github.com/tuchandra/tuchandra.github.io/blob/master/content/about_website.md">source of this page</a> for an example &ndash; and then type <code>poetry run python makesite.py</code> to generate the <code>site/</code> directory. Note that because Github Pages hosts the entire repo, the rendered website actually lives at tusharc.dev/site; to get around this, <a href="https://github.com/tuchandra/tuchandra.github.io/blob/master/index.html">index.html</a> in my home directory just redirects to that page.</p>
-<h2 id="wrapping-up">Wrapping up</h2>
+<h2 id="wrapping-up"><a class="not-rich" href="#wrapping-up"><i class="fas fa-link"></i></a> Wrapping up</h2>
 <p>This post describes how I wrote my own minimal website by using an equally minimal set of tools. While I&rsquo;m still working on adding content to my website, it feels great knowing that I can write in Markdown, run a Python script, and have everything <em>just work</em>.</p>
 <p>For the Python programmer out there who has no experience with the web, I promise that it&rsquo;s not all NPM hell and React apps &ndash; you can build your own nice-looking site with the tools you already know!</p>
       <p><i class="fas fa-square font-green-800"></i></p>

@@ -142,11 +142,11 @@
     </div>
     <div class="rich-text" itemprop="articleBody">
       <p>Spark + AI Summit kicked off with keynotes by Ali Ghodsi (Databricks CEO), Matei Zaharia (creator of Spark) and Brooke Wenig (Databricks machine learning lead), Reynold Xin (Spark contributor), and Vishwanath Subramanian (Starbucks director of data). I wasn&rsquo;t able to listen to all of it, but this post has a few highlights.</p>
-<h2 id="whats-new-in-spark">What&rsquo;s new in Spark?</h2>
+<h2 id="whats-new-in-spark"><a class="not-rich" href="#whats-new-in-spark"><i class="fas fa-link"></i></a> What&rsquo;s new in Spark?</h2>
 <p>One seemingly big feature is <strong>Adaptive Query Execution</strong>: Spark can automatically decide how to optimize jobs and split queries up into subqueries. This is opt-in right now, and will soon become the default, making shufflings easier. They&rsquo;re adding hints for join optimizations, too.</p>
 <p>Python 2 is being deprecated (yay!) and they&rsquo;re improving GPU support (right now it&rsquo;s kind of hacky?). They&rsquo;re also improving support for distributed machine learning (previously we had to use something like HorovodRunner, and it was super finnicky).</p>
 <p>The <a href="https://databricks.com/blog/2020/05/20/new-pandas-udfs-and-python-type-hints-in-the-upcoming-release-of-apache-spark-3-0.html">redesigned UDFs</a> look great, too; UDFs were pretty challenging to work with before now.</p>
-<h2 id="other-announcements-koalas-and-pyspark">Other announcements: koalas and pyspark</h2>
+<h2 id="other-announcements-koalas-and-pyspark"><a class="not-rich" href="#other-announcements-koalas-and-pyspark"><i class="fas fa-link"></i></a> Other announcements: koalas and pyspark</h2>
 <p>Databricks announced <a href="https://github.com/databricks/koalas">koalas v1.0</a>, noting that they&rsquo;re near 80% API coverage of pandas. It&rsquo;s really cool to see how far they&rsquo;ve come in just a year after <a href="https://databricks.com/blog/2019/04/24/koalas-easy-transition-from-pandas-to-apache-spark.html">having announced</a> koalas last year.</p>
 <p>They also noted miscellaneous improvements to Pyspark, which they&rsquo;re calling Project Zen (in line with the Zen of Python):</p>
 <ul>
@@ -155,7 +155,7 @@
 <li>some API changes that they didn&rsquo;t expand on at all</li>
 </ul>
 <p>This is great&mdash;it&rsquo;s cool to see Databricks investing more in the usability of their platform.</p>
-<h2 id="the-data-lake-myth">The data lake myth</h2>
+<h2 id="the-data-lake-myth"><a class="not-rich" href="#the-data-lake-myth"><i class="fas fa-link"></i></a> The data lake myth</h2>
 <p>Ali spent a while discussing how the transition from data warehouses to data lakes often left a lot to be desired. In theory, you should have a data lake that has all of your data, right? In practice, when their solutions architects were working on these projects, they noticed 9 common challenges with data lakes:</p>
 <ol>
 <li>hard to append data (adding newly arrived data causes incorrect reads)</li>
@@ -169,7 +169,7 @@
 <li>data quality issues (these are getting pretty vague &hellip;)</li>
 </ol>
 <p>They described how <a href="https://delta.io/">Delta Lake</a> (and recent improvements to it) can help these problems. By making every operation transactional, things will either fully fail or fully succeed, and this apparently solves the first five problems. One of the flashiest parts is that you can do a <code>SELECT * FROM table AS OF TIMESTAMP [a year ago]</code>, which is wild!</p>
-<h2 id="more-changes-still">More changes, still</h2>
+<h2 id="more-changes-still"><a class="not-rich" href="#more-changes-still"><i class="fas fa-link"></i></a> More changes, still</h2>
 <p>Reynold went into more detail about Delta Engine, which I frankly neither understand nor expect to need to understand. Spark is faster?</p>
 <p>Databricks announced their acquisition of <a href="https://github.com/getredash/redash/">Redash</a>, which is an open-source dashboarding service for an entire company. This followed by a slick demo of Redash, which I had never seen before, but combines SQL queries with your normal database schemas with click-and-drag, dropdown-customizable visualizations. It seems nice!</p>
       <p><i class="fas fa-square font-green-800"></i></p>

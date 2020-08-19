@@ -142,7 +142,7 @@
     </div>
     <div class="rich-text" itemprop="articleBody">
       <p>Speaker: Amy Holder and Soren Reichardt (Neo4j).</p>
-<h2 id="intro">Intro</h2>
+<h2 id="intro"><a class="not-rich" href="#intro"><i class="fas fa-link"></i></a> Intro</h2>
 <p>Graphs are everywhere; anything with connections can be represented as a graph. And for them, graphs drive innovation. One of the questions they get is &ldquo;is this a graph analytics problem?&rdquo;</p>
 <ul>
 <li><strong>propogation pathways</strong>, diseases, traffic, etc.</li>
@@ -150,7 +150,7 @@
 <li><strong>interactions and resiliency</strong>, community detection, influence within communities, understanding how things may break apart or become more cohesive</li>
 </ul>
 <p>All require you to understand the structure of your data.</p>
-<h2 id="real-world-data">Real-World Data</h2>
+<h2 id="real-world-data"><a class="not-rich" href="#real-world-data"><i class="fas fa-link"></i></a> Real-World Data</h2>
 <p>If you assume that most nodes have the same number of relationships, then you would have a Gaussian distributions of relationships &hellip; but network science tells us that this doesn&rsquo;t happen in nature.</p>
 <p>Instead, number relationships and nodes follows a quasi-power law distribtuion.</p>
 <pre><code>number of relationships
@@ -161,7 +161,7 @@
 | ************
 |________________
  number of nodes
-</code></pre><h2 id="graph-algorithms">Graph algorithms</h2>
+</code></pre><h2 id="graph-algorithms"><a class="not-rich" href="#graph-algorithms"><i class="fas fa-link"></i></a> Graph algorithms</h2>
 <p>You could either <strong>query</strong> the graph for real-time, local decisioning and pattern matching. Or use <strong>graph algorithms</strong> for global analysis, learning the overall structure of a network an dmaking predictions.</p>
 <p>Common graph algorithms include:</p>
 <ul>
@@ -180,9 +180,9 @@
 <li>many others &hellip;</li>
 </ul>
 <p><strong>Spark 3.0</strong> is going to have &ldquo;property graph model&rdquo; with Cypher queries and graph algorithms. Unclear what all this means tbh. Meanwhile, Neo4j is a native graph platform.</p>
-<h2 id="demo">Demo</h2>
+<h2 id="demo"><a class="not-rich" href="#demo"><i class="fas fa-link"></i></a> Demo</h2>
 <p>They&rsquo;re gonna use a Game of Thrones script dataset, making a graph based on how close names are to each other within the script. Tools include Spark GraphFrames (which will be deprecated in favor of Cypher in 3.0) and the Neo4j platform.</p>
-<h3 id="triangles-and-the-clustering-coefficient">Triangles and the clustering coefficient</h3>
+<h3 id="triangles-and-the-clustering-coefficient"><a class="not-rich" href="#triangles-and-the-clustering-coefficient"><i class="fas fa-link"></i></a> Triangles and the clustering coefficient</h3>
 <p>Use these tools for:</p>
 <ul>
 <li>basic network analysis (does it have small-world structures)</li>
@@ -192,11 +192,11 @@
 </ul>
 <p>An example is spam classification; using a semi-streaming webpage analysis, you can look at if webpages are linked to others or just sitting by themselves. The clustering coefficient is the <strong>measure of how much nodes tend to cluster together</strong>.</p>
 <p>The demo showed off generating the degree of the different characters and the clustering coefficient. Some of them have a high degree (many connections) but low clustering coefficient (but their connections aren&rsquo;t very conneted to each ohter), and others have the opposite.</p>
-<h3 id="closeness-centrality">Closeness centrality</h3>
+<h3 id="closeness-centrality"><a class="not-rich" href="#closeness-centrality"><i class="fas fa-link"></i></a> Closeness centrality</h3>
 <p>Use when you&rsquo;re finding which nodes disseminate things the fastest. Weighted relationships are helpful in evaluating interaction speeds in communication and behavioral analysis. This can be used as a heuristic for logistics or arrival times; another example is terrorist network analysis, where they ask &ldquo;who in this network could acquire the most vital information?&rdquo;</p>
 <p>Looks at <strong>which nodes have the smallest distance to all other nodes</strong>. &ldquo;Which node can most easily reach the others?&rdquo;</p>
 <p>Demo: the Spark version doesn&rsquo;t run on his computer because of all the UDFs &hellip; then talked about <strong>aggregate messages</strong>, which for every vertex computes something and sends it to the neighbors. This &hellip; didn&rsquo;t make a ton of sense.</p>
-<h3 id="pagerank">PageRank</h3>
+<h3 id="pagerank"><a class="not-rich" href="#pagerank"><i class="fas fa-link"></i></a> PageRank</h3>
 <p>Use when you&rsquo;re looking for <strong>broad influence over a network</strong>. There are <em>tons</em> of domain specific variations of this, e.g., personalized recommendations. Exampes include recommendations on Twitter (who to follow) or fraud detection (super interesting but unclear how).</p>
 <p>Measures the transitive influence of nodes, considering the influence of neighbors and their neighbors. People acquire credibility and influence from others with credibility and influence. You gotta be careful with node types here, because this compares node types to each other; you can&rsquo;t use this on a graph of e.g., products and humans (unless you&rsquo;re interested in open research questions).</p>
 <p>Demo: was a one-liner in the GraphFrames API. Not interesting, but showed off who the most &ldquo;influential&rdquo; characters within GoT are.</p>
@@ -210,7 +210,7 @@
 <p>Study that looked at network resilience in Italy, looking for the key points of cascading failure. They actually learned that they should <em>remove</em> some nodes to increase reliability.</p>
 <p>Betweenness centrality is the sum of the % of the shortest paths that pass through a node, intuitively looking for bridges within a graph. Computationally intensive, but has approximation algorithms.</p>
 <p>This demo showed off Neo4j Desktop, where they used their GUI to show that Joffrey was the most important node … apparently many important conversations flow through him. ¯\_(ツ)_/¯</p>
-<h3 id="label-propogation">Label propogation</h3>
+<h3 id="label-propogation"><a class="not-rich" href="#label-propogation"><i class="fas fa-link"></i></a> Label propogation</h3>
 <p>Use for getting started analysing a graph, like:</p>
 <ul>
 <li>large scale networks with initial clustering</li>
@@ -220,7 +220,7 @@
 <p>Interesting example uses graphs and label propagation to look at drug combinations to see if they might be dangerous; they use chemical similarity and side effects to see what drugs should not be prescribed together.</p>
 <p>Nodes adapt labels based on neighbors to infer clusters; weight relationships or nodes. This is non-deterministic, and seed labels are very powerful and can propogate through a network. That means this can be used as a semi-supervised learning technique.</p>
 <p>The demo used Spark again, and assigned random labels and watched them propogate. They say that this loosely matched the houses in GoT, which … okay. Then they went into Neo4j and looked at the clusters visually - that was awesome, showed one cluster that&rsquo;s super disconnected because they&rsquo;re an island, one cluster that&rsquo;s King&rsquo;s Landing (?) and man I know nothing about GoT.</p>
-<h3 id="louvain-modularity">Louvain Modularity</h3>
+<h3 id="louvain-modularity"><a class="not-rich" href="#louvain-modularity"><i class="fas fa-link"></i></a> Louvain Modularity</h3>
 <p>Use for:</p>
 <ul>
 <li>community detection in large networks</li>
@@ -229,7 +229,7 @@
 </ul>
 <p>This continually maximizes the modularity (optimal grouping) by comparing relationship weights and densities to an estimate. What? The algorithm is trying to find an optimal grouping of nodes; intuitively like a what-if analysis, like if I move this node to that group what happens, repeat. But <em>then</em> it groups those into supergroupings and repeats that to smash groups together.</p>
 <p>It helps you when the question is &ldquo;how far out do I want to go,&rdquo; like going to just close communities or ones that are further or very far or whatever … interesting. The demo showed, for each character, 3 levels of communities; the first one had the most granular communities, then some of them got absorbed, then even more others got absorbed.</p>
-<h2 id="resources">Resources</h2>
+<h2 id="resources"><a class="not-rich" href="#resources"><i class="fas fa-link"></i></a> Resources</h2>
 <p>Dataset collections:</p>
 <ul>
 <li>Stanford network analysis project (SNAP)</li>

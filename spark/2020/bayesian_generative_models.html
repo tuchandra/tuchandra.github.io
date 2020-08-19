@@ -148,7 +148,7 @@
 <p>Unsupervised learning is an option, too; they suggested k-means clustering, but that sounds insane for this problem.</p>
 <p>They suggest <em>blocking keys</em>, where you subset your data based on things that you are highly confident are correct (e.g., gender). Then you can match the males from one dataset to the males in the other, and likewise for females. (Yeah, there&rsquo;s more to gender than this; too bad most of our data science practice is based on gender as a binary attribute. :/)</p>
 <p>Then we got a demo on fuzzy string matching. Yuck.</p>
-<h2 id="their-actual-approach-bayesian-generative-models">Their actual approach: Bayesian generative models</h2>
+<h2 id="their-actual-approach-bayesian-generative-models"><a class="not-rich" href="#their-actual-approach-bayesian-generative-models"><i class="fas fa-link"></i></a> Their actual approach: Bayesian generative models</h2>
 <p>Their actual approach is completely unsupervised and Bayesian so as to preserve uncertainty. The summary was &hellip; hard to understand.</p>
 <p>Their dataset of user profiles has entities E and attributes A; they partition their dataset based on one of the categorical attributes, which allows Spark to step in for parallelization. To partition efficiently, they use a KD Tree, which isn&rsquo;t <em>perfect</em> but is good enough, in theory.</p>
 <p>Within a partition, look at the similarity distances (defined differently for different kinds of features&mdash;string similarity for names, physical distance for locations, numerical distance for numbers, etc.). Based on this, they use MCMC to cluster &hellip; something. I&rsquo;m confused.</p>

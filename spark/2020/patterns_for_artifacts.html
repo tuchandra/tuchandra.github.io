@@ -143,19 +143,19 @@
     <div class="rich-text" itemprop="articleBody">
       <p>So you need to save your work for future data scientists; how do you do this? This talk discusses best practices for saving artifacts from data science projects.</p>
 <p><strong>Speaker</strong>: Derrick Higgins and Sonjia Waxmonsky, from Blue Cross / Blue Shield of Illinois</p>
-<h2 id="your-project-is-not-a-folder">Your project is not a folder</h2>
+<h2 id="your-project-is-not-a-folder"><a class="not-rich" href="#your-project-is-not-a-folder"><i class="fas fa-link"></i></a> Your project is not a folder</h2>
 <p>Projects are not folders. People treat folders like projects. Ugh.</p>
 <p>&ldquo;This person has left, and they had a bunch of stuff on their computer; can you look through and figure out what&rsquo;s important?&rdquo; is a horrible way to transition projects. Projects, though, aren&rsquo;t file folders! They lack versioning (and if they have it, like Google Drive, they lack metadata related to changes). They have a single point of failure in the computer. They create obstacles to collaboration (project not being discoverable, project not supporting multiple people working on it).</p>
 <p>That&rsquo;s all a really long way to say <strong>use git!</strong> But &hellip; there&rsquo;s more.</p>
-<h2 id="your-project-is-not-a-git-repo">Your project is not a git repo</h2>
+<h2 id="your-project-is-not-a-git-repo"><a class="not-rich" href="#your-project-is-not-a-git-repo"><i class="fas fa-link"></i></a> Your project is not a git repo</h2>
 <p>Git is great&mdash;but it&rsquo;s not meant for everything. The TensorFlow repo is 500 MB and takes 10 minutes to clone, which fine, it&rsquo;s a huge project. But there are tons of projects out there which are nowhere <em>near</em> as complex as TensorFlow, but they put raw images in the repo &hellip; taking 40 minutes to clone 2.1 GB of data.</p>
 <p>Code belongs in Git; so do config, experimental scripts, and documentation. Trained models, input data, executables, and intermediate files do <em>not</em>. Notebooks are somewhere in the middle.</p>
 <p>What problems does this cause? Obstacles to colaboration, when pulling a repo takes half an hour. Obstacles to deployment, when all of these file types are probably not needed for prod (or could have sensitive info). Challenges integrating with upstream data sources when they&rsquo;re literally <em>stored in the repo</em>.</p>
 <p><strong>Better options</strong> include Git LFS, versioned buckets in S3 or other blob storage, things like Delta Lake, the MLflow model registry, and lots more.</p>
-<h2 id="explaining-decisions">Explaining decisions</h2>
+<h2 id="explaining-decisions"><a class="not-rich" href="#explaining-decisions"><i class="fas fa-link"></i></a> Explaining decisions</h2>
 <p>There are all kinds of hidden configuration in modeling: model parameters (<code>n_jobs</code>, <code>n_subtrees</code>, etc.), thresholds, output formats, etc. This, the speaker asserts, is what makes data science different from software engineering. You don&rsquo;t always know what you&rsquo;re going to need up front, and your final code is always going to based upon the exploratory analysis that you do.</p>
 <p>The speaker suggests treating discoveries and EDA as a <em>first class product</em>: that these are the first pieces that you deliver, and these can help inform future data scientists working on the project.</p>
-<h2 id="support-reproducibility">Support reproducibility</h2>
+<h2 id="support-reproducibility"><a class="not-rich" href="#support-reproducibility"><i class="fas fa-link"></i></a> Support reproducibility</h2>
 <p>&ldquo;Store configuration, artifacts, and results,&rdquo; they suggest.</p>
 <p>With notebooks alone, locally, you can <em>show</em> that you built a successful model with visualizations and such. But reapplying models to other settings mandates something more centralized; yeah, you can copy the parameters from a trained logistic regression to another setting, but &hellip; don&rsquo;t.</p>
 <p>Modeling objects might include hyperparameters, the model binary, test metrics, charts, datasets, and more. They use MLflow, but that&rsquo;s just one tool; what&rsquo;s really important is thinking about what future data scientists might want.</p>

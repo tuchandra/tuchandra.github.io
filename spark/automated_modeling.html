@@ -148,10 +148,10 @@
 <li>embedded analysts: work on product / game teams, whose job is to improve games and understand how changes might impact games</li>
 <li>central analytics: focused on publishing functions, marketing, advertising, corporate development; build data products that any team could use and plug in and scale.</li>
 </ul>
-<h2 id="challenge">Challenge</h2>
+<h2 id="challenge"><a class="not-rich" href="#challenge"><i class="fas fa-link"></i></a> Challenge</h2>
 <p>Their challenge is that they want to support game teams to act on their data, but they have a variety of types of games … card games have &ldquo;hands played&rdquo; but match three games have &ldquo;matches made&rdquo; but etc etc etc &hellip;</p>
 <p>In other words, they want to build game-specific models for behaviors such as likelihood to purchase, likelihood to churn, etc., but the games have diverse event taxonomies. They have tnes tens of millions of players and dozens of games for multiple platforms.</p>
-<h2 id="automodel">AutoModel</h2>
+<h2 id="automodel"><a class="not-rich" href="#automodel"><i class="fas fa-link"></i></a> AutoModel</h2>
 <p>Tool set: <strong>Featuretools</strong> for automating feature engineering, <strong>Pandas UDFs</strong> for distributing Featuretools, and <strong>Databricks / Pyspark</strong> for building the model pipeline.</p>
 <p>So they created <strong>AutoModel</strong>, which is their first portfolio-scale product. It generates hundreds of propensity models and powers features in their games &amp; live services. They can plug it in to any new game and have it work out of the game.</p>
 <p>The data pipeline is:</p>
@@ -176,7 +176,7 @@
 <li>model training using Spark ML</li>
 <li>model publish</li>
 </ul>
-<h3 id="automated-feature-engineering-with-featuretools">Automated Feature Engineering with FeatureTools</h3>
+<h3 id="automated-feature-engineering-with-featuretools"><a class="not-rich" href="#automated-feature-engineering-with-featuretools"><i class="fas fa-link"></i></a> Automated Feature Engineering with FeatureTools</h3>
 <p>Goals include:</p>
 <ul>
 <li>translate narrow and deep data tables into a shallow and wide representation</li>
@@ -188,7 +188,7 @@
 <p><strong><a href="https://github.com/Featuretools/featuretools">Feature Tools</a></strong> is a library for deep feature synthesis. Represent your data as entity sets and identify feature descriptors for transforming data into new representations. They went into detail about the entity set; you have entities customers and transactions, which share a customer_id relationship … etc.</p>
 <p>Once you&rsquo;ve done that, you can perform <strong>deep feature synthesis</strong>. It comes up with a ton of different features for you. He went on and demoed some code about how they did this.</p>
 <p>&ldquo;For anyone worried about GDPR, this isn&rsquo;t our dataset, it&rsquo;s a sample dataset … that&rsquo;s a note for our legal team.&rdquo; Love it.</p>
-<h3 id="scaling-up-via-pandas-udfs">Scaling up via Pandas UDFs</h3>
+<h3 id="scaling-up-via-pandas-udfs"><a class="not-rich" href="#scaling-up-via-pandas-udfs"><i class="fas fa-link"></i></a> Scaling up via Pandas UDFs</h3>
 <p>FeatureTools only works on a Pandas dataframe, so uh oh. Their options were to either (1) parallelize the process, (2) translate feature descriptions to Spark SQL, or (3) find a way to distribute the task.</p>
 <ul>
 <li>Parallelizing the process was just way too daunting to be able to do</li>
@@ -211,10 +211,10 @@
 <li>data type mismatches between Pandas and Spark caused bugs, too</li>
 <li>the schema needs to be known before the UDF is computed; for them, this means they have to do a sampling step where they figure out what the schema will be after deep feature synthesis happens … but you can&rsquo;t just distribute DFS and go.</li>
 </ul>
-<h3 id="modeling-and-publishing">Modeling and Publishing</h3>
+<h3 id="modeling-and-publishing"><a class="not-rich" href="#modeling-and-publishing"><i class="fas fa-link"></i></a> Modeling and Publishing</h3>
 <p>They use gradient boosted trees and XGBoost for classification. They tune hyperparameters with ParamGridBuilder and CrossValidator. Great, that&rsquo;s all standard.</p>
 <p>They publish to Couchbase for game teams to use. Then they decided to productionalize with Databricks — a driver notebook can use the jobs API to have different models running for different games in different notebooks.</p>
-<h3 id="other-uses-of-pandas-udfs">Other uses of Pandas UDFs</h3>
+<h3 id="other-uses-of-pandas-udfs"><a class="not-rich" href="#other-uses-of-pandas-udfs"><i class="fas fa-link"></i></a> Other uses of Pandas UDFs</h3>
 <p>They found out ways to distribute statsmodels, scipy, and numpy to help distribute experimentation. None of these were intended to be run on Spark, but Pandas UDFs enables this … as long as you can partition your data in some way.</p>
 <p><strong>Old approach</strong>: custom data science and engineering work for each model, months-long development process, and an ad-hoc process for productionalizing models.</p>
 <p><strong>New approach</strong>: minimal effort for building new propensity models, and no custom work for new games. Predictions are deployed to their application database. Gonna start using MLflow soon.</p>

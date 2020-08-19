@@ -147,7 +147,7 @@
       <p>What are members of Congress tweeting about, and how can we use machine learning to infer this? In this ICWSM 2020 paper, the researchers try out both supervised and unsupervised learning on all the tweets from members of the 115th Congress (Jan. 2017 - Jan. 2019).</p>
 <p><strong>Authors</strong>: Libby Hemphill, Angela M. Schöpke-Gonzalez (from University of Michigan)</p>
 <p><strong>Link</strong>: <a href="https://aaai.org/ojs/index.php/ICWSM/article/view/7297">ICWSM Proceedings</a> (open access), <a href="https://www.youtube.com/watch?v=mFF6B9T9bYo&amp;list=PLfNOQlmqSceVLXrBkjxLzBb2wfalJ4iJu&amp;index=94">prerecorded talk</a></p>
-<h2 id="summary-and-contributions">Summary and contributions</h2>
+<h2 id="summary-and-contributions"><a class="not-rich" href="#summary-and-contributions"><i class="fas fa-link"></i></a> Summary and contributions</h2>
 <p>Knowing what politicians are talking about helps to create an informed constituency. As more politicians use social media, knowing what politicians are talking about <em>on social media</em> is still helpful, and can now (as this paper shows) be automated.</p>
 <p>This work contributes two models for labeling topics in political social media content, one supervised and one supervised. They also discuss the costs and benefits of these approaches (and tradeoffs between them). And their code is <a href="https://github.com/casmlab/modeling-political-attention">open source</a>!</p>
 <p><strong>Why Twitter?</strong> Existing work on political attention focuses on political speeches. But Twitter is being used more and more by politicians. And while <a href="/posts/is_twitter_real_life.html">it might not be representative</a> of how the average American votes or thinks, it&rsquo;s used by political elites (including the media!) to shape coverage and discourse.</p>
@@ -156,7 +156,7 @@
 <li>manual labeling is not efficient given how much members of Congress tweet</li>
 <li>topics change over time, and an unsupervised approach might fill in the gaps left by pre-defined codebooks</li>
 </ul>
-<h2 id="datasets">Datasets</h2>
+<h2 id="datasets"><a class="not-rich" href="#datasets"><i class="fas fa-link"></i></a> Datasets</h2>
 <p>Using the Twitter search API, the authors collected all tweets from official members of the 115th Congress (from January 2017 - January 2019). This was a dataset of 1.5M original tweets from 524 accounts.</p>
 <p><strong>Preprocessing</strong>: these steps were&mdash;</p>
 <ul>
@@ -166,7 +166,7 @@
 </ul>
 <p>In NLP terms, &ldquo;documents&rdquo; were individual tweets (rather than, e.g., all the tweets by someone in a day). This makes sense in the Twitter context; members of Congress will tweet about multiple unrelated topics per day.</p>
 <p>When reading about NLP work, it seems like so much of the work is dependent on your preprocessing choices. I&rsquo;m glad that the authors explained it in so much detail (and releasing the code is even better!), but it&rsquo;s surprising to me that nearly a page was devoted to preprocessing.</p>
-<h2 id="models">Models</h2>
+<h2 id="models"><a class="not-rich" href="#models"><i class="fas fa-link"></i></a> Models</h2>
 <p>Both the supervised and unsupervised models label the probability that a tweet is about a particular topic (which are given in the supervised case, but inferred in the unsupervised ase).</p>
 <p><strong>The supervised classifier</strong> is trained on tweets from Russell&rsquo;s <a href="https://journals.sagepub.com/doi/10.1177/1532673X17715619">past</a> / <a href="https://www.degruyter.com/view/journals/for/16/2/article-p331.xml">analyses</a> of Senators on Twitter. The labels are from the Comparative Agenda Project&rsquo;s codebook.</p>
 <p>They trained four models, using a 90/10 train/test split for each. These models were:</p>
@@ -181,7 +181,7 @@
 <p><strong>Evaluation</strong>: their primary evaluation for the supervised model was through an F1 score. The logistic regression achieved a score of 0.79, and other models performed worse.</p>
 <p>Their evaluation for the unsupervised model is more interesting. They had two experts manually label topics then resolve disagreements. Quantitatively, they used the NPMI topic coherence measure (what?) to assess these.</p>
 <p>Perhaps the biggest benefit of the unsupervised model is the ability to label non-policy tweets (which are out of scope for the CAP codebook). These topics include sports, holidays, sympathy, emergency response, or constituent relations.</p>
-<h2 id="research-applications">Research applications</h2>
+<h2 id="research-applications"><a class="not-rich" href="#research-applications"><i class="fas fa-link"></i></a> Research applications</h2>
 <p>I&rsquo;m taking this slide the authors&rsquo; talk because it&rsquo;s excellent:</p>
 <figure>
     <img src="modeling_political_attention_hemphill_img1.png"/> 
@@ -189,7 +189,7 @@
 
 <p>One of the reasons I like ICWSM is because its submissions are often more practical than at other conferences. This slide is a great example.</p>
 <p>The whole question about &ldquo;how could this be used&rdquo; is interesting because the timescale for how this could be use is so immediate. It doesn&rsquo;t sound like that much more work to deploy this in the wild, but that could be useful in the leadup to the election in November!</p>
-<h2 id="other-thoughts">Other thoughts</h2>
+<h2 id="other-thoughts"><a class="not-rich" href="#other-thoughts"><i class="fas fa-link"></i></a> Other thoughts</h2>
 <p>To me, this paper is a good example of how so much research is an example of asking (and properly framing) the right <em>question</em>. &ldquo;Hey, can we use topic modeling on tweets by members of Congress?&rdquo; sounds like such a simple question, and none of the models they use are anything special.</p>
 <p>Still, though, the combination of the question and results are clearly interesting enough to be published. (This isn&rsquo;t a criticism of the paper&mdash;I just think the interesting parts are the questions, applications, and implications for future design, not the methods or results.)</p>
 <p>On that note, I wish the authors had discussed more real-world implications for how this might be used. Would it be feasible for Twitter to label politicians&rsquo; tweets based on models like this? Would it be possible to create a search engine for members&rsquo; of Congress tweets about healthcare, social justice, or immigration?</p>

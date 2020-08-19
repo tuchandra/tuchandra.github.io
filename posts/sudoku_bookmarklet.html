@@ -142,7 +142,7 @@
     </div>
     <div class="rich-text" itemprop="articleBody">
       <p>I&rsquo;ve been playing a lot of Sudoku while at home, and today I made a quick tool to make it easier for myself: a bookmarklet to open NY Times Sudoku puzzles on <a href="https://sudokuexchange.com">SudokuExchange.com</a>.</p>
-<h2 id="motivation">Motivation</h2>
+<h2 id="motivation"><a class="not-rich" href="#motivation"><i class="fas fa-link"></i></a> Motivation</h2>
 <p><a href="https://sudokuexchange.com">SudokuExchange.com</a> is a new Sudoku web app that has, in my opinion, the best interface for playing Sudoku puzzles:</p>
 <ul>
 <li>ability to enter your own puzzles</li>
@@ -152,7 +152,7 @@
 <li>free to use &amp; open source</li>
 </ul>
 <p>I love it so much that I&rsquo;ve found that no other interface compares, though some come close. After manually entering the daily NY Times puzzle into SudokuExchange one too many times, I made a bookmarklet to do it for me.</p>
-<h2 id="how-to-use-it">How to use it</h2>
+<h2 id="how-to-use-it"><a class="not-rich" href="#how-to-use-it"><i class="fas fa-link"></i></a> How to use it</h2>
 <p>It&rsquo;s really easy!</p>
 <ol>
 <li>Go to the NY Times Sudoku at <a href="https://www.nytimes.com/puzzles/sudoku/">https://www.nytimes.com/puzzles/sudoku/</a></li>
@@ -178,7 +178,7 @@
   let text = &quot;https://sudokuexchange.com/play/?s=&quot; + labels.join(&quot;&quot;);
   window.open(text); 
 }());
-</code></pre><h2 id="reflections">Reflections</h2>
+</code></pre><h2 id="reflections"><a class="not-rich" href="#reflections"><i class="fas fa-link"></i></a> Reflections</h2>
 <p>This was surprisingly easy! I didn&rsquo;t know anything about bookmarklets when starting, but I remembered that they&rsquo;re a lightweight solution for running lightweight JavaScript anywhere.</p>
 <p>The original goal was to write a scraper or API that went through daily Sudoku sources and created URLs for all of them. That might still be in the cards, but this only took 15 minutes!</p>
 <p>This is one of the reasons why I&rsquo;m really glad that I know a fair amount of JavaScript, even though it&rsquo;s not in the standard data science skillset. Because the web is powered on JS, being able to do even simple stuff like parse the document and manipulate data types is really powerful!</p>

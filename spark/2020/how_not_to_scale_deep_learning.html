@@ -146,7 +146,7 @@
 <p>How many of us, Owen asks, have stared at our terminal hoping that our model didn&rsquo;t break? Or logged onto a VM every few hours to check on the loss? And then had an instinct to throw more hardware at the problem? Yeah. Not good.</p>
 <p>(Note: this talk is about tuning an existing architecture for performance, and getting it to run as fast as it can instead of wasting your time. Not about deciding between architectures.)</p>
 <p><strong>Model setup</strong>: 256-image classification, using a transfer learning setup with an existing image classifier and a fully connected layer or two to fit our purposes. Using TF / Keras on Databricks.</p>
-<h2 id="advice">Advice</h2>
+<h2 id="advice"><a class="not-rich" href="#advice"><i class="fas fa-link"></i></a> Advice</h2>
 <p><strong>(1) Use a GPU</strong>: which is kind of tip zero, but definitely use one. Start with a small GPU, and work in memory if you can early on (take a sample of your data if you have to). He gives an example of classical overfitting, where after training a model for an hour we saw 90% training accuracy but 70% test. What a waste of time!</p>
 <p><strong>(2) Use early stopping</strong>: use a validation set to figure out when to stop training (when loss stops going down on that set). In Keras, that just means adding a callback function, and in this example it gave the same results in just 14 epochs.</p>
 <p>Epochs, by the way, end up being arbitrary: the number matters as a unit of training, but they aren&rsquo;t themselves a parameter to tune (especially if you use early stopping).</p>
@@ -156,7 +156,7 @@
 <p><strong>(5) Use multiple GPUs and Horovod</strong>: do this <em>after</em> everything above; don&rsquo;t just throw more hardware at the problem immediately. If you use the native multi-GPU support in Keras, you won&rsquo;t see anywhere near a linear speedup in the number of GPUs. Horovod can help with this, because it uses a faster gradient sharing algorithm to share gradients across devices.</p>
 <p>In this case, using Horovod got the same performance with 8 GPUS and 10x more data as they had with a 10% sample of the data.</p>
 <p><strong>(6) Use multiple machines</strong>: ouch. No thanks. I don&rsquo;t anticipate being in a position where this matters to me, but you can use Horovod for this too.</p>
-<h2 id="closing-thoughts">Closing thoughts</h2>
+<h2 id="closing-thoughts"><a class="not-rich" href="#closing-thoughts"><i class="fas fa-link"></i></a> Closing thoughts</h2>
 <p>Look at your GPU utilization! Make sure that you&rsquo;re using it effectively, and increase your batch size if needed. Other tools can help you, but start simple. I&rsquo;m reminded of <a href="http://karpathy.github.io/2019/04/25/recipe/">Andrej Karpathy&rsquo;s advice for training neural nets</a>, too.</p>
 <p>This was great! The practical advice offered will be immediately applicable to me and a lot of folks I work with.</p>
       <p><i class="fas fa-square font-green-800"></i></p>

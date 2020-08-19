@@ -147,7 +147,7 @@
       <p>This Google Brain paper from ICLR 2017 tackles the question of <em>generalization</em> in neural networks. What causes a network that performs well on training data to also perform well on testing data? (Answer: ¯\_(ツ)_/¯)</p>
 <p><strong>Authors</strong>: Chiyuan Zhang, Samy Bengio, Moritz Hardt, Benjamin Recht, Oriol Vinyals</p>
 <p><strong>Link</strong>: <a href="https://arxiv.org/abs/1611.03530">arXiv</a></p>
-<h2 id="central-results">Central results</h2>
+<h2 id="central-results"><a class="not-rich" href="#central-results"><i class="fas fa-link"></i></a> Central results</h2>
 <p>The abstract, broken down:</p>
 <ul>
 <li>conventional deep learning wisdom &ldquo;attributes small generalization error either to properties of the model family, or to the regularization techniques used during training.&rdquo;</li>
@@ -166,7 +166,7 @@
 <li>stochastic gradient descent acts as an implicit regularizer</li>
 </ul>
 <p>Wow&mdash;crazy stuff.</p>
-<h2 id="experiments">Experiments</h2>
+<h2 id="experiments"><a class="not-rich" href="#experiments"><i class="fas fa-link"></i></a> Experiments</h2>
 <p>They run a bunch of experiments on CIFAR10 and ImageNet, standard image classification datasets:</p>
 <ul>
 <li>true labels</li>
@@ -246,7 +246,7 @@
 <blockquote>
 <p>This leads to a range of intermediate learning problems where there remains some level of signal in the labels.  We observe a steady deterioration of the generalization error as we increase the noise level.   This shows that neural networks are able to apture the remaining signal in the data, while at the same time fit the noisy part using brute-force.</p>
 </blockquote>
-<h2 id="on-regularization">On regularization</h2>
+<h2 id="on-regularization"><a class="not-rich" href="#on-regularization"><i class="fas fa-link"></i></a> On regularization</h2>
 <p>The idea behind regularization, both in theory and in practice, is to help mitigate overfitting. You &ldquo;confine learning&rdquo; to a lower-complexity region of training space. Regularization techniques are their own subfield of machine learning research.</p>
 <p>This paper studies:</p>
 <ul>
@@ -260,10 +260,10 @@
 <p>In summary, our observations on both explicit and implicit regularizers are consistently suggesting that regularizers, when properly tuned, could help to improve the generalization performance. However, it is unlikely that the regularizers are the fundamental reason for generalization, as the networks continue to perform well after all the regularizers removed.</p>
 </blockquote>
 <p>No easy answers here!</p>
-<h2 id="finite-sample-expressivity">Finite sample expressivity</h2>
+<h2 id="finite-sample-expressivity"><a class="not-rich" href="#finite-sample-expressivity"><i class="fas fa-link"></i></a> Finite sample expressivity</h2>
 <p>Research on the &ldquo;expressivity&rdquo; of neural networks studies what classes functions (of an entire domain‚ can(not) be represented by certain classes of networks. The authors study expressivity of <em>samples</em>.</p>
 <p>The key result is that: for <em>n</em> samples in <em>d</em> dimensions, there exists a two-layer ReLU neural network with <em>2n + d</em> weights that can represent any function on those samples. If you&rsquo;d rather the network be wide than deep, you can have width <em>O(n/k)</em> and depth <em>k</em>. I didn&rsquo;t (try to) understand the proof.</p>
-<h2 id="thoughts">Thoughts</h2>
+<h2 id="thoughts"><a class="not-rich" href="#thoughts"><i class="fas fa-link"></i></a> Thoughts</h2>
 <p>I&rsquo;m not very familiar with the pure machine learning world that this paper sits in. But the results don&rsquo;t seem <em>that</em> surprising to me, which makes me feel like I&rsquo;m missing something. I thought it was known that neural nets could express any function, and so the fact that they can memorize random labels is <em>bad</em> but not <em>surprising.</em></p>
 <p>I think this paper was exceptionally well-written. It appears to have been impactful (it&rsquo;s been cited ~2000 times in 3 years) while also being easy to read. While I skipped the proofs in the appendix, the main results were clearly presented and the structure of the paper (with a lengthy introduction) was helpful.</p>
 <p>Where does this leave us, in terms of &ldquo;rethinking generalization&rdquo;? The authors claim that it means existing statistical learning theory is inadequate why neural nets do and do not generalize. I am not sure I understand this point.</p>

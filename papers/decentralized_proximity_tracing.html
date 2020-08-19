@@ -157,12 +157,12 @@
 <p>TU Berlin / Fraunhofer HHI: Prof. Thomas Wiegand</p>
 <p>University of Torino / ISI Foundation: Prof. Ciro Cattuto</p>
 </blockquote>
-<h2 id="background-location-tracing">Background: location tracing</h2>
+<h2 id="background-location-tracing"><a class="not-rich" href="#background-location-tracing"><i class="fas fa-link"></i></a> Background: location tracing</h2>
 <p>One of the suggestions for combating the spread of COVID-19 is a large-scale location tracing program. The idea, broadly speaking, is that &ldquo;someone&rdquo; uses location data to detect when people have come into contact with individuals who are infected with COVID-19 (or perhaps were themselves exposed). Those people can be told (or forced) to self-isolate.</p>
 <p>Contrast this to the current situation in the US, when most people have no idea if they&rsquo;ve come into contact with a carrier of the virus. While many are observing social distancing, there are strong arguments for needing something more robust than &ldquo;please stay home.&rdquo; Location data, and automated contact tracing, <a href="https://www.forbes.com/sites/zakdoffman/2020/04/07/covid-19s-new-normal-yes-your-phone-will-track-infected-people-nearby/#582bb107f0db">are</a> | <a href="https://www.theverge.com/2020/3/31/21199654/location-data-coronavirus-us-response-covid-19-apple-google">being</a> | <a href="https://theintercept.com/2020/04/02/coronavirus-covid-19-surveillance-privacy/">pointed</a> | <a href="https://news.trust.org/item/20200328130228-rzdk2/">to</a> as a potential solution.</p>
 <p>This is, of course, controversial. The Washington Post <a href="https://www.washingtonpost.com/news/powerpost/paloma/the-technology-202/2020/03/30/the-technology-202-we-asked-more-than-100-tech-experts-if-u-s-should-use-location-data-to-track-coronavirus-they-were-split/5e80c80b602ff10d49ad757e">asked</a> a panel of experts on whether or not this should be done in the US, and they were evenly divided. And I personally don&rsquo;t trust the (US) government to build such a system in a way that won&rsquo;t simply be repurposed for mass surveillance in the future.</p>
 <p>A number of European countries are, however, already starting to do this by having cell providers share location data with governments. East Asian countries, who have largely been ahead of the US and Europe in their responses, have arguably been successful&mdash;Taiwan linked its immigration database to its health system, and both Singapore and Taiwan <a href="https://www.nytimes.com/2020/03/31/world/asia/coronavirus-china-hong-kong-singapore-south-korea.html">are requiring</a> smartphone location data to be shared with the government.</p>
-<h2 id="decentralized-privacy-preserving-proximity-tracing">Decentralized Privacy-Preserving Proximity Tracing</h2>
+<h2 id="decentralized-privacy-preserving-proximity-tracing"><a class="not-rich" href="#decentralized-privacy-preserving-proximity-tracing"><i class="fas fa-link"></i></a> Decentralized Privacy-Preserving Proximity Tracing</h2>
 <p>The idea behind this proposal (DP-3T) is to create a system for contact tracing that respects the privacy of individuals. DP-3T sits under the <a href="https://www.pepp-pt.org/">Pan-European Privacy-Preserving Proximity Tracing</a> (PEPP-PT) project, which is a set of loosely related proposals. The goal of the app is to note when contact occurs, and <em>not</em> to track infected individuals; once notified that they&rsquo;ve been exposed, users are assumed to be responsible.</p>
 <p>The authors outline the following requirements:</p>
 <blockquote>
@@ -181,7 +181,7 @@
 <li><strong>Protect identities</strong>: data cannot be linked back to an individual.</li>
 <li><strong>Erasure</strong>: delete irrelevant data, follow data retention policies.</li>
 </ul>
-<h2 id="system-design">System design</h2>
+<h2 id="system-design"><a class="not-rich" href="#system-design"><i class="fas fa-link"></i></a> System design</h2>
 <p>The authors propose two designs, which have four steps:</p>
 <ol>
 <li>The app is installed, and upon installation a chain of ephemeral IDs are generated from a seed.</li>
@@ -193,7 +193,7 @@
 <p><strong>Details on normal operation:</strong> smartphones first locally generate a key <code>SK[t]</code> for the first day, then compute <code>SK[t+1] = H(SK[t])</code>, where H is some hash function, for the following days. Given a particular day&rsquo;s seed, the phones locally generates N emphemeral IDs to be used on that day. The keysIDs are broadcast in a random order. Each phone stores the ephemeral IDs that other devices have broadcast.</p>
 <p><strong>Details on proximity tracing</strong>: a health authority informs a patient of a positive test result. Following this, the patient will send their key <code>SK[t]</code> from the first day they were contagious to the server, which is distributed to all phones in the system. A phone can use this key to reconstruct the ephemeral IDs which the infected patient&rsquo;s phone broadcasted, and check if any of those ephemeral IDs were observed.</p>
 <p>An alternative design uses a Cuckoo filter to offer greater privacy at the expense of larger downloads to individual devices. The details of this are a little bit over my head.</p>
-<h2 id="thoughts">Thoughts</h2>
+<h2 id="thoughts"><a class="not-rich" href="#thoughts"><i class="fas fa-link"></i></a> Thoughts</h2>
 <p>This is really interesting to read. Once again, I&rsquo;m skeptical of any centralized solution that maintains a global contact graph or full location data; and while I knew that decentralized solutions must exist, this is the first time I read about one in depth.</p>
 <p>This work <em>also</em> represents the first system I&rsquo;ve seen that&rsquo;s designed with the idea that it can be gratefully dismantled once we&rsquo;ve gotten past COVID-19. By enforcing privacy by design and following reasonable data retention policies (nothing realistically needs to be kept for more than a few weeks), I have much more faith in this system than I do any other that I&rsquo;ve seen proposed.</p>
 <p>NPR <a href="https://www.npr.org/sections/coronavirus-live-updates/2020/04/02/825860406/in-germany-high-hopes-for-new-covid-19-contact-tracing-app-that-protects-privacy">reports</a> that Germany may be rolling out a system like this in the near future. I look forward to hearing how it goes, and hope that it helps them get this under control.</p>

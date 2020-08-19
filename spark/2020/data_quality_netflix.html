@@ -143,14 +143,14 @@
     <div class="rich-text" itemprop="articleBody">
       <p>Netflix ingests terabytes of data and billions of rows daily, and these are used for personalized recommendations both online and offline. How do they manage data quality? By lots and lots of quality checks early on.</p>
 <p><strong>Speaker</strong>: Preetam Joshi &amp; Vivek Kaushal, both senior software engineers at Netflix</p>
-<h2 id="one-of-netflixs-data-pipelines">(One of) Netflix&rsquo;s data pipelines</h2>
+<h2 id="one-of-netflixs-data-pipelines"><a class="not-rich" href="#one-of-netflixs-data-pipelines"><i class="fas fa-link"></i></a> (One of) Netflix&rsquo;s data pipelines</h2>
 <p>The talk opened with a summary of how Netflix recommendations work: start with member data and video data, do online feature generation, compute recommendations, and serve one. The online features are also sent to a historical fact store, so they can generate features offline later to train models offline and recompute recommendations (e.g., for trying out better models or experimenting). The talk focuses on the historical fact store.</p>
 <p>The historical fact store consists of logger &gt; ETL &gt; Hive &gt; query engine. It has 10 PB of data with hundreds of attributes, and 1 billion rows flow through the ETL pipeline daily. The data is used by a variety of models to enable personalization. Bad data is &hellip; bad, though.</p>
 <p><strong>Drift</strong>: imagine you have a bug in the ETL pipeline, and you erroneously mark 10% of kids&rsquo; profiles as adult profiles; adults will start seeing more kids content, and then thumbs down-ing that content, which is bad. That is a subtle bug&mdash;you might not notice it immediately, but eventually it&rsquo;ll cause problems with recommendations.</p>
 <p><strong>Drastic changes</strong>: you put 6 socks in the dryer, and suddenly 5 come out. They show an example of an attribute that was sending 600M rows daily, and then on April 29th it sent 150M. They got an alert, fixed it, and it was back to normal the next day.</p>
 <p><strong>Under utilization</strong>: you have a lot of data coming in, but you don&rsquo;t use it for anything. I don&rsquo;t really understand why this is a problem.</p>
 <p>These can be caused by two kinds of bugs&mdash;bugs in the source or bugs in the pipeline. Preetam continued with the <em>solutions</em> to these data quality issues.</p>
-<h2 id="tackling-data-quality">Tackling data quality</h2>
+<h2 id="tackling-data-quality"><a class="not-rich" href="#tackling-data-quality"><i class="fas fa-link"></i></a> Tackling data quality</h2>
 <p>Their data quality architecture looks like:</p>
 <ul>
 <li>online feature generation, which goes into a historical fact store</li>

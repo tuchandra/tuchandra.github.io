@@ -147,7 +147,7 @@
       <p>Spotify makes a global music catalog available to subscribers around the world. Historically, that&rsquo;s meant different countries have more access to each other&rsquo;s music. How does that hold up in 5.5 years of Spotify streaming data?</p>
 <p><strong>Authors</strong>: Samuel F. Way, Jean Garcia-Gathright, Henriette Cramer (Spotify Research)</p>
 <p><strong>Link</strong>: <a href="https://aaai.org/ojs/index.php/ICWSM/article/view/7336">Proceedings of ICWSM</a> (open access) and <a href="https://www.youtube.com/watch?v=9v4AfX2IVdY&amp;">prerecorded talk</a></p>
-<h2 id="summary">Summary</h2>
+<h2 id="summary"><a class="not-rich" href="#summary"><i class="fas fa-link"></i></a> Summary</h2>
 <p>Music has changed over the years; the ways that artists record and distribute their music have changed, and the ways that listeners discover music have too. Spotify is one of the only companies uniquely positioned to be able to study <em>how</em>. Their main question here was <strong>&ldquo;how is global music trade changing in the streaming era?&quot;</strong></p>
 <p>Globalization is a complex topic with lots of hard questions. The authors recognized this. From the recorded talk (not the paper):</p>
 <blockquote>
@@ -160,7 +160,7 @@
 <li>these trends persist across genres, age groups, and early- and late-adopters of streaming</li>
 </ul>
 <p>Here, &ldquo;local&rdquo; means &ldquo;music whose main performing artist is from the same country as the listener.&rdquo; Previous intuition suggested that music recording, and then music streaming, accelerated globalization. This paper instead finds that preferences for local content have increased during the streaming era.</p>
-<h2 id="data">Data</h2>
+<h2 id="data"><a class="not-rich" href="#data"><i class="fas fa-link"></i></a> Data</h2>
 <p>The authors data consists of:</p>
 <ul>
 <li>3 trillion streams, with origin and destination country info</li>
@@ -175,7 +175,7 @@
 </figure>
 
 <p>This shows us that proximity shapes music trade (the different square regions are the Spanish-speaking Americas, then Asia, then the Middle East and Africa, then Europe). Outliers (like Spain and Andorra to the Spanish-speaking Americas) are generally explained by language.</p>
-<h2 id="gravity-modeling">Gravity modeling</h2>
+<h2 id="gravity-modeling"><a class="not-rich" href="#gravity-modeling"><i class="fas fa-link"></i></a> Gravity modeling</h2>
 <p>The authors adopt &ldquo;gravity models&rdquo; from economics (which adopted this from physics), where the &ldquo;music flow&rdquo; (as opposed to trade) between two countries is modeled based on the law of universal gravitation. From the paper:</p>
 <p>$$
 trade_{i, j} = G \cdot \frac{M_i M_j}{distance_{i,j}}
@@ -189,7 +189,7 @@ $$</p>
 \end{align*}
 $$</p>
 <p>They fit three models: (1) on all genres, (2) on just Pop music (according to Gracenote!), and (3) on all genres <em>except</em> Pop. The results, which were consistent across models, revealed that countries were increasingly streaming their own music, that shared language is becoming more important, and that music is traveling over shorter distances.</p>
-<h2 id="thoughts">Thoughts</h2>
+<h2 id="thoughts"><a class="not-rich" href="#thoughts"><i class="fas fa-link"></i></a> Thoughts</h2>
 <p>I found the recorded talk (and a <a href="https://twitter.com/samfway/status/1270461128716349440">Twitter thread</a> by the primary author) to be really well-done. I think the paper asked a thoughtful question, and Spotify is one of maybe three companies (with YouTube and Apple Music) that&rsquo;s capable of studying it in a meaningful way.</p>
 <p>The paper itself was a little harder to understand than I expected. Its results were scattered throughout, and it wasn&rsquo;t clear that a lot of the early figures and conclusions weren&rsquo;t due to the gravity modeling approach. This is at least partially due to the constraints of the paper format, and it makes me grateful for the talk. Way&rsquo;s slides were simple and concise, and he explained the work (and its caveats and assumptions) clearly.</p>
 <p>(The rest of my thoughts aren&rsquo;t specific to this paper.)</p>

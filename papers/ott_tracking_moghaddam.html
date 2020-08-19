@@ -147,7 +147,7 @@
       <p>This paper studies the tracking ecosystem of Roku and Amazon Fire devices, discovering that channels on both platforms regularly send their traffic to known trackers. They also note that they often transmit unique identifiers, and that known methods to protect privacy are largely ineffective.</p>
 <p><strong>Authors</strong>: Hooman Mohajeri Moghaddam, Gunes Acar, Ben Burgess, Arunesh Mathur, Danny Yuxing Huang, Nick Feamster, Edward W. Felten, Prateek Mittal, Arvind Narayanan</p>
 <p><strong>Link</strong>: open access from <a href="https://dl.acm.org/doi/10.1145/3319535.3354198">ACM</a> at CCS &lsquo;19</p>
-<h2 id="summary">Summary</h2>
+<h2 id="summary"><a class="not-rich" href="#summary"><i class="fas fa-link"></i></a> Summary</h2>
 <p>Over-the-Top (&ldquo;OTT&rdquo;) refers to internet-connected TV devices: think Roku or Amazon Fire, which are the two biggest platforms. Like traditional (linear) TV, they are monetized through advertising. This paper is the first to study the privacy practices of these platforms.</p>
 <p>From the abstract:</p>
 <blockquote>
@@ -163,7 +163,7 @@
 <p><strong>Trackers were everywhere.</strong> 975 of the 1000 Roku channels sent something to the Google-owned doubleclick.net, and 687 of the 1000 Amazon Fire channels featured the Amazon ads domain. Facebook appeared in nearly 200 Amazon Fire channels, but only one Roku channel.</p>
 <p>They then investigated the actual information being collected. Many channels collected information about what was being viewed or device-level unique identifiers like the serial number. On Roku, 73% of requests that had an Ad ID or serial number were trackers; on Amazon Fire, this number was 41%.</p>
 <p>Countermeasures were largely ineffective. The &ldquo;limit ad tracking&rdquo; (Roku) and &ldquo;disable interest based ads&rdquo; (Amazon) settings reduced the number of requests made to trackers, but Roku serial number leaks and other identifiers communicated to trackers remainend present. Using a network-level Pi-hole showed similarly ineffective results.</p>
-<h2 id="thoughts-connections-and-questions">Thoughts, connections, and questions</h2>
+<h2 id="thoughts-connections-and-questions"><a class="not-rich" href="#thoughts-connections-and-questions"><i class="fas fa-link"></i></a> Thoughts, connections, and questions</h2>
 <p>This is the future of the Internet of Things—trackers everywhere without control over where data about you gets sent. Previous research has showed that up to 50% of smartphone traffic can be attributed to someone&rsquo;s real name, and it appears that this is the case for OTT traffic as well. Other research shows that there is very little understanding of privacy practices on smart TV platforms.</p>
 <p><strong>What are the implications for privacy?</strong> As &ldquo;smart&rdquo; systems become more opaque, do users still have a reasonable expectation of privacy? Ten years ago, it would have been ludicrous to imagine that companies were tracking everything you watched on your TV (ignoring the fact that Nielsen panels do exactly that, but those are voluntary panels). Today, it seems like the new normal.</p>
 <p>From an advertiser&rsquo;s perspective, this is great!—and usually things that are good for advertisers are not good for consumers. &ldquo;The tendency of companies to monetize users&rsquo; data makes it difficult to incentivize privacy friendly practices.&rdquo;</p>

@@ -166,7 +166,7 @@
 <li>(many) <strong>interaction features</strong>, like viewer/entity or segment/entity engagement, <a href="https://engineering.linkedin.com/recommender-systems/browsemap-collaborative-filtering-linkedin">browsemap scores</a>, embeddings, and <em>many</em> more</li>
 </ul>
 <p>Joining millions of active members to millions of entities results in <em>trillions</em> of interaction features; they apply a candidate selection feature that trims this down to &ldquo;just&rdquo; hundreds of billions of features. How does this happen?</p>
-<h2 id="generating-these-features">Generating these features</h2>
+<h2 id="generating-these-features"><a class="not-rich" href="#generating-these-features"><i class="fas fa-link"></i></a> Generating these features</h2>
 <p><strong>(1)</strong>: the naive option is a <em>3 way Spark join</em>, first on viewerID then on entityID, would be awful; that&rsquo;d result in two gigantic shuffles of hundreds of terabytes of data while also being highly skewed. This won&rsquo;t work.</p>
 <p><strong>(2)</strong>: another option is <em>partial scoring</em> using a linear model. Instead of joining all the features together, partially score viewer, entity, and pair features offline, then join the tables of <em>scores</em> instead of the tables of features.</p>
 <p>This three-way join is more manageable, but it still has disadvantages; the scoring overhead isn&rsquo;t great, and there are intermediary steps that they&rsquo;d like to avoid. You also are forced to score with a linear model (since they&rsquo;re doing partial scoring on each of viewer, entity, and pair), which is a huge constraint apparently.</p>

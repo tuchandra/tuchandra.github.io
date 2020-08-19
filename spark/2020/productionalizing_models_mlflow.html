@@ -143,7 +143,7 @@
     <div class="rich-text" itemprop="articleBody">
       <p>This talk, by Mary Grace Moesta &amp; Peter Tamisin at Databricks, dove into MLOps and productionalization of machine learning models using MLflow. How can we apply principles from CI/CD to machine learning? And how can MLflow help us to do so?</p>
 <p><strong>Speakers</strong>: Mary Grace Moesta &amp; Peter Tamisin at Databricks</p>
-<h2 id="mlops">MLOps</h2>
+<h2 id="mlops"><a class="not-rich" href="#mlops"><i class="fas fa-link"></i></a> MLOps</h2>
 <p>MLOps is relevant because:</p>
 <ul>
 <li>the data science development framework and tools are typically centered around local development</li>
@@ -152,7 +152,7 @@
 </ul>
 <p>She doesn&rsquo;t need to convince me&mdash;I&rsquo;ve been aware that this was a blind spot in my understanding of machine learning for a while. Mary Grace passed it to the other speaker, Pete, to talk about CI/CD.</p>
 <p>I think the second point is particularly important: as the scale of your data increases, and as you add more tools, the integration points become increasingly challenging to manage. Bugs are most likely to arise at the boundaries between services: when passing data from one module to another, when moving from local execution to the cloud, when running on unseen production data, etc.</p>
-<h2 id="cicd">CI/CD</h2>
+<h2 id="cicd"><a class="not-rich" href="#cicd"><i class="fas fa-link"></i></a> CI/CD</h2>
 <p>Pete Tamisin described CI as code (running tests and linting), building (pulling everything together, running more automated tasks, packaging libraries), and generating releases. CD, meanwhile, is deploying your code (as a notebook or library), testing it (and reporting on it), and operating with it (scheduling downstream ingestion, ML pipelines, analytics, etc.).</p>
 <p>There&rsquo;s a lot more, based on my understanding of these: monitoring, sending feedback, debugging production issues, creating reports, and far, far more. There&rsquo;s a reason this is a whole field!</p>
 <p>In machine learning, this looks like:</p>
@@ -167,7 +167,7 @@
 <p>MLflow can enable this (that&rsquo;s the point of the talk). I&rsquo;ve known about <a href="https://www.mlflow.org/docs/latest/tracking.html">MLflow tracking</a> for a while, but the <a href="https://www.mlflow.org/docs/latest/model-registry.html">model registry</a> is totally new to me (minus them announcing it last year). The model registry lets you catalog different versions of models and manage where they are deployed.</p>
 <p>Using MLflow, you can use the model registry to track models in different stages (dev, staging, prod, others). All of this is managed through Python code with the MLflow API, which is <em>really</em> nice (no more YML files!). That&rsquo;s one of the reasons I like MLflow tracking so much, too.</p>
 <p>The talk finished off with a demo of different MLflow features. Good to see, but hard to summarize here.</p>
-<h2 id="in-conclusion---">In conclusion&mdash;</h2>
+<h2 id="in-conclusion---"><a class="not-rich" href="#in-conclusion---"><i class="fas fa-link"></i></a> In conclusion&mdash;</h2>
 <p>&ldquo;MLops is an important piece of the machine learning framework that enables the business to consume downstream results with ease.&rdquo; The basic of CI/CD, they demonstrated, still apply to a machine learning project, but need some modifications (e.g., what kinds of artifacts are you deploying&mdash;a trained model that you need to use downstream, instead of website code).</p>
 <p>That&rsquo;s what MLflow has been created to help with; it acts as an intermediary between different steps of the process and different tools, which sounds great. This was an awesome talk!</p>
       <p><i class="fas fa-square font-green-800"></i></p>
