@@ -279,6 +279,13 @@
   </url>
   
   <url>
+    <loc>/tags/site.html</loc>
+    <lastmod>2020-06-29T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>/books/network_propaganda_4.html</loc>
     <lastmod>2020-06-27T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -498,6 +505,13 @@
   <url>
     <loc>/what_i_read/20200530.html</loc>
     <lastmod>2020-05-30T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/password-tool.html</loc>
+    <lastmod>2020-05-28T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
