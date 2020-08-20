@@ -58,7 +58,7 @@
   </url>
   
   <url>
-    <loc>/categories/chi2020.html</loc>
+    <loc>/tags/chi2020.html</loc>
     <lastmod>2020-08-19T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -707,6 +707,13 @@
   
   <url>
     <loc>/papers/acm_fat2020_talks.html</loc>
+    <lastmod>2020-04-19T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/fat2020.html</loc>
     <lastmod>2020-04-19T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
