@@ -4,8 +4,50 @@
   
   <url>
     <loc>/papers.html</loc>
-    <lastmod>2020-08-19T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/papers/auditing_news_curation_systems_diakopoulos.html</loc>
+    <lastmod>2020-08-20T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/categories.html</loc>
+    <lastmod>2020-08-20T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/icwsm2020.html</loc>
+    <lastmod>2020-08-20T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/papers.html</loc>
+    <lastmod>2020-08-20T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/tags.html</loc>
+    <lastmod>2020-08-20T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2020-08-20T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
@@ -16,28 +58,7 @@
   </url>
   
   <url>
-    <loc>/categories.html</loc>
-    <lastmod>2020-08-19T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>/categories/chi2020.html</loc>
-    <lastmod>2020-08-19T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/papers.html</loc>
-    <lastmod>2020-08-19T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/</loc>
     <lastmod>2020-08-19T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -1393,12 +1414,6 @@
   
   <url>
     <loc>/series.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/tags.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
