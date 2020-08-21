@@ -6,10 +6,19 @@
     <description>Recent content on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 21 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2020 15:00:00 +0000</lastBuildDate>
     
         <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Recent website changes</title>
+      <link>/posts/apr2020_website_changes.html</link>
+      <pubDate>Wed, 29 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/apr2020_website_changes.html</guid>
+      <description>&lt;p&gt;I made a couple more changes to my website: giving more credit to the authors of the papers I read and adding a new category.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>[Paper] &#39;On Finsta I can say Hail Satan&#39;: Being Authentic but Disagreeable on Instagram</title>
@@ -180,15 +189,6 @@
       
       <guid>/what_i_read/20200328.html</guid>
       <description>&lt;p&gt;This week, I read two articles about &amp;ldquo;broader impact&amp;rdquo; statements, soon to be required by NeurIPS. Other articles include a discussion of Facebook&amp;rsquo;s suicide prevention AI, suggestions on fighting fake news, and poll results showing Fox News viewers are less likely to take the coronavirus threat seriously.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Normalcy during coronavirus</title>
-      <link>/posts/normalcy_during_coronavirus.html</link>
-      <pubDate>Fri, 27 Mar 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/normalcy_during_coronavirus.html</guid>
-      <description>&lt;p&gt;Yesterday marked two weeks of fully remote work; my first day at home was Thursday, March 12th. This post reflects on my experience.&lt;/p&gt;</description>
     </item>
     
   </channel>
