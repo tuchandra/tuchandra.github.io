@@ -4,47 +4,81 @@
   
   <url>
     <loc>/papers.html</loc>
-    <lastmod>2020-08-20T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/papers/auditing_news_curation_systems_diakopoulos.html</loc>
-    <lastmod>2020-08-20T00:00:00+00:00</lastmod>
+    <loc>/posts.html</loc>
+    <lastmod>2020-08-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/papers/media_coverage_presidential_google_kawakami.html</loc>
+    <lastmod>2020-08-21T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/categories.html</loc>
-    <lastmod>2020-08-20T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-21T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/general.html</loc>
+    <lastmod>2020-08-21T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/tags/icwsm2020.html</loc>
-    <lastmod>2020-08-20T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-21T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/posts/site_changes_tags.html</loc>
+    <lastmod>2020-08-21T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/categories/papers.html</loc>
-    <lastmod>2020-08-20T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-21T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/site.html</loc>
+    <lastmod>2020-08-21T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/tags.html</loc>
-    <lastmod>2020-08-20T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-21T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/</loc>
+    <lastmod>2020-08-21T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/papers/auditing_news_curation_systems_diakopoulos.html</loc>
     <lastmod>2020-08-20T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -60,19 +94,6 @@
   <url>
     <loc>/tags/chi2020.html</loc>
     <lastmod>2020-08-19T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/posts.html</loc>
-    <lastmod>2020-08-17T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/general.html</loc>
-    <lastmod>2020-08-17T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -273,13 +294,6 @@
   
   <url>
     <loc>/posts/another_new_layout.html</loc>
-    <lastmod>2020-06-29T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/site.html</loc>
     <lastmod>2020-06-29T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
