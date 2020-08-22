@@ -6,10 +6,19 @@
     <description>Recent content on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 21 Aug 2020 15:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 22 Aug 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>What I read this week (August 16 - 22)</title>
+      <link>/what_i_read/20200822.html</link>
+      <pubDate>Sat, 22 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/what_i_read/20200822.html</guid>
+      <description>&lt;p&gt;I did a lot of reading this week&amp;mdash;articles shared on Twitter, from newsletters, or passed along by friends. Topics include AI bias, data science careers, technical debt and testing data science systems, and more.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>[Paper] Content moderation, AI, and the question of scale</title>
@@ -180,15 +189,6 @@
       
       <guid>/papers/aligning_recommender_human_values_stray.html</guid>
       <description>&lt;p&gt;How can recommender systems better align to human values, like fairness, diversity, or equity? This paper, from the ICML Participatory Approaches to ML workshop, discusses approaches to answering this question.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>What I read this week (July 12 - July 18)</title>
-      <link>/what_i_read/20200718.html</link>
-      <pubDate>Sat, 18 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/what_i_read/20200718.html</guid>
-      <description>&lt;p&gt;This week, all the blog posts and articles I read came from &lt;a href=&#34;https://pointer.io&#34;&gt;Pointer&lt;/a&gt;. I spent most of my free time finishing up the book &lt;em&gt;Twenty Six Words&lt;/em&gt; (highly recommend!) and then starting &lt;em&gt;Weapons of Math Destruction&lt;/em&gt; by Cathy O&amp;rsquo;Neil.&lt;/p&gt;</description>
     </item>
     
   </channel>
