@@ -37,6 +37,27 @@
   </url>
   
   <url>
+    <loc>/books.html</loc>
+    <lastmod>2020-08-21T20:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/books.html</loc>
+    <lastmod>2020-08-21T20:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/books/you_look_like_a_thing.html</loc>
+    <lastmod>2020-08-21T20:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>/papers.html</loc>
     <lastmod>2020-08-21T15:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -128,20 +149,6 @@
   <url>
     <loc>/posts/promotion_senior.html</loc>
     <lastmod>2020-08-17T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/books.html</loc>
-    <lastmod>2020-08-16T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/books.html</loc>
-    <lastmod>2020-08-16T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

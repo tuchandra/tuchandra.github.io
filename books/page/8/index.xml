@@ -6,10 +6,19 @@
     <description>Recent content in Books on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 16 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2020 20:00:00 +0000</lastBuildDate>
     
         <atom:link href="/books/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Paper] Competition and Crowd-out for Brand Keywords in Sponsored Search</title>
+      <link>/papers/competition_crowd_out_simonov.html</link>
+      <pubDate>Fri, 03 Jan 2020 15:24:00 +0000</pubDate>
+      
+      <guid>/papers/competition_crowd_out_simonov.html</guid>
+      <description>&lt;p&gt;Another paper on digital search advertising, this one on the effects of competition on ads placed on brand keyword searches. This was another study reacting to the eBay study on own-brand advertising.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>[Paper] Firms&#39; Reactions to Public Information on Business Practices: Case of Search Advertising</title>
@@ -181,15 +190,6 @@
       
       <guid>/posts/why_papers.html</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve been writing a bunch of paper summaries over the past couple of weeks, and I hope to continue this for several months. Why, though? This post will clear that up.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] Bayesian Multilevel Estimation with Poststratification: State-Level Estimates from National Polls</title>
-      <link>/papers/bayesian_multilevel_estimation_gelman.html</link>
-      <pubDate>Tue, 26 Nov 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/papers/bayesian_multilevel_estimation_gelman.html</guid>
-      <description>&lt;p&gt;This is a summary of the seminal paper by David K. Park, Andrew Gelman, and Joseph Bafumi. View the original on &lt;a href=&#34;http://www.stat.columbia.edu/~gelman/research/published/parkgelmanbafumi.pdf&#34;&gt;Gelman&amp;rsquo;s website&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
   </channel>

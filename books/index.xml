@@ -6,7 +6,7 @@
     <description>Recent content in Books on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 16 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2020 20:00:00 +0000</lastBuildDate>
     
         <atom:link href="/books/index.xml" rel="self" type="application/rss+xml" />
     
@@ -18,6 +18,15 @@
       
       <guid>/what_i_read/20200822.html</guid>
       <description>&lt;p&gt;I did a lot of reading this week&amp;mdash;articles shared on Twitter, from newsletters, or passed along by friends. Topics include AI bias, data science careers, technical debt and testing data science systems, and more.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>My review of &#39;You Look Like a Thing and I Love You&#39;</title>
+      <link>/books/you_look_like_a_thing.html</link>
+      <pubDate>Fri, 21 Aug 2020 20:00:00 +0000</pubDate>
+      
+      <guid>/books/you_look_like_a_thing.html</guid>
+      <description>&lt;p&gt;I picked up &lt;a href=&#34;https://twitter.com/JanelleCShane&#34;&gt;Janelle Shane&amp;rsquo;s&lt;/a&gt; book, &lt;em&gt;You Look Like a Thing and I Love You&lt;/em&gt;, a couple of weeks ago. Combining clear explanations of AI with hilarious examples of how weird it can be, this was one of the best books I&amp;rsquo;ve read in a while.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -180,15 +189,6 @@
       
       <guid>/papers/icml_workshop_papers.html</guid>
       <description>&lt;p&gt;The &lt;a href=&#34;https://participatoryml.github.io/&#34;&gt;Participatory Approaches to Machine Learning&lt;/a&gt; workshop at ICML 2020 caught my attention, and so I read two papers on recommender systems that came out of it: &lt;em&gt;Deconstructing the Filter Bubble: User Decision-Making and Recommender Systems&lt;/em&gt; and &lt;em&gt;Designing Recommender Systems with Reachability in Mind&lt;/em&gt;.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] What are you optimizing for? Aligning Recommender Systems with Human Values</title>
-      <link>/papers/aligning_recommender_human_values_stray.html</link>
-      <pubDate>Sun, 19 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/papers/aligning_recommender_human_values_stray.html</guid>
-      <description>&lt;p&gt;How can recommender systems better align to human values, like fairness, diversity, or equity? This paper, from the ICML Participatory Approaches to ML workshop, discusses approaches to answering this question.&lt;/p&gt;</description>
     </item>
     
   </channel>
