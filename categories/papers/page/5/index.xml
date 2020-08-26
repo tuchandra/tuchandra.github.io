@@ -6,10 +6,19 @@
     <description>Recent content in papers on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 21 Aug 2020 15:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Aug 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/categories/papers/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Paper] In-game and Out-of-game Social Anxiety Influences Player Motivations, Activities, and Experiences in MMORPGs</title>
+      <link>/papers/social_anxiety_mmorpgs_dechant.html</link>
+      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/social_anxiety_mmorpgs_dechant.html</guid>
+      <description>&lt;p&gt;How are MMORPGs perceived by people with social anxiety? What do they find enjoyable about MMORPGS? How does real-world anxiety translate to social experiences in a video game setting? This CHI 2020 paper by Dechant et al. studies these and other questions about the interactions between social anxiety and video games.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>[Paper] Computing Students&#39; Learning Difficulties in HCI Education</title>
@@ -180,15 +189,6 @@
       
       <guid>/books/everybody_lies_2.html</guid>
       <description>&lt;p&gt;I had some more abstract thoughts about what &amp;ldquo;data science&amp;rdquo; really means while reading &lt;em&gt;Everybody Lies&lt;/em&gt;. In this post, I talk about data science as &lt;em&gt;discovery&lt;/em&gt; and about what it means to &amp;ldquo;do&amp;rdquo; data science.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>&#34;Everybody Lies&#34;, part 1</title>
-      <link>/books/everybody_lies_1.html</link>
-      <pubDate>Mon, 30 Mar 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/books/everybody_lies_1.html</guid>
-      <description>&lt;p&gt;A group of data scientists in my office decided to start a (now virtual) book club; our first book is &lt;em&gt;Everybody Lies: Big Data, New Data, and What the Internet Can Tell Us about Who We Really Are&lt;/em&gt; by &lt;a href=&#34;http://sethsd.com/everybodylies&#34;&gt;Seth Stephens-Davidowitz&lt;/a&gt;. In this book, the Google data scientist turned NYT writer talks about what we can learn from &amp;ldquo;Big Data&amp;rdquo;&amp;mdash;and why the results might be surprising.&lt;/p&gt;</description>
     </item>
     
   </channel>

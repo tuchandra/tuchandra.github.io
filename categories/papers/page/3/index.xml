@@ -6,10 +6,19 @@
     <description>Recent content in papers on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 21 Aug 2020 15:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Aug 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/categories/papers/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Patterns And Anti-Patterns For Memorializing Data Science Project Artifacts</title>
+      <link>/spark/2020/patterns_for_artifacts.html</link>
+      <pubDate>Thu, 25 Jun 2020 17:00:00 +0000</pubDate>
+      
+      <guid>/spark/2020/patterns_for_artifacts.html</guid>
+      <description>&lt;p&gt;So you need to save your work for future data scientists; how do you do this? This talk discusses best practices for saving artifacts from data science projects.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Automated And Explainable Deep Learning For Clinical Language Understanding At Roche</title>
@@ -180,15 +189,6 @@
       
       <guid>/papers/information_operations_blm_arif.html</guid>
       <description>&lt;p&gt;This CWCW 2018 paper studies tweets and profiles of accounts that were suspended by for affiliation with Russian information operation campaigns. How did these accounts contribute to the discourse? What kinds of things did they tweet about? What were their profiles like? Another timely paper, Dr. Starbird shared this on Twitter and it immediately stood out.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] Critical Race Theory for HCI</title>
-      <link>/papers/critical_race_theory_ogburu.html</link>
-      <pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/papers/critical_race_theory_ogburu.html</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve had my eye on this paper since I saw that it received Best Paper at CHI 2020, but in light of recent events it seems more timely than ever. How does critical race theory fit into HCI? How do technological systems perpetuate racism? How can we do better?&lt;/p&gt;</description>
     </item>
     
   </channel>

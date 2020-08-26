@@ -6,10 +6,19 @@
     <description>Recent content on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 21 Aug 2020 15:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Aug 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/papers/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Paper] Equality of Opportunity in Supervised Learning</title>
+      <link>/papers/equality_of_opportunity_srebro.html</link>
+      <pubDate>Wed, 26 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/equality_of_opportunity_srebro.html</guid>
+      <description>&lt;p&gt;Measuring the (un)fairness of a predictive model is challenging work. This NeurIPS paper motivates and defines two concepts for this, &amp;ldquo;equalized odds&amp;rdquo; and &amp;ldquo;equal opportunity.&amp;rdquo; It then develops a a post-training framework to induce these new notions of fairness onto a trained model.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>What I read this week (August 16 - 22)</title>
@@ -180,15 +189,6 @@
       
       <guid>/papers/icml_workshop_papers_2.html</guid>
       <description>&lt;p&gt;Two more papers in the &lt;a href=&#34;https://participatoryml.github.io/&#34;&gt;Participatory Approaches to Machine Learning&lt;/a&gt; workshop at ICML 2020. These are more directly about participation: &lt;em&gt;Participation is not a Design Fix for Machine Learning&lt;/em&gt; and &lt;em&gt;What If I Don&amp;rsquo;t Like Any Of The Choices? The Limits of Preference Elicitation for Participatory Algorithm Design&lt;/em&gt;.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Papers] Two recommender systems papers from the ICML Participatory Approaches to ML workshop</title>
-      <link>/papers/icml_workshop_papers.html</link>
-      <pubDate>Mon, 20 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/papers/icml_workshop_papers.html</guid>
-      <description>&lt;p&gt;The &lt;a href=&#34;https://participatoryml.github.io/&#34;&gt;Participatory Approaches to Machine Learning&lt;/a&gt; workshop at ICML 2020 caught my attention, and so I read two papers on recommender systems that came out of it: &lt;em&gt;Deconstructing the Filter Bubble: User Decision-Making and Recommender Systems&lt;/em&gt; and &lt;em&gt;Designing Recommender Systems with Reachability in Mind&lt;/em&gt;.&lt;/p&gt;</description>
     </item>
     
   </channel>

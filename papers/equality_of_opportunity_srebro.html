@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <title>
+    [Paper] Equality of Opportunity in Supervised Learning - Tushar Chandra
+    </title>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="Cache-Control" content="no-transform" />
+  <meta http-equiv="Cache-Control" content="no-siteapp" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="format-detection" content="telephone=no,email=no,adress=no">
+  
+  <meta name="theme-color" content="#000000" />
+  <meta http-equiv="window-target" content="_top" /><meta name="description" content="Measuring the (un)fairness of a predictive model is challenging work. This NeurIPS paper motivates and defines two concepts for this, &amp;ldquo;equalized odds&amp;rdquo; and &amp;ldquo;equal opportunity.&amp;rdquo; It then develops a a post-training framework to induce these new notions of fairness onto a trained model.
+" />
+  <meta name="generator" content="Hugo 0.70.0" />
+  <title>[Paper] Equality of Opportunity in Supervised Learning - Tushar Chandra</title>
+
+  
+  
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
+
+  <meta property="og:title" content="[Paper] Equality of Opportunity in Supervised Learning" />
+<meta property="og:description" content="Measuring the (un)fairness of a predictive model is challenging work. This NeurIPS paper motivates and defines two concepts for this, &ldquo;equalized odds&rdquo; and &ldquo;equal opportunity.&rdquo; It then develops a a post-training framework to induce these new notions of fairness onto a trained model." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/papers/equality_of_opportunity_srebro.html" />
+<meta property="article:published_time" content="2020-08-26T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-08-26T00:00:00+00:00" />
+<meta itemprop="name" content="[Paper] Equality of Opportunity in Supervised Learning">
+<meta itemprop="description" content="Measuring the (un)fairness of a predictive model is challenging work. This NeurIPS paper motivates and defines two concepts for this, &ldquo;equalized odds&rdquo; and &ldquo;equal opportunity.&rdquo; It then develops a a post-training framework to induce these new notions of fairness onto a trained model.">
+<meta itemprop="datePublished" content="2020-08-26T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2020-08-26T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="1178">
+
+
+
+<meta itemprop="keywords" content="reading club,neurips," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="[Paper] Equality of Opportunity in Supervised Learning"/>
+<meta name="twitter:description" content="Measuring the (un)fairness of a predictive model is challenging work. This NeurIPS paper motivates and defines two concepts for this, &ldquo;equalized odds&rdquo; and &ldquo;equal opportunity.&rdquo; It then develops a a post-training framework to induce these new notions of fairness onto a trained model."/>
+</head>
+</head>
+
+
+
+<body class="h-screen flex flex-col justify-between" itemscope itemtype="http://schema.org/WebPage"><header class="w-screen bg-green-500" itemscope itemtype="http://schema.org/WPHeader">
+  <div class="flex max-w-8xl container mx-auto">
+    <div class="hidden sm:inline flex items-center">
+      <a href="/">
+        <img class="rounded-full m-1 md:m-4" src="/headshot.jpg" width="100" height="100">
+      </a>
+    </div>
+    <div class="w-full px-4 flex flex-col lg:flex-row justify-between lg:items-center my-4">
+      <div class="xl:flex-grow">
+        <a href="/">
+          <span class="text-lg sm:text-2xl md:text-3xl font-semibold">Tushar Chandra</span>
+          <span class="hidden pl-4 lg:inline"><br></span>
+          <span class="text-sm md:text-xl font-thin pl-4 md:pl-0 lg:text-xl">Data Scientist / Chicago, IL
+          </span>
+        </a>
+      </div>
+      <nav class="" itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation">
+        <ul class="flex lg:justify-between">
+          <li class="flex-grow-0 inline pr-1 md:pr-2 xl:px-4">
+            <p class="text-center">
+              <a href="/about">
+                <i class="fas text-green-800 pl-1 md:px-1 text-sm md:text-xl lg:text-2xl fa-mug-hot"></i>
+                <span class="font-thin text-sm md:text-lg lg:text-2xl">About</span>
+              </a>
+            </p>
+          </li>
+          <li class="flex-grow-0 inline pr-1 md:pr-2 xl:px-4">
+            <p class="text-center">
+              <a href="/resume">
+                <i class="fas text-green-800 pl-1 md:px-1 text-sm md:text-xl lg:text-2xl fa-file"></i>
+                <span class="font-thin text-sm md:text-lg lg:text-2xl">Resume</span>
+              </a>
+            </p>
+          </li>
+          <li class="flex-grow-0 inline pr-1 md:pr-2 xl:px-4">
+            <p class="text-center">
+              <a href="/reading">
+                <i class="fas text-green-800 pl-1 md:px-1 text-sm md:text-xl lg:text-2xl fa-book-open"></i>
+                <span class="font-thin text-sm md:text-lg lg:text-2xl">Reading</span>
+              </a>
+            </p>
+          </li>
+          <li class="flex-grow-0 inline pr-1 md:pr-2 xl:px-4">
+            <p class="text-center">
+              <a href="/categories.html">
+                <i class="fas text-green-800 pl-1 md:px-1 text-sm md:text-xl lg:text-2xl fa-folder-open"></i>
+                <span class="font-thin text-sm md:text-lg lg:text-2xl">Categories</span>
+              </a>
+            </p>
+          </li>
+          <li class="flex-grow-0 inline pr-1 md:pr-2 xl:px-4">
+            <p class="text-center">
+              <a href="/posts.html">
+                <i class="fas text-green-800 pl-1 md:px-1 text-sm md:text-xl lg:text-2xl fa-archive"></i>
+                <span class="font-thin text-sm md:text-lg lg:text-2xl">Archives</span>
+              </a>
+            </p>
+          </li>
+
+        </ul>
+
+      </nav>
+    </div>
+
+  </div>
+</header>
+  <div class="container mx-auto max-w-8xl px-4 flex flex-row flex-grow">
+    <div class="w-full md:w-3/4">
+      
+<main class="main" role="main"><div class="content container mx-auto max-w-6xl">
+  <article id="-" class="" itemscope itemtype="http://schema.org/BlogPosting">
+    <div class="pt-4">
+      <span class="font-semibold text-3xl"><h1 itemprop="name">
+  <a class="" href="/papers/equality_of_opportunity_srebro.html">[Paper] Equality of Opportunity in Supervised Learning</a>
+</h1>
+      </span>
+      <div class="pb-4"><i class="fas fa-calendar-check text-gray-500 pr-1"></i>
+<time datetime="2020-08-26 00:00:00 &#43;0000 UTC" class="text-sm text-gray-600"
+  itemprop="datePublished">2020-08-26</time>
+<span class="text-sm text-gray-600" itemprop="wordCount">
+	<i class="fas fa-pencil-alt text-gray-500 pl-4 pr-2"></i>1178 words
+</span><i class="fas fa-folder-open text-gray-500 pl-4 pr-1"></i>
+<a class="text-sm text-gray-600" href=" /categories/papers.html"> papers, </a>
+<span class="article-tag">
+  <i class="fas fa-tag text-gray-500 pl-4 pr-1"></i>
+  <a class="text-sm text-gray-600" href="/tags/reading-club.html"> reading club, </a>
+  <a class="text-sm text-gray-600" href="/tags/neurips.html"> neurips, </a>
+</span><span class="article-category text-sm text-gray-600 pl-4">
+  <i class="fa fa-users "></i>
+  Moritz Hardt, Eric Price, Nathan Srebro
+</span>
+      </div>
+    </div>
+    <div class="rich-text" itemprop="articleBody">
+      <p>Measuring the (un)fairness of a predictive model is challenging work. This NeurIPS paper motivates and defines two concepts for this, &ldquo;equalized odds&rdquo; and &ldquo;equal opportunity.&rdquo; It then develops a a post-training framework to induce these new notions of fairness onto a trained model.</p>
+<p><strong>Authors</strong>: Moritz Hardt, Eric Price, Nathan Srebro</p>
+<p><strong>Link</strong>: <a href="https://arxiv.org/abs/1610.02413">arXiv</a>, <a href="https://ai.googleblog.com/2016/10/equality-of-opportunity-in-machine.html">blog post</a>, a cool <a href="http://research.google.com/bigpicture/attacking-discrimination-in-ml/">interactive visualization</a></p>
+<h2 id="background-and-motivation"><a class="not-rich" href="#background-and-motivation"><i class="fas fa-link"></i></a> Background and motivation</h2>
+<p>Fairness in machine learning is important, and figuring out how to avoid discrimination is an active area of research. There are two common, but flawed, approaches:</p>
+<ul>
+<li>&ldquo;Fairness through unawareness&rdquo; (ignoring race, gender, etc.) obviously doesn&rsquo;t work, because of proxy variables (like zip code encoding race).</li>
+<li>&ldquo;Demographic parity&rdquo; (requiring that a decision be independent of a protected class) also does not work. It doesn&rsquo;t ensure fairness, and lowers the utility of our classifier.</li>
+</ul>
+<p>(For the limitations of demographic parity the authors cite <a href="https://arxiv.org/abs/1104.3913">Dwork et al. 2012</a>, which Hardt also worked on.)</p>
+<p>Taking a step back, the discrimination problem assumes a distribution over a target Y, features X, and protected attribute A. The goal is to construct Y&rsquo; = f(X, A), that predicts Y. This paper formalizes the idea of Y&rsquo; not discriminating with respect to A. (The paper uses $\hat{Y}$, but Y&rsquo; is easier to type in plaintext.)</p>
+<p>To formalize the notion of non-discrimination, the authors propose a new &ldquo;equal odds&rdquo; / &ldquo;equal opportunity&rdquo; framework. It can be constructed from an already-trained model, and in theory incentivizes better features (which are correlated with the target, not the protected class). That sounds promising.</p>
+<h2 id="definitions-equalized-odds-and-opportunity"><a class="not-rich" href="#definitions-equalized-odds-and-opportunity"><i class="fas fa-link"></i></a> Definitions: equalized odds and opportunity</h2>
+<p><strong>Equalized odds</strong>: a predictor Y&rsquo; satisfies equalized odds with respect to A and an outcome Y if Y&rsquo; and A are independent conditional on Y. This allows Y&rsquo; to depend on A only inasmuch as A contributes to Y. Formally,</p>
+<p>$$
+P\left[Y&rsquo; = 1 | A = 0, Y = y\right] = P\left[Y&rsquo; = 1 | A = 1, Y = y\right] ; y \in \{0, 1\}
+$$</p>
+<p>When y = 1, this requires that Y&rsquo; has equal true positive rates across A = 0 and A = 1. When y = 0, it requires equal false positive rates.</p>
+<p>(If there&rsquo;s a score $R \in \mathbb{R}$, then R can satisfy equalized odds if R is independent of A given Y.)</p>
+<p><strong>Equal opportunity</strong> is a relaxation of equalized odds for only the positive outcome, which is usually thought of as &ldquo;advantaged&rdquo; (getting a job, receiving a loan).</p>
+<p>$$
+P\left[Y&rsquo; = 1 | A = 0, Y = 1\right] = P\left[Y&rsquo; = 1 | A = 1, Y = 1\right]
+$$</p>
+<h2 id="how-to-achieve-this"><a class="not-rich" href="#how-to-achieve-this"><i class="fas fa-link"></i></a> How to achieve this</h2>
+<blockquote>
+<p>We now explain how to find an equalized odds or equal opportunity predictor Y* derived from a, possibly discriminatory, learned binary predictor Y&rsquo; or score R. We envision that Y&rsquo; or R are whatever comes out of the existing training pipeline.</p>
+</blockquote>
+<p>(As before with Y&rsquo; instead of $\hat{Y}$, I&rsquo;m using Y* where the paper uses $\widetilde{Y}$.) I&rsquo;ll now copy some notation directly from the paper:</p>
+<figure>
+    <img src="equality_of_opportunity_srebro_img2.png"/> 
+</figure>
+
+<p>This basically says that, to satisfy equalized <em>odds</em>, both the true and false positive rates must be equal regardless of whether an individual has the protected attribute A. Meanwhile, for equal <em>opportunity</em> (which we recall as a weaker version of equal odds), only the true positive rates must be equal</p>
+<p>This has a geometric interpretation:</p>
+<figure>
+    <img src="equality_of_opportunity_srebro_img1.png"/> 
+</figure>
+
+<p>I spent a lot of time staring at this figure and only kind of understand what&rsquo;s going on, so I can&rsquo;t go into too much more depth here. But finding the equalized odds predictor given this formulation is a linear program.</p>
+<p>Deriving the equalized odds predictor from a [0, 1]-valued score function is harder, but still computationally tractable.</p>
+<p>Then there&rsquo;s something about Bayes optimal predictors, which I skipped reading. The main point, from the introduction, is that &ldquo;the Bayes optimal non-discriminating &hellip; classifier is the classifier derived from any Bayes optimal &hellip; regressor using our post-processing step.&rdquo; This allegedly helps justify why they introduce a post-training process here (because you aren&rsquo;t impacting Bayes optimality?).</p>
+<h2 id="implications-and-case-study"><a class="not-rich" href="#implications-and-case-study"><i class="fas fa-link"></i></a> Implications and case study</h2>
+<p>The authors point out that no &ldquo;oblivious test&rdquo; can resolve certain scenarios, which have the same joint distribution but different interpretations with respect to fairness. What does that mean? That &ldquo;no test based only on the target labels, the protected attribute, and the score would give different indications &hellip; in the two scenarios.&rdquo; This is a shortcoming of not only equalized odds, but every such &ldquo;oblivious test.&rdquo;</p>
+<p>The authors then apply this framework to the FICO credit scores prediction problem. They consider a four-value protected class (race), which I particularly appreciate for not being the most trivial (binary) case possible. They show how to construct an equalized odds and equal opportunity classifier, then consider its implications.</p>
+<h2 id="thoughts"><a class="not-rich" href="#thoughts"><i class="fas fa-link"></i></a> Thoughts</h2>
+<p>I think this paper did a great job of explaining the mathematics behind its models. The authors introduced new ideas conceptually and then mathematically. I am confident that, had I spent more time on this paper, I would have understood the results in a little more depth.</p>
+<p>With all this said, I didn&rsquo;t. I didn&rsquo;t spend enough time on this paper to really grok all of the math happening here. I think the most interesting parts were:</p>
+<ul>
+<li>the definitions of equalized odds and equal opportunity</li>
+<li>the result that a classifier satisfying those can be constructed from any other classifier, after training is complete</li>
+<li>the result that &ldquo;oblivious tests&rdquo; are sometimes unable to distinguish between very different (with respect to fairness) scenarios</li>
+<li>that this is aligned with the usual machine learning goal of high accuracy.</li>
+<li>that this incentivizes collecting features that predict the target, rather than protected-attribute-proxies.</li>
+</ul>
+<p>The authors note that this framework is not to be considered a proof of fairness, but rather a measurement of unfairness. This is an important distinction to make, because &ldquo;fairness&rdquo; exists in a broader social context.</p>
+<p>I am influenced here by one of the pieces I read last week, titled <a href="https://askell.io/posts/2020/08/ai-bias-and-ethical-locality?">AI bias and the problems of ethical locality</a>. Among other things, this argued:</p>
+<blockquote>
+<p><strong>The practical locality problem also indicates that employing more procedurally fair AI systems is not likely to be sufficient if our goal is to build a fair society.</strong> Getting rid of the unfairness that we have inherited from the past—such as different levels of investment in education and health across nations and social groups—may require proactive interventions. We may even want to make decisions that are less procedurally fair in the short-term if doing so will reduce societal unfairness in long-term.</p>
+</blockquote>
+<p>This is out of scope for the paper, but it&rsquo;s worth thinking about the ways in which non-discrimination frameworks might not be enough. Specifically, mathematical models of this problem do not address the issue of power, which is central to questions of AI fairness.</p>
+<p>Finally, I think it&rsquo;s particularly notable that all of this can be achieved with a simple post-processing step. This step &ldquo;could even be carried out in a privacy-preserving manner (formally, via Differential Privacy),&rdquo; which is a really interesting thought! I think a tough, but satisfying project, would be a machine learning project applying both differential privacy and equalized opportunity.</p>
+
+      <p><i class="fas fa-square font-green-800"></i></p>
+    </div>
+    <div class="font-semibold text-green-800 pt-4">
+      <a href="/"><i class="fas fa-arrow-left"></i> Return home</a>
+    </div>
+  </article>
+</div><nav class="bar bar-footer clearfix" data-stick-bottom>
+    <div class="bar-inner">
+        <ul class="pager pull-left">
+            <li class="prev">
+                <a href="/what_i_read/20200822.html" title="What I read this week (August 16 - 22)"><i
+                        class="icon icon-angle-left"
+                        aria-hidden="true"></i><span>&nbsp;&nbsp;</span></a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+</main>
+    </div>
+    <div class="hidden w-0 md:block md:w-1/4 md:pt-8 md:pl-12"><aside class="" itemscope itemtype="http://schema.org/WPSideBar">
+  <div class="pb-8">
+    <h3 class="font-semibold text-xl">Categories</h3>
+    <ul class="">
+        <li class="">+ <a href="/categories/books.html" class="font-bold text-green-900">books
+            </a><span class="">13</span>
+        </li>
+        <li class="">+ <a href="/categories/general.html" class="font-bold text-green-900">general
+            </a><span class="">36</span>
+        </li>
+        <li class="">+ <a href="/categories/papers.html" class="font-bold text-green-900">papers
+            </a><span class="">59</span>
+        </li>
+        <li class="">+ <a href="/categories/projects.html" class="font-bold text-green-900">projects
+            </a><span class="">7</span>
+        </li>
+        <li class="">+ <a href="/categories/self.html" class="font-bold text-green-900">self
+            </a><span class="">3</span>
+        </li>
+        <li class="">+ <a href="/categories/spark.html" class="font-bold text-green-900">spark
+            </a><span class="">34</span>
+        </li>
+        <li class="">+ <a href="/categories/what-i-read.html" class="font-bold text-green-900">what-i-read
+            </a><span class="">37</span>
+        </li>
+    </ul>
+</div>
+<div class="pb-4">
+    <h3 class="font-semibold text-xl">Recent Posts</h3>
+    <ul class="recent-post-list list-unstyled no-thumbnail">
+        <li class="pb-4">
+            <p>
+                <a href="/papers/equality_of_opportunity_srebro.html" class="font-bold text-green-900">[Paper] Equality of Opportunity in Supervised Learning</a>
+                <time datetime="2020-08-26 00:00:00 &#43;0000 UTC" itemprop="datePublished" class="text-gray-600 text-sm">2020-08-26
+                </time>
+            </p>
+
+        </li>
+        <li class="pb-4">
+            <p>
+                <a href="/what_i_read/20200822.html" class="font-bold text-green-900">What I read this week (August 16 - 22)</a>
+                <time datetime="2020-08-22 00:00:00 &#43;0000 UTC" itemprop="datePublished" class="text-gray-600 text-sm">2020-08-22
+                </time>
+            </p>
+
+        </li>
+        <li class="pb-4">
+            <p>
+                <a href="/books/you_look_like_a_thing.html" class="font-bold text-green-900">My review of &#39;You Look Like a Thing and I Love You&#39;</a>
+                <time datetime="2020-08-21 20:00:00 &#43;0000 UTC" itemprop="datePublished" class="text-gray-600 text-sm">2020-08-21
+                </time>
+            </p>
+
+        </li>
+        <li class="pb-4">
+            <p>
+                <a href="/papers/content_moderation_scale_gillespie.html" class="font-bold text-green-900">[Paper] Content moderation, AI, and the question of scale</a>
+                <time datetime="2020-08-21 15:00:00 &#43;0000 UTC" itemprop="datePublished" class="text-gray-600 text-sm">2020-08-21
+                </time>
+            </p>
+
+        </li>
+        <li class="pb-4">
+            <p>
+                <a href="/papers/media_coverage_presidential_google_kawakami.html" class="font-bold text-green-900">[Paper] The Media Coverage of the 2020 US Presidential Election Candidates through the Lens of Google&#39;s Top Stories</a>
+                <time datetime="2020-08-21 00:00:00 &#43;0000 UTC" itemprop="datePublished" class="text-gray-600 text-sm">2020-08-21
+                </time>
+            </p>
+
+        </li>
+    </ul>
+</div><div class="pb-12">
+    <h3 class="font-semibold text-xl">Tags</h3>
+    <ul class="">
+        <li class="">+ <a href="/tags/chi2020.html" class="font-bold text-green-900">chi2020
+            </a><span class="">20</span>
+        </li>
+        <li class="">+ <a href="/tags/fat2020.html" class="font-bold text-green-900">fat2020
+            </a><span class="">2</span>
+        </li>
+        <li class="">+ <a href="/tags/icwsm2020.html" class="font-bold text-green-900">icwsm2020
+            </a><span class="">5</span>
+        </li>
+        <li class="">+ <a href="/tags/neurips.html" class="font-bold text-green-900">neurips
+            </a><span class="">1</span>
+        </li>
+        <li class="">+ <a href="/tags/password-tool.html" class="font-bold text-green-900">password-tool
+            </a><span class="">6</span>
+        </li>
+        <li class="">+ <a href="/tags/reading-club.html" class="font-bold text-green-900">reading-club
+            </a><span class="">1</span>
+        </li>
+        <li class="">+ <a href="/tags/site.html" class="font-bold text-green-900">site
+            </a><span class="">5</span>
+        </li>
+    </ul>
+</div>
+</aside><footer class="" itemscope itemtype="http://schema.org/WPFooter">
+  <div class="py-4 text-sm">
+    &copy; 2019 - 2020 Tushar Chandra
+    <p style="margin-bottom: 4px">All opinions are my own.</p>
+    <div class="publishby">Powered by Hugo with a custom theme.</div>
+  </div>
+  <ul class="">
+    <li class="inline text-xl pr-4">
+      <a href="https://github.com/tuchandra" target="_blank" title="github">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+    <li class="inline text-xl pr-4">
+      <a href="https://www.linkedin.com/in/tushar-chandra-76a623b6/" target="_blank" title="linkedin">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+    <li class="inline text-xl pr-4">
+      <a href="mailto:me@tusharc.dev" target="_blank" title="envelope">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+    <li class="inline text-xl pr-4">
+      <a href="/index.xml" target="_blank" title="rss">
+        <i class="fas fa-rss"></i>
+      </a>
+    </li>
+
+  </ul>
+</footer>
+    </div>
+  </div>
+  <div class="mx-auto w-screen px-4 bg-green-500 mt-4 md:py-8">
+    <div class="md:invisible md:hidden max-w-8xl"><footer class="" itemscope itemtype="http://schema.org/WPFooter">
+  <div class="py-4 text-sm">
+    &copy; 2019 - 2020 Tushar Chandra
+    <p style="margin-bottom: 4px">All opinions are my own.</p>
+    <div class="publishby">Powered by Hugo with a custom theme.</div>
+  </div>
+  <ul class="">
+    <li class="inline text-xl pr-4">
+      <a href="https://github.com/tuchandra" target="_blank" title="github">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+    <li class="inline text-xl pr-4">
+      <a href="https://www.linkedin.com/in/tushar-chandra-76a623b6/" target="_blank" title="linkedin">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+    <li class="inline text-xl pr-4">
+      <a href="mailto:me@tusharc.dev" target="_blank" title="envelope">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+    <li class="inline text-xl pr-4">
+      <a href="/index.xml" target="_blank" title="rss">
+        <i class="fas fa-rss"></i>
+      </a>
+    </li>
+
+  </ul>
+</footer>
+    </div>
+  </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_SVG"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+            showMathMenu: false, //disables context menu
+            tex2jax: {
+            inlineMath: [ ['$','$'], ['\\(','\\)'] ]
+           }
+    });
+</script>
+
+
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/highlight.min.js"></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/python.min.js"></script><script>
+    hljs.configure({
+        tabReplace: '    ', 
+        classPrefix: ''     
+        
+    })
+    hljs.initHighlightingOnLoad();
+</script>
+
+
+<script data-goatcounter="https://tusharc.goatcounter.com/count" async src="//gc.zgo.at/count.js">
+</script>
+</body>
+
+</html>
