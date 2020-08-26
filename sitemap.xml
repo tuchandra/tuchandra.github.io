@@ -203,6 +203,13 @@
   </url>
   
   <url>
+    <loc>/tags/iclr.html</loc>
+    <lastmod>2020-08-12T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>/what_i_read/20200808.html</loc>
     <lastmod>2020-08-08T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
