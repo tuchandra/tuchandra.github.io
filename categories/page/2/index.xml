@@ -6,10 +6,19 @@
     <description>Recent content in Categories on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 26 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 29 Aug 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Papers] Two more papers from the ICML Participatory Approaches to ML workshop</title>
+      <link>/papers/icml_workshop_papers_2.html</link>
+      <pubDate>Tue, 21 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/icml_workshop_papers_2.html</guid>
+      <description>&lt;p&gt;Two more papers in the &lt;a href=&#34;https://participatoryml.github.io/&#34;&gt;Participatory Approaches to Machine Learning&lt;/a&gt; workshop at ICML 2020. These are more directly about participation: &lt;em&gt;Participation is not a Design Fix for Machine Learning&lt;/em&gt; and &lt;em&gt;What If I Don&amp;rsquo;t Like Any Of The Choices? The Limits of Preference Elicitation for Participatory Algorithm Design&lt;/em&gt;.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>[Papers] Two recommender systems papers from the ICML Participatory Approaches to ML workshop</title>
@@ -180,15 +189,6 @@
       
       <guid>/spark/2020/friday_morning_keynotes.html</guid>
       <description>&lt;p&gt;The Friday morning keynotes included a talk about PyTorch by its author Adam Paszke, and &amp;ldquo;science vs. COVID&amp;rdquo; from Amy Heineike of Covid19Primer.com.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Geospatial Analytics At Scale: Analyzing Human Movement Patterns During A Pandemic</title>
-      <link>/spark/2020/geospatial_analytics_esri.html</link>
-      <pubDate>Thu, 25 Jun 2020 17:30:00 +0000</pubDate>
-      
-      <guid>/spark/2020/geospatial_analytics_esri.html</guid>
-      <description>&lt;p&gt;How does Esri use Spark and GIS to analyze human movement? How do they use this insight to assess risk? This talk attempts to answer these.&lt;/p&gt;</description>
     </item>
     
   </channel>

@@ -6,10 +6,19 @@
     <description>Recent content on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 26 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 29 Aug 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>What I read this week (April 26 - May 2)</title>
+      <link>/what_i_read/20200502.html</link>
+      <pubDate>Sat, 02 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/what_i_read/20200502.html</guid>
+      <description>&lt;p&gt;This week, I&amp;rsquo;ve focused mostly on articles from CHI, but I did read a few shorter things in my spare time.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>[Paper] In-game and Out-of-game Social Anxiety Influences Player Motivations, Activities, and Experiences in MMORPGs</title>
@@ -180,15 +189,6 @@
       
       <guid>/what_i_read/20200404.html</guid>
       <description>&lt;p&gt;This week&amp;rsquo;s reading was short. It includes a technical deep dive into some zero-day Safari exploits, FiveThirtyEight on why it&amp;rsquo;s hard to build a good COVID-19 model, and reflections on the lockdown.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>What is data science? (&#34;Everybody Lies&#34;, part 2)</title>
-      <link>/books/everybody_lies_2.html</link>
-      <pubDate>Tue, 31 Mar 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/books/everybody_lies_2.html</guid>
-      <description>&lt;p&gt;I had some more abstract thoughts about what &amp;ldquo;data science&amp;rdquo; really means while reading &lt;em&gt;Everybody Lies&lt;/em&gt;. In this post, I talk about data science as &lt;em&gt;discovery&lt;/em&gt; and about what it means to &amp;ldquo;do&amp;rdquo; data science.&lt;/p&gt;</description>
     </item>
     
   </channel>
