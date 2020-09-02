@@ -6,10 +6,19 @@
     <description>Recent content on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 29 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Data Indicators for Equity: Flash in the Pan or Mobilizing Force?</title>
+      <link>/posts/talk_equity_indicators.html</link>
+      <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/talk_equity_indicators.html</guid>
+      <description>&lt;p&gt;These are notes from a &lt;a href=&#34;https://www.meetup.com/ChicagoCityData/events/266787601/&#34;&gt;tech talk&lt;/a&gt; that I went to on December 4th. The talk was by &lt;strong&gt;Dan Cooper&lt;/strong&gt;, the Director of Research @ the &lt;a href=&#34;https://metroplanning.org&#34;&gt;Metropolitan Planning Council&lt;/a&gt;. It was hosted by the Chicago City Data Users Group.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>[Paper] Who is the &#39;Human&#39; in Human-Centered Machine Learning: The Case of Predicting Mental Health from Social Media</title>
@@ -181,15 +190,6 @@
       
       <guid>/spark/data_agility.html</guid>
       <description>&lt;p&gt;Speaker: Hari Subramanian (Eng. Manager @ Uber).&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Defending Deep Learning from Adversarial Attacks</title>
-      <link>/spark/adversarial_attacks.html</link>
-      <pubDate>Thu, 25 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/spark/adversarial_attacks.html</guid>
-      <description>&lt;p&gt;Speakers: Animesh Singh and Svetlana Levitan (IBM). They work at the &amp;ldquo;center for open source data and AI technologies&amp;rdquo; @ IBM.&lt;/p&gt;</description>
     </item>
     
   </channel>

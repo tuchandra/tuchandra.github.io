@@ -6,10 +6,19 @@
     <description>Recent content in reading club on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 26 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/tags/reading-club/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Friday morning keynotes: on PyTorch and COVID</title>
+      <link>/spark/2020/friday_morning_keynotes.html</link>
+      <pubDate>Fri, 26 Jun 2020 11:00:00 +0000</pubDate>
+      
+      <guid>/spark/2020/friday_morning_keynotes.html</guid>
+      <description>&lt;p&gt;The Friday morning keynotes included a talk about PyTorch by its author Adam Paszke, and &amp;ldquo;science vs. COVID&amp;rdquo; from Amy Heineike of Covid19Primer.com.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Geospatial Analytics At Scale: Analyzing Human Movement Patterns During A Pandemic</title>
@@ -180,15 +189,6 @@
       
       <guid>/papers/facebook_self_reported_survey_ernala.html</guid>
       <description>&lt;p&gt;How reliable are self-reported measures of social media use? Lots of studies rely on them, but it&amp;rsquo;s well-known that self-reported behaviors can be noisy. This paper studies how noisy by comparing the results from 10 self-reported questions with actual usage data from Facebook server logs.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>What I read this week (June 7 - 13)</title>
-      <link>/what_i_read/20200613.html</link>
-      <pubDate>Sat, 13 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/what_i_read/20200613.html</guid>
-      <description>&lt;p&gt;Back to mostly-weekly reading, this week with &amp;ldquo;Where did software go wrong?&amp;rdquo; and a piece on encouraging written communication.&lt;/p&gt;</description>
     </item>
     
   </channel>
