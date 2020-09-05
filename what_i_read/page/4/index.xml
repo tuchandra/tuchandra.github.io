@@ -6,10 +6,19 @@
     <description>Recent content on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 29 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 05 Sep 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/what_i_read/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Paper] How Well Do People Report Time Spent on Facebook?: An Evaluation of Established Survey Questions with Recommendations</title>
+      <link>/papers/facebook_self_reported_survey_ernala.html</link>
+      <pubDate>Sun, 14 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/facebook_self_reported_survey_ernala.html</guid>
+      <description>&lt;p&gt;How reliable are self-reported measures of social media use? Lots of studies rely on them, but it&amp;rsquo;s well-known that self-reported behaviors can be noisy. This paper studies how noisy by comparing the results from 10 self-reported questions with actual usage data from Facebook server logs.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>What I read this week (June 7 - 13)</title>
@@ -180,15 +189,6 @@
       
       <guid>/papers/self_regulation_in_depression_eschler.html</guid>
       <description>&lt;p&gt;How do people with depression use technology at a personal level? The answer &amp;ldquo;they all use it differently&amp;rdquo; may or may not be surprising, depending on your perspective, but in my experience this is often assumed to be the case. Eschler et al. take on this question by interviewing people about the roles technology plays in their lives and opportunities to use it in a healthy way.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] Re-Shape: A Method to Teach Data Ethics for Data Science Education</title>
-      <link>/papers/reshape_data_ethics_shapiro.html</link>
-      <pubDate>Sun, 03 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/papers/reshape_data_ethics_shapiro.html</guid>
-      <description>&lt;p&gt;Imagine that a week of your personal location data were made public. What would strangers be able to learn about you? The authors use this question to motivate Re-Shape, a method for teaching students about the ethics of data collection and use, building on the feminist idea of &amp;ldquo;cultivating care.&amp;rdquo;&lt;/p&gt;</description>
     </item>
     
   </channel>
