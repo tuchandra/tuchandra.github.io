@@ -6,10 +6,19 @@
     <description>Recent content in Categories on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 05 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 06 Sep 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Automated Testing For Protecting Data Pipelines from Undocumented Assumptions</title>
+      <link>/spark/2020/automated_testing_undocumented_assumptions.html</link>
+      <pubDate>Fri, 26 Jun 2020 12:30:00 +0000</pubDate>
+      
+      <guid>/spark/2020/automated_testing_undocumented_assumptions.html</guid>
+      <description>&lt;p&gt;Data pipelines are fraught with undocumented assumptions: about column data types, nullability, acceptable values, and more. Automated unit testing often fails to catch violations of these assumptions. The speakers from Superconductive introduce &lt;a href=&#34;https://github.com/great-expectations/great_expectations&#34;&gt;Great Expectations&lt;/a&gt;, a library to build these assumptions into a data pipeline.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Democratizing PySpark For Mobile Game Publishing</title>
@@ -180,15 +189,6 @@
       
       <guid>/posts/spark_2020_schedule.html</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://databricks.com/sparkaisummit/north-america-2020&#34;&gt;Spark + AI Summit&lt;/a&gt; is happening virtually next week, and I will be spending the second half of next week watching talks from there. I went through the &lt;a href=&#34;https://databricks.com/sparkaisummit/north-america-2020/agenda&#34;&gt;schedule&lt;/a&gt; to make a preliminary list of the talks that sound interesting to me. And just like &lt;a href=&#34;/spark/spark_overview.html&#34;&gt;last year&lt;/a&gt;, I&amp;rsquo;ll be writing about them here.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] Fragile Masculinity: Men, Gender, and Online Harassment</title>
-      <link>/papers/fragile_masculinity_online_harassment_rubin.html</link>
-      <pubDate>Mon, 15 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/papers/fragile_masculinity_online_harassment_rubin.html</guid>
-      <description>&lt;p&gt;What motivates gendered harassment online? This paper surveys young, white, heterosexual men to reveal how anxieties about masculinity can explain endorsement of harassment towards women. Put otherwise, the online world copies the imbalances and power dynamics of the offline one.&lt;/p&gt;</description>
     </item>
     
   </channel>

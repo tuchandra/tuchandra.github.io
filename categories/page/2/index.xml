@@ -6,10 +6,19 @@
     <description>Recent content in Categories on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 05 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 06 Sep 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>What I read this week (July 26 - August 1)</title>
+      <link>/what_i_read/20200801.html</link>
+      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/what_i_read/20200801.html</guid>
+      <description>&lt;p&gt;This week&amp;rsquo;s articles include &amp;ldquo;Create space for others&amp;rdquo; by Will Larson, &amp;ldquo;What does sponsorship look like?&amp;rdquo; by Lara Hogan, and &amp;ldquo;Be Impatient&amp;rdquo; by Ben Kuhn.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>[Paper] Generative Models for Effective ML on Private, Decentralized Datasets</title>
@@ -180,15 +189,6 @@
       
       <guid>/spark/2020/generalized_seir_models.html</guid>
       <description>&lt;p&gt;SEIR models for epidemiology break down a population into four partitions: susceptible, exposed, infected, and recovered. This talk gives an overview of how &lt;a href=&#34;https://github.com/ryansmcgee/seirsplus&#34;&gt;seirsplus&lt;/a&gt; can be used with MLflow and hyperopt to run simulations and experiments of possible COVID-19 scenarios.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Automated Testing For Protecting Data Pipelines from Undocumented Assumptions</title>
-      <link>/spark/2020/automated_testing_undocumented_assumptions.html</link>
-      <pubDate>Fri, 26 Jun 2020 12:30:00 +0000</pubDate>
-      
-      <guid>/spark/2020/automated_testing_undocumented_assumptions.html</guid>
-      <description>&lt;p&gt;Data pipelines are fraught with undocumented assumptions: about column data types, nullability, acceptable values, and more. Automated unit testing often fails to catch violations of these assumptions. The speakers from Superconductive introduce &lt;a href=&#34;https://github.com/great-expectations/great_expectations&#34;&gt;Great Expectations&lt;/a&gt;, a library to build these assumptions into a data pipeline.&lt;/p&gt;</description>
     </item>
     
   </channel>

@@ -6,10 +6,19 @@
     <description>Recent content in Categories on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 05 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 06 Sep 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>#republic: early thoughts</title>
+      <link>/books/republci_1.html</link>
+      <pubDate>Sun, 06 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/books/republci_1.html</guid>
+      <description>&lt;p&gt;What does democracy look like in the age of social media? How do we reimagine public spaces for the digital era? What kinds of groups should the internet promote? These are questions posed by Cass Sunstein&amp;rsquo;s book &lt;em&gt;#republic.&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>What I read this week (August 30 - September 5)</title>
@@ -180,15 +189,6 @@
       
       <guid>/papers/local_trends_streaming_way.html</guid>
       <description>&lt;p&gt;Spotify makes a global music catalog available to subscribers around the world. Historically, that&amp;rsquo;s meant different countries have more access to each other&amp;rsquo;s music. How does that hold up in 5.5 years of Spotify streaming data?&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>What I read this week (July 26 - August 1)</title>
-      <link>/what_i_read/20200801.html</link>
-      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/what_i_read/20200801.html</guid>
-      <description>&lt;p&gt;This week&amp;rsquo;s articles include &amp;ldquo;Create space for others&amp;rdquo; by Will Larson, &amp;ldquo;What does sponsorship look like?&amp;rdquo; by Lara Hogan, and &amp;ldquo;Be Impatient&amp;rdquo; by Ben Kuhn.&lt;/p&gt;</description>
     </item>
     
   </channel>
