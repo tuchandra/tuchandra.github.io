@@ -6,10 +6,19 @@
     <description>Recent content in Categories on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 06 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 07 Sep 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>What I read this week (February 23 - February 29)</title>
+      <link>/what_i_read/20200229.html</link>
+      <pubDate>Sat, 29 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/what_i_read/20200229.html</guid>
+      <description>&lt;p&gt;Happy leap year! This week focuses on articles about data science: production code, pipeline building, and design thinking.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>OpenAI Unease</title>
@@ -180,15 +189,6 @@
       
       <guid>/posts/site_comparison_part2.html</guid>
       <description>&lt;p&gt;In a &lt;a href=&#34;/posts/site_comparison.html&#34;&gt;previous post&lt;/a&gt;, I compared the features of my old and new site. This is part 2 of that post, focusing on things that I missed then that have only come up after a few weeks of using the site.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>What I read this week (January 12 - 18)</title>
-      <link>/what_i_read/20200118.html</link>
-      <pubDate>Sat, 18 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/what_i_read/20200118.html</guid>
-      <description>&lt;p&gt;Articles I read this week, including &amp;ldquo;goodbye clean code,&amp;rdquo; the Neural ODEs paper retrospective, and technical writing.&lt;/p&gt;</description>
     </item>
     
   </channel>

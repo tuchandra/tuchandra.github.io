@@ -6,10 +6,19 @@
     <description>Recent content in Categories on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 06 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 07 Sep 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Shared experiences and information</title>
+      <link>/books/republic_2.html</link>
+      <pubDate>Mon, 07 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/books/republic_2.html</guid>
+      <description>&lt;p&gt;How is the internet changing shared experiences? What happens when people are walled off from each other more than they were before? This post explores how the internet is contributing to fewer shared experiences, and how this can occasionally be in conflict with democratic ideals.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>#republic: early thoughts</title>
@@ -180,15 +189,6 @@
       
       <guid>/papers/experimental_study_structural_diversity_su.html</guid>
       <description>&lt;p&gt;In a social network, structural diversity is a measure of how (dis)similar one&amp;rsquo;s social connections are. It&amp;rsquo;s positively correlated with engagement, but the mechanism behind this is unknown. This work experimentally alters structural diversity for new Twitter users, studying whether or not it affects user retention.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] Local Trends in Global Music Streaming</title>
-      <link>/papers/local_trends_streaming_way.html</link>
-      <pubDate>Sun, 02 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/papers/local_trends_streaming_way.html</guid>
-      <description>&lt;p&gt;Spotify makes a global music catalog available to subscribers around the world. Historically, that&amp;rsquo;s meant different countries have more access to each other&amp;rsquo;s music. How does that hold up in 5.5 years of Spotify streaming data?&lt;/p&gt;</description>
     </item>
     
   </channel>
