@@ -3,6 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/tags/#republic.html</loc>
+    <lastmod>2020-09-07T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>/books.html</loc>
     <lastmod>2020-09-07T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -31,6 +38,13 @@
   </url>
   
   <url>
+    <loc>/tags.html</loc>
+    <lastmod>2020-09-07T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>/</loc>
     <lastmod>2020-09-07T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -38,7 +52,7 @@
   </url>
   
   <url>
-    <loc>/books/republci_1.html</loc>
+    <loc>/books/republic_1.html</loc>
     <lastmod>2020-09-06T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -86,13 +100,6 @@
   
   <url>
     <loc>/tags/reading-club.html</loc>
-    <lastmod>2020-09-02T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/tags.html</loc>
     <lastmod>2020-09-02T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
