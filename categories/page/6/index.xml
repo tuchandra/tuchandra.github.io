@@ -6,10 +6,19 @@
     <description>Recent content in Categories on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 07 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 08 Sep 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Improving my debugging attitude</title>
+      <link>/posts/debugging_attitude.html</link>
+      <pubDate>Sun, 12 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/debugging_attitude.html</guid>
+      <description>&lt;p&gt;Today, I noticed myself doing something I&amp;rsquo;ve done many times before: running into an error, Googling it, finding code snippets, and making random changes in hopes that they&amp;rsquo;d work. In this post, I try to understand why.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>What I read this week (April 5 - April 11)</title>
@@ -180,15 +189,6 @@
       
       <guid>/posts/new_computer_setup.html</guid>
       <description>&lt;p&gt;My work Macbook had to be sent in for repair, and the hard drive got wiped. I documented all the steps I took to set it up again. You can use this as a starting point for setting up a new machine, and so can I if I need to do this again soon!&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Network Propaganda, part 1</title>
-      <link>/books/network_propaganda_1.html</link>
-      <pubDate>Mon, 02 Mar 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/books/network_propaganda_1.html</guid>
-      <description>&lt;p&gt;I wrote &lt;a href=&#34;/posts/cant_not_be_researcher.html&#34;&gt;previously&lt;/a&gt; that I was reading the book &lt;a href=&#34;https://www.oxfordscholarship.com/view/10.1093/oso/9780190923624.001.0001/oso-9780190923624&#34;&gt;Network Propaganda&lt;/a&gt; by Yochai Benkler, Robert Faris, and Hal Roberts. I believe I&amp;rsquo;ll get more from the book if I write about it, &lt;a href=&#34;/posts/why_papers.html&#34;&gt;as with papers&lt;/a&gt;, so I plan to write up a summary and thoughts on each of four parts of the book. The entire book is available &lt;a href=&#34;https://www.oxfordscholarship.com/view/10.1093/oso/9780190923624.001.0001/oso-9780190923624&#34;&gt;for free online&lt;/a&gt;!&lt;/p&gt;</description>
     </item>
     
   </channel>
