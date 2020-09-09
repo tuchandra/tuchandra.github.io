@@ -4,48 +4,55 @@
   
   <url>
     <loc>/tags/#republic.html</loc>
-    <lastmod>2020-09-08T00:00:00+00:00</lastmod>
+    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/books.html</loc>
-    <lastmod>2020-09-08T00:00:00+00:00</lastmod>
+    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/categories/books.html</loc>
-    <lastmod>2020-09-08T00:00:00+00:00</lastmod>
+    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/categories.html</loc>
-    <lastmod>2020-09-08T00:00:00+00:00</lastmod>
+    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/books/republic_3.html</loc>
-    <lastmod>2020-09-08T00:00:00+00:00</lastmod>
+    <loc>/books/republic_4.html</loc>
+    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/tags.html</loc>
-    <lastmod>2020-09-08T00:00:00+00:00</lastmod>
+    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/</loc>
+    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/books/republic_3.html</loc>
     <lastmod>2020-09-08T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

@@ -6,10 +6,19 @@
     <description>Recent content in #republic on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 08 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 09 Sep 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/tags/#republic/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>What I read this week (August 2 - 8)</title>
+      <link>/what_i_read/20200808.html</link>
+      <pubDate>Sat, 08 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/what_i_read/20200808.html</guid>
+      <description>&lt;p&gt;A few articles from Pointer this week, an &lt;em&gt;amazing&lt;/em&gt; post titled &amp;ldquo;System Design for Advanced Beginners,&amp;rdquo; and some blogging advice.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>[Paper] An Experimental Study of Structural Diversity in Social Networks</title>
@@ -180,15 +189,6 @@
       
       <guid>/what_i_read/20200627.html</guid>
       <description>&lt;p&gt;This week&amp;rsquo;s reading had a presentation about CS education within higher education and another blog post by Will Larson. Most of my time was taken up by Spark Summit and rebuilding (again!) this site&amp;rsquo;s layout.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Using Apache Spark And Differential Privacy For Protecting The Privacy Of The 2020 Census Respondents</title>
-      <link>/spark/2020/census_differential_privacy.html</link>
-      <pubDate>Fri, 26 Jun 2020 14:00:00 +0000</pubDate>
-      
-      <guid>/spark/2020/census_differential_privacy.html</guid>
-      <description>&lt;p&gt;As the 2020 Census is happening, the US Census Bureau has developed a new system to use differential privacy to protect people&amp;rsquo;s personal data. This talk describes what motivated this system (being able to reconstruct personal data in 2010&amp;mdash;oh no!) and how they created a differential privacy algorithm to help them out.&lt;/p&gt;</description>
     </item>
     
   </channel>
