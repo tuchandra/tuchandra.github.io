@@ -6,10 +6,19 @@
     <description>Recent content in books on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 09 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 10 Sep 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/categories/books/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Statistical nuance &amp; the importance of uncertainty</title>
+      <link>/posts/statistical_nuance.html</link>
+      <pubDate>Thu, 17 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/statistical_nuance.html</guid>
+      <description>&lt;p&gt;In &lt;a href=&#34;silph.md&#34;&gt;my last post&lt;/a&gt;, I re-analyzed shiny rates from The Silph Road and came to the conclusion that their proposed shiny rates were inconsistent with their own data. This post explores how that happened and what we can do to avoid it in the future.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Pokemon GO shiny rates: a Bayesian perspective</title>

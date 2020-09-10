@@ -6,10 +6,19 @@
     <description>Recent content in Tags on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 09 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 10 Sep 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Early thoughts from Indistractable</title>
+      <link>/books/indistractable_1.html</link>
+      <pubDate>Thu, 10 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/books/indistractable_1.html</guid>
+      <description>&lt;p&gt;My next book is &lt;em&gt;Indistractable&lt;/em&gt; by Nir Eyal. The book&amp;rsquo;s tagline is &amp;ldquo;how to control your attention and choose your life,&amp;rdquo; which is compelling! My early thoughts are mixed between grateful and skeptical.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>[Paper] A Framework for Understanding Unintended Consequences of Machine Learning</title>
@@ -180,15 +189,6 @@
       
       <guid>/what_i_read/20200815.html</guid>
       <description>&lt;p&gt;I&amp;rsquo;m trying to put together my first submission for a conference CFP: &lt;a href=&#34;https://pymc-devs.github.io/pymcon//cfp&#34;&gt;PyMCon&lt;/a&gt;, an all-virtual conference happening this November. This week, I sought out a lot of blog posts about this to help.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] Two Computational Models for Analyzing Political Attention in Social Media</title>
-      <link>/papers/modeling_political_attention_hemphill.html</link>
-      <pubDate>Thu, 13 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/papers/modeling_political_attention_hemphill.html</guid>
-      <description>&lt;p&gt;What are members of Congress tweeting about, and how can we use machine learning to infer this? In this ICWSM 2020 paper, the researchers try out both supervised and unsupervised learning on all the tweets from members of the 115th Congress (Jan. 2017 - Jan. 2019).&lt;/p&gt;</description>
     </item>
     
   </channel>

@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>[Paper] Two Computational Models for Analyzing Political Attention in Social Media</title>
+      <link>/papers/modeling_political_attention_hemphill.html</link>
+      <pubDate>Thu, 13 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/modeling_political_attention_hemphill.html</guid>
+      <description>&lt;p&gt;What are members of Congress tweeting about, and how can we use machine learning to infer this? In this ICWSM 2020 paper, the researchers try out both supervised and unsupervised learning on all the tweets from members of the 115th Congress (Jan. 2017 - Jan. 2019).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>[Paper] Understanding deep learning requires rethinking generalization</title>
       <link>/papers/understanding_dl_generalization_zhang.html</link>
       <pubDate>Wed, 12 Aug 2020 00:00:00 +0000</pubDate>
@@ -180,15 +189,6 @@
       
       <guid>/posts/another_new_layout.html</guid>
       <description>&lt;p&gt;My homepage has been given a new look&amp;mdash;still Hugo, but now powered by my own custom layout and Tailwind CSS. This post is a technical dive into the process of rebuilding it.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Network Propaganda, part 4</title>
-      <link>/books/network_propaganda_4.html</link>
-      <pubDate>Sat, 27 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/books/network_propaganda_4.html</guid>
-      <description>&lt;p&gt;Part 4 of the book &lt;em&gt;Network Propaganda&lt;/em&gt; is titled &amp;ldquo;Can Democracy Survive the Internet?&amp;quot;, and it focuses on how polarization came to be, how the media ecosystem came to be the way that it is, and proposed interventions (most realistically, regulating political advertising).&lt;/p&gt;</description>
     </item>
     
   </channel>
