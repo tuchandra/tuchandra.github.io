@@ -6,10 +6,28 @@
     <description>Recent content in Tags on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 10 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 13 Sep 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Spark 2020 Summary</title>
+      <link>/spark/2020/summary.html</link>
+      <pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/spark/2020/summary.html</guid>
+      <description>&lt;p&gt;My summary of the talks I watched at Spark + AI Summit this year, and recommendations for what to watch after the fact.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Another website redesign</title>
+      <link>/posts/another_new_layout.html</link>
+      <pubDate>Mon, 29 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/another_new_layout.html</guid>
+      <description>&lt;p&gt;My homepage has been given a new look&amp;mdash;still Hugo, but now powered by my own custom layout and Tailwind CSS. This post is a technical dive into the process of rebuilding it.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Network Propaganda, part 4</title>
@@ -171,24 +189,6 @@
       
       <guid>/spark/2020/how_not_to_scale_deep_learning.html</guid>
       <description>&lt;p&gt;The last talk of the morning session talked about common problems scaling ML and DL models: common pitfalls, things that people try too early (more hardware), and what to do instead.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Productionalizing Models through CI/CD Design with MLflow</title>
-      <link>/spark/2020/productionalizing_models_mlflow.html</link>
-      <pubDate>Wed, 24 Jun 2020 13:30:00 +0000</pubDate>
-      
-      <guid>/spark/2020/productionalizing_models_mlflow.html</guid>
-      <description>&lt;p&gt;This talk, by Mary Grace Moesta &amp;amp; Peter Tamisin at Databricks, dove into MLOps and productionalization of machine learning models using MLflow. How can we apply principles from CI/CD to machine learning? And how can MLflow help us to do so?&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Portable Scalable Data Visualization Techniques for Apache Spark and Python Notebook-based Analytics</title>
-      <link>/spark/2020/portable_scalable_data_viz.html</link>
-      <pubDate>Wed, 24 Jun 2020 13:00:00 +0000</pubDate>
-      
-      <guid>/spark/2020/portable_scalable_data_viz.html</guid>
-      <description>&lt;p&gt;This talk, by Douglas Moore at Databricks, briefly discussed strategies for data visualization using Spark and different visualization libraries.&lt;/p&gt;</description>
     </item>
     
   </channel>

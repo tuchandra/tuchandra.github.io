@@ -11,6 +11,24 @@
     
     
     <item>
+      <title>My review of Indistractable</title>
+      <link>/books/indistractable_2.html</link>
+      <pubDate>Sun, 13 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/books/indistractable_2.html</guid>
+      <description>&lt;p&gt;I review Nir Eyal&amp;rsquo;s &lt;em&gt;Indistractable&lt;/em&gt;, a quick read that took me less than a week. I found valuable advice for improving my concentration and attention, and I&amp;rsquo;m excited to apply some of these ideas to my life.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>#republic: closing thoughts</title>
+      <link>/books/republic_5.html</link>
+      <pubDate>Sat, 12 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/books/republic_5.html</guid>
+      <description>&lt;p&gt;My final thoughts on Cass Sunstein&amp;rsquo;s &lt;em&gt;#republic&lt;/em&gt;. I talk about what it means to reimagine today&amp;rsquo;s republic, and how Sunstein&amp;rsquo;s book encourages us to rethink the relationship between technology and democracy.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Early thoughts from Indistractable</title>
       <link>/books/indistractable_1.html</link>
       <pubDate>Thu, 10 Sep 2020 00:00:00 +0000</pubDate>
@@ -170,24 +188,6 @@
       
       <guid>/posts/promotion_senior.html</guid>
       <description>&lt;p&gt;I was recently promoted to senior data scientist! This is a short post with some details and reflection.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>My review of &#39;Weapons of Math Destruction&#39;</title>
-      <link>/books/weapons_math_destruction.html</link>
-      <pubDate>Sun, 16 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/books/weapons_math_destruction.html</guid>
-      <description>&lt;p&gt;This is my review of &lt;em&gt;Weapons of Math Destruction&lt;/em&gt; by Dr. Cathy O&amp;rsquo;Neil. I found it to be a clearly written book, explaining many of the problems with &amp;ldquo;big data&amp;rdquo; systems: lack of access to proper data, problems that come from the scale of these systems, and vicious feedback loops.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>What I read this week (August 9 - 15)</title>
-      <link>/what_i_read/20200815.html</link>
-      <pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/what_i_read/20200815.html</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m trying to put together my first submission for a conference CFP: &lt;a href=&#34;https://pymc-devs.github.io/pymcon//cfp&#34;&gt;PyMCon&lt;/a&gt;, an all-virtual conference happening this November. This week, I sought out a lot of blog posts about this to help.&lt;/p&gt;</description>
     </item>
     
   </channel>

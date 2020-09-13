@@ -6,10 +6,28 @@
     <description>Recent content in Tags on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 10 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 13 Sep 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>What I read this week (January 26 - February 1)</title>
+      <link>/what_i_read/20200201.html</link>
+      <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/what_i_read/20200201.html</guid>
+      <description>&lt;p&gt;Articles I read this week, including about Python 3.9, regulation of tech companies, and a host of short articles.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Talk Notes: The Global Energy Challenge by Michael Greenstone</title>
+      <link>/posts/talk_global_energy_challenge.html</link>
+      <pubDate>Fri, 31 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/talk_global_energy_challenge.html</guid>
+      <description>&lt;p&gt;I had the pleasure of hearing &lt;a href=&#34;https://www.michaelgreenstone.com/&#34;&gt;Michael Greenstone&lt;/a&gt;, former Chief Economist to President Obama and now professor at UChicago, speak about the Global Energy Challenge. These are my notes and my thoughts.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>[Paper] Norms Matter: Contrasting Social Support Around Behavior Change in Online Weight Loss Communities</title>
@@ -172,24 +190,6 @@
       
       <guid>/what_i_read/20191228.html</guid>
       <description>&lt;p&gt;Articles I read this week, including posts on AI bias, life without cell phones, and regulating AI.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Celeste Kidd: How to Know (NeurIPS 2019)</title>
-      <link>/posts/talk_kidd_neurips.html</link>
-      <pubDate>Fri, 27 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/talk_kidd_neurips.html</guid>
-      <description>&lt;p&gt;This is a summary of Celeste Kidd&amp;rsquo;s invited talk at NeurIPS 2019, &lt;a href=&#34;https://slideslive.com/38921495/how-to-know&#34;&gt;How to Know&lt;/a&gt;, plus some thoughts at the end.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Reflections on ImageNet bias in the news</title>
-      <link>/posts/imagenet_bias_wired.html</link>
-      <pubDate>Thu, 26 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/imagenet_bias_wired.html</guid>
-      <description>&lt;p&gt;This post is a reflection on two articles, &lt;a href=&#34;https://www.wired.com/story/viral-app-labels-you-isnt-what-you-think/&#34;&gt;The viral app that labels you isn&amp;rsquo;t quite what you think&lt;/a&gt; and &lt;a href=&#34;https://www.wired.com/story/ai-biased-how-scientists-trying-fix/&#34;&gt;AI is biased. Here&amp;rsquo;s how scientists are trying to fix it&lt;/a&gt;, both from Wired.&lt;/p&gt;</description>
     </item>
     
   </channel>
