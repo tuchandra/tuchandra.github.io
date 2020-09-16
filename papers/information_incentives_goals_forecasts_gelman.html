@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <title>
+    [Paper] Information, incentives, and goals in election forecasts - Tushar Chandra
+    </title>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="Cache-Control" content="no-transform" />
+  <meta http-equiv="Cache-Control" content="no-siteapp" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="format-detection" content="telephone=no,email=no,adress=no">
+  
+  <meta name="theme-color" content="#000000" />
+  <meta http-equiv="window-target" content="_top" /><meta name="description" content="What kinds of challenges arise when communicating election forecasts, as FiveThirtyEight, The Economist, and a host of others are attempting to do? How do you best discuss your predictions and uncertainty? What responsibilities do forecasters have? Andrew Gelman, Jessica Hullman, and Christopher Wlezien discuss.
+" />
+  <meta name="generator" content="Hugo 0.70.0" />
+  <title>[Paper] Information, incentives, and goals in election forecasts - Tushar Chandra</title>
+
+  
+  
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
+
+  <meta property="og:title" content="[Paper] Information, incentives, and goals in election forecasts" />
+<meta property="og:description" content="What kinds of challenges arise when communicating election forecasts, as FiveThirtyEight, The Economist, and a host of others are attempting to do? How do you best discuss your predictions and uncertainty? What responsibilities do forecasters have? Andrew Gelman, Jessica Hullman, and Christopher Wlezien discuss." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/papers/information_incentives_goals_forecasts_gelman.html" />
+<meta property="article:published_time" content="2020-09-15T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-09-15T00:00:00+00:00" />
+<meta itemprop="name" content="[Paper] Information, incentives, and goals in election forecasts">
+<meta itemprop="description" content="What kinds of challenges arise when communicating election forecasts, as FiveThirtyEight, The Economist, and a host of others are attempting to do? How do you best discuss your predictions and uncertainty? What responsibilities do forecasters have? Andrew Gelman, Jessica Hullman, and Christopher Wlezien discuss.">
+<meta itemprop="datePublished" content="2020-09-15T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2020-09-15T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="1602">
+
+
+
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="[Paper] Information, incentives, and goals in election forecasts"/>
+<meta name="twitter:description" content="What kinds of challenges arise when communicating election forecasts, as FiveThirtyEight, The Economist, and a host of others are attempting to do? How do you best discuss your predictions and uncertainty? What responsibilities do forecasters have? Andrew Gelman, Jessica Hullman, and Christopher Wlezien discuss."/>
+</head>
+</head>
+
+
+
+<body class="h-screen flex flex-col justify-between" itemscope itemtype="http://schema.org/WebPage"><header class="w-screen bg-green-500" itemscope itemtype="http://schema.org/WPHeader">
+  <div class="flex max-w-8xl container mx-auto">
+    <div class="hidden sm:inline flex items-center">
+      <a href="/">
+        <img class="rounded-full m-1 md:m-4" src="/headshot.jpg" width="100" height="100">
+      </a>
+    </div>
+    <div class="w-full px-4 flex flex-col lg:flex-row justify-between lg:items-center my-4">
+      <div class="xl:flex-grow">
+        <a href="/">
+          <span class="text-lg sm:text-2xl md:text-3xl font-semibold">Tushar Chandra</span>
+          <span class="hidden pl-4 lg:inline"><br></span>
+          <span class="text-sm md:text-xl font-thin pl-4 md:pl-0 lg:text-xl">Data Scientist / Chicago, IL
+          </span>
+        </a>
+      </div>
+      <nav class="" itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation">
+        <ul class="flex lg:justify-between">
+          <li class="flex-grow-0 inline pr-1 md:pr-2 xl:px-4">
+            <p class="text-center">
+              <a href="/about">
+                <i class="fas text-green-800 pl-1 md:px-1 text-sm md:text-xl lg:text-2xl fa-mug-hot"></i>
+                <span class="font-thin text-sm md:text-lg lg:text-2xl">About</span>
+              </a>
+            </p>
+          </li>
+          <li class="flex-grow-0 inline pr-1 md:pr-2 xl:px-4">
+            <p class="text-center">
+              <a href="/resume">
+                <i class="fas text-green-800 pl-1 md:px-1 text-sm md:text-xl lg:text-2xl fa-file"></i>
+                <span class="font-thin text-sm md:text-lg lg:text-2xl">Resume</span>
+              </a>
+            </p>
+          </li>
+          <li class="flex-grow-0 inline pr-1 md:pr-2 xl:px-4">
+            <p class="text-center">
+              <a href="/reading">
+                <i class="fas text-green-800 pl-1 md:px-1 text-sm md:text-xl lg:text-2xl fa-book-open"></i>
+                <span class="font-thin text-sm md:text-lg lg:text-2xl">Reading</span>
+              </a>
+            </p>
+          </li>
+          <li class="flex-grow-0 inline pr-1 md:pr-2 xl:px-4">
+            <p class="text-center">
+              <a href="/categories.html">
+                <i class="fas text-green-800 pl-1 md:px-1 text-sm md:text-xl lg:text-2xl fa-folder-open"></i>
+                <span class="font-thin text-sm md:text-lg lg:text-2xl">Categories</span>
+              </a>
+            </p>
+          </li>
+          <li class="flex-grow-0 inline pr-1 md:pr-2 xl:px-4">
+            <p class="text-center">
+              <a href="/posts.html">
+                <i class="fas text-green-800 pl-1 md:px-1 text-sm md:text-xl lg:text-2xl fa-archive"></i>
+                <span class="font-thin text-sm md:text-lg lg:text-2xl">Archives</span>
+              </a>
+            </p>
+          </li>
+
+        </ul>
+
+      </nav>
+    </div>
+
+  </div>
+</header>
+  <div class="container mx-auto max-w-8xl px-4 flex flex-row flex-grow">
+    <div class="w-full md:w-3/4">
+      
+<main class="main" role="main"><div class="content container mx-auto max-w-6xl">
+  <article id="-" class="" itemscope itemtype="http://schema.org/BlogPosting">
+    <div class="pt-4">
+      <span class="font-semibold text-3xl"><h1 itemprop="name">
+  <a class="" href="/papers/information_incentives_goals_forecasts_gelman.html">[Paper] Information, incentives, and goals in election forecasts</a>
+</h1>
+      </span>
+      <div class="pb-4"><i class="fas fa-calendar-check text-gray-500 pr-1"></i>
+<time datetime="2020-09-15 00:00:00 &#43;0000 UTC" class="text-sm text-gray-600"
+  itemprop="datePublished">2020-09-15</time>
+<span class="text-sm text-gray-600" itemprop="wordCount">
+	<i class="fas fa-pencil-alt text-gray-500 pl-4 pr-2"></i>1602 words
+</span><i class="fas fa-folder-open text-gray-500 pl-4 pr-1"></i>
+<a class="text-sm text-gray-600" href=" /categories/papers.html"> papers, </a><span class="article-category text-sm text-gray-600 pl-4">
+  <i class="fa fa-users "></i>
+  Andrew Gelman, Jessica Hullman, Christopher Wlezien
+</span>
+      </div>
+    </div>
+    <div class="rich-text" itemprop="articleBody">
+      <p>What kinds of challenges arise when communicating election forecasts, as FiveThirtyEight, The Economist, and a host of others are attempting to do? How do you best discuss your predictions and uncertainty? What responsibilities do forecasters have? Andrew Gelman, Jessica Hullman, and Christopher Wlezien discuss.</p>
+<p><strong>Links</strong>: <a href="http://www.stat.columbia.edu/~gelman/research/unpublished/forecast_incentives3.pdf">PDF</a>, <a href="https://statmodeling.stat.columbia.edu/2020/09/08/information-incentives-and-goals-in-election-forecasts/">blog post</a>, <a href="https://twitter.com/JessicaHullman/status/1303384797243486208">Twitter thread from Dr. Hullman</a></p>
+<h2 id="background"><a class="not-rich" href="#background"><i class="fas fa-link"></i></a> Background</h2>
+<p>Andrew Gelman, Jessica Hullman, and Christopher Wlezien put out a paper titled <a href="http://www.stat.columbia.edu/~gelman/research/unpublished/forecast_incentives3.pdf">Information, incentives, and goals in election forecasting</a> a couple of days ago. It caught my eye because I regularly read <a href="https://statmodeling.stat.columbia.edu/">Gelman&rsquo;s blog</a>, am interested in election forecasting, and have also read a number of Jessica Hullman&rsquo;s papers.</p>
+<p>From the abstract:</p>
+<blockquote>
+<p>Presidential elections can be forecast using information from political and economic conditions, polls, and a statistical model of changes in public opinion over time. We discuss challenges in understanding, communicating, and evaluating election predictions, using as examples the Economist and Fivethirtyeight forecasts of the 2020 election.</p>
+</blockquote>
+<p>Most of the first half of this paper is devoted to communicating information in probabilistic election forecasts. What do win probabilities mean? How can uncertainty be visualized or otherwise communicated? What is and isn&rsquo;t in scope for the forecast?</p>
+<p>They also discuss <em>incentives</em> of forecasters, including perhaps competing incentives for overconfidence and underconfidence. A related topic is (the difficulty in) calibrating election forecasts.</p>
+<p>Let&rsquo;s dive in.</p>
+<h2 id="communicating-election-forecasts"><a class="not-rich" href="#communicating-election-forecasts"><i class="fas fa-link"></i></a> Communicating election forecasts</h2>
+<p>The authors highlight difficulties in communicating election forecasts.</p>
+<p><strong>On win probabilities</strong>: these are not the same as vote margins, which the authors note is a persistent confusion. A win probability of 60% means that the election is roughly a tossup, but a vote margin of 60% (i.e., a 60-40 result) is a landslide win.</p>
+<p>With these come further difficulties in communicating the uncertainty associated with each number. And in the case of vote margins, seemingly small changes can make huge differences:</p>
+<ul>
+<li>The FiveThirtyEight model estimates Biden&rsquo;s two-party vote share as 53% +/- 3%.</li>
+<li>The Economist model estimates Biden&rsquo;s two-party vote share as 54% +/- 2%.</li>
+</ul>
+<p>These vote shares are virtually indistinguishable to me. Yes, the FiveThirtyEight model is considerably less confident about Biden&rsquo;s chances, and this shows up in the topline probabilities—71% from them vs. 87% from The Economist.</p>
+<p>When comparing two models created from the same information, though, it&rsquo;s not surprising that their predictions are so similar. This means we have to focus more on the methods, which is sometimes easier said than done!</p>
+<h2 id="introspecting-models"><a class="not-rich" href="#introspecting-models"><i class="fas fa-link"></i></a> Introspecting models</h2>
+<p>When the data and code for models are made available, as is the case for <a href="https://github.com/TheEconomist/us-potus-model">The Economist&rsquo;s forecast</a>, it&rsquo;s easier to study their modeling decisions. After all, you can just look for yourself! Granted, this is still difficult&mdash;it might not be clear why certain decisions were made, what alternatives were considered, or what is accidental versus intentional. But it&rsquo;s certainly easier than with a closed source model.</p>
+<p>&hellip; which FiveThirtyEight&rsquo;s is. I don&rsquo;t fault them&mdash;I assume they&rsquo;re limited by ABC in some way&mdash;but this means we can only judge the FiveThirtyEight model by its outputs (and blog post descriptions of methodology).</p>
+<h3 id="fivethirtyeight-and-uncertainty"><a class="not-rich" href="#fivethirtyeight-and-uncertainty"><i class="fas fa-link"></i></a> FiveThirtyEight, and uncertainty</h3>
+<p>The authors do this to introspect the FiveThirtyEight model. They call out that:</p>
+<ul>
+<li>FiveThirtyEight&rsquo;s 95% predictive interval of (42%, 60%) for Biden&rsquo;s vote share in Florida</li>
+<li>The conditional probability that, given Trump wins California, he has a 30% chance of losing the electoral college.</li>
+</ul>
+<p>These&mdash;especially the second&mdash;seem pretty implausible to me. The uncertainty on the first item feels high, and the authors make note of this.</p>
+<p>Meanwhile, an outcome where Trump wins California but loses the election is as outlandish as <a href="https://twitter.com/micahcohen/status/1304532822783389702">Biden carrying every state besides New Jersey</a>. That it has a 30% chance to happen feels very wrong.</p>
+<p>The authors use these to suggest that this model has too low of a <em>between-state correlation</em>. This is pretty surprising to me, given that in 2016 one of the things that differentiated FiveThirtyEight&rsquo;s model (and prediction of a ~30% chance of Trump winning) was their use of between-state correlations to account for the possibility of systematic polling errors.</p>
+<h3 id="the-economist-and-certainty"><a class="not-rich" href="#the-economist-and-certainty"><i class="fas fa-link"></i></a> The Economist, and certainty</h3>
+<p>The Economist, meanwhile, originally published a model that gave Biden a 90+% chance of winning the electoral college, and a 99% chance of winning the popular vote. Despite his clear lead in the polls, this too felt overconfident to me (and them). To me, it seems far more likely than 1-in-100 that something could disrupt his lead in the last three months of the election.</p>
+<p>Observations like this can make one reconsider the building blocks of a model. In this case, the authors (note that Gelman worked on this model) took a step back to consider why they felt so confident in a Biden win, and adjusted accordingly.</p>
+<h3 id="the-main-point"><a class="not-rich" href="#the-main-point"><i class="fas fa-link"></i></a> The main point</h3>
+<p>The closing point is worth calling out:</p>
+<blockquote>
+<p>The point of this discussion is not to say that the Fivethirtyeight forecast is “wrong” and that the Economist model is “right”&mdash;they are two different procedures, each with their own strengths and weaknesses&mdash;but rather that, in either case, we can interrogate a model’s predictions to better understand its assumptions and relate it to other available information or beliefs.</p>
+</blockquote>
+<h2 id="on-calibration"><a class="not-rich" href="#on-calibration"><i class="fas fa-link"></i></a> On calibration</h2>
+<p>Calibrating a forecast&mdash;making sure that what you claim has a 20% probability happens 20% of the time&mdash;is difficult in the best of cases but is made even harder by the small number of presidential elections. While 95% intervals are the standard, calibrating 1-in-20 events would require 80 years of presidential elections. (State-level results help a little, but they&rsquo;re correlated, so while we have more than 1 data point per election year, we have fewer than 50.)</p>
+<p>This makes sense. We saw this in 2016, too. FiveThirtyEight modeled a 30% chance of Trump winning, and lots of other forecasts modeled under 10%. How do we know which was &ldquo;right&rdquo;? These are epistemic questions that we can never fully answer.</p>
+<h2 id="competing-incentives"><a class="not-rich" href="#competing-incentives"><i class="fas fa-link"></i></a> Competing incentives</h2>
+<p>This was a really interesting section. Incentives for overconfidence in forecasting include:</p>
+<ul>
+<li>looking better when you&rsquo;re right</li>
+<li>being rewarded for boldness, especially when media systems are forgiving of failure</li>
+<li>wanting to avoid admitting you don&rsquo;t actually know something</li>
+</ul>
+<p>There&rsquo;s also a huge list of reasons for not reporting uncertainty at all:</p>
+<ul>
+<li>fearing that uncertainty implies unwarranted precision</li>
+<li>not feeling like there&rsquo;s a good way to communicate uncertainty</li>
+<li>thinking that people already know uncertainty is present</li>
+<li>thinking that people will not understand uncertainty</li>
+<li>thinking that not presenting uncertainty will avoid overwhelming readers</li>
+<li>thinking that not presenting uncertainty will make it easier for people to make decisions</li>
+<li>worrying about making the message less credible.</li>
+</ul>
+<p>Whew! These are all attached to citations in the full paper. This is why I follow Hullman&rsquo;s research.</p>
+<p>What about underconfidence? Incentives for being underconfident in your work might include:</p>
+<ul>
+<li>not wanting to look &ldquo;wrong&rdquo;</li>
+<li>when wide-tailed distributions create more uncertainty (as Nate Silver suggests happens in polling)</li>
+<li>motivating readers to diversify their behavior</li>
+</ul>
+<p>There doesn&rsquo;t seem to be much literature on this, as Hullman <a href="https://twitter.com/JessicaHullman/status/1303384803203526656">points out</a>, so this was interesting to think about.</p>
+<h2 id="on-stability-of-forecasts"><a class="not-rich" href="#on-stability-of-forecasts"><i class="fas fa-link"></i></a> On stability of forecasts</h2>
+<p>The message:</p>
+<blockquote>
+<p>Good forecasts should be stable most of the time.</p>
+</blockquote>
+<p>One challenge of forecasting, the authors write, is that there is a push for news. But this year&rsquo;s election forecast have been pretty stable, and day-to-day fluctuations based off individual polls are not noteworthy.</p>
+<p>I found this funny:</p>
+<blockquote>
+<p>We are not fans of Twitter and its 24-hour debate culture, but one advantage of this format is that it allows journalists to remain active without needing to supply any actual news.</p>
+</blockquote>
+<p>Serious forecasters recognize that big news is, by definition, rare. The flip side to this is that I&rsquo;ve witnessed at least half a dozen Twitter arguments where Nate Silver and Elliott Morris are talking over each other and arguing semantics. But I&rsquo;ll take that (which does occasionally produce thoughtful discussion) over overreactions to a new poll each day.</p>
+<h2 id="the-responsibilities-of-forecasters"><a class="not-rich" href="#the-responsibilities-of-forecasters"><i class="fas fa-link"></i></a> The responsibilities of forecasters</h2>
+<p>The authors posit that forecasters have some responsibilities to the public: to include information that is known to impact election results (the economy, poll averages, etc.), to use statistics properly, to specify their assumptions, and to think about how readers may use their predictions.</p>
+<p>I also like this quote:</p>
+<blockquote>
+<p>Journalists and academics alike use terms such as “horse race” and “forecast wars” in reference to election prediction, but we see forecasting as an essentially collaborative exercise. Comparative discussions of forecasts, like model comparisons in an analysis workflow, provide insight into how different assumptions about a complex process affect our ability to predict it. When the public has a chance to observe or even participate in these discussions, the benefits are greater.</p>
+</blockquote>
+<p>I agree with this&mdash;I&rsquo;ve learned a lot this year from following Morris and Silver on Twitter, which I didn&rsquo;t use in 2016. Granted, Twitter has its own problems, but I have seen a lot of thoughtful discussion of modeling assumptions, methodology, and forecasting over the past few months.</p>
+<h2 id="final-thoughts"><a class="not-rich" href="#final-thoughts"><i class="fas fa-link"></i></a> Final thoughts</h2>
+<p>This was a good read. It took me a little under an hour, and I read it top to bottom (unlike most papers). I think this paper thoughtfully described some of the problems in election modeling, and its attribution to competing incentives makes sense.</p>
+<p>I find the point about asking questions of models to understand their outputs to be particularly important. This is hardly exclusive to election forecasting; one of the points that Janelle Shane made in <a href="/books/you_look_like_a_thing.html"><em>You Look Like a Thing and I Love You</em></a> was that you can learn a lot about models by pushing them to their limits. And asking &ldquo;What happens if Trump wins California?&rdquo; certainly falls into that category.</p>
+<p>I enjoyed this paper. I don&rsquo;t have anything deeper to say, really, other than it&rsquo;s a thoughtful, nuanced take on a messy problem.</p>
+
+      <p><i class="fas fa-square font-green-800"></i></p>
+    </div>
+    <div class="font-semibold text-green-800 pt-4">
+      <a href="/"><i class="fas fa-arrow-left"></i> Return home</a>
+    </div>
+  </article>
+</div><nav class="bar bar-footer clearfix" data-stick-bottom>
+    <div class="bar-inner">
+        <ul class="pager pull-left">
+            <li class="prev">
+                <a href="/books/indistractable_2.html" title="My review of Indistractable"><i
+                        class="icon icon-angle-left"
+                        aria-hidden="true"></i><span>&nbsp;&nbsp;</span></a>
+            </li>
+            <li class="next">
+                <a href="/papers/graph_attention_bike_sharing_he.html"
+                    title="[Paper] Towards Fine-grained Flow Forecasting: a Graph Attention Approach for Bike Sharing Systems"><span>&nbsp;&nbsp;</span><i
+                        class="icon icon-angle-right" aria-hidden="true"></i></a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+</main>
+    </div>
+    <div class="hidden w-0 md:block md:w-1/4 md:pt-8 md:pl-12"><aside class="" itemscope itemtype="http://schema.org/WPSideBar">
+  <div class="pb-8">
+    <h3 class="font-semibold text-xl">Categories</h3>
+    <ul class="">
+        <li class="">+ <a href="/categories/books.html" class="font-bold text-green-900">books
+            </a><span class="">20</span>
+        </li>
+        <li class="">+ <a href="/categories/general.html" class="font-bold text-green-900">general
+            </a><span class="">36</span>
+        </li>
+        <li class="">+ <a href="/categories/papers.html" class="font-bold text-green-900">papers
+            </a><span class="">63</span>
+        </li>
+        <li class="">+ <a href="/categories/projects.html" class="font-bold text-green-900">projects
+            </a><span class="">7</span>
+        </li>
+        <li class="">+ <a href="/categories/self.html" class="font-bold text-green-900">self
+            </a><span class="">3</span>
+        </li>
+        <li class="">+ <a href="/categories/spark.html" class="font-bold text-green-900">spark
+            </a><span class="">34</span>
+        </li>
+        <li class="">+ <a href="/categories/what-i-read.html" class="font-bold text-green-900">what-i-read
+            </a><span class="">39</span>
+        </li>
+    </ul>
+</div>
+<div class="pb-4">
+    <h3 class="font-semibold text-xl">Recent Posts</h3>
+    <ul class="recent-post-list list-unstyled no-thumbnail">
+        <li class="pb-4">
+            <p>
+                <a href="/papers/graph_attention_bike_sharing_he.html" class="font-bold text-green-900">[Paper] Towards Fine-grained Flow Forecasting: a Graph Attention Approach for Bike Sharing Systems</a>
+                <time datetime="2020-09-16 00:00:00 &#43;0000 UTC" itemprop="datePublished" class="text-gray-600 text-sm">2020-09-16
+                </time>
+            </p>
+
+        </li>
+        <li class="pb-4">
+            <p>
+                <a href="/papers/information_incentives_goals_forecasts_gelman.html" class="font-bold text-green-900">[Paper] Information, incentives, and goals in election forecasts</a>
+                <time datetime="2020-09-15 00:00:00 &#43;0000 UTC" itemprop="datePublished" class="text-gray-600 text-sm">2020-09-15
+                </time>
+            </p>
+
+        </li>
+        <li class="pb-4">
+            <p>
+                <a href="/books/indistractable_2.html" class="font-bold text-green-900">My review of Indistractable</a>
+                <time datetime="2020-09-13 00:00:00 &#43;0000 UTC" itemprop="datePublished" class="text-gray-600 text-sm">2020-09-13
+                </time>
+            </p>
+
+        </li>
+        <li class="pb-4">
+            <p>
+                <a href="/books/republic_5.html" class="font-bold text-green-900">#republic: closing thoughts</a>
+                <time datetime="2020-09-12 00:00:00 &#43;0000 UTC" itemprop="datePublished" class="text-gray-600 text-sm">2020-09-12
+                </time>
+            </p>
+
+        </li>
+        <li class="pb-4">
+            <p>
+                <a href="/books/indistractable_1.html" class="font-bold text-green-900">Early thoughts from Indistractable</a>
+                <time datetime="2020-09-10 00:00:00 &#43;0000 UTC" itemprop="datePublished" class="text-gray-600 text-sm">2020-09-10
+                </time>
+            </p>
+
+        </li>
+    </ul>
+</div><div class="pb-12">
+    <h3 class="font-semibold text-xl">Tags</h3>
+    <ul class="">
+        <li class="">+ <a href="/tags/#republic.html" class="font-bold text-green-900">#republic
+            </a><span class="">5</span>
+        </li>
+        <li class="">+ <a href="/tags/chi2020.html" class="font-bold text-green-900">chi2020
+            </a><span class="">20</span>
+        </li>
+        <li class="">+ <a href="/tags/fat2020.html" class="font-bold text-green-900">fat2020
+            </a><span class="">2</span>
+        </li>
+        <li class="">+ <a href="/tags/iclr.html" class="font-bold text-green-900">iclr
+            </a><span class="">2</span>
+        </li>
+        <li class="">+ <a href="/tags/icwsm2020.html" class="font-bold text-green-900">icwsm2020
+            </a><span class="">5</span>
+        </li>
+        <li class="">+ <a href="/tags/indistractable.html" class="font-bold text-green-900">indistractable
+            </a><span class="">2</span>
+        </li>
+        <li class="">+ <a href="/tags/neurips.html" class="font-bold text-green-900">neurips
+            </a><span class="">1</span>
+        </li>
+        <li class="">+ <a href="/tags/password-tool.html" class="font-bold text-green-900">password-tool
+            </a><span class="">6</span>
+        </li>
+        <li class="">+ <a href="/tags/reading-club.html" class="font-bold text-green-900">reading-club
+            </a><span class="">8</span>
+        </li>
+        <li class="">+ <a href="/tags/site.html" class="font-bold text-green-900">site
+            </a><span class="">5</span>
+        </li>
+        <li class="">+ <a href="/tags/www.html" class="font-bold text-green-900">www
+            </a><span class="">1</span>
+        </li>
+    </ul>
+</div>
+</aside><footer class="" itemscope itemtype="http://schema.org/WPFooter">
+  <div class="py-4 text-sm">
+    &copy; 2019 - 2020 Tushar Chandra
+    <p style="margin-bottom: 4px">All opinions are my own.</p>
+    <div class="publishby">Powered by Hugo with a custom theme.</div>
+  </div>
+  <ul class="">
+    <li class="inline text-xl pr-4">
+      <a href="https://github.com/tuchandra" target="_blank" title="github">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+    <li class="inline text-xl pr-4">
+      <a href="https://www.linkedin.com/in/tushar-chandra-76a623b6/" target="_blank" title="linkedin">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+    <li class="inline text-xl pr-4">
+      <a href="mailto:me@tusharc.dev" target="_blank" title="envelope">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+    <li class="inline text-xl pr-4">
+      <a href="/index.xml" target="_blank" title="rss">
+        <i class="fas fa-rss"></i>
+      </a>
+    </li>
+
+  </ul>
+</footer>
+    </div>
+  </div>
+  <div class="mx-auto w-screen px-4 bg-green-500 mt-4 md:py-8">
+    <div class="md:invisible md:hidden max-w-8xl"><footer class="" itemscope itemtype="http://schema.org/WPFooter">
+  <div class="py-4 text-sm">
+    &copy; 2019 - 2020 Tushar Chandra
+    <p style="margin-bottom: 4px">All opinions are my own.</p>
+    <div class="publishby">Powered by Hugo with a custom theme.</div>
+  </div>
+  <ul class="">
+    <li class="inline text-xl pr-4">
+      <a href="https://github.com/tuchandra" target="_blank" title="github">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+    <li class="inline text-xl pr-4">
+      <a href="https://www.linkedin.com/in/tushar-chandra-76a623b6/" target="_blank" title="linkedin">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+    <li class="inline text-xl pr-4">
+      <a href="mailto:me@tusharc.dev" target="_blank" title="envelope">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+    <li class="inline text-xl pr-4">
+      <a href="/index.xml" target="_blank" title="rss">
+        <i class="fas fa-rss"></i>
+      </a>
+    </li>
+
+  </ul>
+</footer>
+    </div>
+  </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_SVG"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+            showMathMenu: false, //disables context menu
+            tex2jax: {
+            inlineMath: [ ['$','$'], ['\\(','\\)'] ]
+           }
+    });
+</script>
+
+
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/highlight.min.js"></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/python.min.js"></script><script>
+    hljs.configure({
+        tabReplace: '    ', 
+        classPrefix: ''     
+        
+    })
+    hljs.initHighlightingOnLoad();
+</script>
+
+
+<script data-goatcounter="https://tusharc.goatcounter.com/count" async src="//gc.zgo.at/count.js">
+</script>
+</body>
+
+</html>

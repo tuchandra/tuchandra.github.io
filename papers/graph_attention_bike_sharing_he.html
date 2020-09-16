@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <title>
+    [Paper] Towards Fine-grained Flow Forecasting: a Graph Attention Approach for Bike Sharing Systems - Tushar Chandra
+    </title>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="Cache-Control" content="no-transform" />
+  <meta http-equiv="Cache-Control" content="no-siteapp" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="format-detection" content="telephone=no,email=no,adress=no">
+  
+  <meta name="theme-color" content="#000000" />
+  <meta http-equiv="window-target" content="_top" /><meta name="description" content="In bike sharing systems, forecasting the demand for pick-ups and drop-offs at each station is essential. This paper presents a novel methodology for doing this, which uses graph neural networks and a spatiotemporal design for station-by-station flow forecasting.
+" />
+  <meta name="generator" content="Hugo 0.70.0" />
+  <title>[Paper] Towards Fine-grained Flow Forecasting: a Graph Attention Approach for Bike Sharing Systems - Tushar Chandra</title>
+
+  
+  
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
+
+  <meta property="og:title" content="[Paper] Towards Fine-grained Flow Forecasting: a Graph Attention Approach for Bike Sharing Systems" />
+<meta property="og:description" content="In bike sharing systems, forecasting the demand for pick-ups and drop-offs at each station is essential. This paper presents a novel methodology for doing this, which uses graph neural networks and a spatiotemporal design for station-by-station flow forecasting." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/papers/graph_attention_bike_sharing_he.html" />
+<meta property="article:published_time" content="2020-09-16T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-09-16T00:00:00+00:00" />
+<meta itemprop="name" content="[Paper] Towards Fine-grained Flow Forecasting: a Graph Attention Approach for Bike Sharing Systems">
+<meta itemprop="description" content="In bike sharing systems, forecasting the demand for pick-ups and drop-offs at each station is essential. This paper presents a novel methodology for doing this, which uses graph neural networks and a spatiotemporal design for station-by-station flow forecasting.">
+<meta itemprop="datePublished" content="2020-09-16T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2020-09-16T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="1239">
+
+
+
+<meta itemprop="keywords" content="reading club,www," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="[Paper] Towards Fine-grained Flow Forecasting: a Graph Attention Approach for Bike Sharing Systems"/>
+<meta name="twitter:description" content="In bike sharing systems, forecasting the demand for pick-ups and drop-offs at each station is essential. This paper presents a novel methodology for doing this, which uses graph neural networks and a spatiotemporal design for station-by-station flow forecasting."/>
+</head>
+</head>
+
+
+
+<body class="h-screen flex flex-col justify-between" itemscope itemtype="http://schema.org/WebPage"><header class="w-screen bg-green-500" itemscope itemtype="http://schema.org/WPHeader">
+  <div class="flex max-w-8xl container mx-auto">
+    <div class="hidden sm:inline flex items-center">
+      <a href="/">
+        <img class="rounded-full m-1 md:m-4" src="/headshot.jpg" width="100" height="100">
+      </a>
+    </div>
+    <div class="w-full px-4 flex flex-col lg:flex-row justify-between lg:items-center my-4">
+      <div class="xl:flex-grow">
+        <a href="/">
+          <span class="text-lg sm:text-2xl md:text-3xl font-semibold">Tushar Chandra</span>
+          <span class="hidden pl-4 lg:inline"><br></span>
+          <span class="text-sm md:text-xl font-thin pl-4 md:pl-0 lg:text-xl">Data Scientist / Chicago, IL
+          </span>
+        </a>
+      </div>
+      <nav class="" itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation">
+        <ul class="flex lg:justify-between">
+          <li class="flex-grow-0 inline pr-1 md:pr-2 xl:px-4">
+            <p class="text-center">
+              <a href="/about">
+                <i class="fas text-green-800 pl-1 md:px-1 text-sm md:text-xl lg:text-2xl fa-mug-hot"></i>
+                <span class="font-thin text-sm md:text-lg lg:text-2xl">About</span>
+              </a>
+            </p>
+          </li>
+          <li class="flex-grow-0 inline pr-1 md:pr-2 xl:px-4">
+            <p class="text-center">
+              <a href="/resume">
+                <i class="fas text-green-800 pl-1 md:px-1 text-sm md:text-xl lg:text-2xl fa-file"></i>
+                <span class="font-thin text-sm md:text-lg lg:text-2xl">Resume</span>
+              </a>
+            </p>
+          </li>
+          <li class="flex-grow-0 inline pr-1 md:pr-2 xl:px-4">
+            <p class="text-center">
+              <a href="/reading">
+                <i class="fas text-green-800 pl-1 md:px-1 text-sm md:text-xl lg:text-2xl fa-book-open"></i>
+                <span class="font-thin text-sm md:text-lg lg:text-2xl">Reading</span>
+              </a>
+            </p>
+          </li>
+          <li class="flex-grow-0 inline pr-1 md:pr-2 xl:px-4">
+            <p class="text-center">
+              <a href="/categories.html">
+                <i class="fas text-green-800 pl-1 md:px-1 text-sm md:text-xl lg:text-2xl fa-folder-open"></i>
+                <span class="font-thin text-sm md:text-lg lg:text-2xl">Categories</span>
+              </a>
+            </p>
+          </li>
+          <li class="flex-grow-0 inline pr-1 md:pr-2 xl:px-4">
+            <p class="text-center">
+              <a href="/posts.html">
+                <i class="fas text-green-800 pl-1 md:px-1 text-sm md:text-xl lg:text-2xl fa-archive"></i>
+                <span class="font-thin text-sm md:text-lg lg:text-2xl">Archives</span>
+              </a>
+            </p>
+          </li>
+
+        </ul>
+
+      </nav>
+    </div>
+
+  </div>
+</header>
+  <div class="container mx-auto max-w-8xl px-4 flex flex-row flex-grow">
+    <div class="w-full md:w-3/4">
+      
+<main class="main" role="main"><div class="content container mx-auto max-w-6xl">
+  <article id="-" class="" itemscope itemtype="http://schema.org/BlogPosting">
+    <div class="pt-4">
+      <span class="font-semibold text-3xl"><h1 itemprop="name">
+  <a class="" href="/papers/graph_attention_bike_sharing_he.html">[Paper] Towards Fine-grained Flow Forecasting: a Graph Attention Approach for Bike Sharing Systems</a>
+</h1>
+      </span>
+      <div class="pb-4"><i class="fas fa-calendar-check text-gray-500 pr-1"></i>
+<time datetime="2020-09-16 00:00:00 &#43;0000 UTC" class="text-sm text-gray-600"
+  itemprop="datePublished">2020-09-16</time>
+<span class="text-sm text-gray-600" itemprop="wordCount">
+	<i class="fas fa-pencil-alt text-gray-500 pl-4 pr-2"></i>1239 words
+</span><i class="fas fa-folder-open text-gray-500 pl-4 pr-1"></i>
+<a class="text-sm text-gray-600" href=" /categories/papers.html"> papers, </a>
+<span class="article-tag">
+  <i class="fas fa-tag text-gray-500 pl-4 pr-1"></i>
+  <a class="text-sm text-gray-600" href="/tags/reading-club.html"> reading club, </a>
+  <a class="text-sm text-gray-600" href="/tags/www.html"> www, </a>
+</span><span class="article-category text-sm text-gray-600 pl-4">
+  <i class="fa fa-users "></i>
+  Suining He, Kang G. Shin
+</span>
+      </div>
+    </div>
+    <div class="rich-text" itemprop="articleBody">
+      <p>In bike sharing systems, forecasting the demand for pick-ups and drop-offs at each station is essential. This paper presents a novel methodology for doing this, which uses graph neural networks and a spatiotemporal design for station-by-station flow forecasting.</p>
+<p><strong>Authors</strong>: Suining He, Kang G. Shin</p>
+<p><strong>Links</strong>: <a href="https://rtcl.eecs.umich.edu/rtclweb/assets/publications/2020/he-www-2020-gbikes.pdf">PDF</a>, published in WWW 2020.</p>
+<h2 id="background"><a class="not-rich" href="#background"><i class="fas fa-link"></i></a> Background</h2>
+<p>Bike sharing is becoming more popular over time, particularly for &ldquo;first-mile&rdquo; or &ldquo;last-mile&rdquo; transit (i.e., taking a train most of the way to work, then a bike for the last bit, or the reverse).
+An important part of running a bike sharing system is predicting the number of pick-ups and drop-offs at each station.</p>
+<p>This is a challenging problem. If you underpredict the number of pick-ups, there won&rsquo;t be any bikes available. If you overpredict, there&rsquo;ll be too many bikes at that station. And that&rsquo;s even worse than you&rsquo;d imagine, because too many bikes <em>also</em> means that riders can&rsquo;t drop off bikes at that station.</p>
+<h2 id="the-approach"><a class="not-rich" href="#the-approach"><i class="fas fa-link"></i></a> The approach</h2>
+<p>The authors propose a <em>spatiotemporal graph attention convolutional neural network.</em> Oh man! Let&rsquo;s break this down:</p>
+<ul>
+<li><em>spatiotemporal</em> just means that the problem has both <em>spatial</em> (physical space) and <em>temporal</em> (time) components. Here, that means that bike trips happen from one station to another at a certain time, and models need to account for both components.</li>
+<li><em>graph</em> means that the problem is modeled as a graph, where nodes are stations and edges are trips between them.</li>
+<li><em>convolutional</em> here refers to the <em>graph convolution</em>, whose details frankly confuse me, but which at a high level tries to model the idea of &ldquo;neighbors&rdquo; here</li>
+<li><em>attention</em> refers to <em>graph attention</em>, which are used to model inter-station flows</li>
+<li><em>neural network</em>, well, yeah.</li>
+</ul>
+<p>Why do we care about modeling neighbors? Because the flow to/from one station is related to the flow to/from stations around it. If they&rsquo;re within, say, a block of each other, then pick-ups at one station will likely reduce demand for another station. If they&rsquo;re far apart, but both are near major workplaces, then pick-ups at one station will likely be correlated with pick-ups at the others.</p>
+<h2 id="problem-specification"><a class="not-rich" href="#problem-specification"><i class="fas fa-link"></i></a> Problem specification</h2>
+<p>The main dataset is a set of <em>stations</em> and <em>trips</em>. Trips go from one station to another at some point in time. In this dataset, time is discretized by binning into (I believe) 15 minute increments.</p>
+<p>Given the trips dataset, one constructs <em>aggregated flows</em> in and out of a station. The aggregated flow into station <em>i</em> is the number of trips that end at that station (either overall, or at some point in time), and likewise for the flow out.</p>
+<p>At one point in time, then, you can construct a (number-of-stations x 2)-dimensional matrix of each station&rsquo;s inflows and outflows. At <em>all</em> points in time, this is a (number-of-time-bins x number-of-stations x 2)-dimensional matrix.</p>
+<p>The problem is then specified as:</p>
+<ul>
+<li>predicting the inflow and outflow at every station at the next time interval</li>
+<li>given all the historical flows that came before,</li>
+<li>given station-to-station correlations,</li>
+<li>and given external factors like weather and other points-of-interest near each station,</li>
+</ul>
+<h3 id="external-factors"><a class="not-rich" href="#external-factors"><i class="fas fa-link"></i></a> External factors</h3>
+<p>We&rsquo;ll come back to the station-to-station correlations. What are the external factors?</p>
+<p>Weather, for one; the presence of rain will certainly affect bike sharing trips.
+Simple time features, like day of week, hour of day, and if it was a holiday, were also included.</p>
+<p>And the last, which I found interesting, was <em>points of interest</em> near each station. Based on OpenStreetMap, they counted the number of commercial, residential, recreational, cultural, and governmental POIs in the neighborhood of each station, and used these as model features.</p>
+<p>I was surprised to see <em>transit hubs</em> not included in the external factors. It seems that the presence of a train station or bus stop near a bike station would have an impact on pick-ups and drop-offs there; after all, this problem was motivated in terms of first-/last-mile transit.</p>
+<h3 id="station-to-station-similarity"><a class="not-rich" href="#station-to-station-similarity"><i class="fas fa-link"></i></a> Station-to-station similarity</h3>
+<p>What are these station-to-station correlations?</p>
+<blockquote>
+<p>In a bike station network, closer stations likely have stronger links and mutual effects than those more distant stations.</p>
+</blockquote>
+<p>(See also: <a href="https://en.wikipedia.org/wiki/Tobler%27s_first_law_of_geography">Tobler&rsquo;s first law of geography</a>.)</p>
+<p>The authors define two senses in which stations are &ldquo;close,&rdquo; a spatial one and a temporal one:</p>
+<ul>
+<li>Spatial closeness decreases given larger cityblock distance (i.e., not Euclidean) between two stations. Easy enough.</li>
+<li>Temporal closeness looks at, within a certain time window, how similar the flows from one station to all others are to the flows from the other station to all others. That is,</li>
+</ul>
+<figure>
+    <img src="graph_attention_bike_sharing_he_img1.png" width="600px"/> 
+</figure>
+
+<p>This took me a while to wrap my head around, but it makes sense now. Stations <em>i</em> and <em>j</em> are similar if there are similar flows from station <em>i</em> to all others and from station <em>j</em> to all others (over some time interval). The <em>w</em>&lsquo;s in the above definition just represent the window size. In the application, the authors find <em>w</em> values corresponding to short, medium, and long time windows.</p>
+<h2 id="neural-network-architecture-and-evaluation"><a class="not-rich" href="#neural-network-architecture-and-evaluation"><i class="fas fa-link"></i></a> Neural network architecture and evaluation</h2>
+<p>This is where the paper started to get pretty hairy, and I started skimming after not understanding what the hell was happening. There are a lot of figures to help clear things up, but &hellip; ouch. I simply do not have enough experience in this field to understand what&rsquo;s going on.</p>
+<p>The evaluation compared the performance of this approach to several other models (historical averages, ARIMA, RNNs and LSTMMs, and a couple others). Unsurprisingly, since I&rsquo;m reading a paper about it, their model performed the best (using RMSE as a metric).</p>
+<p>They also included prediction results over morning and evening rush hours; the sensitivity to settings like time interval and number of attention heads; the activation of different nodes after the graph attention layer; and some case studies for different Manhattan neighborhoods.</p>
+<p>That last bit is quite cool, actually:</p>
+<figure>
+    <img src="graph_attention_bike_sharing_he_img2.png" width="600px"/> 
+</figure>
+
+<p>This is a t-sne representation of the high-dimensional activation vectors after the first graph attention layer. The network has started discriminating stations with heavy or light bike usage (the colors), correlating the groups together. And in LA, where the bike stations are spread out nonuniformly in different parts of the city, there are more distinct clusters in the low-dimensional representation.</p>
+<h2 id="discussion"><a class="not-rich" href="#discussion"><i class="fas fa-link"></i></a> Discussion</h2>
+<p>This paper was pretty far off from the kind of work that I usually read. Branching out isn&rsquo;t a bad thing, though my utter disinterest in working out the mechanics of graph convolution shows that this field probably isn&rsquo;t for me.</p>
+<p>This is a really interesting problem. I think this is a great example of a problem where the only reasonable way forward is with machine learning. There&rsquo;s just so much data, and there are deeply nonlinear (in both time and space!) relationships between your data entities. The results are seriously impressive.</p>
+<p>But &hellip; as with most methods-heavy papers I read, I was disappointed to see little to no discussion of the implications here. So the authors can predict inflows and outflows well; great. That&rsquo;s not by itself useful.</p>
+<p>What does this work suggest for Citi Bike, Divvy, and Metro Bike? How can those agencies use these results (especially given that this is not open source)? How can this improve mobility for communities that are underserved by transit? (This is a <a href="https://blockclubchicago.org/2020/07/16/divvy-expands-to-far-south-side-with-16-5-miles-of-bike-lanes-coming/">problem</a> on the far south side of Chicago.)</p>
+<p>I get that answering this question was mostly out of scope for the paper. But at least discussing it would have made the paper feel more complete, I think. After all, forecasting is just a tool; it&rsquo;s what you do with your forecasts that has the potential to actually impact people&rsquo;s lives.</p>
+
+      <p><i class="fas fa-square font-green-800"></i></p>
+    </div>
+    <div class="font-semibold text-green-800 pt-4">
+      <a href="/"><i class="fas fa-arrow-left"></i> Return home</a>
+    </div>
+  </article>
+</div><nav class="bar bar-footer clearfix" data-stick-bottom>
+    <div class="bar-inner">
+        <ul class="pager pull-left">
+            <li class="prev">
+                <a href="/papers/information_incentives_goals_forecasts_gelman.html" title="[Paper] Information, incentives, and goals in election forecasts"><i
+                        class="icon icon-angle-left"
+                        aria-hidden="true"></i><span>&nbsp;&nbsp;</span></a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+</main>
+    </div>
+    <div class="hidden w-0 md:block md:w-1/4 md:pt-8 md:pl-12"><aside class="" itemscope itemtype="http://schema.org/WPSideBar">
+  <div class="pb-8">
+    <h3 class="font-semibold text-xl">Categories</h3>
+    <ul class="">
+        <li class="">+ <a href="/categories/books.html" class="font-bold text-green-900">books
+            </a><span class="">20</span>
+        </li>
+        <li class="">+ <a href="/categories/general.html" class="font-bold text-green-900">general
+            </a><span class="">36</span>
+        </li>
+        <li class="">+ <a href="/categories/papers.html" class="font-bold text-green-900">papers
+            </a><span class="">63</span>
+        </li>
+        <li class="">+ <a href="/categories/projects.html" class="font-bold text-green-900">projects
+            </a><span class="">7</span>
+        </li>
+        <li class="">+ <a href="/categories/self.html" class="font-bold text-green-900">self
+            </a><span class="">3</span>
+        </li>
+        <li class="">+ <a href="/categories/spark.html" class="font-bold text-green-900">spark
+            </a><span class="">34</span>
+        </li>
+        <li class="">+ <a href="/categories/what-i-read.html" class="font-bold text-green-900">what-i-read
+            </a><span class="">39</span>
+        </li>
+    </ul>
+</div>
+<div class="pb-4">
+    <h3 class="font-semibold text-xl">Recent Posts</h3>
+    <ul class="recent-post-list list-unstyled no-thumbnail">
+        <li class="pb-4">
+            <p>
+                <a href="/papers/graph_attention_bike_sharing_he.html" class="font-bold text-green-900">[Paper] Towards Fine-grained Flow Forecasting: a Graph Attention Approach for Bike Sharing Systems</a>
+                <time datetime="2020-09-16 00:00:00 &#43;0000 UTC" itemprop="datePublished" class="text-gray-600 text-sm">2020-09-16
+                </time>
+            </p>
+
+        </li>
+        <li class="pb-4">
+            <p>
+                <a href="/papers/information_incentives_goals_forecasts_gelman.html" class="font-bold text-green-900">[Paper] Information, incentives, and goals in election forecasts</a>
+                <time datetime="2020-09-15 00:00:00 &#43;0000 UTC" itemprop="datePublished" class="text-gray-600 text-sm">2020-09-15
+                </time>
+            </p>
+
+        </li>
+        <li class="pb-4">
+            <p>
+                <a href="/books/indistractable_2.html" class="font-bold text-green-900">My review of Indistractable</a>
+                <time datetime="2020-09-13 00:00:00 &#43;0000 UTC" itemprop="datePublished" class="text-gray-600 text-sm">2020-09-13
+                </time>
+            </p>
+
+        </li>
+        <li class="pb-4">
+            <p>
+                <a href="/books/republic_5.html" class="font-bold text-green-900">#republic: closing thoughts</a>
+                <time datetime="2020-09-12 00:00:00 &#43;0000 UTC" itemprop="datePublished" class="text-gray-600 text-sm">2020-09-12
+                </time>
+            </p>
+
+        </li>
+        <li class="pb-4">
+            <p>
+                <a href="/books/indistractable_1.html" class="font-bold text-green-900">Early thoughts from Indistractable</a>
+                <time datetime="2020-09-10 00:00:00 &#43;0000 UTC" itemprop="datePublished" class="text-gray-600 text-sm">2020-09-10
+                </time>
+            </p>
+
+        </li>
+    </ul>
+</div><div class="pb-12">
+    <h3 class="font-semibold text-xl">Tags</h3>
+    <ul class="">
+        <li class="">+ <a href="/tags/#republic.html" class="font-bold text-green-900">#republic
+            </a><span class="">5</span>
+        </li>
+        <li class="">+ <a href="/tags/chi2020.html" class="font-bold text-green-900">chi2020
+            </a><span class="">20</span>
+        </li>
+        <li class="">+ <a href="/tags/fat2020.html" class="font-bold text-green-900">fat2020
+            </a><span class="">2</span>
+        </li>
+        <li class="">+ <a href="/tags/iclr.html" class="font-bold text-green-900">iclr
+            </a><span class="">2</span>
+        </li>
+        <li class="">+ <a href="/tags/icwsm2020.html" class="font-bold text-green-900">icwsm2020
+            </a><span class="">5</span>
+        </li>
+        <li class="">+ <a href="/tags/indistractable.html" class="font-bold text-green-900">indistractable
+            </a><span class="">2</span>
+        </li>
+        <li class="">+ <a href="/tags/neurips.html" class="font-bold text-green-900">neurips
+            </a><span class="">1</span>
+        </li>
+        <li class="">+ <a href="/tags/password-tool.html" class="font-bold text-green-900">password-tool
+            </a><span class="">6</span>
+        </li>
+        <li class="">+ <a href="/tags/reading-club.html" class="font-bold text-green-900">reading-club
+            </a><span class="">8</span>
+        </li>
+        <li class="">+ <a href="/tags/site.html" class="font-bold text-green-900">site
+            </a><span class="">5</span>
+        </li>
+        <li class="">+ <a href="/tags/www.html" class="font-bold text-green-900">www
+            </a><span class="">1</span>
+        </li>
+    </ul>
+</div>
+</aside><footer class="" itemscope itemtype="http://schema.org/WPFooter">
+  <div class="py-4 text-sm">
+    &copy; 2019 - 2020 Tushar Chandra
+    <p style="margin-bottom: 4px">All opinions are my own.</p>
+    <div class="publishby">Powered by Hugo with a custom theme.</div>
+  </div>
+  <ul class="">
+    <li class="inline text-xl pr-4">
+      <a href="https://github.com/tuchandra" target="_blank" title="github">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+    <li class="inline text-xl pr-4">
+      <a href="https://www.linkedin.com/in/tushar-chandra-76a623b6/" target="_blank" title="linkedin">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+    <li class="inline text-xl pr-4">
+      <a href="mailto:me@tusharc.dev" target="_blank" title="envelope">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+    <li class="inline text-xl pr-4">
+      <a href="/index.xml" target="_blank" title="rss">
+        <i class="fas fa-rss"></i>
+      </a>
+    </li>
+
+  </ul>
+</footer>
+    </div>
+  </div>
+  <div class="mx-auto w-screen px-4 bg-green-500 mt-4 md:py-8">
+    <div class="md:invisible md:hidden max-w-8xl"><footer class="" itemscope itemtype="http://schema.org/WPFooter">
+  <div class="py-4 text-sm">
+    &copy; 2019 - 2020 Tushar Chandra
+    <p style="margin-bottom: 4px">All opinions are my own.</p>
+    <div class="publishby">Powered by Hugo with a custom theme.</div>
+  </div>
+  <ul class="">
+    <li class="inline text-xl pr-4">
+      <a href="https://github.com/tuchandra" target="_blank" title="github">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+    <li class="inline text-xl pr-4">
+      <a href="https://www.linkedin.com/in/tushar-chandra-76a623b6/" target="_blank" title="linkedin">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+    <li class="inline text-xl pr-4">
+      <a href="mailto:me@tusharc.dev" target="_blank" title="envelope">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+    <li class="inline text-xl pr-4">
+      <a href="/index.xml" target="_blank" title="rss">
+        <i class="fas fa-rss"></i>
+      </a>
+    </li>
+
+  </ul>
+</footer>
+    </div>
+  </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_SVG"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+            showMathMenu: false, //disables context menu
+            tex2jax: {
+            inlineMath: [ ['$','$'], ['\\(','\\)'] ]
+           }
+    });
+</script>
+
+
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/highlight.min.js"></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/python.min.js"></script><script>
+    hljs.configure({
+        tabReplace: '    ', 
+        classPrefix: ''     
+        
+    })
+    hljs.initHighlightingOnLoad();
+</script>
+
+
+<script data-goatcounter="https://tusharc.goatcounter.com/count" async src="//gc.zgo.at/count.js">
+</script>
+</body>
+
+</html>

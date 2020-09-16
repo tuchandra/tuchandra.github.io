@@ -6,10 +6,28 @@
     <description>Recent content on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 09 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/papers/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Paper] Taking Data Out of Context to Hyper-Personalize Ads: Crowdworkers&#39; Privacy Perceptions and Decisions to Disclose Private Information</title>
+      <link>/papers/taking_data_out_of_context_ur.html</link>
+      <pubDate>Fri, 22 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/taking_data_out_of_context_ur.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hacking together Python and JavaScript</title>
+      <link>/posts/password_tool_4.html</link>
+      <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/password_tool_4.html</guid>
+      <description>&lt;p&gt;Alternative title: &amp;ldquo;Python in the browser console tells us that science has indeed come too far.&amp;rdquo; The fourth post in this series dives into how Pyodide enabled me to hook up Python and JavaScript&amp;mdash;sometimes in less-than-clean ways.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>What I read this week (May 10 - May 16)</title>
@@ -171,24 +189,6 @@
       
       <guid>/posts/password_tool_2.html</guid>
       <description>&lt;p&gt;In my &lt;a href=&#34;/posts/password_tool_1.html&#34;&gt;last post&lt;/a&gt;, I discussed what led me to this Pokemon Mystery Dungeon password project. This post dive into my first attempt at creating something real, followed by an unexpected turn into building a web app.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] Data Everyday: Data Literacy Practices in a Division I Sports Context</title>
-      <link>/papers/data_literacy_sports_clegg.html</link>
-      <pubDate>Sun, 26 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/papers/data_literacy_sports_clegg.html</guid>
-      <description>&lt;p&gt;CHI 2020 was supposed to be happening right now, but it was regrettably &lt;a href=&#34;https://chi2020.acm.org/&#34;&gt;cancelled&lt;/a&gt; due to coronavirus. All of the papers were put into the ACM Digital Library as scheduled, though, so I started looking at them. This paper studies data literacy among student-athletes at the University of Maryland.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>My newest project: a Pokemon Mystery Dungeon password tool</title>
-      <link>/posts/password_tool_1.html</link>
-      <pubDate>Sun, 26 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/password_tool_1.html</guid>
-      <description>&lt;p&gt;In this series of blog posts, I&amp;rsquo;ll be covering my newest personal project: a tool for the Pokemon Mystery Dungeon video games that help to make sense of otherwise-uninterpretable passwords. This post covers my motivation for the project and the choice of technologies.&lt;/p&gt;</description>
     </item>
     
   </channel>

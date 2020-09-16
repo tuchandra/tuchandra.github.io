@@ -6,10 +6,28 @@
     <description>Recent content in Tags on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 13 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Paper] Towards Fine-grained Flow Forecasting: a Graph Attention Approach for Bike Sharing Systems</title>
+      <link>/papers/graph_attention_bike_sharing_he.html</link>
+      <pubDate>Wed, 16 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/graph_attention_bike_sharing_he.html</guid>
+      <description>&lt;p&gt;In bike sharing systems, forecasting the demand for pick-ups and drop-offs at each station is essential. This paper presents a novel methodology for doing this, which uses graph neural networks and a spatiotemporal design for station-by-station flow forecasting.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[Paper] Information, incentives, and goals in election forecasts</title>
+      <link>/papers/information_incentives_goals_forecasts_gelman.html</link>
+      <pubDate>Tue, 15 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/information_incentives_goals_forecasts_gelman.html</guid>
+      <description>&lt;p&gt;What kinds of challenges arise when communicating election forecasts, as FiveThirtyEight, The Economist, and a host of others are attempting to do? How do you best discuss your predictions and uncertainty? What responsibilities do forecasters have? Andrew Gelman, Jessica Hullman, and Christopher Wlezien discuss.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>My review of Indistractable</title>
@@ -171,24 +189,6 @@
       
       <guid>/papers/auditing_news_curation_systems_diakopoulos.html</guid>
       <description>&lt;p&gt;Apple News is used by 85 million users daily, but what is it actually showing you? From what publishers do the stories come? How often are they updated? This ICWSM 2020 paper motivates and applies an algorithmic audit of the Apple News curation system.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] What is AI Literacy? Competencies and Design Considerations</title>
-      <link>/papers/what_is_ai_literacy_long.html</link>
-      <pubDate>Wed, 19 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/papers/what_is_ai_literacy_long.html</guid>
-      <description>&lt;p&gt;What does it mean to be AI literate? This work, which received a Best Paper Honorable Mention at CHI 2020, first defines &lt;em&gt;AI literacy&lt;/em&gt; in terms of its core competencies, then discusses considerations for the design of AI systems.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Personal news: I got promoted!</title>
-      <link>/posts/promotion_senior.html</link>
-      <pubDate>Mon, 17 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/promotion_senior.html</guid>
-      <description>&lt;p&gt;I was recently promoted to senior data scientist! This is a short post with some details and reflection.&lt;/p&gt;</description>
     </item>
     
   </channel>
