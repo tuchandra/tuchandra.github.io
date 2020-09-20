@@ -6,10 +6,19 @@
     <description>Recent content in Categories on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 17 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 19 Sep 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Everyday Probabilistic Data Structures for Humans</title>
+      <link>/spark/2020/probabilistic_data_structures.html</link>
+      <pubDate>Thu, 25 Jun 2020 13:00:00 +0000</pubDate>
+      
+      <guid>/spark/2020/probabilistic_data_structures.html</guid>
+      <description>&lt;p&gt;When your data gets extremely large, real-time queries can become expensive and slow. Yeshwanth Vijayakumar from Adobe discusses how &lt;em&gt;probabilistic data structures&lt;/em&gt; can help to solve these scaling problems efficiently.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Notes from the Thursday morning Spark keynotes</title>
@@ -180,15 +189,6 @@
       
       <guid>/posts/sudoku_bookmarklet.html</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve been playing a lot of Sudoku while at home, and today I made a quick tool to make it easier for myself: a bookmarklet to open NY Times Sudoku puzzles on &lt;a href=&#34;https://sudokuexchange.com&#34;&gt;SudokuExchange.com&lt;/a&gt;.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>PMD password tool: making it all work</title>
-      <link>/posts/password_tool_5.html</link>
-      <pubDate>Sat, 23 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/password_tool_5.html</guid>
-      <description>&lt;p&gt;After clearing up unexpected challenges and removing roadblocks, all that was left was to &lt;em&gt;build&lt;/em&gt;. A full evening of coding later, the Pokemon Mystery Dungeon rescue tool &lt;em&gt;works&lt;/em&gt;, which is huge! This post reflects on the last few steps of the process.&lt;/p&gt;</description>
     </item>
     
   </channel>

@@ -6,10 +6,19 @@
     <description>Recent content in what I read on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 05 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 19 Sep 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/categories/what-i-read/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>What I read this week (July 5 - July 11)</title>
+      <link>/what_i_read/20200711.html</link>
+      <pubDate>Sat, 11 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/what_i_read/20200711.html</guid>
+      <description>&lt;p&gt;This week, I watched a few talks from SciPy 2020 and continued my reading on &lt;em&gt;Twenty-Six Words&lt;/em&gt;; this post mostly contains the talks.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>What I read this week (June 28 - July 4)</title>
@@ -180,15 +189,6 @@
       
       <guid>/spark/2020/bayesian_generative_models.html</guid>
       <description>&lt;p&gt;Deduplication is a huge problem in many domains; this talk by two people from MavenCode discusses how they&amp;rsquo;ve used Spark-driven Bayesian generative models to solve large entity resolution problems.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Everyday Probabilistic Data Structures for Humans</title>
-      <link>/spark/2020/probabilistic_data_structures.html</link>
-      <pubDate>Thu, 25 Jun 2020 13:00:00 +0000</pubDate>
-      
-      <guid>/spark/2020/probabilistic_data_structures.html</guid>
-      <description>&lt;p&gt;When your data gets extremely large, real-time queries can become expensive and slow. Yeshwanth Vijayakumar from Adobe discusses how &lt;em&gt;probabilistic data structures&lt;/em&gt; can help to solve these scaling problems efficiently.&lt;/p&gt;</description>
     </item>
     
   </channel>
