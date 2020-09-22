@@ -6,10 +6,19 @@
     <description>Recent content in reading club on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 16 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 21 Sep 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/tags/reading-club/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Paper] The Media Coverage of the 2020 US Presidential Election Candidates through the Lens of Google&#39;s Top Stories</title>
+      <link>/papers/media_coverage_presidential_google_kawakami.html</link>
+      <pubDate>Fri, 21 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/media_coverage_presidential_google_kawakami.html</guid>
+      <description>&lt;p&gt;This is a &lt;em&gt;dataset paper&lt;/em&gt; from ICWSM 2020, presenting a dataset of nearly 80,000 news stories focusing on the 2020 US Presidential Election throughout 2019. It was shared to help researchers studying agenda setting and algorithmic curation of news.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Minor website addition: tags and anchors</title>
@@ -180,15 +189,6 @@
       
       <guid>/books/twenty_six_words_4.html</guid>
       <description>&lt;p&gt;What comes next for Section 230? What comes next for the platforms who have used Section 230 as a shield for so long?&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Internet Exceptionalism</title>
-      <link>/books/twenty_six_words_3.html</link>
-      <pubDate>Thu, 16 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/books/twenty_six_words_3.html</guid>
-      <description>&lt;p&gt;In my second-to-last post on Section 230, I discuss the idea of internet exceptionalism&amp;mdash;how, in passing Section 230, Congress decided that the internet should be different than other publishing mediums.&lt;/p&gt;</description>
     </item>
     
   </channel>
