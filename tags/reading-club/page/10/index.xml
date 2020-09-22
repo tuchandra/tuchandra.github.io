@@ -93,6 +93,15 @@
     </item>
     
     <item>
+      <title>[Paper] Reliance on Metrics is a Fundamental Challenge for AI</title>
+      <link>/papers/reliance_metrics_problem_thomas.html</link>
+      <pubDate>Sun, 22 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/reliance_metrics_problem_thomas.html</guid>
+      <description>&lt;p&gt;One of my more deeply held beliefs is that people rely too heavily on metrics, so when my friend Judah sent me this paper I was quick to jump on it. Rachel Thomas and David Uminsky argue that an overemphasis on metrics is a fundamental problem with AI.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Resume</title>
       <link>/resume/</link>
       <pubDate>Mon, 20 May 2019 00:00:00 +0000</pubDate>
@@ -181,15 +190,6 @@
       
       <guid>/spark/query_plans.html</guid>
       <description>&lt;p&gt;Speaker: Xiao Li (Databricks).&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Beyond Reason Codes: A Blueprint for Human-Centered, Low-Risk ML</title>
-      <link>/spark/interpretable_ai.html</link>
-      <pubDate>Wed, 24 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/spark/interpretable_ai.html</guid>
-      <description>&lt;p&gt;Speaker: Patrick Hall (H2O.ai).&lt;/p&gt;</description>
     </item>
     
   </channel>
