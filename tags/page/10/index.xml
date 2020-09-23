@@ -6,10 +6,19 @@
     <description>Recent content in Tags on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 21 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 22 Sep 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Paper] A Taxonomy of Ethical Tensions in Inferring Mental Health States from Social Media (part 1/2)</title>
+      <link>/papers/ethical_tensions_social_media_chancellor_1.html</link>
+      <pubDate>Sun, 24 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/ethical_tensions_social_media_chancellor_1.html</guid>
+      <description>&lt;p&gt;Research shows that it&amp;rsquo;s possible to infer individuals&amp;rsquo; mental health status from social media. While this has great potential for good, it also has great potential for misuse. So much, in fact, that this FAT* 2019 paper creates a taxonomy of all the different ethical tensions with this! This is part 1 of 2.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>On the digital ad industry</title>
@@ -90,15 +99,6 @@
       
       <guid>/posts/silph.html</guid>
       <description>pre::before { display: none; } pre::after { display: none; }    analysis   /*! * * Twitter Bootstrap * */ /*! * Bootstrap v3.3.7 (http://getbootstrap.com) * Copyright 2011-2016 Twitter, Inc. * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE) */ /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */ html { font-family: sans-serif; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; } body { margin: 0; } article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary { display: block; } audio, canvas, progress, video { display: inline-block; vertical-align: baseline; } audio:not([controls]) { display: none; height: 0; } [hidden], template { display: none; } a { background-color: transparent; } a:active, a:hover { outline: 0; } abbr[title] { border-bottom: 1px dotted; } b, strong { font-weight: bold; } dfn { font-style: italic; } h1 { font-size: 2em; margin: 0.</description>
-    </item>
-    
-    <item>
-      <title>[Paper] Reliance on Metrics is a Fundamental Challenge for AI</title>
-      <link>/papers/reliance_metrics_problem_thomas.html</link>
-      <pubDate>Sun, 22 Sep 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/papers/reliance_metrics_problem_thomas.html</guid>
-      <description>&lt;p&gt;One of my more deeply held beliefs is that people rely too heavily on metrics, so when my friend Judah sent me this paper I was quick to jump on it. Rachel Thomas and David Uminsky argue that an overemphasis on metrics is a fundamental problem with AI.&lt;/p&gt;</description>
     </item>
     
     <item>

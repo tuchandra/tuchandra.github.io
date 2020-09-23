@@ -6,10 +6,19 @@
     <description>Recent content in papers on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 21 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 22 Sep 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/categories/papers/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Thursday afternoon keynotes: on deep learning and deep fakes</title>
+      <link>/spark/2020/thursday_afternoon_keynotes.html</link>
+      <pubDate>Thu, 25 Jun 2020 15:00:00 +0000</pubDate>
+      
+      <guid>/spark/2020/thursday_afternoon_keynotes.html</guid>
+      <description>&lt;p&gt;The afternoon keynotes featured Kim Hazelwood, the west cost head of engineering at FAIR, discussing recommender systems; and Hany Farid, from UC Berkeley, discussing deepfakes.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Using Bayesian Generative Models With Apache Spark To Solve Entity Resolution Problems At Scale</title>
@@ -180,15 +189,6 @@
       
       <guid>/what_i_read/20200530.html</guid>
       <description>&lt;p&gt;This week, I read a lot of advice: on writing, on grad school, and more. Most of this was written while waiting for a particularly painful MCMC model to sample.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>PMD password tool: should I do this?</title>
-      <link>/posts/password_tool_6.html</link>
-      <pubDate>Thu, 28 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/password_tool_6.html</guid>
-      <description>&lt;p&gt;This is a long one; it&amp;rsquo;s not a paper summary, it&amp;rsquo;s not technical, and it&amp;rsquo;s far more personal than what I usually post here. In this post, I discuss whether or not the password tool should even exist by telling a story about a community from 14 years ago.&lt;/p&gt;</description>
     </item>
     
   </channel>

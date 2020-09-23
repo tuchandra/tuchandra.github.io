@@ -6,10 +6,19 @@
     <description>Recent content in Tags on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 21 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 22 Sep 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>PMD password tool: should I do this?</title>
+      <link>/posts/password_tool_6.html</link>
+      <pubDate>Thu, 28 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/password_tool_6.html</guid>
+      <description>&lt;p&gt;This is a long one; it&amp;rsquo;s not a paper summary, it&amp;rsquo;s not technical, and it&amp;rsquo;s far more personal than what I usually post here. In this post, I discuss whether or not the password tool should even exist by telling a story about a community from 14 years ago.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Bookmarklet for SudokuExchange</title>
@@ -180,15 +189,6 @@
       
       <guid>/papers/intimate_reconfigurations_finsta_xiao.html</guid>
       <description>&lt;p&gt;Another paper studying &amp;ldquo;finstas&amp;rdquo; (fake / secret Instagram accounts, shared only with a small group of people). This one, by Sijia Xiao et al., received an Honorable Mention at CHI 2020. In contrast to yesterday&amp;rsquo;s, this work draws from feminist theory to explore finstas as &amp;ldquo;intimate reconfigurations&amp;rdquo; of the Instagram platform itself.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Recent website changes</title>
-      <link>/posts/apr2020_website_changes.html</link>
-      <pubDate>Wed, 29 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/apr2020_website_changes.html</guid>
-      <description>&lt;p&gt;I made a couple more changes to my website: giving more credit to the authors of the papers I read and adding a new category.&lt;/p&gt;</description>
     </item>
     
   </channel>
