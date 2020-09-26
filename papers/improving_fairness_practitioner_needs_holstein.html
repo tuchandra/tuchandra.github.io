@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <title>
+    [Paper] Improving fairness in machine learning systems: What do industry practitioners need? - Tushar Chandra
+    </title>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="Cache-Control" content="no-transform" />
+  <meta http-equiv="Cache-Control" content="no-siteapp" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="format-detection" content="telephone=no,email=no,adress=no">
+  
+  <meta name="theme-color" content="#000000" />
+  <meta http-equiv="window-target" content="_top" /><meta name="description" content="There&amp;rsquo;s lots of research on what (un)fairness in machine learning looks like. But what do industry practitioners actually need to address fairness issues? This paper surveys them to find out.
+" />
+  <meta name="generator" content="Hugo 0.70.0" />
+  <title>[Paper] Improving fairness in machine learning systems: What do industry practitioners need? - Tushar Chandra</title>
+
+  
+  
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
+
+  <meta property="og:title" content="[Paper] Improving fairness in machine learning systems: What do industry practitioners need?" />
+<meta property="og:description" content="There&rsquo;s lots of research on what (un)fairness in machine learning looks like. But what do industry practitioners actually need to address fairness issues? This paper surveys them to find out." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/papers/improving_fairness_practitioner_needs_holstein.html" />
+<meta property="article:published_time" content="2020-09-26T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-09-26T00:00:00+00:00" />
+<meta itemprop="name" content="[Paper] Improving fairness in machine learning systems: What do industry practitioners need?">
+<meta itemprop="description" content="There&rsquo;s lots of research on what (un)fairness in machine learning looks like. But what do industry practitioners actually need to address fairness issues? This paper surveys them to find out.">
+<meta itemprop="datePublished" content="2020-09-26T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2020-09-26T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="1550">
+
+
+
+<meta itemprop="keywords" content="chi2019,reading club," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="[Paper] Improving fairness in machine learning systems: What do industry practitioners need?"/>
+<meta name="twitter:description" content="There&rsquo;s lots of research on what (un)fairness in machine learning looks like. But what do industry practitioners actually need to address fairness issues? This paper surveys them to find out."/>
+</head>
+</head>
+
+
+
+<body class="h-screen flex flex-col justify-between" itemscope itemtype="http://schema.org/WebPage"><header class="w-screen bg-green-500" itemscope itemtype="http://schema.org/WPHeader">
+  <div class="flex max-w-8xl container mx-auto">
+    <div class="hidden sm:inline flex items-center">
+      <a href="/">
+        <img class="rounded-full m-1 md:m-4" src="/headshot.jpg" width="100" height="100">
+      </a>
+    </div>
+    <div class="w-full px-4 flex flex-col lg:flex-row justify-between lg:items-center my-4">
+      <div class="xl:flex-grow">
+        <a href="/">
+          <span class="text-lg sm:text-2xl md:text-3xl font-semibold">Tushar Chandra</span>
+          <span class="hidden pl-4 lg:inline"><br></span>
+          <span class="text-sm md:text-xl font-thin pl-4 md:pl-0 lg:text-xl">Data Scientist / Chicago, IL
+          </span>
+        </a>
+      </div>
+      <nav class="" itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation">
+        <ul class="flex lg:justify-between">
+          <li class="flex-grow-0 inline pr-1 md:pr-2 xl:px-4">
+            <p class="text-center">
+              <a href="/about">
+                <i class="fas text-green-800 pl-1 md:px-1 text-sm md:text-xl lg:text-2xl fa-mug-hot"></i>
+                <span class="font-thin text-sm md:text-lg lg:text-2xl">About</span>
+              </a>
+            </p>
+          </li>
+          <li class="flex-grow-0 inline pr-1 md:pr-2 xl:px-4">
+            <p class="text-center">
+              <a href="/resume">
+                <i class="fas text-green-800 pl-1 md:px-1 text-sm md:text-xl lg:text-2xl fa-file"></i>
+                <span class="font-thin text-sm md:text-lg lg:text-2xl">Resume</span>
+              </a>
+            </p>
+          </li>
+          <li class="flex-grow-0 inline pr-1 md:pr-2 xl:px-4">
+            <p class="text-center">
+              <a href="/reading">
+                <i class="fas text-green-800 pl-1 md:px-1 text-sm md:text-xl lg:text-2xl fa-book-open"></i>
+                <span class="font-thin text-sm md:text-lg lg:text-2xl">Reading</span>
+              </a>
+            </p>
+          </li>
+          <li class="flex-grow-0 inline pr-1 md:pr-2 xl:px-4">
+            <p class="text-center">
+              <a href="/categories.html">
+                <i class="fas text-green-800 pl-1 md:px-1 text-sm md:text-xl lg:text-2xl fa-folder-open"></i>
+                <span class="font-thin text-sm md:text-lg lg:text-2xl">Categories</span>
+              </a>
+            </p>
+          </li>
+          <li class="flex-grow-0 inline pr-1 md:pr-2 xl:px-4">
+            <p class="text-center">
+              <a href="/posts.html">
+                <i class="fas text-green-800 pl-1 md:px-1 text-sm md:text-xl lg:text-2xl fa-archive"></i>
+                <span class="font-thin text-sm md:text-lg lg:text-2xl">Archives</span>
+              </a>
+            </p>
+          </li>
+
+        </ul>
+
+      </nav>
+    </div>
+
+  </div>
+</header>
+  <div class="container mx-auto max-w-8xl px-4 flex flex-row flex-grow">
+    <div class="w-full md:w-3/4">
+      
+<main class="main" role="main"><div class="content container mx-auto max-w-6xl">
+  <article id="-" class="" itemscope itemtype="http://schema.org/BlogPosting">
+    <div class="pt-4">
+      <span class="font-semibold text-3xl"><h1 itemprop="name">
+  <a class="" href="/papers/improving_fairness_practitioner_needs_holstein.html">[Paper] Improving fairness in machine learning systems: What do industry practitioners need?</a>
+</h1>
+      </span>
+      <div class="pb-4"><i class="fas fa-calendar-check text-gray-500 pr-1"></i>
+<time datetime="2020-09-26 00:00:00 &#43;0000 UTC" class="text-sm text-gray-600"
+  itemprop="datePublished">2020-09-26</time>
+<span class="text-sm text-gray-600" itemprop="wordCount">
+	<i class="fas fa-pencil-alt text-gray-500 pl-4 pr-2"></i>1550 words
+</span><i class="fas fa-folder-open text-gray-500 pl-4 pr-1"></i>
+<a class="text-sm text-gray-600" href=" /categories/papers.html"> papers, </a>
+<span class="article-tag">
+  <i class="fas fa-tag text-gray-500 pl-4 pr-1"></i>
+  <a class="text-sm text-gray-600" href="/tags/chi2019.html"> chi2019, </a>
+  <a class="text-sm text-gray-600" href="/tags/reading-club.html"> reading club, </a>
+</span><span class="article-category text-sm text-gray-600 pl-4">
+  <i class="fa fa-users "></i>
+  Kenneth Holstein, Jennifer Wortman Vaughan, Hal Daumé III, Miro Dudík, Hanna Wallach
+</span>
+      </div>
+    </div>
+    <div class="rich-text" itemprop="articleBody">
+      <p>There&rsquo;s lots of research on what (un)fairness in machine learning looks like. But what do industry practitioners actually need to address fairness issues? This paper surveys them to find out.</p>
+<p><strong>Authors</strong>: Kenneth Holstein, Jennifer Wortman Vaughan, Hal Daumé III, Miro Dudík, Hanna Wallach</p>
+<p><strong>Link</strong>: <a href="https://arxiv.org/abs/1812.05239">arXiv</a></p>
+<h2 id="background"><a class="not-rich" href="#background"><i class="fas fa-link"></i></a> Background</h2>
+<p>From the abstract:</p>
+<blockquote>
+<p>The potential for machine learning (ML) systems to amplify social inequities and unfairness is receiving increasing popular and academic attention.
+A surge of recent work has focused on the development of algorithmic tools to assess and mitigate such unfairness.
+If these tools are to have a positive impact on industry practice, however, it is crucial that their design be informed by an understanding of real-world needs.</p>
+</blockquote>
+<p>This paper studies industry practitioners&rsquo; challenges and needs in developing fairer ML systems.
+The authors categorize these challenges, then highlight directions of future research to address practitioners&rsquo; needs.</p>
+<p>The authors describe some of the ways in which (un)fairness in ML has been studied:</p>
+<ul>
+<li>Developing statistical definitions of fairness</li>
+<li>Studying users&rsquo; expectations on algorithmic fairness, finding that they do not always align with statistical definitions</li>
+<li>Auditing ML products and creating calls to action</li>
+</ul>
+<p>Only one case studied the needs of ML practitioners: see <a href="https://arxiv.org/abs/1802.01029">Veale et al. at CHI 2018</a>.
+This paper expands on that work.</p>
+<h2 id="interviews-and-surveys"><a class="not-rich" href="#interviews-and-surveys"><i class="fas fa-link"></i></a> Interviews and surveys</h2>
+<p>The authors ran two sets of interviews: one pilot round with 6 people, and a second, more in-depth set with 29 people.
+The interviewees worked on 25 ML product teams across 10 companies.
+Their roles included product managers, data scientists, ML engineers, chief data scientist and CTO, UX designer and researcher, and several others.</p>
+<p>I found interesting the challenges that the researchers faced in recruiting participants:</p>
+<blockquote>
+<p>For instance, given a recent trend of negative media coverage calling out algorithmic biases and unfairness in widely-used ML systems, our contacts often expressed strong fears that their team or company&rsquo;s identity might leak to the popular press, harming their reputation.
+Some contacts revealed a general distrust of researchers &hellip;
+Finally, some contacts worried that, in diving into the details of their teams&rsquo; prior experiences, they might inadvertently reveal trade secrets.</p>
+</blockquote>
+<p>These are worth keeping in mind when thinking about research-industry partnerships.</p>
+<p>They later ran a survey, completed by 267 ML practitioners in a wide variety of roles, which asked about teams&rsquo; current practices, challenges, and needs, offering closed- and free-response questions.</p>
+<h2 id="key-findings"><a class="not-rich" href="#key-findings"><i class="fas fa-link"></i></a> Key findings</h2>
+<p><strong>Fairness-aware data collection</strong>: fair ML research typically focuses on mitigating bias, but many interviewees reported their training datasets (not models) being the most important place to improve fairness.
+When data is collected from in-the-wild users, &ldquo;challenges can arise when specific user populations are less engaged with the product.&rdquo;</p>
+<p>The takeaway here is that practitioners frequently have more of an ability to collect additional (or better) training data than papers on algorithmic &ldquo;de-biasing&rdquo; typically assume.</p>
+<p><strong>Challenges due to blind spots</strong>: interviewees were worried about their teams&rsquo; &ldquo;blind spots,&rdquo; which might stop them from even monitoring for certain kinds of unfairness.
+&ldquo;You&rsquo;ll know if there&rsquo;s fairness issues if someone raises hell online,&rdquo; one said, but this is obviously not ideal for detecting unfairness.
+51% of survey respondents agreed that serious fairness issues are only discovered <em>after</em> deployment.</p>
+<p>One interesting challenge was that most framings of AI fairness focus on legally protected attributes, like ethnicity and gender.
+But a participant noted that the subpopulations of interest can be domain- or problem-based (e.g., in essay scoring software, whether the author is a native speaker).
+Even with training in fairness and proactive searches for it, blind spots can arise from cultural background or lack of domain knowledge.</p>
+<blockquote>
+<p>Interviewees noted that it would be helpful to somehow pool knowledge of potential fairness issues in specific application domains across teams with different backgrounds, who have complementary knowledge and blind spots.</p>
+</blockquote>
+<p><strong>Needs for more proactive auditing processes</strong>: there are lots of complementary findings here:</p>
+<ul>
+<li>of 51% of survey respondents who said their team had not found any fairness issues in their products, 55% said that they believe undetected issues &ldquo;probably&rdquo; or &ldquo;definitely&rdquo; exist.</li>
+<li>only 21% of respondents said their team prioritizes fairness &ldquo;a lot&rdquo; or &ldquo;a great deal&rdquo;</li>
+<li>only ~20% of respondents said they have fairness KPIs or automated tests for fairness</li>
+</ul>
+<blockquote>
+<p>Several of our interviewees reported that their team had searched the fair ML literature for existing fairness metrics.
+However, they often failed to find metrics that readily applied to their specific application domains.</p>
+</blockquote>
+<p>Sometimes, access to individual-level demographics (which a lot of fair ML literature assumes) is not permitted.
+One data scientist recounted building a classifier to predict sex and ethnicity, so that they could use the predicted protected attributes to audit their product &hellip; but they knew this was buggy.</p>
+<p>The &ldquo;enormous space of potential fairness issues&rdquo; was also a challenge.
+A UX researcher noted that even though they recruit diverse groups, these contain 8 - 10 people, from which it&rsquo;s impossible to to represent everybody.
+Another described fairness testing as &ldquo;spot checks&rdquo; and not comprehensive.
+Others noted that it was difficult to diagnose between one-off issues and systemic problems.</p>
+<p><strong>Needs for more holistic auditing methods</strong>: interviewees noted differences between popular and academic discourse on fairness (usually thought of in terms of models) and their domain (thinking about the more complex, harder to measure effects of ML systems).
+A PM on a web image search noted that some of their users were uncomfortable with &ldquo;manipulating&rdquo; search results of e.g., CEOs to show fewer white men.
+A data scientist identified a possible need for simulation-based auditing for the case of long-term feedback loops that were impossible to screen for in advance.</p>
+<p><strong>Addressing detected issues</strong>: interviewees discussed challenges in debugging and remediating fairness issues.
+They often struggled to identify the cause, then to decide where to focus their efforts.
+One team cited additional data collection as their &ldquo;last resort,&rdquo; but another as their first step. Teams noted lots of wasted time pursuing dead ends.</p>
+<p>Others cited:</p>
+<ul>
+<li>&ldquo;fears of unexpected side effects as a deterrent to addressing fairness issues&rdquo; (e.g., if the user experience changes for the worse)</li>
+<li>being unable to predict how changes would affect the UX in advance</li>
+<li>not knowing how much additional data they&rsquo;d need to collect</li>
+<li>needing to change broader system design (using the term &ldquo;healthcare professional&rdquo; instead of the often-gendered &ldquo;doctor&rdquo; or &ldquo;nurse)</li>
+</ul>
+<blockquote>
+<p>Interviewees often expressed unease with the idea that their teams&rsquo; technical choices can have major societal impacts.
+For example, a technical director &hellip; said <em>&lsquo;ML models&rsquo; main assumption [is] that the past is similar to the future [&hellip;] if I don&rsquo;t want to have the same future, am I in the position to define the future for society or not?'</em></p>
+</blockquote>
+<p><strong>Biases in the humans in the loop</strong>: people noted possible biases of humans involved in creating or collecting trading data.
+An example was in essay scoring software, where biases in the human scorers might be reflected in the models.</p>
+<h2 id="future-work"><a class="not-rich" href="#future-work"><i class="fas fa-link"></i></a> Future work</h2>
+<blockquote>
+<p>In this work, we conducted the first systematic investigation of industry teams&rsquo; challenges and needs for support in developing fairer ML systems.
+Even when practitioners are motivated to improve fairness in their products, they often face various technical and organizational barriers.</p>
+</blockquote>
+<p>The authors note a few directions for future research:</p>
+<ul>
+<li>Support practitioners in collecting and curating high-quality datasets</li>
+<li>Create domain-specific educational resources</li>
+<li>Address fairness auditing without access to individual demographic information</li>
+<li>Develop tools for fairness-focused debugging</li>
+<li>Build automated auditing tools and improve the ability to prototype ML systems</li>
+</ul>
+<h2 id="discussion"><a class="not-rich" href="#discussion"><i class="fas fa-link"></i></a> Discussion</h2>
+<p>This paper was incredible.</p>
+<p>I found this when looking for work that discussed the research-industry gap in AI fairness.
+I&rsquo;ve been recently thinking along the same lines, thanks to conversations with my friend <a href="https://judahgnewman.com/">Judah</a>.
+From my position in industry, it is near impossible me to practically contribute to work on algorithmic unfairness; many of the issues raised in the paper were salient for me.</p>
+<p>Perhaps more importantly, I think this kind of collaboration is <em>more</em> important in the fields of AI fairness, transparency, etc., than other machine learning subfields.
+In computer vision, it&rsquo;s fine if research labs develop better image recognition models (with some exceptions, like facial recognition) while industry practitioners use whatever models they find appropriate.
+In AI fairness, though, the problems being addressed are often ones that stem from industry.
+As such, a tight collaboration between fairness researchers and practitioners is essential.</p>
+<p>A lot of academic research is just that: academic.
+Even in deeply practical fields like AI fairness or human-centered AI, papers like <a href="/papers/equality_of_opportunity_srebro.html">Equality of Opportunity in Supervised Learning</a> or <a href="/papers/who_is_human_chancellor.html">Who is the Human in Human Centered Machine Learning</a> raise incredibly interesting points but have little immediate application to practitioners.</p>
+<p>This is not to criticise those papers.
+Those papers contain interesting, valuable work that advances the field.
+Building tools for industry practitioners to use is challenging, though, and research on bridging this gap is a large part of what this paper calls for.</p>
+<p>Here&rsquo;s a quote I loved, with which I&rsquo;ll close this post:</p>
+<blockquote>
+<p>While some fair ML tools are already being prototyped with practitioners, their initial design often appears to be driven more by the availability of algorithmic methods than by real-world needs.
+If such tools are to have a positive and meaningful impact on industry practice, however, it is crucial that their design be informed by an understanding of practitioners&rsquo; actual challenges and needs for support in developing fairer ML systems.</p>
+</blockquote>
+<p>Great work.</p>
+
+      <p><i class="fas fa-square font-green-800"></i></p>
+    </div>
+    <div class="font-semibold text-green-800 pt-4">
+      <a href="/"><i class="fas fa-arrow-left"></i> Return home</a>
+    </div>
+  </article>
+</div><nav class="bar bar-footer clearfix" data-stick-bottom>
+    <div class="bar-inner">
+        <ul class="pager pull-left">
+            <li class="prev">
+                <a href="/what_i_read/20200926.html" title="What I read this week (September 20 - September 26)"><i
+                        class="icon icon-angle-left"
+                        aria-hidden="true"></i><span>&nbsp;&nbsp;</span></a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+</main>
+    </div>
+    <div class="hidden w-0 md:block md:w-1/4 md:pt-8 md:pl-12"><aside class="" itemscope itemtype="http://schema.org/WPSideBar">
+  <div class="pb-8">
+    <h3 class="font-semibold text-xl">Categories</h3>
+    <ul class="">
+        <li class="">+ <a href="/categories/books.html" class="font-bold text-green-900">books
+            </a><span class="">20</span>
+        </li>
+        <li class="">+ <a href="/categories/general.html" class="font-bold text-green-900">general
+            </a><span class="">37</span>
+        </li>
+        <li class="">+ <a href="/categories/papers.html" class="font-bold text-green-900">papers
+            </a><span class="">66</span>
+        </li>
+        <li class="">+ <a href="/categories/projects.html" class="font-bold text-green-900">projects
+            </a><span class="">7</span>
+        </li>
+        <li class="">+ <a href="/categories/self.html" class="font-bold text-green-900">self
+            </a><span class="">3</span>
+        </li>
+        <li class="">+ <a href="/categories/spark.html" class="font-bold text-green-900">spark
+            </a><span class="">34</span>
+        </li>
+        <li class="">+ <a href="/categories/what-i-read.html" class="font-bold text-green-900">what-i-read
+            </a><span class="">41</span>
+        </li>
+    </ul>
+</div>
+<div class="pb-4">
+    <h3 class="font-semibold text-xl">Recent Posts</h3>
+    <ul class="recent-post-list list-unstyled no-thumbnail">
+        <li class="pb-4">
+            <p>
+                <a href="/papers/improving_fairness_practitioner_needs_holstein.html" class="font-bold text-green-900">[Paper] Improving fairness in machine learning systems: What do industry practitioners need?</a>
+                <time datetime="2020-09-26 00:00:00 &#43;0000 UTC" itemprop="datePublished" class="text-gray-600 text-sm">2020-09-26
+                </time>
+            </p>
+
+        </li>
+        <li class="pb-4">
+            <p>
+                <a href="/what_i_read/20200926.html" class="font-bold text-green-900">What I read this week (September 20 - September 26)</a>
+                <time datetime="2020-09-26 00:00:00 &#43;0000 UTC" itemprop="datePublished" class="text-gray-600 text-sm">2020-09-26
+                </time>
+            </p>
+
+        </li>
+        <li class="pb-4">
+            <p>
+                <a href="/papers/reliance_metrics_problem_thomas.html" class="font-bold text-green-900">[Paper] Reliance on Metrics is a Fundamental Challenge for AI</a>
+                <time datetime="2020-09-22 00:00:00 &#43;0000 UTC" itemprop="datePublished" class="text-gray-600 text-sm">2020-09-22
+                </time>
+            </p>
+
+        </li>
+        <li class="pb-4">
+            <p>
+                <a href="/papers/why_ask_why_gelman.html" class="font-bold text-green-900">[Paper] Why ask Why? Forward Causal Inference and Reverse Causal Questions</a>
+                <time datetime="2020-09-21 00:00:00 &#43;0000 UTC" itemprop="datePublished" class="text-gray-600 text-sm">2020-09-21
+                </time>
+            </p>
+
+        </li>
+        <li class="pb-4">
+            <p>
+                <a href="/what_i_read/20200919.html" class="font-bold text-green-900">What I read this week (September 13 - September 19)</a>
+                <time datetime="2020-09-19 00:00:00 &#43;0000 UTC" itemprop="datePublished" class="text-gray-600 text-sm">2020-09-19
+                </time>
+            </p>
+
+        </li>
+    </ul>
+</div><div class="pb-12">
+    <h3 class="font-semibold text-xl">Tags</h3>
+    <ul class="">
+        <li class="">+ <a href="/tags/#republic.html" class="font-bold text-green-900">#republic
+            </a><span class="">5</span>
+        </li>
+        <li class="">+ <a href="/tags/chi2019.html" class="font-bold text-green-900">chi2019
+            </a><span class="">1</span>
+        </li>
+        <li class="">+ <a href="/tags/chi2020.html" class="font-bold text-green-900">chi2020
+            </a><span class="">20</span>
+        </li>
+        <li class="">+ <a href="/tags/fat2020.html" class="font-bold text-green-900">fat2020
+            </a><span class="">2</span>
+        </li>
+        <li class="">+ <a href="/tags/iclr.html" class="font-bold text-green-900">iclr
+            </a><span class="">2</span>
+        </li>
+        <li class="">+ <a href="/tags/icwsm2020.html" class="font-bold text-green-900">icwsm2020
+            </a><span class="">5</span>
+        </li>
+        <li class="">+ <a href="/tags/indistractable.html" class="font-bold text-green-900">indistractable
+            </a><span class="">2</span>
+        </li>
+        <li class="">+ <a href="/tags/neurips.html" class="font-bold text-green-900">neurips
+            </a><span class="">1</span>
+        </li>
+        <li class="">+ <a href="/tags/password-tool.html" class="font-bold text-green-900">password-tool
+            </a><span class="">6</span>
+        </li>
+        <li class="">+ <a href="/tags/reading-club.html" class="font-bold text-green-900">reading-club
+            </a><span class="">11</span>
+        </li>
+        <li class="">+ <a href="/tags/site.html" class="font-bold text-green-900">site
+            </a><span class="">5</span>
+        </li>
+        <li class="">+ <a href="/tags/www.html" class="font-bold text-green-900">www
+            </a><span class="">1</span>
+        </li>
+    </ul>
+</div>
+</aside><footer class="" itemscope itemtype="http://schema.org/WPFooter">
+  <div class="py-4 text-sm">
+    &copy; 2019 - 2020 Tushar Chandra
+    <p style="margin-bottom: 4px">All opinions are my own.</p>
+    <div class="publishby">Powered by Hugo with a custom theme.</div>
+  </div>
+  <ul class="">
+    <li class="inline text-xl pr-4">
+      <a href="https://github.com/tuchandra" target="_blank" title="github">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+    <li class="inline text-xl pr-4">
+      <a href="https://www.linkedin.com/in/tushar-chandra-76a623b6/" target="_blank" title="linkedin">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+    <li class="inline text-xl pr-4">
+      <a href="mailto:me@tusharc.dev" target="_blank" title="envelope">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+    <li class="inline text-xl pr-4">
+      <a href="/index.xml" target="_blank" title="rss">
+        <i class="fas fa-rss"></i>
+      </a>
+    </li>
+
+  </ul>
+</footer>
+    </div>
+  </div>
+  <div class="mx-auto w-screen px-4 bg-green-500 mt-4 md:py-8">
+    <div class="md:invisible md:hidden max-w-8xl"><footer class="" itemscope itemtype="http://schema.org/WPFooter">
+  <div class="py-4 text-sm">
+    &copy; 2019 - 2020 Tushar Chandra
+    <p style="margin-bottom: 4px">All opinions are my own.</p>
+    <div class="publishby">Powered by Hugo with a custom theme.</div>
+  </div>
+  <ul class="">
+    <li class="inline text-xl pr-4">
+      <a href="https://github.com/tuchandra" target="_blank" title="github">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+    <li class="inline text-xl pr-4">
+      <a href="https://www.linkedin.com/in/tushar-chandra-76a623b6/" target="_blank" title="linkedin">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+    <li class="inline text-xl pr-4">
+      <a href="mailto:me@tusharc.dev" target="_blank" title="envelope">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+    <li class="inline text-xl pr-4">
+      <a href="/index.xml" target="_blank" title="rss">
+        <i class="fas fa-rss"></i>
+      </a>
+    </li>
+
+  </ul>
+</footer>
+    </div>
+  </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_SVG"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+            showMathMenu: false, //disables context menu
+            tex2jax: {
+            inlineMath: [ ['$','$'], ['\\(','\\)'] ]
+           }
+    });
+</script>
+
+
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/highlight.min.js"></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/python.min.js"></script><script>
+    hljs.configure({
+        tabReplace: '    ', 
+        classPrefix: ''     
+        
+    })
+    hljs.initHighlightingOnLoad();
+</script>
+
+
+<script data-goatcounter="https://tusharc.goatcounter.com/count" async src="//gc.zgo.at/count.js">
+</script>
+</body>
+
+</html>
