@@ -6,10 +6,19 @@
     <description>Recent content in Categories on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 22 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 26 Sep 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>What I read this week (July 12 - July 18)</title>
+      <link>/what_i_read/20200718.html</link>
+      <pubDate>Sat, 18 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/what_i_read/20200718.html</guid>
+      <description>&lt;p&gt;This week, all the blog posts and articles I read came from &lt;a href=&#34;https://pointer.io&#34;&gt;Pointer&lt;/a&gt;. I spent most of my free time finishing up the book &lt;em&gt;Twenty Six Words&lt;/em&gt; (highly recommend!) and then starting &lt;em&gt;Weapons of Math Destruction&lt;/em&gt; by Cathy O&amp;rsquo;Neil.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>The future of Section 230</title>
@@ -180,15 +189,6 @@
       
       <guid>/spark/2020/clinical_decision_support_roche.html</guid>
       <description>&lt;p&gt;How does Roche use machine learning to help understand pathology reports? This talk gives a high-level overview of their data pipeline and tech stack, including infrastructure they&amp;rsquo;ve built up to do OCR and NLP.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>An Approach To Data Quality For Netflix Personalization Systems</title>
-      <link>/spark/2020/data_quality_netflix.html</link>
-      <pubDate>Thu, 25 Jun 2020 16:00:00 +0000</pubDate>
-      
-      <guid>/spark/2020/data_quality_netflix.html</guid>
-      <description>&lt;p&gt;Netflix ingests terabytes of data and billions of rows daily, and these are used for personalized recommendations both online and offline. How do they manage data quality? By lots and lots of quality checks early on.&lt;/p&gt;</description>
     </item>
     
   </channel>
