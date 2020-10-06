@@ -6,10 +6,19 @@
     <description>Recent content on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 26 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 06 Oct 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/papers/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Paper] &#39;Data Strikes&#39;: Evaluating the Effectiveness of a New Form of Collective Action Against Technology Companies</title>
+      <link>/papers/data_strikes_vincent.html</link>
+      <pubDate>Tue, 06 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/data_strikes_vincent.html</guid>
+      <description>&lt;p&gt;What do you do when &amp;ldquo;hit a company where it hurts&amp;rdquo; means their data, or their models? What does it mean to go on a &amp;ldquo;data strike&amp;rdquo;? This paper studies the idea of withholding one&amp;rsquo;s personal data and evaluates its impact on  recommender systems.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>What I read this week (September 27 - October 3)</title>
@@ -180,15 +189,6 @@
       
       <guid>/papers/wes_simulation_facebook.html</guid>
       <description>&lt;p&gt;In this paper, Facebook simulates itself. Through legions of bots trained through reinforcement learning, but running on the real Facebook platform, Facebook details how it created a web-enabled simulation system of its own platform.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>What I read this week (August 23 - 29)</title>
-      <link>/what_i_read/20200829.html</link>
-      <pubDate>Sat, 29 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/what_i_read/20200829.html</guid>
-      <description>&lt;p&gt;My last week of vacation. I&amp;rsquo;ve been reading Cass Sunstein&amp;rsquo;s &lt;a href=&#34;https://press.princeton.edu/books/hardcover/9780691175515/republic&#34;&gt;#republic&lt;/a&gt; and the usual stuff from newsletters and Twitter.&lt;/p&gt;</description>
     </item>
     
   </channel>
