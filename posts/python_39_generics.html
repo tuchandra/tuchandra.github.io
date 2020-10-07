@@ -5,7 +5,8 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <title>
-    Tushar Chandra</title>
+    My favorite Python 3.9 feature isn&#39;t a 3.9 feature - Tushar Chandra
+    </title>
   <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -19,27 +20,35 @@
   <meta name="format-detection" content="telephone=no,email=no,adress=no">
   
   <meta name="theme-color" content="#000000" />
-  <meta http-equiv="window-target" content="_top" />
+  <meta http-equiv="window-target" content="_top" /><meta name="description" content="Python 3.9 was released this week, and with it come a few incremental features. But my favorite feature isn&amp;rsquo;t just in Python 3.9&amp;mdash;it&amp;rsquo;s usable in 3.7 and up.
+" />
   <meta name="generator" content="Hugo 0.70.0" />
-  <title>Tushar Chandra</title>
+  <title>My favorite Python 3.9 feature isn&#39;t a 3.9 feature - Tushar Chandra</title>
 
   
-  <link rel="alternate" type="application/rss+xml" href="/index.xml" title="Tushar Chandra" />
   
   <link rel="stylesheet" href="/css/styles.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
   <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
 
-  <meta property="og:title" content="Tushar Chandra" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="/" />
-<meta property="og:updated_time" content="2020-10-07T00:00:00+00:00" />
-<meta itemprop="name" content="Tushar Chandra">
-<meta itemprop="description" content=""><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Tushar Chandra"/>
-<meta name="twitter:description" content=""/>
+  <meta property="og:title" content="My favorite Python 3.9 feature isn&#39;t a 3.9 feature" />
+<meta property="og:description" content="Python 3.9 was released this week, and with it come a few incremental features. But my favorite feature isn&rsquo;t just in Python 3.9&mdash;it&rsquo;s usable in 3.7 and up." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/posts/python_39_generics.html" />
+<meta property="article:published_time" content="2020-10-07T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-10-07T00:00:00+00:00" />
+<meta itemprop="name" content="My favorite Python 3.9 feature isn&#39;t a 3.9 feature">
+<meta itemprop="description" content="Python 3.9 was released this week, and with it come a few incremental features. But my favorite feature isn&rsquo;t just in Python 3.9&mdash;it&rsquo;s usable in 3.7 and up.">
+<meta itemprop="datePublished" content="2020-10-07T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2020-10-07T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="274">
+
+
+
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="My favorite Python 3.9 feature isn&#39;t a 3.9 feature"/>
+<meta name="twitter:description" content="Python 3.9 was released this week, and with it come a few incremental features. But my favorite feature isn&rsquo;t just in Python 3.9&mdash;it&rsquo;s usable in 3.7 and up."/>
 </head>
 </head>
 
@@ -114,193 +123,64 @@
   <div class="container mx-auto max-w-8xl px-4 flex flex-row flex-grow">
     <div class="w-full md:w-3/4">
       
-
-<main role="main" class="md:container mx-auto">
-  <div class="pt-8">
-    <h1 class="text-3xl font-thin">Hi, I'm Tushar.</h1>
-    <span class="">
-      Thank you for visiting my website.
-      Here, I post my thoughts on data science and HCI; summaries of papers I've read and talks I've watched;
-      and reflections on other things that I read.
-    </span>
-
-    <div class="py-4">
-      <hr>
+<main class="main" role="main"><div class="content container mx-auto max-w-6xl">
+  <article id="-" class="" itemscope itemtype="http://schema.org/BlogPosting">
+    <div class="pt-4">
+      <span class="font-semibold text-3xl"><h1 itemprop="name">
+  <a class="" href="/posts/python_39_generics.html">My favorite Python 3.9 feature isn&#39;t a 3.9 feature</a>
+</h1>
+      </span>
+      <div class="pb-4"><i class="fas fa-calendar-check text-gray-500 pr-1"></i>
+<time datetime="2020-10-07 00:00:00 &#43;0000 UTC" class="text-sm text-gray-600"
+  itemprop="datePublished">2020-10-07</time>
+<span class="text-sm text-gray-600" itemprop="wordCount">
+	<i class="fas fa-pencil-alt text-gray-500 pl-4 pr-2"></i>274 words
+</span><i class="fas fa-folder-open text-gray-500 pl-4 pr-1"></i>
+<a class="text-sm text-gray-600" href=" /categories/general.html"> general, </a>
+      </div>
     </div>
+    <div class="rich-text" itemprop="articleBody">
+      <p>Python 3.9 was released this week, and with it come a few incremental features. But my favorite feature isn&rsquo;t just in Python 3.9&mdash;it&rsquo;s usable in 3.7 and up.</p>
+<h1 id="type-hinting-generics">Type hinting generics</h1>
+<p>If you&rsquo;re using type annotations in Python, you&rsquo;ve surely had to write <code>from typing import List</code> before. And you&rsquo;ve probably made the mistake of writing <code>def f(d: dict[str, int])</code> and getting a <code>TypeError</code>.</p>
+<p>No more! Starting in Python 3.9, the following code will all just work, thanks to <a href="https://www.python.org/dev/peps/pep-0585/">PEP 585</a>:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">f</span>(d: dict[str, int]):
+    <span style="color:#f92672">...</span>
 
-    <div class="">
-      
-      
-      <article class="" itemscope itemtype="http://schema.org/BlogPosting">
-        <div class="font-semibold text-xl">
-          <h1 itemprop="name">
-  <a class="" href="/what_i_read/20200215.html">What I read this week (February 9 - February 15)</a>
-</h1></div>
-        <p class=""><i class="fas fa-calendar-check text-gray-500 pr-1"></i>
-<time datetime="2020-02-15 00:00:00 &#43;0000 UTC" class="text-sm text-gray-600"
-  itemprop="datePublished">2020-02-15</time>
-<span class="text-sm text-gray-600" itemprop="wordCount">
-	<i class="fas fa-pencil-alt text-gray-500 pl-4 pr-2"></i>1583 words
-</span><i class="fas fa-folder-open text-gray-500 pl-4 pr-1"></i>
-<a class="text-sm text-gray-600" href=" /categories/what-i-read.html"> what I read, </a>
-        </p>
-        <div class="py-4" itemprop="description"><p>Articles I read this week, about procrastination, high-output management, technical research, and more.</p></div>
-        <div class="py-4">
-          <hr>
-        </div>
-      </article>
-      <article class="" itemscope itemtype="http://schema.org/BlogPosting">
-        <div class="font-semibold text-xl">
-          <h1 itemprop="name">
-  <a class="" href="/papers/ott_tracking_moghaddam.html">[Paper] Watching You Watch: The Tracking Ecosystem of Over-the-Top TV Streaming Devices</a>
-</h1></div>
-        <p class=""><i class="fas fa-calendar-check text-gray-500 pr-1"></i>
-<time datetime="2020-02-12 00:00:00 &#43;0000 UTC" class="text-sm text-gray-600"
-  itemprop="datePublished">2020-02-12</time>
-<span class="text-sm text-gray-600" itemprop="wordCount">
-	<i class="fas fa-pencil-alt text-gray-500 pl-4 pr-2"></i>739 words
-</span><i class="fas fa-folder-open text-gray-500 pl-4 pr-1"></i>
-<a class="text-sm text-gray-600" href=" /categories/papers.html"> papers, </a><span class="article-category text-sm text-gray-600 pl-4">
-  <i class="fa fa-users "></i>
-  Hooman Mohajeri Moghaddam, Gunes Acar, Ben Burgess, Arunesh Mathur, Danny Yuxing Huang, Nick Feamster, Edward W. Felten, Prateek Mittal, Arvind Narayanan
-</span>
-        </p>
-        <div class="py-4" itemprop="description"><p>This paper studies the tracking ecosystem of Roku and Amazon Fire devices, discovering that channels on both platforms regularly send their traffic to known trackers. They also note that they often transmit unique identifiers, and that known methods to protect privacy are largely ineffective.</p></div>
-        <div class="py-4">
-          <hr>
-        </div>
-      </article>
-      <article class="" itemscope itemtype="http://schema.org/BlogPosting">
-        <div class="font-semibold text-xl">
-          <h1 itemprop="name">
-  <a class="" href="/posts/cant_not_be_researcher.html">I love flying (or: I can&#39;t not be a researcher)</a>
-</h1></div>
-        <p class=""><i class="fas fa-calendar-check text-gray-500 pr-1"></i>
-<time datetime="2020-02-09 00:00:00 &#43;0000 UTC" class="text-sm text-gray-600"
-  itemprop="datePublished">2020-02-09</time>
-<span class="text-sm text-gray-600" itemprop="wordCount">
-	<i class="fas fa-pencil-alt text-gray-500 pl-4 pr-2"></i>568 words
-</span><i class="fas fa-folder-open text-gray-500 pl-4 pr-1"></i>
-<a class="text-sm text-gray-600" href=" /categories/general.html"> general, </a>
-        </p>
-        <div class="py-4" itemprop="description">I love flying. There&rsquo;s something about the act of being alone with my thoughts that forces introspection and self-awareness, and this post is about what I learned this time.</div>
-        <div class="py-4">
-          <hr>
-        </div>
-      </article>
-      <article class="" itemscope itemtype="http://schema.org/BlogPosting">
-        <div class="font-semibold text-xl">
-          <h1 itemprop="name">
-  <a class="" href="/what_i_read/20200208.html">What I read this week (February 2 - February 8)</a>
-</h1></div>
-        <p class=""><i class="fas fa-calendar-check text-gray-500 pr-1"></i>
-<time datetime="2020-02-08 00:00:00 &#43;0000 UTC" class="text-sm text-gray-600"
-  itemprop="datePublished">2020-02-08</time>
-<span class="text-sm text-gray-600" itemprop="wordCount">
-	<i class="fas fa-pencil-alt text-gray-500 pl-4 pr-2"></i>1401 words
-</span><i class="fas fa-folder-open text-gray-500 pl-4 pr-1"></i>
-<a class="text-sm text-gray-600" href=" /categories/what-i-read.html"> what I read, </a>
-        </p>
-        <div class="py-4" itemprop="description"><p>Articles I read this week, including privacy micro-networks, &ldquo;so-so AI,&rdquo; pieces on political modeling, and more.</p></div>
-        <div class="py-4">
-          <hr>
-        </div>
-      </article>
-      <article class="" itemscope itemtype="http://schema.org/BlogPosting">
-        <div class="font-semibold text-xl">
-          <h1 itemprop="name">
-  <a class="" href="/papers/facebook_advertising_field_study_gordon.html">[Paper] A Comparison of Approaches to Advertising Measurement: Evidence from Big Field Experiments at Facebook</a>
-</h1></div>
-        <p class=""><i class="fas fa-calendar-check text-gray-500 pr-1"></i>
-<time datetime="2020-02-07 00:00:00 &#43;0000 UTC" class="text-sm text-gray-600"
-  itemprop="datePublished">2020-02-07</time>
-<span class="text-sm text-gray-600" itemprop="wordCount">
-	<i class="fas fa-pencil-alt text-gray-500 pl-4 pr-2"></i>993 words
-</span><i class="fas fa-folder-open text-gray-500 pl-4 pr-1"></i>
-<a class="text-sm text-gray-600" href=" /categories/papers.html"> papers, </a><span class="article-category text-sm text-gray-600 pl-4">
-  <i class="fa fa-users "></i>
-  Brett Gordon, Florian Zettelmeyer, Neha Bhargava, Dan Chapsky
-</span>
-        </p>
-        <div class="py-4" itemprop="description"><p>In what is probably my last digital advertising paper for now, I read a paper out of Kellogg + Facebook studying the causal effects of digital advertising. This is the nail in the coffin of my belief that digital advertising is overhyped and overvalued, and that they do far less than anyone appears to believe.</p></div>
-        <div class="py-4">
-          <hr>
-        </div>
-      </article>
-      <article class="" itemscope itemtype="http://schema.org/BlogPosting">
-        <div class="font-semibold text-xl">
-          <h1 itemprop="name">
-  <a class="" href="/posts/iowa_caucus_disaster.html">A disaster in Iowa</a>
-</h1></div>
-        <p class=""><i class="fas fa-calendar-check text-gray-500 pr-1"></i>
-<time datetime="2020-02-05 00:00:00 &#43;0000 UTC" class="text-sm text-gray-600"
-  itemprop="datePublished">2020-02-05</time>
-<span class="text-sm text-gray-600" itemprop="wordCount">
-	<i class="fas fa-pencil-alt text-gray-500 pl-4 pr-2"></i>1176 words
-</span><i class="fas fa-folder-open text-gray-500 pl-4 pr-1"></i>
-<a class="text-sm text-gray-600" href=" /categories/general.html"> general, </a>
-        </p>
-        <div class="py-4" itemprop="description"><p>Like many on Monday, I left work eagerly awaiting the results of the Iowa caucuses happening one state west of me. I got home, cooked dinner, and opened up the <a href="https://fivethirtyeight.com/live-blog/iowa-caucus-2020-election-live/">FiveThirtyEight live blog</a> to start following election results. A couple of hours passed, and it became increasingly clear that something had gone very, very wrong.</p></div>
-        <div class="py-4">
-          <hr>
-        </div>
-      </article>
-      <article class="" itemscope itemtype="http://schema.org/BlogPosting">
-        <div class="font-semibold text-xl">
-          <h1 itemprop="name">
-  <a class="" href="/what_i_read/20200205.html">Three article summaries (on grad school advice)</a>
-</h1></div>
-        <p class=""><i class="fas fa-calendar-check text-gray-500 pr-1"></i>
-<time datetime="2020-02-04 00:00:00 &#43;0000 UTC" class="text-sm text-gray-600"
-  itemprop="datePublished">2020-02-04</time>
-<span class="text-sm text-gray-600" itemprop="wordCount">
-	<i class="fas fa-pencil-alt text-gray-500 pl-4 pr-2"></i>848 words
-</span><i class="fas fa-folder-open text-gray-500 pl-4 pr-1"></i>
-<a class="text-sm text-gray-600" href=" /categories/what-i-read.html"> what I read, </a>
-        </p>
-        <div class="py-4" itemprop="description"><p>Three article summaries, which I&rsquo;m breaking out from my usual &ldquo;what I read&rdquo; posts because of the common theme (of CS research &amp; grad school) that connects them.</p></div>
-        <div class="py-4">
-          <hr>
-        </div>
-      </article>
-      <article class="" itemscope itemtype="http://schema.org/BlogPosting">
-        <div class="font-semibold text-xl">
-          <h1 itemprop="name">
-  <a class="" href="/what_i_read/20200201.html">What I read this week (January 26 - February 1)</a>
-</h1></div>
-        <p class=""><i class="fas fa-calendar-check text-gray-500 pr-1"></i>
-<time datetime="2020-02-01 00:00:00 &#43;0000 UTC" class="text-sm text-gray-600"
-  itemprop="datePublished">2020-02-01</time>
-<span class="text-sm text-gray-600" itemprop="wordCount">
-	<i class="fas fa-pencil-alt text-gray-500 pl-4 pr-2"></i>1157 words
-</span><i class="fas fa-folder-open text-gray-500 pl-4 pr-1"></i>
-<a class="text-sm text-gray-600" href=" /categories/what-i-read.html"> what I read, </a>
-        </p>
-        <div class="py-4" itemprop="description"><p>Articles I read this week, including about Python 3.9, regulation of tech companies, and a host of short articles.</p></div>
-        <div class="py-4">
-          <hr>
-        </div>
-      </article></div>
-    
-<nav class="" data-stick-bottom>
-  <div class="">
-    <ul class=""><li class="inline-block">
-        <a href="/page/18.html">
-          <i class="fas fa-angle-left text-gray-800 text-xl"></i>
-          
-        </a>
-      </li><li class="inline-block px-4">
-        Page 19 / 26
-      </li><li class="inline-block">
-        <a href="/page/20.html">
-          <i class="fas fa-angle-right text-gray-800 text-xl"></i>
-          
-        </a>
-      </li>
-    </ul>
-  </div>
+x: list[int] <span style="color:#f92672">=</span> <span style="color:#f92672">...</span>
+y: tuple[int, int] <span style="color:#f92672">=</span> <span style="color:#f92672">...</span>
+</code></pre></div><p>No more annoying imports from <code>typing</code>! No more (totally understandable) questions from beginners about the difference between <code>list</code> and <code>List</code>.</p>
+<p>To be clear, I understand why the <code>typing</code> module was designed this way. Adding <code>List</code> in typing made type hinting compatible with previous versions of Python. And more generally, the design of annotations and type hinting were constrained by not wanting to change the core language without knowing how the feature would be received.</p>
+<p>With all this said &hellip; it was still annoying. 🙂</p>
+<h2 id="enter-__future__"><a class="not-rich" href="#enter-__future__"><i class="fas fa-link"></i></a> Enter: <code>__future__</code></h2>
+<p>Despite this great addition, I&rsquo;m not going to be using Python 3.9 yet. Maybe for a new project, but I don&rsquo;t have any planned. And we certainly won&rsquo;t be upgrading our codebase at work for a while.</p>
+<p>My favorite part of Python 3.9, though, is that this is <strong>available from 3.7 onwards</strong>. This is all thanks to <code>__future__</code>.</p>
+<p>Last week, this code failed on 3.7:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">f</span>(x: list[int]):
+    <span style="color:#66d9ef">return</span> sum(x)
+
+f([<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">3</span>])
+</code></pre></div><p>But today, adding a <code>from __future__ import annotations</code> at the top, it works perfectly fine.</p>
+<p>Goodbye, <code>from typing import List</code>!</p>
+
+      <p><i class="fas fa-square font-green-800"></i></p>
+    </div>
+    <div class="font-semibold text-green-800 pt-4">
+      <a href="/"><i class="fas fa-arrow-left"></i> Return home</a>
+    </div>
+  </article>
+</div><nav class="bar bar-footer clearfix" data-stick-bottom>
+    <div class="bar-inner">
+        <ul class="pager pull-left">
+            <li class="prev">
+                <a href="/papers/data_strikes_vincent.html" title="[Paper] &#39;Data Strikes&#39;: Evaluating the Effectiveness of a New Form of Collective Action Against Technology Companies"><i
+                        class="icon icon-angle-left"
+                        aria-hidden="true"></i><span>&nbsp;&nbsp;</span></a>
+            </li>
+        </ul>
+    </div>
 </nav>
-  </div>
+
 </main>
     </div>
     <div class="hidden w-0 md:block md:w-1/4 md:pt-8 md:pl-12"><aside class="" itemscope itemtype="http://schema.org/WPSideBar">

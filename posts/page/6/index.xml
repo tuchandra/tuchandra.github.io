@@ -6,10 +6,19 @@
     <description>Recent content on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 17 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Paper] Celebrating Everyday Success: Improving Engagement and Motivation using a System for Recording Daily Highlights</title>
+      <link>/papers/celebrating_everyday_success_avrahami.html</link>
+      <pubDate>Sat, 02 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/celebrating_everyday_success_avrahami.html</guid>
+      <description>&lt;p&gt;Recognizing your own successes is important for cultivating a positive outlook and sense of purpose. Modern work environments often do not offer this, with the idea of there always being more to do standing in the way of reflection that celebrates progress. &lt;em&gt;Highlight Matome&lt;/em&gt; is a personal online tool for workers to quickly record short, daily highlights with the goal of improving their inner work life.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>What I read this week (April 26 - May 2)</title>
@@ -180,15 +189,6 @@
       
       <guid>/papers/decentralized_proximity_tracing.html</guid>
       <description>&lt;p&gt;This is a summary of a proposal for a &amp;ldquo;secure and privacy-preserving decentralized proximity tracing system,&amp;rdquo; aiming to help combat COVID-19 while placing individual privacy at high priority. View the proposal on &lt;a href=&#34;https://github.com/DP-3T/documents&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>What I read this week (March 29 - April 4)</title>
-      <link>/what_i_read/20200404.html</link>
-      <pubDate>Sat, 04 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/what_i_read/20200404.html</guid>
-      <description>&lt;p&gt;This week&amp;rsquo;s reading was short. It includes a technical deep dive into some zero-day Safari exploits, FiveThirtyEight on why it&amp;rsquo;s hard to build a good COVID-19 model, and reflections on the lockdown.&lt;/p&gt;</description>
     </item>
     
   </channel>
