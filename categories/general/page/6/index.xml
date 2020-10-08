@@ -6,10 +6,19 @@
     <description>Recent content in general on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 07 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/categories/general/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Paper] Re-Shape: A Method to Teach Data Ethics for Data Science Education</title>
+      <link>/papers/reshape_data_ethics_shapiro.html</link>
+      <pubDate>Sun, 03 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/reshape_data_ethics_shapiro.html</guid>
+      <description>&lt;p&gt;Imagine that a week of your personal location data were made public. What would strangers be able to learn about you? The authors use this question to motivate Re-Shape, a method for teaching students about the ethics of data collection and use, building on the feminist idea of &amp;ldquo;cultivating care.&amp;rdquo;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>[Paper] Celebrating Everyday Success: Improving Engagement and Motivation using a System for Recording Daily Highlights</title>
@@ -180,15 +189,6 @@
       
       <guid>/posts/remote_work_productivity.html</guid>
       <description>&lt;p&gt;It took a month of remote work for me to fully abandon the expectation that I should be as productive as usual during this time. This post reflects on why.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] Decentralized Privacy-Preserving Proximity Tracing</title>
-      <link>/papers/decentralized_proximity_tracing.html</link>
-      <pubDate>Wed, 08 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/papers/decentralized_proximity_tracing.html</guid>
-      <description>&lt;p&gt;This is a summary of a proposal for a &amp;ldquo;secure and privacy-preserving decentralized proximity tracing system,&amp;rdquo; aiming to help combat COVID-19 while placing individual privacy at high priority. View the proposal on &lt;a href=&#34;https://github.com/DP-3T/documents&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
   </channel>

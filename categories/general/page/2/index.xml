@@ -6,10 +6,19 @@
     <description>Recent content in general on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 07 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/categories/general/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>What I read this week (August 30 - September 5)</title>
+      <link>/what_i_read/20200905.html</link>
+      <pubDate>Sat, 05 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/what_i_read/20200905.html</guid>
+      <description>&lt;p&gt;This week&amp;rsquo;s reading includes articles on imposter syndrome, career lessons, and writing more.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>[Paper] WES: Agent-based User Interaction Simulation on Real Infrastructure</title>
@@ -180,15 +189,6 @@
       
       <guid>/what_i_read/20200801.html</guid>
       <description>&lt;p&gt;This week&amp;rsquo;s articles include &amp;ldquo;Create space for others&amp;rdquo; by Will Larson, &amp;ldquo;What does sponsorship look like?&amp;rdquo; by Lara Hogan, and &amp;ldquo;Be Impatient&amp;rdquo; by Ben Kuhn.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] Generative Models for Effective ML on Private, Decentralized Datasets</title>
-      <link>/papers/generative_models_augenstein.html</link>
-      <pubDate>Wed, 29 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/papers/generative_models_augenstein.html</guid>
-      <description>&lt;p&gt;How do you build and debug machine learning models when you don&amp;rsquo;t have access to the raw data? Maybe it&amp;rsquo;s sensitive information, or that it&amp;rsquo;s stored on user devices. This Google paper from ICLR 2020 proposes using &lt;em&gt;generative models&lt;/em&gt; as a privacy-preserving stand-in for user data.&lt;/p&gt;</description>
     </item>
     
   </channel>

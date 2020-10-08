@@ -6,10 +6,19 @@
     <description>Recent content on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 07 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Paper] Decentralized Privacy-Preserving Proximity Tracing</title>
+      <link>/papers/decentralized_proximity_tracing.html</link>
+      <pubDate>Wed, 08 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/decentralized_proximity_tracing.html</guid>
+      <description>&lt;p&gt;This is a summary of a proposal for a &amp;ldquo;secure and privacy-preserving decentralized proximity tracing system,&amp;rdquo; aiming to help combat COVID-19 while placing individual privacy at high priority. View the proposal on &lt;a href=&#34;https://github.com/DP-3T/documents&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>What I read this week (March 29 - April 4)</title>
@@ -180,15 +189,6 @@
       
       <guid>/posts/openai_unease.html</guid>
       <description>&lt;p&gt;Early last week, an article was posted at the MIT Technology Review: &lt;a href=&#34;https://www.technologyreview.com/s/615181/ai-openai-moonshot-elon-musk-sam-altman-greg-brockman-messy-secretive-reality/&#34;&gt;the messy, secretive reality behind OpenAI&amp;rsquo;s bid to save the world&lt;/a&gt; by Karen Hao. As well-written as it is long, I started thinking about what OpenAI stands for and why it makes me increasingly uneasy.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Section 230, the internet, and neutrality</title>
-      <link>/posts/section_230_and_neutrality.html</link>
-      <pubDate>Mon, 24 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/section_230_and_neutrality.html</guid>
-      <description>&lt;p&gt;Section 230 of the Communications Decency Act, which protects publishers of third-party content, is the foundation of the modern internet. Recent debate has focused on algorithmic curation and content moderation, but this misses the heart of the issue.&lt;/p&gt;</description>
     </item>
     
   </channel>
