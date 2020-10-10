@@ -11,6 +11,15 @@
     
     
     <item>
+      <title>Materials for my PyMCon talk</title>
+      <link>/posts/pymcon_talk.html</link>
+      <pubDate>Sat, 10 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/pymcon_talk.html</guid>
+      <description>&lt;p&gt;This post contains materials for my PyMCon talk, &lt;em&gt;Learning Bayesian Statistics with Pokemon GO&lt;/em&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Resources to learn about Bayesian inference</title>
       <link>/posts/bayesian_resources.html</link>
       <pubDate>Thu, 08 Oct 2020 00:00:00 +0000</pubDate>
@@ -179,15 +188,6 @@
       
       <guid>/books/republic_2.html</guid>
       <description>&lt;p&gt;How is the internet changing shared experiences? What happens when people are walled off from each other more than they were before? This post explores how the internet is contributing to fewer shared experiences, and how this can occasionally be in conflict with democratic ideals.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>#republic: early thoughts</title>
-      <link>/books/republic_1.html</link>
-      <pubDate>Sun, 06 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/books/republic_1.html</guid>
-      <description>&lt;p&gt;What does democracy look like in the age of social media? How do we reimagine public spaces for the digital era? What kinds of groups should the internet promote? These are questions posed by Cass Sunstein&amp;rsquo;s book &lt;em&gt;#republic.&lt;/em&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>
