@@ -6,7 +6,7 @@
     <description>Recent content on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 03 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 10 Oct 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/what_i_read/index.xml" rel="self" type="application/rss+xml" />
     
@@ -27,6 +27,15 @@
       
       <guid>/posts/pymcon_talk.html</guid>
       <description>&lt;p&gt;This post contains materials for my PyMCon talk, &lt;em&gt;Learning Bayesian Statistics with Pokemon GO&lt;/em&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>What I read this week (October 4 - 10)</title>
+      <link>/what_i_read/20201010.html</link>
+      <pubDate>Sat, 10 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/what_i_read/20201010.html</guid>
+      <description>&lt;p&gt;This week&amp;rsquo;s reading: why finishing a personal project is hard, a GPT-3 bot posing as a human, more findings from Cambridge Analytica, and an interview with Safiya Noble.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -180,15 +189,6 @@
       
       <guid>/books/republic_4.html</guid>
       <description>&lt;p&gt;Towards the end of &lt;em&gt;#republic&lt;/em&gt;, we study speech and its regulation by government. What are reasonable limits that a government might pose on speech? How might these change in the digital era?&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Consumers and citzens</title>
-      <link>/books/republic_3.html</link>
-      <pubDate>Tue, 08 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/books/republic_3.html</guid>
-      <description>&lt;p&gt;One of the recurring themes in Sunstein&amp;rsquo;s book is on the conflict between consumer sovereignty and political sovereignty. The roles of citizen and consumer are different, and we each play both. This post explores this idea a little bit.&lt;/p&gt;</description>
     </item>
     
   </channel>

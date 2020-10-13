@@ -64,6 +64,12 @@
   </url>
   
   <url>
+    <loc>/what_i_read.html</loc>
+    <lastmod>2020-10-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/categories/general.html</loc>
     <lastmod>2020-10-10T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -72,6 +78,20 @@
   
   <url>
     <loc>/posts/pymcon_talk.html</loc>
+    <lastmod>2020-10-10T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/what-i-read.html</loc>
+    <lastmod>2020-10-10T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/what_i_read/20201010.html</loc>
     <lastmod>2020-10-10T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -101,19 +121,6 @@
   <url>
     <loc>/tags/www.html</loc>
     <lastmod>2020-10-06T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/what_i_read.html</loc>
-    <lastmod>2020-10-03T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/what-i-read.html</loc>
-    <lastmod>2020-10-03T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
