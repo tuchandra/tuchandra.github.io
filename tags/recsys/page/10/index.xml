@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>recsys on Tushar Chandra</title>
+    <link>/tags/recsys.html</link>
+    <description>Recent content in recsys on Tushar Chandra</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 13 Oct 2020 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="/tags/recsys/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Features I would like to add to my SSG</title>
+      <link>/posts/features_for_site.html</link>
+      <pubDate>Mon, 09 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/features_for_site.html</guid>
+      <description>&lt;p&gt;I &lt;a href=&#34;https://tusharc.dev/site/about_website.html&#34;&gt;wrote&lt;/a&gt; about my SSG and how I built this website back in April. Over time, I&amp;rsquo;ve started to realize that some of the features I stripped out may actually be useful. This post is a wishlist of features that I would like to add over time.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>What I read this week (December 1 - 7)</title>
+      <link>/what_i_read/20191207.html</link>
+      <pubDate>Sat, 07 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/what_i_read/20191207.html</guid>
+      <description>&lt;p&gt;I am considering posting regularly about other things I&amp;rsquo;m reading, particularly blog posts and articles. But these rarely warrant their own standalone post (a blog post about someone else&amp;rsquo;s blog post?), so I&amp;rsquo;ll write a couple paragraphs about interesting articles I find.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>I don&#39;t know if that&#39;ll work, but go ahead and try it</title>
+      <link>/posts/effective_hunches.html</link>
+      <pubDate>Fri, 06 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/effective_hunches.html</guid>
+      <description>&lt;p&gt;This post is about some memorable words from good managers.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Data Indicators for Equity: Flash in the Pan or Mobilizing Force?</title>
+      <link>/posts/talk_equity_indicators.html</link>
+      <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/talk_equity_indicators.html</guid>
+      <description>&lt;p&gt;These are notes from a &lt;a href=&#34;https://www.meetup.com/ChicagoCityData/events/266787601/&#34;&gt;tech talk&lt;/a&gt; that I went to on December 4th. The talk was by &lt;strong&gt;Dan Cooper&lt;/strong&gt;, the Director of Research @ the &lt;a href=&#34;https://metroplanning.org&#34;&gt;Metropolitan Planning Council&lt;/a&gt;. It was hosted by the Chicago City Data Users Group.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[Paper] Who is the &#39;Human&#39; in Human-Centered Machine Learning: The Case of Predicting Mental Health from Social Media</title>
+      <link>/papers/who_is_human_chancellor.html</link>
+      <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/who_is_human_chancellor.html</guid>
+      <description>&lt;p&gt;What does &amp;ldquo;human-centered machine learning&amp;rdquo; even mean? Who are the &amp;ldquo;humans&amp;rdquo; being studied, and how do papers studying them refer to them? This paper studies the &lt;em&gt;discourse&lt;/em&gt; surrounding humans within HCML.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Why all the paper summaries?</title>
+      <link>/posts/why_papers.html</link>
+      <pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/why_papers.html</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve been writing a bunch of paper summaries over the past couple of weeks, and I hope to continue this for several months. Why, though? This post will clear that up.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[Paper] Bayesian Multilevel Estimation with Poststratification: State-Level Estimates from National Polls</title>
+      <link>/papers/bayesian_multilevel_estimation_gelman.html</link>
+      <pubDate>Tue, 26 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/bayesian_multilevel_estimation_gelman.html</guid>
+      <description>&lt;p&gt;This is a summary of the seminal paper by David K. Park, Andrew Gelman, and Joseph Bafumi. View the original on &lt;a href=&#34;http://www.stat.columbia.edu/~gelman/research/published/parkgelmanbafumi.pdf&#34;&gt;Gelman&amp;rsquo;s website&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[Paper] A Taxonomy of Ethical Tensions in Inferring Mental Health States from Social Media (part 2/2)</title>
+      <link>/papers/ethical_tensions_social_media_chancellor_2.html</link>
+      <pubDate>Mon, 25 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/ethical_tensions_social_media_chancellor_2.html</guid>
+      <description>&lt;p&gt;Part 2/2 of the FAT* 2019 paper by Dr. Chancellor et al., studying all the various ethical tensions with inferring mental health states from social media. This post focuses on the calls to action and my reflections. View part 1 of the summary &lt;a href=&#34;/papers/ethical_tensions_social_media_chancellor_1.html&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[Paper] A Taxonomy of Ethical Tensions in Inferring Mental Health States from Social Media (part 1/2)</title>
+      <link>/papers/ethical_tensions_social_media_chancellor_1.html</link>
+      <pubDate>Sun, 24 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/ethical_tensions_social_media_chancellor_1.html</guid>
+      <description>&lt;p&gt;Research shows that it&amp;rsquo;s possible to infer individuals&amp;rsquo; mental health status from social media. While this has great potential for good, it also has great potential for misuse. So much, in fact, that this FAT* 2019 paper creates a taxonomy of all the different ethical tensions with this! This is part 1 of 2.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>On the digital ad industry</title>
+      <link>/posts/digital_advertising.html</link>
+      <pubDate>Thu, 21 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/digital_advertising.html</guid>
+      <description>&lt;p&gt;I recently read a fantastic article on The Correspondent about digital advertising, called &lt;a href=&#34;https://thecorrespondent.com/100/the-new-dot-com-bubble-is-here-its-called-online-advertising/13228924500-22d5fd24&#34;&gt;The new dot com bubble is here: it’s called online advertising&lt;/a&gt;. This post summarizes my thoughts.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[Paper] A Bayesian Cognition Approach to Improve Data Visualization</title>
+      <link>/papers/bayesian_cognition_viz_kim.html</link>
+      <pubDate>Wed, 20 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/bayesian_cognition_viz_kim.html</guid>
+      <description>&lt;p&gt;Data visualization is common for communicating information, but how do people interpret visualizations? How do they reconicle information presented to them with their prior beliefs? The authors study a Bayesian cognition approach in this CHI 2019 paper.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[Paper] Model Cards for Model Reporting</title>
+      <link>/papers/model_cards_mitchell.html</link>
+      <pubDate>Sun, 17 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/model_cards_mitchell.html</guid>
+      <description>&lt;p&gt;What kinds of documentation should exist for machine learning models? This paper proposes one idea called &amp;ldquo;model cards&amp;rdquo; for reporting models&amp;rsquo; performance, limitations, expected usage, and more, with a goal of minimizing their misuse.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Using papermill to wrap model runs</title>
+      <link>/posts/papermill_experiences.html</link>
+      <pubDate>Fri, 15 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/papermill_experiences.html</guid>
+      <description>&lt;p&gt;I recently started using &lt;a href=&#34;https://github.com/nteract/papermill/&#34;&gt;papermill&lt;/a&gt; from nteract to parameterize model runs. I&amp;rsquo;ve started to like it a lot, and this post will discuss my experiences with it and my current setup.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[Paper] The Curse of Knowledge in Visual Data Communication</title>
+      <link>/papers/curse_of_knowledge_xiong.html</link>
+      <pubDate>Wed, 13 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/curse_of_knowledge_xiong.html</guid>
+      <description>&lt;p&gt;This is the first of (hopefully!) many paper reviews I&amp;rsquo;ll be writing on this blog. Inspired by &lt;a href=&#34;https://blog.acolyer.org/about/&#34;&gt;The Morning Paper&lt;/a&gt;, my goal is to read a lot of papers over the next several months (and longer). This one is a psychology paper by Cindy Xiong, Lisanne van Weelden, and Steven Franconeri. View it on the &lt;a href=&#34;http://visualthinking.psych.northwestern.edu/VisualizationCurse2017/Xiong,%20van%20Weelden%20&amp;amp;%20Franconeri%20InfoVis%202017%20.pdf&#34;&gt;Northwestern Psychology department&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Why I&#39;m interested in HCI</title>
+      <link>/posts/hci_directions.html</link>
+      <pubDate>Mon, 28 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/hci_directions.html</guid>
+      <description>&lt;p&gt;A couple nights ago, I was at a bar talking to a grad student friend and we started having a conversation about HCI and research interests. This post captures some of my thoughts after reflecting for a couple of days.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Netflix and Polynote: first thoughts</title>
+      <link>/posts/polynote_netflix.html</link>
+      <pubDate>Thu, 24 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/polynote_netflix.html</guid>
+      <description>&lt;p&gt;Netflix &lt;a href=&#34;https://medium.com/netflix-techblog/open-sourcing-polynote-an-ide-inspired-polyglot-notebook-7f929d3f447&#34;&gt;announced yesterday&lt;/a&gt; that they are open-sourcing Polynote, a new notebook with features like Spark integration, as-you-type autocomplete, and more. At a glance, it seems to address almost every common complaint with notebooks. How much of that is too good to be true?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Statistical nuance &amp; the importance of uncertainty</title>
+      <link>/posts/statistical_nuance.html</link>
+      <pubDate>Thu, 17 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/statistical_nuance.html</guid>
+      <description>&lt;p&gt;In &lt;a href=&#34;silph.md&#34;&gt;my last post&lt;/a&gt;, I re-analyzed shiny rates from The Silph Road and came to the conclusion that their proposed shiny rates were inconsistent with their own data. This post explores how that happened and what we can do to avoid it in the future.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Pokemon GO shiny rates: a Bayesian perspective</title>
+      <link>/posts/silph.html</link>
+      <pubDate>Wed, 16 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/silph.html</guid>
+      <description>pre::before { display: none; } pre::after { display: none; }    analysis   /*! * * Twitter Bootstrap * */ /*! * Bootstrap v3.3.7 (http://getbootstrap.com) * Copyright 2011-2016 Twitter, Inc. * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE) */ /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */ html { font-family: sans-serif; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; } body { margin: 0; } article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary { display: block; } audio, canvas, progress, video { display: inline-block; vertical-align: baseline; } audio:not([controls]) { display: none; height: 0; } [hidden], template { display: none; } a { background-color: transparent; } a:active, a:hover { outline: 0; } abbr[title] { border-bottom: 1px dotted; } b, strong { font-weight: bold; } dfn { font-style: italic; } h1 { font-size: 2em; margin: 0.</description>
+    </item>
+    
+    <item>
+      <title>Resume</title>
+      <link>/resume/</link>
+      <pubDate>Mon, 20 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/resume/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m currently a senior data scientist at Nielsen. I did my master&amp;rsquo;s in computer science and undergrad in computer science and the &lt;a href=&#34;https://www.isp.northwestern.edu/&#34;&gt;Integrated Science Program&lt;/a&gt;, both at Northwestern (go &amp;lsquo;cats!). My email address is me@(this domain).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Spark &#43; AI Summit 2019 Notes</title>
+      <link>/spark/spark_overview.html</link>
+      <pubDate>Tue, 30 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/spark/spark_overview.html</guid>
+      <description>&lt;p&gt;I was fortunate enough to attend &lt;a href=&#34;https://databricks.com/sparkaisummit/north-america&#34;&gt;Spark + AI Summit&lt;/a&gt; in San Francisco in April 2019. This page contains links to all my notes from the talks I listened to.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -6,10 +6,19 @@
     <description>Recent content in reading club on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 06 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/tags/reading-club/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Paper] Deconstructing the Filter Bubble: User Decision-Making and Recommender Systems</title>
+      <link>/papers/deconstructing_filter_bubble_aridor.html</link>
+      <pubDate>Tue, 13 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/deconstructing_filter_bubble_aridor.html</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Materials for my PyMCon talk</title>
@@ -180,15 +189,6 @@
       
       <guid>/books/republic_3.html</guid>
       <description>&lt;p&gt;One of the recurring themes in Sunstein&amp;rsquo;s book is on the conflict between consumer sovereignty and political sovereignty. The roles of citizen and consumer are different, and we each play both. This post explores this idea a little bit.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Shared experiences and information</title>
-      <link>/books/republic_2.html</link>
-      <pubDate>Mon, 07 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/books/republic_2.html</guid>
-      <description>&lt;p&gt;How is the internet changing shared experiences? What happens when people are walled off from each other more than they were before? This post explores how the internet is contributing to fewer shared experiences, and how this can occasionally be in conflict with democratic ideals.&lt;/p&gt;</description>
     </item>
     
   </channel>
