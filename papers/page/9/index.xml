@@ -6,10 +6,19 @@
     <description>Recent content on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 13 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/papers/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>What I read this week (January 19 - 25)</title>
+      <link>/what_i_read/20200125.html</link>
+      <pubDate>Sat, 25 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/what_i_read/20200125.html</guid>
+      <description>&lt;p&gt;Articles I read this week, including &amp;ldquo;data science is different now&amp;rdquo; and a Washington Post editorial about regulating AI.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Comparing my old and new sites, part 2</title>
@@ -181,15 +190,6 @@
       
       <guid>/papers/introspection_echo_chamber_gillani.html</guid>
       <description>&lt;p&gt;It&amp;rsquo;s well-known that &amp;ldquo;echo chambers&amp;rdquo; exist online, but to what extent are people aware of them? This paper studies that question by introducing an application to visualize how politically active and polarized users&amp;rsquo; Twitter networks are.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>What I read this week (December 8 - 14)</title>
-      <link>/what_i_read/20191214.html</link>
-      <pubDate>Sat, 14 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/what_i_read/20191214.html</guid>
-      <description>&lt;p&gt;Similar to last week, here are summaries of blog posts, articles, or news that I read this week.&lt;/p&gt;</description>
     </item>
     
   </channel>

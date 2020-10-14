@@ -5,7 +5,7 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <title>
-    Normalcy during coronavirus - Tushar Chandra
+    [Paper] Evaluating the fake news problem at the scale of the information ecosystem - Tushar Chandra
     </title>
   <head>
   <meta charset="utf-8">
@@ -20,10 +20,10 @@
   <meta name="format-detection" content="telephone=no,email=no,adress=no">
   
   <meta name="theme-color" content="#000000" />
-  <meta http-equiv="window-target" content="_top" /><meta name="description" content="Yesterday marked two weeks of fully remote work; my first day at home was Thursday, March 12th. This post reflects on my experience.
+  <meta http-equiv="window-target" content="_top" /><meta name="description" content="What is the role of fake news in the overall media ecosystem? Conventional wisdom might say it&amp;rsquo;s significant, but this paper provides evidence for the opposite. Using datasets of cross-platform media viewing, the authors find that fake news represents a small proportion of overall media consumption.
 " />
   <meta name="generator" content="Hugo 0.70.0" />
-  <title>Normalcy during coronavirus - Tushar Chandra</title>
+  <title>[Paper] Evaluating the fake news problem at the scale of the information ecosystem - Tushar Chandra</title>
 
   
   
@@ -32,23 +32,29 @@
   <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
 
-  <meta property="og:title" content="Normalcy during coronavirus" />
-<meta property="og:description" content="Yesterday marked two weeks of fully remote work; my first day at home was Thursday, March 12th. This post reflects on my experience." />
+  <meta property="og:title" content="[Paper] Evaluating the fake news problem at the scale of the information ecosystem" />
+<meta property="og:description" content="What is the role of fake news in the overall media ecosystem?
+Conventional wisdom might say it&rsquo;s significant, but this paper provides evidence for the opposite.
+Using datasets of cross-platform media viewing, the authors find that fake news represents a small proportion of overall media consumption." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/posts/normalcy_during_coronavirus.html" />
-<meta property="article:published_time" content="2020-03-27T00:00:00+00:00" />
-<meta property="article:modified_time" content="2020-03-27T00:00:00+00:00" />
-<meta itemprop="name" content="Normalcy during coronavirus">
-<meta itemprop="description" content="Yesterday marked two weeks of fully remote work; my first day at home was Thursday, March 12th. This post reflects on my experience.">
-<meta itemprop="datePublished" content="2020-03-27T00:00:00&#43;00:00" />
-<meta itemprop="dateModified" content="2020-03-27T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="1268">
+<meta property="og:url" content="/papers/fake_news_information_ecosystem_watts.html" />
+<meta property="article:published_time" content="2020-10-14T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-10-14T00:00:00+00:00" />
+<meta itemprop="name" content="[Paper] Evaluating the fake news problem at the scale of the information ecosystem">
+<meta itemprop="description" content="What is the role of fake news in the overall media ecosystem?
+Conventional wisdom might say it&rsquo;s significant, but this paper provides evidence for the opposite.
+Using datasets of cross-platform media viewing, the authors find that fake news represents a small proportion of overall media consumption.">
+<meta itemprop="datePublished" content="2020-10-14T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2020-10-14T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="982">
 
 
 
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Normalcy during coronavirus"/>
-<meta name="twitter:description" content="Yesterday marked two weeks of fully remote work; my first day at home was Thursday, March 12th. This post reflects on my experience."/>
+<meta name="twitter:title" content="[Paper] Evaluating the fake news problem at the scale of the information ecosystem"/>
+<meta name="twitter:description" content="What is the role of fake news in the overall media ecosystem?
+Conventional wisdom might say it&rsquo;s significant, but this paper provides evidence for the opposite.
+Using datasets of cross-platform media viewing, the authors find that fake news represents a small proportion of overall media consumption."/>
 </head>
 </head>
 
@@ -127,53 +133,82 @@
   <article id="-" class="" itemscope itemtype="http://schema.org/BlogPosting">
     <div class="pt-4">
       <span class="font-semibold text-3xl"><h1 itemprop="name">
-  <a class="" href="/posts/normalcy_during_coronavirus.html">Normalcy during coronavirus</a>
+  <a class="" href="/papers/fake_news_information_ecosystem_watts.html">[Paper] Evaluating the fake news problem at the scale of the information ecosystem</a>
 </h1>
       </span>
       <div class="pb-4"><i class="fas fa-calendar-check text-gray-500 pr-1"></i>
-<time datetime="2020-03-27 00:00:00 &#43;0000 UTC" class="text-sm text-gray-600"
-  itemprop="datePublished">2020-03-27</time>
+<time datetime="2020-10-14 00:00:00 &#43;0000 UTC" class="text-sm text-gray-600"
+  itemprop="datePublished">2020-10-14</time>
 <span class="text-sm text-gray-600" itemprop="wordCount">
-	<i class="fas fa-pencil-alt text-gray-500 pl-4 pr-2"></i>1268 words
+	<i class="fas fa-pencil-alt text-gray-500 pl-4 pr-2"></i>982 words
 </span><i class="fas fa-folder-open text-gray-500 pl-4 pr-1"></i>
-<a class="text-sm text-gray-600" href=" /categories/general.html"> general, </a>
+<a class="text-sm text-gray-600" href=" /categories/papers.html"> papers, </a><span class="article-category text-sm text-gray-600 pl-4">
+  <i class="fa fa-users "></i>
+  Jennifer Allen, Baird Howland, Markus Mobius, David Rothschild, Duncan Watts
+</span>
       </div>
     </div>
     <div class="rich-text" itemprop="articleBody">
-      <p>Yesterday marked two weeks of fully remote work; my first day at home was Thursday, March 12th. This post reflects on my experience.</p>
-<p>I am, first of all, thankful that I am able to hole up and stay home during this pandemic. My sense of normalcy will be very different from that of a healthcare worker or even a grocery store employee, who likely have none. I am grateful for this. I <em>do</em> understand how privileged I am to even be able to write this, in the evening after being done with work.</p>
-<h2 id="how-i-feel"><a class="not-rich" href="#how-i-feel"><i class="fas fa-link"></i></a> How I feel</h2>
-<p>Day to day, I&rsquo;m in this weird twilight zone where life is happening in the absence of all the things that make it normal. Spring will hit Chicago soon, but some of the best parts of being outside <a href="https://www.chicagotribune.com/coronavirus/ct-coronavirus-chicago-lakefront-parks-closed-20200326-zdqpr2p3vfhqdoucu4hqcrtepa-story.html">are closed</a>. All the restaurants I wanted to try are closed indefinitely. The people I wanted to see are self-isolating (thankfully, but still).</p>
-<p>It feels like (what I imagine to be) some kind of war, where those of us who are lucky enough to stay in our homes do so, avoiding whatever it is that awaits us outside.</p>
-<p>It feels like there&rsquo;s so little to look forward to: because of how <a href="https://www.imperial.ac.uk/news/196496/coronavirus-pandemic-could-have-caused-40/">bleak the outlook is</a>, how <a href="https://foreignpolicy.com/2020/03/25/coronavirus-worst-intelligence-failure-us-history-covid-19/">incompetent US leadership is</a>, how <a href="https://www.nytimes.com/interactive/2020/03/25/opinion/coronavirus-trump-reopen-america.html">halfhearted our containment strategies are</a>, and far more. Staying positive in the face of news that gets worse every day is challenging.</p>
-<p>It feels like nothing I&rsquo;ve ever experienced before. A lifetime of remote work couldn&rsquo;t have prepared me for remote work <em>during a global pandemic.</em> Years of <a href="https://xkcd.com/2276/">(jokingly) self-isolating</a> don&rsquo;t help when you&rsquo;re staring down potential months of it.</p>
-<h2 id="working-remotely"><a class="not-rich" href="#working-remotely"><i class="fas fa-link"></i></a> Working remotely</h2>
-<p>Nielsen has always been remote-friendly. I&rsquo;ve worked from home every Friday for months, and sporadically whenever I wanted prior to that. We have hundreds of employees who work from home over 90% of the time. I haven&rsquo;t had a team member in my office for over a year. In many ways, the mechanics of my day-to-day are the same as they&rsquo;ve always been.</p>
-<p>And yet it couldn&rsquo;t feel more different. Staying at my desk all day is mentally and physically draining. The lack of unstructured social interaction means that there&rsquo;s less to break up the monotony of work. Unplugging my work computer and plugging in my Chromebook doesn&rsquo;t have quite the same effect as leaving my computer at the office.</p>
-<p>That&rsquo;s not all, though: it feels like work should be the last thing on our minds, because <em>who cares</em> about TV ratings when millions of people are going to be infected by this virus? How does advertising money matter <em>at all</em> when, well, coronavirus? I&rsquo;ve already heard the line of Nielsen being more relevant because more people are self-isolating and consuming media. They&rsquo;re not wrong&mdash;but also when the news is 24/7 coronavirus, who actually <em>gives a damn</em> about anything we do?</p>
-<p>In some ways, it feels <em>irresponsible</em> to care about anything media measurement-related when there are far bigger problems facing all of us right now. It&rsquo;s impossible to not be affected by coronavirus; the stark departure from normalcy for the <em>entire world</em> is something I&rsquo;m going to think about for a long time.</p>
-<h2 id="practical-changes"><a class="not-rich" href="#practical-changes"><i class="fas fa-link"></i></a> Practical changes</h2>
-<p>And yet life goes on. Again, I&rsquo;m lucky to be able to say that; for many, it will not.</p>
-<p>What have I done to help myself adjust to this remote life?</p>
-<ul>
-<li>I have a company mug that I&rsquo;ve started using during work hours only. As a side effect, I&rsquo;m drinking a lot more tea that I&rsquo;ve kept at home for a while!</li>
-<li>I&rsquo;ve put my own spin on the advice to wear work clothes: I have a pair of &ldquo;work sweatpants,&rdquo; which I only wear during work hours. At the end of the day, I change into &hellip; a different pair of sweatpants.</li>
-<li>My team has scheduled 30 minute daily calls&mdash;we usually do 15 minutes of updates and work discussion, and 15 minutes of casual chatting.</li>
-<li>Many of my coworkers have started having more impromptu video calls to catch up.</li>
-<li>I&rsquo;m still showering and doing my hair in the mornings like usual.</li>
-<li>I put my laptop into my backpack at the end of the day.</li>
-</ul>
-<p>I think the most significant changes, however, came from investing in my remote setup. I now have two monitors (one purchased, one that I walked home from my office), a <a href="https://www.dell.com/en-us/work/shop/dell-universal-dock-d6000/apd/452-bcyt/pc-accessories">docking station</a>, and a wireless mouse and keyboard. The docking station works flawlessly with my USB-C Chromebook (for personal use) and Macbook Pro (for work), where it&rsquo;s one cable that gives me both displays, power, and peripherals. For my older personal laptop, I have to plug the monitor and USB peripherals into the laptop directly, but I&rsquo;m hoping to replace that when the rumored 14in Macbook Pro comes out.</p>
-<h2 id="spending-time"><a class="not-rich" href="#spending-time"><i class="fas fa-link"></i></a> Spending time</h2>
-<p>The distribution of how I&rsquo;m spending my time is also dramatically different. I&rsquo;m finding it difficult to focus on work for a full 8ish-hour day; today I worked from 10 to 4 because I stopped having any sort of creative output. I think I&rsquo;m okay with this, though, as I&rsquo;m sensing it&rsquo;ll be easy to burn out while at home indefinitely.</p>
-<p>After work, there&rsquo;s &hellip; nothing to do. I wish I could see my friends, or got to <a href="http://flacostacosonline.com/menu/">margarita Mondays</a> with my girlfriend, but of course I can&rsquo;t. I&rsquo;m calling and texting friends more, but of course it&rsquo;s not the same.</p>
-<p>I&rsquo;m playing Pokemon GO less, for the obvious reason of not going outside as much. This is also partially because Niantic appears to have made the March event slate <a href="https://old.reddit.com/r/TheSilphRoad/comments/fbqvi7/psa_if_the_new_march_events_are_making_you_feel/">abnormally frustrating</a> in an attempt to see how far they can push their playerbase, and I&rsquo;m one of the players who feels squeezed out. (I&rsquo;m quite happy that their experiment has been ruined.) I&rsquo;ve noticed my phone screen time go down dramatically to between 1 and 2 hours daily now.</p>
-<p>This does give me more time, though, and I&rsquo;m doing my best to fill this in productive ways. More concretely, this means reading: I&rsquo;m trying to do one or two papers a week, to finally finish Network Propaganda, and to get through some stuff on my <a href="/reading/">reading list</a>. I can also do more volunteer work for <a href="https://www.techforcampaigns.org/">Tech for Campaigns</a>.</p>
-<p>My Switch is getting a lot of attention, too; it&rsquo;s not all productive (nor should it be). <a href="https://mysterydungeon.pokemon.com/en-us/">Pokemon Mystery Dungeon</a>, the most treasured video game from my childhood, was remade a couple weeks ago, and it&rsquo;s largely responsible for my lack of activity here at the start of March. Animal Crossing came out a week ago, so I&rsquo;m working on paying off debt to a strange, but adorable, raccoon.</p>
+      <p>What is the role of fake news in the overall media ecosystem?
+Conventional wisdom might say it&rsquo;s significant, but this paper provides evidence for the opposite.
+Using datasets of cross-platform media viewing, the authors find that fake news represents a small proportion of overall media consumption.</p>
+<p><strong>Authors</strong>: Jennifer Allen, Baird Howland, Markus Mobius, David Rothschild, Duncan Watts</p>
+<p><strong>Links</strong>: <a href="https://advances.sciencemag.org/content/6/14/eaay3539">Science</a> (open access)</p>
+<h2 id="background-and-motivation"><a class="not-rich" href="#background-and-motivation"><i class="fas fa-link"></i></a> Background and motivation</h2>
+<p>This paper studies the presence and prevalence of &ldquo;fake news&rdquo; at the scale of the overall media ecosystem.
+This is notable primarily because prior work has focused almost entirely on fake news online (which makes sense! that&rsquo;s where most of it is), but forgets about the limited role that online media has in the lives of the vast majority of Americans.</p>
+<h2 id="why-is-this-problem-hard"><a class="not-rich" href="#why-is-this-problem-hard"><i class="fas fa-link"></i></a> Why is this problem hard?</h2>
+<p>Studying the prevalence of fake news on multiple platforms is challenging.</p>
+<p>It&rsquo;s easy to collect data on Twitter, thanks to open APIs and permissive privacy defaults, but findings that make use of such data (like <a href="/papers/spread_of_news_vosoughi.html">The Spread of True and False News Online</a>, a still-great paper) are limited in that they only represent, well, Twitter.</p>
+<p>TV is much harder to study, as are general desktop or mobile internet usage, not least because companies like Nielsen established themselves as the only true way to measure TV viewing nationally!
+This makes sense given the long history of TV, but it&rsquo;s still a drastic difference.</p>
+<p>And in practice, people&rsquo;s beliefs and behavior are rarely influenced by what they read or view on a single platform, much less an online one!
+To create a more well-rounded understanding of the issue of fake news, it&rsquo;s necessary to evaluate it at the scale of multiple platforms.</p>
+<p>The researchers get over this problem by doing something only researchers can do&mdash;combining data assets from competitors!
+They use Nielsen&rsquo;s national TV panel, Comscore&rsquo;s desktop and mobile panel, and Nielsen&rsquo;s desktop-only web panel.
+In doing so, they can study (almost) all media (on TV, programs; on desktop and mobile, apps and URLs) that each individual person consumed.</p>
+<h2 id="methods-and-findings"><a class="not-rich" href="#methods-and-findings"><i class="fas fa-link"></i></a> Methods and findings</h2>
+<p><strong>Classifying fake news.</strong>
+On the internet, this is classified via the publisher or URL, which is in accordance with standard methods. (Notably, this cannot classify content on YouTube.)
+On TV, there are no &lsquo;objectively fake news stations&rsquo; in the same way that there are websites, so the proportion of people who see fake news on TV is zero by definition.</p>
+<p><strong>News consumption.</strong>
+One key finding from this study is that the prevalence of news consumption in general is vastly overstated:</p>
+<blockquote>
+<p>First, news consumption of any sort is heavily outweighed by other forms of media consumption, comprising at most 14.2% of Americans’ daily media diets.</p>
+</blockquote>
+<p>People simply don&rsquo;t consume that much news.
+Of the ~460 minutes per person per day of media consumption, over 400 of them are <em>not</em> news-related.
+And to the extent that they do consume news, it&rsquo;s almost all on TV!</p>
+<blockquote>
+<p>Overall, the ratio of TV to online news—including both desktop and mobile devices—is more than five to one (54 min versus 9.7 min), varying from a minimum of almost two to one for 18- to 24-year-olds (9 min versus 5 min) to a maximum of more than seven to one for those 55 years and older (94 min versus 13 min).</p>
+</blockquote>
+<p>And based on the desktop panels, fake news occupied under 0.2% of the average person&rsquo;s daily media diet.</p>
+<h2 id="discussion"><a class="not-rich" href="#discussion"><i class="fas fa-link"></i></a> Discussion</h2>
+<p>What does this mean?
+This paper doesn&rsquo;t suggset that fake news isn&rsquo;t a problem, or that research on it isn&rsquo;t valuable.
+&ldquo;Arguably the deliberate circulation of false information with the objective of creating confusion and discord is intolerable in principle and should be combatted at any prevalence greater than zero,&rdquo; they write.</p>
+<p>I can&rsquo;t say I disagree.</p>
+<p>And I&rsquo;m personally quite interested in how people are exposed to information, news or otherwise.
+The article <a href="https://www.currentaffairs.org/2020/08/the-truth-is-paywalled-but-the-lies-are-free/">The Truth is Paywalled, but the Lies are Free</a> has been living rent-free in my head since I read it this summer.</p>
+<p>This paper <em>does</em> suggest, though, that &lsquo;fake news&rsquo; is a bogeyman.
+Fake news is not responsible for the problems of polarization, of Donald Trump being president, or of right-wing radicalization.
+These problems are better attributed to &ldquo;the content of ordinary news&rdquo; or &ldquo;the avoidance of news altogether,&rdquo; they argue.</p>
 <h2 id="closing-thoughts"><a class="not-rich" href="#closing-thoughts"><i class="fas fa-link"></i></a> Closing thoughts</h2>
-<p>On one hand, things are fine. I&rsquo;m lucky to be able to hole up and write this. I&rsquo;m lucky to be an introvert who is fine without seeing people for a couple of days (not to say that introverts are fine right now, but talking to my very sociable girlfriend shows me that it could be worse). I&rsquo;m lucky to not have to care for kids or other family members. I&rsquo;m already noticing a lot more time for reading.</p>
-<p>On the other, nothing is fine: we&rsquo;re in an unprecedented global pandemic and our constant, predictable leadership failures are only making it worse. Millions of people are going to die, and millions more will get sick, lose family members, be out of work, or have their lives turned upside down by this virus.</p>
-<p>I try to end posts optimistically, but I don&rsquo;t think I can here. Lean on your social support, thank our selfless healthcare workers, and hope for the best.</p>
+<p>This was a quick read which made a clear point: that fake news is not as pervasive in the overall media ecosystem as Twitter discourse would lead you to believe.
+The majority of Americans still get their news from TV, and news is a small part of overall media consumption.</p>
+<blockquote>
+<p>In particular, public ignorance or misunderstanding of important political matters could also arise out of a combination of (i) ordinary bias and agenda setting in the mainstream media (23–25)) and (ii) the overall low exposure of many Americans to news content in general, especially in written form.
+We conclude that <strong>future work on misinformation and its potentially corrosive effects on democracy should consider all potential sources of problematic content,</strong> as well as the absence of relevant content, not simply the type that is most easily identified and least associated with conventional media interests (19).</p>
+</blockquote>
+<p>There are plenty of open questions in this space, though, and naturally I&rsquo;d love to see research in the areas that were out of scope for this work:</p>
+<ul>
+<li>Categorizing TV broadcasts to study the extent to which TV content is misleading, heavily biased, hyperpartisan, or more</li>
+<li>Studying, among the people who <em>do</em> consume fake news, how they get exposed to it and whether their exposure increases over time</li>
+<li>Studying the extent to which this occurs on YouTube (that sounds painful)</li>
+</ul>
+<p>Studying the prevalence of fake news, and other questions like how it spreads and how people become exposed to it, is still interesting.
+I look forward to reading (or perhaps someday contributing to!) future work in this space.
+But it&rsquo;s important to keep the bigger picture in mind.</p>
 
       <p><i class="fas fa-square font-green-800"></i></p>
     </div>
@@ -185,14 +220,9 @@
     <div class="bar-inner">
         <ul class="pager pull-left">
             <li class="prev">
-                <a href="/papers/review_methods_predicting_mental_health_status_chancellor.html" title="[Paper] Methods in predictive techniques for mental health status on social media: a critical review"><i
+                <a href="/papers/deconstructing_filter_bubble_aridor.html" title="[Paper] Deconstructing the Filter Bubble: User Decision-Making and Recommender Systems"><i
                         class="icon icon-angle-left"
                         aria-hidden="true"></i><span>&nbsp;&nbsp;</span></a>
-            </li>
-            <li class="next">
-                <a href="/what_i_read/20200328.html"
-                    title="What I read this week (March 22 - March 28)"><span>&nbsp;&nbsp;</span><i
-                        class="icon icon-angle-right" aria-hidden="true"></i></a>
             </li>
         </ul>
     </div>

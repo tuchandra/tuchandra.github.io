@@ -6,10 +6,19 @@
     <description>Recent content in Categories on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 13 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>On speech</title>
+      <link>/books/republic_4.html</link>
+      <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/books/republic_4.html</guid>
+      <description>&lt;p&gt;Towards the end of &lt;em&gt;#republic&lt;/em&gt;, we study speech and its regulation by government. What are reasonable limits that a government might pose on speech? How might these change in the digital era?&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Consumers and citzens</title>
@@ -180,15 +189,6 @@
       
       <guid>/papers/understanding_dl_generalization_zhang.html</guid>
       <description>&lt;p&gt;This Google Brain paper from ICLR 2017 tackles the question of &lt;em&gt;generalization&lt;/em&gt; in neural networks. What causes a network that performs well on training data to also perform well on testing data? (Answer: ¯\_(ツ)_/¯)&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>What I read this week (August 2 - 8)</title>
-      <link>/what_i_read/20200808.html</link>
-      <pubDate>Sat, 08 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/what_i_read/20200808.html</guid>
-      <description>&lt;p&gt;A few articles from Pointer this week, an &lt;em&gt;amazing&lt;/em&gt; post titled &amp;ldquo;System Design for Advanced Beginners,&amp;rdquo; and some blogging advice.&lt;/p&gt;</description>
     </item>
     
   </channel>

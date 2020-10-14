@@ -4,26 +4,40 @@
   
   <url>
     <loc>/papers.html</loc>
-    <lastmod>2020-10-13T00:00:00+00:00</lastmod>
+    <lastmod>2020-10-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/papers/deconstructing_filter_bubble_aridor.html</loc>
-    <lastmod>2020-10-13T00:00:00+00:00</lastmod>
+    <loc>/papers/fake_news_information_ecosystem_watts.html</loc>
+    <lastmod>2020-10-14T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/categories.html</loc>
-    <lastmod>2020-10-13T00:00:00+00:00</lastmod>
+    <lastmod>2020-10-14T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/categories/papers.html</loc>
+    <lastmod>2020-10-14T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2020-10-14T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/papers/deconstructing_filter_bubble_aridor.html</loc>
     <lastmod>2020-10-13T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -45,13 +59,6 @@
   
   <url>
     <loc>/tags.html</loc>
-    <lastmod>2020-10-13T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/</loc>
     <lastmod>2020-10-13T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
