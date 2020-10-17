@@ -6,10 +6,19 @@
     <description>Recent content on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 14 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Paper] A Framework for Understanding Unintended Consequences of Machine Learning</title>
+      <link>/papers/framework_unintended_consequences_guttag.html</link>
+      <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/framework_unintended_consequences_guttag.html</guid>
+      <description>&lt;p&gt;What does it really mean for a machine learning system to be &amp;ldquo;biased&amp;rdquo;? Lots of different things, potentially, to the point where the term being so overloaded has started causing confusion. This paper presents six different categories of bias in machine learning.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>On speech</title>
@@ -180,15 +189,6 @@
       
       <guid>/papers/modeling_political_attention_hemphill.html</guid>
       <description>&lt;p&gt;What are members of Congress tweeting about, and how can we use machine learning to infer this? In this ICWSM 2020 paper, the researchers try out both supervised and unsupervised learning on all the tweets from members of the 115th Congress (Jan. 2017 - Jan. 2019).&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] Understanding deep learning requires rethinking generalization</title>
-      <link>/papers/understanding_dl_generalization_zhang.html</link>
-      <pubDate>Wed, 12 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/papers/understanding_dl_generalization_zhang.html</guid>
-      <description>&lt;p&gt;This Google Brain paper from ICLR 2017 tackles the question of &lt;em&gt;generalization&lt;/em&gt; in neural networks. What causes a network that performs well on training data to also perform well on testing data? (Answer: ¯\_(ツ)_/¯)&lt;/p&gt;</description>
     </item>
     
   </channel>
