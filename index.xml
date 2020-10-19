@@ -6,10 +6,20 @@
     <description>Recent content on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 17 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Paper] A balanced survey on election prediction using Twitter data</title>
+      <link>/papers/election_predicting_twitter_gayoavello.html</link>
+      <pubDate>Sun, 18 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/election_predicting_twitter_gayoavello.html</guid>
+      <description>&lt;p&gt;Affectionately titled &amp;ldquo;I wanted to predict elections with Twitter and all I got was this lousy paper.&amp;rdquo;
+This survey paper chronicles various attempts to predict elections from Twitter, and finds that (surprise!) its predictive power has been greatly exaggerated.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>What I read this week (October 11 - 17)</title>
@@ -184,15 +194,6 @@ This RecSys 2020 paper investigates by modeling recommender systems with numeric
       
       <guid>/books/republic_5.html</guid>
       <description>&lt;p&gt;My final thoughts on Cass Sunstein&amp;rsquo;s &lt;em&gt;#republic&lt;/em&gt;. I talk about what it means to reimagine today&amp;rsquo;s republic, and how Sunstein&amp;rsquo;s book encourages us to rethink the relationship between technology and democracy.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Early thoughts from Indistractable</title>
-      <link>/books/indistractable_1.html</link>
-      <pubDate>Thu, 10 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/books/indistractable_1.html</guid>
-      <description>&lt;p&gt;My next book is &lt;em&gt;Indistractable&lt;/em&gt; by Nir Eyal. The book&amp;rsquo;s tagline is &amp;ldquo;how to control your attention and choose your life,&amp;rdquo; which is compelling! My early thoughts are mixed between grateful and skeptical.&lt;/p&gt;</description>
     </item>
     
   </channel>
