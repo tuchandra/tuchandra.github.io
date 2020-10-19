@@ -6,10 +6,19 @@
     <description>Recent content on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 18 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Papers that I never got around to</title>
+      <link>/posts/reading_list_archive_1.html</link>
+      <pubDate>Mon, 19 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/reading_list_archive_1.html</guid>
+      <description>&lt;p&gt;In an effort to clean up my reading list, this page catalogues papers that caught my eye but that I never got around to reading.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>[Paper] A balanced survey on election prediction using Twitter data</title>
@@ -185,15 +194,6 @@ This RecSys 2020 paper investigates by modeling recommender systems with numeric
       
       <guid>/books/indistractable_2.html</guid>
       <description>&lt;p&gt;I review Nir Eyal&amp;rsquo;s &lt;em&gt;Indistractable&lt;/em&gt;, a quick read that took me less than a week. I found valuable advice for improving my concentration and attention, and I&amp;rsquo;m excited to apply some of these ideas to my life.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>#republic: closing thoughts</title>
-      <link>/books/republic_5.html</link>
-      <pubDate>Sat, 12 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/books/republic_5.html</guid>
-      <description>&lt;p&gt;My final thoughts on Cass Sunstein&amp;rsquo;s &lt;em&gt;#republic&lt;/em&gt;. I talk about what it means to reimagine today&amp;rsquo;s republic, and how Sunstein&amp;rsquo;s book encourages us to rethink the relationship between technology and democracy.&lt;/p&gt;</description>
     </item>
     
   </channel>
