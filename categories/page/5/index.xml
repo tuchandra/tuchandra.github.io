@@ -6,10 +6,19 @@
     <description>Recent content in Categories on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 19 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Productionalizing Models through CI/CD Design with MLflow</title>
+      <link>/spark/2020/productionalizing_models_mlflow.html</link>
+      <pubDate>Wed, 24 Jun 2020 13:30:00 +0000</pubDate>
+      
+      <guid>/spark/2020/productionalizing_models_mlflow.html</guid>
+      <description>&lt;p&gt;This talk, by Mary Grace Moesta &amp;amp; Peter Tamisin at Databricks, dove into MLOps and productionalization of machine learning models using MLflow. How can we apply principles from CI/CD to machine learning? And how can MLflow help us to do so?&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Portable Scalable Data Visualization Techniques for Apache Spark and Python Notebook-based Analytics</title>
@@ -180,15 +189,6 @@
       
       <guid>/posts/password_tool_4.html</guid>
       <description>&lt;p&gt;Alternative title: &amp;ldquo;Python in the browser console tells us that science has indeed come too far.&amp;rdquo; The fourth post in this series dives into how Pyodide enabled me to hook up Python and JavaScript&amp;mdash;sometimes in less-than-clean ways.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>What I read this week (May 10 - May 16)</title>
-      <link>/what_i_read/20200516.html</link>
-      <pubDate>Sat, 16 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/what_i_read/20200516.html</guid>
-      <description>&lt;p&gt;I took last week off as I focused on full papers from CHI, but this week&amp;rsquo;s edition of &lt;a href=&#34;http://www.pointer.io/&#34;&gt;Pointer&lt;/a&gt; had several articles that caught my eye.&lt;/p&gt;</description>
     </item>
     
   </channel>

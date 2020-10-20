@@ -6,10 +6,19 @@
     <description>Recent content in papers on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 18 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/categories/papers/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>What I read this week (January 26 - February 1)</title>
+      <link>/what_i_read/20200201.html</link>
+      <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/what_i_read/20200201.html</guid>
+      <description>&lt;p&gt;Articles I read this week, including about Python 3.9, regulation of tech companies, and a host of short articles.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Talk Notes: The Global Energy Challenge by Michael Greenstone</title>
@@ -181,15 +190,6 @@
       
       <guid>/what_i_read/20191228.html</guid>
       <description>&lt;p&gt;Articles I read this week, including posts on AI bias, life without cell phones, and regulating AI.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Celeste Kidd: How to Know (NeurIPS 2019)</title>
-      <link>/posts/talk_kidd_neurips.html</link>
-      <pubDate>Fri, 27 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/talk_kidd_neurips.html</guid>
-      <description>&lt;p&gt;This is a summary of Celeste Kidd&amp;rsquo;s invited talk at NeurIPS 2019, &lt;a href=&#34;https://slideslive.com/38921495/how-to-know&#34;&gt;How to Know&lt;/a&gt;, plus some thoughts at the end.&lt;/p&gt;</description>
     </item>
     
   </channel>
