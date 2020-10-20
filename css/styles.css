@@ -1220,16 +1220,16 @@ a.not-rich {
     padding-bottom: 2rem;
   }
 
-  .md\:pl-0 {
-    padding-left: 0;
-  }
-
   .md\:pr-2 {
     padding-right: 0.5rem;
   }
 
   .md\:pt-8 {
     padding-top: 2rem;
+  }
+
+  .md\:pl-8 {
+    padding-left: 2rem;
   }
 
   .md\:pl-12 {
@@ -1286,6 +1286,10 @@ a.not-rich {
 
   .lg\:text-2xl {
     font-size: 1.5rem;
+  }
+
+  .lg\:pl-0 {
+    padding-left: 0;
   }
 }
 
