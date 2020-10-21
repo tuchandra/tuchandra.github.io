@@ -6,10 +6,19 @@
     <description>Recent content in Tags on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 20 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Personal news: I got promoted!</title>
+      <link>/posts/promotion_senior.html</link>
+      <pubDate>Mon, 17 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/promotion_senior.html</guid>
+      <description>&lt;p&gt;I was recently promoted to senior data scientist! This is a short post with some details and reflection.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>My review of &#39;Weapons of Math Destruction&#39;</title>
@@ -180,15 +189,6 @@
       
       <guid>/books/twenty_six_words_2.html</guid>
       <description>&lt;p&gt;This is my second post on &lt;a href=&#34;https://www.jeffkosseff.com/home&#34;&gt;The Twenty-Six Words That Created The Internet&lt;/a&gt;, by Jeff Kosseff. Chapter 2 tells the story of two online service providers, CompuServe and Prodigy, and how litigation against them with opposite outcomes set the scene for the passing of Section 230.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Magazines and the Internet</title>
-      <link>/books/twenty_six_words_1.html</link>
-      <pubDate>Thu, 02 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/books/twenty_six_words_1.html</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m now starting to read &lt;a href=&#34;https://www.jeffkosseff.com/home&#34;&gt;The Twenty-Six Words That Created The Internet&lt;/a&gt;, by Jeff Kosseff, which refers to Section 230 of the Communciations Decency Act. Section 230 is under attack by politicians on both sides, and debates about misinformation and hate speech on social media have become more heated lately, so I became interested in the legal basis for their protections. This post discusses early rulings on freedom of speech and press, prior to the creation of the internet, that helped shape 230.&lt;/p&gt;</description>
     </item>
     
   </channel>

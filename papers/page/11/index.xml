@@ -6,10 +6,19 @@
     <description>Recent content on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 18 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/papers/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Paper] The Curse of Knowledge in Visual Data Communication</title>
+      <link>/papers/curse_of_knowledge_xiong.html</link>
+      <pubDate>Wed, 13 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/curse_of_knowledge_xiong.html</guid>
+      <description>&lt;p&gt;This is the first of (hopefully!) many paper reviews I&amp;rsquo;ll be writing on this blog. Inspired by &lt;a href=&#34;https://blog.acolyer.org/about/&#34;&gt;The Morning Paper&lt;/a&gt;, my goal is to read a lot of papers over the next several months (and longer). This one is a psychology paper by Cindy Xiong, Lisanne van Weelden, and Steven Franconeri. View it on the &lt;a href=&#34;http://visualthinking.psych.northwestern.edu/VisualizationCurse2017/Xiong,%20van%20Weelden%20&amp;amp;%20Franconeri%20InfoVis%202017%20.pdf&#34;&gt;Northwestern Psychology department&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Why I&#39;m interested in HCI</title>
@@ -181,17 +190,6 @@
       
       <guid>/spark/smart_join.html</guid>
       <description>&lt;p&gt;Speaker: Andrew Clegg (Applied ML Group @ Yelp).&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>About Me</title>
-      <link>/about/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/about/</guid>
-      <description>Hi, I&amp;rsquo;m Tushar. I&amp;rsquo;m a senior data scientist at Nielsen in Chicago, IL. I have an interest in human-computer interaction and how technology &amp;amp; new media are affecting our lives. On this site, I write summaries of papers that interest me along with other articles or talks.
-I can be reached at:
- Github: tuchandra Email: me [at] tusharc [dot] dev  Projects I take pride in identifying problems and building tools to fix them.</description>
     </item>
     
   </channel>
