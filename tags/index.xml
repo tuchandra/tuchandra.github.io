@@ -6,10 +6,19 @@
     <description>Recent content in Tags on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 21 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Paper] Conformity of Eating Disorders through Content Moderation</title>
+      <link>/papers/conformity_eating_disorders_piper.html</link>
+      <pubDate>Thu, 22 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/conformity_eating_disorders_piper.html</guid>
+      <description>&lt;p&gt;Content moderation is an essential part of online communities, but the experiences of people who are moderated are less studied. This work conducts a digital ethnography on people with eating disorders. The authors argue that moderation enforces conformity on a platform, which can further marginalize people with eating disorders.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>[Paper] Moving Across Lands: Online Platform Migration in Fandom Communities</title>
@@ -185,15 +194,6 @@ This RecSys 2020 paper investigates by modeling recommender systems with numeric
       
       <guid>/posts/pymcon_accepted.html</guid>
       <description>&lt;p&gt;I&amp;rsquo;m excited to have had my first conference talk accepted, &lt;em&gt;Learning Bayesian Statistics with Pokemon GO&lt;/em&gt; at PyMCon!&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] Towards Fine-grained Flow Forecasting: a Graph Attention Approach for Bike Sharing Systems</title>
-      <link>/papers/graph_attention_bike_sharing_he.html</link>
-      <pubDate>Wed, 16 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/papers/graph_attention_bike_sharing_he.html</guid>
-      <description>&lt;p&gt;In bike sharing systems, forecasting the demand for pick-ups and drop-offs at each station is essential. This paper presents a novel methodology for doing this, which uses graph neural networks and a spatiotemporal design for station-by-station flow forecasting.&lt;/p&gt;</description>
     </item>
     
   </channel>
