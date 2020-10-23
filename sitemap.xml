@@ -9,6 +9,13 @@
   </url>
   
   <url>
+    <loc>/papers/mitigating_exploitations_indie_dev_freeman.html</loc>
+    <lastmod>2020-10-23T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>/categories.html</loc>
     <lastmod>2020-10-23T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -17,13 +24,6 @@
   
   <url>
     <loc>/tags/cscw2020.html</loc>
-    <lastmod>2020-10-23T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/papers/mitigating_exploitations_indie_dev_freeman.html</loc>
     <lastmod>2020-10-23T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
