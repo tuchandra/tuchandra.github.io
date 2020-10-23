@@ -6,10 +6,19 @@
     <description>Recent content on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 22 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/papers/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Attempts at cracking a rescue password</title>
+      <link>/posts/password_tool_2.html</link>
+      <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/password_tool_2.html</guid>
+      <description>&lt;p&gt;In my &lt;a href=&#34;/posts/password_tool_1.html&#34;&gt;last post&lt;/a&gt;, I discussed what led me to this Pokemon Mystery Dungeon password project. This post dive into my first attempt at creating something real, followed by an unexpected turn into building a web app.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>[Paper] Data Everyday: Data Literacy Practices in a Division I Sports Context</title>
@@ -180,15 +189,6 @@
       
       <guid>/posts/targeted_advertising.html</guid>
       <description>&lt;p&gt;This is my response to an article from Wired, &lt;a href=&#34;https://www.wired.com/story/why-dont-we-just-ban-targeted-advertising/&#34;&gt;Why don&amp;rsquo;t we just ban targeted advertising?&lt;/a&gt;. My direct answer is &amp;ldquo;because that&amp;rsquo;s not the problem,&amp;rdquo; and I instead discuss the two more fundamental problems that I see in that space.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>What I read this week (March 15 - March 21)</title>
-      <link>/what_i_read/20200321.html</link>
-      <pubDate>Sat, 21 Mar 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/what_i_read/20200321.html</guid>
-      <description>&lt;p&gt;It&amp;rsquo;s back to usual this week, as I try to create a healthy work-life balance while working from home indefinitely. This week&amp;rsquo;s articles focus on impacts of coronavirus and distributed / remote work.&lt;/p&gt;</description>
     </item>
     
   </channel>

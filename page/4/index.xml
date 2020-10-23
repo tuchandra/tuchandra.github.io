@@ -6,10 +6,19 @@
     <description>Recent content on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 22 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>What I read this week (June 28 - July 4)</title>
+      <link>/what_i_read/20200704.html</link>
+      <pubDate>Sat, 04 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/what_i_read/20200704.html</guid>
+      <description>&lt;p&gt;This week&amp;rsquo;s reading was all over the place: a talk on Docker and Python for data science, authorial intent in code, the book &lt;em&gt;Clean Code&lt;/em&gt;, and an essay on NPM.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>CompuServe and Prodigy: a story about the early internet</title>
@@ -180,15 +189,6 @@
       
       <guid>/spark/2020/probabilistic_data_structures.html</guid>
       <description>&lt;p&gt;When your data gets extremely large, real-time queries can become expensive and slow. Yeshwanth Vijayakumar from Adobe discusses how &lt;em&gt;probabilistic data structures&lt;/em&gt; can help to solve these scaling problems efficiently.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Notes from the Thursday morning Spark keynotes</title>
-      <link>/spark/2020/thursday_morning_keynotes.html</link>
-      <pubDate>Thu, 25 Jun 2020 12:00:00 +0000</pubDate>
-      
-      <guid>/spark/2020/thursday_morning_keynotes.html</guid>
-      <description>&lt;p&gt;The morning keynotes were more Databricks-focused; topics included updates to the Databricks workspace environment, new and upcoming features in MLflow (and that it&amp;rsquo;s joining the Linux Foundation!), and demos on &amp;ldquo;responsible AI&amp;rdquo; from Microsoft.&lt;/p&gt;</description>
     </item>
     
   </channel>

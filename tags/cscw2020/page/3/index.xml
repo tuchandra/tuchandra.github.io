@@ -6,10 +6,19 @@
     <description>Recent content in cscw2020 on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 22 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/tags/cscw2020/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Paper] Auditing News Curation Systems: A Case Study Examining Algorithmic and Editorial Logic in Apple News</title>
+      <link>/papers/auditing_news_curation_systems_diakopoulos.html</link>
+      <pubDate>Thu, 20 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/auditing_news_curation_systems_diakopoulos.html</guid>
+      <description>&lt;p&gt;Apple News is used by 85 million users daily, but what is it actually showing you? From what publishers do the stories come? How often are they updated? This ICWSM 2020 paper motivates and applies an algorithmic audit of the Apple News curation system.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>[Paper] What is AI Literacy? Competencies and Design Considerations</title>
@@ -180,15 +189,6 @@
       
       <guid>/what_i_read/20200711.html</guid>
       <description>&lt;p&gt;This week, I watched a few talks from SciPy 2020 and continued my reading on &lt;em&gt;Twenty-Six Words&lt;/em&gt;; this post mostly contains the talks.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>What I read this week (June 28 - July 4)</title>
-      <link>/what_i_read/20200704.html</link>
-      <pubDate>Sat, 04 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/what_i_read/20200704.html</guid>
-      <description>&lt;p&gt;This week&amp;rsquo;s reading was all over the place: a talk on Docker and Python for data science, authorial intent in code, the book &lt;em&gt;Clean Code&lt;/em&gt;, and an essay on NPM.&lt;/p&gt;</description>
     </item>
     
   </channel>
