@@ -6,10 +6,28 @@
     <description>Recent content in cscw2020 on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 23 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 24 Oct 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/tags/cscw2020/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Internet Exceptionalism</title>
+      <link>/books/twenty_six_words_3.html</link>
+      <pubDate>Thu, 16 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/books/twenty_six_words_3.html</guid>
+      <description>&lt;p&gt;In my second-to-last post on Section 230, I discuss the idea of internet exceptionalism&amp;mdash;how, in passing Section 230, Congress decided that the internet should be different than other publishing mediums.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>What I read this week (July 5 - July 11)</title>
+      <link>/what_i_read/20200711.html</link>
+      <pubDate>Sat, 11 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/what_i_read/20200711.html</guid>
+      <description>&lt;p&gt;This week, I watched a few talks from SciPy 2020 and continued my reading on &lt;em&gt;Twenty-Six Words&lt;/em&gt;; this post mostly contains the talks.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>What I read this week (June 28 - July 4)</title>
@@ -171,24 +189,6 @@
       
       <guid>/spark/2020/thursday_afternoon_keynotes.html</guid>
       <description>&lt;p&gt;The afternoon keynotes featured Kim Hazelwood, the west cost head of engineering at FAIR, discussing recommender systems; and Hany Farid, from UC Berkeley, discussing deepfakes.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Using Bayesian Generative Models With Apache Spark To Solve Entity Resolution Problems At Scale</title>
-      <link>/spark/2020/bayesian_generative_models.html</link>
-      <pubDate>Thu, 25 Jun 2020 14:00:00 +0000</pubDate>
-      
-      <guid>/spark/2020/bayesian_generative_models.html</guid>
-      <description>&lt;p&gt;Deduplication is a huge problem in many domains; this talk by two people from MavenCode discusses how they&amp;rsquo;ve used Spark-driven Bayesian generative models to solve large entity resolution problems.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Everyday Probabilistic Data Structures for Humans</title>
-      <link>/spark/2020/probabilistic_data_structures.html</link>
-      <pubDate>Thu, 25 Jun 2020 13:00:00 +0000</pubDate>
-      
-      <guid>/spark/2020/probabilistic_data_structures.html</guid>
-      <description>&lt;p&gt;When your data gets extremely large, real-time queries can become expensive and slow. Yeshwanth Vijayakumar from Adobe discusses how &lt;em&gt;probabilistic data structures&lt;/em&gt; can help to solve these scaling problems efficiently.&lt;/p&gt;</description>
     </item>
     
   </channel>

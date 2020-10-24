@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <title>
+    [Paper] Hidden Figures: Roles and Pathways of Successful OSS Contributors - Tushar Chandra
+    </title>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="Cache-Control" content="no-transform" />
+  <meta http-equiv="Cache-Control" content="no-siteapp" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="format-detection" content="telephone=no,email=no,adress=no">
+  
+  <meta name="theme-color" content="#000000" />
+  <meta http-equiv="window-target" content="_top" /><meta name="description" content="This CSCW paper studies open source software contributors—all of them, not just maintainers and developers. While open source has often been looked at as a purely technical community, this paper draws attention to the other forms of work that contributors do.
+" />
+  <meta name="generator" content="Hugo 0.70.0" />
+  <title>[Paper] Hidden Figures: Roles and Pathways of Successful OSS Contributors - Tushar Chandra</title>
+
+  
+  
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
+
+  <meta property="og:title" content="[Paper] Hidden Figures: Roles and Pathways of Successful OSS Contributors" />
+<meta property="og:description" content="This CSCW paper studies open source software contributors—all of them, not just maintainers and developers. While open source has often been looked at as a purely technical community, this paper draws attention to the other forms of work that contributors do." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/papers/hidden_figures_oss_trinkenreich.html" />
+<meta property="article:published_time" content="2020-10-24T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-10-24T00:00:00+00:00" />
+<meta itemprop="name" content="[Paper] Hidden Figures: Roles and Pathways of Successful OSS Contributors">
+<meta itemprop="description" content="This CSCW paper studies open source software contributors—all of them, not just maintainers and developers. While open source has often been looked at as a purely technical community, this paper draws attention to the other forms of work that contributors do.">
+<meta itemprop="datePublished" content="2020-10-24T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2020-10-24T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="885">
+
+
+
+<meta itemprop="keywords" content="cscw2020," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="[Paper] Hidden Figures: Roles and Pathways of Successful OSS Contributors"/>
+<meta name="twitter:description" content="This CSCW paper studies open source software contributors—all of them, not just maintainers and developers. While open source has often been looked at as a purely technical community, this paper draws attention to the other forms of work that contributors do."/>
+</head>
+</head>
+
+
+
+<body class="h-screen flex flex-col justify-between" itemscope itemtype="http://schema.org/WebPage"><header class="w-screen bg-green-500" itemscope itemtype="http://schema.org/WPHeader">
+  <div class="flex max-w-8xl container mx-auto">
+    <div class="hidden sm:inline flex items-center">
+      <a href="/">
+        <img class="rounded-full m-1 md:m-4" src="/headshot.jpg" width="100" height="100">
+      </a>
+    </div>
+    <div class="w-full px-4 flex flex-col lg:flex-row justify-between lg:items-center my-4">
+      <div class="xl:flex-grow">
+        <a href="/">
+          <span class="text-lg sm:text-2xl md:text-3xl font-semibold">Tushar Chandra</span>
+          <span class="hidden pl-4 lg:inline"><br></span>
+          <span class="text-sm md:text-xl font-thin pl-4 md:pl-8 lg:pl-0 lg:text-xl">Data Scientist / Chicago, IL
+          </span>
+        </a>
+      </div>
+      <nav class="" itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation">
+        <ul class="flex lg:justify-between">
+          <li class="flex-grow-0 inline pr-1 md:pr-2 xl:px-4">
+            <p class="text-center">
+              <a href="/about">
+                <i class="fas text-green-800 pl-1 md:px-1 text-sm md:text-xl lg:text-2xl fa-mug-hot"></i>
+                <span class="font-thin text-sm md:text-lg lg:text-2xl">About</span>
+              </a>
+            </p>
+          </li>
+          <li class="flex-grow-0 inline pr-1 md:pr-2 xl:px-4">
+            <p class="text-center">
+              <a href="/resume">
+                <i class="fas text-green-800 pl-1 md:px-1 text-sm md:text-xl lg:text-2xl fa-file"></i>
+                <span class="font-thin text-sm md:text-lg lg:text-2xl">Resume</span>
+              </a>
+            </p>
+          </li>
+          <li class="flex-grow-0 inline pr-1 md:pr-2 xl:px-4">
+            <p class="text-center">
+              <a href="/reading">
+                <i class="fas text-green-800 pl-1 md:px-1 text-sm md:text-xl lg:text-2xl fa-book-open"></i>
+                <span class="font-thin text-sm md:text-lg lg:text-2xl">Reading</span>
+              </a>
+            </p>
+          </li>
+          <li class="flex-grow-0 inline pr-1 md:pr-2 xl:px-4">
+            <p class="text-center">
+              <a href="/categories.html">
+                <i class="fas text-green-800 pl-1 md:px-1 text-sm md:text-xl lg:text-2xl fa-folder-open"></i>
+                <span class="font-thin text-sm md:text-lg lg:text-2xl">Categories</span>
+              </a>
+            </p>
+          </li>
+          <li class="flex-grow-0 inline pr-1 md:pr-2 xl:px-4">
+            <p class="text-center">
+              <a href="/posts.html">
+                <i class="fas text-green-800 pl-1 md:px-1 text-sm md:text-xl lg:text-2xl fa-archive"></i>
+                <span class="font-thin text-sm md:text-lg lg:text-2xl">Archives</span>
+              </a>
+            </p>
+          </li>
+
+        </ul>
+
+      </nav>
+    </div>
+
+  </div>
+</header>
+  <div class="container mx-auto max-w-8xl px-4 flex flex-row flex-grow">
+    <div class="w-full md:w-3/4">
+      
+<main class="main" role="main"><div class="content container mx-auto max-w-6xl">
+  <article id="-" class="" itemscope itemtype="http://schema.org/BlogPosting">
+    <div class="pt-4">
+      <span class="font-semibold text-3xl"><h1 itemprop="name">
+  <a class="" href="/papers/hidden_figures_oss_trinkenreich.html">[Paper] Hidden Figures: Roles and Pathways of Successful OSS Contributors</a>
+</h1>
+      </span>
+      <div class="pb-4"><i class="fas fa-calendar-check text-gray-500 pr-1"></i>
+<time datetime="2020-10-24 00:00:00 &#43;0000 UTC" class="text-sm text-gray-600"
+  itemprop="datePublished">2020-10-24</time>
+<span class="text-sm text-gray-600" itemprop="wordCount">
+	<i class="fas fa-pencil-alt text-gray-500 pl-4 pr-2"></i>885 words
+</span><i class="fas fa-folder-open text-gray-500 pl-4 pr-1"></i>
+<a class="text-sm text-gray-600" href=" /categories/papers.html"> papers, </a>
+<span class="article-tag">
+  <i class="fas fa-tag text-gray-500 pl-4 pr-1"></i>
+  <a class="text-sm text-gray-600" href="/tags/cscw2020.html"> cscw2020, </a>
+</span><span class="article-category text-sm text-gray-600 pl-4">
+  <i class="fa fa-users "></i>
+  Bianca Trinkenreich, Mariam Guizani, Igor Wiese, Anita Sarma, Igor Steinmacher
+</span>
+      </div>
+    </div>
+    <div class="rich-text" itemprop="articleBody">
+      <p>This CSCW paper studies open source software contributors—all of them, not just maintainers and developers. While open source has often been looked at as a purely technical community, this paper draws attention to the other forms of work that contributors do.</p>
+<p><strong>Link</strong>: <a href="https://dl.acm.org/doi/abs/10.1145/3415251">ACM DL</a> (free access)</p>
+<p><strong>Authors</strong>: Bianca Trinkenreich, Mariam Guizani, Igor Wiese, Anita Sarma, Igor Steinmacher</p>
+<h2 id="background-and-motivation"><a class="not-rich" href="#background-and-motivation"><i class="fas fa-link"></i></a> Background and motivation</h2>
+<p>Open source software (OSS, or just &ldquo;open source&rdquo;) is the foundation of the modern software industry. The vast majority of software today draws upon open source tools—languages, libraries, and tools that are free to use. Past research has studied OSS, but some parts are still poorly understood.</p>
+<p>In particular, &ldquo;there is a need to expand our understanding beyond the simplistic notion of a technical core-periphery contribution structure.&rdquo; Past research has focused mostly on technical contributors (i.e., developers), but lots of other roles exist in open source, and are not paid as much attention.</p>
+<p>This motivates the two research questions:</p>
+<blockquote>
+<p><strong>RQ1.</strong> What different roles can be played by successful and recognized contributors to OSS?</p>
+<p><strong>RQ2.</strong> How do roles evolve for such successful and recognized OSS contributors?</p>
+</blockquote>
+<p><strong>Why this matters</strong>: open source isn&rsquo;t just a group of developers getting together to build tools. Successful open source projects might have huge numbers of volunteer and paid contributors, industry support, and non-developer roles that are essential to their success.</p>
+<h2 id="interviews"><a class="not-rich" href="#interviews"><i class="fas fa-link"></i></a> Interviews</h2>
+<p>To study these &ldquo;hidden roles,&rdquo; the authors recruited 17 open source contributors across 15 projects (ranging in size from 30 to 3000 contributors, covering different kinds of tooling, and being backed by different kinds of organizations).</p>
+<p>The researchers conducted semi-structured interviews with each, asking the central question &ldquo;Can you walk me through your career journey and tell me the story from when you started until now?&rdquo; They analyzed the transcripts with inductive open coding.</p>
+<p>I love when papers reference seemingly unrelated fields to back up their research methods:</p>
+<blockquote>
+<p>Our sample—composed of 17 participants &hellip; is in line with the anthropology literature, which mentions that a set of 10-20 knowledgeable people is sufficient to uncover and understand the core categories in any cultural domain or study of lived experience.</p>
+</blockquote>
+<p>(Not that this is a bad thing to do—just funny to me.)</p>
+<h2 id="community-centric-roles"><a class="not-rich" href="#community-centric-roles"><i class="fas fa-link"></i></a> Community centric roles</h2>
+<p>The authors identified a set of community-centric (including non-coding-related) roles, like developer advocates and mentors. These included &ldquo;community founder&rdquo; and &ldquo;community manager.&rdquo;</p>
+<p>The community manager roles were further divided into many other activities:</p>
+<ul>
+<li><strong>advocate</strong>: working on &ldquo;large mass engagement,&rdquo; giving and organizing talks, and advertising software</li>
+<li><strong>mentor</strong>: helping newcomers to become more engaged</li>
+<li><strong>strategist</strong>: often related to governance, focused on improving processes and transparency (often internally within a company supporting OSS)</li>
+<li><strong>treasurer</strong>: making sure the ecosystem is financially sustainable!</li>
+<li><strong>writer</strong>: creating documentation, education materials, books, etc.</li>
+<li><strong>license manager</strong>: handling legal work</li>
+</ul>
+<p>The project-centric roles included coders, project managers, and system admins. That&rsquo;s pretty standard stuff.</p>
+<h2 id="entry-points-and-career-movements"><a class="not-rich" href="#entry-points-and-career-movements"><i class="fas fa-link"></i></a> Entry points and career movements</h2>
+<p>Studying the participants&rsquo; career pathways revealed that there was no set plan for working in OSS.</p>
+<blockquote>
+<p>Participants changed their pathways in different ways, moving from coding to non-coding-related roles, across companies and projects, and performing parallel OSS and non-OSS activities.</p>
+</blockquote>
+<p>Some started while in graduate school, and others while lurking. Some started at large software companies, and others at startups. Others worked at nonprofits, realizing the importance of community-facing work, or had no background in technology at all.</p>
+<blockquote>
+<p>Non-coding activities are an integral part of a flexible and fluid OSS career path, which encompasses multiple roles. Different participants from different backgrounds built their OSS careers through different roles and activities.</p>
+</blockquote>
+<h2 id="discussion"><a class="not-rich" href="#discussion"><i class="fas fa-link"></i></a> Discussion</h2>
+<p>I wrote about my <em>surprise</em> that OSS exists in <a href="/papers/mitigating_exploitations_indie_dev_freeman.html">yesterday&rsquo;s paper</a>. When I step back and realize how much work—often unpaid, often unrecognized, often unappreciated—goes into open source software, it&rsquo;s all pretty astounding.</p>
+<p>This paper finds that because OSS has matured (because they are a driving force in software today), there are a new set of roles that contribute to its success. People jump between these roles, or work in multiple at once, but the most important point is that <strong>lots of non-coding work goes into open source.</strong></p>
+<p>The authors draw upon <em>legitimate peripheral participation</em> (LPP) to explain some of these findings. LPP describes how participants can &ldquo;lurk&rdquo; on the periphery, building skills and knowledge, before learning enough to contribute more visibly. This explains several, but not all, pathways in this paper.</p>
+<p><strong>A call for action</strong>: the researchers call upon the OSS community to recognize and reward these community-facing contributors. (I hate the term &ldquo;non-technical&rdquo;—it just means different skills, and is used too often to discredit people who can&rsquo;t code.)</p>
+<p><strong>Threats to validity</strong>: I haven&rsquo;t seen this section in a paper before, but the authors describe several ways in which their study might be <em>invalid</em>:</p>
+<ul>
+<li>construct validity, if their definition of open source wasn&rsquo;t accurate (unlikely!)</li>
+<li>internal validity, which may be threatened by the fact that they only interviewed <em>successful</em> open source contributors</li>
+<li>reliability, the extent to which this can be replicated and is consistent</li>
+<li>theoretical saturation, or if they created a sufficiently high-quality sample (they hope so!)</li>
+</ul>
+<p>This was a good read. I love that the goal of this paper was essentially to dive into non-coding roles in open source. It might not be apparent that these folks play a major role in a project&rsquo;s success, but this paper makes clear that they do.</p>
+
+      <p><i class="fas fa-square font-green-800"></i></p>
+    </div>
+    <div class="font-semibold text-green-800 pt-4">
+      <a href="/"><i class="fas fa-arrow-left"></i> Return home</a>
+    </div>
+  </article>
+</div><nav class="bar bar-footer clearfix" data-stick-bottom>
+    <div class="bar-inner">
+        <ul class="pager pull-left">
+            <li class="prev">
+                <a href="/what_i_read/20201024.html" title="What I read this week (October 18 - 24)"><i
+                        class="icon icon-angle-left"
+                        aria-hidden="true"></i><span>&nbsp;&nbsp;</span></a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+</main>
+    </div>
+    <div class="hidden w-0 md:block md:w-1/4 md:pt-8 md:pl-12"><aside class="" itemscope itemtype="http://schema.org/WPSideBar">
+  <div class="pb-8">
+    <h3 class="font-semibold text-xl">Categories</h3>
+    <ul class="">
+        <li class="">+ <a href="/categories/books.html" class="font-bold text-green-900">books
+            </a><span class="">20</span>
+        </li>
+        <li class="">+ <a href="/categories/general.html" class="font-bold text-green-900">general
+            </a><span class="">40</span>
+        </li>
+        <li class="">+ <a href="/categories/papers.html" class="font-bold text-green-900">papers
+            </a><span class="">75</span>
+        </li>
+        <li class="">+ <a href="/categories/projects.html" class="font-bold text-green-900">projects
+            </a><span class="">7</span>
+        </li>
+        <li class="">+ <a href="/categories/self.html" class="font-bold text-green-900">self
+            </a><span class="">4</span>
+        </li>
+        <li class="">+ <a href="/categories/spark.html" class="font-bold text-green-900">spark
+            </a><span class="">34</span>
+        </li>
+        <li class="">+ <a href="/categories/what-i-read.html" class="font-bold text-green-900">what-i-read
+            </a><span class="">45</span>
+        </li>
+    </ul>
+</div>
+<div class="pb-4">
+    <h3 class="font-semibold text-xl">Recent Posts</h3>
+    <ul class="recent-post-list list-unstyled no-thumbnail">
+        <li class="pb-4">
+            <p>
+                <a href="/papers/hidden_figures_oss_trinkenreich.html" class="font-bold text-green-900">[Paper] Hidden Figures: Roles and Pathways of Successful OSS Contributors</a>
+                <time datetime="2020-10-24 00:00:00 &#43;0000 UTC" itemprop="datePublished" class="text-gray-600 text-sm">2020-10-24
+                </time>
+            </p>
+
+        </li>
+        <li class="pb-4">
+            <p>
+                <a href="/what_i_read/20201024.html" class="font-bold text-green-900">What I read this week (October 18 - 24)</a>
+                <time datetime="2020-10-24 00:00:00 &#43;0000 UTC" itemprop="datePublished" class="text-gray-600 text-sm">2020-10-24
+                </time>
+            </p>
+
+        </li>
+        <li class="pb-4">
+            <p>
+                <a href="/papers/mitigating_exploitations_indie_dev_freeman.html" class="font-bold text-green-900">[Paper] Mitigating Exploitation: Indie Game Developers&#39; Reconfigurations of Labor in Technology</a>
+                <time datetime="2020-10-23 00:00:00 &#43;0000 UTC" itemprop="datePublished" class="text-gray-600 text-sm">2020-10-23
+                </time>
+            </p>
+
+        </li>
+        <li class="pb-4">
+            <p>
+                <a href="/papers/conformity_eating_disorders_piper.html" class="font-bold text-green-900">[Paper] Conformity of Eating Disorders through Content Moderation</a>
+                <time datetime="2020-10-22 00:00:00 &#43;0000 UTC" itemprop="datePublished" class="text-gray-600 text-sm">2020-10-22
+                </time>
+            </p>
+
+        </li>
+        <li class="pb-4">
+            <p>
+                <a href="/papers/fandom_migrations_fiesler.html" class="font-bold text-green-900">[Paper] Moving Across Lands: Online Platform Migration in Fandom Communities</a>
+                <time datetime="2020-10-21 00:00:00 &#43;0000 UTC" itemprop="datePublished" class="text-gray-600 text-sm">2020-10-21
+                </time>
+            </p>
+
+        </li>
+    </ul>
+</div><div class="pb-12">
+    <h3 class="font-semibold text-xl">Tags</h3>
+    <ul class="">
+        <li class="">+ <a href="/tags/#republic.html" class="font-bold text-green-900">#republic
+            </a><span class="">5</span>
+        </li>
+        <li class="">+ <a href="/tags/chi2019.html" class="font-bold text-green-900">chi2019
+            </a><span class="">1</span>
+        </li>
+        <li class="">+ <a href="/tags/chi2020.html" class="font-bold text-green-900">chi2020
+            </a><span class="">20</span>
+        </li>
+        <li class="">+ <a href="/tags/cscw2020.html" class="font-bold text-green-900">cscw2020
+            </a><span class="">5</span>
+        </li>
+        <li class="">+ <a href="/tags/fat2020.html" class="font-bold text-green-900">fat2020
+            </a><span class="">2</span>
+        </li>
+        <li class="">+ <a href="/tags/iclr.html" class="font-bold text-green-900">iclr
+            </a><span class="">2</span>
+        </li>
+        <li class="">+ <a href="/tags/icwsm2020.html" class="font-bold text-green-900">icwsm2020
+            </a><span class="">5</span>
+        </li>
+        <li class="">+ <a href="/tags/indistractable.html" class="font-bold text-green-900">indistractable
+            </a><span class="">2</span>
+        </li>
+        <li class="">+ <a href="/tags/neurips.html" class="font-bold text-green-900">neurips
+            </a><span class="">1</span>
+        </li>
+        <li class="">+ <a href="/tags/password-tool.html" class="font-bold text-green-900">password-tool
+            </a><span class="">6</span>
+        </li>
+        <li class="">+ <a href="/tags/reading-club.html" class="font-bold text-green-900">reading-club
+            </a><span class="">13</span>
+        </li>
+        <li class="">+ <a href="/tags/recsys.html" class="font-bold text-green-900">recsys
+            </a><span class="">1</span>
+        </li>
+        <li class="">+ <a href="/tags/site.html" class="font-bold text-green-900">site
+            </a><span class="">5</span>
+        </li>
+        <li class="">+ <a href="/tags/www.html" class="font-bold text-green-900">www
+            </a><span class="">2</span>
+        </li>
+    </ul>
+</div>
+</aside><footer class="" itemscope itemtype="http://schema.org/WPFooter">
+  <div class="py-4 text-sm">
+    &copy; 2019 - 2020 Tushar Chandra
+    <p style="margin-bottom: 4px">All opinions are my own.</p>
+    <div class="publishby">Powered by Hugo with a custom theme.</div>
+  </div>
+  <ul class="">
+    <li class="inline text-xl pr-4">
+      <a href="https://github.com/tuchandra" target="_blank" title="github">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+    <li class="inline text-xl pr-4">
+      <a href="https://www.linkedin.com/in/tushar-chandra-76a623b6/" target="_blank" title="linkedin">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+    <li class="inline text-xl pr-4">
+      <a href="mailto:me@tusharc.dev" target="_blank" title="envelope">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+    <li class="inline text-xl pr-4">
+      <a href="/index.xml" target="_blank" title="rss">
+        <i class="fas fa-rss"></i>
+      </a>
+    </li>
+
+  </ul>
+</footer>
+    </div>
+  </div>
+  <div class="mx-auto w-screen px-4 bg-green-500 mt-4 md:py-8">
+    <div class="md:invisible md:hidden max-w-8xl"><footer class="" itemscope itemtype="http://schema.org/WPFooter">
+  <div class="py-4 text-sm">
+    &copy; 2019 - 2020 Tushar Chandra
+    <p style="margin-bottom: 4px">All opinions are my own.</p>
+    <div class="publishby">Powered by Hugo with a custom theme.</div>
+  </div>
+  <ul class="">
+    <li class="inline text-xl pr-4">
+      <a href="https://github.com/tuchandra" target="_blank" title="github">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+    <li class="inline text-xl pr-4">
+      <a href="https://www.linkedin.com/in/tushar-chandra-76a623b6/" target="_blank" title="linkedin">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+    <li class="inline text-xl pr-4">
+      <a href="mailto:me@tusharc.dev" target="_blank" title="envelope">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+    <li class="inline text-xl pr-4">
+      <a href="/index.xml" target="_blank" title="rss">
+        <i class="fas fa-rss"></i>
+      </a>
+    </li>
+
+  </ul>
+</footer>
+    </div>
+  </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_SVG"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+            showMathMenu: false, //disables context menu
+            tex2jax: {
+            inlineMath: [ ['$','$'], ['\\(','\\)'] ]
+           }
+    });
+</script>
+
+
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/highlight.min.js"></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/python.min.js"></script><script>
+    hljs.configure({
+        tabReplace: '    ', 
+        classPrefix: ''     
+        
+    })
+    hljs.initHighlightingOnLoad();
+</script>
+
+
+<script data-goatcounter="https://tusharc.goatcounter.com/count" async src="//gc.zgo.at/count.js">
+</script>
+</body>
+
+</html>

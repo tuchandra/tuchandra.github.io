@@ -12,6 +12,24 @@
     
     
     <item>
+      <title>Bookmarklet for SudokuExchange</title>
+      <link>/posts/sudoku_bookmarklet.html</link>
+      <pubDate>Wed, 27 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/sudoku_bookmarklet.html</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve been playing a lot of Sudoku while at home, and today I made a quick tool to make it easier for myself: a bookmarklet to open NY Times Sudoku puzzles on &lt;a href=&#34;https://sudokuexchange.com&#34;&gt;SudokuExchange.com&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>PMD password tool: making it all work</title>
+      <link>/posts/password_tool_5.html</link>
+      <pubDate>Sat, 23 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/password_tool_5.html</guid>
+      <description>&lt;p&gt;After clearing up unexpected challenges and removing roadblocks, all that was left was to &lt;em&gt;build&lt;/em&gt;. A full evening of coding later, the Pokemon Mystery Dungeon rescue tool &lt;em&gt;works&lt;/em&gt;, which is huge! This post reflects on the last few steps of the process.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>What I read this week (May 17 - May 23)</title>
       <link>/what_i_read/20200523.html</link>
       <pubDate>Sat, 23 May 2020 00:00:00 +0000</pubDate>
@@ -171,24 +189,6 @@
       
       <guid>/posts/apr2020_website_changes.html</guid>
       <description>&lt;p&gt;I made a couple more changes to my website: giving more credit to the authors of the papers I read and adding a new category.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] &#39;On Finsta I can say Hail Satan&#39;: Being Authentic but Disagreeable on Instagram</title>
-      <link>/papers/finsta_authentic_disagreebale_taber.html</link>
-      <pubDate>Tue, 28 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/papers/finsta_authentic_disagreebale_taber.html</guid>
-      <description>&lt;p&gt;This CHI 2020 paper studies how people use multiple accounts on Instagram, being the first to document personality differences between different accounts on the same platform.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>A variety of talks from CHI 2020</title>
-      <link>/papers/chi_2020_nordic_talks.html</link>
-      <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/papers/chi_2020_nordic_talks.html</guid>
-      <description>&lt;p&gt;On Tuesday morning, I came across &lt;a href=&#34;https://www.chinordic2020.org/&#34;&gt;CHI Nordic 2020&lt;/a&gt;, which was a mini-conference put together to present and discuss Nordic papers from CHI 2020. I joined the last session on &amp;ldquo;computational materials&amp;rdquo; and watched 3 talks.&lt;/p&gt;</description>
     </item>
     
   </channel>
