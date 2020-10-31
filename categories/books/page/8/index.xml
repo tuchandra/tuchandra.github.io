@@ -6,10 +6,19 @@
     <description>Recent content in books on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 13 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 31 Oct 2020 01:00:00 +0000</lastBuildDate>
     
         <atom:link href="/categories/books/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>What I read this week (March 22 - March 28)</title>
+      <link>/what_i_read/20200328.html</link>
+      <pubDate>Sat, 28 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/what_i_read/20200328.html</guid>
+      <description>&lt;p&gt;This week, I read two articles about &amp;ldquo;broader impact&amp;rdquo; statements, soon to be required by NeurIPS. Other articles include a discussion of Facebook&amp;rsquo;s suicide prevention AI, suggestions on fighting fake news, and poll results showing Fox News viewers are less likely to take the coronavirus threat seriously.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Normalcy during coronavirus</title>
@@ -180,15 +189,6 @@
       
       <guid>/posts/advice_for_reading_papers_ng.html</guid>
       <description>&lt;p&gt;I spent half an hour watching one of Andrew Ng&amp;rsquo;s &lt;a href=&#34;https://www.youtube.com/watch?v=733m6qBH-jI&#34;&gt;deep learning lectures&lt;/a&gt;, this one focusing on reading research papers and career advice. This post is a summary of what I learned.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>What I read this week (February 9 - February 15)</title>
-      <link>/what_i_read/20200215.html</link>
-      <pubDate>Sat, 15 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/what_i_read/20200215.html</guid>
-      <description>&lt;p&gt;Articles I read this week, about procrastination, high-output management, technical research, and more.&lt;/p&gt;</description>
     </item>
     
   </channel>

@@ -6,10 +6,19 @@
     <description>Recent content in Books on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 13 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 31 Oct 2020 01:00:00 +0000</lastBuildDate>
     
         <atom:link href="/books/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>What I read this week (September 20 - September 26)</title>
+      <link>/what_i_read/20200926.html</link>
+      <pubDate>Sat, 26 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/what_i_read/20200926.html</guid>
+      <description>&lt;p&gt;This week&amp;rsquo;s reading, including &amp;ldquo;Useful things to know about engineering levels,&amp;rdquo; &amp;ldquo;Enable learning in technical writing,&amp;rdquo; and more.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>[Paper] Reliance on Metrics is a Fundamental Challenge for AI</title>
@@ -180,15 +189,6 @@
       
       <guid>/what_i_read/20200822.html</guid>
       <description>&lt;p&gt;I did a lot of reading this week&amp;mdash;articles shared on Twitter, from newsletters, or passed along by friends. Topics include AI bias, data science careers, technical debt and testing data science systems, and more.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>My review of &#39;You Look Like a Thing and I Love You&#39;</title>
-      <link>/books/you_look_like_a_thing.html</link>
-      <pubDate>Fri, 21 Aug 2020 20:00:00 +0000</pubDate>
-      
-      <guid>/books/you_look_like_a_thing.html</guid>
-      <description>&lt;p&gt;I picked up &lt;a href=&#34;https://twitter.com/JanelleCShane&#34;&gt;Janelle Shane&amp;rsquo;s&lt;/a&gt; book, &lt;em&gt;You Look Like a Thing and I Love You&lt;/em&gt;, a couple of weeks ago. Combining clear explanations of AI with hilarious examples of how weird it can be, this was one of the best books I&amp;rsquo;ve read in a while.&lt;/p&gt;</description>
     </item>
     
   </channel>

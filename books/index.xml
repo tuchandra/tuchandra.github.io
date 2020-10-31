@@ -6,10 +6,21 @@
     <description>Recent content in Books on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 13 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 31 Oct 2020 01:00:00 +0000</lastBuildDate>
     
         <atom:link href="/books/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>My review of Calling Bullshit</title>
+      <link>/books/calling_bullshit.html</link>
+      <pubDate>Sat, 31 Oct 2020 01:00:00 +0000</pubDate>
+      
+      <guid>/books/calling_bullshit.html</guid>
+      <description>&lt;p&gt;&amp;ldquo;The world is awash with bullshit,&amp;rdquo; Carl Bergstrom and Jevin West write.
+What is it? How do we recognize it? How do we call it out when we see it?
+&lt;em&gt;Calling Bullshit: The Art of Skepticism in a Data-Driven World&lt;/em&gt;, informs us on these questions.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>What I read this week (October 25 - 31)</title>
@@ -185,15 +196,6 @@ This RecSys 2020 paper investigates by modeling recommender systems with numeric
       
       <guid>/papers/improving_fairness_practitioner_needs_holstein.html</guid>
       <description>&lt;p&gt;There&amp;rsquo;s lots of research on what (un)fairness in machine learning looks like. But what do industry practitioners actually need to address fairness issues? This paper surveys them to find out.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>What I read this week (September 20 - September 26)</title>
-      <link>/what_i_read/20200926.html</link>
-      <pubDate>Sat, 26 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/what_i_read/20200926.html</guid>
-      <description>&lt;p&gt;This week&amp;rsquo;s reading, including &amp;ldquo;Useful things to know about engineering levels,&amp;rdquo; &amp;ldquo;Enable learning in technical writing,&amp;rdquo; and more.&lt;/p&gt;</description>
     </item>
     
   </channel>

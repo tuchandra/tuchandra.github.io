@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>What I read this week (May 24 - May 30)</title>
+      <link>/what_i_read/20200530.html</link>
+      <pubDate>Sat, 30 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/what_i_read/20200530.html</guid>
+      <description>&lt;p&gt;This week, I read a lot of advice: on writing, on grad school, and more. Most of this was written while waiting for a particularly painful MCMC model to sample.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>PMD password tool: should I do this?</title>
       <link>/posts/password_tool_6.html</link>
       <pubDate>Thu, 28 May 2020 00:00:00 +0000</pubDate>
@@ -53,7 +62,7 @@
       <pubDate>Fri, 22 May 2020 00:00:00 +0000</pubDate>
       
       <guid>/papers/taking_data_out_of_context_ur.html</guid>
-      <description></description>
+      <description>&lt;p&gt;This CHI 2020 paper studies what happens if you push the limits of personalized ads by using data that people didn&amp;rsquo;t realize they&amp;rsquo;d given out.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -180,15 +189,6 @@
       
       <guid>/papers/computing_students_difficulties_hci_oleson.html</guid>
       <description>&lt;p&gt;Why is it so hard for students to learn about HCI? Oleson et al. try to find out in this paper, interviewing computing students about difficulties they experienced in HCI design education.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] Random, Messy, Funny, Raw: Finstas as Intimate Reconfigurations of Social Media</title>
-      <link>/papers/intimate_reconfigurations_finsta_xiao.html</link>
-      <pubDate>Wed, 29 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/papers/intimate_reconfigurations_finsta_xiao.html</guid>
-      <description>&lt;p&gt;Another paper studying &amp;ldquo;finstas&amp;rdquo; (fake / secret Instagram accounts, shared only with a small group of people). This one, by Sijia Xiao et al., received an Honorable Mention at CHI 2020. In contrast to yesterday&amp;rsquo;s, this work draws from feminist theory to explore finstas as &amp;ldquo;intimate reconfigurations&amp;rdquo; of the Instagram platform itself.&lt;/p&gt;</description>
     </item>
     
   </channel>
