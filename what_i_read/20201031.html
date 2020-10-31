@@ -5,7 +5,7 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <title>
-    Democratizing PySpark For Mobile Game Publishing - Tushar Chandra
+    What I read this week (October 25 - 31) - Tushar Chandra
     </title>
   <head>
   <meta charset="utf-8">
@@ -20,10 +20,10 @@
   <meta name="format-detection" content="telephone=no,email=no,adress=no">
   
   <meta name="theme-color" content="#000000" />
-  <meta http-equiv="window-target" content="_top" /><meta name="description" content="This talk, by Ben Weber of Zynga, talks about their experiences making their PySpark environment available to everyone in their analytics function. Democratizing PySpark in this way, while not easy, helped to improve their analytics function.
+  <meta http-equiv="window-target" content="_top" /><meta name="description" content="This week: on data science portfolios, Python for feature films, optimizing for thinking, and interview questions.
 " />
   <meta name="generator" content="Hugo 0.70.0" />
-  <title>Democratizing PySpark For Mobile Game Publishing - Tushar Chandra</title>
+  <title>What I read this week (October 25 - 31) - Tushar Chandra</title>
 
   
   
@@ -32,23 +32,23 @@
   <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
 
-  <meta property="og:title" content="Democratizing PySpark For Mobile Game Publishing" />
-<meta property="og:description" content="This talk, by Ben Weber of Zynga, talks about their experiences making their PySpark environment available to everyone in their analytics function. Democratizing PySpark in this way, while not easy, helped to improve their analytics function." />
+  <meta property="og:title" content="What I read this week (October 25 - 31)" />
+<meta property="og:description" content="This week: on data science portfolios, Python for feature films, optimizing for thinking, and interview questions." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/spark/2020/democratizing_pyspark.html" />
-<meta property="article:published_time" content="2020-06-26T12:00:00+00:00" />
-<meta property="article:modified_time" content="2020-06-26T12:00:00+00:00" />
-<meta itemprop="name" content="Democratizing PySpark For Mobile Game Publishing">
-<meta itemprop="description" content="This talk, by Ben Weber of Zynga, talks about their experiences making their PySpark environment available to everyone in their analytics function. Democratizing PySpark in this way, while not easy, helped to improve their analytics function.">
-<meta itemprop="datePublished" content="2020-06-26T12:00:00&#43;00:00" />
-<meta itemprop="dateModified" content="2020-06-26T12:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="399">
+<meta property="og:url" content="/what_i_read/20201031.html" />
+<meta property="article:published_time" content="2020-10-31T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-10-31T00:00:00+00:00" />
+<meta itemprop="name" content="What I read this week (October 25 - 31)">
+<meta itemprop="description" content="This week: on data science portfolios, Python for feature films, optimizing for thinking, and interview questions.">
+<meta itemprop="datePublished" content="2020-10-31T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2020-10-31T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="709">
 
 
 
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Democratizing PySpark For Mobile Game Publishing"/>
-<meta name="twitter:description" content="This talk, by Ben Weber of Zynga, talks about their experiences making their PySpark environment available to everyone in their analytics function. Democratizing PySpark in this way, while not easy, helped to improve their analytics function."/>
+<meta name="twitter:title" content="What I read this week (October 25 - 31)"/>
+<meta name="twitter:description" content="This week: on data science portfolios, Python for feature films, optimizing for thinking, and interview questions."/>
 </head>
 </head>
 
@@ -127,42 +127,78 @@
   <article id="-" class="" itemscope itemtype="http://schema.org/BlogPosting">
     <div class="pt-4">
       <span class="font-semibold text-3xl"><h1 itemprop="name">
-  <a class="" href="/spark/2020/democratizing_pyspark.html">Democratizing PySpark For Mobile Game Publishing</a>
+  <a class="" href="/what_i_read/20201031.html">What I read this week (October 25 - 31)</a>
 </h1>
       </span>
       <div class="pb-4"><i class="fas fa-calendar-check text-gray-500 pr-1"></i>
-<time datetime="2020-06-26 12:00:00 &#43;0000 UTC" class="text-sm text-gray-600"
-  itemprop="datePublished">2020-06-26</time>
+<time datetime="2020-10-31 00:00:00 &#43;0000 UTC" class="text-sm text-gray-600"
+  itemprop="datePublished">2020-10-31</time>
 <span class="text-sm text-gray-600" itemprop="wordCount">
-	<i class="fas fa-pencil-alt text-gray-500 pl-4 pr-2"></i>399 words
+	<i class="fas fa-pencil-alt text-gray-500 pl-4 pr-2"></i>709 words
 </span><i class="fas fa-folder-open text-gray-500 pl-4 pr-1"></i>
-<a class="text-sm text-gray-600" href=" /categories/spark.html"> spark, </a>
+<a class="text-sm text-gray-600" href=" /categories/what-i-read.html"> what I read, </a>
       </div>
     </div>
     <div class="rich-text" itemprop="articleBody">
-      <p>This talk, by Ben Weber of Zynga, talks about their experiences making their PySpark environment available to everyone in their analytics function. Democratizing PySpark in this way, while not easy, helped to improve their analytics function.</p>
-<p>Zynga&rsquo;s publishing platform includes analytics and reporting, their experimentation platform, personalization services, and marketing optimization. Weber spoke <a href="/spark/automated_modeling.html">last year</a> about their experience using AutoML for scaling up their analytics function, and this talk represents a really cool evolution of that.</p>
-<p>Their environment until last year was Github, Python, and JupyterLab; recently, they&rsquo;ve moved into a more production-like era, using Docker, Flask, and (Py)Spark. They partner with their data engineering team to set up model endpoints, too. Over the past two years, too, they&rsquo;ve <strong>democratized PySpark</strong>.</p>
-<h2 id="democratizing-pyspark"><a class="not-rich" href="#democratizing-pyspark"><i class="fas fa-link"></i></a> Democratizing PySpark</h2>
-<p>For a long time, their analytics platform was only available to a small set of data scientists. They chose to open it up to everyone in analytics, woah! The goals were:</p>
+      <p>This week: on data science portfolios, Python for feature films, optimizing for thinking, and interview questions.</p>
+<p><strong><a href="https://eugeneyan.com/writing/data-science-portfolio-how-why-what/">Why have a data science portfolio and what it shows</a> by Eugene Yan.</strong></p>
+<p>Yan opens by noting that many have written about <em>how</em> to build a data science portfolio, but not <em>why</em>; or at least, not any more deeply than &ldquo;to get a job.&rdquo;
+He lists several other reasons:</p>
 <ul>
-<li>level up their teams</li>
-<li>standardize tooling</li>
-<li>evolve their data platform</li>
-<li>support large scale analyses</li>
-<li>distribute ownership of data products</li>
+<li>to learn and to practice</li>
+<li>to help others with learning</li>
+<li>because it&rsquo;s fun!</li>
 </ul>
-<p>This came with the obvious risks of causing high costs, fragmentation across many users, and distracting people from their main focus.</p>
-<p>To enable this transition, they had training notebooks and wiki documentation, offsite mentoring and PySpark office hours, and (most importantly, in Weber&rsquo;s opinion) <em>collaboration</em> in cross-team products and peer review.</p>
-<p>Another unexpected benefit was that, as they scaled up data products, there were more teams responsible for owning data products in production. Their products were generally either pipelines (running in batch, storing results in S3 or Couchbase, or being served on the experimentation platform) or endpoints (served with SageMaker).</p>
-<p>Weber continued with other analytics improvements that they&rsquo;ve seen since opening up the platform. There were lots of new applications:</p>
+<p>And, what I think is the most interesting part of the post, the author describes how &ldquo;portfolios demonstrate traits&rdquo;&mdash;traits like the ability to learn, persistence, or curiosity.
+It&rsquo;s the process of portfolio building that fosters these, and the process that helps to improve them.</p>
+<hr>
+<p><strong><a href="https://manuel.darcemont.fr/posts/focus-on-jour-job/">Advice to my young self: to succeed in your career, forget side projects and focus on your job</a> by Manuel Darcemont.</strong></p>
+<p>&ldquo;I&rsquo;ve always been suspicious of the idea of being attached to a company,&rdquo; the author opens.
+He chose to spend time outside work reading, working on side projects, and otherwise generally working outside of work.
+This post reflects on the ways in which this was wrong.</p>
+<p>When job searching, recruiters cared about the work he did at his current company&mdash;not his projects or meetups or community involvement.
+This isn&rsquo;t to knock side projects in general, he writes, but focusing on them as a way to get a better job is an illusion.</p>
+<p><strong>My thoughts</strong>: I think this was an interesting perspective.
+For what it&rsquo;s worth, the comments generally express disagreement with this post.
+I think that the value of side projects is generally overstated, but doing them for intrinsic satisfaction or for the sake of learning is still, to me, worthwhile.</p>
+<hr>
+<p><strong><a href="https://larahogan.me/blog/managers-when-teammate-shares-grief/">Managers: what do you do when their teammate shares their grief?</a> by Lara Hogan.</strong></p>
+<p>Hogan provides advice to managers whose teammates are experiencing grief.
+She suggests having a simple response ready&mdash;&ldquo;that sounds incredibly tough&rdquo;&mdash;and <em>not</em> jumping into problem solving mode.
+To me, her approach does a great job at bringing together emotional and professional support.</p>
+<p>I love the idea of using &ldquo;affirming body language.&rdquo;
+I hadn&rsquo;t heard that phrase before.
+Gently nod, make soft eye contact, and physically lean in, she suggests.</p>
+<p>Near the end, she asks managers to consider what their role is.
+&ldquo;As managers, we each have our own skills and perceptions of what our work is; you can’t be everything to everyone.&rdquo;
+Reflect on your own expertise, she writes, then focus on providing that support as best you can.</p>
+<hr>
+<p><strong><a href="https://www.gfx.dev/python-for-feature-film">Python for feature film by Dhruv Govil</a></strong> is a series of posts about how Python has been used to bring major films to life.
+This was a fascinating look into an industry I&rsquo;m pretty unfamiliar with.
+Understanding what kinds of problems they face, and what tools help folks solve these problems, is so interesting.</p>
+<hr>
+<p><strong><a href="https://daniel.fone.net.nz/blog/2020/10/21/talking-typing-thinking-software-is-not-a-desk-job/">Talking, Typing, Thinking: Software is not a desk job</a> by Daniel Fone</strong> opens with the line:</p>
+<blockquote>
+<p>tl;dr Developers over-optimise for the ergonomics of typing and not enough for the ergonomics of thinking.</p>
+</blockquote>
+<p>The author claims (and I think I agree) that the most important activities for effective software development are talking, listening, writing, reading, and thinking, sorted in <em>increasing</em> order of importance.
+&ldquo;The people I value working with aren&rsquo;t accurate typists, they&rsquo;re clear thinkists,&rdquo; he writes.</p>
+<p><strong>Thoughts</strong>: I agree with the premise of those post, but left a little disappointed.
+I would have liked to see more on how the author &ldquo;elevates thinking to core work&rdquo; or otherwise optimizes for its ergonomics.</p>
+<hr>
+<p><strong><a href="https://firstround.com/review/the-40-best-questions-to-ask-in-an-interview-how-to-go-deeper-than-whats-the-culture-like/">The 40 best questions to ask in an interview&mdash;how to go deeper than &ldquo;what&rsquo;s the culture like?&quot;</a></strong> is an unexpectedly, actually good list of interview questions.
+Some of my favorites include:</p>
+<blockquote>
 <ul>
-<li>using an autoencoder for cheat detection, by modeling players as 1D images</li>
-<li>modeling Markov chains in PySpark to simulate how a game economy would change over time</li>
-<li>tons of new experimentation work, doing testing at scale for all kinds of games</li>
-<li>using reinforcement learning for real-time model serving for personalization, which is in prod on Word with Friends 2 and CSR Racing 2 (this is <a href="https://github.com/zynga/rl-bakery">open source</a>!)</li>
+<li>What are the most recent examples of things the company has tried and failed at?</li>
+<li>Has the company ever made a decision that prioritized its values over revenue?</li>
+<li>How do you personally learn how to be more inclusive? What&rsquo;s an example of a situation in which these learnings have changed the way you do your job?</li>
+<li>How would your team describe you?</li>
+<li>How do you cultivate and foster individual contributor growth on the team?</li>
+<li>How does the team deal with two urgent projects with conflicting deadlines?</li>
 </ul>
-<p>What a great talk! I joined because of how good Weber&rsquo;s talk was last year, and this was even more interesting. It struck the right balance of talking about interesting applications, having well-designed slides, and giving interesting, actionable advice.</p>
+</blockquote>
+<p>The questions have descriptions and added context, too. Really great.</p>
 
       <p><i class="fas fa-square font-green-800"></i></p>
     </div>
@@ -174,14 +210,9 @@
     <div class="bar-inner">
         <ul class="pager pull-left">
             <li class="prev">
-                <a href="/spark/2020/friday_morning_keynotes.html" title="Friday morning keynotes: on PyTorch and COVID"><i
+                <a href="/papers/hidden_figures_oss_trinkenreich.html" title="[Paper] Hidden Figures: Roles and Pathways of Successful OSS Contributors"><i
                         class="icon icon-angle-left"
                         aria-hidden="true"></i><span>&nbsp;&nbsp;</span></a>
-            </li>
-            <li class="next">
-                <a href="/spark/2020/automated_testing_undocumented_assumptions.html"
-                    title="Automated Testing For Protecting Data Pipelines from Undocumented Assumptions"><span>&nbsp;&nbsp;</span><i
-                        class="icon icon-angle-right" aria-hidden="true"></i></a>
             </li>
         </ul>
     </div>

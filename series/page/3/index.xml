@@ -11,6 +11,15 @@
     
     
     <item>
+      <title>[Paper] Content moderation, AI, and the question of scale</title>
+      <link>/papers/content_moderation_scale_gillespie.html</link>
+      <pubDate>Fri, 21 Aug 2020 15:00:00 +0000</pubDate>
+      
+      <guid>/papers/content_moderation_scale_gillespie.html</guid>
+      <description>&lt;p&gt;This short paper in &lt;em&gt;Big Data and Society&lt;/em&gt; came across my radar on Twitter today. Automated content moderation is often heralded as an answer to the impenetrable size of Facebook, YouTube, and other platforms. But it&amp;rsquo;s not clear that automation is the answer.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>[Paper] The Media Coverage of the 2020 US Presidential Election Candidates through the Lens of Google&#39;s Top Stories</title>
       <link>/papers/media_coverage_presidential_google_kawakami.html</link>
       <pubDate>Fri, 21 Aug 2020 00:00:00 +0000</pubDate>
@@ -179,15 +188,6 @@
       
       <guid>/what_i_read/20200718.html</guid>
       <description>&lt;p&gt;This week, all the blog posts and articles I read came from &lt;a href=&#34;https://pointer.io&#34;&gt;Pointer&lt;/a&gt;. I spent most of my free time finishing up the book &lt;em&gt;Twenty Six Words&lt;/em&gt; (highly recommend!) and then starting &lt;em&gt;Weapons of Math Destruction&lt;/em&gt; by Cathy O&amp;rsquo;Neil.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>The future of Section 230</title>
-      <link>/books/twenty_six_words_4.html</link>
-      <pubDate>Fri, 17 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/books/twenty_six_words_4.html</guid>
-      <description>&lt;p&gt;What comes next for Section 230? What comes next for the platforms who have used Section 230 as a shield for so long?&lt;/p&gt;</description>
     </item>
     
   </channel>

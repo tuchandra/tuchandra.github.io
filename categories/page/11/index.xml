@@ -6,10 +6,19 @@
     <description>Recent content in Categories on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 24 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 31 Oct 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Paper] A Taxonomy of Ethical Tensions in Inferring Mental Health States from Social Media (part 1/2)</title>
+      <link>/papers/ethical_tensions_social_media_chancellor_1.html</link>
+      <pubDate>Sun, 24 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/ethical_tensions_social_media_chancellor_1.html</guid>
+      <description>&lt;p&gt;Research shows that it&amp;rsquo;s possible to infer individuals&amp;rsquo; mental health status from social media. While this has great potential for good, it also has great potential for misuse. So much, in fact, that this FAT* 2019 paper creates a taxonomy of all the different ethical tensions with this! This is part 1 of 2.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>On the digital ad industry</title>
@@ -181,15 +190,6 @@
       
       <guid>/spark/query_plans.html</guid>
       <description>&lt;p&gt;Speaker: Xiao Li (Databricks).&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Beyond Reason Codes: A Blueprint for Human-Centered, Low-Risk ML</title>
-      <link>/spark/interpretable_ai.html</link>
-      <pubDate>Wed, 24 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/spark/interpretable_ai.html</guid>
-      <description>&lt;p&gt;Speaker: Patrick Hall (H2O.ai).&lt;/p&gt;</description>
     </item>
     
   </channel>
