@@ -6,10 +6,19 @@
     <description>Recent content on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 24 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/papers/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Something that made me a better programmer</title>
+      <link>/posts/thinking_through_code.html</link>
+      <pubDate>Fri, 05 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/thinking_through_code.html</guid>
+      <description>&lt;p&gt;Something that has made me a better programmer is thinking through my code step-by-step before I run it. Stupid, right? It kind of seems that way in hindsight, but writing about it makes me feel better.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>What I read this week (May 24 - May 30)</title>
@@ -180,15 +189,6 @@
       
       <guid>/papers/social_anxiety_mmorpgs_dechant.html</guid>
       <description>&lt;p&gt;How are MMORPGs perceived by people with social anxiety? What do they find enjoyable about MMORPGS? How does real-world anxiety translate to social experiences in a video game setting? This CHI 2020 paper by Dechant et al. studies these and other questions about the interactions between social anxiety and video games.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] Computing Students&#39; Learning Difficulties in HCI Education</title>
-      <link>/papers/computing_students_difficulties_hci_oleson.html</link>
-      <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/papers/computing_students_difficulties_hci_oleson.html</guid>
-      <description>&lt;p&gt;Why is it so hard for students to learn about HCI? Oleson et al. try to find out in this paper, interviewing computing students about difficulties they experienced in HCI design education.&lt;/p&gt;</description>
     </item>
     
   </channel>

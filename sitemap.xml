@@ -3,6 +3,54 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/papers.html</loc>
+    <lastmod>2020-11-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/papers/hardware_lottery_hooker.html</loc>
+    <lastmod>2020-11-02T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/categories.html</loc>
+    <lastmod>2020-11-02T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/papers.html</loc>
+    <lastmod>2020-11-02T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/reading-club.html</loc>
+    <lastmod>2020-11-02T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/tags.html</loc>
+    <lastmod>2020-11-02T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2020-11-02T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>/books.html</loc>
     <lastmod>2020-10-31T01:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -17,21 +65,7 @@
   </url>
   
   <url>
-    <loc>/categories.html</loc>
-    <lastmod>2020-10-31T01:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>/books/calling_bullshit.html</loc>
-    <lastmod>2020-10-31T01:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/</loc>
     <lastmod>2020-10-31T01:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -58,12 +92,6 @@
   </url>
   
   <url>
-    <loc>/papers.html</loc>
-    <lastmod>2020-10-24T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/papers/hidden_figures_oss_trinkenreich.html</loc>
     <lastmod>2020-10-24T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -72,20 +100,6 @@
   
   <url>
     <loc>/tags/cscw2020.html</loc>
-    <lastmod>2020-10-24T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/papers.html</loc>
-    <lastmod>2020-10-24T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/tags.html</loc>
     <lastmod>2020-10-24T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -169,13 +183,6 @@
   
   <url>
     <loc>/papers/deconstructing_filter_bubble_aridor.html</loc>
-    <lastmod>2020-10-13T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/reading-club.html</loc>
     <lastmod>2020-10-13T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

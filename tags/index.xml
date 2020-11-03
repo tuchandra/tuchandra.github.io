@@ -6,10 +6,20 @@
     <description>Recent content in Tags on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 24 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Paper] The Hardware Lottery</title>
+      <link>/papers/hardware_lottery_hooker.html</link>
+      <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/hardware_lottery_hooker.html</guid>
+      <description>&lt;p&gt;The &amp;ldquo;hardware lottery&amp;rdquo; is when a research idea succeeds because it is suitable with available hardware.
+What does this mean for the future of research?&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>My review of Calling Bullshit</title>
@@ -187,15 +197,6 @@ This RecSys 2020 paper investigates by modeling recommender systems with numeric
       
       <guid>/what_i_read/20201003.html</guid>
       <description>&lt;p&gt;This week: a multi-armed bandit and a opinion dynamics model, both written in Julia by chance. That sparked a rabbit hole of reading about the language.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] Improving fairness in machine learning systems: What do industry practitioners need?</title>
-      <link>/papers/improving_fairness_practitioner_needs_holstein.html</link>
-      <pubDate>Sat, 26 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/papers/improving_fairness_practitioner_needs_holstein.html</guid>
-      <description>&lt;p&gt;There&amp;rsquo;s lots of research on what (un)fairness in machine learning looks like. But what do industry practitioners actually need to address fairness issues? This paper surveys them to find out.&lt;/p&gt;</description>
     </item>
     
   </channel>

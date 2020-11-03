@@ -6,10 +6,19 @@
     <description>Recent content in Tags on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 24 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Automated And Explainable Deep Learning For Clinical Language Understanding At Roche</title>
+      <link>/spark/2020/clinical_decision_support_roche.html</link>
+      <pubDate>Thu, 25 Jun 2020 16:30:00 +0000</pubDate>
+      
+      <guid>/spark/2020/clinical_decision_support_roche.html</guid>
+      <description>&lt;p&gt;How does Roche use machine learning to help understand pathology reports? This talk gives a high-level overview of their data pipeline and tech stack, including infrastructure they&amp;rsquo;ve built up to do OCR and NLP.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>An Approach To Data Quality For Netflix Personalization Systems</title>
@@ -180,15 +189,6 @@
       
       <guid>/papers/critical_race_theory_ogburu.html</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve had my eye on this paper since I saw that it received Best Paper at CHI 2020, but in light of recent events it seems more timely than ever. How does critical race theory fit into HCI? How do technological systems perpetuate racism? How can we do better?&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Something that made me a better programmer</title>
-      <link>/posts/thinking_through_code.html</link>
-      <pubDate>Fri, 05 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/thinking_through_code.html</guid>
-      <description>&lt;p&gt;Something that has made me a better programmer is thinking through my code step-by-step before I run it. Stupid, right? It kind of seems that way in hindsight, but writing about it makes me feel better.&lt;/p&gt;</description>
     </item>
     
   </channel>

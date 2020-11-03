@@ -6,10 +6,19 @@
     <description>Recent content on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 24 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/papers/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Paper] Bayesian Multilevel Estimation with Poststratification: State-Level Estimates from National Polls</title>
+      <link>/papers/bayesian_multilevel_estimation_gelman.html</link>
+      <pubDate>Tue, 26 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/bayesian_multilevel_estimation_gelman.html</guid>
+      <description>&lt;p&gt;This is a summary of the seminal paper by David K. Park, Andrew Gelman, and Joseph Bafumi. View the original on &lt;a href=&#34;http://www.stat.columbia.edu/~gelman/research/published/parkgelmanbafumi.pdf&#34;&gt;Gelman&amp;rsquo;s website&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>[Paper] A Taxonomy of Ethical Tensions in Inferring Mental Health States from Social Media (part 2/2)</title>
@@ -181,15 +190,6 @@
       
       <guid>/spark/graph_technology.html</guid>
       <description>&lt;p&gt;Speakers: Jake Graham and Alicia Frame (Neo4j).&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Modular Apache Spark: Transform Your Code into Pieces</title>
-      <link>/spark/modular_spark.html</link>
-      <pubDate>Thu, 25 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/spark/modular_spark.html</guid>
-      <description>&lt;p&gt;Speaker: Albert Franzi (SWE @ Alpha Health).&lt;/p&gt;</description>
     </item>
     
   </channel>
