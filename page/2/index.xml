@@ -6,10 +6,19 @@
     <description>Recent content on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 02 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>What I read this week (September 27 - October 3)</title>
+      <link>/what_i_read/20201003.html</link>
+      <pubDate>Sat, 03 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/what_i_read/20201003.html</guid>
+      <description>&lt;p&gt;This week: a multi-armed bandit and a opinion dynamics model, both written in Julia by chance. That sparked a rabbit hole of reading about the language.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>[Paper] Improving fairness in machine learning systems: What do industry practitioners need?</title>
@@ -180,15 +189,6 @@
       
       <guid>/what_i_read/20200829.html</guid>
       <description>&lt;p&gt;My last week of vacation. I&amp;rsquo;ve been reading Cass Sunstein&amp;rsquo;s &lt;a href=&#34;https://press.princeton.edu/books/hardcover/9780691175515/republic&#34;&gt;#republic&lt;/a&gt; and the usual stuff from newsletters and Twitter.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] Equality of Opportunity in Supervised Learning</title>
-      <link>/papers/equality_of_opportunity_srebro.html</link>
-      <pubDate>Wed, 26 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/papers/equality_of_opportunity_srebro.html</guid>
-      <description>&lt;p&gt;Measuring the (un)fairness of a predictive model is challenging work. This NeurIPS paper motivates and defines two concepts for this, &amp;ldquo;equalized odds&amp;rdquo; and &amp;ldquo;equal opportunity.&amp;rdquo; It then develops a a post-training framework to induce these new notions of fairness onto a trained model.&lt;/p&gt;</description>
     </item>
     
   </channel>

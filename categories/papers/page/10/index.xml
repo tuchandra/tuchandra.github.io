@@ -6,10 +6,19 @@
     <description>Recent content in papers on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 02 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/categories/papers/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>What I read this week (December 29 - January 4)</title>
+      <link>/what_i_read/20200104.html</link>
+      <pubDate>Sat, 04 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/what_i_read/20200104.html</guid>
+      <description>&lt;p&gt;Articles I read this week, including the future of the web and different ways of conveying information, thoughts on the current state of software, and more.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>[Paper] Competition and Crowd-out for Brand Keywords in Sponsored Search</title>
@@ -181,15 +190,6 @@
       
       <guid>/papers/who_is_human_chancellor.html</guid>
       <description>&lt;p&gt;What does &amp;ldquo;human-centered machine learning&amp;rdquo; even mean? Who are the &amp;ldquo;humans&amp;rdquo; being studied, and how do papers studying them refer to them? This paper studies the &lt;em&gt;discourse&lt;/em&gt; surrounding humans within HCML.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Why all the paper summaries?</title>
-      <link>/posts/why_papers.html</link>
-      <pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/why_papers.html</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve been writing a bunch of paper summaries over the past couple of weeks, and I hope to continue this for several months. Why, though? This post will clear that up.&lt;/p&gt;</description>
     </item>
     
   </channel>

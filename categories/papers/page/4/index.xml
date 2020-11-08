@@ -6,10 +6,19 @@
     <description>Recent content in papers on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 02 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/categories/papers/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Papers] Two recommender systems papers from the ICML Participatory Approaches to ML workshop</title>
+      <link>/papers/icml_workshop_papers.html</link>
+      <pubDate>Mon, 20 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/icml_workshop_papers.html</guid>
+      <description>&lt;p&gt;The &lt;a href=&#34;https://participatoryml.github.io/&#34;&gt;Participatory Approaches to Machine Learning&lt;/a&gt; workshop at ICML 2020 caught my attention, and so I read two papers on recommender systems that came out of it: &lt;em&gt;Deconstructing the Filter Bubble: User Decision-Making and Recommender Systems&lt;/em&gt; and &lt;em&gt;Designing Recommender Systems with Reachability in Mind&lt;/em&gt;.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>[Paper] What are you optimizing for? Aligning Recommender Systems with Human Values</title>
@@ -180,15 +189,6 @@
       
       <guid>/spark/2020/geospatial_analytics_esri.html</guid>
       <description>&lt;p&gt;How does Esri use Spark and GIS to analyze human movement? How do they use this insight to assess risk? This talk attempts to answer these.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Patterns And Anti-Patterns For Memorializing Data Science Project Artifacts</title>
-      <link>/spark/2020/patterns_for_artifacts.html</link>
-      <pubDate>Thu, 25 Jun 2020 17:00:00 +0000</pubDate>
-      
-      <guid>/spark/2020/patterns_for_artifacts.html</guid>
-      <description>&lt;p&gt;So you need to save your work for future data scientists; how do you do this? This talk discusses best practices for saving artifacts from data science projects.&lt;/p&gt;</description>
     </item>
     
   </channel>

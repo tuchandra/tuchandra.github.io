@@ -6,10 +6,19 @@
     <description>Recent content on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 02 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>&#39;At the End of the Day Facebook Does What It Wants&#39;: How Users Experience Contesting Algorithmic Content Moderation</title>
+      <link>/papers/automated_content_mdoeration_karahalios.html</link>
+      <pubDate>Sun, 08 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/automated_content_mdoeration_karahalios.html</guid>
+      <description>&lt;p&gt;When algorithms make decisions, humans should be able to appeal them. Right? This CSCW paper studies users&amp;rsquo; experience with contesting algorithmic content moderation decisions.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>[Paper] The Hardware Lottery</title>
@@ -188,15 +197,6 @@ This RecSys 2020 paper investigates by modeling recommender systems with numeric
       
       <guid>/papers/data_strikes_vincent.html</guid>
       <description>&lt;p&gt;What do you do when &amp;ldquo;hit a company where it hurts&amp;rdquo; means their data, or their models? What does it mean to go on a &amp;ldquo;data strike&amp;rdquo;? This paper studies the idea of withholding one&amp;rsquo;s personal data and evaluates its impact on  recommender systems.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>What I read this week (September 27 - October 3)</title>
-      <link>/what_i_read/20201003.html</link>
-      <pubDate>Sat, 03 Oct 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/what_i_read/20201003.html</guid>
-      <description>&lt;p&gt;This week: a multi-armed bandit and a opinion dynamics model, both written in Julia by chance. That sparked a rabbit hole of reading about the language.&lt;/p&gt;</description>
     </item>
     
   </channel>
