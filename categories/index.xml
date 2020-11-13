@@ -6,17 +6,26 @@
     <description>Recent content in Categories on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 08 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>[Paper] Data and Power: Archival Appraisal Theory as a Framework for Data Preservation</title>
+      <link>/papers/data_and_power_archival_schoenebeck.html</link>
+      <pubDate>Fri, 13 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/data_and_power_archival_schoenebeck.html</guid>
+      <description>&lt;p&gt;Another [[CSCW]] paper for this week&amp;rsquo;s reading group; this one on digital archives. What does data preservation mean in a digital world? How do adults see their legacy? This paper draws on archival theory to study these questions.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>[Paper] &#39;At the End of the Day Facebook Does What It Wants&#39;: How Users Experience Contesting Algorithmic Content Moderation</title>
-      <link>/papers/automated_content_mdoeration_karahalios.html</link>
+      <link>/papers/automated_content_moderation_karahalios.html</link>
       <pubDate>Sun, 08 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>/papers/automated_content_mdoeration_karahalios.html</guid>
+      <guid>/papers/automated_content_moderation_karahalios.html</guid>
       <description>&lt;p&gt;When algorithms make decisions, humans should be able to appeal them. Right? This CSCW paper studies users&amp;rsquo; experience with contesting algorithmic content moderation decisions.&lt;/p&gt;</description>
     </item>
     
@@ -188,15 +197,6 @@ This RecSys 2020 paper investigates by modeling recommender systems with numeric
       
       <guid>/posts/python_39_generics.html</guid>
       <description>&lt;p&gt;Python 3.9 was released this week, and with it come a few incremental features. But my favorite feature isn&amp;rsquo;t just in Python 3.9&amp;mdash;it&amp;rsquo;s usable in 3.7 and up.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] &#39;Data Strikes&#39;: Evaluating the Effectiveness of a New Form of Collective Action Against Technology Companies</title>
-      <link>/papers/data_strikes_vincent.html</link>
-      <pubDate>Tue, 06 Oct 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/papers/data_strikes_vincent.html</guid>
-      <description>&lt;p&gt;What do you do when &amp;ldquo;hit a company where it hurts&amp;rdquo; means their data, or their models? What does it mean to go on a &amp;ldquo;data strike&amp;rdquo;? This paper studies the idea of withholding one&amp;rsquo;s personal data and evaluates its impact on  recommender systems.&lt;/p&gt;</description>
     </item>
     
   </channel>

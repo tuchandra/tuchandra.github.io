@@ -6,10 +6,19 @@
     <description>Recent content on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 08 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/papers/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>What is data science? (&#34;Everybody Lies&#34;, part 2)</title>
+      <link>/books/everybody_lies_2.html</link>
+      <pubDate>Tue, 31 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/books/everybody_lies_2.html</guid>
+      <description>&lt;p&gt;I had some more abstract thoughts about what &amp;ldquo;data science&amp;rdquo; really means while reading &lt;em&gt;Everybody Lies&lt;/em&gt;. In this post, I talk about data science as &lt;em&gt;discovery&lt;/em&gt; and about what it means to &amp;ldquo;do&amp;rdquo; data science.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>&#34;Everybody Lies&#34;, part 1</title>
@@ -180,15 +189,6 @@
       
       <guid>/papers/sketch_of_manosphere_ribeiro.html</guid>
       <description>&lt;p&gt;This paper characterizes and studies the migration of fringe &amp;ldquo;men&amp;rsquo;s rights&amp;rdquo; groups on Reddit and elsewhere. They demonstrate that these communities (the &amp;ldquo;Manosphere&amp;rdquo;) has more hateful speech than the rest of the web. Paper by &lt;a href=&#34;https://manoelhortaribeiro.github.io/&#34;&gt;Ribeiro&lt;/a&gt; et al.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>What I read this week (February 16 - February 22)</title>
-      <link>/what_i_read/20200222.html</link>
-      <pubDate>Sat, 22 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/what_i_read/20200222.html</guid>
-      <description>&lt;p&gt;Articles I read this week. Highlights include notes on drafting an engineering strategy and reducing &amp;ldquo;attention residue&amp;rdquo; (focusing on life admin &amp;amp; self care).&lt;/p&gt;</description>
     </item>
     
   </channel>

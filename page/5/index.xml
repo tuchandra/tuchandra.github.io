@@ -6,10 +6,19 @@
     <description>Recent content on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 08 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Geospatial Analytics At Scale: Analyzing Human Movement Patterns During A Pandemic</title>
+      <link>/spark/2020/geospatial_analytics_esri.html</link>
+      <pubDate>Thu, 25 Jun 2020 17:30:00 +0000</pubDate>
+      
+      <guid>/spark/2020/geospatial_analytics_esri.html</guid>
+      <description>&lt;p&gt;How does Esri use Spark and GIS to analyze human movement? How do they use this insight to assess risk? This talk attempts to answer these.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Patterns And Anti-Patterns For Memorializing Data Science Project Artifacts</title>
@@ -180,15 +189,6 @@
       
       <guid>/what_i_read/20200613.html</guid>
       <description>&lt;p&gt;Back to mostly-weekly reading, this week with &amp;ldquo;Where did software go wrong?&amp;rdquo; and a piece on encouraging written communication.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] Acting the Part: Examining Information Operations Within #BlackLivesMatter Discourse</title>
-      <link>/papers/information_operations_blm_arif.html</link>
-      <pubDate>Wed, 10 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/papers/information_operations_blm_arif.html</guid>
-      <description>&lt;p&gt;This CWCW 2018 paper studies tweets and profiles of accounts that were suspended by for affiliation with Russian information operation campaigns. How did these accounts contribute to the discourse? What kinds of things did they tweet about? What were their profiles like? Another timely paper, Dr. Starbird shared this on Twitter and it immediately stood out.&lt;/p&gt;</description>
     </item>
     
   </channel>
