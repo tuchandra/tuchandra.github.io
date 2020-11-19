@@ -6,10 +6,19 @@
     <description>Recent content in papers on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 13 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/categories/papers/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Data Agility - A Journey to Advanced Analytics and ML at Scale</title>
+      <link>/spark/data_agility.html</link>
+      <pubDate>Thu, 25 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/spark/data_agility.html</guid>
+      <description>&lt;p&gt;Speaker: Hari Subramanian (Eng. Manager @ Uber).&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Defending Deep Learning from Adversarial Attacks</title>

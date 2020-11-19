@@ -3,23 +3,57 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/what_i_read.html</loc>
-    <lastmod>2020-11-14T00:00:00+00:00</lastmod>
+    <loc>/papers.html</loc>
+    <lastmod>2020-11-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>/papers/complementary_nature_time_online_mok.html</loc>
+    <lastmod>2020-11-18T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>/categories.html</loc>
-    <lastmod>2020-11-14T00:00:00+00:00</lastmod>
+    <lastmod>2020-11-18T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/cscw2020.html</loc>
+    <lastmod>2020-11-18T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/papers.html</loc>
+    <lastmod>2020-11-18T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/tags.html</loc>
+    <lastmod>2020-11-18T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/</loc>
-    <lastmod>2020-11-14T00:00:00+00:00</lastmod>
+    <lastmod>2020-11-18T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/what_i_read.html</loc>
+    <lastmod>2020-11-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -37,12 +71,6 @@
   </url>
   
   <url>
-    <loc>/papers.html</loc>
-    <lastmod>2020-11-13T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/papers/data_and_power_archival_schoenebeck.html</loc>
     <lastmod>2020-11-13T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -50,28 +78,7 @@
   </url>
   
   <url>
-    <loc>/tags/cscw2020.html</loc>
-    <lastmod>2020-11-13T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/papers.html</loc>
-    <lastmod>2020-11-13T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>/tags/reading-club.html</loc>
-    <lastmod>2020-11-13T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/tags.html</loc>
     <lastmod>2020-11-13T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
