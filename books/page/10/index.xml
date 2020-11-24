@@ -6,10 +6,19 @@
     <description>Recent content in Books on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 31 Oct 2020 01:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/books/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>What I read this week (January 12 - 18)</title>
+      <link>/what_i_read/20200118.html</link>
+      <pubDate>Sat, 18 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/what_i_read/20200118.html</guid>
+      <description>&lt;p&gt;Articles I read this week, including &amp;ldquo;goodbye clean code,&amp;rdquo; the Neural ODEs paper retrospective, and technical writing.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Software engineering is an essential part of data science</title>
@@ -181,15 +190,6 @@
       
       <guid>/papers/spread_of_news_vosoughi.html</guid>
       <description>&lt;p&gt;This is &amp;ldquo;that paper on fake news,&amp;rdquo; with stunningly consistent conclusions. It studies the diffusion of verified true and false news on Twitter, and in particular how the patterns of information spread were different.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Features I would like to add to my SSG</title>
-      <link>/posts/features_for_site.html</link>
-      <pubDate>Mon, 09 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/features_for_site.html</guid>
-      <description>&lt;p&gt;I &lt;a href=&#34;https://tusharc.dev/site/about_website.html&#34;&gt;wrote&lt;/a&gt; about my SSG and how I built this website back in April. Over time, I&amp;rsquo;ve started to realize that some of the features I stripped out may actually be useful. This post is a wishlist of features that I would like to add over time.&lt;/p&gt;</description>
     </item>
     
   </channel>
