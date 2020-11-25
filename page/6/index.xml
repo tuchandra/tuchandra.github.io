@@ -6,10 +6,19 @@
     <description>Recent content on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 23 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Network Propaganda, part 3</title>
+      <link>/books/network_propaganda_3.html</link>
+      <pubDate>Wed, 17 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/books/network_propaganda_3.html</guid>
+      <description>&lt;p&gt;Part 3 of the book &lt;em&gt;Network Propaganda&lt;/em&gt; is titled &amp;ldquo;The Usual Suspects,&amp;rdquo; and its focus is on the propaganda culprits who received sustained public attention. Chapter 7 focuses on the alt-right; chapter 8 Russian information operations; and chapter 9 Facebook and Cambridge Analytica.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Spark Summit 2020: an early look at the schedule</title>
@@ -180,15 +189,6 @@
       
       <guid>/papers/computational_notebooks_chattopadhyay.html</guid>
       <description>&lt;p&gt;Computational notebooks are one of the most common tools in the data science world, but they are not without their limitations. This paper studies pain points and design opportunities for notebooks as used by professional data scientists.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] Understanding and Visualizing Data Iteration in Machine Learning</title>
-      <link>/papers/understanding_data_iteration_ml_hohman.html</link>
-      <pubDate>Fri, 08 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/papers/understanding_data_iteration_ml_hohman.html</guid>
-      <description>&lt;p&gt;Machine learning is as much&amp;mdash;if not more&amp;mdash;about the data as it is the models. This paper explores &lt;em&gt;data&lt;/em&gt; iteration, in contrast to model iteration, and studies ways that ML practitioners manage changing data.&lt;/p&gt;</description>
     </item>
     
   </channel>

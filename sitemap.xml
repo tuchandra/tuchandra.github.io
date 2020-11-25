@@ -3,6 +3,40 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/posts.html</loc>
+    <lastmod>2020-11-24T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories.html</loc>
+    <lastmod>2020-11-24T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/posts/covid_illinois.html</loc>
+    <lastmod>2020-11-24T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/general.html</loc>
+    <lastmod>2020-11-24T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2020-11-24T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>/books.html</loc>
     <lastmod>2020-11-23T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -17,21 +51,7 @@
   </url>
   
   <url>
-    <loc>/categories.html</loc>
-    <lastmod>2020-11-23T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>/books/hooked.html</loc>
-    <lastmod>2020-11-23T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/</loc>
     <lastmod>2020-11-23T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -176,12 +196,6 @@
   </url>
   
   <url>
-    <loc>/posts.html</loc>
-    <lastmod>2020-10-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/posts/cscw_reading_list.html</loc>
     <lastmod>2020-10-20T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -233,13 +247,6 @@
   <url>
     <loc>/tags/recsys.html</loc>
     <lastmod>2020-10-13T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/general.html</loc>
-    <lastmod>2020-10-10T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
