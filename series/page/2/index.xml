@@ -11,6 +11,17 @@
     
     
     <item>
+      <title>[Paper] Evaluating the fake news problem at the scale of the information ecosystem</title>
+      <link>/papers/fake_news_information_ecosystem_watts.html</link>
+      <pubDate>Wed, 14 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/fake_news_information_ecosystem_watts.html</guid>
+      <description>&lt;p&gt;What is the role of fake news in the overall media ecosystem?
+Conventional wisdom might say it&amp;rsquo;s significant, but this paper provides evidence for the opposite.
+Using datasets of cross-platform media viewing, the authors find that fake news represents a small proportion of overall media consumption.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>[Paper] Deconstructing the Filter Bubble: User Decision-Making and Recommender Systems</title>
       <link>/papers/deconstructing_filter_bubble_aridor.html</link>
       <pubDate>Tue, 13 Oct 2020 00:00:00 +0000</pubDate>
@@ -181,15 +192,6 @@ This RecSys 2020 paper investigates by modeling recommender systems with numeric
       
       <guid>/papers/framework_unintended_consequences_guttag.html</guid>
       <description>&lt;p&gt;What does it really mean for a machine learning system to be &amp;ldquo;biased&amp;rdquo;? Lots of different things, potentially, to the point where the term being so overloaded has started causing confusion. This paper presents six different categories of bias in machine learning.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>On speech</title>
-      <link>/books/republic_4.html</link>
-      <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/books/republic_4.html</guid>
-      <description>&lt;p&gt;Towards the end of &lt;em&gt;#republic&lt;/em&gt;, we study speech and its regulation by government. What are reasonable limits that a government might pose on speech? How might these change in the digital era?&lt;/p&gt;</description>
     </item>
     
   </channel>

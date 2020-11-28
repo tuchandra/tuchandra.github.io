@@ -6,7 +6,7 @@
     <description>Recent content in what I read on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 14 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/categories/what-i-read/index.xml" rel="self" type="application/rss+xml" />
     
@@ -27,6 +27,15 @@
       
       <guid>/books/hooked.html</guid>
       <description>&lt;p&gt;I review Nir Eyal&amp;rsquo;s &lt;em&gt;Hooked&lt;/em&gt;, a 200-page manual for creating habit-forming products. It&amp;rsquo;s clear that his steps work&amp;mdash;examples from several common products readily support them. But I question whether this is being used for good or evil.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>What I read this week (November 15 - 21)</title>
+      <link>/what_i_read/20201121.html</link>
+      <pubDate>Sat, 21 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/what_i_read/20201121.html</guid>
+      <description>&lt;p&gt;On work-life balance; writing simply; ethical issues with recommender systems; and trust and safety in products.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -184,17 +193,6 @@ This survey paper chronicles various attempts to predict elections from Twitter,
       
       <guid>/what_i_read/20201017.html</guid>
       <description>&lt;p&gt;On edge cases; machine learning education; the mainstream media and real and fake news; and other, shorter work.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] Evaluating the fake news problem at the scale of the information ecosystem</title>
-      <link>/papers/fake_news_information_ecosystem_watts.html</link>
-      <pubDate>Wed, 14 Oct 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/papers/fake_news_information_ecosystem_watts.html</guid>
-      <description>&lt;p&gt;What is the role of fake news in the overall media ecosystem?
-Conventional wisdom might say it&amp;rsquo;s significant, but this paper provides evidence for the opposite.
-Using datasets of cross-platform media viewing, the authors find that fake news represents a small proportion of overall media consumption.&lt;/p&gt;</description>
     </item>
     
   </channel>

@@ -58,6 +58,26 @@
   </url>
   
   <url>
+    <loc>/what_i_read.html</loc>
+    <lastmod>2020-11-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/what-i-read.html</loc>
+    <lastmod>2020-11-21T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/what_i_read/20201121.html</loc>
+    <lastmod>2020-11-21T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>/papers.html</loc>
     <lastmod>2020-11-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -101,19 +121,6 @@
   <url>
     <loc>/tags/cscw2020.html</loc>
     <lastmod>2020-11-18T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/what_i_read.html</loc>
-    <lastmod>2020-11-14T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/what-i-read.html</loc>
-    <lastmod>2020-11-14T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

@@ -6,10 +6,19 @@
     <description>Recent content on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 14 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/what_i_read/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Paper] What&#39;s Wrong with Computational Notebooks? Pain Points, Needs, and Design Opportunities</title>
+      <link>/papers/computational_notebooks_chattopadhyay.html</link>
+      <pubDate>Sat, 09 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/computational_notebooks_chattopadhyay.html</guid>
+      <description>&lt;p&gt;Computational notebooks are one of the most common tools in the data science world, but they are not without their limitations. This paper studies pain points and design opportunities for notebooks as used by professional data scientists.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>[Paper] Understanding and Visualizing Data Iteration in Machine Learning</title>
@@ -180,15 +189,6 @@
       
       <guid>/what_i_read/20200418.html</guid>
       <description>&lt;p&gt;This week&amp;rsquo;s reading happened almost all in one day, when I took time off work to recharge. I read articles and blog posts on COVID-19 models, focusing on the question of what it means to model something. There are also a couple of garden variety engineering &amp;amp; data science posts.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] Presenting machine learning model information to clinical end users with model facts labels</title>
-      <link>/papers/model_facts_sendak.html</link>
-      <pubDate>Sun, 12 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/papers/model_facts_sendak.html</guid>
-      <description>&lt;p&gt;This is another &amp;ldquo;interpeting machine learning&amp;rdquo; paper, this time in a medical context. The Duke researchers propose a &amp;ldquo;model facts&amp;rdquo; label, a la &amp;ldquo;nutrition facts&amp;rdquo; that we see on food packaging.&lt;/p&gt;</description>
     </item>
     
   </channel>
