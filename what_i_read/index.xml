@@ -6,10 +6,19 @@
     <description>Recent content on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 21 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Nov 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/what_i_read/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>What I read this week (November 22 - 28)</title>
+      <link>/what_i_read/20201128.html</link>
+      <pubDate>Sat, 28 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/what_i_read/20201128.html</guid>
+      <description>&lt;p&gt;On quirks in Ruby, leaving code better than you found it, VS Code shortcuts, and graph neural networks. Happy Thanksgiving, for those in the US!&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>COVID and Illinois</title>
@@ -184,15 +193,6 @@ What is it? How do we recognize it? How do we call it out when we see it?
       <guid>/papers/election_predicting_twitter_gayoavello.html</guid>
       <description>&lt;p&gt;Affectionately titled &amp;ldquo;I wanted to predict elections with Twitter and all I got was this lousy paper.&amp;rdquo;
 This survey paper chronicles various attempts to predict elections from Twitter, and finds that (surprise!) its predictive power has been greatly exaggerated.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>What I read this week (October 11 - 17)</title>
-      <link>/what_i_read/20201017.html</link>
-      <pubDate>Sat, 17 Oct 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/what_i_read/20201017.html</guid>
-      <description>&lt;p&gt;On edge cases; machine learning education; the mainstream media and real and fake news; and other, shorter work.&lt;/p&gt;</description>
     </item>
     
   </channel>

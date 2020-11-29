@@ -6,10 +6,19 @@
     <description>Recent content on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 21 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Nov 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/what_i_read/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Paper] Understanding deep learning requires rethinking generalization</title>
+      <link>/papers/understanding_dl_generalization_zhang.html</link>
+      <pubDate>Wed, 12 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/understanding_dl_generalization_zhang.html</guid>
+      <description>&lt;p&gt;This Google Brain paper from ICLR 2017 tackles the question of &lt;em&gt;generalization&lt;/em&gt; in neural networks. What causes a network that performs well on training data to also perform well on testing data? (Answer: ¯\_(ツ)_/¯)&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>What I read this week (August 2 - 8)</title>
@@ -180,15 +189,6 @@
       
       <guid>/books/network_propaganda_4.html</guid>
       <description>&lt;p&gt;Part 4 of the book &lt;em&gt;Network Propaganda&lt;/em&gt; is titled &amp;ldquo;Can Democracy Survive the Internet?&amp;quot;, and it focuses on how polarization came to be, how the media ecosystem came to be the way that it is, and proposed interventions (most realistically, regulating political advertising).&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>What I read this week (June 21 - 27)</title>
-      <link>/what_i_read/20200627.html</link>
-      <pubDate>Sat, 27 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/what_i_read/20200627.html</guid>
-      <description>&lt;p&gt;This week&amp;rsquo;s reading had a presentation about CS education within higher education and another blog post by Will Larson. Most of my time was taken up by Spark Summit and rebuilding (again!) this site&amp;rsquo;s layout.&lt;/p&gt;</description>
     </item>
     
   </channel>

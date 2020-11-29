@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>What I read this week (June 21 - 27)</title>
+      <link>/what_i_read/20200627.html</link>
+      <pubDate>Sat, 27 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/what_i_read/20200627.html</guid>
+      <description>&lt;p&gt;This week&amp;rsquo;s reading had a presentation about CS education within higher education and another blog post by Will Larson. Most of my time was taken up by Spark Summit and rebuilding (again!) this site&amp;rsquo;s layout.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Using Apache Spark And Differential Privacy For Protecting The Privacy Of The 2020 Census Respondents</title>
       <link>/spark/2020/census_differential_privacy.html</link>
       <pubDate>Fri, 26 Jun 2020 14:00:00 +0000</pubDate>
@@ -180,15 +189,6 @@
       
       <guid>/spark/2020/wednesday_morning_keynotes.html</guid>
       <description>&lt;p&gt;Spark + AI Summit kicked off with keynotes by Ali Ghodsi (Databricks CEO), Matei Zaharia (creator of Spark) and Brooke Wenig (Databricks machine learning lead), Reynold Xin (Spark contributor), and Vishwanath Subramanian (Starbucks director of data). I wasn&amp;rsquo;t able to listen to all of it, but this post has a few highlights.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] Measuring User Influence on Twitter: The Million Follower Fallacy</title>
-      <link>/papers/measuring_user_influence_twitter_cha.html</link>
-      <pubDate>Mon, 22 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/papers/measuring_user_influence_twitter_cha.html</guid>
-      <description>&lt;p&gt;This 2010 paper recently won the &lt;a href=&#34;https://twitter.com/icwsm/status/1272747094554574848&#34;&gt;ICWSM Test of Time award&lt;/a&gt;, so I gave it a look. One of the earliest papers studying Twitter, key findings include that followers are &lt;em&gt;not&lt;/em&gt; a measure of engagement (but retweets and mentions are), and that influential users are influential about diverse and unrelated topics.&lt;/p&gt;</description>
     </item>
     
   </channel>

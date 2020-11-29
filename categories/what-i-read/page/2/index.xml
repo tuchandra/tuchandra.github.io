@@ -6,10 +6,19 @@
     <description>Recent content in what I read on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 21 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Nov 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/categories/what-i-read/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>What I read this week (October 11 - 17)</title>
+      <link>/what_i_read/20201017.html</link>
+      <pubDate>Sat, 17 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/what_i_read/20201017.html</guid>
+      <description>&lt;p&gt;On edge cases; machine learning education; the mainstream media and real and fake news; and other, shorter work.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>[Paper] Evaluating the fake news problem at the scale of the information ecosystem</title>
@@ -184,15 +193,6 @@ This RecSys 2020 paper investigates by modeling recommender systems with numeric
       
       <guid>/books/indistractable_1.html</guid>
       <description>&lt;p&gt;My next book is &lt;em&gt;Indistractable&lt;/em&gt; by Nir Eyal. The book&amp;rsquo;s tagline is &amp;ldquo;how to control your attention and choose your life,&amp;rdquo; which is compelling! My early thoughts are mixed between grateful and skeptical.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] A Framework for Understanding Unintended Consequences of Machine Learning</title>
-      <link>/papers/framework_unintended_consequences_guttag.html</link>
-      <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/papers/framework_unintended_consequences_guttag.html</guid>
-      <description>&lt;p&gt;What does it really mean for a machine learning system to be &amp;ldquo;biased&amp;rdquo;? Lots of different things, potentially, to the point where the term being so overloaded has started causing confusion. This paper presents six different categories of bias in machine learning.&lt;/p&gt;</description>
     </item>
     
   </channel>
