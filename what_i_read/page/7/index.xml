@@ -6,10 +6,19 @@
     <description>Recent content on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 28 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 05 Dec 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/what_i_read/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Paper] Modeling Organizational Culture with Workplace Experiences Shared on Glassdoor</title>
+      <link>/papers/modeling_org_culture_dasswain.html</link>
+      <pubDate>Mon, 11 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/modeling_org_culture_dasswain.html</guid>
+      <description>&lt;p&gt;Glassdoor is a valuable source of data on what life is like at different companies, and in particular the &lt;em&gt;organizational culture&lt;/em&gt; there. To what extent can organizational culture be modeled using word embeddings? Is it useful for predicting job performance. This paper, from the De Choudhury lab at Georgia Tech, investigates.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>A data scientist builds a web app</title>
@@ -180,15 +189,6 @@
       
       <guid>/papers/acm_fat2020_talks.html</guid>
       <description>&lt;p&gt;I sat down to watch a handful of talks from ACM FAT* 2020, picked from a survey of the &lt;a href=&#34;https://facctconference.org/2020/acceptedpapers.html#sess1&#34;&gt;Accepted Papers&lt;/a&gt; list. I found this to be a good way to consume a variety of papers that I probably wouldn&amp;rsquo;t have ordinarily read.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] Auditing Radicalization Pathways on YouTube</title>
-      <link>/papers/auditing_radicalization_youtube_ribeiro.html</link>
-      <pubDate>Sat, 18 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/papers/auditing_radicalization_youtube_ribeiro.html</guid>
-      <description>&lt;p&gt;Does YouTube drive people to more extreme content? This is a question that many have posed, but this is the first paper to study this question in depth. I&amp;rsquo;ve had this on my reading list since I came across it on Twitter, so this Saturday I finally sat down to take a look.&lt;/p&gt;</description>
     </item>
     
   </channel>

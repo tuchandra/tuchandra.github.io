@@ -6,10 +6,19 @@
     <description>Recent content in Categories on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 28 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 05 Dec 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>What I read this week (November 29 - December 5)</title>
+      <link>/what_i_read/20201205.html</link>
+      <pubDate>Sat, 05 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/what_i_read/20201205.html</guid>
+      <description>&lt;p&gt;This week&amp;rsquo;s reading features the cycle of content moderation controversies (from a wonderful article titled &amp;ldquo;What Pornhub and Peloton have in common with Facebook&amp;rdquo;), along with thoughts on language servers and static site generators.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>What I read this week (November 22 - 28)</title>
@@ -183,16 +192,6 @@ What is it? How do we recognize it? How do we call it out when we see it?
       
       <guid>/posts/reading_list_archive_1.html</guid>
       <description>&lt;p&gt;In an effort to clean up my reading list, this page catalogues papers that caught my eye but that I never got around to reading.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] A balanced survey on election prediction using Twitter data</title>
-      <link>/papers/election_predicting_twitter_gayoavello.html</link>
-      <pubDate>Sun, 18 Oct 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/papers/election_predicting_twitter_gayoavello.html</guid>
-      <description>&lt;p&gt;Affectionately titled &amp;ldquo;I wanted to predict elections with Twitter and all I got was this lousy paper.&amp;rdquo;
-This survey paper chronicles various attempts to predict elections from Twitter, and finds that (surprise!) its predictive power has been greatly exaggerated.&lt;/p&gt;</description>
     </item>
     
   </channel>
