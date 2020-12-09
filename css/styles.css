@@ -1437,6 +1437,10 @@ a.not-rich {
     justify-content: space-between;
   }
 
+  .lg\:flex-grow {
+    flex-grow: 1;
+  }
+
   .lg\:text-xl {
     font-size: 1.25rem;
   }
@@ -1491,10 +1495,6 @@ a.not-rich {
 
   .xl\:hidden {
     display: none;
-  }
-
-  .xl\:flex-grow {
-    flex-grow: 1;
   }
 
   .xl\:px-4 {
