@@ -6,10 +6,19 @@
     <description>Recent content on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 08 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 10 Dec 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Spark 2020 Summary</title>
+      <link>/spark/2020/summary.html</link>
+      <pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/spark/2020/summary.html</guid>
+      <description>&lt;p&gt;My summary of the talks I watched at Spark + AI Summit this year, and recommendations for what to watch after the fact.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Another website redesign</title>
@@ -180,15 +189,6 @@
       
       <guid>/spark/2020/how_not_to_scale_deep_learning.html</guid>
       <description>&lt;p&gt;The last talk of the morning session talked about common problems scaling ML and DL models: common pitfalls, things that people try too early (more hardware), and what to do instead.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Productionalizing Models through CI/CD Design with MLflow</title>
-      <link>/spark/2020/productionalizing_models_mlflow.html</link>
-      <pubDate>Wed, 24 Jun 2020 13:30:00 +0000</pubDate>
-      
-      <guid>/spark/2020/productionalizing_models_mlflow.html</guid>
-      <description>&lt;p&gt;This talk, by Mary Grace Moesta &amp;amp; Peter Tamisin at Databricks, dove into MLOps and productionalization of machine learning models using MLflow. How can we apply principles from CI/CD to machine learning? And how can MLflow help us to do so?&lt;/p&gt;</description>
     </item>
     
   </channel>
