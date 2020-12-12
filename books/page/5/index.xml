@@ -6,10 +6,28 @@
     <description>Recent content in Books on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 10 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 12 Dec 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/books/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>CompuServe and Prodigy: a story about the early internet</title>
+      <link>/books/twenty_six_words_2.html</link>
+      <pubDate>Fri, 03 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/books/twenty_six_words_2.html</guid>
+      <description>&lt;p&gt;This is my second post on &lt;a href=&#34;https://www.jeffkosseff.com/home&#34;&gt;The Twenty-Six Words That Created The Internet&lt;/a&gt;, by Jeff Kosseff. Chapter 2 tells the story of two online service providers, CompuServe and Prodigy, and how litigation against them with opposite outcomes set the scene for the passing of Section 230.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Magazines and the Internet</title>
+      <link>/books/twenty_six_words_1.html</link>
+      <pubDate>Thu, 02 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/books/twenty_six_words_1.html</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m now starting to read &lt;a href=&#34;https://www.jeffkosseff.com/home&#34;&gt;The Twenty-Six Words That Created The Internet&lt;/a&gt;, by Jeff Kosseff, which refers to Section 230 of the Communciations Decency Act. Section 230 is under attack by politicians on both sides, and debates about misinformation and hate speech on social media have become more heated lately, so I became interested in the legal basis for their protections. This post discusses early rulings on freedom of speech and press, prior to the creation of the internet, that helped shape 230.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Spark 2020 Summary</title>
@@ -171,24 +189,6 @@
       
       <guid>/spark/2020/thursday_morning_keynotes.html</guid>
       <description>&lt;p&gt;The morning keynotes were more Databricks-focused; topics included updates to the Databricks workspace environment, new and upcoming features in MLflow (and that it&amp;rsquo;s joining the Linux Foundation!), and demos on &amp;ldquo;responsible AI&amp;rdquo; from Microsoft.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Wednesday afternoon keynotes: racism, COVID, and politics</title>
-      <link>/spark/2020/wednesday_afternoon_keynotes.html</link>
-      <pubDate>Wed, 24 Jun 2020 16:00:00 +0000</pubDate>
-      
-      <guid>/spark/2020/wednesday_afternoon_keynotes.html</guid>
-      <description>&lt;p&gt;The afternoon keynotes were on racism in policing, data in COVID-19, and lessons from FiveThirtyEight. Dr. Phillip Goff delivered an incredible talk on what we need to invest in to support Black communities, and Nate Silver went on with what it means to think probabilistically and work together in crisis. Amazing!&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>How (not) to scale deep learning in 6 easy steps</title>
-      <link>/spark/2020/how_not_to_scale_deep_learning.html</link>
-      <pubDate>Wed, 24 Jun 2020 14:00:00 +0000</pubDate>
-      
-      <guid>/spark/2020/how_not_to_scale_deep_learning.html</guid>
-      <description>&lt;p&gt;The last talk of the morning session talked about common problems scaling ML and DL models: common pitfalls, things that people try too early (more hardware), and what to do instead.&lt;/p&gt;</description>
     </item>
     
   </channel>
