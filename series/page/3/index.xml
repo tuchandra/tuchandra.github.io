@@ -11,6 +11,24 @@
     
     
     <item>
+      <title>What I read this week (September 13 - September 19)</title>
+      <link>/what_i_read/20200919.html</link>
+      <pubDate>Sat, 19 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/what_i_read/20200919.html</guid>
+      <description>&lt;p&gt;This week&amp;rsquo;s reading, including &amp;ldquo;Useful things to know about engineering levels,&amp;rdquo; &amp;ldquo;Enable learning in technical writing,&amp;rdquo; and more.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>My first conference talk acceptance!</title>
+      <link>/posts/pymcon_accepted.html</link>
+      <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/pymcon_accepted.html</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m excited to have had my first conference talk accepted, &lt;em&gt;Learning Bayesian Statistics with Pokemon GO&lt;/em&gt; at PyMCon!&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>[Paper] Towards Fine-grained Flow Forecasting: a Graph Attention Approach for Bike Sharing Systems</title>
       <link>/papers/graph_attention_bike_sharing_he.html</link>
       <pubDate>Wed, 16 Sep 2020 00:00:00 +0000</pubDate>
@@ -170,24 +188,6 @@
       
       <guid>/papers/media_coverage_presidential_google_kawakami.html</guid>
       <description>&lt;p&gt;This is a &lt;em&gt;dataset paper&lt;/em&gt; from ICWSM 2020, presenting a dataset of nearly 80,000 news stories focusing on the 2020 US Presidential Election throughout 2019. It was shared to help researchers studying agenda setting and algorithmic curation of news.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Minor website addition: tags and anchors</title>
-      <link>/posts/site_changes_tags.html</link>
-      <pubDate>Fri, 21 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/site_changes_tags.html</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve added tags to my site! You might notice that this post is tagged &amp;lsquo;site&amp;rsquo;, and some of the papers I read are tagged by conference. I also added anchors to make linking to sections easier.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] Auditing News Curation Systems: A Case Study Examining Algorithmic and Editorial Logic in Apple News</title>
-      <link>/papers/auditing_news_curation_systems_diakopoulos.html</link>
-      <pubDate>Thu, 20 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/papers/auditing_news_curation_systems_diakopoulos.html</guid>
-      <description>&lt;p&gt;Apple News is used by 85 million users daily, but what is it actually showing you? From what publishers do the stories come? How often are they updated? This ICWSM 2020 paper motivates and applies an algorithmic audit of the Apple News curation system.&lt;/p&gt;</description>
     </item>
     
   </channel>

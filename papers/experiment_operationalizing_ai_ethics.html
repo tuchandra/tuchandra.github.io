@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <title>
+    [Paper] Biased Programmers? Or Biased Data? A Field Experiment in Operationalizing AI Ethics - Tushar Chandra
+    </title>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="Cache-Control" content="no-transform" />
+  <meta http-equiv="Cache-Control" content="no-siteapp" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="format-detection" content="telephone=no,email=no,adress=no">
+  
+  <meta name="theme-color" content="#000000" />
+  <meta http-equiv="window-target" content="_top" /><meta name="description" content="This study, from the NeurIPS Navigating the Broader Impacts of AI Research workshop, is a field experiment in algorithmic bias. Take 400 programmers and ask them to predict math performance; in what ways are their algorithms biased?
+" />
+  <meta name="generator" content="Hugo 0.70.0" />
+  <title>[Paper] Biased Programmers? Or Biased Data? A Field Experiment in Operationalizing AI Ethics - Tushar Chandra</title>
+
+  
+  
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
+
+  <meta property="og:title" content="[Paper] Biased Programmers? Or Biased Data? A Field Experiment in Operationalizing AI Ethics" />
+<meta property="og:description" content="This study, from the NeurIPS Navigating the Broader Impacts of AI Research workshop, is a field experiment in algorithmic bias. Take 400 programmers and ask them to predict math performance; in what ways are their algorithms biased?" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/papers/experiment_operationalizing_ai_ethics.html" />
+<meta property="article:published_time" content="2020-12-14T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-12-14T00:00:00+00:00" />
+<meta itemprop="name" content="[Paper] Biased Programmers? Or Biased Data? A Field Experiment in Operationalizing AI Ethics">
+<meta itemprop="description" content="This study, from the NeurIPS Navigating the Broader Impacts of AI Research workshop, is a field experiment in algorithmic bias. Take 400 programmers and ask them to predict math performance; in what ways are their algorithms biased?">
+<meta itemprop="datePublished" content="2020-12-14T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2020-12-14T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="569">
+
+
+
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="[Paper] Biased Programmers? Or Biased Data? A Field Experiment in Operationalizing AI Ethics"/>
+<meta name="twitter:description" content="This study, from the NeurIPS Navigating the Broader Impacts of AI Research workshop, is a field experiment in algorithmic bias. Take 400 programmers and ask them to predict math performance; in what ways are their algorithms biased?"/>
+</head>
+</head>
+
+
+
+<body class="h-full flex flex-col justify-between" itemscope itemtype="http://schema.org/WebPage"><header class="w-screen bg-green-500" itemscope itemtype="http://schema.org/WPHeader">
+  <div class="flex max-w-8xl container mx-auto">
+    <div class="hidden sm:inline flex items-center">
+      <a href="/">
+        <img class="rounded-full m-1 md:m-4" src="/headshot.jpg" width="100" height="100">
+      </a>
+    </div>
+    <div class="w-full px-4 flex flex-col lg:flex-row justify-start md:pt-4 lg:items-center my-4">
+      <div class="lg:flex-grow">
+        <a href="/">
+          <span class="text-lg sm:text-2xl md:text-3xl font-semibold">Tushar Chandra</span>
+          <span class="hidden pl-4 lg:inline"><br></span>
+          <span class="text-sm md:text-xl font-thin pl-4 md:pl-8 lg:pl-0 lg:text-xl">Data Scientist / Chicago, IL
+          </span>
+        </a>
+      </div>
+      <nav class="" itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation">
+        <ul class="flex lg:justify-between">
+          <li class="flex-grow-0 inline pr-1 md:pr-2 xl:px-4">
+            <p class="text-center">
+              <a href="/about">
+                <i class="fas text-green-800 pl-1 md:px-1 text-sm md:text-xl lg:text-2xl fa-mug-hot"></i>
+                <span class="font-thin text-sm md:text-lg lg:text-2xl">About</span>
+              </a>
+            </p>
+          </li>
+          <li class="flex-grow-0 inline pr-1 md:pr-2 xl:px-4">
+            <p class="text-center">
+              <a href="/resume">
+                <i class="fas text-green-800 pl-1 md:px-1 text-sm md:text-xl lg:text-2xl fa-file"></i>
+                <span class="font-thin text-sm md:text-lg lg:text-2xl">Resume</span>
+              </a>
+            </p>
+          </li>
+          <li class="flex-grow-0 inline pr-1 md:pr-2 xl:px-4">
+            <p class="text-center">
+              <a href="/reading">
+                <i class="fas text-green-800 pl-1 md:px-1 text-sm md:text-xl lg:text-2xl fa-book-open"></i>
+                <span class="font-thin text-sm md:text-lg lg:text-2xl">Reading</span>
+              </a>
+            </p>
+          </li>
+          <li class="flex-grow-0 inline pr-1 md:pr-2 xl:px-4">
+            <p class="text-center">
+              <a href="/categories.html">
+                <i class="fas text-green-800 pl-1 md:px-1 text-sm md:text-xl lg:text-2xl fa-folder-open"></i>
+                <span class="font-thin text-sm md:text-lg lg:text-2xl">Categories</span>
+              </a>
+            </p>
+          </li>
+          <li class="flex-grow-0 inline pr-1 md:pr-2 xl:px-4">
+            <p class="text-center">
+              <a href="/posts.html">
+                <i class="fas text-green-800 pl-1 md:px-1 text-sm md:text-xl lg:text-2xl fa-archive"></i>
+                <span class="font-thin text-sm md:text-lg lg:text-2xl">Archives</span>
+              </a>
+            </p>
+          </li>
+
+        </ul>
+
+      </nav>
+    </div>
+
+  </div>
+</header>
+  <div class="container mx-auto max-w-8xl px-4 flex flex-row flex-grow">
+    <div class="w-full md:w-3/4">
+      
+<main class="main" role="main"><div class="content container mx-auto max-w-6xl">
+  <article id="-" class="" itemscope itemtype="http://schema.org/BlogPosting">
+    <div class="pt-4">
+      <span class="font-semibold text-3xl"><h1 itemprop="name">
+  <a class="" href="/papers/experiment_operationalizing_ai_ethics.html">[Paper] Biased Programmers? Or Biased Data? A Field Experiment in Operationalizing AI Ethics</a>
+</h1>
+      </span>
+      <div class="pb-4"><i class="fas fa-calendar-check text-gray-500 pr-1"></i>
+<time datetime="2020-12-14 00:00:00 &#43;0000 UTC" class="text-sm text-gray-600"
+  itemprop="datePublished">2020-12-14</time>
+<span class="text-sm text-gray-600" itemprop="wordCount">
+	<i class="fas fa-pencil-alt text-gray-500 pl-4 pr-2"></i>569 words
+</span><i class="fas fa-folder-open text-gray-500 pl-4 pr-1"></i>
+<a class="text-sm text-gray-600" href=" /categories/papers.html"> papers, </a><span class="article-category text-sm text-gray-600 pl-4">
+  <i class="fa fa-users "></i>
+  Bo Cowgill, Fabrizio Dell'Acqua, Samuel Deng, Daniel Hsu, Nakul Verma, Augustin Chaintreau
+</span>
+      </div>
+    </div>
+    <div class="rich-text" itemprop="articleBody">
+      <p>This study, from the NeurIPS <a href="https://nbiair.com/">Navigating the Broader Impacts of AI Research workshop</a>, is a field experiment in algorithmic bias. Take 400 programmers and ask them to predict math performance; in what ways are their algorithms biased?</p>
+<p><strong>Link</strong>: <a href="https://arxiv.org/abs/2012.02394">arXiv</a></p>
+<p><strong>Authors</strong>: Bo Cowgill, Fabrizio Dell&rsquo;Acqua, Samuel Deng, Daniel Hsu, Nakul Verma, Augustin Chaintreau</p>
+<h2 id="experimental-design"><a class="not-rich" href="#experimental-design"><i class="fas fa-link"></i></a> Experimental design</h2>
+<p>The study population was roughly 400 people, 80% of whom are at a machine learning bootcamp at a university (presumably Columbia), and the rest of whom are freelance machine learning engineers.</p>
+<p>They were divided into treatments which did or did not have sample selection problems in training data; of the ones who did, some were also given a reminder of algorithmic bias or a whitepaper about sample correction.</p>
+<p>The engineers were asked to use machine learning to predict math performance from job application features; their algorithms were built individually and tested on unseen data. The testing data included records which differed only in gender, akin to counterfactuals or audit studies.</p>
+<p>The main finding of this paper is that having access to better training data helps engineers lower bias. They did not find that female or minority programmers produced less biased algorithms. They <em>did</em> find correlation among predictions within demographic groups. The interventions (reminder &amp; whitepaper) did not help.</p>
+<h2 id="my-thoughts"><a class="not-rich" href="#my-thoughts"><i class="fas fa-link"></i></a> My thoughts</h2>
+<p>My main critique of this paper is that it reinforces the &ldquo;biased algorithms are due to biased data&rdquo; narrative. This idea places data collection and preparation as an act separate from machine learning itself, turning machine learning into a myopic &ldquo;algorithm development&rdquo; problem. Rachel Thomas has a great <a href="https://twitter.com/math_rachel/status/1288514000225841152">Twitter thread</a> on this subject.</p>
+<p>There&rsquo;s a more charitable view. One might say that this paper emphasizes the importance of training data in machine learning. But I don&rsquo;t think that&rsquo;s true, either; it&rsquo;s a reductionist view of machine learning. Dr. Thomas suggests:</p>
+<blockquote>
+<p>It&rsquo;s indicative of a narrow framing of bias as solely an issue with training data, which can be easily fixed with different training data. This ignores crucial questions, such as whether this task should exist at all and who is deploying it on whom.</p>
+</blockquote>
+<p>With all this said, the secondary finding of the paper is very interesting.</p>
+<blockquote>
+<p>However, we do find that prediction errors are correlated within demographic groups, particularly gender. Specifically, two male programmers’ prediction errors are more likely to be correlated with each other. &hellip; This creates performance improvements through cross-demographic averaging.</p>
+</blockquote>
+<p>The natural extension of this is that diverse teams, where people have different perspectives and (according to this) will produce different kinds of algorithms, are going to be better off, but a team of male programmers will double down on errors. Of course, this <em>still</em> frames machine learning as an algorithmic problem alone; but they&rsquo;re right to recommend diverse teams!</p>
+<p>Naturally, the tech press took this and ran with the <a href="https://venturebeat.com/2020/12/09/columbia-researchers-find-white-men-are-the-worst-at-reducing-ai-bias/">headline</a> &ldquo;Study finds diversity in data science teams is key in reducing algorithmic bias.&rdquo; That&rsquo;s better than the original headline, which was &ldquo;Columbia researchers find white men are the worst at reducing AI bias&rdquo; (look at the URL!). Neither of those are <em>that</em> accurate, but &hellip; okay, tech press.</p>
+<p>More broadly, I love reading workshop papers because of how quick they are to get through. That means they often lack details, though. I would have liked to see more detail in the results; what were the prediction errors? How strongly were they correlated? Hopefully, they&rsquo;ll expand on this with future work.</p>
+
+      <p><i class="fas fa-square font-green-800"></i></p>
+    </div>
+    <div class="font-semibold text-green-800 pt-4">
+      <a href="/"><i class="fas fa-arrow-left"></i> Return home</a>
+    </div>
+  </article>
+</div><nav class="bar bar-footer clearfix" data-stick-bottom>
+    <div class="bar-inner">
+        <ul class="pager pull-left">
+            <li class="prev">
+                <a href="/books/little_book_hygge.html" title="My review of The Little Book of Hygge"><i
+                        class="icon icon-angle-left"
+                        aria-hidden="true"></i><span>&nbsp;&nbsp;</span></a>
+            </li>
+            <li class="next">
+                <a href="/papers/psychosocial_effects_covid_saha.html"
+                    title="[Paper] Psychosocial Effects of the COVID-19 Pandemic: Large-scale Quasi-Experimental Study on Social Media"><span>&nbsp;&nbsp;</span><i
+                        class="icon icon-angle-right" aria-hidden="true"></i></a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+</main>
+    </div>
+    <div class="hidden w-0 md:block md:w-1/4 md:pt-8 md:pl-12"><aside class="" itemscope itemtype="http://schema.org/WPSideBar">
+  <div class="pb-8">
+    <h3 class="font-semibold text-xl">Categories</h3>
+    <ul class="">
+        <li class="">+ <a href="/categories/books.html" class="font-bold text-green-900">books
+            </a><span class="">25</span>
+        </li>
+        <li class="">+ <a href="/categories/general.html" class="font-bold text-green-900">general
+            </a><span class="">41</span>
+        </li>
+        <li class="">+ <a href="/categories/papers.html" class="font-bold text-green-900">papers
+            </a><span class="">82</span>
+        </li>
+        <li class="">+ <a href="/categories/projects.html" class="font-bold text-green-900">projects
+            </a><span class="">7</span>
+        </li>
+        <li class="">+ <a href="/categories/self.html" class="font-bold text-green-900">self
+            </a><span class="">4</span>
+        </li>
+        <li class="">+ <a href="/categories/spark.html" class="font-bold text-green-900">spark
+            </a><span class="">34</span>
+        </li>
+        <li class="">+ <a href="/categories/what-i-read.html" class="font-bold text-green-900">what-i-read
+            </a><span class="">51</span>
+        </li>
+    </ul>
+</div>
+<div class="pb-4">
+    <h3 class="font-semibold text-xl">Recent Posts</h3>
+    <ul class="recent-post-list list-unstyled no-thumbnail">
+        <li class="pb-4">
+            <p>
+                <a href="/papers/psychosocial_effects_covid_saha.html" class="font-bold text-green-900">[Paper] Psychosocial Effects of the COVID-19 Pandemic: Large-scale Quasi-Experimental Study on Social Media</a>
+                <time datetime="2020-12-15 00:00:00 &#43;0000 UTC" itemprop="datePublished" class="text-gray-600 text-sm">2020-12-15
+                </time>
+            </p>
+
+        </li>
+        <li class="pb-4">
+            <p>
+                <a href="/papers/experiment_operationalizing_ai_ethics.html" class="font-bold text-green-900">[Paper] Biased Programmers? Or Biased Data? A Field Experiment in Operationalizing AI Ethics</a>
+                <time datetime="2020-12-14 00:00:00 &#43;0000 UTC" itemprop="datePublished" class="text-gray-600 text-sm">2020-12-14
+                </time>
+            </p>
+
+        </li>
+        <li class="pb-4">
+            <p>
+                <a href="/books/little_book_hygge.html" class="font-bold text-green-900">My review of The Little Book of Hygge</a>
+                <time datetime="2020-12-12 00:00:00 &#43;0000 UTC" itemprop="datePublished" class="text-gray-600 text-sm">2020-12-12
+                </time>
+            </p>
+
+        </li>
+        <li class="pb-4">
+            <p>
+                <a href="/what_i_read/20201212.html" class="font-bold text-green-900">What I read this week (December 6 - December 12)</a>
+                <time datetime="2020-12-12 00:00:00 &#43;0000 UTC" itemprop="datePublished" class="text-gray-600 text-sm">2020-12-12
+                </time>
+            </p>
+
+        </li>
+        <li class="pb-4">
+            <p>
+                <a href="/books/why_we_sleep.html" class="font-bold text-green-900">My review of Why We Sleep</a>
+                <time datetime="2020-12-10 00:00:00 &#43;0000 UTC" itemprop="datePublished" class="text-gray-600 text-sm">2020-12-10
+                </time>
+            </p>
+
+        </li>
+    </ul>
+</div><div class="pb-12">
+    <h3 class="font-semibold text-xl">Tags</h3>
+    <ul class="">
+        <li class="">+ <a href="/tags/#republic.html" class="font-bold text-green-900">#republic
+            </a><span class="">5</span>
+        </li>
+        <li class="">+ <a href="/tags/chi2019.html" class="font-bold text-green-900">chi2019
+            </a><span class="">1</span>
+        </li>
+        <li class="">+ <a href="/tags/chi2020.html" class="font-bold text-green-900">chi2020
+            </a><span class="">20</span>
+        </li>
+        <li class="">+ <a href="/tags/cscw2020.html" class="font-bold text-green-900">cscw2020
+            </a><span class="">8</span>
+        </li>
+        <li class="">+ <a href="/tags/fat2020.html" class="font-bold text-green-900">fat2020
+            </a><span class="">2</span>
+        </li>
+        <li class="">+ <a href="/tags/iclr.html" class="font-bold text-green-900">iclr
+            </a><span class="">2</span>
+        </li>
+        <li class="">+ <a href="/tags/icwsm2020.html" class="font-bold text-green-900">icwsm2020
+            </a><span class="">5</span>
+        </li>
+        <li class="">+ <a href="/tags/indistractable.html" class="font-bold text-green-900">indistractable
+            </a><span class="">2</span>
+        </li>
+        <li class="">+ <a href="/tags/neurips.html" class="font-bold text-green-900">neurips
+            </a><span class="">1</span>
+        </li>
+        <li class="">+ <a href="/tags/password-tool.html" class="font-bold text-green-900">password-tool
+            </a><span class="">6</span>
+        </li>
+        <li class="">+ <a href="/tags/reading-club.html" class="font-bold text-green-900">reading-club
+            </a><span class="">16</span>
+        </li>
+        <li class="">+ <a href="/tags/recsys.html" class="font-bold text-green-900">recsys
+            </a><span class="">1</span>
+        </li>
+        <li class="">+ <a href="/tags/site.html" class="font-bold text-green-900">site
+            </a><span class="">5</span>
+        </li>
+        <li class="">+ <a href="/tags/www.html" class="font-bold text-green-900">www
+            </a><span class="">2</span>
+        </li>
+    </ul>
+</div>
+</aside><footer class="" itemscope itemtype="http://schema.org/WPFooter">
+  <div class="py-4 text-sm">
+    &copy; 2019 - 2020 Tushar Chandra
+    <p style="margin-bottom: 4px">All opinions are my own.</p>
+    <div class="publishby">Powered by Hugo with a custom theme.</div>
+  </div>
+  <ul class="">
+    <li class="inline text-xl pr-4">
+      <a href="https://github.com/tuchandra" target="_blank" title="github">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+    <li class="inline text-xl pr-4">
+      <a href="https://www.linkedin.com/in/tushar-chandra-76a623b6/" target="_blank" title="linkedin">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+    <li class="inline text-xl pr-4">
+      <a href="mailto:me@tusharc.dev" target="_blank" title="envelope">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+    <li class="inline text-xl pr-4">
+      <a href="/index.xml" target="_blank" title="rss">
+        <i class="fas fa-rss"></i>
+      </a>
+    </li>
+
+  </ul>
+</footer>
+    </div>
+  </div>
+  <div class="mx-auto mt-auto w-screen px-4 bg-green-500 mt-4 md:py-8">
+    <div class="md:invisible md:hidden max-w-8xl"><footer class="" itemscope itemtype="http://schema.org/WPFooter">
+  <div class="py-4 text-sm">
+    &copy; 2019 - 2020 Tushar Chandra
+    <p style="margin-bottom: 4px">All opinions are my own.</p>
+    <div class="publishby">Powered by Hugo with a custom theme.</div>
+  </div>
+  <ul class="">
+    <li class="inline text-xl pr-4">
+      <a href="https://github.com/tuchandra" target="_blank" title="github">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+    <li class="inline text-xl pr-4">
+      <a href="https://www.linkedin.com/in/tushar-chandra-76a623b6/" target="_blank" title="linkedin">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+    <li class="inline text-xl pr-4">
+      <a href="mailto:me@tusharc.dev" target="_blank" title="envelope">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+    <li class="inline text-xl pr-4">
+      <a href="/index.xml" target="_blank" title="rss">
+        <i class="fas fa-rss"></i>
+      </a>
+    </li>
+
+  </ul>
+</footer>
+    </div>
+  </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_SVG"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+            showMathMenu: false, //disables context menu
+            tex2jax: {
+            inlineMath: [ ['$','$'], ['\\(','\\)'] ]
+           }
+    });
+</script>
+
+
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/highlight.min.js"></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/python.min.js"></script><script>
+    hljs.configure({
+        tabReplace: '    ', 
+        classPrefix: ''     
+        
+    })
+    hljs.initHighlightingOnLoad();
+</script>
+
+
+<script data-goatcounter="https://tusharc.goatcounter.com/count" async src="//gc.zgo.at/count.js">
+</script>
+</body>
+
+</html>

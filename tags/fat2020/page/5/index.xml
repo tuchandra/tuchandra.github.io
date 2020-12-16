@@ -12,6 +12,24 @@
     
     
     <item>
+      <title>What I read this week (July 5 - July 11)</title>
+      <link>/what_i_read/20200711.html</link>
+      <pubDate>Sat, 11 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/what_i_read/20200711.html</guid>
+      <description>&lt;p&gt;This week, I watched a few talks from SciPy 2020 and continued my reading on &lt;em&gt;Twenty-Six Words&lt;/em&gt;; this post mostly contains the talks.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>What I read this week (June 28 - July 4)</title>
+      <link>/what_i_read/20200704.html</link>
+      <pubDate>Sat, 04 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/what_i_read/20200704.html</guid>
+      <description>&lt;p&gt;This week&amp;rsquo;s reading was all over the place: a talk on Docker and Python for data science, authorial intent in code, the book &lt;em&gt;Clean Code&lt;/em&gt;, and an essay on NPM.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>CompuServe and Prodigy: a story about the early internet</title>
       <link>/books/twenty_six_words_2.html</link>
       <pubDate>Fri, 03 Jul 2020 00:00:00 +0000</pubDate>
@@ -171,24 +189,6 @@
       
       <guid>/spark/2020/bayesian_generative_models.html</guid>
       <description>&lt;p&gt;Deduplication is a huge problem in many domains; this talk by two people from MavenCode discusses how they&amp;rsquo;ve used Spark-driven Bayesian generative models to solve large entity resolution problems.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Everyday Probabilistic Data Structures for Humans</title>
-      <link>/spark/2020/probabilistic_data_structures.html</link>
-      <pubDate>Thu, 25 Jun 2020 13:00:00 +0000</pubDate>
-      
-      <guid>/spark/2020/probabilistic_data_structures.html</guid>
-      <description>&lt;p&gt;When your data gets extremely large, real-time queries can become expensive and slow. Yeshwanth Vijayakumar from Adobe discusses how &lt;em&gt;probabilistic data structures&lt;/em&gt; can help to solve these scaling problems efficiently.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Notes from the Thursday morning Spark keynotes</title>
-      <link>/spark/2020/thursday_morning_keynotes.html</link>
-      <pubDate>Thu, 25 Jun 2020 12:00:00 +0000</pubDate>
-      
-      <guid>/spark/2020/thursday_morning_keynotes.html</guid>
-      <description>&lt;p&gt;The morning keynotes were more Databricks-focused; topics included updates to the Databricks workspace environment, new and upcoming features in MLflow (and that it&amp;rsquo;s joining the Linux Foundation!), and demos on &amp;ldquo;responsible AI&amp;rdquo; from Microsoft.&lt;/p&gt;</description>
     </item>
     
   </channel>

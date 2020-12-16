@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <title>
+    [Paper] Psychosocial Effects of the COVID-19 Pandemic: Large-scale Quasi-Experimental Study on Social Media - Tushar Chandra
+    </title>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="Cache-Control" content="no-transform" />
+  <meta http-equiv="Cache-Control" content="no-siteapp" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="format-detection" content="telephone=no,email=no,adress=no">
+  
+  <meta name="theme-color" content="#000000" />
+  <meta http-equiv="window-target" content="_top" /><meta name="description" content="How did the early months of the COVID-19 pandemic affect expressions of mental health on Twitter? This paper investigates. Through comparisons between 2020 and 2019, and clinically validated machine learning classifiers, the authors study changes in language on social media.
+" />
+  <meta name="generator" content="Hugo 0.70.0" />
+  <title>[Paper] Psychosocial Effects of the COVID-19 Pandemic: Large-scale Quasi-Experimental Study on Social Media - Tushar Chandra</title>
+
+  
+  
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
+
+  <meta property="og:title" content="[Paper] Psychosocial Effects of the COVID-19 Pandemic: Large-scale Quasi-Experimental Study on Social Media" />
+<meta property="og:description" content="How did the early months of the COVID-19 pandemic affect expressions of mental health on Twitter? This paper investigates. Through comparisons between 2020 and 2019, and clinically validated machine learning classifiers, the authors study changes in language on social media." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/papers/psychosocial_effects_covid_saha.html" />
+<meta property="article:published_time" content="2020-12-15T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-12-15T00:00:00+00:00" />
+<meta itemprop="name" content="[Paper] Psychosocial Effects of the COVID-19 Pandemic: Large-scale Quasi-Experimental Study on Social Media">
+<meta itemprop="description" content="How did the early months of the COVID-19 pandemic affect expressions of mental health on Twitter? This paper investigates. Through comparisons between 2020 and 2019, and clinically validated machine learning classifiers, the authors study changes in language on social media.">
+<meta itemprop="datePublished" content="2020-12-15T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2020-12-15T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="1074">
+
+
+
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="[Paper] Psychosocial Effects of the COVID-19 Pandemic: Large-scale Quasi-Experimental Study on Social Media"/>
+<meta name="twitter:description" content="How did the early months of the COVID-19 pandemic affect expressions of mental health on Twitter? This paper investigates. Through comparisons between 2020 and 2019, and clinically validated machine learning classifiers, the authors study changes in language on social media."/>
+</head>
+</head>
+
+
+
+<body class="h-full flex flex-col justify-between" itemscope itemtype="http://schema.org/WebPage"><header class="w-screen bg-green-500" itemscope itemtype="http://schema.org/WPHeader">
+  <div class="flex max-w-8xl container mx-auto">
+    <div class="hidden sm:inline flex items-center">
+      <a href="/">
+        <img class="rounded-full m-1 md:m-4" src="/headshot.jpg" width="100" height="100">
+      </a>
+    </div>
+    <div class="w-full px-4 flex flex-col lg:flex-row justify-start md:pt-4 lg:items-center my-4">
+      <div class="lg:flex-grow">
+        <a href="/">
+          <span class="text-lg sm:text-2xl md:text-3xl font-semibold">Tushar Chandra</span>
+          <span class="hidden pl-4 lg:inline"><br></span>
+          <span class="text-sm md:text-xl font-thin pl-4 md:pl-8 lg:pl-0 lg:text-xl">Data Scientist / Chicago, IL
+          </span>
+        </a>
+      </div>
+      <nav class="" itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation">
+        <ul class="flex lg:justify-between">
+          <li class="flex-grow-0 inline pr-1 md:pr-2 xl:px-4">
+            <p class="text-center">
+              <a href="/about">
+                <i class="fas text-green-800 pl-1 md:px-1 text-sm md:text-xl lg:text-2xl fa-mug-hot"></i>
+                <span class="font-thin text-sm md:text-lg lg:text-2xl">About</span>
+              </a>
+            </p>
+          </li>
+          <li class="flex-grow-0 inline pr-1 md:pr-2 xl:px-4">
+            <p class="text-center">
+              <a href="/resume">
+                <i class="fas text-green-800 pl-1 md:px-1 text-sm md:text-xl lg:text-2xl fa-file"></i>
+                <span class="font-thin text-sm md:text-lg lg:text-2xl">Resume</span>
+              </a>
+            </p>
+          </li>
+          <li class="flex-grow-0 inline pr-1 md:pr-2 xl:px-4">
+            <p class="text-center">
+              <a href="/reading">
+                <i class="fas text-green-800 pl-1 md:px-1 text-sm md:text-xl lg:text-2xl fa-book-open"></i>
+                <span class="font-thin text-sm md:text-lg lg:text-2xl">Reading</span>
+              </a>
+            </p>
+          </li>
+          <li class="flex-grow-0 inline pr-1 md:pr-2 xl:px-4">
+            <p class="text-center">
+              <a href="/categories.html">
+                <i class="fas text-green-800 pl-1 md:px-1 text-sm md:text-xl lg:text-2xl fa-folder-open"></i>
+                <span class="font-thin text-sm md:text-lg lg:text-2xl">Categories</span>
+              </a>
+            </p>
+          </li>
+          <li class="flex-grow-0 inline pr-1 md:pr-2 xl:px-4">
+            <p class="text-center">
+              <a href="/posts.html">
+                <i class="fas text-green-800 pl-1 md:px-1 text-sm md:text-xl lg:text-2xl fa-archive"></i>
+                <span class="font-thin text-sm md:text-lg lg:text-2xl">Archives</span>
+              </a>
+            </p>
+          </li>
+
+        </ul>
+
+      </nav>
+    </div>
+
+  </div>
+</header>
+  <div class="container mx-auto max-w-8xl px-4 flex flex-row flex-grow">
+    <div class="w-full md:w-3/4">
+      
+<main class="main" role="main"><div class="content container mx-auto max-w-6xl">
+  <article id="-" class="" itemscope itemtype="http://schema.org/BlogPosting">
+    <div class="pt-4">
+      <span class="font-semibold text-3xl"><h1 itemprop="name">
+  <a class="" href="/papers/psychosocial_effects_covid_saha.html">[Paper] Psychosocial Effects of the COVID-19 Pandemic: Large-scale Quasi-Experimental Study on Social Media</a>
+</h1>
+      </span>
+      <div class="pb-4"><i class="fas fa-calendar-check text-gray-500 pr-1"></i>
+<time datetime="2020-12-15 00:00:00 &#43;0000 UTC" class="text-sm text-gray-600"
+  itemprop="datePublished">2020-12-15</time>
+<span class="text-sm text-gray-600" itemprop="wordCount">
+	<i class="fas fa-pencil-alt text-gray-500 pl-4 pr-2"></i>1074 words
+</span><i class="fas fa-folder-open text-gray-500 pl-4 pr-1"></i>
+<a class="text-sm text-gray-600" href=" /categories/papers.html"> papers, </a><span class="article-category text-sm text-gray-600 pl-4">
+  <i class="fa fa-users "></i>
+  Koustuv Saha, John Torous, Eric D Caine, Munmun De Choudhury
+</span>
+      </div>
+    </div>
+    <div class="rich-text" itemprop="articleBody">
+      <p>How did the early months of the COVID-19 pandemic affect expressions of mental health on Twitter? This paper investigates. Through comparisons between 2020 and 2019, and clinically validated machine learning classifiers, the authors study changes in language on social media.</p>
+<p><strong>Link</strong>: <a href="https://koustuv.com/papers/JMIR20_COVID19.pdf">PDF</a>, coverage from <a href="https://www.cbc.ca/radio/spark/492-social-tech-1.5828628/high-levels-of-pandemic-induced-anxiety-depression-observed-in-social-media-posts-1.5828631">CBC</a> and <a href="https://www.nytimes.com/2020/10/12/style/self-care/social-media-.html">NYT</a></p>
+<p><em>This paper summary discusses mental health conditions like depression, anxiety, and suicidal ideation.</em></p>
+<h2 id="background-and-motivation"><a class="not-rich" href="#background-and-motivation"><i class="fas fa-link"></i></a> Background and motivation</h2>
+<p>The COVID-19 pandemic has been a worldwide disaster (and even that feels like an understatement), but one of the understudied areas is how it has affected people&rsquo;s mental health. The authors of this study set out to better understand this impact.</p>
+<p><strong>How?</strong> Like lots of internet research, Twitter.</p>
+<blockquote>
+<p>We obtained about 60 million Twitter streaming posts originating from the United States from March 24 to May 24, 2020, and compared these with about 40 million posts from a comparable period in 2019 to attribute the effect of COVID-19 on people&rsquo;s social media self-disclosure.</p>
+</blockquote>
+<p>The authors studied this in terms of &ldquo;symptomatic mental health concerns and expressions of support.&rdquo; They also used transfer learning to identify language indicating mental health conditions and support, then looked at how these changed over time.</p>
+<h2 id="methods"><a class="not-rich" href="#methods"><i class="fas fa-link"></i></a> Methods</h2>
+<p>The authors study symptomatic mental health expressions and support expressions. They use classifiers trained on Reddit data that were repurposed for Twitter. These were validated; see the section on <em>clinical validity</em> later.</p>
+<p><strong>Symptomatic mental health expressions</strong> are expressions of symptoms of mental health conditions. An example: &ldquo;I am too overwhelmed by school and having a crippling anxiety to keep up with everything online I’m seriously NOT OK! I CAN’T TAKETHIS!&rdquo;</p>
+<p><strong>Support expressions</strong> include emotional support (empathy, kindness) and informational support (resources, suggestions). An example: &ldquo;To our residents, the town is here for you but we need your help if we are going to keep our hospitals from being overwhelmed.&rdquo;</p>
+<p>The authors compare the data from 2020, which has a pandemic, to 2019, which did not (that&rsquo;s the &ldquo;quasi-experimental&rdquo; in the title). They looked at:</p>
+<ul>
+<li>day-to-day variation in the two kinds of expressions, relative to a baseline from September 2018 to August 2019 (why is it allowed for the baseline to include the control period?)</li>
+<li>SAGE (&ldquo;Sparse Additive Generative Model&rdquo;), which identifies salient keywords in two datasets relative to each other</li>
+</ul>
+<h2 id="results"><a class="not-rich" href="#results"><i class="fas fa-link"></i></a> Results</h2>
+<p>This is one of those papers where a single figure gives away the results (honestly a sign of a well-designed figure, too!):</p>
+<figure>
+    <img src="psychosocial%20effects%20saha%20-%20img.png"/> 
+</figure>
+
+<p>Relative to the baseline, 2020 featured far more symptomatic mental health expressions on social media. The steepness of the decline is remarkable; I wonder what happened beyond the study period.</p>
+<p>The second figure on support expressions, which I didn&rsquo;t include here, shows a similar trend, but with a notable spike in emotional support on April 28, 2019 that the authors attribute to a <a href="https://en.wikipedia.org/wiki/Poway_synagogue_shooting">shooting at a San Diego synagogue</a>.</p>
+<p>Linguistically, the keyword comparisons are interesting too. These are examples cherrypicked from Table 2 in the paper, not in order of saliency:</p>
+<table>
+<thead>
+<tr>
+<th>Salient in 2020</th>
+<th>Salient in 2019</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>covid19</td>
+<td>traffic</td>
+</tr>
+<tr>
+<td>social distancing</td>
+<td>marvel</td>
+</tr>
+<tr>
+<td>quarantinelife</td>
+<td>auburn</td>
+</tr>
+<tr>
+<td>essential workers</td>
+<td>tournament</td>
+</tr>
+<tr>
+<td>dr fauci</td>
+<td>playoffs</td>
+</tr>
+<tr>
+<td>flattenthecurve</td>
+<td>crimes</td>
+</tr>
+</tbody>
+</table>
+<p><em>Table: salient n-grams for symptomatic mental health expressions in 2020 and 2019</em></p>
+<p>There were others, too, like &ldquo;garlic&rdquo; and &ldquo;hydroxychloroquine&rdquo; in 2020, that set off warning bells. Our information ecosystem is deeply flawed&mdash;but that&rsquo;s a subject for another paper!</p>
+<p>A similar pattern emerges for support expressions: in 2020, &ldquo;lord&rdquo;, &ldquo;fauci&rdquo;, &ldquo;ventilators&rdquo;, &ldquo;quarantine&rdquo;, &ldquo;hope staying safe&rdquo;, &ldquo;wearing masks&rdquo;, and &ldquo;uncertain times&rdquo; were salient. In 2019, &ldquo;hospitality&rdquo;, &ldquo;duke&rdquo;, &ldquo;shift supervisor&rdquo;, &ldquo;tampa&rdquo;, &ldquo;customer service&rdquo;, &ldquo;manager retail&rdquo;, and &ldquo;traffic&rdquo; (?) were salient.</p>
+<h2 id="clinical-validity-and-limitations"><a class="not-rich" href="#clinical-validity-and-limitations"><i class="fas fa-link"></i></a> Clinical validity and limitations</h2>
+<p>I&rsquo;ve read enough papers by Dr. Munmun De Choudhury that I know to look for construct or clinical validity every time I see something about inferring mental health from social media. One of the great papers by both her and Dr. Stevie Chancellor is <a href="/papers/review_methods_predicting_mental_health_status_chancellor.html">Methods in predictive techniques for mental health status on social media: a critical review</a>.</p>
+<p>Broadly, clinical validity refers to whether the thing we&rsquo;re studying (language used on Twitter) actually corresponds to clinical concepts of interest (symptoms of e.g., depression, or expressions of emotional support). It&rsquo;s easy to overlook this&mdash;one could naively ask the Twitter API for words like &ldquo;sad&rdquo; or &ldquo;depressed&rdquo; without checking to see if they were actually associated with symptoms of depression.</p>
+<p>This paper establishes clinical validity early on. The classifiers used for mental health symptomatic expressions have an &ldquo;87% agreement between machine-predicted labels and expert appraisal.&rdquo; The classifiers for support expressions have agreements of 88% and 93%.</p>
+<p>Finally, while not strictly related to clinical validity, the authors also discuss limitations of the Twitter Streaming API (it&rsquo;s not transparent, they used only English-language posts, it&rsquo;s not demographically representative, and it provides unique affordances that other social media platforms do not). Also, this is an observational study, not a true experiment, but the comparison against a similar time window means it&rsquo;s stronger than a typical correlational study.</p>
+<h2 id="discussion"><a class="not-rich" href="#discussion"><i class="fas fa-link"></i></a> Discussion</h2>
+<p>What does this all mean? From the discussion:</p>
+<blockquote>
+<p>Our study suggests that social media posts during the COVID-19 pandemic contain a significantly higher frequency of symptomatic mental health and support expressions than a comparable data set from the same period in the previous year.</p>
+</blockquote>
+<p>It appears that COVID has amplified mental health risks and concerns. It also appears that it has increased expressions of support, possibly bringing people together and creating a sense of solidarity.</p>
+<blockquote>
+<p>Suicide is multifaceted, and although economic loss is a risk factor, so are depression, isolation, and fear of the future. At the same time, the crisis is possibly creating a sense of belonging for individuals at risk for suicide, as stress and anxiety are normalized, and people come together to better support one another during a crisis.</p>
+</blockquote>
+<p>I&rsquo;m curious about these findings have changed throughout the year, and look forward to seeing more research emerge. Both the expressions of mental health status and of support decreased in volume over the study period, and I wonder if this trend continued.</p>
+<p>Personally, while I experienced anxiety as the dominant emotion in the first half of the year, it&rsquo;s being slowly replaced by feelings of isolation and depression. While this is all anecdotal, I don&rsquo;t think it&rsquo;s uncommon.</p>
+<p>I quite enjoyed this paper. It was easy to follow and immediately relevant to what we&rsquo;re currently experiencing. The figures and tables were high-quality. I appreciate the thoughtful approach taken to using social media data, understanding its limitations while also using its unique capabilities to study a large-scale shared experience.</p>
+
+      <p><i class="fas fa-square font-green-800"></i></p>
+    </div>
+    <div class="font-semibold text-green-800 pt-4">
+      <a href="/"><i class="fas fa-arrow-left"></i> Return home</a>
+    </div>
+  </article>
+</div><nav class="bar bar-footer clearfix" data-stick-bottom>
+    <div class="bar-inner">
+        <ul class="pager pull-left">
+            <li class="prev">
+                <a href="/papers/experiment_operationalizing_ai_ethics.html" title="[Paper] Biased Programmers? Or Biased Data? A Field Experiment in Operationalizing AI Ethics"><i
+                        class="icon icon-angle-left"
+                        aria-hidden="true"></i><span>&nbsp;&nbsp;</span></a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+</main>
+    </div>
+    <div class="hidden w-0 md:block md:w-1/4 md:pt-8 md:pl-12"><aside class="" itemscope itemtype="http://schema.org/WPSideBar">
+  <div class="pb-8">
+    <h3 class="font-semibold text-xl">Categories</h3>
+    <ul class="">
+        <li class="">+ <a href="/categories/books.html" class="font-bold text-green-900">books
+            </a><span class="">25</span>
+        </li>
+        <li class="">+ <a href="/categories/general.html" class="font-bold text-green-900">general
+            </a><span class="">41</span>
+        </li>
+        <li class="">+ <a href="/categories/papers.html" class="font-bold text-green-900">papers
+            </a><span class="">82</span>
+        </li>
+        <li class="">+ <a href="/categories/projects.html" class="font-bold text-green-900">projects
+            </a><span class="">7</span>
+        </li>
+        <li class="">+ <a href="/categories/self.html" class="font-bold text-green-900">self
+            </a><span class="">4</span>
+        </li>
+        <li class="">+ <a href="/categories/spark.html" class="font-bold text-green-900">spark
+            </a><span class="">34</span>
+        </li>
+        <li class="">+ <a href="/categories/what-i-read.html" class="font-bold text-green-900">what-i-read
+            </a><span class="">51</span>
+        </li>
+    </ul>
+</div>
+<div class="pb-4">
+    <h3 class="font-semibold text-xl">Recent Posts</h3>
+    <ul class="recent-post-list list-unstyled no-thumbnail">
+        <li class="pb-4">
+            <p>
+                <a href="/papers/psychosocial_effects_covid_saha.html" class="font-bold text-green-900">[Paper] Psychosocial Effects of the COVID-19 Pandemic: Large-scale Quasi-Experimental Study on Social Media</a>
+                <time datetime="2020-12-15 00:00:00 &#43;0000 UTC" itemprop="datePublished" class="text-gray-600 text-sm">2020-12-15
+                </time>
+            </p>
+
+        </li>
+        <li class="pb-4">
+            <p>
+                <a href="/papers/experiment_operationalizing_ai_ethics.html" class="font-bold text-green-900">[Paper] Biased Programmers? Or Biased Data? A Field Experiment in Operationalizing AI Ethics</a>
+                <time datetime="2020-12-14 00:00:00 &#43;0000 UTC" itemprop="datePublished" class="text-gray-600 text-sm">2020-12-14
+                </time>
+            </p>
+
+        </li>
+        <li class="pb-4">
+            <p>
+                <a href="/books/little_book_hygge.html" class="font-bold text-green-900">My review of The Little Book of Hygge</a>
+                <time datetime="2020-12-12 00:00:00 &#43;0000 UTC" itemprop="datePublished" class="text-gray-600 text-sm">2020-12-12
+                </time>
+            </p>
+
+        </li>
+        <li class="pb-4">
+            <p>
+                <a href="/what_i_read/20201212.html" class="font-bold text-green-900">What I read this week (December 6 - December 12)</a>
+                <time datetime="2020-12-12 00:00:00 &#43;0000 UTC" itemprop="datePublished" class="text-gray-600 text-sm">2020-12-12
+                </time>
+            </p>
+
+        </li>
+        <li class="pb-4">
+            <p>
+                <a href="/books/why_we_sleep.html" class="font-bold text-green-900">My review of Why We Sleep</a>
+                <time datetime="2020-12-10 00:00:00 &#43;0000 UTC" itemprop="datePublished" class="text-gray-600 text-sm">2020-12-10
+                </time>
+            </p>
+
+        </li>
+    </ul>
+</div><div class="pb-12">
+    <h3 class="font-semibold text-xl">Tags</h3>
+    <ul class="">
+        <li class="">+ <a href="/tags/#republic.html" class="font-bold text-green-900">#republic
+            </a><span class="">5</span>
+        </li>
+        <li class="">+ <a href="/tags/chi2019.html" class="font-bold text-green-900">chi2019
+            </a><span class="">1</span>
+        </li>
+        <li class="">+ <a href="/tags/chi2020.html" class="font-bold text-green-900">chi2020
+            </a><span class="">20</span>
+        </li>
+        <li class="">+ <a href="/tags/cscw2020.html" class="font-bold text-green-900">cscw2020
+            </a><span class="">8</span>
+        </li>
+        <li class="">+ <a href="/tags/fat2020.html" class="font-bold text-green-900">fat2020
+            </a><span class="">2</span>
+        </li>
+        <li class="">+ <a href="/tags/iclr.html" class="font-bold text-green-900">iclr
+            </a><span class="">2</span>
+        </li>
+        <li class="">+ <a href="/tags/icwsm2020.html" class="font-bold text-green-900">icwsm2020
+            </a><span class="">5</span>
+        </li>
+        <li class="">+ <a href="/tags/indistractable.html" class="font-bold text-green-900">indistractable
+            </a><span class="">2</span>
+        </li>
+        <li class="">+ <a href="/tags/neurips.html" class="font-bold text-green-900">neurips
+            </a><span class="">1</span>
+        </li>
+        <li class="">+ <a href="/tags/password-tool.html" class="font-bold text-green-900">password-tool
+            </a><span class="">6</span>
+        </li>
+        <li class="">+ <a href="/tags/reading-club.html" class="font-bold text-green-900">reading-club
+            </a><span class="">16</span>
+        </li>
+        <li class="">+ <a href="/tags/recsys.html" class="font-bold text-green-900">recsys
+            </a><span class="">1</span>
+        </li>
+        <li class="">+ <a href="/tags/site.html" class="font-bold text-green-900">site
+            </a><span class="">5</span>
+        </li>
+        <li class="">+ <a href="/tags/www.html" class="font-bold text-green-900">www
+            </a><span class="">2</span>
+        </li>
+    </ul>
+</div>
+</aside><footer class="" itemscope itemtype="http://schema.org/WPFooter">
+  <div class="py-4 text-sm">
+    &copy; 2019 - 2020 Tushar Chandra
+    <p style="margin-bottom: 4px">All opinions are my own.</p>
+    <div class="publishby">Powered by Hugo with a custom theme.</div>
+  </div>
+  <ul class="">
+    <li class="inline text-xl pr-4">
+      <a href="https://github.com/tuchandra" target="_blank" title="github">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+    <li class="inline text-xl pr-4">
+      <a href="https://www.linkedin.com/in/tushar-chandra-76a623b6/" target="_blank" title="linkedin">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+    <li class="inline text-xl pr-4">
+      <a href="mailto:me@tusharc.dev" target="_blank" title="envelope">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+    <li class="inline text-xl pr-4">
+      <a href="/index.xml" target="_blank" title="rss">
+        <i class="fas fa-rss"></i>
+      </a>
+    </li>
+
+  </ul>
+</footer>
+    </div>
+  </div>
+  <div class="mx-auto mt-auto w-screen px-4 bg-green-500 mt-4 md:py-8">
+    <div class="md:invisible md:hidden max-w-8xl"><footer class="" itemscope itemtype="http://schema.org/WPFooter">
+  <div class="py-4 text-sm">
+    &copy; 2019 - 2020 Tushar Chandra
+    <p style="margin-bottom: 4px">All opinions are my own.</p>
+    <div class="publishby">Powered by Hugo with a custom theme.</div>
+  </div>
+  <ul class="">
+    <li class="inline text-xl pr-4">
+      <a href="https://github.com/tuchandra" target="_blank" title="github">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+    <li class="inline text-xl pr-4">
+      <a href="https://www.linkedin.com/in/tushar-chandra-76a623b6/" target="_blank" title="linkedin">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+    <li class="inline text-xl pr-4">
+      <a href="mailto:me@tusharc.dev" target="_blank" title="envelope">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+    <li class="inline text-xl pr-4">
+      <a href="/index.xml" target="_blank" title="rss">
+        <i class="fas fa-rss"></i>
+      </a>
+    </li>
+
+  </ul>
+</footer>
+    </div>
+  </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_SVG"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+            showMathMenu: false, //disables context menu
+            tex2jax: {
+            inlineMath: [ ['$','$'], ['\\(','\\)'] ]
+           }
+    });
+</script>
+
+
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/highlight.min.js"></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/python.min.js"></script><script>
+    hljs.configure({
+        tabReplace: '    ', 
+        classPrefix: ''     
+        
+    })
+    hljs.initHighlightingOnLoad();
+</script>
+
+
+<script data-goatcounter="https://tusharc.goatcounter.com/count" async src="//gc.zgo.at/count.js">
+</script>
+</body>
+
+</html>

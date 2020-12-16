@@ -12,6 +12,24 @@
     
     
     <item>
+      <title>[Paper] Discrimination in the Age of Algorithms (2/2)</title>
+      <link>/papers/discrimination_algorithms_kleinberg_2.html</link>
+      <pubDate>Mon, 30 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/discrimination_algorithms_kleinberg_2.html</guid>
+      <description>&lt;p&gt;How do we regulate algorithms? How can they help us to create equity? This is part 2 of my summary of the paper by Kleinberg et al.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[Paper] Discrimination in the Age of Algorithms (1/2)</title>
+      <link>/papers/discrimination_algorithms_kleinberg_1.html</link>
+      <pubDate>Sun, 29 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/discrimination_algorithms_kleinberg_1.html</guid>
+      <description>&lt;p&gt;How do algorithms affect discrimination, in the legal sense of the word? Naively, one might say that algorithms must be regulated and heavily scrutinized to avoid computers encoding human biases. This paper studies not only that, but also the opposite idea: that they can be positive forces for good. (Part 1 of 2.)&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Blaise Aguera y Arcas: Social Intelligence (NeurIPS 2019)</title>
       <link>/posts/talk_aguera_neurips.html</link>
       <pubDate>Sat, 28 Dec 2019 00:00:00 +0000</pubDate>
@@ -171,24 +189,6 @@
       
       <guid>/posts/digital_advertising.html</guid>
       <description>&lt;p&gt;I recently read a fantastic article on The Correspondent about digital advertising, called &lt;a href=&#34;https://thecorrespondent.com/100/the-new-dot-com-bubble-is-here-its-called-online-advertising/13228924500-22d5fd24&#34;&gt;The new dot com bubble is here: it’s called online advertising&lt;/a&gt;. This post summarizes my thoughts.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] A Bayesian Cognition Approach to Improve Data Visualization</title>
-      <link>/papers/bayesian_cognition_viz_kim.html</link>
-      <pubDate>Wed, 20 Nov 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/papers/bayesian_cognition_viz_kim.html</guid>
-      <description>&lt;p&gt;Data visualization is common for communicating information, but how do people interpret visualizations? How do they reconicle information presented to them with their prior beliefs? The authors study a Bayesian cognition approach in this CHI 2019 paper.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] Model Cards for Model Reporting</title>
-      <link>/papers/model_cards_mitchell.html</link>
-      <pubDate>Sun, 17 Nov 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/papers/model_cards_mitchell.html</guid>
-      <description>&lt;p&gt;What kinds of documentation should exist for machine learning models? This paper proposes one idea called &amp;ldquo;model cards&amp;rdquo; for reporting models&amp;rsquo; performance, limitations, expected usage, and more, with a goal of minimizing their misuse.&lt;/p&gt;</description>
     </item>
     
   </channel>
