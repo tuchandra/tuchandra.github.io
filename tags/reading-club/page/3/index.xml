@@ -6,10 +6,19 @@
     <description>Recent content in reading club on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 20 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 22 Dec 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/tags/reading-club/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Paper] Why ask Why? Forward Causal Inference and Reverse Causal Questions</title>
+      <link>/papers/why_ask_why_gelman.html</link>
+      <pubDate>Mon, 21 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/why_ask_why_gelman.html</guid>
+      <description>&lt;p&gt;This short paper argues that reverse causal questions (&amp;ldquo;why did sales go down?&amp;quot;) are opportunities to consider problems with existing models. The search for causal explanations, then, can help us to improve our models.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>What I read this week (September 13 - September 19)</title>
@@ -180,15 +189,6 @@
       
       <guid>/papers/content_moderation_scale_gillespie.html</guid>
       <description>&lt;p&gt;This short paper in &lt;em&gt;Big Data and Society&lt;/em&gt; came across my radar on Twitter today. Automated content moderation is often heralded as an answer to the impenetrable size of Facebook, YouTube, and other platforms. But it&amp;rsquo;s not clear that automation is the answer.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] The Media Coverage of the 2020 US Presidential Election Candidates through the Lens of Google&#39;s Top Stories</title>
-      <link>/papers/media_coverage_presidential_google_kawakami.html</link>
-      <pubDate>Fri, 21 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/papers/media_coverage_presidential_google_kawakami.html</guid>
-      <description>&lt;p&gt;This is a &lt;em&gt;dataset paper&lt;/em&gt; from ICWSM 2020, presenting a dataset of nearly 80,000 news stories focusing on the 2020 US Presidential Election throughout 2019. It was shared to help researchers studying agenda setting and algorithmic curation of news.&lt;/p&gt;</description>
     </item>
     
   </channel>

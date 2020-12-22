@@ -6,10 +6,19 @@
     <description>Recent content in Categories on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 15 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 22 Dec 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Paper] Hidden Figures: Roles and Pathways of Successful OSS Contributors</title>
+      <link>/papers/hidden_figures_oss_trinkenreich.html</link>
+      <pubDate>Sat, 24 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/hidden_figures_oss_trinkenreich.html</guid>
+      <description>&lt;p&gt;This CSCW paper studies open source software contributors—all of them, not just maintainers and developers. While open source has often been looked at as a purely technical community, this paper draws attention to the other forms of work that contributors do.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>What I read this week (October 18 - 24)</title>
@@ -185,15 +194,6 @@ This RecSys 2020 paper investigates by modeling recommender systems with numeric
       
       <guid>/papers/reliance_metrics_problem_thomas.html</guid>
       <description>&lt;p&gt;One of my more deeply held beliefs is that people rely too heavily on metrics, so when my friend Judah sent me this paper I was quick to jump on it. Rachel Thomas and David Uminsky argue that an overemphasis on metrics is a fundamental problem with AI.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] Why ask Why? Forward Causal Inference and Reverse Causal Questions</title>
-      <link>/papers/why_ask_why_gelman.html</link>
-      <pubDate>Mon, 21 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/papers/why_ask_why_gelman.html</guid>
-      <description>&lt;p&gt;This short paper argues that reverse causal questions (&amp;ldquo;why did sales go down?&amp;quot;) are opportunities to consider problems with existing models. The search for causal explanations, then, can help us to improve our models.&lt;/p&gt;</description>
     </item>
     
   </channel>

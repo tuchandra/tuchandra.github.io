@@ -6,10 +6,19 @@
     <description>Recent content in Tags on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 20 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 22 Dec 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Using Bayesian Generative Models With Apache Spark To Solve Entity Resolution Problems At Scale</title>
+      <link>/spark/2020/bayesian_generative_models.html</link>
+      <pubDate>Thu, 25 Jun 2020 14:00:00 +0000</pubDate>
+      
+      <guid>/spark/2020/bayesian_generative_models.html</guid>
+      <description>&lt;p&gt;Deduplication is a huge problem in many domains; this talk by two people from MavenCode discusses how they&amp;rsquo;ve used Spark-driven Bayesian generative models to solve large entity resolution problems.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Everyday Probabilistic Data Structures for Humans</title>
@@ -180,15 +189,6 @@
       
       <guid>/posts/password_tool_6.html</guid>
       <description>&lt;p&gt;This is a long one; it&amp;rsquo;s not a paper summary, it&amp;rsquo;s not technical, and it&amp;rsquo;s far more personal than what I usually post here. In this post, I discuss whether or not the password tool should even exist by telling a story about a community from 14 years ago.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Bookmarklet for SudokuExchange</title>
-      <link>/posts/sudoku_bookmarklet.html</link>
-      <pubDate>Wed, 27 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/sudoku_bookmarklet.html</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve been playing a lot of Sudoku while at home, and today I made a quick tool to make it easier for myself: a bookmarklet to open NY Times Sudoku puzzles on &lt;a href=&#34;https://sudokuexchange.com&#34;&gt;SudokuExchange.com&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
   </channel>
