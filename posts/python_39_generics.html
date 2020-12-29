@@ -144,11 +144,11 @@
 <h1 id="type-hinting-generics">Type hinting generics</h1>
 <p>If you&rsquo;re using type annotations in Python, you&rsquo;ve surely had to write <code>from typing import List</code> before. And you&rsquo;ve probably made the mistake of writing <code>def f(d: dict[str, int])</code> and getting a <code>TypeError</code>.</p>
 <p>No more! Starting in Python 3.9, the following code will all just work, thanks to <a href="https://www.python.org/dev/peps/pep-0585/">PEP 585</a>:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">f</span>(d: dict[str, int]):
-    <span style="color:#f92672">...</span>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="k">def</span> <span class="nf">f</span><span class="p">(</span><span class="n">d</span><span class="p">:</span> <span class="nb">dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">int</span><span class="p">]):</span>
+    <span class="o">...</span>
 
-x: list[int] <span style="color:#f92672">=</span> <span style="color:#f92672">...</span>
-y: tuple[int, int] <span style="color:#f92672">=</span> <span style="color:#f92672">...</span>
+<span class="n">x</span><span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="nb">int</span><span class="p">]</span> <span class="o">=</span> <span class="o">...</span>
+<span class="n">y</span><span class="p">:</span> <span class="nb">tuple</span><span class="p">[</span><span class="nb">int</span><span class="p">,</span> <span class="nb">int</span><span class="p">]</span> <span class="o">=</span> <span class="o">...</span>
 </code></pre></div><p>No more annoying imports from <code>typing</code>! No more (totally understandable) questions from beginners about the difference between <code>list</code> and <code>List</code>.</p>
 <p>To be clear, I understand why the <code>typing</code> module was designed this way. Adding <code>List</code> in typing made type hinting compatible with previous versions of Python. And more generally, the design of annotations and type hinting were constrained by not wanting to change the core language without knowing how the feature would be received.</p>
 <p>With all this said &hellip; it was still annoying. 🙂</p>
@@ -156,10 +156,10 @@ y: tuple[int, int] <span style="color:#f92672">=</span> <span style="color:#f926
 <p>Despite this great addition, I&rsquo;m not going to be using Python 3.9 yet. Maybe for a new project, but I don&rsquo;t have any planned. And we certainly won&rsquo;t be upgrading our codebase at work for a while.</p>
 <p>My favorite part of Python 3.9, though, is that this is <strong>available from 3.7 onwards</strong>. This is all thanks to <code>__future__</code>.</p>
 <p>Last week, this code failed on 3.7:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">f</span>(x: list[int]):
-    <span style="color:#66d9ef">return</span> sum(x)
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="k">def</span> <span class="nf">f</span><span class="p">(</span><span class="n">x</span><span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="nb">int</span><span class="p">]):</span>
+    <span class="k">return</span> <span class="nb">sum</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
 
-f([<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">3</span>])
+<span class="n">f</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">])</span>
 </code></pre></div><p>But today, adding a <code>from __future__ import annotations</code> at the top, it works perfectly fine.</p>
 <p>Goodbye, <code>from typing import List</code>!</p>
 
@@ -382,15 +382,9 @@ f([<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>, <
 </script>
 
 
-<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/highlight.min.js"></script>
-<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/python.min.js"></script><script>
-    hljs.configure({
-        tabReplace: '    ', 
-        classPrefix: ''     
-        
-    })
-    hljs.initHighlightingOnLoad();
-</script>
+
+
+
 
 
 <script data-goatcounter="https://tusharc.goatcounter.com/count" async src="//gc.zgo.at/count.js">
