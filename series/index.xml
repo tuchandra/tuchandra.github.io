@@ -11,6 +11,16 @@
     
     
     <item>
+      <title>Resume</title>
+      <link>/resume/</link>
+      <pubDate>Mon, 04 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/resume/</guid>
+      <description>&lt;style type=&#34;text/css&#34;&gt;.rich-text li {line-height: 1.5;}&lt;/style&gt;
+&lt;p&gt;I&amp;rsquo;m currently a senior data scientist at &lt;a href=&#34;https://www.nielsen.com/us/en/solutions/nielsen-global-media/&#34;&gt;Nielsen&lt;/a&gt;. I did my master&amp;rsquo;s in computer science and undergrad in computer science and the &lt;a href=&#34;httpqs://www.isp.northwestern.edu/&#34;&gt;Integrated Science Program&lt;/a&gt;, both at Northwestern (go &amp;lsquo;cats!). My email address is me@(this domain).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Half a year of reading club</title>
       <link>/posts/reading_club_in_review_2020.html</link>
       <pubDate>Mon, 28 Dec 2020 00:00:00 +0000</pubDate>
@@ -179,16 +189,6 @@
       
       <guid>/papers/automated_content_moderation_karahalios.html</guid>
       <description>&lt;p&gt;When algorithms make decisions, humans should be able to appeal them. Right? This CSCW paper studies users&amp;rsquo; experience with contesting algorithmic content moderation decisions.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] The Hardware Lottery</title>
-      <link>/papers/hardware_lottery_hooker.html</link>
-      <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/papers/hardware_lottery_hooker.html</guid>
-      <description>&lt;p&gt;The &amp;ldquo;hardware lottery&amp;rdquo; is when a research idea succeeds because it is suitable with available hardware.
-What does this mean for the future of research?&lt;/p&gt;</description>
     </item>
     
   </channel>

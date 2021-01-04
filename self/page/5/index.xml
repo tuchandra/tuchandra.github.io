@@ -6,10 +6,19 @@
     <description>Recent content in Selves on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 02 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 04 Jan 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/self/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Paper] What are you optimizing for? Aligning Recommender Systems with Human Values</title>
+      <link>/papers/aligning_recommender_human_values_stray.html</link>
+      <pubDate>Sun, 19 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/aligning_recommender_human_values_stray.html</guid>
+      <description>&lt;p&gt;How can recommender systems better align to human values, like fairness, diversity, or equity? This paper, from the ICML Participatory Approaches to ML workshop, discusses approaches to answering this question.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>What I read this week (July 12 - July 18)</title>
@@ -180,15 +189,6 @@
       
       <guid>/spark/2020/patterns_for_artifacts.html</guid>
       <description>&lt;p&gt;So you need to save your work for future data scientists; how do you do this? This talk discusses best practices for saving artifacts from data science projects.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Automated And Explainable Deep Learning For Clinical Language Understanding At Roche</title>
-      <link>/spark/2020/clinical_decision_support_roche.html</link>
-      <pubDate>Thu, 25 Jun 2020 16:30:00 +0000</pubDate>
-      
-      <guid>/spark/2020/clinical_decision_support_roche.html</guid>
-      <description>&lt;p&gt;How does Roche use machine learning to help understand pathology reports? This talk gives a high-level overview of their data pipeline and tech stack, including infrastructure they&amp;rsquo;ve built up to do OCR and NLP.&lt;/p&gt;</description>
     </item>
     
   </channel>
