@@ -6,10 +6,19 @@
     <description>Recent content in Categories on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 24 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 28 Dec 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Half a year of reading club</title>
+      <link>/posts/reading_club_in_review_2020.html</link>
+      <pubDate>Mon, 28 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/reading_club_in_review_2020.html</guid>
+      <description>&lt;p&gt;In August, I started a reading club with my friend &lt;a href=&#34;https://judahgnewman.com&#34;&gt;Judah&lt;/a&gt;. 17 papers later, this post reflects on some of the things I&amp;rsquo;ve learned.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>[Paper] Development of a Machine Learning Model Using Multiple, Heterogeneous Data Sources to Estimate Weekly US Suicide Fatalities</title>
@@ -181,17 +190,6 @@
       <guid>/papers/hardware_lottery_hooker.html</guid>
       <description>&lt;p&gt;The &amp;ldquo;hardware lottery&amp;rdquo; is when a research idea succeeds because it is suitable with available hardware.
 What does this mean for the future of research?&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>My review of Calling Bullshit</title>
-      <link>/books/calling_bullshit.html</link>
-      <pubDate>Sat, 31 Oct 2020 01:00:00 +0000</pubDate>
-      
-      <guid>/books/calling_bullshit.html</guid>
-      <description>&lt;p&gt;&amp;ldquo;The world is awash with bullshit,&amp;rdquo; Carl Bergstrom and Jevin West write.
-What is it? How do we recognize it? How do we call it out when we see it?
-&lt;em&gt;Calling Bullshit: The Art of Skepticism in a Data-Driven World&lt;/em&gt;, informs us on these questions.&lt;/p&gt;</description>
     </item>
     
   </channel>

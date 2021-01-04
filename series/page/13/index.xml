@@ -11,6 +11,15 @@
     
     
     <item>
+      <title>Understanding Query Plans and Spark UIs</title>
+      <link>/spark/query_plans.html</link>
+      <pubDate>Thu, 25 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/spark/query_plans.html</guid>
+      <description>&lt;p&gt;Speaker: Xiao Li (Databricks).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Beyond Reason Codes: A Blueprint for Human-Centered, Low-Risk ML</title>
       <link>/spark/interpretable_ai.html</link>
       <pubDate>Wed, 24 Apr 2019 00:00:00 +0000</pubDate>

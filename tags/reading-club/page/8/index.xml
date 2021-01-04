@@ -6,10 +6,19 @@
     <description>Recent content in reading club on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 22 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 28 Dec 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/tags/reading-club/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Paper] Random, Messy, Funny, Raw: Finstas as Intimate Reconfigurations of Social Media</title>
+      <link>/papers/intimate_reconfigurations_finsta_xiao.html</link>
+      <pubDate>Wed, 29 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/intimate_reconfigurations_finsta_xiao.html</guid>
+      <description>&lt;p&gt;Another paper studying &amp;ldquo;finstas&amp;rdquo; (fake / secret Instagram accounts, shared only with a small group of people). This one, by Sijia Xiao et al., received an Honorable Mention at CHI 2020. In contrast to yesterday&amp;rsquo;s, this work draws from feminist theory to explore finstas as &amp;ldquo;intimate reconfigurations&amp;rdquo; of the Instagram platform itself.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Recent website changes</title>
@@ -180,15 +189,6 @@
       
       <guid>/books/everybody_lies_3.html</guid>
       <description>&lt;p&gt;A group of data scientists in my office decided to start a (now virtual) book club; our first book is &lt;em&gt;Everybody Lies: Big Data, New Data, and What the Internet Can Tell Us about Who We Really Are&lt;/em&gt; by &lt;a href=&#34;http://sethsd.com/everybodylies&#34;&gt;Seth Stephens-Davidowitz&lt;/a&gt;. In this book, the Google data scientist turned NYT writer talks about what we can learn from &amp;ldquo;Big Data&amp;rdquo;&amp;mdash;and why the results might be surprising.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>What I read this week (March 22 - March 28)</title>
-      <link>/what_i_read/20200328.html</link>
-      <pubDate>Sat, 28 Mar 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/what_i_read/20200328.html</guid>
-      <description>&lt;p&gt;This week, I read two articles about &amp;ldquo;broader impact&amp;rdquo; statements, soon to be required by NeurIPS. Other articles include a discussion of Facebook&amp;rsquo;s suicide prevention AI, suggestions on fighting fake news, and poll results showing Fox News viewers are less likely to take the coronavirus threat seriously.&lt;/p&gt;</description>
     </item>
     
   </channel>
