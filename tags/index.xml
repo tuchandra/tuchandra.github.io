@@ -6,10 +6,19 @@
     <description>Recent content in Tags on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 28 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 04 Jan 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>More minor site changes: cleaning up category pages</title>
+      <link>/posts/cleanup_category_pages.html</link>
+      <pubDate>Mon, 04 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/cleanup_category_pages.html</guid>
+      <description>&lt;p&gt;I did some cleanup of the categories and tag listings. This short post discusses why and how!&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Resume</title>
@@ -181,15 +190,6 @@
       
       <guid>/papers/data_and_power_archival_schoenebeck.html</guid>
       <description>&lt;p&gt;Another CSCW paper for this week&amp;rsquo;s reading group; this one on digital archives. What does data preservation mean in a digital world? How do adults see their legacy? This paper draws on archival theory to study these questions.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] &#39;At the End of the Day Facebook Does What It Wants&#39;: How Users Experience Contesting Algorithmic Content Moderation</title>
-      <link>/papers/automated_content_moderation_karahalios.html</link>
-      <pubDate>Sun, 08 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/papers/automated_content_moderation_karahalios.html</guid>
-      <description>&lt;p&gt;When algorithms make decisions, humans should be able to appeal them. Right? This CSCW paper studies users&amp;rsquo; experience with contesting algorithmic content moderation decisions.&lt;/p&gt;</description>
     </item>
     
   </channel>
