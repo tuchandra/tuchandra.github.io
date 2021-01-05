@@ -6,10 +6,19 @@
     <description>Recent content in Categories on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 04 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 05 Jan 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>My favorite Python 3.9 feature isn&#39;t a 3.9 feature</title>
+      <link>/posts/python_39_generics.html</link>
+      <pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/python_39_generics.html</guid>
+      <description>&lt;p&gt;Python 3.9 was released this week, and with it come a few incremental features. But my favorite feature isn&amp;rsquo;t just in Python 3.9&amp;mdash;it&amp;rsquo;s usable in 3.7 and up.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>[Paper] &#39;Data Strikes&#39;: Evaluating the Effectiveness of a New Form of Collective Action Against Technology Companies</title>
@@ -180,15 +189,6 @@
       
       <guid>/what_i_read/20200905.html</guid>
       <description>&lt;p&gt;This week&amp;rsquo;s reading includes articles on imposter syndrome, career lessons, and writing more.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] WES: Agent-based User Interaction Simulation on Real Infrastructure</title>
-      <link>/papers/wes_simulation_facebook.html</link>
-      <pubDate>Wed, 02 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/papers/wes_simulation_facebook.html</guid>
-      <description>&lt;p&gt;In this paper, Facebook simulates itself. Through legions of bots trained through reinforcement learning, but running on the real Facebook platform, Facebook details how it created a web-enabled simulation system of its own platform.&lt;/p&gt;</description>
     </item>
     
   </channel>

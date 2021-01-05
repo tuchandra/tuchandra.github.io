@@ -6,10 +6,19 @@
     <description>Recent content on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 04 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 05 Jan 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>My 2020 in Review</title>
+      <link>/posts/year_in_review_2020.html</link>
+      <pubDate>Tue, 05 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/year_in_review_2020.html</guid>
+      <description>&lt;p&gt;My year in review post. 2020 was a terrible year, all things considered, but I found opportunity to rekindle my reading habit and write consistently. Inside are reflections on personal and career growth, the development of my research skills, and some of the best things I read this year.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>More minor site changes: cleaning up category pages</title>
@@ -181,15 +190,6 @@
       
       <guid>/papers/complementary_nature_time_online_mok.html</guid>
       <description>&lt;p&gt;Self-reported measures of time spent online are known to be inaccurate compared to objective, server-log-informed measures. And while they&amp;rsquo;re each individually useful in predicting problematic effects online, little is known about how these two measures can be used alongside each other. This CSCW paper uses the open-source, open-data platform Lichess to study this.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>What I read this week (November 8 - 14)</title>
-      <link>/what_i_read/20201114.html</link>
-      <pubDate>Sat, 14 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/what_i_read/20201114.html</guid>
-      <description>&lt;p&gt;On rules engines and machine learning, graph theory for COVID vaccinations, MLflow and PyTorch, and grad school.&lt;/p&gt;</description>
     </item>
     
   </channel>
