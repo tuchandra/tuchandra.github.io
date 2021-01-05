@@ -6,10 +6,19 @@
     <description>Recent content on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 12 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 02 Jan 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/what_i_read/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>What I read this week (February 16 - February 22)</title>
+      <link>/what_i_read/20200222.html</link>
+      <pubDate>Sat, 22 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/what_i_read/20200222.html</guid>
+      <description>&lt;p&gt;Articles I read this week. Highlights include notes on drafting an engineering strategy and reducing &amp;ldquo;attention residue&amp;rdquo; (focusing on life admin &amp;amp; self care).&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>[Paper] Proposed Guidelines for the Responsible Use of Explainable Machine Learning</title>
@@ -180,15 +189,6 @@
       
       <guid>/what_i_read/20200111.html</guid>
       <description>&lt;p&gt;Articles I read this week, including predictions for 2020 and FiveThirtyEight&amp;rsquo;s primary methodology.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Comparing my old and new sites</title>
-      <link>/posts/site_comparison.html</link>
-      <pubDate>Mon, 06 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/site_comparison.html</guid>
-      <description>&lt;p&gt;I migrated my site a couple of days ago. What are some of the differences, both feature-wise and visually? I&amp;rsquo;ll compare common actions on both.&lt;/p&gt;</description>
     </item>
     
   </channel>

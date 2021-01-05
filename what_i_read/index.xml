@@ -6,7 +6,7 @@
     <description>Recent content on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 12 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 02 Jan 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/what_i_read/index.xml" rel="self" type="application/rss+xml" />
     
@@ -28,6 +28,15 @@
       <guid>/resume/</guid>
       <description>&lt;style type=&#34;text/css&#34;&gt;.rich-text li {line-height: 1.5;}&lt;/style&gt;
 &lt;p&gt;I&amp;rsquo;m currently a senior data scientist at &lt;a href=&#34;https://www.nielsen.com/us/en/solutions/nielsen-global-media/&#34;&gt;Nielsen&lt;/a&gt;. I did my master&amp;rsquo;s in computer science and undergrad in computer science and the &lt;a href=&#34;httpqs://www.isp.northwestern.edu/&#34;&gt;Integrated Science Program&lt;/a&gt;, both at Northwestern (go &amp;lsquo;cats!). My email address is me@(this domain).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>What I read this week (December 27 - January 2)</title>
+      <link>/what_i_read/20210102.html</link>
+      <pubDate>Sat, 02 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/what_i_read/20210102.html</guid>
+      <description>&lt;p&gt;Happy new year! This week&amp;rsquo;s edition is short, featuring a post on Apple&amp;rsquo;s new M1 chips and why they&amp;rsquo;re so fast, and another on boundaries within engineering orgs, especially &amp;ldquo;social good&amp;rdquo; ones.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -181,15 +190,6 @@
       
       <guid>/what_i_read/20201114.html</guid>
       <description>&lt;p&gt;On rules engines and machine learning, graph theory for COVID vaccinations, MLflow and PyTorch, and grad school.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] Data and Power: Archival Appraisal Theory as a Framework for Data Preservation</title>
-      <link>/papers/data_and_power_archival_schoenebeck.html</link>
-      <pubDate>Fri, 13 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/papers/data_and_power_archival_schoenebeck.html</guid>
-      <description>&lt;p&gt;Another CSCW paper for this week&amp;rsquo;s reading group; this one on digital archives. What does data preservation mean in a digital world? How do adults see their legacy? This paper draws on archival theory to study these questions.&lt;/p&gt;</description>
     </item>
     
   </channel>

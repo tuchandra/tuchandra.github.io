@@ -72,6 +72,26 @@
   </url>
   
   <url>
+    <loc>/what_i_read.html</loc>
+    <lastmod>2021-01-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/what-i-read.html</loc>
+    <lastmod>2021-01-02T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/what_i_read/20210102.html</loc>
+    <lastmod>2021-01-02T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>/posts/reading_club_in_review_2020.html</loc>
     <lastmod>2020-12-28T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -134,12 +154,6 @@
   </url>
   
   <url>
-    <loc>/what_i_read.html</loc>
-    <lastmod>2020-12-12T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/books.html</loc>
     <lastmod>2020-12-12T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -155,13 +169,6 @@
   
   <url>
     <loc>/books/little_book_hygge.html</loc>
-    <lastmod>2020-12-12T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/what-i-read.html</loc>
     <lastmod>2020-12-12T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

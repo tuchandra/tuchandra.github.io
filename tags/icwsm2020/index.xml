@@ -31,6 +31,15 @@
     </item>
     
     <item>
+      <title>What I read this week (December 27 - January 2)</title>
+      <link>/what_i_read/20210102.html</link>
+      <pubDate>Sat, 02 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/what_i_read/20210102.html</guid>
+      <description>&lt;p&gt;Happy new year! This week&amp;rsquo;s edition is short, featuring a post on Apple&amp;rsquo;s new M1 chips and why they&amp;rsquo;re so fast, and another on boundaries within engineering orgs, especially &amp;ldquo;social good&amp;rdquo; ones.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Half a year of reading club</title>
       <link>/posts/reading_club_in_review_2020.html</link>
       <pubDate>Mon, 28 Dec 2020 00:00:00 +0000</pubDate>
@@ -181,15 +190,6 @@
       
       <guid>/what_i_read/20201114.html</guid>
       <description>&lt;p&gt;On rules engines and machine learning, graph theory for COVID vaccinations, MLflow and PyTorch, and grad school.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] Data and Power: Archival Appraisal Theory as a Framework for Data Preservation</title>
-      <link>/papers/data_and_power_archival_schoenebeck.html</link>
-      <pubDate>Fri, 13 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/papers/data_and_power_archival_schoenebeck.html</guid>
-      <description>&lt;p&gt;Another CSCW paper for this week&amp;rsquo;s reading group; this one on digital archives. What does data preservation mean in a digital world? How do adults see their legacy? This paper draws on archival theory to study these questions.&lt;/p&gt;</description>
     </item>
     
   </channel>

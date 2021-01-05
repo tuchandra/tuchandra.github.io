@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>How Graph Technology is Changing AI</title>
+      <link>/spark/graph_technology.html</link>
+      <pubDate>Thu, 25 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/spark/graph_technology.html</guid>
+      <description>&lt;p&gt;Speakers: Jake Graham and Alicia Frame (Neo4j).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Modular Apache Spark: Transform Your Code into Pieces</title>
       <link>/spark/modular_spark.html</link>
       <pubDate>Thu, 25 Apr 2019 00:00:00 +0000</pubDate>
