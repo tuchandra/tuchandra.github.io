@@ -6,10 +6,19 @@
     <description>Recent content on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 24 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 07 Jan 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/papers/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Paper] The Complementary Nature of Perceived and Actual Time Spent Online in Measuring Digital Well-being</title>
+      <link>/papers/complementary_nature_time_online_mok.html</link>
+      <pubDate>Wed, 18 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/complementary_nature_time_online_mok.html</guid>
+      <description>&lt;p&gt;Self-reported measures of time spent online are known to be inaccurate compared to objective, server-log-informed measures. And while they&amp;rsquo;re each individually useful in predicting problematic effects online, little is known about how these two measures can be used alongside each other. This CSCW paper uses the open-source, open-data platform Lichess to study this.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>What I read this week (November 8 - 14)</title>
@@ -188,15 +197,6 @@ This RecSys 2020 paper investigates by modeling recommender systems with numeric
       
       <guid>/what_i_read/20201010.html</guid>
       <description>&lt;p&gt;This week&amp;rsquo;s reading: why finishing a personal project is hard, a GPT-3 bot posing as a human, more findings from Cambridge Analytica, and an interview with Safiya Noble.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Resources to learn about Bayesian inference</title>
-      <link>/posts/bayesian_resources.html</link>
-      <pubDate>Thu, 08 Oct 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/bayesian_resources.html</guid>
-      <description>&lt;p&gt;This is a companion post to my upcoming PyMCon talk, &lt;em&gt;Learning Bayesian Statistics with Pokemon GO&lt;/em&gt;. I want to catalog resources that helped me to learn Bayesian inference for the benefit of others trying to do the same.&lt;/p&gt;</description>
     </item>
     
   </channel>

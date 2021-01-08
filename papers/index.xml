@@ -6,10 +6,19 @@
     <description>Recent content on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 24 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 07 Jan 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/papers/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Paper] On the Legal Compatibility of Fairness Definitions</title>
+      <link>/papers/legal_compatibility_fairness_definitions_xiang.html</link>
+      <pubDate>Thu, 07 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/legal_compatibility_fairness_definitions_xiang.html</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>My 2020 in Review</title>
@@ -181,15 +190,6 @@
       
       <guid>/papers/decolonial_ai_mohamed.html</guid>
       <description>&lt;p&gt;It&amp;rsquo;s no surprise that AI can be harmful, but discussions of AI harm often miss historical context. This paper explores the role of decolonial theories in AI to address this gap.  Through ethical foresight, the authors argue, we can rethink the role of AI in helping and harming people of different societies.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] The Complementary Nature of Perceived and Actual Time Spent Online in Measuring Digital Well-being</title>
-      <link>/papers/complementary_nature_time_online_mok.html</link>
-      <pubDate>Wed, 18 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/papers/complementary_nature_time_online_mok.html</guid>
-      <description>&lt;p&gt;Self-reported measures of time spent online are known to be inaccurate compared to objective, server-log-informed measures. And while they&amp;rsquo;re each individually useful in predicting problematic effects online, little is known about how these two measures can be used alongside each other. This CSCW paper uses the open-source, open-data platform Lichess to study this.&lt;/p&gt;</description>
     </item>
     
   </channel>

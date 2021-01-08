@@ -6,10 +6,19 @@
     <description>Recent content in Tags on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 04 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 07 Jan 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Resources to learn about Bayesian inference</title>
+      <link>/posts/bayesian_resources.html</link>
+      <pubDate>Thu, 08 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/bayesian_resources.html</guid>
+      <description>&lt;p&gt;This is a companion post to my upcoming PyMCon talk, &lt;em&gt;Learning Bayesian Statistics with Pokemon GO&lt;/em&gt;. I want to catalog resources that helped me to learn Bayesian inference for the benefit of others trying to do the same.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>My favorite Python 3.9 feature isn&#39;t a 3.9 feature</title>
@@ -180,15 +189,6 @@
       
       <guid>/books/republic_1.html</guid>
       <description>&lt;p&gt;What does democracy look like in the age of social media? How do we reimagine public spaces for the digital era? What kinds of groups should the internet promote? These are questions posed by Cass Sunstein&amp;rsquo;s book &lt;em&gt;#republic.&lt;/em&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>What I read this week (August 30 - September 5)</title>
-      <link>/what_i_read/20200905.html</link>
-      <pubDate>Sat, 05 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/what_i_read/20200905.html</guid>
-      <description>&lt;p&gt;This week&amp;rsquo;s reading includes articles on imposter syndrome, career lessons, and writing more.&lt;/p&gt;</description>
     </item>
     
   </channel>

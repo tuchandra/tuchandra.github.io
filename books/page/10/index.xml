@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Section 230, the internet, and neutrality</title>
+      <link>/posts/section_230_and_neutrality.html</link>
+      <pubDate>Mon, 24 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/section_230_and_neutrality.html</guid>
+      <description>&lt;p&gt;Section 230 of the Communications Decency Act, which protects publishers of third-party content, is the foundation of the modern internet. Recent debate has focused on algorithmic curation and content moderation, but this misses the heart of the issue.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>[Paper] From Pick-Up Artists to Incels: A Data-Driven Sketch of the Manosphere</title>
       <link>/papers/sketch_of_manosphere_ribeiro.html</link>
       <pubDate>Sun, 23 Feb 2020 00:00:00 +0000</pubDate>
@@ -180,15 +189,6 @@
       
       <guid>/posts/software_in_dsci.html</guid>
       <description>&lt;p&gt;Good software engineering is an indispensible part of good data science. I&amp;rsquo;ve believed this for a while, but only recently come to feel strongly about it, and this post goes into more detail on why.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] &#39;This Post Will Just Get Taken Down&#39;: Characterizing Removed Pro-Eating Disorder Content on Social Media</title>
-      <link>/papers/removed_pro_ed_chancellor.html</link>
-      <pubDate>Sat, 11 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/papers/removed_pro_ed_chancellor.html</guid>
-      <description>&lt;p&gt;This is a social computing paper analyzing characteristics of over 30,000 pro-eating disorder (pro-ED) posts that were removed from Instagram after having been public at one time. The authors built a classifier for removed pro-ED posts against non-removed ones, and also studied the characteristics of removed posts more generally. Published in CHI 2016.&lt;/p&gt;</description>
     </item>
     
   </channel>

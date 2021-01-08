@@ -897,10 +897,6 @@ video {
   width: 100%;
 }
 
-.w-screen {
-  width: 100vw;
-}
-
 .z-50 {
   z-index: 50;
 }

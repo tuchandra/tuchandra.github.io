@@ -5,7 +5,8 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <title>
-    Tushar Chandra</title>
+    [Paper] On the Legal Compatibility of Fairness Definitions - Tushar Chandra
+    </title>
   <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -19,26 +20,33 @@
   <meta name="format-detection" content="telephone=no,email=no,adress=no">
   
   <meta name="theme-color" content="#000000" />
-  <meta http-equiv="window-target" content="_top" />
+  <meta http-equiv="window-target" content="_top" /><meta name="description" content="" />
   <meta name="generator" content="Hugo 0.70.0" />
-  <title>Tushar Chandra</title>
+  <title>[Paper] On the Legal Compatibility of Fairness Definitions - Tushar Chandra</title>
 
   
-  <link rel="alternate" type="application/rss+xml" href="/index.xml" title="Tushar Chandra" />
   
   <link rel="stylesheet" href="/css/styles.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
   <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
 
-  <meta property="og:title" content="Tushar Chandra" />
+  <meta property="og:title" content="[Paper] On the Legal Compatibility of Fairness Definitions" />
 <meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="/" />
-<meta property="og:updated_time" content="2021-01-07T00:00:00+00:00" />
-<meta itemprop="name" content="Tushar Chandra">
-<meta itemprop="description" content=""><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Tushar Chandra"/>
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/papers/legal_compatibility_fairness_definitions_xiang.html" />
+<meta property="article:published_time" content="2021-01-07T00:00:00+00:00" />
+<meta property="article:modified_time" content="2021-01-07T00:00:00+00:00" />
+<meta itemprop="name" content="[Paper] On the Legal Compatibility of Fairness Definitions">
+<meta itemprop="description" content="">
+<meta itemprop="datePublished" content="2021-01-07T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2021-01-07T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="889">
+
+
+
+<meta itemprop="keywords" content="reading club," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="[Paper] On the Legal Compatibility of Fairness Definitions"/>
 <meta name="twitter:description" content=""/>
 </head>
 </head>
@@ -114,196 +122,112 @@
   <div class="container mx-auto max-w-8xl px-4 flex flex-row flex-grow">
     <div class="w-full md:w-3/4">
       
-
-<main role="main" class="md:container mx-auto">
-  <div class="pt-8">
-    <h1 class="text-3xl font-thin">Hi, I'm Tushar.</h1>
-    <span class="">
-      Thank you for visiting my website.
-      Here, I post my thoughts on data science and HCI; summaries of papers I've read and talks I've watched;
-      and reflections on other things that I read.
-    </span>
-
-    <div class="py-4">
-      <hr>
+<main class="main" role="main"><div class="content container mx-auto max-w-6xl">
+  <article id="-" class="" itemscope itemtype="http://schema.org/BlogPosting">
+    <div class="pt-4">
+      <span class="font-semibold text-3xl"><h1 itemprop="name">
+  <a class="" href="/papers/legal_compatibility_fairness_definitions_xiang.html">[Paper] On the Legal Compatibility of Fairness Definitions</a>
+</h1>
+      </span>
+      <div class="pb-4"><i class="fas fa-calendar-check text-gray-500 pr-1"></i>
+<time datetime="2021-01-07 00:00:00 &#43;0000 UTC" class="text-sm text-gray-600"
+  itemprop="datePublished">2021-01-07</time>
+<span class="text-sm text-gray-600" itemprop="wordCount">
+	<i class="fas fa-pencil-alt text-gray-500 pl-4 pr-2"></i>889 words
+</span><i class="fas fa-folder-open text-gray-500 pl-4 pr-1"></i>
+<a class="text-sm text-gray-600" href=" /categories/papers.html"> papers, </a>
+<span class="article-tag">
+  <i class="fas fa-tag text-gray-500 pl-4 pr-1"></i>
+  <a class="text-sm text-gray-600" href="/tags/reading-club.html"> reading club, </a>
+</span><span class="article-category text-sm text-gray-600 pl-4">
+  <i class="fa fa-users "></i>
+  Alice Xiang, Inioluwa Deborah Raji
+</span>
+      </div>
     </div>
+    <div class="rich-text" itemprop="articleBody">
+      <p><strong>Links</strong>: <a href="https://arxiv.org/abs/1912.00761">arXiv</a>, <a href="https://www.partnershiponai.org/to-prevent-algorithmic-bias-legal-and-technical-definitions-around-algorithmic-fairness-must-align/">blog post</a>, <a href="https://twitter.com/rajiinio/status/1201694932215517185">Twitter thread</a>; presented at the HCML workshop at NeurIPS 2019</p>
+<h2 id="background-and-motivation"><a class="not-rich" href="#background-and-motivation"><i class="fas fa-link"></i></a> Background and motivation</h2>
+<p>The machine learning community and legal system do not always agree on definitions of fairness. The ML fairness community will use legal terminology in imprecise or misleading ways. This is problematic for two reasons:</p>
+<blockquote>
+<p>First, to demonstrate evidence of algorithmic unfairness, ML definitions must accurately map onto their legal counterparts to establish liability. &hellip; Second, to deploy bias correction methods in the real world, it is important that the methods themselves are not determined to be discriminatory from a legal perpsective.</p>
+</blockquote>
+<p>ML models must be compatible with the law. This means more than avoiding discrimination. It means that the language and metrics, or lack thereof, to avoid discrimination must match between the ML domain and the legal one.</p>
+<h2 id="examples-of-poorly-mapped-concepts"><a class="not-rich" href="#examples-of-poorly-mapped-concepts"><i class="fas fa-link"></i></a> Examples of poorly mapped concepts</h2>
+<p>The authors described a few concepts that are imprecisely mapped between the ML fairness community and the legal definitions. This table is a summary of Section 2 in the paper.</p>
+<table>
+<thead>
+<tr>
+<th>Concept</th>
+<th>ML interpretation</th>
+<th>Legal interpretation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Discrimination</td>
+<td>Typically defined in terms of metrics, which can be &ldquo;removed&rdquo;</td>
+<td>Typically defined through &ldquo;motive, evidenced intent of exclusion, and causality, rather than simply outcomes,&rdquo; which is gauged in context</td>
+</tr>
+<tr>
+<td>Protected classes</td>
+<td>Often conflated with &ldquo;minority and marginalized groups&rdquo;</td>
+<td>Symmetric with respect to race and gender</td>
+</tr>
+<tr>
+<td>Affirmative action</td>
+<td>Treated as cases where we &ldquo;explicitly take demographics into account&rdquo;</td>
+<td>Allows the use of race as a holistic, not explicit, factor</td>
+</tr>
+<tr>
+<td>Disparate treatment</td>
+<td>Whether a protected attribute is used in a decision process</td>
+<td>Asks whether actions were <em>motivated</em> by discriminatory intent</td>
+</tr>
+<tr>
+<td>Disparate impact</td>
+<td>&ldquo;when outcomes differ across subgroups&rdquo;</td>
+<td>Only shown if the outcomes can&rsquo;t be explained in a nondiscriminatory manner, or if there is no less discriminatory alternative</td>
+</tr>
+</tbody>
+</table>
+<p>The discrimination example stood out to me. The authors cite <a href="/papers/equality_of_opportunity_srebro.html">Equality of Opportunity in Supervised Learning</a> as an example of something you <em>can&rsquo;t</em> do—&ldquo;remove discrimination&rdquo;—which I didn&rsquo;t think about when reading that a few months ago.</p>
+<p>It&rsquo;s also worth noting that the legal community might adopt narrower views of court decisions than the ML fairness community. When cases are heavily motivated by the details (in an example about disparate treatment in promoting firefighters, &ldquo;the fact that many firefighters spent significant time and money preparing for the test&rdquo;), it may not be possible to draw broad conclusions about its applicability.</p>
+<h2 id="lessons-for-ml-fairness"><a class="not-rich" href="#lessons-for-ml-fairness"><i class="fas fa-link"></i></a> Lessons for ML fairness</h2>
+<p><strong>Intersectionality</strong> (the idea that people&rsquo;s identities interact, e.g., that Black women face challenges different than the union of challenges faced by Black people and by women) is typically not considered in ML fairness, where people are represented as vectors of their class attribiutes.</p>
+<p><strong>Procedural fairness</strong> in ML typically refers to the features that help a model make its decision. Legally, it is a qualitative concept that &ldquo;seeks to arrive at just outcomes through iterative processes and the close examination of the set of governance structures in place to guide individual human decision-making.&rdquo; Far broader and fuzzier than anything seen in ML, where <a href="/papers/reliance_metrics_problem_thomas.html">metrics rule all</a>.</p>
+<h2 id="lessons-for-law"><a class="not-rich" href="#lessons-for-law"><i class="fas fa-link"></i></a> Lessons for law</h2>
+<p>On the other hand, <strong>measuring bias</strong> becomes empirically possible with algorithms. &ldquo;Making a case for the use of protected variables to effectively measure discrimination, although an intuitive and proven conclusion from a mathematical perspective, is still much more difficult to make a case for in a legal sense.&rdquo; The legal system could adapt to the emergent reality of algorithms here.</p>
+<p>The law also typically requires <strong>narrower domains</strong> for anti-discrimination protections than the fairness community is accustomed to, and the ML community could feasibly inform what the future should look like:</p>
+<blockquote>
+<p>Although ML research often discusses the fairness of ad targeting and recommendation algorithms, bias in these algorithms—although potentially immoral-is not generally illegal.</p>
+</blockquote>
+<p>I&rsquo;m thinking here about Twitter&rsquo;s <a href="https://www.theverge.com/2020/10/2/21498619/twitter-image-cropping-update-racial-bias-machine-learning">image cropping algorithm</a>, which was found to favor images of white people over Black ones. It&rsquo;s not illegal that it was biased in this way, and it&rsquo;s hard to imagine that it should be. But were this to somehow cause someone harm, it would be hard to find legal recourse.</p>
+<p>Finally, anti-discrimination laws are often motivated by <strong>causality</strong>, but algorithmic causality is murkier. &ldquo;From a statistical perpsective, the presence or absence of protected class variables (or close proxies) in the algorithm does not indicate the presence or absense of a causal connection.&rdquo; The ML community might need to intermediate between legal and statistical definitions of causality.</p>
+<h2 id="my-thoughts"><a class="not-rich" href="#my-thoughts"><i class="fas fa-link"></i></a> My thoughts</h2>
+<p>This is an interesting paper! I wonder how prescient it&rsquo;ll end up seeming. It feels to me like relevant case law is either sparse or doesn&rsquo;t yet exist; that we&rsquo;re still awaiting court decisions to clarify on how discrimination in ML will end up being mapped onto our legal system.</p>
+<p>The idea reminds me of <em>construct validity</em> in social computing—that whatever definitions of fairness we come up with have to be compatible with their legal counterparts. It makes sense; especially if ML uses a subtley different definition, that could just end up confusing courts.</p>
+<p>A little over a year ago, I read <a href="/papers/discrimination_algorithms_kleinberg_1.html">Discrimination in the Age of Algorithms</a>, which talked about how definitions of and regulations for discrimination will have to evolve over time. They too analyze issues of disparate impact and treatment, bias, and affirmative action to see how they might be reimagined in a future with more algorithmic decisions.</p>
+<p>I&rsquo;m looking forward to seeing how this issue evolves over time.</p>
 
-    <div class="">
-      
-      
-      <article class="" itemscope itemtype="http://schema.org/BlogPosting">
-        <div class="font-semibold text-xl">
-          <h1 itemprop="name">
-  <a class="" href="/posts/talk_global_energy_challenge.html">Talk Notes: The Global Energy Challenge by Michael Greenstone</a>
-</h1></div>
-        <p class=""><i class="fas fa-calendar-check text-gray-500 pr-1"></i>
-<time datetime="2020-01-31 00:00:00 &#43;0000 UTC" class="text-sm text-gray-600"
-  itemprop="datePublished">2020-01-31</time>
-<span class="text-sm text-gray-600" itemprop="wordCount">
-	<i class="fas fa-pencil-alt text-gray-500 pl-4 pr-2"></i>564 words
-</span><i class="fas fa-folder-open text-gray-500 pl-4 pr-1"></i>
-<a class="text-sm text-gray-600" href=" /categories/general.html"> general, </a>
-        </p>
-        <div class="py-4" itemprop="description"><p>I had the pleasure of hearing <a href="https://www.michaelgreenstone.com/">Michael Greenstone</a>, former Chief Economist to President Obama and now professor at UChicago, speak about the Global Energy Challenge. These are my notes and my thoughts.</p></div>
-        <div class="py-4">
-          <hr>
-        </div>
-      </article>
-      <article class="" itemscope itemtype="http://schema.org/BlogPosting">
-        <div class="font-semibold text-xl">
-          <h1 itemprop="name">
-  <a class="" href="/papers/contrasting_social_support_chancellor.html">[Paper] Norms Matter: Contrasting Social Support Around Behavior Change in Online Weight Loss Communities</a>
-</h1></div>
-        <p class=""><i class="fas fa-calendar-check text-gray-500 pr-1"></i>
-<time datetime="2020-01-28 00:00:00 &#43;0000 UTC" class="text-sm text-gray-600"
-  itemprop="datePublished">2020-01-28</time>
-<span class="text-sm text-gray-600" itemprop="wordCount">
-	<i class="fas fa-pencil-alt text-gray-500 pl-4 pr-2"></i>1091 words
-</span><i class="fas fa-folder-open text-gray-500 pl-4 pr-1"></i>
-<a class="text-sm text-gray-600" href=" /categories/papers.html"> papers, </a><span class="article-category text-sm text-gray-600 pl-4">
-  <i class="fa fa-users "></i>
-  Stevie Chancellor, Andrea Hu, Munmun de Choudhury
-</span>
-        </p>
-        <div class="py-4" itemprop="description"><p>My last of Dr. Chancellor&rsquo;s papers for now. This paper studies the discourse within two online health communities for weight loss, /r/loseit and (the now banned) /r/proED. The authors discuss how different communities provide support differently and discuss design implications.</p></div>
-        <div class="py-4">
-          <hr>
-        </div>
-      </article>
-      <article class="" itemscope itemtype="http://schema.org/BlogPosting">
-        <div class="font-semibold text-xl">
-          <h1 itemprop="name">
-  <a class="" href="/papers/classification_pro_ed_chancellor.html">[Paper] Multimodal Classification of Moderated Online Pro-Eating Disorder Content</a>
-</h1></div>
-        <p class=""><i class="fas fa-calendar-check text-gray-500 pr-1"></i>
-<time datetime="2020-01-26 00:00:00 &#43;0000 UTC" class="text-sm text-gray-600"
-  itemprop="datePublished">2020-01-26</time>
-<span class="text-sm text-gray-600" itemprop="wordCount">
-	<i class="fas fa-pencil-alt text-gray-500 pl-4 pr-2"></i>991 words
-</span><i class="fas fa-folder-open text-gray-500 pl-4 pr-1"></i>
-<a class="text-sm text-gray-600" href=" /categories/papers.html"> papers, </a><span class="article-category text-sm text-gray-600 pl-4">
-  <i class="fa fa-users "></i>
-  Stevie Chancellor, Yannis Kalantidis, Jessica Pater, Munmun De Choudhury, David Shamma
-</span>
-        </p>
-        <div class="py-4" itemprop="description"><p>This is another social computing paper that develops a deep learning classifier for pro-eating disorder content on Tumblr. This work bridges the gap between deep learning and social computing, contributing an image+text classifier for identifying deviant posts.</p></div>
-        <div class="py-4">
-          <hr>
-        </div>
-      </article>
-      <article class="" itemscope itemtype="http://schema.org/BlogPosting">
-        <div class="font-semibold text-xl">
-          <h1 itemprop="name">
-  <a class="" href="/what_i_read/20200125.html">What I read this week (January 19 - 25)</a>
-</h1></div>
-        <p class=""><i class="fas fa-calendar-check text-gray-500 pr-1"></i>
-<time datetime="2020-01-25 00:00:00 &#43;0000 UTC" class="text-sm text-gray-600"
-  itemprop="datePublished">2020-01-25</time>
-<span class="text-sm text-gray-600" itemprop="wordCount">
-	<i class="fas fa-pencil-alt text-gray-500 pl-4 pr-2"></i>742 words
-</span><i class="fas fa-folder-open text-gray-500 pl-4 pr-1"></i>
-<a class="text-sm text-gray-600" href=" /categories/what-i-read.html"> what I read, </a>
-        </p>
-        <div class="py-4" itemprop="description"><p>Articles I read this week, including &ldquo;data science is different now&rdquo; and a Washington Post editorial about regulating AI.</p></div>
-        <div class="py-4">
-          <hr>
-        </div>
-      </article>
-      <article class="" itemscope itemtype="http://schema.org/BlogPosting">
-        <div class="font-semibold text-xl">
-          <h1 itemprop="name">
-  <a class="" href="/posts/site_comparison_part2.html">Comparing my old and new sites, part 2</a>
-</h1></div>
-        <p class=""><i class="fas fa-calendar-check text-gray-500 pr-1"></i>
-<time datetime="2020-01-21 00:00:00 &#43;0000 UTC" class="text-sm text-gray-600"
-  itemprop="datePublished">2020-01-21</time>
-<span class="text-sm text-gray-600" itemprop="wordCount">
-	<i class="fas fa-pencil-alt text-gray-500 pl-4 pr-2"></i>505 words
-</span><i class="fas fa-folder-open text-gray-500 pl-4 pr-1"></i>
-<a class="text-sm text-gray-600" href=" /categories/general.html"> general, </a>
-        </p>
-        <div class="py-4" itemprop="description"><p>In a <a href="/posts/site_comparison.html">previous post</a>, I compared the features of my old and new site. This is part 2 of that post, focusing on things that I missed then that have only come up after a few weeks of using the site.</p></div>
-        <div class="py-4">
-          <hr>
-        </div>
-      </article>
-      <article class="" itemscope itemtype="http://schema.org/BlogPosting">
-        <div class="font-semibold text-xl">
-          <h1 itemprop="name">
-  <a class="" href="/what_i_read/20200118.html">What I read this week (January 12 - 18)</a>
-</h1></div>
-        <p class=""><i class="fas fa-calendar-check text-gray-500 pr-1"></i>
-<time datetime="2020-01-18 00:00:00 &#43;0000 UTC" class="text-sm text-gray-600"
-  itemprop="datePublished">2020-01-18</time>
-<span class="text-sm text-gray-600" itemprop="wordCount">
-	<i class="fas fa-pencil-alt text-gray-500 pl-4 pr-2"></i>912 words
-</span><i class="fas fa-folder-open text-gray-500 pl-4 pr-1"></i>
-<a class="text-sm text-gray-600" href=" /categories/what-i-read.html"> what I read, </a>
-        </p>
-        <div class="py-4" itemprop="description"><p>Articles I read this week, including &ldquo;goodbye clean code,&rdquo; the Neural ODEs paper retrospective, and technical writing.</p></div>
-        <div class="py-4">
-          <hr>
-        </div>
-      </article>
-      <article class="" itemscope itemtype="http://schema.org/BlogPosting">
-        <div class="font-semibold text-xl">
-          <h1 itemprop="name">
-  <a class="" href="/posts/software_in_dsci.html">Software engineering is an essential part of data science</a>
-</h1></div>
-        <p class=""><i class="fas fa-calendar-check text-gray-500 pr-1"></i>
-<time datetime="2020-01-13 00:00:00 &#43;0000 UTC" class="text-sm text-gray-600"
-  itemprop="datePublished">2020-01-13</time>
-<span class="text-sm text-gray-600" itemprop="wordCount">
-	<i class="fas fa-pencil-alt text-gray-500 pl-4 pr-2"></i>1106 words
-</span><i class="fas fa-folder-open text-gray-500 pl-4 pr-1"></i>
-<a class="text-sm text-gray-600" href=" /categories/general.html"> general, </a>
-        </p>
-        <div class="py-4" itemprop="description"><p>Good software engineering is an indispensible part of good data science. I&rsquo;ve believed this for a while, but only recently come to feel strongly about it, and this post goes into more detail on why.</p></div>
-        <div class="py-4">
-          <hr>
-        </div>
-      </article>
-      <article class="" itemscope itemtype="http://schema.org/BlogPosting">
-        <div class="font-semibold text-xl">
-          <h1 itemprop="name">
-  <a class="" href="/papers/removed_pro_ed_chancellor.html">[Paper] &#39;This Post Will Just Get Taken Down&#39;: Characterizing Removed Pro-Eating Disorder Content on Social Media</a>
-</h1></div>
-        <p class=""><i class="fas fa-calendar-check text-gray-500 pr-1"></i>
-<time datetime="2020-01-11 00:00:00 &#43;0000 UTC" class="text-sm text-gray-600"
-  itemprop="datePublished">2020-01-11</time>
-<span class="text-sm text-gray-600" itemprop="wordCount">
-	<i class="fas fa-pencil-alt text-gray-500 pl-4 pr-2"></i>909 words
-</span><i class="fas fa-folder-open text-gray-500 pl-4 pr-1"></i>
-<a class="text-sm text-gray-600" href=" /categories/papers.html"> papers, </a><span class="article-category text-sm text-gray-600 pl-4">
-  <i class="fa fa-users "></i>
-  Stevie Chancellor, Zhiyuan (Jerry) Liu, Munmun de Choudhury
-</span>
-        </p>
-        <div class="py-4" itemprop="description"><p>This is a social computing paper analyzing characteristics of over 30,000 pro-eating disorder (pro-ED) posts that were removed from Instagram after having been public at one time. The authors built a classifier for removed pro-ED posts against non-removed ones, and also studied the characteristics of removed posts more generally. Published in CHI 2016.</p></div>
-        <div class="py-4">
-          <hr>
-        </div>
-      </article></div>
-    
-<nav class="" data-stick-bottom>
-  <div class="">
-    <ul class=""><li class="inline-block">
-        <a href="/page/24.html">
-          <i class="fas fa-angle-left text-gray-800 text-xl"></i>
-          
-        </a>
-      </li><li class="inline-block px-4">
-        Page 25 / 31
-      </li><li class="inline-block">
-        <a href="/page/26.html">
-          <i class="fas fa-angle-right text-gray-800 text-xl"></i>
-          
-        </a>
-      </li>
-    </ul>
-  </div>
+      <p><i class="fas fa-square font-green-800"></i></p>
+    </div>
+    <div class="font-semibold text-green-800 pt-4">
+      <a href="/"><i class="fas fa-arrow-left"></i> Return home</a>
+    </div>
+  </article>
+</div><nav class="bar bar-footer clearfix" data-stick-bottom>
+    <div class="bar-inner">
+        <ul class="pager pull-left">
+            <li class="prev">
+                <a href="/posts/year_in_review_2020.html" title="My 2020 in Review"><i
+                        class="icon icon-angle-left"
+                        aria-hidden="true"></i><span>&nbsp;&nbsp;</span></a>
+            </li>
+        </ul>
+    </div>
 </nav>
-  </div>
+
 </main>
     </div>
     <div class="hidden w-0 md:block md:w-1/4 md:pt-8 md:pl-12"><aside class="" itemscope itemtype="http://schema.org/WPSideBar">
