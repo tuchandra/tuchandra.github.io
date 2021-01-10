@@ -6,10 +6,19 @@
     <description>Recent content in what I read on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 02 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 09 Jan 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/categories/what-i-read/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>What I read this week (January 3 - 9)</title>
+      <link>/what_i_read/20210109.html</link>
+      <pubDate>Sat, 09 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/what_i_read/20210109.html</guid>
+      <description>&lt;p&gt;Two thoughtful articles this week: on how machine learning is going real time, and the problems with machine learning in medicine.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>[Paper] On the Legal Compatibility of Fairness Definitions</title>
@@ -181,15 +190,6 @@
       
       <guid>/what_i_read/20201121.html</guid>
       <description>&lt;p&gt;On work-life balance; writing simply; ethical issues with recommender systems; and trust and safety in products.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] Decolonial AI: Decolonial Theory as Sociotechnical Foresight in Artificial Intelligence</title>
-      <link>/papers/decolonial_ai_mohamed.html</link>
-      <pubDate>Fri, 20 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/papers/decolonial_ai_mohamed.html</guid>
-      <description>&lt;p&gt;It&amp;rsquo;s no surprise that AI can be harmful, but discussions of AI harm often miss historical context. This paper explores the role of decolonial theories in AI to address this gap.  Through ethical foresight, the authors argue, we can rethink the role of AI in helping and harming people of different societies.&lt;/p&gt;</description>
     </item>
     
   </channel>
