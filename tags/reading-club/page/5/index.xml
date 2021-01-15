@@ -6,10 +6,19 @@
     <description>Recent content in reading club on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 07 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 14 Jan 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/tags/reading-club/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Paper] Local Trends in Global Music Streaming</title>
+      <link>/papers/local_trends_streaming_way.html</link>
+      <pubDate>Sun, 02 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/local_trends_streaming_way.html</guid>
+      <description>&lt;p&gt;Spotify makes a global music catalog available to subscribers around the world. Historically, that&amp;rsquo;s meant different countries have more access to each other&amp;rsquo;s music. How does that hold up in 5.5 years of Spotify streaming data?&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>What I read this week (July 26 - August 1)</title>
@@ -180,15 +189,6 @@
       
       <guid>/spark/2020/follow_recommendations_linkedin.html</guid>
       <description>&lt;p&gt;How does LinkedIn generate follow recommendations for hundreds of millions of users and entities? Anything involving large shuffles is a non-starter; this talk describes how they developed a custom hash-partitioned join algorithm to handle such large data.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Generalized SEIR Model On Large Networks</title>
-      <link>/spark/2020/generalized_seir_models.html</link>
-      <pubDate>Fri, 26 Jun 2020 13:00:00 +0000</pubDate>
-      
-      <guid>/spark/2020/generalized_seir_models.html</guid>
-      <description>&lt;p&gt;SEIR models for epidemiology break down a population into four partitions: susceptible, exposed, infected, and recovered. This talk gives an overview of how &lt;a href=&#34;https://github.com/ryansmcgee/seirsplus&#34;&gt;seirsplus&lt;/a&gt; can be used with MLflow and hyperopt to run simulations and experiments of possible COVID-19 scenarios.&lt;/p&gt;</description>
     </item>
     
   </channel>

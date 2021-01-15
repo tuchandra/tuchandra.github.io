@@ -6,10 +6,19 @@
     <description>Recent content in papers on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 07 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 14 Jan 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/categories/papers/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Paper] Street-Level Algorithms: A Theory at the Gaps between Policy and Decisions</title>
+      <link>/papers/street_level_algorithms_alkhatib.html</link>
+      <pubDate>Thu, 14 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/street_level_algorithms_alkhatib.html</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>What I read this week (January 3 - 9)</title>
@@ -181,15 +190,6 @@
       
       <guid>/books/hooked.html</guid>
       <description>&lt;p&gt;I review Nir Eyal&amp;rsquo;s &lt;em&gt;Hooked&lt;/em&gt;, a 200-page manual for creating habit-forming products. It&amp;rsquo;s clear that his steps work&amp;mdash;examples from several common products readily support them. But I question whether this is being used for good or evil.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>What I read this week (November 15 - 21)</title>
-      <link>/what_i_read/20201121.html</link>
-      <pubDate>Sat, 21 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/what_i_read/20201121.html</guid>
-      <description>&lt;p&gt;On work-life balance; writing simply; ethical issues with recommender systems; and trust and safety in products.&lt;/p&gt;</description>
     </item>
     
   </channel>
