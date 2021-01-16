@@ -6,10 +6,19 @@
     <description>Recent content in Categories on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 14 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 15 Jan 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Consumers and citzens</title>
+      <link>/books/republic_3.html</link>
+      <pubDate>Tue, 08 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/books/republic_3.html</guid>
+      <description>&lt;p&gt;One of the recurring themes in Sunstein&amp;rsquo;s book is on the conflict between consumer sovereignty and political sovereignty. The roles of citizen and consumer are different, and we each play both. This post explores this idea a little bit.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Shared experiences and information</title>
@@ -180,15 +189,6 @@
       
       <guid>/what_i_read/20200808.html</guid>
       <description>&lt;p&gt;A few articles from Pointer this week, an &lt;em&gt;amazing&lt;/em&gt; post titled &amp;ldquo;System Design for Advanced Beginners,&amp;rdquo; and some blogging advice.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] An Experimental Study of Structural Diversity in Social Networks</title>
-      <link>/papers/experimental_study_structural_diversity_su.html</link>
-      <pubDate>Tue, 04 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/papers/experimental_study_structural_diversity_su.html</guid>
-      <description>&lt;p&gt;In a social network, structural diversity is a measure of how (dis)similar one&amp;rsquo;s social connections are. It&amp;rsquo;s positively correlated with engagement, but the mechanism behind this is unknown. This work experimentally alters structural diversity for new Twitter users, studying whether or not it affects user retention.&lt;/p&gt;</description>
     </item>
     
   </channel>

@@ -4,54 +4,61 @@
   
   <url>
     <loc>/papers.html</loc>
-    <lastmod>2021-01-14T00:00:00+00:00</lastmod>
+    <lastmod>2021-01-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/papers/street_level_algorithms_alkhatib.html</loc>
-    <lastmod>2021-01-14T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>/categories.html</loc>
-    <lastmod>2021-01-14T00:00:00+00:00</lastmod>
+    <lastmod>2021-01-15T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/tags/chi2019.html</loc>
-    <lastmod>2021-01-14T00:00:00+00:00</lastmod>
+    <lastmod>2021-01-15T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/papers/street_level_algorithms_alkhatib_2.html</loc>
+    <lastmod>2021-01-15T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/categories/papers.html</loc>
-    <lastmod>2021-01-14T00:00:00+00:00</lastmod>
+    <lastmod>2021-01-15T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/tags/reading-club.html</loc>
-    <lastmod>2021-01-14T00:00:00+00:00</lastmod>
+    <lastmod>2021-01-15T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/tags.html</loc>
-    <lastmod>2021-01-14T00:00:00+00:00</lastmod>
+    <lastmod>2021-01-15T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/</loc>
+    <lastmod>2021-01-15T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/papers/street_level_algorithms_alkhatib.html</loc>
     <lastmod>2021-01-14T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

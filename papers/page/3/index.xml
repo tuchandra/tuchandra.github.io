@@ -6,10 +6,21 @@
     <description>Recent content on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 14 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 15 Jan 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/papers/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Paper] Deconstructing the Filter Bubble: User Decision-Making and Recommender Systems</title>
+      <link>/papers/deconstructing_filter_bubble_aridor.html</link>
+      <pubDate>Tue, 13 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/deconstructing_filter_bubble_aridor.html</guid>
+      <description>&lt;p&gt;One of the more surprising research findings is that filter bubbles arise even in the absence of recommendation.
+How does this happen, and what can be done to alleviate it?
+This RecSys 2020 paper investigates by modeling recommender systems with numerical simulation.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Materials for my PyMCon talk</title>
@@ -180,15 +191,6 @@
       
       <guid>/books/republic_4.html</guid>
       <description>&lt;p&gt;Towards the end of &lt;em&gt;#republic&lt;/em&gt;, we study speech and its regulation by government. What are reasonable limits that a government might pose on speech? How might these change in the digital era?&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Consumers and citzens</title>
-      <link>/books/republic_3.html</link>
-      <pubDate>Tue, 08 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/books/republic_3.html</guid>
-      <description>&lt;p&gt;One of the recurring themes in Sunstein&amp;rsquo;s book is on the conflict between consumer sovereignty and political sovereignty. The roles of citizen and consumer are different, and we each play both. This post explores this idea a little bit.&lt;/p&gt;</description>
     </item>
     
   </channel>

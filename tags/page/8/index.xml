@@ -6,10 +6,19 @@
     <description>Recent content in Tags on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 14 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 15 Jan 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Paper] Understanding and Visualizing Data Iteration in Machine Learning</title>
+      <link>/papers/understanding_data_iteration_ml_hohman.html</link>
+      <pubDate>Fri, 08 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/understanding_data_iteration_ml_hohman.html</guid>
+      <description>&lt;p&gt;Machine learning is as much&amp;mdash;if not more&amp;mdash;about the data as it is the models. This paper explores &lt;em&gt;data&lt;/em&gt; iteration, in contrast to model iteration, and studies ways that ML practitioners manage changing data.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>[Paper] How to Trick AI: Users&#39; Strategies for Protecting Themselves from Automatic Personality Assessment</title>
@@ -180,15 +189,6 @@
       
       <guid>/papers/model_facts_sendak.html</guid>
       <description>&lt;p&gt;This is another &amp;ldquo;interpeting machine learning&amp;rdquo; paper, this time in a medical context. The Duke researchers propose a &amp;ldquo;model facts&amp;rdquo; label, a la &amp;ldquo;nutrition facts&amp;rdquo; that we see on food packaging.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Improving my debugging attitude</title>
-      <link>/posts/debugging_attitude.html</link>
-      <pubDate>Sun, 12 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/debugging_attitude.html</guid>
-      <description>&lt;p&gt;Today, I noticed myself doing something I&amp;rsquo;ve done many times before: running into an error, Googling it, finding code snippets, and making random changes in hopes that they&amp;rsquo;d work. In this post, I try to understand why.&lt;/p&gt;</description>
     </item>
     
   </channel>
