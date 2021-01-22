@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <title>
+    [Paper] From Optimizing Engagement to Measuring Value - Tushar Chandra
+    </title>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="Cache-Control" content="no-transform" />
+  <meta http-equiv="Cache-Control" content="no-siteapp" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="format-detection" content="telephone=no,email=no,adress=no">
+  
+  <meta name="theme-color" content="#000000" />
+  <meta http-equiv="window-target" content="_top" /><meta name="description" content="Measuring &amp;lsquo;engagement&amp;rsquo; on social platforms is always going to be a proxy for an actual concept of value; a user engaging with something doesn&amp;rsquo;t mean they value it. This paper closes that gap, connecting engagement behaviors to value through a Bayesian network. The authors implement their approach on Twitter.
+" />
+  <meta name="generator" content="Hugo 0.70.0" />
+  <title>[Paper] From Optimizing Engagement to Measuring Value - Tushar Chandra</title>
+
+  
+  
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
+
+  <meta property="og:title" content="[Paper] From Optimizing Engagement to Measuring Value" />
+<meta property="og:description" content="Measuring &lsquo;engagement&rsquo; on social platforms is always going to be a proxy for an actual concept of value; a user engaging with something doesn&rsquo;t mean they value it. This paper closes that gap, connecting engagement behaviors to value through a Bayesian network. The authors implement their approach on Twitter." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/papers/from_engagement_to_value_hardt.html" />
+<meta property="article:published_time" content="2021-01-21T00:00:00+00:00" />
+<meta property="article:modified_time" content="2021-01-21T00:00:00+00:00" />
+<meta itemprop="name" content="[Paper] From Optimizing Engagement to Measuring Value">
+<meta itemprop="description" content="Measuring &lsquo;engagement&rsquo; on social platforms is always going to be a proxy for an actual concept of value; a user engaging with something doesn&rsquo;t mean they value it. This paper closes that gap, connecting engagement behaviors to value through a Bayesian network. The authors implement their approach on Twitter.">
+<meta itemprop="datePublished" content="2021-01-21T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2021-01-21T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="1354">
+
+
+
+<meta itemprop="keywords" content="reading club,facct2021," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="[Paper] From Optimizing Engagement to Measuring Value"/>
+<meta name="twitter:description" content="Measuring &lsquo;engagement&rsquo; on social platforms is always going to be a proxy for an actual concept of value; a user engaging with something doesn&rsquo;t mean they value it. This paper closes that gap, connecting engagement behaviors to value through a Bayesian network. The authors implement their approach on Twitter."/>
+</head>
+</head>
+
+
+
+<body class="h-full flex flex-col justify-between" itemscope itemtype="http://schema.org/WebPage"><header class="bg-green-500" itemscope itemtype="http://schema.org/WPHeader">
+  <div class="flex max-w-8xl container mx-auto">
+    <div class="hidden sm:inline flex items-center">
+      <a href="/">
+        <img class="rounded-full m-1 md:m-4" src="/headshot.jpg" width="100" height="100">
+      </a>
+    </div>
+    <div class="w-full px-4 flex flex-col lg:flex-row justify-start md:pt-4 lg:items-center my-4">
+      <div class="lg:flex-grow">
+        <a href="/">
+          <span class="text-lg sm:text-2xl md:text-3xl font-semibold">Tushar Chandra</span>
+          <span class="hidden pl-4 lg:inline"><br></span>
+          <span class="text-sm md:text-xl font-thin pl-4 md:pl-8 lg:pl-0 lg:text-xl">Data Scientist / Chicago, IL
+          </span>
+        </a>
+      </div>
+      <nav class="" itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation">
+        <ul class="flex lg:justify-between">
+          <li class="flex-grow-0 inline pr-1 md:pr-2 xl:px-4">
+            <p class="text-center">
+              <a href="/about">
+                <i class="fas text-green-800 pl-1 md:px-1 text-sm md:text-xl lg:text-2xl fa-mug-hot"></i>
+                <span class="font-thin text-sm md:text-lg lg:text-2xl">About</span>
+              </a>
+            </p>
+          </li>
+          <li class="flex-grow-0 inline pr-1 md:pr-2 xl:px-4">
+            <p class="text-center">
+              <a href="/resume">
+                <i class="fas text-green-800 pl-1 md:px-1 text-sm md:text-xl lg:text-2xl fa-file"></i>
+                <span class="font-thin text-sm md:text-lg lg:text-2xl">Resume</span>
+              </a>
+            </p>
+          </li>
+          <li class="flex-grow-0 inline pr-1 md:pr-2 xl:px-4">
+            <p class="text-center">
+              <a href="/reading">
+                <i class="fas text-green-800 pl-1 md:px-1 text-sm md:text-xl lg:text-2xl fa-book-open"></i>
+                <span class="font-thin text-sm md:text-lg lg:text-2xl">Reading</span>
+              </a>
+            </p>
+          </li>
+          <li class="flex-grow-0 inline pr-1 md:pr-2 xl:px-4">
+            <p class="text-center">
+              <a href="/categories.html">
+                <i class="fas text-green-800 pl-1 md:px-1 text-sm md:text-xl lg:text-2xl fa-folder-open"></i>
+                <span class="font-thin text-sm md:text-lg lg:text-2xl">Categories</span>
+              </a>
+            </p>
+          </li>
+          <li class="flex-grow-0 inline pr-1 md:pr-2 xl:px-4">
+            <p class="text-center">
+              <a href="/posts.html">
+                <i class="fas text-green-800 pl-1 md:px-1 text-sm md:text-xl lg:text-2xl fa-archive"></i>
+                <span class="font-thin text-sm md:text-lg lg:text-2xl">Archives</span>
+              </a>
+            </p>
+          </li>
+
+        </ul>
+
+      </nav>
+    </div>
+
+  </div>
+</header>
+  <div class="container mx-auto max-w-8xl px-4 flex flex-row flex-grow">
+    <div class="w-full md:w-3/4">
+      
+<main class="main" role="main"><div class="content container mx-auto max-w-6xl">
+  <article id="-" class="" itemscope itemtype="http://schema.org/BlogPosting">
+    <div class="pt-4">
+      <span class="font-semibold text-3xl"><h1 itemprop="name">
+  <a class="" href="/papers/from_engagement_to_value_hardt.html">[Paper] From Optimizing Engagement to Measuring Value</a>
+</h1>
+      </span>
+      <div class="pb-4"><i class="fas fa-calendar-check text-gray-500 pr-1"></i>
+<time datetime="2021-01-21 00:00:00 &#43;0000 UTC" class="text-sm text-gray-600"
+  itemprop="datePublished">2021-01-21</time>
+<span class="text-sm text-gray-600" itemprop="wordCount">
+	<i class="fas fa-pencil-alt text-gray-500 pl-4 pr-2"></i>1354 words
+</span><i class="fas fa-folder-open text-gray-500 pl-4 pr-1"></i>
+<a class="text-sm text-gray-600" href=" /categories/papers.html"> papers, </a>
+<span class="article-tag">
+  <i class="fas fa-tag text-gray-500 pl-4 pr-1"></i>
+  <a class="text-sm text-gray-600" href="/tags/reading-club.html"> reading club, </a>
+  <a class="text-sm text-gray-600" href="/tags/facct2021.html"> facct2021, </a>
+</span><span class="article-category text-sm text-gray-600 pl-4">
+  <i class="fa fa-users "></i>
+  Smitha Milli, Luca Belli, Moritz Hardt
+</span>
+      </div>
+    </div>
+    <div class="rich-text" itemprop="articleBody">
+      <p>Measuring &lsquo;engagement&rsquo; on social platforms is always going to be a proxy for an actual concept of value; a user engaging with something doesn&rsquo;t mean they value it. This paper closes that gap, connecting engagement behaviors to value through a Bayesian network. The authors implement their approach on Twitter.</p>
+<p><strong>Authors</strong>: Smitha Milli, Luca Belli, Moritz Hardt</p>
+<p><strong>Link</strong>: <a href="https://arxiv.org/abs/2008.12623">arXiv</a>; to appear at FAccT 2021.</p>
+<h2 id="background-and-motivation"><a class="not-rich" href="#background-and-motivation"><i class="fas fa-link"></i></a> Background and motivation</h2>
+<p>From the abstract:</p>
+<blockquote>
+<p>Most recommendation engines today are based on predicting user engagement, e.g., predicting whether a user will click on an item or not. However, there is a potentially large gap between engagement signals and a desired notion of <em>value</em> that is worth optimizing for.</p>
+</blockquote>
+<p>Put otherwise, this is a classic case of the proxy problem; engagements are a proxy for value, but the two are not the same. Engagement can be negative, and different types of engagement (adding a Netflix video to My List vs. watching it) can provide different indications of value.</p>
+<p>This paper attempts to operationalize the idea of value. They do this in three ways:</p>
+<ol>
+<li>
+<p>Using measurement theory to aggregate engagement signals into an objective function to capture &ldquo;value.&rdquo;</p>
+</li>
+<li>
+<p>Creating a latent variable model for this use case, and showing how to identify it.</p>
+</li>
+<li>
+<p>Implementing and qualitatively evaluating this approach on Twitter (referred to throughout as &ldquo;the Twitter platform&rdquo;).</p>
+</li>
+</ol>
+<h2 id="latent-variable-model-and-bayesian-network"><a class="not-rich" href="#latent-variable-model-and-bayesian-network"><i class="fas fa-link"></i></a> Latent variable model and Bayesian network</h2>
+<p>Suppose that you have a set of behaviors $B$—on Twitter, retweets, likes, replies, etc.—which provide signals for &ldquo;value.&rdquo;
+If you operationalize value as a binary latent variable $V$, then you want to be able to measure $P(V = 1 | B)$.
+Measuring this accurately lets you replace any existing objective focused on engagement.</p>
+<p>The authors&rsquo; insight comes from an <em>anchor variable</em> $A$, from which you can identify $P(V = 1 | A = 1)$.
+An anchor should be an action for which you have &ldquo;strong, explicit feedback from the user.&rdquo;
+Downvoting or saying &ldquo;I don&rsquo;t want to see this&rdquo; are examples of negative feedback, for which you can assume $P(V=1|A=1) = 0$.
+Likewise, upvoting or retweeting are positive feedback.</p>
+<p>The system is modeled as a Bayesian network.
+The network consists of the relationships between different behaviors.
+For example, clicking on a tweet is necessary to retweet it or reply to it.
+The goal is to determine $P(V|A, B)$.</p>
+<p>The anchor variable $A$ must:</p>
+<ul>
+<li>carry signal about the value</li>
+<li>not have any children (no behaviors can depend on the anchor)</li>
+<li>give information about the value that does not depend on the parents (it&rsquo;s a strong type of feedback)</li>
+</ul>
+<p>The authors specify how the objective $P(V|A, B)$ can be determined from known or inferrable distributions.
+Some are simple—$P(V)$ is just a prior, $P(A,B)$ is empirical—and some are more complex, requiring heuristics that are application-dependent.</p>
+<h2 id="application-a-twitter-case-study"><a class="not-rich" href="#application-a-twitter-case-study"><i class="fas fa-link"></i></a> Application: a Twitter case study</h2>
+<p>My favorite part of this paper is that the authors applied it directly to Twitter.
+They used this to measure the value of different machine learning-based notification systems.
+The motivation for this is excellent:</p>
+<blockquote>
+<p>On Twitter, there are many kinds of user behaviors: clicks, replies, favorites, retweets, etc. The typical approach to recommendations would involve optimizing an objective that trades-off these behaviors, usually with linear weights. However, designing an objective is a non-trivial problem. How exactly should we weigh favorites compared to clicks or replies or retweets or any of the numerous other behaviors? It is difficult to assess whether the weights we chose match the notion of “value” we intended.</p>
+<p>Furthermore, even supposing that we could manually specify the “correct” weights through laborious trial-and-error, the correct weights change over time. For example, after videos shared on Twitter began to auto-play, the signal of whether or not a user watched a video presumably became less relevant. The reality is that the objective is never static - how users interact with the platform is constantly changing, and the objective must change accordingly.</p>
+</blockquote>
+<p>Using this approach, however, the authors operationalize value as a latent variable defined by an anchor and various behaviors.
+Here, the anchor is the &ldquo;see less often&rdquo; button on a tweet, which is strong, explicit, negative feedback.</p>
+<figure>
+    <img src="from_engagement_to_value_hardt_img1.png"/> 
+</figure>
+
+<p>The goal is to estimate the value of different notifications (<code>NTab View</code> in the image).
+If a user sees a notification in <code>NTab View</code>, they might <code>Click</code> it to get to the tweet, then possibly favorite, retweet, or linger on it.
+Meanwhile, <code>Open</code> just refers to opening the app from the home screen.
+The <code>Value</code> node is a latent parent of all possible behaviors.
+The <code>OptOut</code> node (opting out of notifications) is assumed to be attributed to any ML-based notifications that came in the past day.
+Finally, the anchor <code>SLO</code> (see less often) can be caused by the notification view or clicking or opening a tweet.</p>
+<h2 id="evaluation"><a class="not-rich" href="#evaluation"><i class="fas fa-link"></i></a> Evaluation</h2>
+<p><strong>How do you evaluate something like this?</strong>
+Reporting engagement metrics isn&rsquo;t enough; the point of this paper is that value is different from engagement.
+But value is also latent.</p>
+<p>Here, the authors evaluate &ldquo;evidence based on internal structure, i.e., whether expected theoretical relationships between the variables in the model hold.&rdquo;
+They evaluate <code>P(V = 1 | Behavior = 1)</code> for different individual behaviors (marginalizing over all other variables).
+They compare their Bayesian network to a naive Bayes model and a simpler variant of their network.</p>
+<p>The authors find that all behaviors that they expect to increase the probability of a value do so.
+The relative strengths make sense, too: $P(V = 1 | RT = 1) &gt; P(V = 1 | LinkClick = 1)$.
+They find other inferences which would be indiscernible from a more theoretical approach.</p>
+<p><strong>How do you assess validity?</strong> I won&rsquo;t summarize this, but there&rsquo;s a great discussion of how the five categories of evidence for validity (from <em>Standards for educational and psychological testing</em>) translate into the recommender system setting.</p>
+<h2 id="discussion"><a class="not-rich" href="#discussion"><i class="fas fa-link"></i></a> Discussion</h2>
+<p>This was an excellent paper.
+The authors did a great job of motivating the relevant probability theory and providing intuitive explanations.
+The application was direct and occurred in a real environment.</p>
+<p>A lot of the novelty here comes from decomposing this abstract idea into tractable elements.
+When I was working with Bayesian networks and high-dimensional joint distributions, my biggest challenge was breaking down the complicated network structure into simpler, tractable pieces.
+That the authors managed to do so in a real, large-scale application is impressive to me.</p>
+<hr>
+<p>I noticed that all of the posterior probabilities for $P(V = 1 | Behavior = 1)$ were greater than the prior of 0.5.
+That is, this model learned that <em>any</em> of these behaviors were evidence that a notification provided value (besides opting out of notifications, which is an extreme action).</p>
+<p>Is this a self-fulfilling prophecy?
+The authors included many positive behaviors and then found that they predicted value to a user.
+That makes sense, but it makes me wonder if there are more negative behaviors that could have predicted a lack of value: unfollowing a user, quickly exiting a tweet, closing the app shortly after, etc.</p>
+<p>Part of this relates to Twitter&rsquo;s design.
+There are not many negative signals I can send, besides the nuclear &ldquo;see less often.&rdquo;
+The authors note that this matters, though they don&rsquo;t discuss whether or not Twitter meets this design goal:</p>
+<blockquote>
+<p>What content-based evidence makes clear is that to measure any worthy notion of “value”, it is essential to design platforms in which users are empowered with richer channels of feedback.</p>
+</blockquote>
+<p>I&rsquo;m reminded of Eugene Wei&rsquo;s <a href="https://www.eugenewei.com/blog/2020/9/18/seeing-like-an-algorithm">Seeing Like an Algorithm</a>, which discusses how the design of TikTok gives clear, immediate signals about a user&rsquo;s feelings about a video.
+Twitter doesn&rsquo;t really do this.
+My feed usually has a few tweets at once, and if I&rsquo;m scrolling through them without clicking on any, I&rsquo;ll like some and dislike others and Twitter will never be any wiser for it.</p>
+<hr>
+<p>On the whole, this paper was great.
+I would love to work at a company or in a research group where I could develop and prototype ideas like this.
+This paper gave me one of the clearest &ldquo;I would love to do this&rdquo; signals I&rsquo;ve noticed.
+I look forward to seeing more discussion of it as FAccT 2021 happens in a couple months.</p>
+
+      <p><i class="fas fa-square font-green-800"></i></p>
+    </div>
+    <div class="font-semibold text-green-800 pt-4">
+      <a href="/"><i class="fas fa-arrow-left"></i> Return home</a>
+    </div>
+  </article>
+</div><nav class="bar bar-footer clearfix" data-stick-bottom>
+    <div class="bar-inner">
+        <ul class="pager pull-left">
+            <li class="prev">
+                <a href="/papers/street_level_algorithms_alkhatib_2.html" title="More thoughts on &#39;Street-Level Algorithms&#39;"><i
+                        class="icon icon-angle-left"
+                        aria-hidden="true"></i><span>&nbsp;&nbsp;</span></a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+</main>
+    </div>
+    <div class="hidden w-0 md:block md:w-1/4 md:pt-8 md:pl-12"><aside class="" itemscope itemtype="http://schema.org/WPSideBar">
+  <div class="pb-8">
+    <h3 class="font-semibold text-xl">Categories</h3>
+    <ul class="">
+        <li class="">+ <a href="/categories/books.html" class="font-bold text-green-900">books
+            </a><span class="">25</span>
+        </li>
+        <li class="">+ <a href="/categories/general.html" class="font-bold text-green-900">general
+            </a><span class="">44</span>
+        </li>
+        <li class="">+ <a href="/categories/papers.html" class="font-bold text-green-900">papers
+            </a><span class="">88</span>
+        </li>
+        <li class="">+ <a href="/categories/projects.html" class="font-bold text-green-900">projects
+            </a><span class="">7</span>
+        </li>
+        <li class="">+ <a href="/categories/self.html" class="font-bold text-green-900">self
+            </a><span class="">4</span>
+        </li>
+        <li class="">+ <a href="/categories/spark.html" class="font-bold text-green-900">spark
+            </a><span class="">34</span>
+        </li>
+        <li class="">+ <a href="/categories/what-i-read.html" class="font-bold text-green-900">what-i-read
+            </a><span class="">53</span>
+        </li>
+    </ul>
+</div>
+<div class="pb-4">
+    <h3 class="font-semibold text-xl">Recent Posts</h3>
+    <ul class="recent-post-list list-unstyled no-thumbnail">
+        <li class="pb-4">
+            <p>
+                <a href="/papers/from_engagement_to_value_hardt.html" class="font-bold text-green-900">[Paper] From Optimizing Engagement to Measuring Value</a>
+                <time datetime="2021-01-21 00:00:00 &#43;0000 UTC" itemprop="datePublished" class="text-gray-600 text-sm">2021-01-21
+                </time>
+            </p>
+
+        </li>
+        <li class="pb-4">
+            <p>
+                <a href="/papers/street_level_algorithms_alkhatib_2.html" class="font-bold text-green-900">More thoughts on &#39;Street-Level Algorithms&#39;</a>
+                <time datetime="2021-01-15 00:00:00 &#43;0000 UTC" itemprop="datePublished" class="text-gray-600 text-sm">2021-01-15
+                </time>
+            </p>
+
+        </li>
+        <li class="pb-4">
+            <p>
+                <a href="/papers/street_level_algorithms_alkhatib.html" class="font-bold text-green-900">[Paper] Street-Level Algorithms: A Theory at the Gaps between Policy and Decisions</a>
+                <time datetime="2021-01-14 00:00:00 &#43;0000 UTC" itemprop="datePublished" class="text-gray-600 text-sm">2021-01-14
+                </time>
+            </p>
+
+        </li>
+        <li class="pb-4">
+            <p>
+                <a href="/what_i_read/20210109.html" class="font-bold text-green-900">What I read this week (January 3 - 9)</a>
+                <time datetime="2021-01-09 00:00:00 &#43;0000 UTC" itemprop="datePublished" class="text-gray-600 text-sm">2021-01-09
+                </time>
+            </p>
+
+        </li>
+        <li class="pb-4">
+            <p>
+                <a href="/papers/legal_compatibility_fairness_definitions_xiang.html" class="font-bold text-green-900">[Paper] On the Legal Compatibility of Fairness Definitions</a>
+                <time datetime="2021-01-07 00:00:00 &#43;0000 UTC" itemprop="datePublished" class="text-gray-600 text-sm">2021-01-07
+                </time>
+            </p>
+
+        </li>
+    </ul>
+</div><div class="pb-12">
+    <h3 class="font-semibold text-xl">Tags</h3>
+    <ul class="">
+        <li class="">+ <a href="/tags/#republic.html" class="font-bold text-green-900">#republic
+            </a><span class="">5</span>
+        </li>
+        <li class="">+ <a href="/tags/chi2019.html" class="font-bold text-green-900">chi2019
+            </a><span class="">3</span>
+        </li>
+        <li class="">+ <a href="/tags/chi2020.html" class="font-bold text-green-900">chi2020
+            </a><span class="">20</span>
+        </li>
+        <li class="">+ <a href="/tags/cscw2020.html" class="font-bold text-green-900">cscw2020
+            </a><span class="">8</span>
+        </li>
+        <li class="">+ <a href="/tags/facct2021.html" class="font-bold text-green-900">facct2021
+            </a><span class="">1</span>
+        </li>
+        <li class="">+ <a href="/tags/fat2020.html" class="font-bold text-green-900">fat2020
+            </a><span class="">2</span>
+        </li>
+        <li class="">+ <a href="/tags/iclr.html" class="font-bold text-green-900">iclr
+            </a><span class="">2</span>
+        </li>
+        <li class="">+ <a href="/tags/icwsm2020.html" class="font-bold text-green-900">icwsm2020
+            </a><span class="">5</span>
+        </li>
+        <li class="">+ <a href="/tags/indistractable.html" class="font-bold text-green-900">indistractable
+            </a><span class="">2</span>
+        </li>
+        <li class="">+ <a href="/tags/neurips.html" class="font-bold text-green-900">neurips
+            </a><span class="">2</span>
+        </li>
+        <li class="">+ <a href="/tags/password-tool.html" class="font-bold text-green-900">password-tool
+            </a><span class="">6</span>
+        </li>
+        <li class="">+ <a href="/tags/reading-club.html" class="font-bold text-green-900">reading-club
+            </a><span class="">22</span>
+        </li>
+        <li class="">+ <a href="/tags/recsys.html" class="font-bold text-green-900">recsys
+            </a><span class="">1</span>
+        </li>
+        <li class="">+ <a href="/tags/site.html" class="font-bold text-green-900">site
+            </a><span class="">6</span>
+        </li>
+        <li class="">+ <a href="/tags/www.html" class="font-bold text-green-900">www
+            </a><span class="">3</span>
+        </li>
+    </ul>
+</div>
+</aside><footer class="" itemscope itemtype="http://schema.org/WPFooter">
+  <div class="py-4 text-sm">
+    &copy; 2019 - 2020 Tushar Chandra
+    <p style="margin-bottom: 4px">All opinions are my own.</p>
+    <div class="publishby">Powered by Hugo with a custom theme.</div>
+  </div>
+  <ul class="">
+    <li class="inline text-xl pr-4">
+      <a href="https://github.com/tuchandra" target="_blank" title="github">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+    <li class="inline text-xl pr-4">
+      <a href="https://www.linkedin.com/in/tushar-chandra-76a623b6/" target="_blank" title="linkedin">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+    <li class="inline text-xl pr-4">
+      <a href="mailto:me@tusharc.dev" target="_blank" title="envelope">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+    <li class="inline text-xl pr-4">
+      <a href="/index.xml" target="_blank" title="rss">
+        <i class="fas fa-rss"></i>
+      </a>
+    </li>
+
+  </ul>
+</footer>
+    </div>
+  </div>
+  <div class="mx-auto mt-auto w-full px-4 bg-green-500 mt-4 md:py-8">
+    <div class="md:invisible md:hidden max-w-8xl"><footer class="" itemscope itemtype="http://schema.org/WPFooter">
+  <div class="py-4 text-sm">
+    &copy; 2019 - 2020 Tushar Chandra
+    <p style="margin-bottom: 4px">All opinions are my own.</p>
+    <div class="publishby">Powered by Hugo with a custom theme.</div>
+  </div>
+  <ul class="">
+    <li class="inline text-xl pr-4">
+      <a href="https://github.com/tuchandra" target="_blank" title="github">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+    <li class="inline text-xl pr-4">
+      <a href="https://www.linkedin.com/in/tushar-chandra-76a623b6/" target="_blank" title="linkedin">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+    <li class="inline text-xl pr-4">
+      <a href="mailto:me@tusharc.dev" target="_blank" title="envelope">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+    <li class="inline text-xl pr-4">
+      <a href="/index.xml" target="_blank" title="rss">
+        <i class="fas fa-rss"></i>
+      </a>
+    </li>
+
+  </ul>
+</footer>
+    </div>
+  </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_SVG"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+            showMathMenu: false, //disables context menu
+            tex2jax: {
+            inlineMath: [ ['$','$'], ['\\(','\\)'] ]
+           }
+    });
+</script>
+
+
+
+
+
+
+
+<script data-goatcounter="https://tusharc.goatcounter.com/count" async src="//gc.zgo.at/count.js">
+</script>
+</body>
+
+</html>

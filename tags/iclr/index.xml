@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>[Paper] From Optimizing Engagement to Measuring Value</title>
+      <link>/papers/from_engagement_to_value_hardt.html</link>
+      <pubDate>Thu, 21 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/from_engagement_to_value_hardt.html</guid>
+      <description>&lt;p&gt;Measuring &amp;lsquo;engagement&amp;rsquo; on social platforms is always going to be a proxy for an actual concept of value; a user engaging with something doesn&amp;rsquo;t mean they value it. This paper closes that gap, connecting engagement behaviors to value through a Bayesian network. The authors implement their approach on Twitter.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>More thoughts on &#39;Street-Level Algorithms&#39;</title>
       <link>/papers/street_level_algorithms_alkhatib_2.html</link>
       <pubDate>Fri, 15 Jan 2021 00:00:00 +0000</pubDate>
@@ -181,15 +190,6 @@
       
       <guid>/what_i_read/20201128.html</guid>
       <description>&lt;p&gt;On quirks in Ruby, leaving code better than you found it, VS Code shortcuts, and graph neural networks. Happy Thanksgiving, for those in the US!&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>COVID and Illinois</title>
-      <link>/posts/covid_illinois.html</link>
-      <pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/covid_illinois.html</guid>
-      <description>&lt;p&gt;The COVID-19 situation in Illinois is dire. The media doesn&amp;rsquo;t seem to be talking about it, even though the situation is presently worse here than it was in many places over the summer. What gives?&lt;/p&gt;</description>
     </item>
     
   </channel>

@@ -11,6 +11,15 @@
     
     
     <item>
+      <title>COVID and Illinois</title>
+      <link>/posts/covid_illinois.html</link>
+      <pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/covid_illinois.html</guid>
+      <description>&lt;p&gt;The COVID-19 situation in Illinois is dire. The media doesn&amp;rsquo;t seem to be talking about it, even though the situation is presently worse here than it was in many places over the summer. What gives?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>My review of Nir Eyal&#39;s Hooked</title>
       <link>/books/hooked.html</link>
       <pubDate>Mon, 23 Nov 2020 00:00:00 +0000</pubDate>
@@ -183,17 +192,6 @@ This survey paper chronicles various attempts to predict elections from Twitter,
       
       <guid>/what_i_read/20201017.html</guid>
       <description>&lt;p&gt;On edge cases; machine learning education; the mainstream media and real and fake news; and other, shorter work.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] Evaluating the fake news problem at the scale of the information ecosystem</title>
-      <link>/papers/fake_news_information_ecosystem_watts.html</link>
-      <pubDate>Wed, 14 Oct 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/papers/fake_news_information_ecosystem_watts.html</guid>
-      <description>&lt;p&gt;What is the role of fake news in the overall media ecosystem?
-Conventional wisdom might say it&amp;rsquo;s significant, but this paper provides evidence for the opposite.
-Using datasets of cross-platform media viewing, the authors find that fake news represents a small proportion of overall media consumption.&lt;/p&gt;</description>
     </item>
     
   </channel>
