@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <title>
+    [Paper] Explaining Explainability: Towards Social Transparency in AI Systems - Tushar Chandra
+    </title>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="Cache-Control" content="no-transform" />
+  <meta http-equiv="Cache-Control" content="no-siteapp" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="format-detection" content="telephone=no,email=no,adress=no">
+  
+  <meta name="theme-color" content="#000000" />
+  <meta http-equiv="window-target" content="_top" /><meta name="description" content="Explainable AI is often treated as an algorithmic problem, but this framing leaves a blind spot of how an AI system fits into an actual organization. This paper uses the idea of social transparency to motivate a new, more practical framework for thinking about explainability.
+" />
+  <meta name="generator" content="Hugo 0.70.0" />
+  <title>[Paper] Explaining Explainability: Towards Social Transparency in AI Systems - Tushar Chandra</title>
+
+  
+  
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
+
+  <meta property="og:title" content="[Paper] Explaining Explainability: Towards Social Transparency in AI Systems" />
+<meta property="og:description" content="Explainable AI is often treated as an algorithmic problem, but this framing leaves a blind spot of how an AI system fits into an actual organization. This paper uses the idea of social transparency to motivate a new, more practical framework for thinking about explainability." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/papers/explaining_explainability_ehsan.html" />
+<meta property="article:published_time" content="2021-01-28T00:00:00+00:00" />
+<meta property="article:modified_time" content="2021-01-28T00:00:00+00:00" />
+<meta itemprop="name" content="[Paper] Explaining Explainability: Towards Social Transparency in AI Systems">
+<meta itemprop="description" content="Explainable AI is often treated as an algorithmic problem, but this framing leaves a blind spot of how an AI system fits into an actual organization. This paper uses the idea of social transparency to motivate a new, more practical framework for thinking about explainability.">
+<meta itemprop="datePublished" content="2021-01-28T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2021-01-28T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="1358">
+
+
+
+<meta itemprop="keywords" content="reading club,chi2021," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="[Paper] Explaining Explainability: Towards Social Transparency in AI Systems"/>
+<meta name="twitter:description" content="Explainable AI is often treated as an algorithmic problem, but this framing leaves a blind spot of how an AI system fits into an actual organization. This paper uses the idea of social transparency to motivate a new, more practical framework for thinking about explainability."/>
+</head>
+</head>
+
+
+
+<body class="h-full flex flex-col justify-between" itemscope itemtype="http://schema.org/WebPage"><header class="bg-green-500" itemscope itemtype="http://schema.org/WPHeader">
+  <div class="flex max-w-8xl container mx-auto">
+    <div class="hidden sm:inline flex items-center">
+      <a href="/">
+        <img class="rounded-full m-1 md:m-4" src="/headshot.jpg" width="100" height="100">
+      </a>
+    </div>
+    <div class="w-full px-4 flex flex-col lg:flex-row justify-start md:pt-4 lg:items-center my-4">
+      <div class="lg:flex-grow">
+        <a href="/">
+          <span class="text-lg sm:text-2xl md:text-3xl font-semibold">Tushar Chandra</span>
+          <span class="hidden pl-4 lg:inline"><br></span>
+          <span class="text-sm md:text-xl font-thin pl-4 md:pl-8 lg:pl-0 lg:text-xl">Data Scientist / Chicago, IL
+          </span>
+        </a>
+      </div>
+      <nav class="" itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation">
+        <ul class="flex lg:justify-between">
+          <li class="flex-grow-0 inline pr-1 md:pr-2 xl:px-4">
+            <p class="text-center">
+              <a href="/about">
+                <i class="fas text-green-800 pl-1 md:px-1 text-sm md:text-xl lg:text-2xl fa-mug-hot"></i>
+                <span class="font-thin text-sm md:text-lg lg:text-2xl">About</span>
+              </a>
+            </p>
+          </li>
+          <li class="flex-grow-0 inline pr-1 md:pr-2 xl:px-4">
+            <p class="text-center">
+              <a href="/resume">
+                <i class="fas text-green-800 pl-1 md:px-1 text-sm md:text-xl lg:text-2xl fa-file"></i>
+                <span class="font-thin text-sm md:text-lg lg:text-2xl">Resume</span>
+              </a>
+            </p>
+          </li>
+          <li class="flex-grow-0 inline pr-1 md:pr-2 xl:px-4">
+            <p class="text-center">
+              <a href="/reading">
+                <i class="fas text-green-800 pl-1 md:px-1 text-sm md:text-xl lg:text-2xl fa-book-open"></i>
+                <span class="font-thin text-sm md:text-lg lg:text-2xl">Reading</span>
+              </a>
+            </p>
+          </li>
+          <li class="flex-grow-0 inline pr-1 md:pr-2 xl:px-4">
+            <p class="text-center">
+              <a href="/categories.html">
+                <i class="fas text-green-800 pl-1 md:px-1 text-sm md:text-xl lg:text-2xl fa-folder-open"></i>
+                <span class="font-thin text-sm md:text-lg lg:text-2xl">Categories</span>
+              </a>
+            </p>
+          </li>
+          <li class="flex-grow-0 inline pr-1 md:pr-2 xl:px-4">
+            <p class="text-center">
+              <a href="/posts.html">
+                <i class="fas text-green-800 pl-1 md:px-1 text-sm md:text-xl lg:text-2xl fa-archive"></i>
+                <span class="font-thin text-sm md:text-lg lg:text-2xl">Archives</span>
+              </a>
+            </p>
+          </li>
+
+        </ul>
+
+      </nav>
+    </div>
+
+  </div>
+</header>
+  <div class="container mx-auto max-w-8xl px-4 flex flex-row flex-grow">
+    <div class="w-full md:w-3/4">
+      
+<main class="main" role="main"><div class="content container mx-auto max-w-6xl">
+  <article id="-" class="" itemscope itemtype="http://schema.org/BlogPosting">
+    <div class="pt-4">
+      <span class="font-semibold text-3xl"><h1 itemprop="name">
+  <a class="" href="/papers/explaining_explainability_ehsan.html">[Paper] Explaining Explainability: Towards Social Transparency in AI Systems</a>
+</h1>
+      </span>
+      <div class="pb-4"><i class="fas fa-calendar-check text-gray-500 pr-1"></i>
+<time datetime="2021-01-28 00:00:00 &#43;0000 UTC" class="text-sm text-gray-600"
+  itemprop="datePublished">2021-01-28</time>
+<span class="text-sm text-gray-600" itemprop="wordCount">
+	<i class="fas fa-pencil-alt text-gray-500 pl-4 pr-2"></i>1358 words
+</span><i class="fas fa-folder-open text-gray-500 pl-4 pr-1"></i>
+<a class="text-sm text-gray-600" href=" /categories/papers.html"> papers, </a>
+<span class="article-tag">
+  <i class="fas fa-tag text-gray-500 pl-4 pr-1"></i>
+  <a class="text-sm text-gray-600" href="/tags/reading-club.html"> reading club, </a>
+  <a class="text-sm text-gray-600" href="/tags/chi2021.html"> chi2021, </a>
+</span><span class="article-category text-sm text-gray-600 pl-4">
+  <i class="fa fa-users "></i>
+  Upol Ehsan, Q. Vera Liao, Michael Muller, Mark O. Riedl, Justin D. Weisz
+</span>
+      </div>
+    </div>
+    <div class="rich-text" itemprop="articleBody">
+      <p>Explainable AI is often treated as an algorithmic problem, but this framing leaves a blind spot of how an AI system fits into an actual organization. This paper uses the idea of social transparency to motivate a new, more practical framework for thinking about explainability.</p>
+<p><strong>Authors</strong>: Upol Ehsan, Q. Vera Liao, Michael Muller, Mark O. Riedl, Justin D. Weisz</p>
+<p><strong>Link</strong>: <a href="https://arxiv.org/abs/2101.04719v1">arXiv</a>; to appear at CHI 2021.</p>
+<h2 id="background-and-motivation"><a class="not-rich" href="#background-and-motivation"><i class="fas fa-link"></i></a> Background and motivation</h2>
+<p>Many approaches to explainable AI take an algorithms-first perspective, searching for technical solutions and methods.
+&ldquo;What&rsquo;s a linear approximation to this opaque algorithm? What features helped this model make its decision?&rdquo;</p>
+<p>Notably, this approach is different from how humans typically view explanation.
+Explanation, the authors write, is a &ldquo;shared meaning-making process that occurs <em>between</em> an explainer and an explainee&rdquo; (emphasis mine).</p>
+<blockquote>
+<p>Explanations in human-human interactions are socially-situated. AI systems are often socio-organizationally embedded. However, Explainable AI (XAI) approaches have been predominantly algorithm-centered.</p>
+</blockquote>
+<p>One of the papers I read from CHI 2020, <a href="/papers/interpreting_interpretability_kaur.html">Interpreting Interpretability</a> by Kaur et al., studied how data scientists use interpretability tools in practice. They found that people generally viewed interpretability as being &ldquo;unidirectional, with tools providing information to user.&rdquo; This reflects what the authors here call an <em>algorithm-centered approach</em>, and is in contrast to the between-ness that sits at the heart of explanation.</p>
+<p>The authors continue:</p>
+<blockquote>
+<p>Given this understanding, we might ask: if both AI systems and explanations are socially-situated, then why are we not requiring incorporation of the social aspects when we conceptualize explainability in AI systems? How can one form a holistic understanding of an AI system and make informed decisions if one only focuses on the technical half of a sociotechnical system?</p>
+</blockquote>
+<p>That&rsquo;s a compelling argument!
+This paper (if I understand correctly) argues that explaining AI in purely algorithmic terms misses the point.
+If we&rsquo;re thinking about explainability in AI, we must also consider the broader socio-organizational context.
+The authors call this <strong>social transparency</strong> (ST).</p>
+<h2 id="incorporating-social-transparency"><a class="not-rich" href="#incorporating-social-transparency"><i class="fas fa-link"></i></a> Incorporating social transparency</h2>
+<p>Given all of the above, the goal is to rethink our understanding of explainable AI to incorporate social transparency.
+After pilot studies, the authors landed on a <strong>4W</strong> framing here: &ldquo;<em>who</em> did <em>what</em> with the AI system, <em>when</em>, and <em>why</em> they did what they did.&rdquo;</p>
+<p>To study this, they construct a situation where an AI model is providing price recommendations to salespeople.
+They created a visual aid to contextualize the model, explain its recommendations, and show past decisions made by other salespeople.</p>
+<figure>
+    <img src="explaining_explainability_ehsan_fig1.png"/> 
+</figure>
+
+<p>The paper notes that the sales setting is broad enough to engage people who don&rsquo;t work in sales, while also helping people to explore the transferability of ST to other domains.
+I&rsquo;m personally convinced by this; this seems like it could be useful in, say, an ML-driven context moderation setting or another human-in-the-loop scenario.</p>
+<p>The authors used this scenario and visual aid for 29 semi-structured interviews.
+These consisted of discussions about explainable AI, a run of the sales scenario described above, brainstorming on social transparency, and discussions of possible negative consequences of social transparency.</p>
+<h2 id="findings"><a class="not-rich" href="#findings"><i class="fas fa-link"></i></a> Findings</h2>
+<p>Perhaps the most important finding is the one that validates the need for this research paper: that <em>technical transparency is not enough</em> for making complex decisions.
+Many participants noted this in many different ways.</p>
+<blockquote>
+<p>There is a shared understanding that AI algorithms cannot take into account all the contextual factors that matter for a decision: “not everything that you need to actually make the right decision for the client and the company is found in the data” (P25-NS). Participants pointed to the fact that even with an accurate and algorithmically sound recommendation, “there are things [they] never expect a machine to know [such as] clients’ allegiances or internal projects impacting budget behavior” (P1-S). Often, the context of social dynamics that an algorithm is unable to capture is the key: “<strong>real life is more than numbers</strong>, especially when you think of relationships” (P12-NS)</p>
+</blockquote>
+<p>The authors expand on this by labeling three types of context: technological, decision, and organizational.
+This is best explained through the table that I&rsquo;ll lift from the paper:</p>
+<figure>
+    <img src="explaining_explainability_ehsan_fig1.png"/> 
+</figure>
+
+<p>Technological context helps to calibrate trust in the AI system.
+Decision context can expose &ldquo;crew knowledge&rdquo; (often referred to as &ldquo;tribal knowledge,&rdquo; but the authors chose a better term) and build confidence in making decisions.
+Organizational context can help an individual to understand the broader organization (including teams, norms, values) by making visible what people have done in the past.</p>
+<h2 id="what-challenges-can-st-create"><a class="not-rich" href="#what-challenges-can-st-create"><i class="fas fa-link"></i></a> What challenges can ST create?</h2>
+<p>Happily, the authors studied challenges and tensions that might arise from social transparency.
+One challenge is that <strong>privacy</strong> is at odds with transparency.
+Participants worried about revealing personal information (accidentally or because they were compelled to), or that they would make themselves visible to others unnecessarily.</p>
+<p>Another (my main concern) was <strong>bias</strong>.
+Seeing a record of past decisions made feels like it might induce an organization-wide game of &ldquo;follow the senior leader&rdquo; or &ldquo;do what everyone else did.&rdquo;</p>
+<p>Others included <strong>information overload</strong> (if the number of past entries became too large) or a lack of <strong>incentive to contribute</strong> to an ST system.</p>
+<h2 id="my-thoughts"><a class="not-rich" href="#my-thoughts"><i class="fas fa-link"></i></a> My thoughts</h2>
+<p>I enjoyed this paper.
+I particularly appreciated the practical grounding for this project.
+The author, Upol Ehsan, expanded on this in a <a href="https://twitter.com/UpolEhsan/status/1351555895122137088">Twitter thread</a>:</p>
+<blockquote>
+<p>Some backstory- years of fieldwork built the foundation for this work. During a cybersecurity project, I noticed how despite great algorithmic transparency of an XAI threat detection system, no one got value from it. It was clear that algo transparency alone wasn’t enough.</p>
+</blockquote>
+<p>My experience in industry—though by no means representative—has left me skeptical of explainable AI.
+It feels like people rarely care about it, and because of this paper I see that this is probably because explainable AI doesn&rsquo;t actually solve any organizational problems.</p>
+<p>This, the authors note, is largely because <strong>&ldquo;the epistemic canvas of XAI has largely been circumscribed around the bounds of the algorithm.&quot;</strong>
+XAI is framed as a question about a technical model, not a sociotechnical system.
+But the very act of explanation is a &ldquo;people problem,&rdquo; meaning that technical solutions alone cannot possibly be enough.</p>
+<hr>
+<p>The introduction of this paper was challenging for me to get through.
+I think the sales scenario is far more compelling than the epistemic discussion about what &ldquo;explanation&rdquo; is.
+Perhaps that&rsquo;s because of my position in industry; nonetheless, it feels almost ironic that a paper about practical challenges with XAI doesn&rsquo;t more strongly motivate itself with those very challenges and instead treats this conversation as an abstract and epistemic one.</p>
+<h2 id="i-dont-think-this-is-an-ai-problem"><a class="not-rich" href="#i-dont-think-this-is-an-ai-problem"><i class="fas fa-link"></i></a> I don&rsquo;t think this is an AI problem</h2>
+<p>Finally, I think this work is more broadly applicable outside AI to general software systems.</p>
+<p>Earlier today, I ran into a bug where one of our tables didn&rsquo;t have any data beyond December 1, 2019.
+Treating the table as a model, and the ETL pipeline as the &ldquo;training process,&rdquo; one could imagine whether or not I should &ldquo;trust the table.&rdquo;
+If I did, I&rsquo;d have been sunk—needing to refactor our data pipeline or figure out some kind of workaround.</p>
+<p>Instead, I asked for help.
+I asked if others had used this table before, or were possibly familiar with its quirks.
+The knowledge of who to ask—&ldquo;these are the people who might know something&rdquo;—only existed in my team&rsquo;s head.
+(There was a contact person listed in our data catalog, but my team knew that historically those contact listings were rarely useful.)</p>
+<p>My questions were ones addressed in this paper: &ldquo;Has anyone seen this happen before? Is there more information I&rsquo;m missing?&rdquo;
+An ST-based system that addressed how this table functions in the broader data science organization would have been quite useful to me.</p>
+<p>This, honestly, is why machines will never replace data science and engineering.
+No machine is capable of plumbing through the depths of the organization to figure out who to ask for help here.
+The process that led to the creation of this table was blind to the issues that will arise from the table&rsquo;s use.</p>
+<hr>
+<p>I enjoyed this paper.
+I appreciate the look into the practical challenges with XAI, and think that the social transparency framework is promising.
+I look forward to a day when XAI is treated as the sociotechnical problem that it is.</p>
+
+      <p><i class="fas fa-square font-green-800"></i></p>
+    </div>
+    <div class="font-semibold text-green-800 pt-4">
+      <a href="/"><i class="fas fa-arrow-left"></i> Return home</a>
+    </div>
+  </article>
+</div><nav class="bar bar-footer clearfix" data-stick-bottom>
+    <div class="bar-inner">
+        <ul class="pager pull-left">
+            <li class="prev">
+                <a href="/papers/from_engagement_to_value_hardt.html" title="[Paper] From Optimizing Engagement to Measuring Value"><i
+                        class="icon icon-angle-left"
+                        aria-hidden="true"></i><span>&nbsp;&nbsp;</span></a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+</main>
+    </div>
+    <div class="hidden w-0 md:block md:w-1/4 md:pt-8 md:pl-12"><aside class="" itemscope itemtype="http://schema.org/WPSideBar">
+  <div class="pb-8">
+    <h3 class="font-semibold text-xl">Categories</h3>
+    <ul class="">
+        <li class="">+ <a href="/categories/books.html" class="font-bold text-green-900">books
+            </a><span class="">25</span>
+        </li>
+        <li class="">+ <a href="/categories/general.html" class="font-bold text-green-900">general
+            </a><span class="">44</span>
+        </li>
+        <li class="">+ <a href="/categories/papers.html" class="font-bold text-green-900">papers
+            </a><span class="">89</span>
+        </li>
+        <li class="">+ <a href="/categories/projects.html" class="font-bold text-green-900">projects
+            </a><span class="">7</span>
+        </li>
+        <li class="">+ <a href="/categories/self.html" class="font-bold text-green-900">self
+            </a><span class="">4</span>
+        </li>
+        <li class="">+ <a href="/categories/spark.html" class="font-bold text-green-900">spark
+            </a><span class="">34</span>
+        </li>
+        <li class="">+ <a href="/categories/what-i-read.html" class="font-bold text-green-900">what-i-read
+            </a><span class="">53</span>
+        </li>
+    </ul>
+</div>
+<div class="pb-4">
+    <h3 class="font-semibold text-xl">Recent Posts</h3>
+    <ul class="recent-post-list list-unstyled no-thumbnail">
+        <li class="pb-4">
+            <p>
+                <a href="/papers/explaining_explainability_ehsan.html" class="font-bold text-green-900">[Paper] Explaining Explainability: Towards Social Transparency in AI Systems</a>
+                <time datetime="2021-01-28 00:00:00 &#43;0000 UTC" itemprop="datePublished" class="text-gray-600 text-sm">2021-01-28
+                </time>
+            </p>
+
+        </li>
+        <li class="pb-4">
+            <p>
+                <a href="/papers/from_engagement_to_value_hardt.html" class="font-bold text-green-900">[Paper] From Optimizing Engagement to Measuring Value</a>
+                <time datetime="2021-01-21 00:00:00 &#43;0000 UTC" itemprop="datePublished" class="text-gray-600 text-sm">2021-01-21
+                </time>
+            </p>
+
+        </li>
+        <li class="pb-4">
+            <p>
+                <a href="/papers/street_level_algorithms_alkhatib_2.html" class="font-bold text-green-900">More thoughts on &#39;Street-Level Algorithms&#39;</a>
+                <time datetime="2021-01-15 00:00:00 &#43;0000 UTC" itemprop="datePublished" class="text-gray-600 text-sm">2021-01-15
+                </time>
+            </p>
+
+        </li>
+        <li class="pb-4">
+            <p>
+                <a href="/papers/street_level_algorithms_alkhatib.html" class="font-bold text-green-900">[Paper] Street-Level Algorithms: A Theory at the Gaps between Policy and Decisions</a>
+                <time datetime="2021-01-14 00:00:00 &#43;0000 UTC" itemprop="datePublished" class="text-gray-600 text-sm">2021-01-14
+                </time>
+            </p>
+
+        </li>
+        <li class="pb-4">
+            <p>
+                <a href="/what_i_read/20210109.html" class="font-bold text-green-900">What I read this week (January 3 - 9)</a>
+                <time datetime="2021-01-09 00:00:00 &#43;0000 UTC" itemprop="datePublished" class="text-gray-600 text-sm">2021-01-09
+                </time>
+            </p>
+
+        </li>
+    </ul>
+</div><div class="pb-12">
+    <h3 class="font-semibold text-xl">Tags</h3>
+    <ul class="">
+        <li class="">+ <a href="/tags/#republic.html" class="font-bold text-green-900">#republic
+            </a><span class="">5</span>
+        </li>
+        <li class="">+ <a href="/tags/chi2019.html" class="font-bold text-green-900">chi2019
+            </a><span class="">3</span>
+        </li>
+        <li class="">+ <a href="/tags/chi2020.html" class="font-bold text-green-900">chi2020
+            </a><span class="">20</span>
+        </li>
+        <li class="">+ <a href="/tags/chi2021.html" class="font-bold text-green-900">chi2021
+            </a><span class="">1</span>
+        </li>
+        <li class="">+ <a href="/tags/cscw2020.html" class="font-bold text-green-900">cscw2020
+            </a><span class="">8</span>
+        </li>
+        <li class="">+ <a href="/tags/facct2021.html" class="font-bold text-green-900">facct2021
+            </a><span class="">1</span>
+        </li>
+        <li class="">+ <a href="/tags/fat2020.html" class="font-bold text-green-900">fat2020
+            </a><span class="">2</span>
+        </li>
+        <li class="">+ <a href="/tags/iclr.html" class="font-bold text-green-900">iclr
+            </a><span class="">2</span>
+        </li>
+        <li class="">+ <a href="/tags/icwsm2020.html" class="font-bold text-green-900">icwsm2020
+            </a><span class="">5</span>
+        </li>
+        <li class="">+ <a href="/tags/indistractable.html" class="font-bold text-green-900">indistractable
+            </a><span class="">2</span>
+        </li>
+        <li class="">+ <a href="/tags/neurips.html" class="font-bold text-green-900">neurips
+            </a><span class="">2</span>
+        </li>
+        <li class="">+ <a href="/tags/password-tool.html" class="font-bold text-green-900">password-tool
+            </a><span class="">6</span>
+        </li>
+        <li class="">+ <a href="/tags/reading-club.html" class="font-bold text-green-900">reading-club
+            </a><span class="">23</span>
+        </li>
+        <li class="">+ <a href="/tags/recsys.html" class="font-bold text-green-900">recsys
+            </a><span class="">1</span>
+        </li>
+        <li class="">+ <a href="/tags/site.html" class="font-bold text-green-900">site
+            </a><span class="">6</span>
+        </li>
+        <li class="">+ <a href="/tags/www.html" class="font-bold text-green-900">www
+            </a><span class="">3</span>
+        </li>
+    </ul>
+</div>
+</aside><footer class="" itemscope itemtype="http://schema.org/WPFooter">
+  <div class="py-4 text-sm">
+    &copy; 2019 - 2020 Tushar Chandra
+    <p style="margin-bottom: 4px">All opinions are my own.</p>
+    <div class="publishby">Powered by Hugo with a custom theme.</div>
+  </div>
+  <ul class="">
+    <li class="inline text-xl pr-4">
+      <a href="https://github.com/tuchandra" target="_blank" title="github">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+    <li class="inline text-xl pr-4">
+      <a href="https://www.linkedin.com/in/tushar-chandra-76a623b6/" target="_blank" title="linkedin">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+    <li class="inline text-xl pr-4">
+      <a href="mailto:me@tusharc.dev" target="_blank" title="envelope">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+    <li class="inline text-xl pr-4">
+      <a href="/index.xml" target="_blank" title="rss">
+        <i class="fas fa-rss"></i>
+      </a>
+    </li>
+
+  </ul>
+</footer>
+    </div>
+  </div>
+  <div class="mx-auto mt-auto w-full px-4 bg-green-500 mt-4 md:py-8">
+    <div class="md:invisible md:hidden max-w-8xl"><footer class="" itemscope itemtype="http://schema.org/WPFooter">
+  <div class="py-4 text-sm">
+    &copy; 2019 - 2020 Tushar Chandra
+    <p style="margin-bottom: 4px">All opinions are my own.</p>
+    <div class="publishby">Powered by Hugo with a custom theme.</div>
+  </div>
+  <ul class="">
+    <li class="inline text-xl pr-4">
+      <a href="https://github.com/tuchandra" target="_blank" title="github">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+    <li class="inline text-xl pr-4">
+      <a href="https://www.linkedin.com/in/tushar-chandra-76a623b6/" target="_blank" title="linkedin">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+    <li class="inline text-xl pr-4">
+      <a href="mailto:me@tusharc.dev" target="_blank" title="envelope">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+    <li class="inline text-xl pr-4">
+      <a href="/index.xml" target="_blank" title="rss">
+        <i class="fas fa-rss"></i>
+      </a>
+    </li>
+
+  </ul>
+</footer>
+    </div>
+  </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_SVG"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+            showMathMenu: false, //disables context menu
+            tex2jax: {
+            inlineMath: [ ['$','$'], ['\\(','\\)'] ]
+           }
+    });
+</script>
+
+
+
+
+
+
+
+<script data-goatcounter="https://tusharc.goatcounter.com/count" async src="//gc.zgo.at/count.js">
+</script>
+</body>
+
+</html>

@@ -6,10 +6,19 @@
     <description>Recent content in reading club on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 21 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 28 Jan 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/tags/reading-club/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Paper] Measuring User Influence on Twitter: The Million Follower Fallacy</title>
+      <link>/papers/measuring_user_influence_twitter_cha.html</link>
+      <pubDate>Mon, 22 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/measuring_user_influence_twitter_cha.html</guid>
+      <description>&lt;p&gt;This 2010 paper recently won the &lt;a href=&#34;https://twitter.com/icwsm/status/1272747094554574848&#34;&gt;ICWSM Test of Time award&lt;/a&gt;, so I gave it a look. One of the earliest papers studying Twitter, key findings include that followers are &lt;em&gt;not&lt;/em&gt; a measure of engagement (but retweets and mentions are), and that influential users are influential about diverse and unrelated topics.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Mindful phone usage</title>
@@ -180,15 +189,6 @@
       
       <guid>/papers/modeling_org_culture_dasswain.html</guid>
       <description>&lt;p&gt;Glassdoor is a valuable source of data on what life is like at different companies, and in particular the &lt;em&gt;organizational culture&lt;/em&gt; there. To what extent can organizational culture be modeled using word embeddings? Is it useful for predicting job performance. This paper, from the De Choudhury lab at Georgia Tech, investigates.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>A data scientist builds a web app</title>
-      <link>/posts/password_tool_3.html</link>
-      <pubDate>Sun, 10 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/password_tool_3.html</guid>
-      <description>&lt;p&gt;Continuing my series on building a tool for Pokemon Mystery Dungeon, this post describes my experiences trying, failing, and trying again to build a web app.&lt;/p&gt;</description>
     </item>
     
   </channel>

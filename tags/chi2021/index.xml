@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>chi2021 on Tushar Chandra</title>
+    <link>/tags/chi2021.html</link>
+    <description>Recent content in chi2021 on Tushar Chandra</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 28 Jan 2021 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="/tags/chi2021/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>[Paper] Explaining Explainability: Towards Social Transparency in AI Systems</title>
+      <link>/papers/explaining_explainability_ehsan.html</link>
+      <pubDate>Thu, 28 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/explaining_explainability_ehsan.html</guid>
+      <description>&lt;p&gt;Explainable AI is often treated as an algorithmic problem, but this framing leaves a blind spot of how an AI system fits into an actual organization. This paper uses the idea of social transparency to motivate a new, more practical framework for thinking about explainability.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[Paper] From Optimizing Engagement to Measuring Value</title>
+      <link>/papers/from_engagement_to_value_hardt.html</link>
+      <pubDate>Thu, 21 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/from_engagement_to_value_hardt.html</guid>
+      <description>&lt;p&gt;Measuring &amp;lsquo;engagement&amp;rsquo; on social platforms is always going to be a proxy for an actual concept of value; a user engaging with something doesn&amp;rsquo;t mean they value it. This paper closes that gap, connecting engagement behaviors to value through a Bayesian network. The authors implement their approach on Twitter.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>More thoughts on &#39;Street-Level Algorithms&#39;</title>
+      <link>/papers/street_level_algorithms_alkhatib_2.html</link>
+      <pubDate>Fri, 15 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/street_level_algorithms_alkhatib_2.html</guid>
+      <description>&lt;p&gt;Talking to Judah in our reading club helped me to crystallize some of my thoughts about Ali Alkhatib &amp;amp; Michael Bernstein&amp;rsquo;s &lt;em&gt;Street-Level Algorithms&lt;/em&gt; paper. This post explores these.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[Paper] Street-Level Algorithms: A Theory at the Gaps between Policy and Decisions</title>
+      <link>/papers/street_level_algorithms_alkhatib.html</link>
+      <pubDate>Thu, 14 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/street_level_algorithms_alkhatib.html</guid>
+      <description>&lt;p&gt;Street-level bureaucrats are the people making routine decisions for institutions—administrators, police, professors, and more. This work introduces &lt;em&gt;street-level algorithms&lt;/em&gt; as an idea for algorithms that are tasked with filling the same role.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>What I read this week (January 3 - 9)</title>
+      <link>/what_i_read/20210109.html</link>
+      <pubDate>Sat, 09 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/what_i_read/20210109.html</guid>
+      <description>&lt;p&gt;Two thoughtful articles this week: on how machine learning is going real time, and the problems with machine learning in medicine.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[Paper] On the Legal Compatibility of Fairness Definitions</title>
+      <link>/papers/legal_compatibility_fairness_definitions_xiang.html</link>
+      <pubDate>Thu, 07 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/legal_compatibility_fairness_definitions_xiang.html</guid>
+      <description>&lt;p&gt;Fairness in machine learning is typically concerned with ideas like discrimination, disparate impact or treatment, or protected classes. This paper describes how the definitions being used in ML aren&amp;rsquo;t always compatible with definitions in the legal system.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>My 2020 in Review</title>
+      <link>/posts/year_in_review_2020.html</link>
+      <pubDate>Tue, 05 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/year_in_review_2020.html</guid>
+      <description>&lt;p&gt;My year in review post. 2020 was a terrible year, all things considered, but I found opportunity to rekindle my reading habit and write consistently. Inside are reflections on personal and career growth, the development of my research skills, and some of the best things I read this year.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>More minor site changes: cleaning up category pages</title>
+      <link>/posts/cleanup_category_pages.html</link>
+      <pubDate>Mon, 04 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/cleanup_category_pages.html</guid>
+      <description>&lt;p&gt;I did some cleanup of the categories and tag listings. This short post discusses why and how!&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Resume</title>
+      <link>/resume/</link>
+      <pubDate>Mon, 04 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/resume/</guid>
+      <description>&lt;style type=&#34;text/css&#34;&gt;.rich-text li {line-height: 1.5;}&lt;/style&gt;
+&lt;p&gt;I&amp;rsquo;m currently a senior data scientist at &lt;a href=&#34;https://www.nielsen.com/us/en/solutions/nielsen-global-media/&#34;&gt;Nielsen&lt;/a&gt;. I did my master&amp;rsquo;s in computer science and undergrad in computer science and the &lt;a href=&#34;httpqs://www.isp.northwestern.edu/&#34;&gt;Integrated Science Program&lt;/a&gt;, both at Northwestern (go &amp;lsquo;cats!). My email address is me@(this domain).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>What I read this week (December 27 - January 2)</title>
+      <link>/what_i_read/20210102.html</link>
+      <pubDate>Sat, 02 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/what_i_read/20210102.html</guid>
+      <description>&lt;p&gt;Happy new year! This week&amp;rsquo;s edition is short, featuring a post on Apple&amp;rsquo;s new M1 chips and why they&amp;rsquo;re so fast, and another on boundaries within engineering orgs, especially &amp;ldquo;social good&amp;rdquo; ones.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Half a year of reading club</title>
+      <link>/posts/reading_club_in_review_2020.html</link>
+      <pubDate>Mon, 28 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/reading_club_in_review_2020.html</guid>
+      <description>&lt;p&gt;In August, I started a reading club with my friend &lt;a href=&#34;https://judahgnewman.com&#34;&gt;Judah&lt;/a&gt;. 17 papers later, this post reflects on some of the things I&amp;rsquo;ve learned.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[Paper] Development of a Machine Learning Model Using Multiple, Heterogeneous Data Sources to Estimate Weekly US Suicide Fatalities</title>
+      <link>/papers/weekly_suicide_prediction_choudhury.html</link>
+      <pubDate>Thu, 24 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/weekly_suicide_prediction_choudhury.html</guid>
+      <description>&lt;p&gt;How can we estimate suicides in real time when official data sources can have data lags of over a year? This paper, by researchers from Georgia Tech, the CDC, and the National Suicide Prevention Hotline, uses machine learning to model and forecast weekly suicide fatalities in the United States.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[Paper] Generalists and Specialists: Using Community Embeddings to Quantify Activity Diversity in Online Platforms</title>
+      <link>/papers/generalists_specialists_anderson.html</link>
+      <pubDate>Tue, 22 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/generalists_specialists_anderson.html</guid>
+      <description>&lt;p&gt;Users on online platforms might contribute to a few communities often or many communities infrequently. Can we quantify this dynamic, or quantify how similar communities are? This paper, from WWW 2019, attempts to do this through community embeddings.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[Paper] Psychosocial Effects of the COVID-19 Pandemic: Large-scale Quasi-Experimental Study on Social Media</title>
+      <link>/papers/psychosocial_effects_covid_saha.html</link>
+      <pubDate>Tue, 15 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/psychosocial_effects_covid_saha.html</guid>
+      <description>&lt;p&gt;How did the early months of the COVID-19 pandemic affect expressions of mental health on Twitter? This paper investigates. Through comparisons between 2020 and 2019, and clinically validated machine learning classifiers, the authors study changes in language on social media.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[Paper] Biased Programmers? Or Biased Data? A Field Experiment in Operationalizing AI Ethics</title>
+      <link>/papers/experiment_operationalizing_ai_ethics.html</link>
+      <pubDate>Mon, 14 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/experiment_operationalizing_ai_ethics.html</guid>
+      <description>&lt;p&gt;This study, from the NeurIPS &lt;a href=&#34;https://nbiair.com/&#34;&gt;Navigating the Broader Impacts of AI Research workshop&lt;/a&gt;, is a field experiment in algorithmic bias. Take 400 programmers and ask them to predict math performance; in what ways are their algorithms biased?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>My review of The Little Book of Hygge</title>
+      <link>/books/little_book_hygge.html</link>
+      <pubDate>Sat, 12 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/books/little_book_hygge.html</guid>
+      <description>&lt;p&gt;What makes the Danes the happiest people in the world? Meik Weiking, the CEO of the Happiness Research Institute, writes a delightfully small book about the concept of &lt;em&gt;hygge&lt;/em&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>What I read this week (December 6 - December 12)</title>
+      <link>/what_i_read/20201212.html</link>
+      <pubDate>Sat, 12 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/what_i_read/20201212.html</guid>
+      <description>&lt;p&gt;Building a feature store at DoorDash, radial data visualizations, and writing programming comics.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>My review of Why We Sleep</title>
+      <link>/books/why_we_sleep.html</link>
+      <pubDate>Thu, 10 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/books/why_we_sleep.html</guid>
+      <description>&lt;p&gt;Another book that I&amp;rsquo;ve read over the past couple of weeks was Matthew Walker&amp;rsquo;s &lt;em&gt;Why We Sleep.&lt;/em&gt; Walker distilled perhaps the most complex biological phenomenon into an accessible 300 pages, and he taught me a lot about this essential process. (Update: maybe not!)&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>My review of Jenny Odell&#39;s How to Do Nothing</title>
+      <link>/books/how_to_do_nothing.html</link>
+      <pubDate>Tue, 08 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/books/how_to_do_nothing.html</guid>
+      <description>&lt;p&gt;&lt;em&gt;How to Do Nothing&lt;/em&gt; is perhaps the best book I read this year. Written as a series of loosely linked essays about finding your place in the world, Jenny Odell&amp;rsquo;s writing conveyed how deeply personal this journey is.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>What I read this week (November 29 - December 5)</title>
+      <link>/what_i_read/20201205.html</link>
+      <pubDate>Sat, 05 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/what_i_read/20201205.html</guid>
+      <description>&lt;p&gt;This week&amp;rsquo;s reading features the cycle of content moderation controversies (from a wonderful article titled &amp;ldquo;What Pornhub and Peloton have in common with Facebook&amp;rdquo;), along with thoughts on language servers and static site generators.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

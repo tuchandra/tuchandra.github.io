@@ -11,6 +11,15 @@
     
     
     <item>
+      <title>[Paper] Explaining Explainability: Towards Social Transparency in AI Systems</title>
+      <link>/papers/explaining_explainability_ehsan.html</link>
+      <pubDate>Thu, 28 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/explaining_explainability_ehsan.html</guid>
+      <description>&lt;p&gt;Explainable AI is often treated as an algorithmic problem, but this framing leaves a blind spot of how an AI system fits into an actual organization. This paper uses the idea of social transparency to motivate a new, more practical framework for thinking about explainability.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>[Paper] From Optimizing Engagement to Measuring Value</title>
       <link>/papers/from_engagement_to_value_hardt.html</link>
       <pubDate>Thu, 21 Jan 2021 00:00:00 +0000</pubDate>
@@ -180,15 +189,6 @@
       
       <guid>/what_i_read/20201205.html</guid>
       <description>&lt;p&gt;This week&amp;rsquo;s reading features the cycle of content moderation controversies (from a wonderful article titled &amp;ldquo;What Pornhub and Peloton have in common with Facebook&amp;rdquo;), along with thoughts on language servers and static site generators.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>What I read this week (November 22 - 28)</title>
-      <link>/what_i_read/20201128.html</link>
-      <pubDate>Sat, 28 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/what_i_read/20201128.html</guid>
-      <description>&lt;p&gt;On quirks in Ruby, leaving code better than you found it, VS Code shortcuts, and graph neural networks. Happy Thanksgiving, for those in the US!&lt;/p&gt;</description>
     </item>
     
   </channel>

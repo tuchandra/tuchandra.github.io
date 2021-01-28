@@ -6,10 +6,19 @@
     <description>Recent content on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 21 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 28 Jan 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/papers/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Paper] Multimodal Classification of Moderated Online Pro-Eating Disorder Content</title>
+      <link>/papers/classification_pro_ed_chancellor.html</link>
+      <pubDate>Sun, 26 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/classification_pro_ed_chancellor.html</guid>
+      <description>&lt;p&gt;This is another social computing paper that develops a deep learning classifier for pro-eating disorder content on Tumblr. This work bridges the gap between deep learning and social computing, contributing an image+text classifier for identifying deviant posts.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>What I read this week (January 19 - 25)</title>
@@ -181,15 +190,6 @@
       
       <guid>/what_i_read/20191221.html</guid>
       <description>&lt;p&gt;Summaries of articles and blog posts that I&amp;rsquo;ve read this week, including articles on NeurIPS and many short posts.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] Me, My Echo Chamber, and I: Introspection on Social Media Polarization</title>
-      <link>/papers/introspection_echo_chamber_gillani.html</link>
-      <pubDate>Wed, 18 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/papers/introspection_echo_chamber_gillani.html</guid>
-      <description>&lt;p&gt;It&amp;rsquo;s well-known that &amp;ldquo;echo chambers&amp;rdquo; exist online, but to what extent are people aware of them? This paper studies that question by introducing an application to visualize how politically active and polarized users&amp;rsquo; Twitter networks are.&lt;/p&gt;</description>
     </item>
     
   </channel>

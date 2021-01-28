@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>chi2021 on Tushar Chandra</title>
+    <link>/tags/chi2021.html</link>
+    <description>Recent content in chi2021 on Tushar Chandra</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 28 Jan 2021 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="/tags/chi2021/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>What I read this week (November 22 - 28)</title>
+      <link>/what_i_read/20201128.html</link>
+      <pubDate>Sat, 28 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/what_i_read/20201128.html</guid>
+      <description>&lt;p&gt;On quirks in Ruby, leaving code better than you found it, VS Code shortcuts, and graph neural networks. Happy Thanksgiving, for those in the US!&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>COVID and Illinois</title>
+      <link>/posts/covid_illinois.html</link>
+      <pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/covid_illinois.html</guid>
+      <description>&lt;p&gt;The COVID-19 situation in Illinois is dire. The media doesn&amp;rsquo;t seem to be talking about it, even though the situation is presently worse here than it was in many places over the summer. What gives?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>My review of Nir Eyal&#39;s Hooked</title>
+      <link>/books/hooked.html</link>
+      <pubDate>Mon, 23 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/books/hooked.html</guid>
+      <description>&lt;p&gt;I review Nir Eyal&amp;rsquo;s &lt;em&gt;Hooked&lt;/em&gt;, a 200-page manual for creating habit-forming products. It&amp;rsquo;s clear that his steps work&amp;mdash;examples from several common products readily support them. But I question whether this is being used for good or evil.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>What I read this week (November 15 - 21)</title>
+      <link>/what_i_read/20201121.html</link>
+      <pubDate>Sat, 21 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/what_i_read/20201121.html</guid>
+      <description>&lt;p&gt;On work-life balance; writing simply; ethical issues with recommender systems; and trust and safety in products.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[Paper] Decolonial AI: Decolonial Theory as Sociotechnical Foresight in Artificial Intelligence</title>
+      <link>/papers/decolonial_ai_mohamed.html</link>
+      <pubDate>Fri, 20 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/decolonial_ai_mohamed.html</guid>
+      <description>&lt;p&gt;It&amp;rsquo;s no surprise that AI can be harmful, but discussions of AI harm often miss historical context. This paper explores the role of decolonial theories in AI to address this gap.  Through ethical foresight, the authors argue, we can rethink the role of AI in helping and harming people of different societies.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[Paper] The Complementary Nature of Perceived and Actual Time Spent Online in Measuring Digital Well-being</title>
+      <link>/papers/complementary_nature_time_online_mok.html</link>
+      <pubDate>Wed, 18 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/complementary_nature_time_online_mok.html</guid>
+      <description>&lt;p&gt;Self-reported measures of time spent online are known to be inaccurate compared to objective, server-log-informed measures. And while they&amp;rsquo;re each individually useful in predicting problematic effects online, little is known about how these two measures can be used alongside each other. This CSCW paper uses the open-source, open-data platform Lichess to study this.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>What I read this week (November 8 - 14)</title>
+      <link>/what_i_read/20201114.html</link>
+      <pubDate>Sat, 14 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/what_i_read/20201114.html</guid>
+      <description>&lt;p&gt;On rules engines and machine learning, graph theory for COVID vaccinations, MLflow and PyTorch, and grad school.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[Paper] Data and Power: Archival Appraisal Theory as a Framework for Data Preservation</title>
+      <link>/papers/data_and_power_archival_schoenebeck.html</link>
+      <pubDate>Fri, 13 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/data_and_power_archival_schoenebeck.html</guid>
+      <description>&lt;p&gt;Another CSCW paper for this week&amp;rsquo;s reading group; this one on digital archives. What does data preservation mean in a digital world? How do adults see their legacy? This paper draws on archival theory to study these questions.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[Paper] &#39;At the End of the Day Facebook Does What It Wants&#39;: How Users Experience Contesting Algorithmic Content Moderation</title>
+      <link>/papers/automated_content_moderation_karahalios.html</link>
+      <pubDate>Sun, 08 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/automated_content_moderation_karahalios.html</guid>
+      <description>&lt;p&gt;When algorithms make decisions, humans should be able to appeal them. Right? This CSCW paper studies users&amp;rsquo; experience with contesting algorithmic content moderation decisions.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[Paper] The Hardware Lottery</title>
+      <link>/papers/hardware_lottery_hooker.html</link>
+      <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/hardware_lottery_hooker.html</guid>
+      <description>&lt;p&gt;The &amp;ldquo;hardware lottery&amp;rdquo; is when a research idea succeeds because it is suitable with available hardware.
+What does this mean for the future of research?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>My review of Calling Bullshit</title>
+      <link>/books/calling_bullshit.html</link>
+      <pubDate>Sat, 31 Oct 2020 01:00:00 +0000</pubDate>
+      
+      <guid>/books/calling_bullshit.html</guid>
+      <description>&lt;p&gt;&amp;ldquo;The world is awash with bullshit,&amp;rdquo; Carl Bergstrom and Jevin West write.
+What is it? How do we recognize it? How do we call it out when we see it?
+&lt;em&gt;Calling Bullshit: The Art of Skepticism in a Data-Driven World&lt;/em&gt;, informs us on these questions.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>What I read this week (October 25 - 31)</title>
+      <link>/what_i_read/20201031.html</link>
+      <pubDate>Sat, 31 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/what_i_read/20201031.html</guid>
+      <description>&lt;p&gt;This week: on data science portfolios, Python for feature films, optimizing for thinking, and interview questions.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[Paper] Hidden Figures: Roles and Pathways of Successful OSS Contributors</title>
+      <link>/papers/hidden_figures_oss_trinkenreich.html</link>
+      <pubDate>Sat, 24 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/hidden_figures_oss_trinkenreich.html</guid>
+      <description>&lt;p&gt;This CSCW paper studies open source software contributors—all of them, not just maintainers and developers. While open source has often been looked at as a purely technical community, this paper draws attention to the other forms of work that contributors do.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>What I read this week (October 18 - 24)</title>
+      <link>/what_i_read/20201024.html</link>
+      <pubDate>Sat, 24 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/what_i_read/20201024.html</guid>
+      <description>&lt;p&gt;This week: on CSRankings.org, &amp;ldquo;local-first software,&amp;rdquo; and some discussion of system design interviews. Otherwise, see all the CSCW papers I&amp;rsquo;m working through!&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[Paper] Mitigating Exploitation: Indie Game Developers&#39; Reconfigurations of Labor in Technology</title>
+      <link>/papers/mitigating_exploitations_indie_dev_freeman.html</link>
+      <pubDate>Fri, 23 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/mitigating_exploitations_indie_dev_freeman.html</guid>
+      <description>&lt;p&gt;In a totally different direction from the last two CSCW papers, this work studies the indie game development industry. How does the indie community reconfigure labor in their own image? This paper explores these questions in the context of labor and technology.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[Paper] Conformity of Eating Disorders through Content Moderation</title>
+      <link>/papers/conformity_eating_disorders_piper.html</link>
+      <pubDate>Thu, 22 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/conformity_eating_disorders_piper.html</guid>
+      <description>&lt;p&gt;Content moderation is an essential part of online communities, but the experiences of people who are moderated are less studied. This work conducts a digital ethnography on people with eating disorders. The authors argue that moderation enforces conformity on a platform, which can further marginalize people with eating disorders.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[Paper] Moving Across Lands: Online Platform Migration in Fandom Communities</title>
+      <link>/papers/fandom_migrations_fiesler.html</link>
+      <pubDate>Wed, 21 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/fandom_migrations_fiesler.html</guid>
+      <description>&lt;p&gt;How do fandom communities move from platform to platform over time? What causes people to leave a platform in favor of a new one? This paper dives into community migrations in the fandom community.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>My CSCW 2020 reading list</title>
+      <link>/posts/cscw_reading_list.html</link>
+      <pubDate>Tue, 20 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/cscw_reading_list.html</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://cscw.acm.org/2020/&#34;&gt;CSCW 2020&lt;/a&gt; (on &amp;ldquo;computer-supported cooperative work and social computing&amp;rdquo;) is running from October 17th to 21st. While I&amp;rsquo;m not attending, I went through the program to look for papers that caught my eye. This post has the highlights.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Papers that I never got around to</title>
+      <link>/posts/reading_list_archive_1.html</link>
+      <pubDate>Mon, 19 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/reading_list_archive_1.html</guid>
+      <description>&lt;p&gt;In an effort to clean up my reading list, this page catalogues papers that caught my eye but that I never got around to reading.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[Paper] A balanced survey on election prediction using Twitter data</title>
+      <link>/papers/election_predicting_twitter_gayoavello.html</link>
+      <pubDate>Sun, 18 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/election_predicting_twitter_gayoavello.html</guid>
+      <description>&lt;p&gt;Affectionately titled &amp;ldquo;I wanted to predict elections with Twitter and all I got was this lousy paper.&amp;rdquo;
+This survey paper chronicles various attempts to predict elections from Twitter, and finds that (surprise!) its predictive power has been greatly exaggerated.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
