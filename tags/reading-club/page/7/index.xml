@@ -6,10 +6,28 @@
     <description>Recent content in reading club on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 28 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 11 Feb 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/tags/reading-club/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Portable Scalable Data Visualization Techniques for Apache Spark and Python Notebook-based Analytics</title>
+      <link>/spark/2020/portable_scalable_data_viz.html</link>
+      <pubDate>Wed, 24 Jun 2020 13:00:00 +0000</pubDate>
+      
+      <guid>/spark/2020/portable_scalable_data_viz.html</guid>
+      <description>&lt;p&gt;This talk, by Douglas Moore at Databricks, briefly discussed strategies for data visualization using Spark and different visualization libraries.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Notes from the Wednesday morning Spark keynotes</title>
+      <link>/spark/2020/wednesday_morning_keynotes.html</link>
+      <pubDate>Wed, 24 Jun 2020 12:00:00 +0000</pubDate>
+      
+      <guid>/spark/2020/wednesday_morning_keynotes.html</guid>
+      <description>&lt;p&gt;Spark + AI Summit kicked off with keynotes by Ali Ghodsi (Databricks CEO), Matei Zaharia (creator of Spark) and Brooke Wenig (Databricks machine learning lead), Reynold Xin (Spark contributor), and Vishwanath Subramanian (Starbucks director of data). I wasn&amp;rsquo;t able to listen to all of it, but this post has a few highlights.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>[Paper] Measuring User Influence on Twitter: The Million Follower Fallacy</title>
@@ -171,24 +189,6 @@
       
       <guid>/what_i_read/20200516.html</guid>
       <description>&lt;p&gt;I took last week off as I focused on full papers from CHI, but this week&amp;rsquo;s edition of &lt;a href=&#34;http://www.pointer.io/&#34;&gt;Pointer&lt;/a&gt; had several articles that caught my eye.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] How Visualizing Inferential Uncertainty Can Mislead Readers About Treatment Effects in Scientific Results</title>
-      <link>/papers/visualizing_inferential_uncertainty_mislead_hofman.html</link>
-      <pubDate>Tue, 12 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/papers/visualizing_inferential_uncertainty_mislead_hofman.html</guid>
-      <description>&lt;p&gt;When visualizing the uncertainty around treatment effects, one can choose (among others) to visualize the standard error (uncertainty in the mean) or the standard deviations (uncertainty in the observations). Modulo sample size, the two contain the same information, but this paper demonstrates how people regularly associate the former with larger effects than the latter.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] Modeling Organizational Culture with Workplace Experiences Shared on Glassdoor</title>
-      <link>/papers/modeling_org_culture_dasswain.html</link>
-      <pubDate>Mon, 11 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/papers/modeling_org_culture_dasswain.html</guid>
-      <description>&lt;p&gt;Glassdoor is a valuable source of data on what life is like at different companies, and in particular the &lt;em&gt;organizational culture&lt;/em&gt; there. To what extent can organizational culture be modeled using word embeddings? Is it useful for predicting job performance. This paper, from the De Choudhury lab at Georgia Tech, investigates.&lt;/p&gt;</description>
     </item>
     
   </channel>

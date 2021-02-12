@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <title>
+    [Paper] On the Dangers of Stochastic Parrots: Can Language Models Be Too Big? 🦜 - Tushar Chandra
+    </title>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="Cache-Control" content="no-transform" />
+  <meta http-equiv="Cache-Control" content="no-siteapp" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="format-detection" content="telephone=no,email=no,adress=no">
+  
+  <meta name="theme-color" content="#000000" />
+  <meta http-equiv="window-target" content="_top" /><meta name="description" content="Large language models are increasing in prevalence, and the field is marching steadily towards bigger ones still. This paper takes a step back to question the risks of these models. Can they be too big? (And yes—the emoji is part of the title!)
+" />
+  <meta name="generator" content="Hugo 0.70.0" />
+  <title>[Paper] On the Dangers of Stochastic Parrots: Can Language Models Be Too Big? 🦜 - Tushar Chandra</title>
+
+  
+  
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
+
+  <meta property="og:title" content="[Paper] On the Dangers of Stochastic Parrots: Can Language Models Be Too Big? 🦜" />
+<meta property="og:description" content="Large language models are increasing in prevalence, and the field is marching steadily towards bigger ones still. This paper takes a step back to question the risks of these models. Can they be too big? (And yes—the emoji is part of the title!)" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/papers/stochastic_parrots_bender.html" />
+<meta property="article:published_time" content="2021-02-11T00:00:00+00:00" />
+<meta property="article:modified_time" content="2021-02-11T00:00:00+00:00" />
+<meta itemprop="name" content="[Paper] On the Dangers of Stochastic Parrots: Can Language Models Be Too Big? 🦜">
+<meta itemprop="description" content="Large language models are increasing in prevalence, and the field is marching steadily towards bigger ones still. This paper takes a step back to question the risks of these models. Can they be too big? (And yes—the emoji is part of the title!)">
+<meta itemprop="datePublished" content="2021-02-11T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2021-02-11T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="1514">
+
+
+
+<meta itemprop="keywords" content="reading club," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="[Paper] On the Dangers of Stochastic Parrots: Can Language Models Be Too Big? 🦜"/>
+<meta name="twitter:description" content="Large language models are increasing in prevalence, and the field is marching steadily towards bigger ones still. This paper takes a step back to question the risks of these models. Can they be too big? (And yes—the emoji is part of the title!)"/>
+</head>
+</head>
+
+
+
+<body class="h-full flex flex-col justify-between" itemscope itemtype="http://schema.org/WebPage"><header class="bg-green-500" itemscope itemtype="http://schema.org/WPHeader">
+  <div class="flex max-w-8xl container mx-auto">
+    <div class="hidden sm:inline flex items-center">
+      <a href="/">
+        <img class="rounded-full m-1 md:m-4" src="/headshot.jpg" width="100" height="100">
+      </a>
+    </div>
+    <div class="w-full px-4 flex flex-col lg:flex-row justify-start md:pt-4 lg:items-center my-4">
+      <div class="lg:flex-grow">
+        <a href="/">
+          <span class="text-lg sm:text-2xl md:text-3xl font-semibold">Tushar Chandra</span>
+          <span class="hidden pl-4 lg:inline"><br></span>
+          <span class="text-sm md:text-xl font-thin pl-4 md:pl-8 lg:pl-0 lg:text-xl">Data Scientist / Chicago, IL
+          </span>
+        </a>
+      </div>
+      <nav class="" itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation">
+        <ul class="flex lg:justify-between">
+          <li class="flex-grow-0 inline pr-1 md:pr-2 xl:px-4">
+            <p class="text-center">
+              <a href="/about">
+                <i class="fas text-green-800 pl-1 md:px-1 text-sm md:text-xl lg:text-2xl fa-mug-hot"></i>
+                <span class="font-thin text-sm md:text-lg lg:text-2xl">About</span>
+              </a>
+            </p>
+          </li>
+          <li class="flex-grow-0 inline pr-1 md:pr-2 xl:px-4">
+            <p class="text-center">
+              <a href="/resume">
+                <i class="fas text-green-800 pl-1 md:px-1 text-sm md:text-xl lg:text-2xl fa-file"></i>
+                <span class="font-thin text-sm md:text-lg lg:text-2xl">Resume</span>
+              </a>
+            </p>
+          </li>
+          <li class="flex-grow-0 inline pr-1 md:pr-2 xl:px-4">
+            <p class="text-center">
+              <a href="/reading">
+                <i class="fas text-green-800 pl-1 md:px-1 text-sm md:text-xl lg:text-2xl fa-book-open"></i>
+                <span class="font-thin text-sm md:text-lg lg:text-2xl">Reading</span>
+              </a>
+            </p>
+          </li>
+          <li class="flex-grow-0 inline pr-1 md:pr-2 xl:px-4">
+            <p class="text-center">
+              <a href="/categories.html">
+                <i class="fas text-green-800 pl-1 md:px-1 text-sm md:text-xl lg:text-2xl fa-folder-open"></i>
+                <span class="font-thin text-sm md:text-lg lg:text-2xl">Categories</span>
+              </a>
+            </p>
+          </li>
+          <li class="flex-grow-0 inline pr-1 md:pr-2 xl:px-4">
+            <p class="text-center">
+              <a href="/posts.html">
+                <i class="fas text-green-800 pl-1 md:px-1 text-sm md:text-xl lg:text-2xl fa-archive"></i>
+                <span class="font-thin text-sm md:text-lg lg:text-2xl">Archives</span>
+              </a>
+            </p>
+          </li>
+
+        </ul>
+
+      </nav>
+    </div>
+
+  </div>
+</header>
+  <div class="container mx-auto max-w-8xl px-4 flex flex-row flex-grow">
+    <div class="w-full md:w-3/4">
+      
+<main class="main" role="main"><div class="content container mx-auto max-w-6xl">
+  <article id="-" class="" itemscope itemtype="http://schema.org/BlogPosting">
+    <div class="pt-4">
+      <span class="font-semibold text-3xl"><h1 itemprop="name">
+  <a class="" href="/papers/stochastic_parrots_bender.html">[Paper] On the Dangers of Stochastic Parrots: Can Language Models Be Too Big? 🦜</a>
+</h1>
+      </span>
+      <div class="pb-4"><i class="fas fa-calendar-check text-gray-500 pr-1"></i>
+<time datetime="2021-02-11 00:00:00 &#43;0000 UTC" class="text-sm text-gray-600"
+  itemprop="datePublished">2021-02-11</time>
+<span class="text-sm text-gray-600" itemprop="wordCount">
+	<i class="fas fa-pencil-alt text-gray-500 pl-4 pr-2"></i>1514 words
+</span><i class="fas fa-folder-open text-gray-500 pl-4 pr-1"></i>
+<a class="text-sm text-gray-600" href=" /categories/papers.html"> papers, </a>
+<span class="article-tag">
+  <i class="fas fa-tag text-gray-500 pl-4 pr-1"></i>
+  <a class="text-sm text-gray-600" href="/tags/reading-club.html"> reading club, </a>
+</span><span class="article-category text-sm text-gray-600 pl-4">
+  <i class="fa fa-users "></i>
+  Emily M. Bender, Timnit Gebru, Angelina McMillan-Major, Margaret Mitchell
+</span>
+      </div>
+    </div>
+    <div class="rich-text" itemprop="articleBody">
+      <p>Large language models are increasing in prevalence, and the field is marching steadily towards bigger ones still. This paper takes a step back to question the risks of these models. Can they be too big? (And yes—the emoji is part of the title!)</p>
+<p>This paper was the centerpiece of Google&rsquo;s <a href="https://www.platformer.news/p/the-withering-email-that-got-an-ethical">firing of Timnit Gebru</a>. It&rsquo;s received outsized attention as a result, and this has made writing about it exceptionally challenging. How do I say something new when so much has already been said? Nonetheless, I&rsquo;ll do my best.</p>
+<p><strong>Link</strong>: <a href="http://faculty.washington.edu/ebender/papers/Stochastic_Parrots.pdf">PDF</a></p>
+<p><strong>Authors</strong>: Emily M. Bender, Timnit Gebru, Angelina McMillan-Major, Margaret Mitchell</p>
+<h2 id="background-and-motivation"><a class="not-rich" href="#background-and-motivation"><i class="fas fa-link"></i></a> Background and motivation</h2>
+<p>As far as motivation goes, the introduction says it all:</p>
+<blockquote>
+<p>One of the biggest trends in natural language processing (NLP) has been increasing the size of language models (LMs) as measured by the number of parameters and size of the training data.</p>
+</blockquote>
+<p>Most recent is Google Brain&rsquo;s <a href="https://venturebeat.com/2021/01/12/google-trained-a-trillion-parameter-ai-language-model/">trillion-parameter Switch-C</a> model, and preceding it are OpenAI&rsquo;s 175 billion-parameter GPT-3 and several others before. Institutions are &ldquo;seemingly competing to produce ever larger LMs,&rdquo; the authors write, and the risks of doing so have not yet been explored.</p>
+<p>The primary argument of this paper is that the race for ever-increasing size is harmful in several ways.</p>
+<blockquote>
+<p>We hope that a critical overview of the risks of relying on ever-increasing size of LMs as the primary driver of increased performance of language technology can facilitate a reallocation of efforts towards approaches that avoid some of these risks while still reaping the benefits of improvements to language technology.</p>
+</blockquote>
+<h2 id="costs-of-language-models"><a class="not-rich" href="#costs-of-language-models"><i class="fas fa-link"></i></a> Costs of language models</h2>
+<p>The paper discusses many, many costs and harms, either potential or already existing. Some of these are well-documented, and others are new; but what I like most about the paper is how it ties all of these strands together.</p>
+<p>Most important is how the authors note that these costs are unevenly distributed:</p>
+<blockquote>
+<p>When we perform risk/benefit analysis of language technology, we must keep in mind how the risks and benefits are distributed, because they do not accrue to the same people.</p>
+</blockquote>
+<p>The costs of large English language models will be beared by, for example, &ldquo;800,000 people in Sudan affected by drastic floods.&rdquo; And who do these language models benefit? Perhaps the Sudanese, but they&rsquo;re certainly not built with them in mind!</p>
+<p><strong>Environmental costs</strong>: &ldquo;training a single BERT base model (without hyperparameter tuning) on GPUs was estimated to require as much energy as a trans-American flight.&rdquo; That&rsquo;s ludicrous. The paper notes recent initiatives to prioritize efficient hardware and algorithms, like <a href="https://sites.google.com/view/sustainlp2020">SustaiNLP</a>.</p>
+<p><strong>Training data size</strong>: what stands out to me is that, in order to build a vaguely passable corpus of training data, one must rely on crude approaches that leave a lot to be desired. This cascades, perpetuating dominant narratives.</p>
+<p><em>Where do you get your data?</em> There&rsquo;s no shortage of language on the internet, but at scale models like GPT-2 rely upon outbound links from Reddit. But Reddit is 67% male, and 64% between 18 and 29, overrepresenting content they submit relative to more marginalized groups.</p>
+<p><em>How do you filter this data?</em> To exclude problematic content <em>at scale</em>, one language model&rsquo;s training data discarded any page containing one of the <a href="https://github.com/LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words/blob/master/en">list of dirty, naughty, obscene, and otherwise bad words</a>. This, too, is a crude approach, and the authors note that excluding words like &ldquo;twink&rdquo; will filter out discourse from (you guessed it) the marginalized LGBTQ community.</p>
+<p>Other issues include:</p>
+<ul>
+<li>how social movements, and discourse around them, evolves over time; but training data for most language models is static.</li>
+<li>that models encode bias and stereotypes against marginalized people</li>
+<li>that large training datasets incur <em>documentation debt</em>, where the datasets are undocumented <em>and</em> too large to document.</li>
+</ul>
+<p>All of these are true, and while some are true of language models generally, these problems become worse as models get larger. These costs are usually ignored, or relegated to a &ldquo;broader impacts&rdquo; paragraph in a paper that is otherwise singing praises of large language models.</p>
+<h2 id="on-stochastic-parrots-"><a class="not-rich" href="#on-stochastic-parrots-"><i class="fas fa-link"></i></a> On &ldquo;stochastic parrots&rdquo; 🦜</h2>
+<p>Section 6 of the paper discusses how the issues discussed above can cause real-world harm. &ldquo;We find that the mix of human biases and seemingly coherent language heightens the potential for automation bias, deliberate misuse, and amplification of a hegemonic worldview,&rdquo; they write.</p>
+<p><strong>False coherence</strong>: the authors note that communication is a jointly human activity. For example, when I talk about this paper to Judah tomorrow, my words will be chosen with him in mind. As I write this blog post, I have a mental model of the audience of my blog. Language models, though, do not communicate.</p>
+<blockquote>
+<p>Text generated by an LM is not grounded in communicative intent, any model of the world, or any model of the reader’s state of mind. It can’t have been, because the training data never included sharing thoughts with a listener, nor does the machine have the ability to do that.</p>
+</blockquote>
+<p>In other words, text generated by a language model doesn&rsquo;t constitute communication because it <em>can&rsquo;t</em>. It follows that there&rsquo;s no comprehension, either; even when we think we understand a language model&rsquo;s text, it&rsquo;s just an illusion. We assign intent to a model that has none.</p>
+<p>This becomes especially problematic when language models propagate harms embedded in the training data:</p>
+<blockquote>
+<p>We note that the risks associated with synthetic but seemingly coherent text are deeply connected to the fact that such synthetic text can enter into conversations without any person or entity being accountable for it. This accountability both involves responsibility for truthfulness and is important in situating meaning.</p>
+</blockquote>
+<p>When a model, not a person, is responsible for harmful content, people have less recourse in dealing with it. &ldquo;Humans are prepared to interpret strings belonging to languages they speak as meaningful and corresponding to the communicative intent of some individual or group of individuals who have accountability for what is said.&rdquo;</p>
+<h2 id="what-are-we-to-do"><a class="not-rich" href="#what-are-we-to-do"><i class="fas fa-link"></i></a> What are we to do?</h2>
+<p>What should researchers do instead?</p>
+<blockquote>
+<p>We should consider our research time and effort a valuable resource, to be spent to the extent possible on research projects that build towards a technological ecosystem whose benefits are least evenly distributed or better accure to those historically most marginalized. This means considering how research contributions shape the overall direction of the field and keeping alert to directions that limit access.</p>
+</blockquote>
+<p>Long ago, well before I was interested in AI fairness and ethics, I read something like &ldquo;When you build technology, think about who it gives power to and who it takes power away from.&rdquo; It seems like mainstream AI research is finally catching up to this.</p>
+<p>Finally, they propose some specific research items:</p>
+<ul>
+<li>adopt systems like <a href="https://www.aclweb.org/anthology/Q18-1041/">data statements</a>, <a href="https://arxiv.org/abs/1803.09010">datasheets for datasets</a>, or <a href="https://arxiv.org/abs/1810.03993">model cards</a> to better document models</li>
+<li>consider pre-mortems of how language models might fail</li>
+<li>spend time assembling datasets by hand</li>
+<li>consider value sensitive design</li>
+<li>investigate how to directly serve marginalized populations.</li>
+</ul>
+<h2 id="my-thoughts"><a class="not-rich" href="#my-thoughts"><i class="fas fa-link"></i></a> My thoughts</h2>
+<p>It&rsquo;s incredibly hard to write anything thoughtful about this paper when so much has already been said. But I really enjoyed this paper, and think I will be coming back to it regularly in the future.</p>
+<p>One of the <a href="https://gist.github.com/yoavg/9fc9be2f98b47c189a513573d902fb27">critiques</a> that I read was that it makes a political argument without stating this. I don&rsquo;t think I agree; it&rsquo;s quite obvious to me that the paper is political. But I quite like <a href="https://algorithmicfairness.wordpress.com/2021/01/23/on-stochastic-parrots/">Suresh Venkatasubramanian&rsquo;s framing</a>:</p>
+<blockquote>
+<p>Does this paper indulge in advocacy? Of course it does. Does that make it less “scientific”? Setting aside the normative loadedness of such a question, we should recognize that papers advocate for specific research agendas all the time. The authors have indeed made the case (and you’d have to be hiding under a rock to not know this as well) that the focus on size obscures the needs of populations that aren’t represented by the majority as seen through biased data collection. You might disagree with that case and that’s fine. But it’s well within scope of a paper in this area to make the case for such a focus without being called ‘political’ in a pejorative manner.</p>
+</blockquote>
+<p>So, yes, of course this paper is political—but only because we&rsquo;ve positioned the default of building ever-larger language models as being <em>apolitical</em>. Every non-default position has to justify itself, ceding power to the status quo each time this occurs.</p>
+<p>I&rsquo;m not an NLP researcher, but from the outside it feels to me like we&rsquo;ve been marching towards larger models without ever <em>giving a damn</em> about the harm that they do. Earlier today, I saw on Twitter how <a href="lhttps://onezero.medium.com/for-some-reason-im-covered-in-blood-gpt-3-contains-disturbing-bias-against-muslims-693d275552bf?gi=sd">GPT-3 produces disturbing text when prompted with the keyword &lsquo;Muslim&rsquo;</a>. But, clearly, OpenAI saw the model as fit to release anyway.</p>
+<p>Is that not a political decision? Releasing a product that&rsquo;s irreparably and explicitly harmful to a particular group of people? This &ldquo;takes one-sided political views,&rdquo; to use Yoav Goldberg&rsquo;s phrase, and yet it didn&rsquo;t seem like anyone cared here.</p>
+<p>I appreciate this paper for bringing attention to the bewildering landscape of problems with large language models. I particularly liked the discussion of false coherence, and would love to learn more about that line of thinking. I&rsquo;m looking forward to more work like this in the future.</p>
+
+      <p><i class="fas fa-square font-green-800"></i></p>
+    </div>
+    <div class="font-semibold text-green-800 pt-4">
+      <a href="/"><i class="fas fa-arrow-left"></i> Return home</a>
+    </div>
+  </article>
+</div><nav class="bar bar-footer clearfix" data-stick-bottom>
+    <div class="bar-inner">
+        <ul class="pager pull-left">
+            <li class="prev">
+                <a href="/self/recurring_reading.html" title="Recurring Reading"><i
+                        class="icon icon-angle-left"
+                        aria-hidden="true"></i><span>&nbsp;&nbsp;</span></a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+</main>
+    </div>
+    <div class="hidden w-0 md:block md:w-1/4 md:pt-8 md:pl-12"><aside class="" itemscope itemtype="http://schema.org/WPSideBar">
+  <div class="pb-8">
+    <h3 class="font-semibold text-xl">Categories</h3>
+    <ul class="">
+        <li class="">+ <a href="/categories/books.html" class="font-bold text-green-900">books
+            </a><span class="">25</span>
+        </li>
+        <li class="">+ <a href="/categories/general.html" class="font-bold text-green-900">general
+            </a><span class="">44</span>
+        </li>
+        <li class="">+ <a href="/categories/papers.html" class="font-bold text-green-900">papers
+            </a><span class="">90</span>
+        </li>
+        <li class="">+ <a href="/categories/projects.html" class="font-bold text-green-900">projects
+            </a><span class="">7</span>
+        </li>
+        <li class="">+ <a href="/categories/self.html" class="font-bold text-green-900">self
+            </a><span class="">5</span>
+        </li>
+        <li class="">+ <a href="/categories/spark.html" class="font-bold text-green-900">spark
+            </a><span class="">34</span>
+        </li>
+        <li class="">+ <a href="/categories/what-i-read.html" class="font-bold text-green-900">what-i-read
+            </a><span class="">53</span>
+        </li>
+    </ul>
+</div>
+<div class="pb-4">
+    <h3 class="font-semibold text-xl">Recent Posts</h3>
+    <ul class="recent-post-list list-unstyled no-thumbnail">
+        <li class="pb-4">
+            <p>
+                <a href="/papers/stochastic_parrots_bender.html" class="font-bold text-green-900">[Paper] On the Dangers of Stochastic Parrots: Can Language Models Be Too Big? 🦜</a>
+                <time datetime="2021-02-11 00:00:00 &#43;0000 UTC" itemprop="datePublished" class="text-gray-600 text-sm">2021-02-11
+                </time>
+            </p>
+
+        </li>
+        <li class="pb-4">
+            <p>
+                <a href="/self/recurring_reading.html" class="font-bold text-green-900">Recurring Reading</a>
+                <time datetime="2021-02-05 00:00:00 &#43;0000 UTC" itemprop="datePublished" class="text-gray-600 text-sm">2021-02-05
+                </time>
+            </p>
+
+        </li>
+        <li class="pb-4">
+            <p>
+                <a href="/papers/explaining_explainability_ehsan.html" class="font-bold text-green-900">[Paper] Explaining Explainability: Towards Social Transparency in AI Systems</a>
+                <time datetime="2021-01-28 00:00:00 &#43;0000 UTC" itemprop="datePublished" class="text-gray-600 text-sm">2021-01-28
+                </time>
+            </p>
+
+        </li>
+        <li class="pb-4">
+            <p>
+                <a href="/papers/from_engagement_to_value_hardt.html" class="font-bold text-green-900">[Paper] From Optimizing Engagement to Measuring Value</a>
+                <time datetime="2021-01-21 00:00:00 &#43;0000 UTC" itemprop="datePublished" class="text-gray-600 text-sm">2021-01-21
+                </time>
+            </p>
+
+        </li>
+        <li class="pb-4">
+            <p>
+                <a href="/papers/street_level_algorithms_alkhatib_2.html" class="font-bold text-green-900">More thoughts on &#39;Street-Level Algorithms&#39;</a>
+                <time datetime="2021-01-15 00:00:00 &#43;0000 UTC" itemprop="datePublished" class="text-gray-600 text-sm">2021-01-15
+                </time>
+            </p>
+
+        </li>
+    </ul>
+</div><div class="pb-12">
+    <h3 class="font-semibold text-xl">Tags</h3>
+    <ul class="">
+        <li class="">+ <a href="/tags/#republic.html" class="font-bold text-green-900">#republic
+            </a><span class="">5</span>
+        </li>
+        <li class="">+ <a href="/tags/chi2019.html" class="font-bold text-green-900">chi2019
+            </a><span class="">3</span>
+        </li>
+        <li class="">+ <a href="/tags/chi2020.html" class="font-bold text-green-900">chi2020
+            </a><span class="">20</span>
+        </li>
+        <li class="">+ <a href="/tags/chi2021.html" class="font-bold text-green-900">chi2021
+            </a><span class="">1</span>
+        </li>
+        <li class="">+ <a href="/tags/cscw2020.html" class="font-bold text-green-900">cscw2020
+            </a><span class="">8</span>
+        </li>
+        <li class="">+ <a href="/tags/facct2021.html" class="font-bold text-green-900">facct2021
+            </a><span class="">1</span>
+        </li>
+        <li class="">+ <a href="/tags/fat2020.html" class="font-bold text-green-900">fat2020
+            </a><span class="">2</span>
+        </li>
+        <li class="">+ <a href="/tags/iclr.html" class="font-bold text-green-900">iclr
+            </a><span class="">2</span>
+        </li>
+        <li class="">+ <a href="/tags/icwsm2020.html" class="font-bold text-green-900">icwsm2020
+            </a><span class="">5</span>
+        </li>
+        <li class="">+ <a href="/tags/indistractable.html" class="font-bold text-green-900">indistractable
+            </a><span class="">2</span>
+        </li>
+        <li class="">+ <a href="/tags/neurips.html" class="font-bold text-green-900">neurips
+            </a><span class="">2</span>
+        </li>
+        <li class="">+ <a href="/tags/password-tool.html" class="font-bold text-green-900">password-tool
+            </a><span class="">6</span>
+        </li>
+        <li class="">+ <a href="/tags/reading-club.html" class="font-bold text-green-900">reading-club
+            </a><span class="">24</span>
+        </li>
+        <li class="">+ <a href="/tags/recsys.html" class="font-bold text-green-900">recsys
+            </a><span class="">1</span>
+        </li>
+        <li class="">+ <a href="/tags/site.html" class="font-bold text-green-900">site
+            </a><span class="">6</span>
+        </li>
+        <li class="">+ <a href="/tags/www.html" class="font-bold text-green-900">www
+            </a><span class="">3</span>
+        </li>
+    </ul>
+</div>
+</aside><footer class="" itemscope itemtype="http://schema.org/WPFooter">
+  <div class="py-4 text-sm">
+    &copy; 2019 - 2020 Tushar Chandra
+    <p style="margin-bottom: 4px">All opinions are my own.</p>
+    <div class="publishby">Powered by Hugo with a custom theme.</div>
+  </div>
+  <ul class="">
+    <li class="inline text-xl pr-4">
+      <a href="https://github.com/tuchandra" target="_blank" title="github">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+    <li class="inline text-xl pr-4">
+      <a href="https://www.linkedin.com/in/tushar-chandra-76a623b6/" target="_blank" title="linkedin">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+    <li class="inline text-xl pr-4">
+      <a href="mailto:me@tusharc.dev" target="_blank" title="envelope">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+    <li class="inline text-xl pr-4">
+      <a href="/index.xml" target="_blank" title="rss">
+        <i class="fas fa-rss"></i>
+      </a>
+    </li>
+
+  </ul>
+</footer>
+    </div>
+  </div>
+  <div class="mx-auto mt-auto w-full px-4 bg-green-500 mt-4 md:py-8">
+    <div class="md:invisible md:hidden max-w-8xl"><footer class="" itemscope itemtype="http://schema.org/WPFooter">
+  <div class="py-4 text-sm">
+    &copy; 2019 - 2020 Tushar Chandra
+    <p style="margin-bottom: 4px">All opinions are my own.</p>
+    <div class="publishby">Powered by Hugo with a custom theme.</div>
+  </div>
+  <ul class="">
+    <li class="inline text-xl pr-4">
+      <a href="https://github.com/tuchandra" target="_blank" title="github">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+    <li class="inline text-xl pr-4">
+      <a href="https://www.linkedin.com/in/tushar-chandra-76a623b6/" target="_blank" title="linkedin">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+    <li class="inline text-xl pr-4">
+      <a href="mailto:me@tusharc.dev" target="_blank" title="envelope">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+    <li class="inline text-xl pr-4">
+      <a href="/index.xml" target="_blank" title="rss">
+        <i class="fas fa-rss"></i>
+      </a>
+    </li>
+
+  </ul>
+</footer>
+    </div>
+  </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_SVG"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+            showMathMenu: false, //disables context menu
+            tex2jax: {
+            inlineMath: [ ['$','$'], ['\\(','\\)'] ]
+           }
+    });
+</script>
+
+
+
+
+
+
+
+<script data-goatcounter="https://tusharc.goatcounter.com/count" async src="//gc.zgo.at/count.js">
+</script>
+</body>
+
+</html>

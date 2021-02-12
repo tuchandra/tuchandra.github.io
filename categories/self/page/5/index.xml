@@ -6,10 +6,28 @@
     <description>Recent content in self on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 04 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 05 Feb 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/categories/self/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>What I read this week (August 9 - 15)</title>
+      <link>/what_i_read/20200815.html</link>
+      <pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/what_i_read/20200815.html</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m trying to put together my first submission for a conference CFP: &lt;a href=&#34;https://pymc-devs.github.io/pymcon//cfp&#34;&gt;PyMCon&lt;/a&gt;, an all-virtual conference happening this November. This week, I sought out a lot of blog posts about this to help.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[Paper] Two Computational Models for Analyzing Political Attention in Social Media</title>
+      <link>/papers/modeling_political_attention_hemphill.html</link>
+      <pubDate>Thu, 13 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/modeling_political_attention_hemphill.html</guid>
+      <description>&lt;p&gt;What are members of Congress tweeting about, and how can we use machine learning to infer this? In this ICWSM 2020 paper, the researchers try out both supervised and unsupervised learning on all the tweets from members of the 115th Congress (Jan. 2017 - Jan. 2019).&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>[Paper] Understanding deep learning requires rethinking generalization</title>
@@ -171,24 +189,6 @@
       
       <guid>/spark/2020/summary.html</guid>
       <description>&lt;p&gt;My summary of the talks I watched at Spark + AI Summit this year, and recommendations for what to watch after the fact.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Another website redesign</title>
-      <link>/posts/another_new_layout.html</link>
-      <pubDate>Mon, 29 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/another_new_layout.html</guid>
-      <description>&lt;p&gt;My homepage has been given a new look&amp;mdash;still Hugo, but now powered by my own custom layout and Tailwind CSS. This post is a technical dive into the process of rebuilding it.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Network Propaganda, part 4</title>
-      <link>/books/network_propaganda_4.html</link>
-      <pubDate>Sat, 27 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/books/network_propaganda_4.html</guid>
-      <description>&lt;p&gt;Part 4 of the book &lt;em&gt;Network Propaganda&lt;/em&gt; is titled &amp;ldquo;Can Democracy Survive the Internet?&amp;quot;, and it focuses on how polarization came to be, how the media ecosystem came to be the way that it is, and proposed interventions (most realistically, regulating political advertising).&lt;/p&gt;</description>
     </item>
     
   </channel>

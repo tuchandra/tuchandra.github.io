@@ -6,10 +6,28 @@
     <description>Recent content in Selves on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 04 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 05 Feb 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/self/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>My review of Jenny Odell&#39;s How to Do Nothing</title>
+      <link>/books/how_to_do_nothing.html</link>
+      <pubDate>Tue, 08 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/books/how_to_do_nothing.html</guid>
+      <description>&lt;p&gt;&lt;em&gt;How to Do Nothing&lt;/em&gt; is perhaps the best book I read this year. Written as a series of loosely linked essays about finding your place in the world, Jenny Odell&amp;rsquo;s writing conveyed how deeply personal this journey is.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>What I read this week (November 29 - December 5)</title>
+      <link>/what_i_read/20201205.html</link>
+      <pubDate>Sat, 05 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/what_i_read/20201205.html</guid>
+      <description>&lt;p&gt;This week&amp;rsquo;s reading features the cycle of content moderation controversies (from a wonderful article titled &amp;ldquo;What Pornhub and Peloton have in common with Facebook&amp;rdquo;), along with thoughts on language servers and static site generators.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>What I read this week (November 22 - 28)</title>
@@ -174,25 +192,6 @@ What is it? How do we recognize it? How do we call it out when we see it?
       
       <guid>/posts/cscw_reading_list.html</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://cscw.acm.org/2020/&#34;&gt;CSCW 2020&lt;/a&gt; (on &amp;ldquo;computer-supported cooperative work and social computing&amp;rdquo;) is running from October 17th to 21st. While I&amp;rsquo;m not attending, I went through the program to look for papers that caught my eye. This post has the highlights.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Papers that I never got around to</title>
-      <link>/posts/reading_list_archive_1.html</link>
-      <pubDate>Mon, 19 Oct 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/reading_list_archive_1.html</guid>
-      <description>&lt;p&gt;In an effort to clean up my reading list, this page catalogues papers that caught my eye but that I never got around to reading.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] A balanced survey on election prediction using Twitter data</title>
-      <link>/papers/election_predicting_twitter_gayoavello.html</link>
-      <pubDate>Sun, 18 Oct 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/papers/election_predicting_twitter_gayoavello.html</guid>
-      <description>&lt;p&gt;Affectionately titled &amp;ldquo;I wanted to predict elections with Twitter and all I got was this lousy paper.&amp;rdquo;
-This survey paper chronicles various attempts to predict elections from Twitter, and finds that (surprise!) its predictive power has been greatly exaggerated.&lt;/p&gt;</description>
     </item>
     
   </channel>

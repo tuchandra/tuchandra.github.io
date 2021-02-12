@@ -11,6 +11,24 @@
     
     
     <item>
+      <title>Another website redesign</title>
+      <link>/posts/another_new_layout.html</link>
+      <pubDate>Mon, 29 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/another_new_layout.html</guid>
+      <description>&lt;p&gt;My homepage has been given a new look&amp;mdash;still Hugo, but now powered by my own custom layout and Tailwind CSS. This post is a technical dive into the process of rebuilding it.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Network Propaganda, part 4</title>
+      <link>/books/network_propaganda_4.html</link>
+      <pubDate>Sat, 27 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/books/network_propaganda_4.html</guid>
+      <description>&lt;p&gt;Part 4 of the book &lt;em&gt;Network Propaganda&lt;/em&gt; is titled &amp;ldquo;Can Democracy Survive the Internet?&amp;quot;, and it focuses on how polarization came to be, how the media ecosystem came to be the way that it is, and proposed interventions (most realistically, regulating political advertising).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>What I read this week (June 21 - 27)</title>
       <link>/what_i_read/20200627.html</link>
       <pubDate>Sat, 27 Jun 2020 00:00:00 +0000</pubDate>
@@ -170,24 +188,6 @@
       
       <guid>/spark/2020/productionalizing_models_mlflow.html</guid>
       <description>&lt;p&gt;This talk, by Mary Grace Moesta &amp;amp; Peter Tamisin at Databricks, dove into MLOps and productionalization of machine learning models using MLflow. How can we apply principles from CI/CD to machine learning? And how can MLflow help us to do so?&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Portable Scalable Data Visualization Techniques for Apache Spark and Python Notebook-based Analytics</title>
-      <link>/spark/2020/portable_scalable_data_viz.html</link>
-      <pubDate>Wed, 24 Jun 2020 13:00:00 +0000</pubDate>
-      
-      <guid>/spark/2020/portable_scalable_data_viz.html</guid>
-      <description>&lt;p&gt;This talk, by Douglas Moore at Databricks, briefly discussed strategies for data visualization using Spark and different visualization libraries.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Notes from the Wednesday morning Spark keynotes</title>
-      <link>/spark/2020/wednesday_morning_keynotes.html</link>
-      <pubDate>Wed, 24 Jun 2020 12:00:00 +0000</pubDate>
-      
-      <guid>/spark/2020/wednesday_morning_keynotes.html</guid>
-      <description>&lt;p&gt;Spark + AI Summit kicked off with keynotes by Ali Ghodsi (Databricks CEO), Matei Zaharia (creator of Spark) and Brooke Wenig (Databricks machine learning lead), Reynold Xin (Spark contributor), and Vishwanath Subramanian (Starbucks director of data). I wasn&amp;rsquo;t able to listen to all of it, but this post has a few highlights.&lt;/p&gt;</description>
     </item>
     
   </channel>

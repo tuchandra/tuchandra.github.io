@@ -11,6 +11,24 @@
     
     
     <item>
+      <title>[Paper] On the Dangers of Stochastic Parrots: Can Language Models Be Too Big? 🦜</title>
+      <link>/papers/stochastic_parrots_bender.html</link>
+      <pubDate>Thu, 11 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/stochastic_parrots_bender.html</guid>
+      <description>&lt;p&gt;Large language models are increasing in prevalence, and the field is marching steadily towards bigger ones still. This paper takes a step back to question the risks of these models. Can they be too big? (And yes—the emoji is part of the title!)&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Recurring Reading</title>
+      <link>/self/recurring_reading.html</link>
+      <pubDate>Fri, 05 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/self/recurring_reading.html</guid>
+      <description>&lt;p&gt;I note all of the reading that I do on a semi-regular basis. I compiled this partially as a reference for myself, and partially to point others to.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>[Paper] Explaining Explainability: Towards Social Transparency in AI Systems</title>
       <link>/papers/explaining_explainability_ehsan.html</link>
       <pubDate>Thu, 28 Jan 2021 00:00:00 +0000</pubDate>
@@ -171,24 +189,6 @@
       
       <guid>/books/why_we_sleep.html</guid>
       <description>&lt;p&gt;Another book that I&amp;rsquo;ve read over the past couple of weeks was Matthew Walker&amp;rsquo;s &lt;em&gt;Why We Sleep.&lt;/em&gt; Walker distilled perhaps the most complex biological phenomenon into an accessible 300 pages, and he taught me a lot about this essential process. (Update: maybe not!)&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>My review of Jenny Odell&#39;s How to Do Nothing</title>
-      <link>/books/how_to_do_nothing.html</link>
-      <pubDate>Tue, 08 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/books/how_to_do_nothing.html</guid>
-      <description>&lt;p&gt;&lt;em&gt;How to Do Nothing&lt;/em&gt; is perhaps the best book I read this year. Written as a series of loosely linked essays about finding your place in the world, Jenny Odell&amp;rsquo;s writing conveyed how deeply personal this journey is.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>What I read this week (November 29 - December 5)</title>
-      <link>/what_i_read/20201205.html</link>
-      <pubDate>Sat, 05 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/what_i_read/20201205.html</guid>
-      <description>&lt;p&gt;This week&amp;rsquo;s reading features the cycle of content moderation controversies (from a wonderful article titled &amp;ldquo;What Pornhub and Peloton have in common with Facebook&amp;rdquo;), along with thoughts on language servers and static site generators.&lt;/p&gt;</description>
     </item>
     
   </channel>
