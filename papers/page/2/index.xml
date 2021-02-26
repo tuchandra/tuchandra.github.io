@@ -6,10 +6,19 @@
     <description>Recent content on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 11 Feb 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 25 Feb 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/papers/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>My review of Why We Sleep</title>
+      <link>/books/why_we_sleep.html</link>
+      <pubDate>Thu, 10 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/books/why_we_sleep.html</guid>
+      <description>&lt;p&gt;Another book that I&amp;rsquo;ve read over the past couple of weeks was Matthew Walker&amp;rsquo;s &lt;em&gt;Why We Sleep.&lt;/em&gt; Walker distilled perhaps the most complex biological phenomenon into an accessible 300 pages, and he taught me a lot about this essential process. (Update: maybe not!)&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>My review of Jenny Odell&#39;s How to Do Nothing</title>
@@ -183,15 +192,6 @@ What is it? How do we recognize it? How do we call it out when we see it?
       
       <guid>/papers/fandom_migrations_fiesler.html</guid>
       <description>&lt;p&gt;How do fandom communities move from platform to platform over time? What causes people to leave a platform in favor of a new one? This paper dives into community migrations in the fandom community.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>My CSCW 2020 reading list</title>
-      <link>/posts/cscw_reading_list.html</link>
-      <pubDate>Tue, 20 Oct 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/cscw_reading_list.html</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://cscw.acm.org/2020/&#34;&gt;CSCW 2020&lt;/a&gt; (on &amp;ldquo;computer-supported cooperative work and social computing&amp;rdquo;) is running from October 17th to 21st. While I&amp;rsquo;m not attending, I went through the program to look for papers that caught my eye. This post has the highlights.&lt;/p&gt;</description>
     </item>
     
   </channel>

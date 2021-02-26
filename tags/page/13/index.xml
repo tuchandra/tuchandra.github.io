@@ -6,10 +6,19 @@
     <description>Recent content in Tags on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 11 Feb 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 25 Feb 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Why I&#39;m interested in HCI</title>
+      <link>/posts/hci_directions.html</link>
+      <pubDate>Mon, 28 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/hci_directions.html</guid>
+      <description>&lt;p&gt;A couple nights ago, I was at a bar talking to a grad student friend and we started having a conversation about HCI and research interests. This post captures some of my thoughts after reflecting for a couple of days.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Netflix and Polynote: first thoughts</title>

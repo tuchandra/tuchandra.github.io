@@ -6,10 +6,19 @@
     <description>Recent content in reading club on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 11 Feb 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 25 Feb 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/tags/reading-club/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>My review of Indistractable</title>
+      <link>/books/indistractable_2.html</link>
+      <pubDate>Sun, 13 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/books/indistractable_2.html</guid>
+      <description>&lt;p&gt;I review Nir Eyal&amp;rsquo;s &lt;em&gt;Indistractable&lt;/em&gt;, a quick read that took me less than a week. I found valuable advice for improving my concentration and attention, and I&amp;rsquo;m excited to apply some of these ideas to my life.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>#republic: closing thoughts</title>
@@ -180,15 +189,6 @@
       
       <guid>/posts/promotion_senior.html</guid>
       <description>&lt;p&gt;I was recently promoted to senior data scientist! This is a short post with some details and reflection.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>My review of &#39;Weapons of Math Destruction&#39;</title>
-      <link>/books/weapons_math_destruction.html</link>
-      <pubDate>Sun, 16 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/books/weapons_math_destruction.html</guid>
-      <description>&lt;p&gt;This is my review of &lt;em&gt;Weapons of Math Destruction&lt;/em&gt; by Dr. Cathy O&amp;rsquo;Neil. I found it to be a clearly written book, explaining many of the problems with &amp;ldquo;big data&amp;rdquo; systems: lack of access to proper data, problems that come from the scale of these systems, and vicious feedback loops.&lt;/p&gt;</description>
     </item>
     
   </channel>
