@@ -6,10 +6,19 @@
     <description>Recent content on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 25 Feb 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 04 Mar 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/papers/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>What I read this week (December 6 - December 12)</title>
+      <link>/what_i_read/20201212.html</link>
+      <pubDate>Sat, 12 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/what_i_read/20201212.html</guid>
+      <description>&lt;p&gt;Building a feature store at DoorDash, radial data visualizations, and writing programming comics.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>My review of Why We Sleep</title>
@@ -183,15 +192,6 @@ What is it? How do we recognize it? How do we call it out when we see it?
       
       <guid>/papers/conformity_eating_disorders_piper.html</guid>
       <description>&lt;p&gt;Content moderation is an essential part of online communities, but the experiences of people who are moderated are less studied. This work conducts a digital ethnography on people with eating disorders. The authors argue that moderation enforces conformity on a platform, which can further marginalize people with eating disorders.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] Moving Across Lands: Online Platform Migration in Fandom Communities</title>
-      <link>/papers/fandom_migrations_fiesler.html</link>
-      <pubDate>Wed, 21 Oct 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/papers/fandom_migrations_fiesler.html</guid>
-      <description>&lt;p&gt;How do fandom communities move from platform to platform over time? What causes people to leave a platform in favor of a new one? This paper dives into community migrations in the fandom community.&lt;/p&gt;</description>
     </item>
     
   </channel>

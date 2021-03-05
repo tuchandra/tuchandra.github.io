@@ -6,10 +6,19 @@
     <description>Recent content in Tags on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 25 Feb 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 04 Mar 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Paper] We Are Dynamo: Overcoming Stalling and Friction in Collective Action for Crowd Workers</title>
+      <link>/papers/we_are_dynamo_salehi.html</link>
+      <pubDate>Thu, 04 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/we_are_dynamo_salehi.html</guid>
+      <description>&lt;p&gt;What does collective action look like online? The authors design and study Dynamo, a platform for organizing Amazon Mechanical Turk workers into action, and discuss the unique affordances and challenges of the web.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>[Paper] Datasheets for Datasets</title>
@@ -181,15 +190,6 @@
       
       <guid>/books/little_book_hygge.html</guid>
       <description>&lt;p&gt;What makes the Danes the happiest people in the world? Meik Weiking, the CEO of the Happiness Research Institute, writes a delightfully small book about the concept of &lt;em&gt;hygge&lt;/em&gt;.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>What I read this week (December 6 - December 12)</title>
-      <link>/what_i_read/20201212.html</link>
-      <pubDate>Sat, 12 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/what_i_read/20201212.html</guid>
-      <description>&lt;p&gt;Building a feature store at DoorDash, radial data visualizations, and writing programming comics.&lt;/p&gt;</description>
     </item>
     
   </channel>

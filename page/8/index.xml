@@ -6,10 +6,19 @@
     <description>Recent content on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 25 Feb 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 04 Mar 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hacking together Python and JavaScript</title>
+      <link>/posts/password_tool_4.html</link>
+      <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/password_tool_4.html</guid>
+      <description>&lt;p&gt;Alternative title: &amp;ldquo;Python in the browser console tells us that science has indeed come too far.&amp;rdquo; The fourth post in this series dives into how Pyodide enabled me to hook up Python and JavaScript&amp;mdash;sometimes in less-than-clean ways.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>What I read this week (May 10 - May 16)</title>
@@ -180,15 +189,6 @@
       
       <guid>/papers/data_literacy_sports_clegg.html</guid>
       <description>&lt;p&gt;CHI 2020 was supposed to be happening right now, but it was regrettably &lt;a href=&#34;https://chi2020.acm.org/&#34;&gt;cancelled&lt;/a&gt; due to coronavirus. All of the papers were put into the ACM Digital Library as scheduled, though, so I started looking at them. This paper studies data literacy among student-athletes at the University of Maryland.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>My newest project: a Pokemon Mystery Dungeon password tool</title>
-      <link>/posts/password_tool_1.html</link>
-      <pubDate>Sun, 26 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/password_tool_1.html</guid>
-      <description>&lt;p&gt;In this series of blog posts, I&amp;rsquo;ll be covering my newest personal project: a tool for the Pokemon Mystery Dungeon video games that help to make sense of otherwise-uninterpretable passwords. This post covers my motivation for the project and the choice of technologies.&lt;/p&gt;</description>
     </item>
     
   </channel>

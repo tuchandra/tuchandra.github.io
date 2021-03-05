@@ -11,6 +11,15 @@
     
     
     <item>
+      <title>[Paper] Moving Across Lands: Online Platform Migration in Fandom Communities</title>
+      <link>/papers/fandom_migrations_fiesler.html</link>
+      <pubDate>Wed, 21 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/fandom_migrations_fiesler.html</guid>
+      <description>&lt;p&gt;How do fandom communities move from platform to platform over time? What causes people to leave a platform in favor of a new one? This paper dives into community migrations in the fandom community.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>My CSCW 2020 reading list</title>
       <link>/posts/cscw_reading_list.html</link>
       <pubDate>Tue, 20 Oct 2020 00:00:00 +0000</pubDate>
@@ -184,15 +193,6 @@ This RecSys 2020 paper investigates by modeling recommender systems with numeric
       
       <guid>/papers/graph_attention_bike_sharing_he.html</guid>
       <description>&lt;p&gt;In bike sharing systems, forecasting the demand for pick-ups and drop-offs at each station is essential. This paper presents a novel methodology for doing this, which uses graph neural networks and a spatiotemporal design for station-by-station flow forecasting.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] Information, incentives, and goals in election forecasts</title>
-      <link>/papers/information_incentives_goals_forecasts_gelman.html</link>
-      <pubDate>Tue, 15 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/papers/information_incentives_goals_forecasts_gelman.html</guid>
-      <description>&lt;p&gt;What kinds of challenges arise when communicating election forecasts, as FiveThirtyEight, The Economist, and a host of others are attempting to do? How do you best discuss your predictions and uncertainty? What responsibilities do forecasters have? Andrew Gelman, Jessica Hullman, and Christopher Wlezien discuss.&lt;/p&gt;</description>
     </item>
     
   </channel>
