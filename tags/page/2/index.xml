@@ -6,10 +6,19 @@
     <description>Recent content in Tags on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 04 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 11 Mar 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>My review of The Little Book of Hygge</title>
+      <link>/books/little_book_hygge.html</link>
+      <pubDate>Sat, 12 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/books/little_book_hygge.html</guid>
+      <description>&lt;p&gt;What makes the Danes the happiest people in the world? Meik Weiking, the CEO of the Happiness Research Institute, writes a delightfully small book about the concept of &lt;em&gt;hygge&lt;/em&gt;.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>What I read this week (December 6 - December 12)</title>
@@ -183,15 +192,6 @@ What is it? How do we recognize it? How do we call it out when we see it?
       
       <guid>/papers/mitigating_exploitations_indie_dev_freeman.html</guid>
       <description>&lt;p&gt;In a totally different direction from the last two CSCW papers, this work studies the indie game development industry. How does the indie community reconfigure labor in their own image? This paper explores these questions in the context of labor and technology.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] Conformity of Eating Disorders through Content Moderation</title>
-      <link>/papers/conformity_eating_disorders_piper.html</link>
-      <pubDate>Thu, 22 Oct 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/papers/conformity_eating_disorders_piper.html</guid>
-      <description>&lt;p&gt;Content moderation is an essential part of online communities, but the experiences of people who are moderated are less studied. This work conducts a digital ethnography on people with eating disorders. The authors argue that moderation enforces conformity on a platform, which can further marginalize people with eating disorders.&lt;/p&gt;</description>
     </item>
     
   </channel>
