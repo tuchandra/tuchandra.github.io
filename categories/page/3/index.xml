@@ -6,10 +6,19 @@
     <description>Recent content in Categories on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 11 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 25 Mar 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Paper] Mitigating Exploitation: Indie Game Developers&#39; Reconfigurations of Labor in Technology</title>
+      <link>/papers/mitigating_exploitations_indie_dev_freeman.html</link>
+      <pubDate>Fri, 23 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/mitigating_exploitations_indie_dev_freeman.html</guid>
+      <description>&lt;p&gt;In a totally different direction from the last two CSCW papers, this work studies the indie game development industry. How does the indie community reconfigure labor in their own image? This paper explores these questions in the context of labor and technology.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>[Paper] Conformity of Eating Disorders through Content Moderation</title>
@@ -185,15 +194,6 @@ This RecSys 2020 paper investigates by modeling recommender systems with numeric
       
       <guid>/what_i_read/20200919.html</guid>
       <description>&lt;p&gt;This week&amp;rsquo;s reading, including &amp;ldquo;Useful things to know about engineering levels,&amp;rdquo; &amp;ldquo;Enable learning in technical writing,&amp;rdquo; and more.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>My first conference talk acceptance!</title>
-      <link>/posts/pymcon_accepted.html</link>
-      <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/pymcon_accepted.html</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m excited to have had my first conference talk accepted, &lt;em&gt;Learning Bayesian Statistics with Pokemon GO&lt;/em&gt; at PyMCon!&lt;/p&gt;</description>
     </item>
     
   </channel>

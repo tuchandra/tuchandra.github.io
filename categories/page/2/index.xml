@@ -6,10 +6,19 @@
     <description>Recent content in Categories on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 11 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 25 Mar 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Paper] Biased Programmers? Or Biased Data? A Field Experiment in Operationalizing AI Ethics</title>
+      <link>/papers/experiment_operationalizing_ai_ethics.html</link>
+      <pubDate>Mon, 14 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/experiment_operationalizing_ai_ethics.html</guid>
+      <description>&lt;p&gt;This study, from the NeurIPS &lt;a href=&#34;https://nbiair.com/&#34;&gt;Navigating the Broader Impacts of AI Research workshop&lt;/a&gt;, is a field experiment in algorithmic bias. Take 400 programmers and ask them to predict math performance; in what ways are their algorithms biased?&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>My review of The Little Book of Hygge</title>
@@ -183,15 +192,6 @@ What is it? How do we recognize it? How do we call it out when we see it?
       
       <guid>/what_i_read/20201024.html</guid>
       <description>&lt;p&gt;This week: on CSRankings.org, &amp;ldquo;local-first software,&amp;rdquo; and some discussion of system design interviews. Otherwise, see all the CSCW papers I&amp;rsquo;m working through!&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] Mitigating Exploitation: Indie Game Developers&#39; Reconfigurations of Labor in Technology</title>
-      <link>/papers/mitigating_exploitations_indie_dev_freeman.html</link>
-      <pubDate>Fri, 23 Oct 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/papers/mitigating_exploitations_indie_dev_freeman.html</guid>
-      <description>&lt;p&gt;In a totally different direction from the last two CSCW papers, this work studies the indie game development industry. How does the indie community reconfigure labor in their own image? This paper explores these questions in the context of labor and technology.&lt;/p&gt;</description>
     </item>
     
   </channel>

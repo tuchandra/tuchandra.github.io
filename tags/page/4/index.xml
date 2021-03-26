@@ -6,10 +6,19 @@
     <description>Recent content in Tags on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 11 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 25 Mar 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>My first conference talk acceptance!</title>
+      <link>/posts/pymcon_accepted.html</link>
+      <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/pymcon_accepted.html</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m excited to have had my first conference talk accepted, &lt;em&gt;Learning Bayesian Statistics with Pokemon GO&lt;/em&gt; at PyMCon!&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>[Paper] Towards Fine-grained Flow Forecasting: a Graph Attention Approach for Bike Sharing Systems</title>
@@ -180,15 +189,6 @@
       
       <guid>/posts/site_changes_tags.html</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve added tags to my site! You might notice that this post is tagged &amp;lsquo;site&amp;rsquo;, and some of the papers I read are tagged by conference. I also added anchors to make linking to sections easier.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] Auditing News Curation Systems: A Case Study Examining Algorithmic and Editorial Logic in Apple News</title>
-      <link>/papers/auditing_news_curation_systems_diakopoulos.html</link>
-      <pubDate>Thu, 20 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/papers/auditing_news_curation_systems_diakopoulos.html</guid>
-      <description>&lt;p&gt;Apple News is used by 85 million users daily, but what is it actually showing you? From what publishers do the stories come? How often are they updated? This ICWSM 2020 paper motivates and applies an algorithmic audit of the Apple News curation system.&lt;/p&gt;</description>
     </item>
     
   </channel>

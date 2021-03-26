@@ -6,10 +6,19 @@
     <description>Recent content in Tags on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 11 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 25 Mar 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Paper] Model Cards for Model Reporting</title>
+      <link>/papers/model_cards_mitchell.html</link>
+      <pubDate>Sun, 17 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/model_cards_mitchell.html</guid>
+      <description>&lt;p&gt;What kinds of documentation should exist for machine learning models? This paper proposes one idea called &amp;ldquo;model cards&amp;rdquo; for reporting models&amp;rsquo; performance, limitations, expected usage, and more, with a goal of minimizing their misuse.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Using papermill to wrap model runs</title>
@@ -181,15 +190,6 @@
       
       <guid>/spark/graph_algorithms.html</guid>
       <description>&lt;p&gt;Speaker: Amy Holder and Soren Reichardt (Neo4j).&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Smart Join Algorithms for Fighting Skew at Scale</title>
-      <link>/spark/smart_join.html</link>
-      <pubDate>Wed, 24 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/spark/smart_join.html</guid>
-      <description>&lt;p&gt;Speaker: Andrew Clegg (Applied ML Group @ Yelp).&lt;/p&gt;</description>
     </item>
     
   </channel>

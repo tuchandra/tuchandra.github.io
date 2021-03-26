@@ -6,10 +6,19 @@
     <description>Recent content in reading club on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 11 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 25 Mar 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/tags/reading-club/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Paper] A Primer in BERTology: What We Know About How BERT Works</title>
+      <link>/papers/primer_in_bertology_rogers.html</link>
+      <pubDate>Thu, 25 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/primer_in_bertology_rogers.html</guid>
+      <description>&lt;p&gt;BERT is one of many large language models taking NLP by storm. But little is known about how or why it works, leading to papers studying it specifically: &amp;ldquo;BERTology.&amp;rdquo; This survey paper synthesizes current research on how BERT works and what remains unknown.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>[Paper] Formalizing Trust in Artificial Intelligence: Prerequisites, Causes and Goals of Human Trust in AI</title>
@@ -181,15 +190,6 @@
       
       <guid>/papers/psychosocial_effects_covid_saha.html</guid>
       <description>&lt;p&gt;How did the early months of the COVID-19 pandemic affect expressions of mental health on Twitter? This paper investigates. Through comparisons between 2020 and 2019, and clinically validated machine learning classifiers, the authors study changes in language on social media.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] Biased Programmers? Or Biased Data? A Field Experiment in Operationalizing AI Ethics</title>
-      <link>/papers/experiment_operationalizing_ai_ethics.html</link>
-      <pubDate>Mon, 14 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/papers/experiment_operationalizing_ai_ethics.html</guid>
-      <description>&lt;p&gt;This study, from the NeurIPS &lt;a href=&#34;https://nbiair.com/&#34;&gt;Navigating the Broader Impacts of AI Research workshop&lt;/a&gt;, is a field experiment in algorithmic bias. Take 400 programmers and ask them to predict math performance; in what ways are their algorithms biased?&lt;/p&gt;</description>
     </item>
     
   </channel>
