@@ -6,10 +6,19 @@
     <description>Recent content on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 05 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Apr 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>What I read this week (September 13 - September 19)</title>
+      <link>/what_i_read/20200919.html</link>
+      <pubDate>Sat, 19 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/what_i_read/20200919.html</guid>
+      <description>&lt;p&gt;This week&amp;rsquo;s reading, including &amp;ldquo;Useful things to know about engineering levels,&amp;rdquo; &amp;ldquo;Enable learning in technical writing,&amp;rdquo; and more.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>My first conference talk acceptance!</title>
@@ -180,15 +189,6 @@
       
       <guid>/papers/media_coverage_presidential_google_kawakami.html</guid>
       <description>&lt;p&gt;This is a &lt;em&gt;dataset paper&lt;/em&gt; from ICWSM 2020, presenting a dataset of nearly 80,000 news stories focusing on the 2020 US Presidential Election throughout 2019. It was shared to help researchers studying agenda setting and algorithmic curation of news.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Minor website addition: tags and anchors</title>
-      <link>/posts/site_changes_tags.html</link>
-      <pubDate>Fri, 21 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/site_changes_tags.html</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve added tags to my site! You might notice that this post is tagged &amp;lsquo;site&amp;rsquo;, and some of the papers I read are tagged by conference. I also added anchors to make linking to sections easier.&lt;/p&gt;</description>
     </item>
     
   </channel>

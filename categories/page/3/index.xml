@@ -6,10 +6,19 @@
     <description>Recent content in Categories on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 25 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Apr 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>What I read this week (October 18 - 24)</title>
+      <link>/what_i_read/20201024.html</link>
+      <pubDate>Sat, 24 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/what_i_read/20201024.html</guid>
+      <description>&lt;p&gt;This week: on CSRankings.org, &amp;ldquo;local-first software,&amp;rdquo; and some discussion of system design interviews. Otherwise, see all the CSCW papers I&amp;rsquo;m working through!&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>[Paper] Mitigating Exploitation: Indie Game Developers&#39; Reconfigurations of Labor in Technology</title>
@@ -185,15 +194,6 @@ This RecSys 2020 paper investigates by modeling recommender systems with numeric
       
       <guid>/papers/why_ask_why_gelman.html</guid>
       <description>&lt;p&gt;This short paper argues that reverse causal questions (&amp;ldquo;why did sales go down?&amp;quot;) are opportunities to consider problems with existing models. The search for causal explanations, then, can help us to improve our models.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>What I read this week (September 13 - September 19)</title>
-      <link>/what_i_read/20200919.html</link>
-      <pubDate>Sat, 19 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/what_i_read/20200919.html</guid>
-      <description>&lt;p&gt;This week&amp;rsquo;s reading, including &amp;ldquo;Useful things to know about engineering levels,&amp;rdquo; &amp;ldquo;Enable learning in technical writing,&amp;rdquo; and more.&lt;/p&gt;</description>
     </item>
     
   </channel>

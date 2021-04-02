@@ -6,10 +6,19 @@
     <description>Recent content in general on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 05 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Apr 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/categories/general/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Paper] Psychosocial Effects of the COVID-19 Pandemic: Large-scale Quasi-Experimental Study on Social Media</title>
+      <link>/papers/psychosocial_effects_covid_saha.html</link>
+      <pubDate>Tue, 15 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/psychosocial_effects_covid_saha.html</guid>
+      <description>&lt;p&gt;How did the early months of the COVID-19 pandemic affect expressions of mental health on Twitter? This paper investigates. Through comparisons between 2020 and 2019, and clinically validated machine learning classifiers, the authors study changes in language on social media.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>[Paper] Biased Programmers? Or Biased Data? A Field Experiment in Operationalizing AI Ethics</title>
@@ -183,15 +192,6 @@ What is it? How do we recognize it? How do we call it out when we see it?
       
       <guid>/papers/hidden_figures_oss_trinkenreich.html</guid>
       <description>&lt;p&gt;This CSCW paper studies open source software contributors—all of them, not just maintainers and developers. While open source has often been looked at as a purely technical community, this paper draws attention to the other forms of work that contributors do.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>What I read this week (October 18 - 24)</title>
-      <link>/what_i_read/20201024.html</link>
-      <pubDate>Sat, 24 Oct 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/what_i_read/20201024.html</guid>
-      <description>&lt;p&gt;This week: on CSRankings.org, &amp;ldquo;local-first software,&amp;rdquo; and some discussion of system design interviews. Otherwise, see all the CSCW papers I&amp;rsquo;m working through!&lt;/p&gt;</description>
     </item>
     
   </channel>

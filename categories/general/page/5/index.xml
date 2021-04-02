@@ -6,10 +6,19 @@
     <description>Recent content in general on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 05 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Apr 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/categories/general/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Minor website addition: tags and anchors</title>
+      <link>/posts/site_changes_tags.html</link>
+      <pubDate>Fri, 21 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/site_changes_tags.html</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve added tags to my site! You might notice that this post is tagged &amp;lsquo;site&amp;rsquo;, and some of the papers I read are tagged by conference. I also added anchors to make linking to sections easier.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>[Paper] Auditing News Curation Systems: A Case Study Examining Algorithmic and Editorial Logic in Apple News</title>
@@ -180,15 +189,6 @@
       
       <guid>/books/twenty_six_words_3.html</guid>
       <description>&lt;p&gt;In my second-to-last post on Section 230, I discuss the idea of internet exceptionalism&amp;mdash;how, in passing Section 230, Congress decided that the internet should be different than other publishing mediums.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>What I read this week (July 5 - July 11)</title>
-      <link>/what_i_read/20200711.html</link>
-      <pubDate>Sat, 11 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/what_i_read/20200711.html</guid>
-      <description>&lt;p&gt;This week, I watched a few talks from SciPy 2020 and continued my reading on &lt;em&gt;Twenty-Six Words&lt;/em&gt;; this post mostly contains the talks.&lt;/p&gt;</description>
     </item>
     
   </channel>

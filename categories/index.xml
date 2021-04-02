@@ -6,10 +6,19 @@
     <description>Recent content in Categories on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 25 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Apr 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Personal news: starting a new job!</title>
+      <link>/posts/starting_tempus.html</link>
+      <pubDate>Fri, 02 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/starting_tempus.html</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve decided to move on from both Nielsen and data science and start a new role in engineering. This is a short post with some reflection.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>[Paper] A Primer in BERTology: What We Know About How BERT Works</title>
@@ -181,15 +190,6 @@
       
       <guid>/papers/generalists_specialists_anderson.html</guid>
       <description>&lt;p&gt;Users on online platforms might contribute to a few communities often or many communities infrequently. Can we quantify this dynamic, or quantify how similar communities are? This paper, from WWW 2019, attempts to do this through community embeddings.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] Psychosocial Effects of the COVID-19 Pandemic: Large-scale Quasi-Experimental Study on Social Media</title>
-      <link>/papers/psychosocial_effects_covid_saha.html</link>
-      <pubDate>Tue, 15 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/papers/psychosocial_effects_covid_saha.html</guid>
-      <description>&lt;p&gt;How did the early months of the COVID-19 pandemic affect expressions of mental health on Twitter? This paper investigates. Through comparisons between 2020 and 2019, and clinically validated machine learning classifiers, the authors study changes in language on social media.&lt;/p&gt;</description>
     </item>
     
   </channel>
