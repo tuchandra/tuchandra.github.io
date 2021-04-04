@@ -6,10 +6,19 @@
     <description>Recent content on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 02 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 Apr 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Paper] Methods in predictive techniques for mental health status on social media: a critical review</title>
+      <link>/papers/review_methods_predicting_mental_health_status_chancellor.html</link>
+      <pubDate>Thu, 26 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/review_methods_predicting_mental_health_status_chancellor.html</guid>
+      <description>&lt;p&gt;This new paper by Drs. Chancellor and De Choudhury is a literature review of predicting mental health states from social media, studying in particular the extent to which the papers report their methods in sufficient depth and clarity. They propose reporting standards for publications in this space.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>On targeted advertising</title>
@@ -180,15 +189,6 @@
       
       <guid>/papers/ott_tracking_moghaddam.html</guid>
       <description>&lt;p&gt;This paper studies the tracking ecosystem of Roku and Amazon Fire devices, discovering that channels on both platforms regularly send their traffic to known trackers. They also note that they often transmit unique identifiers, and that known methods to protect privacy are largely ineffective.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>I love flying (or: I can&#39;t not be a researcher)</title>
-      <link>/posts/cant_not_be_researcher.html</link>
-      <pubDate>Sun, 09 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/cant_not_be_researcher.html</guid>
-      <description>I love flying. There&amp;rsquo;s something about the act of being alone with my thoughts that forces introspection and self-awareness, and this post is about what I learned this time.</description>
     </item>
     
   </channel>

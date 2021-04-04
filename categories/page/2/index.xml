@@ -6,10 +6,19 @@
     <description>Recent content in Categories on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 02 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 Apr 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Paper] Generalists and Specialists: Using Community Embeddings to Quantify Activity Diversity in Online Platforms</title>
+      <link>/papers/generalists_specialists_anderson.html</link>
+      <pubDate>Tue, 22 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/generalists_specialists_anderson.html</guid>
+      <description>&lt;p&gt;Users on online platforms might contribute to a few communities often or many communities infrequently. Can we quantify this dynamic, or quantify how similar communities are? This paper, from WWW 2019, attempts to do this through community embeddings.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>[Paper] Psychosocial Effects of the COVID-19 Pandemic: Large-scale Quasi-Experimental Study on Social Media</title>
@@ -183,15 +192,6 @@ What is it? How do we recognize it? How do we call it out when we see it?
       
       <guid>/what_i_read/20201031.html</guid>
       <description>&lt;p&gt;This week: on data science portfolios, Python for feature films, optimizing for thinking, and interview questions.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] Hidden Figures: Roles and Pathways of Successful OSS Contributors</title>
-      <link>/papers/hidden_figures_oss_trinkenreich.html</link>
-      <pubDate>Sat, 24 Oct 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/papers/hidden_figures_oss_trinkenreich.html</guid>
-      <description>&lt;p&gt;This CSCW paper studies open source software contributors—all of them, not just maintainers and developers. While open source has often been looked at as a purely technical community, this paper draws attention to the other forms of work that contributors do.&lt;/p&gt;</description>
     </item>
     
   </channel>

@@ -6,10 +6,19 @@
     <description>Recent content in chi2021 on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 28 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 Apr 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/tags/chi2021/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>On the digital ad industry</title>
+      <link>/posts/digital_advertising.html</link>
+      <pubDate>Thu, 21 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/digital_advertising.html</guid>
+      <description>&lt;p&gt;I recently read a fantastic article on The Correspondent about digital advertising, called &lt;a href=&#34;https://thecorrespondent.com/100/the-new-dot-com-bubble-is-here-its-called-online-advertising/13228924500-22d5fd24&#34;&gt;The new dot com bubble is here: it’s called online advertising&lt;/a&gt;. This post summarizes my thoughts.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>[Paper] A Bayesian Cognition Approach to Improve Data Visualization</title>
@@ -181,15 +190,6 @@
       
       <guid>/spark/transfer_learning.html</guid>
       <description>&lt;p&gt;Speakers: Yong Liu (Outreach) and Corey Zumar (Databricks).&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Moving a Fraud-Fighting Random Forest from sklearn to Spark with ML, MLflow, and Jupyter</title>
-      <link>/spark/fraud_fighting.html</link>
-      <pubDate>Wed, 24 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/spark/fraud_fighting.html</guid>
-      <description>&lt;p&gt;Speaker: Josh Johnston (Director of AI Science @ Kount).&lt;/p&gt;</description>
     </item>
     
   </channel>

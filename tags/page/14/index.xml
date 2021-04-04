@@ -6,10 +6,19 @@
     <description>Recent content in Tags on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 25 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 Apr 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Moving a Fraud-Fighting Random Forest from sklearn to Spark with ML, MLflow, and Jupyter</title>
+      <link>/spark/fraud_fighting.html</link>
+      <pubDate>Wed, 24 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/spark/fraud_fighting.html</guid>
+      <description>&lt;p&gt;Speaker: Josh Johnston (Director of AI Science @ Kount).&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Predicting Communities via Graph Algorithms</title>

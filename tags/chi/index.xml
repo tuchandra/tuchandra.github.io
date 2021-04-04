@@ -6,15 +6,24 @@
     <description>Recent content in chi on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 04 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 Apr 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/tags/chi/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>[Paper] &#39;Can I Not Be Suicidal on a Sunday?&#39; Understanding Technology-Mediated Pathways to Mental Health Support</title>
+      <link>/papers/suicidal_on_sunday_pendse.html</link>
+      <pubDate>Sun, 04 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/suicidal_on_sunday_pendse.html</guid>
+      <description>&lt;p&gt;How do the designs of mental health helplines influence people&amp;rsquo;s experiences with them? This paper weaves together the lived experience of 18 helpline stakeholders to understand barriers along the pathway to care.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Personal news: starting a new job!</title>
       <link>/posts/starting_tempus.html</link>
-      <pubDate>Fri, 02 Apr 2021 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 31 Mar 2021 00:00:00 +0000</pubDate>
       
       <guid>/posts/starting_tempus.html</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve decided to move on from both Nielsen and data science and start a new role in engineering. This is a short post with some reflection.&lt;/p&gt;</description>
@@ -181,15 +190,6 @@
       
       <guid>/papers/weekly_suicide_prediction_choudhury.html</guid>
       <description>&lt;p&gt;How can we estimate suicides in real time when official data sources can have data lags of over a year? This paper, by researchers from Georgia Tech, the CDC, and the National Suicide Prevention Hotline, uses machine learning to model and forecast weekly suicide fatalities in the United States.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] Generalists and Specialists: Using Community Embeddings to Quantify Activity Diversity in Online Platforms</title>
-      <link>/papers/generalists_specialists_anderson.html</link>
-      <pubDate>Tue, 22 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/papers/generalists_specialists_anderson.html</guid>
-      <description>&lt;p&gt;Users on online platforms might contribute to a few communities often or many communities infrequently. Can we quantify this dynamic, or quantify how similar communities are? This paper, from WWW 2019, attempts to do this through community embeddings.&lt;/p&gt;</description>
     </item>
     
   </channel>

@@ -3,43 +3,78 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/posts.html</loc>
-    <lastmod>2021-04-02T00:00:00+00:00</lastmod>
+    <loc>/papers.html</loc>
+    <lastmod>2021-04-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>/papers/suicidal_on_sunday_pendse.html</loc>
+    <lastmod>2021-04-04T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>/categories.html</loc>
-    <lastmod>2021-04-02T00:00:00+00:00</lastmod>
+    <lastmod>2021-04-04T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/categories/general.html</loc>
-    <lastmod>2021-04-02T00:00:00+00:00</lastmod>
+    <loc>/tags/chi.html</loc>
+    <lastmod>2021-04-04T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/posts/starting_tempus.html</loc>
-    <lastmod>2021-04-02T00:00:00+00:00</lastmod>
+    <loc>/tags/chi2021.html</loc>
+    <lastmod>2021-04-04T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/papers.html</loc>
+    <lastmod>2021-04-04T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/tags.html</loc>
+    <lastmod>2021-04-04T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/</loc>
-    <lastmod>2021-04-02T00:00:00+00:00</lastmod>
+    <lastmod>2021-04-04T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/papers.html</loc>
-    <lastmod>2021-03-25T00:00:00+00:00</lastmod>
+    <loc>/posts.html</loc>
+    <lastmod>2021-03-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/general.html</loc>
+    <lastmod>2021-03-31T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/posts/starting_tempus.html</loc>
+    <lastmod>2021-03-31T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
@@ -50,21 +85,7 @@
   </url>
   
   <url>
-    <loc>/categories/papers.html</loc>
-    <lastmod>2021-03-25T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>/tags/reading-club.html</loc>
-    <lastmod>2021-03-25T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/tags.html</loc>
     <lastmod>2021-03-25T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -86,13 +107,6 @@
   
   <url>
     <loc>/papers/we_are_dynamo_salehi.html</loc>
-    <lastmod>2021-03-04T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/chi.html</loc>
     <lastmod>2021-03-04T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -135,13 +149,6 @@
   
   <url>
     <loc>/papers/explaining_explainability_ehsan.html</loc>
-    <lastmod>2021-01-28T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/chi2021.html</loc>
     <lastmod>2021-01-28T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
