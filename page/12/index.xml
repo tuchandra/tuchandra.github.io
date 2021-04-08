@@ -6,10 +6,19 @@
     <description>Recent content on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 04 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Apr 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Migrating to Hugo</title>
+      <link>/posts/migrating_to_hugo.html</link>
+      <pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/migrating_to_hugo.html</guid>
+      <description>&lt;p&gt;Hello, Hugo! This post marks the first one written specifically for the new version of my site, built with &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt;. In this post, I&amp;rsquo;ll outline some of the reasons for switching to Hugo and talk about the process of moving everything over.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Reading List</title>
@@ -181,15 +190,6 @@
       
       <guid>/papers/ethical_tensions_social_media_chancellor_2.html</guid>
       <description>&lt;p&gt;Part 2/2 of the FAT* 2019 paper by Dr. Chancellor et al., studying all the various ethical tensions with inferring mental health states from social media. This post focuses on the calls to action and my reflections. View part 1 of the summary &lt;a href=&#34;/papers/ethical_tensions_social_media_chancellor_1.html&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] A Taxonomy of Ethical Tensions in Inferring Mental Health States from Social Media (part 1/2)</title>
-      <link>/papers/ethical_tensions_social_media_chancellor_1.html</link>
-      <pubDate>Sun, 24 Nov 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/papers/ethical_tensions_social_media_chancellor_1.html</guid>
-      <description>&lt;p&gt;Research shows that it&amp;rsquo;s possible to infer individuals&amp;rsquo; mental health status from social media. While this has great potential for good, it also has great potential for misuse. So much, in fact, that this FAT* 2019 paper creates a taxonomy of all the different ethical tensions with this! This is part 1 of 2.&lt;/p&gt;</description>
     </item>
     
   </channel>

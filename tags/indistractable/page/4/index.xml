@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>[Paper] Reliance on Metrics is a Fundamental Challenge for AI</title>
+      <link>/papers/reliance_metrics_problem_thomas.html</link>
+      <pubDate>Tue, 22 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/reliance_metrics_problem_thomas.html</guid>
+      <description>&lt;p&gt;One of my more deeply held beliefs is that people rely too heavily on metrics, so when my friend Judah sent me this paper I was quick to jump on it. Rachel Thomas and David Uminsky argue that an overemphasis on metrics is a fundamental problem with AI.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>[Paper] Why ask Why? Forward Causal Inference and Reverse Causal Questions</title>
       <link>/papers/why_ask_why_gelman.html</link>
       <pubDate>Mon, 21 Sep 2020 00:00:00 +0000</pubDate>
@@ -180,15 +189,6 @@
       
       <guid>/books/you_look_like_a_thing.html</guid>
       <description>&lt;p&gt;I picked up &lt;a href=&#34;https://twitter.com/JanelleCShane&#34;&gt;Janelle Shane&amp;rsquo;s&lt;/a&gt; book, &lt;em&gt;You Look Like a Thing and I Love You&lt;/em&gt;, a couple of weeks ago. Combining clear explanations of AI with hilarious examples of how weird it can be, this was one of the best books I&amp;rsquo;ve read in a while.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] Content moderation, AI, and the question of scale</title>
-      <link>/papers/content_moderation_scale_gillespie.html</link>
-      <pubDate>Fri, 21 Aug 2020 15:00:00 +0000</pubDate>
-      
-      <guid>/papers/content_moderation_scale_gillespie.html</guid>
-      <description>&lt;p&gt;This short paper in &lt;em&gt;Big Data and Society&lt;/em&gt; came across my radar on Twitter today. Automated content moderation is often heralded as an answer to the impenetrable size of Facebook, YouTube, and other platforms. But it&amp;rsquo;s not clear that automation is the answer.&lt;/p&gt;</description>
     </item>
     
   </channel>

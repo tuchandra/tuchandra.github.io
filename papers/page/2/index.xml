@@ -6,10 +6,19 @@
     <description>Recent content on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 04 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Apr 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/papers/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Paper] Development of a Machine Learning Model Using Multiple, Heterogeneous Data Sources to Estimate Weekly US Suicide Fatalities</title>
+      <link>/papers/weekly_suicide_prediction_choudhury.html</link>
+      <pubDate>Thu, 24 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/weekly_suicide_prediction_choudhury.html</guid>
+      <description>&lt;p&gt;How can we estimate suicides in real time when official data sources can have data lags of over a year? This paper, by researchers from Georgia Tech, the CDC, and the National Suicide Prevention Hotline, uses machine learning to model and forecast weekly suicide fatalities in the United States.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>[Paper] Generalists and Specialists: Using Community Embeddings to Quantify Activity Diversity in Online Platforms</title>
@@ -183,15 +192,6 @@ What does this mean for the future of research?&lt;/p&gt;</description>
       <description>&lt;p&gt;&amp;ldquo;The world is awash with bullshit,&amp;rdquo; Carl Bergstrom and Jevin West write.
 What is it? How do we recognize it? How do we call it out when we see it?
 &lt;em&gt;Calling Bullshit: The Art of Skepticism in a Data-Driven World&lt;/em&gt;, informs us on these questions.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>What I read this week (October 25 - 31)</title>
-      <link>/what_i_read/20201031.html</link>
-      <pubDate>Sat, 31 Oct 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/what_i_read/20201031.html</guid>
-      <description>&lt;p&gt;This week: on data science portfolios, Python for feature films, optimizing for thinking, and interview questions.&lt;/p&gt;</description>
     </item>
     
   </channel>

@@ -6,10 +6,19 @@
     <description>Recent content in papers on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 04 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Apr 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/categories/papers/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>The future of Section 230</title>
+      <link>/books/twenty_six_words_4.html</link>
+      <pubDate>Fri, 17 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/books/twenty_six_words_4.html</guid>
+      <description>&lt;p&gt;What comes next for Section 230? What comes next for the platforms who have used Section 230 as a shield for so long?&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Internet Exceptionalism</title>
@@ -180,15 +189,6 @@
       
       <guid>/spark/2020/data_quality_netflix.html</guid>
       <description>&lt;p&gt;Netflix ingests terabytes of data and billions of rows daily, and these are used for personalized recommendations both online and offline. How do they manage data quality? By lots and lots of quality checks early on.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Thursday afternoon keynotes: on deep learning and deep fakes</title>
-      <link>/spark/2020/thursday_afternoon_keynotes.html</link>
-      <pubDate>Thu, 25 Jun 2020 15:00:00 +0000</pubDate>
-      
-      <guid>/spark/2020/thursday_afternoon_keynotes.html</guid>
-      <description>&lt;p&gt;The afternoon keynotes featured Kim Hazelwood, the west cost head of engineering at FAIR, discussing recommender systems; and Hany Farid, from UC Berkeley, discussing deepfakes.&lt;/p&gt;</description>
     </item>
     
   </channel>

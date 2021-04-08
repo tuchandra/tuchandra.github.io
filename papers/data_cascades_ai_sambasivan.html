@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <title>
+    [Paper] &#39;Everyone wants to do the model work, not the data work&#39;: Data Cascades in High-Stakes AI - Tushar Chandra
+    </title>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="Cache-Control" content="no-transform" />
+  <meta http-equiv="Cache-Control" content="no-siteapp" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="format-detection" content="telephone=no,email=no,adress=no">
+  
+  <meta name="theme-color" content="#000000" />
+  <meta http-equiv="window-target" content="_top" /><meta name="description" content="Data work is foundational to any AI application, but often undervalued. In practice, this results in &amp;ldquo;data cascades,&amp;rdquo; which occur when data issues compound into downstream technical debt. This work studies how data cascades happen, what they cause, and how to avoid them.
+" />
+  <meta name="generator" content="Hugo 0.70.0" />
+  <title>[Paper] &#39;Everyone wants to do the model work, not the data work&#39;: Data Cascades in High-Stakes AI - Tushar Chandra</title>
+
+  
+  
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
+
+  <meta property="og:title" content="[Paper] &#39;Everyone wants to do the model work, not the data work&#39;: Data Cascades in High-Stakes AI" />
+<meta property="og:description" content="Data work is foundational to any AI application, but often undervalued. In practice, this results in &ldquo;data cascades,&rdquo; which occur when data issues compound into downstream technical debt. This work studies how data cascades happen, what they cause, and how to avoid them." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/papers/data_cascades_ai_sambasivan.html" />
+<meta property="article:published_time" content="2021-04-07T00:00:00+00:00" />
+<meta property="article:modified_time" content="2021-04-07T00:00:00+00:00" />
+<meta itemprop="name" content="[Paper] &#39;Everyone wants to do the model work, not the data work&#39;: Data Cascades in High-Stakes AI">
+<meta itemprop="description" content="Data work is foundational to any AI application, but often undervalued. In practice, this results in &ldquo;data cascades,&rdquo; which occur when data issues compound into downstream technical debt. This work studies how data cascades happen, what they cause, and how to avoid them.">
+<meta itemprop="datePublished" content="2021-04-07T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2021-04-07T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="1329">
+
+
+
+<meta itemprop="keywords" content="chi2021," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="[Paper] &#39;Everyone wants to do the model work, not the data work&#39;: Data Cascades in High-Stakes AI"/>
+<meta name="twitter:description" content="Data work is foundational to any AI application, but often undervalued. In practice, this results in &ldquo;data cascades,&rdquo; which occur when data issues compound into downstream technical debt. This work studies how data cascades happen, what they cause, and how to avoid them."/>
+</head>
+</head>
+
+
+
+<body class="h-full flex flex-col justify-between" itemscope itemtype="http://schema.org/WebPage"><header class="bg-green-500" itemscope itemtype="http://schema.org/WPHeader">
+  <div class="flex max-w-8xl container mx-auto">
+    <div class="hidden sm:inline flex items-center">
+      <a href="/">
+        <img class="rounded-full m-1 md:m-4" src="/headshot.jpg" width="100" height="100">
+      </a>
+    </div>
+    <div class="w-full px-4 flex flex-col lg:flex-row justify-start md:pt-4 lg:items-center my-4">
+      <div class="lg:flex-grow">
+        <a href="/">
+          <span class="text-lg sm:text-2xl md:text-3xl font-semibold">Tushar Chandra</span>
+          <span class="hidden pl-4 lg:inline"><br></span>
+          <span class="text-sm md:text-xl font-thin pl-4 md:pl-8 lg:pl-0 lg:text-xl">Data Scientist / Chicago, IL
+          </span>
+        </a>
+      </div>
+      <nav class="" itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation">
+        <ul class="flex lg:justify-between">
+          <li class="flex-grow-0 inline pr-1 md:pr-2 xl:px-4">
+            <p class="text-center">
+              <a href="/about">
+                <i class="fas text-green-800 pl-1 md:px-1 text-sm md:text-xl lg:text-2xl fa-mug-hot"></i>
+                <span class="font-thin text-sm md:text-lg lg:text-2xl">About</span>
+              </a>
+            </p>
+          </li>
+          <li class="flex-grow-0 inline pr-1 md:pr-2 xl:px-4">
+            <p class="text-center">
+              <a href="/resume">
+                <i class="fas text-green-800 pl-1 md:px-1 text-sm md:text-xl lg:text-2xl fa-file"></i>
+                <span class="font-thin text-sm md:text-lg lg:text-2xl">Resume</span>
+              </a>
+            </p>
+          </li>
+          <li class="flex-grow-0 inline pr-1 md:pr-2 xl:px-4">
+            <p class="text-center">
+              <a href="/reading">
+                <i class="fas text-green-800 pl-1 md:px-1 text-sm md:text-xl lg:text-2xl fa-book-open"></i>
+                <span class="font-thin text-sm md:text-lg lg:text-2xl">Reading</span>
+              </a>
+            </p>
+          </li>
+          <li class="flex-grow-0 inline pr-1 md:pr-2 xl:px-4">
+            <p class="text-center">
+              <a href="/categories.html">
+                <i class="fas text-green-800 pl-1 md:px-1 text-sm md:text-xl lg:text-2xl fa-folder-open"></i>
+                <span class="font-thin text-sm md:text-lg lg:text-2xl">Categories</span>
+              </a>
+            </p>
+          </li>
+          <li class="flex-grow-0 inline pr-1 md:pr-2 xl:px-4">
+            <p class="text-center">
+              <a href="/posts.html">
+                <i class="fas text-green-800 pl-1 md:px-1 text-sm md:text-xl lg:text-2xl fa-archive"></i>
+                <span class="font-thin text-sm md:text-lg lg:text-2xl">Archives</span>
+              </a>
+            </p>
+          </li>
+
+        </ul>
+
+      </nav>
+    </div>
+
+  </div>
+</header>
+  <div class="container mx-auto max-w-8xl px-4 flex flex-row flex-grow">
+    <div class="w-full md:w-3/4">
+      
+<main class="main" role="main"><div class="content container mx-auto max-w-6xl">
+  <article id="-" class="" itemscope itemtype="http://schema.org/BlogPosting">
+    <div class="pt-4">
+      <span class="font-semibold text-3xl"><h1 itemprop="name">
+  <a class="" href="/papers/data_cascades_ai_sambasivan.html">[Paper] &#39;Everyone wants to do the model work, not the data work&#39;: Data Cascades in High-Stakes AI</a>
+</h1>
+      </span>
+      <div class="pb-4"><i class="fas fa-calendar-check text-gray-500 pr-1"></i>
+<time datetime="2021-04-07 00:00:00 &#43;0000 UTC" class="text-sm text-gray-600"
+  itemprop="datePublished">2021-04-07</time>
+<span class="text-sm text-gray-600" itemprop="wordCount">
+	<i class="fas fa-pencil-alt text-gray-500 pl-4 pr-2"></i>1329 words
+</span><i class="fas fa-folder-open text-gray-500 pl-4 pr-1"></i>
+<a class="text-sm text-gray-600" href=" /categories/papers.html"> papers, </a>
+<span class="article-tag">
+  <i class="fas fa-tag text-gray-500 pl-4 pr-1"></i>
+  <a class="text-sm text-gray-600" href="/tags/chi2021.html"> chi2021, </a>
+</span><span class="article-category text-sm text-gray-600 pl-4">
+  <i class="fa fa-users "></i>
+  Nithya Sambasivan, Shivani Kapania, Hannah Highfill, Diana Akrong, Praveen Kumar Paritosh, Lora Mois Aroyo
+</span>
+      </div>
+    </div>
+    <div class="rich-text" itemprop="articleBody">
+      <p>Data work is foundational to any AI application, but often undervalued. In practice, this results in &ldquo;data cascades,&rdquo; which occur when data issues compound into downstream technical debt. This work studies how data cascades happen, what they cause, and how to avoid them.</p>
+<p><strong>Link</strong>: <a href="https://research.google/pubs/pub49953/">Google Research website</a></p>
+<p><strong>Authors</strong>: Nithya Sambasivan, Shivani Kapania, Hannah Highfill, Diana Akrong, Praveen Kumar, Paritosh Lora Mois Aroyo</p>
+<p>I don&rsquo;t actually remember where I found this (Twitter?), but it looked excellent. This work will appear at CHI 2021.</p>
+<h2 id="background-and-motivation"><a class="not-rich" href="#background-and-motivation"><i class="fas fa-link"></i></a> Background and motivation</h2>
+<p>Data work is foundational to any AI application. Data has to be collected, curated, understood, and prepared in advance of any kind of model training or advanced analytics. Data also isn&rsquo;t neutral or raw:</p>
+<blockquote>
+<p>There is substantial work in HCI and STS to establish that data is never &lsquo;raw&rsquo;, but rather is shaped through the practices of collecting, curating, and sensemaking, and thus is inherently sociopolitical in nature.</p>
+</blockquote>
+<p>But data work is consistently undervalued. Human work to curate or label data is often seen as menial or repetitive (look no further than Amazon&rsquo;s Mechanical Turk for an example!), but is in fact &ldquo;complex, skillful, and effortful.&rdquo;</p>
+<p>This paper studies how issues with data work can turn into <strong>data cascades</strong>. It focuses on high-stakes machine learning systems that are deployed in production. The authors interviewed 53 AI practitioners in the US, India, and East and West Africa, and 92% of them had experienced at least one data cascade.</p>
+<h2 id="defining-data-cascades"><a class="not-rich" href="#defining-data-cascades"><i class="fas fa-link"></i></a> Defining data cascades</h2>
+<blockquote>
+<p>We define <em>Data Cascades</em> &hellip; as compounding events causing negative, downstream effects from data issues, that resulted in technical debt over time.</p>
+</blockquote>
+<p>Some other characteristics of data cascades:</p>
+<ul>
+<li>they are opaque; there are no clear indicators to detect or measure their effects.</li>
+<li>they are triggered when &ldquo;conventional AI practices are applied in high-stakes domains&rdquo;.</li>
+<li>they have negative impacts (community harm, relationship burnout, costly iteration, discarding datasets)</li>
+<li>nearly half of projects experienced two or more cascades</li>
+<li><strong>they are often avoidable!</strong></li>
+</ul>
+<p>That makes sense.
+The authors found from the interviews that this is often due to misaligned incentives:</p>
+<blockquote>
+<p>An overall lack of recognition for the invisible, arduous, and taken-for-granted data work in AI led to poor data practices &hellip; <strong>Care of, and improvements to data are not easily &lsquo;tracked&rsquo; or rewarded,</strong> as opposed to models. Models were reported to be the means for prestige and upward mobility in the field.</p>
+</blockquote>
+<p>Other factors included deadlines and other constraints getting in the way of improving data quality (&ldquo;we&rsquo;ll do it later&rdquo;), difficulty getting buy-in, clients expecting &ldquo;magic&rdquo; from AI without care for the data, and lack of education on how to clean or collect data.</p>
+<h2 id="real-world-causes-of-data-cascades"><a class="not-rich" href="#real-world-causes-of-data-cascades"><i class="fas fa-link"></i></a> Real-world causes of data cascades</h2>
+<p>This table does an excellent job of summarizing causes, impacts, and signs of data cascades:</p>
+<figure>
+    <img src="data_cascades_ai_sambasivan_img1.png"/> 
+</figure>
+
+<p>Particularly interesting to me is the class of data cascades caused by &ldquo;interacting with physical world brittleness.&rdquo; In high-stakes domains especially (perhaps because &ldquo;high-stakes&rdquo; feels similar to &ldquo;real-world-impacting&rdquo;), changes in the real world often caused deployments to break.</p>
+<p>Some examples of events that caused data cascades include:</p>
+<ul>
+<li>rain and wind moving sensors placed in the wild</li>
+<li>a drop of water on a camera causing an image to become blurry</li>
+<li>changes in banking regulations affecting data capture</li>
+<li>lack of domain expertise to deal with subjectivity</li>
+<li>ground truth being inaccurate (in e.g., insurance claims, where historical data itself has bad decisions)</li>
+</ul>
+<p>It&rsquo;s worth a reminder that data collection is a really hard problem. &ldquo;When a clinician spends a lot of time punching in data, not paying attention to the patient, that has a human cost,&rdquo; one participant said. That&rsquo;s absolutely true, and real discussion of the costs and tradeoffs of different methods of data collection is needed. Too often is data taken for granted.</p>
+<h2 id="towards-data-excellence"><a class="not-rich" href="#towards-data-excellence"><i class="fas fa-link"></i></a> Towards data excellence</h2>
+<p>What are we to do? The paper offers many suggestions. From the discussion:</p>
+<blockquote>
+<p>Our results indicate the sobering prevalence of messy, protracted, and opaque data cascades even in domains where practitioners were attuned to the importance of data quality. Individuals can attempt to avoid data cascades in their model development, but a broader, systemic approach is needed for structural, sustainable shifts in how data is viewed in AI praxis. We need to move from current approaches that are reactive and view data as &lsquo;grunt work&rsquo;. <strong>We need to move towards a proactive focus on <em>data excellence</em></strong>—focusing on the practices, politics, and values of humans of the data pipeline to improve the quality and sanctity of data &hellip;</p>
+</blockquote>
+<p>The authors go into more detail about this idea of data excellence, which broadly means improving the quality and &ldquo;sanctity&rdquo; of data, through proper infrastructure, interventions, incentives, and more.</p>
+<p>They bring up Rachel Thomas&rsquo; <a href="/papers/reliance_metrics_problem_thomas.html">Reliance on metrics is a fundamental challenge for machine learning</a> as an example of how we need to move from &ldquo;goodness-of-fit to goodness-of-data,&rdquo; which feels a little cute, but is certainly true. How representative is a given dataset of the real world thing it&rsquo;s trying to capture? It&rsquo;s hard to know, and we definitely don&rsquo;t have any metrics to assess this.</p>
+<p>There are few incentives for this excellence, and the authors discuss how this has to change. Data is viewed as <em>operations</em> work; publications are mostly on models, where the datasets are clean, curated, and static; &ldquo;dataset papers&rdquo; are relegated to separate tracks in conferences.</p>
+<p><strong>HCI has a role</strong> to play here, too:</p>
+<blockquote>
+<p>Learning from HCI scholarship on ways to recognise the human labour in preparing, curating, and nurturing data that powers AI models, among crowd workers, office clerks, and health workers can be helpful.</p>
+</blockquote>
+<p>I&rsquo;m reminded of Niloufar Salehi&rsquo;s <a href="/papers/we_are_dynamo_salehi.html">We Are Dynamo</a> as an example of how to give more power to crowd workers, who often do tons of labor for researchers.</p>
+<p>More immediately, <strong>creating tighter feedback loops</strong> can help avoiding data cascades. The teams with the fewest cascades &ldquo;ran models frequently, worked closely with application-domain experts and field partners, maintained clear data documentation, and regularly monitored incoming data.&rdquo; Remember, these are <em>avoidable</em>.</p>
+<p>With that said, current work in data analysis focuses a lot on &ldquo;distributions and wrangling,&rdquo; and less on upstream (defining requirements) and downstream (monitoring live data &amp; measuring impacts) interventions. Better tools for observing, curating, and labeling data are needed, both during collection and in production.</p>
+<h2 id="my-thoughts"><a class="not-rich" href="#my-thoughts"><i class="fas fa-link"></i></a> My thoughts</h2>
+<p>Reading HCI papers about real-world machine learning is always interesting to me. That&rsquo;s what I do, and it&rsquo;s a fun exercise to see where my experiences do and do not align.</p>
+<p>This paper ended up being an unexpected formalization of something I experience often. At my last job, data issues were constant, and it was mostly due to underinvestment in data infrastructure and early-stage data work. But I had not considered the idea of a &ldquo;cascade,&rdquo; even though that&rsquo;s clearly what happened—data issues always got worse over time.</p>
+<p>I also think that data cascades are a higher-level concept than what I had in mind starting the paper, which was closer to the more mundane &ldquo;this column has unexpected nulls!&rdquo; that can carry through a project. That, though, is itself caused by the kinds of data cascades discussed here.</p>
+<hr>
+<p>It&rsquo;s no surprise that model work is seen as more desirable and more important than data work. The job market reflects this, with tons of people wanting to do data science or machine learning, but fewer the more foundational (and more in demand) data engineering. Conference publications reflect this too, as the authors note.</p>
+<p>This helps affirm my decision to <a href="/posts/starting_tempus.html">switch out of a data science role</a>. As the paper mentions, I think many of the core problems data scientists face are best handled before they ever reach data science. The reality of data science work was mostly dealing with data cascades, anyway—why not work in a role where I can actually try to solve them?</p>
+<p>I think this was an excellent paper. It captures a lot of parts of (and problems with) the everyday data science experience. The diagnosis of how data cascades happen was, in my view, spot on. The solutions, of course, are harder.</p>
+
+      <p><i class="fas fa-square font-green-800"></i></p>
+    </div>
+    <div class="font-semibold text-green-800 pt-4">
+      <a href="/"><i class="fas fa-arrow-left"></i> Return home</a>
+    </div>
+  </article>
+</div><nav class="bar bar-footer clearfix" data-stick-bottom>
+    <div class="bar-inner">
+        <ul class="pager pull-left">
+            <li class="prev">
+                <a href="/papers/suicidal_on_sunday_pendse.html" title="[Paper] &#39;Can I Not Be Suicidal on a Sunday?&#39; Understanding Technology-Mediated Pathways to Mental Health Support"><i
+                        class="icon icon-angle-left"
+                        aria-hidden="true"></i><span>&nbsp;&nbsp;</span></a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+</main>
+    </div>
+    <div class="hidden w-0 md:block md:w-1/4 md:pt-8 md:pl-12"><aside class="" itemscope itemtype="http://schema.org/WPSideBar">
+  <div class="pb-8">
+    <h3 class="font-semibold text-xl">Categories</h3>
+    <ul class="">
+        <li class="">+ <a href="/categories/books.html" class="font-bold text-green-900">books
+            </a><span class="">25</span>
+        </li>
+        <li class="">+ <a href="/categories/general.html" class="font-bold text-green-900">general
+            </a><span class="">45</span>
+        </li>
+        <li class="">+ <a href="/categories/papers.html" class="font-bold text-green-900">papers
+            </a><span class="">96</span>
+        </li>
+        <li class="">+ <a href="/categories/projects.html" class="font-bold text-green-900">projects
+            </a><span class="">7</span>
+        </li>
+        <li class="">+ <a href="/categories/self.html" class="font-bold text-green-900">self
+            </a><span class="">5</span>
+        </li>
+        <li class="">+ <a href="/categories/spark.html" class="font-bold text-green-900">spark
+            </a><span class="">34</span>
+        </li>
+        <li class="">+ <a href="/categories/what-i-read.html" class="font-bold text-green-900">what-i-read
+            </a><span class="">53</span>
+        </li>
+    </ul>
+</div>
+<div class="pb-4">
+    <h3 class="font-semibold text-xl">Recent Posts</h3>
+    <ul class="recent-post-list list-unstyled no-thumbnail">
+        <li class="pb-4">
+            <p>
+                <a href="/papers/data_cascades_ai_sambasivan.html" class="font-bold text-green-900">[Paper] &#39;Everyone wants to do the model work, not the data work&#39;: Data Cascades in High-Stakes AI</a>
+                <time datetime="2021-04-07 00:00:00 &#43;0000 UTC" itemprop="datePublished" class="text-gray-600 text-sm">2021-04-07
+                </time>
+            </p>
+
+        </li>
+        <li class="pb-4">
+            <p>
+                <a href="/papers/suicidal_on_sunday_pendse.html" class="font-bold text-green-900">[Paper] &#39;Can I Not Be Suicidal on a Sunday?&#39; Understanding Technology-Mediated Pathways to Mental Health Support</a>
+                <time datetime="2021-04-04 00:00:00 &#43;0000 UTC" itemprop="datePublished" class="text-gray-600 text-sm">2021-04-04
+                </time>
+            </p>
+
+        </li>
+        <li class="pb-4">
+            <p>
+                <a href="/posts/starting_tempus.html" class="font-bold text-green-900">Personal news: starting a new job!</a>
+                <time datetime="2021-03-31 00:00:00 &#43;0000 UTC" itemprop="datePublished" class="text-gray-600 text-sm">2021-03-31
+                </time>
+            </p>
+
+        </li>
+        <li class="pb-4">
+            <p>
+                <a href="/papers/primer_in_bertology_rogers.html" class="font-bold text-green-900">[Paper] A Primer in BERTology: What We Know About How BERT Works</a>
+                <time datetime="2021-03-25 00:00:00 &#43;0000 UTC" itemprop="datePublished" class="text-gray-600 text-sm">2021-03-25
+                </time>
+            </p>
+
+        </li>
+        <li class="pb-4">
+            <p>
+                <a href="/papers/formalizing_trust_ai_goldberg.html" class="font-bold text-green-900">[Paper] Formalizing Trust in Artificial Intelligence: Prerequisites, Causes and Goals of Human Trust in AI</a>
+                <time datetime="2021-03-11 00:00:00 &#43;0000 UTC" itemprop="datePublished" class="text-gray-600 text-sm">2021-03-11
+                </time>
+            </p>
+
+        </li>
+    </ul>
+</div><div class="pb-12">
+    <h3 class="font-semibold text-xl">Tags</h3>
+    <ul class="">
+        <li class="">+ <a href="/tags/#republic.html" class="font-bold text-green-900">#republic
+            </a><span class="">5</span>
+        </li>
+        <li class="">+ <a href="/tags/chi.html" class="font-bold text-green-900">chi
+            </a><span class="">1</span>
+        </li>
+        <li class="">+ <a href="/tags/chi2019.html" class="font-bold text-green-900">chi2019
+            </a><span class="">3</span>
+        </li>
+        <li class="">+ <a href="/tags/chi2020.html" class="font-bold text-green-900">chi2020
+            </a><span class="">20</span>
+        </li>
+        <li class="">+ <a href="/tags/chi2021.html" class="font-bold text-green-900">chi2021
+            </a><span class="">3</span>
+        </li>
+        <li class="">+ <a href="/tags/cscw2020.html" class="font-bold text-green-900">cscw2020
+            </a><span class="">8</span>
+        </li>
+        <li class="">+ <a href="/tags/facct2021.html" class="font-bold text-green-900">facct2021
+            </a><span class="">3</span>
+        </li>
+        <li class="">+ <a href="/tags/fat2020.html" class="font-bold text-green-900">fat2020
+            </a><span class="">2</span>
+        </li>
+        <li class="">+ <a href="/tags/iclr.html" class="font-bold text-green-900">iclr
+            </a><span class="">2</span>
+        </li>
+        <li class="">+ <a href="/tags/icwsm2020.html" class="font-bold text-green-900">icwsm2020
+            </a><span class="">5</span>
+        </li>
+        <li class="">+ <a href="/tags/indistractable.html" class="font-bold text-green-900">indistractable
+            </a><span class="">2</span>
+        </li>
+        <li class="">+ <a href="/tags/neurips.html" class="font-bold text-green-900">neurips
+            </a><span class="">2</span>
+        </li>
+        <li class="">+ <a href="/tags/password-tool.html" class="font-bold text-green-900">password-tool
+            </a><span class="">6</span>
+        </li>
+        <li class="">+ <a href="/tags/reading-club.html" class="font-bold text-green-900">reading-club
+            </a><span class="">28</span>
+        </li>
+        <li class="">+ <a href="/tags/recsys.html" class="font-bold text-green-900">recsys
+            </a><span class="">1</span>
+        </li>
+        <li class="">+ <a href="/tags/site.html" class="font-bold text-green-900">site
+            </a><span class="">6</span>
+        </li>
+        <li class="">+ <a href="/tags/www.html" class="font-bold text-green-900">www
+            </a><span class="">3</span>
+        </li>
+    </ul>
+</div>
+</aside><footer class="" itemscope itemtype="http://schema.org/WPFooter">
+  <div class="py-4 text-sm">
+    &copy; 2019 - 2020 Tushar Chandra
+    <p style="margin-bottom: 4px">All opinions are my own.</p>
+    <div class="publishby">Powered by Hugo with a custom theme.</div>
+  </div>
+  <ul class="">
+    <li class="inline text-xl pr-4">
+      <a href="https://github.com/tuchandra" target="_blank" title="github">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+    <li class="inline text-xl pr-4">
+      <a href="https://www.linkedin.com/in/tushar-chandra-76a623b6/" target="_blank" title="linkedin">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+    <li class="inline text-xl pr-4">
+      <a href="mailto:me@tusharc.dev" target="_blank" title="envelope">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+    <li class="inline text-xl pr-4">
+      <a href="/index.xml" target="_blank" title="rss">
+        <i class="fas fa-rss"></i>
+      </a>
+    </li>
+
+  </ul>
+</footer>
+    </div>
+  </div>
+  <div class="mx-auto mt-auto w-full px-4 bg-green-500 mt-4 md:py-8">
+    <div class="md:invisible md:hidden max-w-8xl"><footer class="" itemscope itemtype="http://schema.org/WPFooter">
+  <div class="py-4 text-sm">
+    &copy; 2019 - 2020 Tushar Chandra
+    <p style="margin-bottom: 4px">All opinions are my own.</p>
+    <div class="publishby">Powered by Hugo with a custom theme.</div>
+  </div>
+  <ul class="">
+    <li class="inline text-xl pr-4">
+      <a href="https://github.com/tuchandra" target="_blank" title="github">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+    <li class="inline text-xl pr-4">
+      <a href="https://www.linkedin.com/in/tushar-chandra-76a623b6/" target="_blank" title="linkedin">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+    <li class="inline text-xl pr-4">
+      <a href="mailto:me@tusharc.dev" target="_blank" title="envelope">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+    <li class="inline text-xl pr-4">
+      <a href="/index.xml" target="_blank" title="rss">
+        <i class="fas fa-rss"></i>
+      </a>
+    </li>
+
+  </ul>
+</footer>
+    </div>
+  </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_SVG"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+            showMathMenu: false, //disables context menu
+            tex2jax: {
+            inlineMath: [ ['$','$'], ['\\(','\\)'] ]
+           }
+    });
+</script>
+
+
+
+
+
+
+
+<script data-goatcounter="https://tusharc.goatcounter.com/count" async src="//gc.zgo.at/count.js">
+</script>
+</body>
+
+</html>

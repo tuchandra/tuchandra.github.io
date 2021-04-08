@@ -6,10 +6,19 @@
     <description>Recent content in chi on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 04 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Apr 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/tags/chi/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Paper] &#39;Everyone wants to do the model work, not the data work&#39;: Data Cascades in High-Stakes AI</title>
+      <link>/papers/data_cascades_ai_sambasivan.html</link>
+      <pubDate>Wed, 07 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/data_cascades_ai_sambasivan.html</guid>
+      <description>&lt;p&gt;Data work is foundational to any AI application, but often undervalued. In practice, this results in &amp;ldquo;data cascades,&amp;rdquo; which occur when data issues compound into downstream technical debt. This work studies how data cascades happen, what they cause, and how to avoid them.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>[Paper] &#39;Can I Not Be Suicidal on a Sunday?&#39; Understanding Technology-Mediated Pathways to Mental Health Support</title>
@@ -181,15 +190,6 @@
       
       <guid>/posts/reading_club_in_review_2020.html</guid>
       <description>&lt;p&gt;In August, I started a reading club with my friend &lt;a href=&#34;https://judahgnewman.com&#34;&gt;Judah&lt;/a&gt;. 17 papers later, this post reflects on some of the things I&amp;rsquo;ve learned.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Paper] Development of a Machine Learning Model Using Multiple, Heterogeneous Data Sources to Estimate Weekly US Suicide Fatalities</title>
-      <link>/papers/weekly_suicide_prediction_choudhury.html</link>
-      <pubDate>Thu, 24 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/papers/weekly_suicide_prediction_choudhury.html</guid>
-      <description>&lt;p&gt;How can we estimate suicides in real time when official data sources can have data lags of over a year? This paper, by researchers from Georgia Tech, the CDC, and the National Suicide Prevention Hotline, uses machine learning to model and forecast weekly suicide fatalities in the United States.&lt;/p&gt;</description>
     </item>
     
   </channel>
