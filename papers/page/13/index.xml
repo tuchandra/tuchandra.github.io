@@ -6,10 +6,19 @@
     <description>Recent content on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 07 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 Apr 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/papers/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Paper] A Taxonomy of Ethical Tensions in Inferring Mental Health States from Social Media (part 2/2)</title>
+      <link>/papers/ethical_tensions_social_media_chancellor_2.html</link>
+      <pubDate>Mon, 25 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/ethical_tensions_social_media_chancellor_2.html</guid>
+      <description>&lt;p&gt;Part 2/2 of the FAT* 2019 paper by Dr. Chancellor et al., studying all the various ethical tensions with inferring mental health states from social media. This post focuses on the calls to action and my reflections. View part 1 of the summary &lt;a href=&#34;/papers/ethical_tensions_social_media_chancellor_1.html&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>[Paper] A Taxonomy of Ethical Tensions in Inferring Mental Health States from Social Media (part 1/2)</title>
@@ -181,15 +190,6 @@
       
       <guid>/spark/query_plans.html</guid>
       <description>&lt;p&gt;Speaker: Xiao Li (Databricks).&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Beyond Reason Codes: A Blueprint for Human-Centered, Low-Risk ML</title>
-      <link>/spark/interpretable_ai.html</link>
-      <pubDate>Wed, 24 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/spark/interpretable_ai.html</guid>
-      <description>&lt;p&gt;Speaker: Patrick Hall (H2O.ai).&lt;/p&gt;</description>
     </item>
     
   </channel>

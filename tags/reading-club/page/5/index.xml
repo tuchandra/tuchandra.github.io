@@ -6,10 +6,19 @@
     <description>Recent content in reading club on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 25 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 Apr 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/tags/reading-club/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>My review of &#39;You Look Like a Thing and I Love You&#39;</title>
+      <link>/books/you_look_like_a_thing.html</link>
+      <pubDate>Fri, 21 Aug 2020 20:00:00 +0000</pubDate>
+      
+      <guid>/books/you_look_like_a_thing.html</guid>
+      <description>&lt;p&gt;I picked up &lt;a href=&#34;https://twitter.com/JanelleCShane&#34;&gt;Janelle Shane&amp;rsquo;s&lt;/a&gt; book, &lt;em&gt;You Look Like a Thing and I Love You&lt;/em&gt;, a couple of weeks ago. Combining clear explanations of AI with hilarious examples of how weird it can be, this was one of the best books I&amp;rsquo;ve read in a while.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>[Paper] Content moderation, AI, and the question of scale</title>
@@ -180,15 +189,6 @@
       
       <guid>/papers/aligning_recommender_human_values_stray.html</guid>
       <description>&lt;p&gt;How can recommender systems better align to human values, like fairness, diversity, or equity? This paper, from the ICML Participatory Approaches to ML workshop, discusses approaches to answering this question.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>What I read this week (July 12 - July 18)</title>
-      <link>/what_i_read/20200718.html</link>
-      <pubDate>Sat, 18 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/what_i_read/20200718.html</guid>
-      <description>&lt;p&gt;This week, all the blog posts and articles I read came from &lt;a href=&#34;https://pointer.io&#34;&gt;Pointer&lt;/a&gt;. I spent most of my free time finishing up the book &lt;em&gt;Twenty Six Words&lt;/em&gt; (highly recommend!) and then starting &lt;em&gt;Weapons of Math Destruction&lt;/em&gt; by Cathy O&amp;rsquo;Neil.&lt;/p&gt;</description>
     </item>
     
   </channel>

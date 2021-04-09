@@ -6,10 +6,19 @@
     <description>Recent content in Categories on Tushar Chandra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 07 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 Apr 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Paper] Metaphors in Moderation</title>
+      <link>/papers/metaphors_in_moderation_seering.html</link>
+      <pubDate>Fri, 09 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/metaphors_in_moderation_seering.html</guid>
+      <description>&lt;p&gt;How do moderators of online communities see their roles? As a firefighter, as police, as a gardener, as a mediator? This paper explores the metaphors that volunteer moderators use to make sense of their roles.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>[Paper] &#39;Everyone wants to do the model work, not the data work&#39;: Data Cascades in High-Stakes AI</title>
@@ -181,15 +190,6 @@
       
       <guid>/what_i_read/20210102.html</guid>
       <description>&lt;p&gt;Happy new year! This week&amp;rsquo;s edition is short, featuring a post on Apple&amp;rsquo;s new M1 chips and why they&amp;rsquo;re so fast, and another on boundaries within engineering orgs, especially &amp;ldquo;social good&amp;rdquo; ones.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Half a year of reading club</title>
-      <link>/posts/reading_club_in_review_2020.html</link>
-      <pubDate>Mon, 28 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/reading_club_in_review_2020.html</guid>
-      <description>&lt;p&gt;In August, I started a reading club with my friend &lt;a href=&#34;https://judahgnewman.com&#34;&gt;Judah&lt;/a&gt;. 17 papers later, this post reflects on some of the things I&amp;rsquo;ve learned.&lt;/p&gt;</description>
     </item>
     
   </channel>
